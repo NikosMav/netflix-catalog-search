@@ -13,3 +13,6 @@ __pycache__/
 htmlcov/
 # Executed notebook copies from local runs
 *-executed.ipynb
+# Local embedding / model caches
+.cache/
+*.npy

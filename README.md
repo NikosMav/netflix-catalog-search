@@ -1,27 +1,35 @@
-# Netflix catalog EDA + sparse text retrieval
+# Netflix catalog: EDA → sparse retrieval → dense / hybrid retrieval
 
-Early (2023) work by **Nikolaos (Nikos) Mavrapidis** ([NikosMav](https://github.com/NikosMav)): exploratory analysis of a public Netflix titles dump, then a small **Boolean / bag-of-words vs TF-IDF** experiment on `title + description`.
+**Author:** Nikolaos (Nikos) Mavrapidis ([NikosMav](https://github.com/NikosMav))
 
-This is **EDA + classical sparse text retrieval**. It is **not** a production recommender, **not** collaborative filtering, **not** embeddings / vector search / RAG, and **not** a TESSI project. It sits honestly on a path toward retrieval engineering: first understand a catalog and score short text with sparse features; dense retrieval comes later.
+Two showcase tracks in one repo:
 
-Originally written as a university data-mining assignment; reframed here so a hiring manager can clone it, run it, and read the claims at face value.
+1. **EDA + Boolean / TF-IDF** — original 2023 case study, cleaned and runnable ([`netflix_data_analysis.ipynb`](netflix_data_analysis.ipynb))
+2. **Catalog retrieval product** — Boolean, TF-IDF, dense MiniLM, and hybrid RRF with honest offline metrics ([`RETRIEVAL.md`](RETRIEVAL.md), `python -m retrieval`)
 
-## What’s in the notebook
+This is **catalog text search** (title + description). It is **not** a production recommender, **not** collaborative filtering, **not** TESSI, and **not** RAG-over-the-web.
 
-| Section | What it does |
-|--------|----------------|
-| **Cleaning** | Fill missing director/cast/country/date/rating with documented defaults |
-| **EDA** | Movies vs TV, yearly mix, countries, genres, cast, ratings/age bands, monthly adds, directors, seasons, IMDb-joined top-rated movies |
-| **Sparse retrieval** | BoW + Hamming / Jaccard-style vs TF-IDF + cosine; title→neighbors and free-text→neighbors demos |
+## 5-minute story
 
-## Data
+| Step | What | Where |
+|------|------|-------|
+| Explore the catalog | Cleaning + charts | `netflix_data_analysis.ipynb` |
+| Sparse retrieval | Boolean vs TF-IDF demos | same notebook |
+| Dense / hybrid product | Embed → index → query → eval | `python -m retrieval`, `RETRIEVAL.md` |
 
-Shipped under [`data/`](data/):
+**Headline result** (28 hand-labeled queries — regenerate with `python -m retrieval eval`):
 
-- `netflix_titles.csv` — Netflix Movies and TV Shows catalog ([Kaggle / Shivam Bansal](https://www.kaggle.com/shivamb/netflix-shows), via [TidyTuesday](https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-04-20))
-- `imdb_ratings_netflix_join.csv` — slim title∩IMDb ratings join from the [IMDb non-commercial datasets](https://developer.imdb.com/non-commercial-datasets/) (see [`data/README.md`](data/README.md))
+| method | recall@5 | recall@10 | ndcg@5 | ndcg@10 | mrr |
+| --- | --- | --- | --- | --- | --- |
+| boolean | 0.3159 | 0.4012 | 0.3185 | 0.3527 | 0.4440 |
+| tf-idf | 0.4502 | 0.5446 | 0.4555 | 0.4912 | 0.5013 |
+| dense(title+desc) | **0.5849** | 0.6209 | **0.5710** | 0.5656 | **0.6304** |
+| dense(title-only) | 0.4241 | 0.4499 | 0.4286 | 0.4269 | 0.5081 |
+| hybrid(tfidf+dense) | 0.5059 | **0.6922** | 0.4941 | 0.5626 | 0.5853 |
 
-## How to run
+Dense wins early ranking (R@5 / nDCG@5 / MRR). Hybrid wins Recall@10. Title-only embeddings underperform title+description. Full interpretation and failure cases: [`RETRIEVAL.md`](RETRIEVAL.md).
+
+## Clone and run
 
 ```bash
 git clone https://github.com/NikosMav/DataAnalysis-Netflix.git
@@ -31,32 +39,41 @@ python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
+# --- Track 1: EDA + sparse TF-IDF notebook ---
 jupyter notebook netflix_data_analysis.ipynb
-# or: jupyter nbconvert --to notebook --execute netflix_data_analysis.ipynb
+
+# --- Track 2: retrieval product (no paid API) ---
+python -m retrieval query "war between vietnam and usa" --method dense --top-k 10
+python -m retrieval query "feel-good cooking competition show" --method hybrid
+python -m retrieval eval --failures   # regenerates results/*.json
+
+# Optional walkthrough notebook
+jupyter notebook netflix_dense_retrieval.ipynb
 ```
 
-Or open the notebook in Colab via the badge at the top (paths assume the `data/` folder from this repo).
+**Runtime:** sparse notebook needs a few GB RAM for pairwise matrices. Dense first run downloads MiniLM (~80MB) and embeds ~7.8k rows (a few minutes on CPU); then caches under `.cache/`.
 
-**Runtime note:** building dense BoW/TF-IDF frames and full pairwise similarity matrices needs on the order of a few GB of RAM and a couple of minutes on a laptop. The free-text Boolean query path is slower than TF-IDF (row-wise scores); a few demo queries are fine.
+## What’s in the box
 
-## What you learn
+| Path | Purpose |
+|------|---------|
+| [`netflix_data_analysis.ipynb`](netflix_data_analysis.ipynb) | EDA + Boolean/TF-IDF case study (kept intact) |
+| [`retrieval/`](retrieval/) | Package + CLI (`query`, `eval`, `index`) |
+| [`data/labeled_queries.json`](data/labeled_queries.json) | 28 author-labeled queries with `relevant_show_ids` |
+| [`results/eval_metrics.json`](results/eval_metrics.json) | Last regenerated metric table |
+| [`RETRIEVAL.md`](RETRIEVAL.md) | Full case study: method, results, ablations, limits |
+| [`netflix_dense_retrieval.ipynb`](netflix_dense_retrieval.ipynb) | Thin package walkthrough |
 
-- How a real catalog looks after light cleaning (and how fill-ins bias charts)
-- How **Boolean/BoW** overlap differs from **TF-IDF + cosine** on short marketing descriptions
-- Why short, sparse text struggles under coarse Boolean features (qualitative — see notebook examples)
-- How classical sparse retrieval relates to later embedding/RAG work: same *retrieve by similarity* idea, different representation
+## Data
+
+Under [`data/`](data/): Netflix titles dump, slim IMDb join for the EDA chart, and retrieval labels. Provenance in [`data/README.md`](data/README.md).
 
 ## Limitations (read these)
 
-- **No ranking metrics.** Neighbor lists are judged by eye on a few queries. No Precision@K, nDCG, or user study.
-- **Text only.** Genre, cast, and popularity are unused in the ranker.
-- **Boolean precompute ≠ Jaccard query.** Precomputed neighbors use Hamming similarity on the count matrix; the free-text helper uses `jaccard_score`. Both are “Boolean-ish,” not identical.
-- **IMDb join is fuzzy.** Matching on title strings produces collisions and misses; the top-rated chart is exploratory.
-- **Not production.** Re-fitting a vectorizer on query+corpus is a notebook convenience, not how a real inverted index works.
-
-### Sparse retrieval vs embeddings / RAG
-
-TF-IDF here is **sparse text retrieval**: weighted term vectors + cosine. Dense **embeddings** + vector search (and LLM/RAG pipelines) reuse the retrieve-by-similarity pattern with continuous representations and usually a separate generation step. This repo stops at the sparse step on purpose.
+- **No invented metrics.** Table above comes from `python -m retrieval eval` on the shipped labels.
+- **28 queries, author-labeled.** Enough for an honest demo, not a public IR leaderboard.
+- **Text only.** Genre/cast/popularity unused in the rankers.
+- **Catalog search ≠ recommender ≠ TESSI ≠ web RAG.**
 
 ## License
 

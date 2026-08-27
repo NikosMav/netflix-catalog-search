@@ -1,0 +1,45 @@
+{
+  "n_queries": 28,
+  "metrics": [
+    {
+      "method": "boolean",
+      "recall@5": 0.3159,
+      "recall@10": 0.4012,
+      "ndcg@5": 0.3185,
+      "ndcg@10": 0.3527,
+      "mrr": 0.444
+    },
+    {
+      "method": "tf-idf",
+      "recall@5": 0.4502,
+      "recall@10": 0.5446,
+      "ndcg@5": 0.4555,
+      "ndcg@10": 0.4912,
+      "mrr": 0.5013
+    },
+    {
+      "method": "dense(title+desc)",
+      "recall@5": 0.5849,
+      "recall@10": 0.6209,
+      "ndcg@5": 0.571,
+      "ndcg@10": 0.5656,
+      "mrr": 0.6304
+    },
+    {
+      "method": "dense(title-only)",
+      "recall@5": 0.4241,
+      "recall@10": 0.4499,
+      "ndcg@5": 0.4286,
+      "ndcg@10": 0.4269,
+      "mrr": 0.5081
+    },
+    {
+      "method": "hybrid(tfidf+dense)",
+      "recall@5": 0.5059,
+      "recall@10": 0.6922,
+      "ndcg@5": 0.4941,
+      "ndcg@10": 0.5626,
+      "mrr": 0.5853
+    }
+  ]
+}

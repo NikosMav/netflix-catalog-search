@@ -1,0 +1,892 @@
+[
+  {
+    "id": "vietnam_war",
+    "query": "war between vietnam and usa",
+    "relevant_show_ids": [
+      "s1570",
+      "s2590",
+      "s4880",
+      "s6981"
+    ],
+    "runs": {
+      "boolean": [
+        {
+          "show_id": "s4880",
+          "title": "Platoon",
+          "score": 0.125
+        },
+        {
+          "show_id": "s2590",
+          "title": "Hamburger Hill",
+          "score": 0.125
+        },
+        {
+          "show_id": "s1570",
+          "title": "Da 5 Bloods",
+          "score": 0.1111111111111111
+        },
+        {
+          "show_id": "s3463",
+          "title": "Kulipari: An Army of Frogs",
+          "score": 0.1111111111111111
+        },
+        {
+          "show_id": "s3525",
+          "title": "Lakshya",
+          "score": 0.1
+        }
+      ],
+      "tf-idf": [
+        {
+          "show_id": "s6981",
+          "title": "The Vietnam War: A Film by Ken Burns and Lynn Novick",
+          "score": 0.38294629366447264
+        },
+        {
+          "show_id": "s4880",
+          "title": "Platoon",
+          "score": 0.3214383958683742
+        },
+        {
+          "show_id": "s1570",
+          "title": "Da 5 Bloods",
+          "score": 0.3067299310945475
+        },
+        {
+          "show_id": "s2590",
+          "title": "Hamburger Hill",
+          "score": 0.2971892566234517
+        },
+        {
+          "show_id": "s6849",
+          "title": "The Sapphires",
+          "score": 0.28937722219661804
+        }
+      ],
+      "dense(title+desc)": [
+        {
+          "show_id": "s6981",
+          "title": "The Vietnam War: A Film by Ken Burns and Lynn Novick",
+          "score": 0.516735315322876
+        },
+        {
+          "show_id": "s2590",
+          "title": "Hamburger Hill",
+          "score": 0.4810347557067871
+        },
+        {
+          "show_id": "s4880",
+          "title": "Platoon",
+          "score": 0.4589739441871643
+        },
+        {
+          "show_id": "s7381",
+          "title": "V Wars",
+          "score": 0.4222301244735718
+        },
+        {
+          "show_id": "s6987",
+          "title": "The War: A Film by Ken Burns and Lynn Novick",
+          "score": 0.41340720653533936
+        }
+      ],
+      "dense(title-only)": [
+        {
+          "show_id": "s6981",
+          "title": "The Vietnam War: A Film by Ken Burns and Lynn Novick",
+          "score": 0.6156041622161865
+        },
+        {
+          "show_id": "s7476",
+          "title": "War",
+          "score": 0.5900989770889282
+        },
+        {
+          "show_id": "s6095",
+          "title": "The Art of War",
+          "score": 0.5260345935821533
+        },
+        {
+          "show_id": "s7381",
+          "title": "V Wars",
+          "score": 0.5162288546562195
+        },
+        {
+          "show_id": "s6874",
+          "title": "The Silent War",
+          "score": 0.49713844060897827
+        }
+      ],
+      "hybrid(tfidf+dense)": [
+        {
+          "show_id": "s6981",
+          "title": "The Vietnam War: A Film by Ken Burns and Lynn Novick",
+          "score": 0.03278688524590164
+        },
+        {
+          "show_id": "s4880",
+          "title": "Platoon",
+          "score": 0.03200204813108039
+        },
+        {
+          "show_id": "s2590",
+          "title": "Hamburger Hill",
+          "score": 0.031754032258064516
+        },
+        {
+          "show_id": "s4360",
+          "title": "My Stupid Boss 2",
+          "score": 0.03007688828584351
+        },
+        {
+          "show_id": "s1570",
+          "title": "Da 5 Bloods",
+          "score": 0.02886002886002886
+        }
+      ]
+    }
+  },
+  {
+    "id": "mickey_mouse",
+    "query": "Mickey Mouse",
+    "relevant_show_ids": [
+      "s7471"
+    ],
+    "runs": {
+      "boolean": [
+        {
+          "show_id": "s5858",
+          "title": "Stuart Little",
+          "score": 0.1
+        },
+        {
+          "show_id": "s2381",
+          "title": "Geronimo Stilton",
+          "score": 0.1
+        },
+        {
+          "show_id": "s6500",
+          "title": "The Interview",
+          "score": 0.07142857142857142
+        },
+        {
+          "show_id": "s7471",
+          "title": "Walt Disney Animation Studios Short Films Collection",
+          "score": 0.07142857142857142
+        },
+        {
+          "show_id": "s4447",
+          "title": "Neruda",
+          "score": 0.07142857142857142
+        }
+      ],
+      "tf-idf": [
+        {
+          "show_id": "s7109",
+          "title": "Tip the Mouse",
+          "score": 0.42746664622337527
+        },
+        {
+          "show_id": "s1598",
+          "title": "Danger Mouse: Classic Collection",
+          "score": 0.3900062133252767
+        },
+        {
+          "show_id": "s2381",
+          "title": "Geronimo Stilton",
+          "score": 0.37761903814692416
+        },
+        {
+          "show_id": "s6500",
+          "title": "The Interview",
+          "score": 0.30264197016380706
+        },
+        {
+          "show_id": "s5858",
+          "title": "Stuart Little",
+          "score": 0.2755468861776111
+        }
+      ],
+      "dense(title+desc)": [
+        {
+          "show_id": "s1597",
+          "title": "Danger Mouse",
+          "score": 0.4742295742034912
+        },
+        {
+          "show_id": "s7471",
+          "title": "Walt Disney Animation Studios Short Films Collection",
+          "score": 0.44759607315063477
+        },
+        {
+          "show_id": "s7109",
+          "title": "Tip the Mouse",
+          "score": 0.426605224609375
+        },
+        {
+          "show_id": "s1598",
+          "title": "Danger Mouse: Classic Collection",
+          "score": 0.41465306282043457
+        },
+        {
+          "show_id": "s5975",
+          "title": "Talking Tom and Friends",
+          "score": 0.40801572799682617
+        }
+      ],
+      "dense(title-only)": [
+        {
+          "show_id": "s1787",
+          "title": "DJ Cinderella",
+          "score": 0.5470961332321167
+        },
+        {
+          "show_id": "s1597",
+          "title": "Danger Mouse",
+          "score": 0.5184459686279297
+        },
+        {
+          "show_id": "s4837",
+          "title": "Peter Rabbit",
+          "score": 0.484083354473114
+        },
+        {
+          "show_id": "s5105",
+          "title": "Rats",
+          "score": 0.4654068946838379
+        },
+        {
+          "show_id": "s1598",
+          "title": "Danger Mouse: Classic Collection",
+          "score": 0.4610678553581238
+        }
+      ],
+      "hybrid(tfidf+dense)": [
+        {
+          "show_id": "s7109",
+          "title": "Tip the Mouse",
+          "score": 0.032266458495966696
+        },
+        {
+          "show_id": "s1598",
+          "title": "Danger Mouse: Classic Collection",
+          "score": 0.031754032258064516
+        },
+        {
+          "show_id": "s1597",
+          "title": "Danger Mouse",
+          "score": 0.03047794966520434
+        },
+        {
+          "show_id": "s2381",
+          "title": "Geronimo Stilton",
+          "score": 0.030158730158730156
+        },
+        {
+          "show_id": "s7471",
+          "title": "Walt Disney Animation Studios Short Films Collection",
+          "score": 0.02878726010616578
+        }
+      ]
+    }
+  },
+  {
+    "id": "semantic_cooking_show",
+    "query": "feel-good cooking competition show",
+    "relevant_show_ids": [
+      "s4387",
+      "s4388",
+      "s4389",
+      "s4390",
+      "s4391",
+      "s4392",
+      "s5874",
+      "s1523",
+      "s6352",
+      "s6416",
+      "s6419",
+      "s6129",
+      "s6213"
+    ],
+    "runs": {
+      "boolean": [
+        {
+          "show_id": "s5576",
+          "title": "Shopkins: Chef Club",
+          "score": 0.13333333333333333
+        },
+        {
+          "show_id": "s2477",
+          "title": "Good Burger",
+          "score": 0.11764705882352941
+        },
+        {
+          "show_id": "s2140",
+          "title": "Feel Good",
+          "score": 0.10526315789473684
+        },
+        {
+          "show_id": "s2142",
+          "title": "Feel the Beat",
+          "score": 0.08695652173913043
+        },
+        {
+          "show_id": "s1999",
+          "title": "Encerrados",
+          "score": 0.08333333333333333
+        }
+      ],
+      "tf-idf": [
+        {
+          "show_id": "s1497",
+          "title": "Cooking on High",
+          "score": 0.291624058337969
+        },
+        {
+          "show_id": "s1494",
+          "title": "Cook Off",
+          "score": 0.26997709590220237
+        },
+        {
+          "show_id": "s5576",
+          "title": "Shopkins: Chef Club",
+          "score": 0.2372246984587122
+        },
+        {
+          "show_id": "s2140",
+          "title": "Feel Good",
+          "score": 0.2366818628728104
+        },
+        {
+          "show_id": "s2142",
+          "title": "Feel the Beat",
+          "score": 0.21542540895966594
+        }
+      ],
+      "dense(title+desc)": [
+        {
+          "show_id": "s6213",
+          "title": "The Chefs' Line",
+          "score": 0.6144677400588989
+        },
+        {
+          "show_id": "s1523",
+          "title": "Crazy Delicious",
+          "score": 0.6142129898071289
+        },
+        {
+          "show_id": "s6129",
+          "title": "The Big Family Cooking Showdown",
+          "score": 0.5550824403762817
+        },
+        {
+          "show_id": "s6416",
+          "title": "The Great British Baking Show",
+          "score": 0.5498055219650269
+        },
+        {
+          "show_id": "s4388",
+          "title": "Nailed It! France",
+          "score": 0.5308247804641724
+        }
+      ],
+      "dense(title-only)": [
+        {
+          "show_id": "s6212",
+          "title": "The Chef Show",
+          "score": 0.6404306888580322
+        },
+        {
+          "show_id": "s6129",
+          "title": "The Big Family Cooking Showdown",
+          "score": 0.6005061864852905
+        },
+        {
+          "show_id": "s6416",
+          "title": "The Great British Baking Show",
+          "score": 0.5245461463928223
+        },
+        {
+          "show_id": "s6077",
+          "title": "The American Barbecue Showdown",
+          "score": 0.5187499523162842
+        },
+        {
+          "show_id": "s6418",
+          "title": "The Great British Baking Show: Masterclass",
+          "score": 0.5166651010513306
+        }
+      ],
+      "hybrid(tfidf+dense)": [
+        {
+          "show_id": "s1494",
+          "title": "Cook Off",
+          "score": 0.031054405392392875
+        },
+        {
+          "show_id": "s1497",
+          "title": "Cooking on High",
+          "score": 0.030886196246139225
+        },
+        {
+          "show_id": "s6129",
+          "title": "The Big Family Cooking Showdown",
+          "score": 0.028068137824235385
+        },
+        {
+          "show_id": "s2142",
+          "title": "Feel the Beat",
+          "score": 0.027730294396961064
+        },
+        {
+          "show_id": "s4384",
+          "title": "Nadiya\u2019s Time to Eat",
+          "score": 0.025657894736842105
+        }
+      ]
+    }
+  },
+  {
+    "id": "semantic_scandi_crime",
+    "query": "dark crime thriller set in Scandinavia",
+    "relevant_show_ids": [
+      "s6974",
+      "s1051",
+      "s5041",
+      "s1807",
+      "s5011",
+      "s3444",
+      "s1179"
+    ],
+    "runs": {
+      "boolean": [
+        {
+          "show_id": "s3028",
+          "title": "Interrogation",
+          "score": 0.16666666666666666
+        },
+        {
+          "show_id": "s5585",
+          "title": "Shot in the Dark",
+          "score": 0.14285714285714285
+        },
+        {
+          "show_id": "s1112",
+          "title": "Brooklyn's Finest",
+          "score": 0.14285714285714285
+        },
+        {
+          "show_id": "s4822",
+          "title": "Penny Dreadful",
+          "score": 0.14285714285714285
+        },
+        {
+          "show_id": "s1618",
+          "title": "Dark Places",
+          "score": 0.13333333333333333
+        }
+      ],
+      "tf-idf": [
+        {
+          "show_id": "s3715",
+          "title": "Longmire",
+          "score": 0.25506103066753905
+        },
+        {
+          "show_id": "s1112",
+          "title": "Brooklyn's Finest",
+          "score": 0.24037185591146837
+        },
+        {
+          "show_id": "s3028",
+          "title": "Interrogation",
+          "score": 0.21601943001731888
+        },
+        {
+          "show_id": "s1612",
+          "title": "Dark Chocolate (Bengali Version)",
+          "score": 0.21582786089711475
+        },
+        {
+          "show_id": "s12",
+          "title": "1983",
+          "score": 0.21247410348148776
+        }
+      ],
+      "dense(title+desc)": [
+        {
+          "show_id": "s1613",
+          "title": "Dark Crimes",
+          "score": 0.6368802785873413
+        },
+        {
+          "show_id": "s6974",
+          "title": "The Valhalla Murders",
+          "score": 0.5727946162223816
+        },
+        {
+          "show_id": "s12",
+          "title": "1983",
+          "score": 0.5543290376663208
+        },
+        {
+          "show_id": "s4469",
+          "title": "Night Stalker: The Hunt for a Serial Killer",
+          "score": 0.5176658034324646
+        },
+        {
+          "show_id": "s1051",
+          "title": "Bordertown",
+          "score": 0.5142576098442078
+        }
+      ],
+      "dense(title-only)": [
+        {
+          "show_id": "s1613",
+          "title": "Dark Crimes",
+          "score": 0.6559970378875732
+        },
+        {
+          "show_id": "s4469",
+          "title": "Night Stalker: The Hunt for a Serial Killer",
+          "score": 0.5498580932617188
+        },
+        {
+          "show_id": "s1535",
+          "title": "Crime Diaries: Night Out",
+          "score": 0.5300762057304382
+        },
+        {
+          "show_id": "s4468",
+          "title": "Night on Earth: Shot in the Dark",
+          "score": 0.5234209895133972
+        },
+        {
+          "show_id": "s1618",
+          "title": "Dark Places",
+          "score": 0.5174878835678101
+        }
+      ],
+      "hybrid(tfidf+dense)": [
+        {
+          "show_id": "s12",
+          "title": "1983",
+          "score": 0.03125763125763126
+        },
+        {
+          "show_id": "s1613",
+          "title": "Dark Crimes",
+          "score": 0.03028233151183971
+        },
+        {
+          "show_id": "s5675",
+          "title": "Small Town Crime",
+          "score": 0.027425373134328357
+        },
+        {
+          "show_id": "s1612",
+          "title": "Dark Chocolate (Bengali Version)",
+          "score": 0.026860955056179775
+        },
+        {
+          "show_id": "s686",
+          "title": "Bad Blood",
+          "score": 0.02604430914933198
+        }
+      ]
+    }
+  },
+  {
+    "id": "chess_drama",
+    "query": "drama about a chess prodigy",
+    "relevant_show_ids": [
+      "s6797",
+      "s1529",
+      "s5450",
+      "s3862",
+      "s6232"
+    ],
+    "runs": {
+      "boolean": [
+        {
+          "show_id": "s3862",
+          "title": "Magnus",
+          "score": 0.15384615384615385
+        },
+        {
+          "show_id": "s3920",
+          "title": "Mantostaan",
+          "score": 0.1
+        },
+        {
+          "show_id": "s1529",
+          "title": "Creating The Queen's Gambit",
+          "score": 0.1
+        },
+        {
+          "show_id": "s3217",
+          "title": "Jonaki",
+          "score": 0.09090909090909091
+        },
+        {
+          "show_id": "s1740",
+          "title": "Dhobi Ghat (Mumbai Diaries)",
+          "score": 0.09090909090909091
+        }
+      ],
+      "tf-idf": [
+        {
+          "show_id": "s3862",
+          "title": "Magnus",
+          "score": 0.4592031895972552
+        },
+        {
+          "show_id": "s5450",
+          "title": "Searching for Bobby Fischer",
+          "score": 0.36224716785382166
+        },
+        {
+          "show_id": "s1529",
+          "title": "Creating The Queen's Gambit",
+          "score": 0.337619801587022
+        },
+        {
+          "show_id": "s6007",
+          "title": "Tee Shot: Ariya Jutanugarn",
+          "score": 0.2169062527451852
+        },
+        {
+          "show_id": "s6797",
+          "title": "The Queen's Gambit",
+          "score": 0.1897646297441109
+        }
+      ],
+      "dense(title+desc)": [
+        {
+          "show_id": "s6797",
+          "title": "The Queen's Gambit",
+          "score": 0.5782164931297302
+        },
+        {
+          "show_id": "s3862",
+          "title": "Magnus",
+          "score": 0.5565051436424255
+        },
+        {
+          "show_id": "s5450",
+          "title": "Searching for Bobby Fischer",
+          "score": 0.5413522720336914
+        },
+        {
+          "show_id": "s1529",
+          "title": "Creating The Queen's Gambit",
+          "score": 0.5196332931518555
+        },
+        {
+          "show_id": "s6232",
+          "title": "The Coldest Game",
+          "score": 0.515070378780365
+        }
+      ],
+      "dense(title-only)": [
+        {
+          "show_id": "s6414",
+          "title": "The Grandmaster",
+          "score": 0.5403743982315063
+        },
+        {
+          "show_id": "s2518",
+          "title": "Grandmaster",
+          "score": 0.5167088508605957
+        },
+        {
+          "show_id": "s7161",
+          "title": "Total Drama",
+          "score": 0.46150755882263184
+        },
+        {
+          "show_id": "s2233",
+          "title": "Forbidden Games: The Justin Fashanu Story",
+          "score": 0.45458781719207764
+        },
+        {
+          "show_id": "s555",
+          "title": "Antoine Griezmann: The Making of a Legend",
+          "score": 0.44264400005340576
+        }
+      ],
+      "hybrid(tfidf+dense)": [
+        {
+          "show_id": "s3862",
+          "title": "Magnus",
+          "score": 0.03252247488101534
+        },
+        {
+          "show_id": "s5450",
+          "title": "Searching for Bobby Fischer",
+          "score": 0.03200204813108039
+        },
+        {
+          "show_id": "s6797",
+          "title": "The Queen's Gambit",
+          "score": 0.03177805800756621
+        },
+        {
+          "show_id": "s1529",
+          "title": "Creating The Queen's Gambit",
+          "score": 0.03149801587301587
+        },
+        {
+          "show_id": "s6232",
+          "title": "The Coldest Game",
+          "score": 0.030309988518943745
+        }
+      ]
+    }
+  },
+  {
+    "id": "exact_title_stranger_things",
+    "query": "Stranger Things",
+    "relevant_show_ids": [
+      "s5837",
+      "s877"
+    ],
+    "runs": {
+      "boolean": [
+        {
+          "show_id": "s877",
+          "title": "Beyond Stranger Things",
+          "score": 0.14285714285714285
+        },
+        {
+          "show_id": "s2393",
+          "title": "Ghanchakkar",
+          "score": 0.1111111111111111
+        },
+        {
+          "show_id": "s4325",
+          "title": "My Horrible Grandma",
+          "score": 0.1
+        },
+        {
+          "show_id": "s1566",
+          "title": "D\u00e9j\u00e0 Vu",
+          "score": 0.1
+        },
+        {
+          "show_id": "s2767",
+          "title": "Hokkabaz",
+          "score": 0.1
+        }
+      ],
+      "tf-idf": [
+        {
+          "show_id": "s877",
+          "title": "Beyond Stranger Things",
+          "score": 0.7131222508437549
+        },
+        {
+          "show_id": "s5837",
+          "title": "Stranger Things",
+          "score": 0.42766078742977176
+        },
+        {
+          "show_id": "s4829",
+          "title": "Perfect Stranger",
+          "score": 0.30090254635744335
+        },
+        {
+          "show_id": "s6909",
+          "title": "THE STRANGER",
+          "score": 0.23152366240939176
+        },
+        {
+          "show_id": "s4117",
+          "title": "Minimalism: A Documentary About the Important Things",
+          "score": 0.20117860704967463
+        }
+      ],
+      "dense(title+desc)": [
+        {
+          "show_id": "s5837",
+          "title": "Stranger Things",
+          "score": 0.6970094442367554
+        },
+        {
+          "show_id": "s6909",
+          "title": "THE STRANGER",
+          "score": 0.5630263090133667
+        },
+        {
+          "show_id": "s5836",
+          "title": "Stranger than Fiction",
+          "score": 0.5303845405578613
+        },
+        {
+          "show_id": "s877",
+          "title": "Beyond Stranger Things",
+          "score": 0.5202965140342712
+        },
+        {
+          "show_id": "s4435",
+          "title": "Nature's Weirdest Events",
+          "score": 0.4508321285247803
+        }
+      ],
+      "dense(title-only)": [
+        {
+          "show_id": "s5837",
+          "title": "Stranger Things",
+          "score": 1.0
+        },
+        {
+          "show_id": "s877",
+          "title": "Beyond Stranger Things",
+          "score": 0.8876621127128601
+        },
+        {
+          "show_id": "s5836",
+          "title": "Stranger than Fiction",
+          "score": 0.7875599265098572
+        },
+        {
+          "show_id": "s5835",
+          "title": "Stranger",
+          "score": 0.7638288736343384
+        },
+        {
+          "show_id": "s6909",
+          "title": "THE STRANGER",
+          "score": 0.7561756372451782
+        }
+      ],
+      "hybrid(tfidf+dense)": [
+        {
+          "show_id": "s5837",
+          "title": "Stranger Things",
+          "score": 0.03252247488101534
+        },
+        {
+          "show_id": "s877",
+          "title": "Beyond Stranger Things",
+          "score": 0.032018442622950824
+        },
+        {
+          "show_id": "s6909",
+          "title": "THE STRANGER",
+          "score": 0.031754032258064516
+        },
+        {
+          "show_id": "s4829",
+          "title": "Perfect Stranger",
+          "score": 0.03057889822595705
+        },
+        {
+          "show_id": "s5836",
+          "title": "Stranger than Fiction",
+          "score": 0.029030910609857977
+        }
+      ]
+    }
+  }
+]

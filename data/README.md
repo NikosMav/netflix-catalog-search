@@ -1,6 +1,6 @@
 # Data
 
-Files used by `netflix_data_analysis.ipynb`.
+Files used by the notebooks and the `retrieval` package.
 
 ## `netflix_titles.csv`
 
@@ -31,3 +31,7 @@ curl -fsSL -o /tmp/title.basics.tsv.gz https://datasets.imdbws.com/title.basics.
 curl -fsSL -o /tmp/title.ratings.tsv.gz https://datasets.imdbws.com/title.ratings.tsv.gz
 # then re-run the join logic used to create this CSV (see repo history / notebook notes)
 ```
+
+## `labeled_queries.json`
+
+Hand-authored retrieval evaluation set (**28 queries**) with binary `relevant_show_ids` from `netflix_titles.csv`. Used by `python -m retrieval eval`. Author judgments for catalog search — not crowd-sourced, not personalization labels.

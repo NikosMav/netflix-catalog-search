@@ -1,0 +1,309 @@
+{
+  "version": 1,
+  "description": "Hand-authored catalog-search judgments for this Netflix dump. Each query lists relevant show_ids (binary relevance). Labels are author judgments from title+description+listed_in \u2014 not crowd-sourced, not personalization labels. Built to compare Boolean / TF-IDF / dense / hybrid honestly.",
+  "queries": [
+    {
+      "id": "vietnam_war",
+      "query": "war between vietnam and usa",
+      "relevant_show_ids": [
+        "s1570",
+        "s2590",
+        "s4880",
+        "s6981"
+      ],
+      "notes": "Original sparse-notebook demo. Distinctive tokens (vietnam, war) appear in blurbs \u2014 sparse should be strong."
+    },
+    {
+      "id": "mickey_mouse",
+      "query": "Mickey Mouse",
+      "relevant_show_ids": [
+        "s7471"
+      ],
+      "notes": "Original sparse-notebook demo. Strict: Disney Mickey shorts collection only. Other 'mouse' titles are topical but not Mickey."
+    },
+    {
+      "id": "semantic_cooking_show",
+      "query": "feel-good cooking competition show",
+      "relevant_show_ids": [
+        "s4387",
+        "s4388",
+        "s4389",
+        "s4390",
+        "s4391",
+        "s4392",
+        "s5874",
+        "s1523",
+        "s6352",
+        "s6416",
+        "s6419",
+        "s6129",
+        "s6213"
+      ],
+      "notes": "Paraphrase / mood query. Dense expected to win."
+    },
+    {
+      "id": "semantic_scandi_crime",
+      "query": "dark crime thriller set in Scandinavia",
+      "relevant_show_ids": [
+        "s6974",
+        "s1051",
+        "s5041",
+        "s1807",
+        "s5011",
+        "s3444",
+        "s1179"
+      ],
+      "notes": "Geo paraphrase (Scandinavia \u2248 Nordic countries). Dense expected to help."
+    },
+    {
+      "id": "chess_drama",
+      "query": "drama about a chess prodigy",
+      "relevant_show_ids": [
+        "s6797",
+        "s1529",
+        "s5450",
+        "s3862",
+        "s6232"
+      ],
+      "notes": "Semantic; Queen's Gambit and related chess titles."
+    },
+    {
+      "id": "zombie_apocalypse",
+      "query": "zombie apocalypse survival horror",
+      "relevant_show_ids": [
+        "s967",
+        "s3088",
+        "s857",
+        "s1643",
+        "s7779",
+        "s7182"
+      ],
+      "notes": "Genre paraphrase."
+    },
+    {
+      "id": "standup_kevin_hart",
+      "query": "Kevin Hart stand-up comedy special",
+      "relevant_show_ids": [
+        "s3341",
+        "s3342",
+        "s3343",
+        "s3344",
+        "s3345",
+        "s3346",
+        "s3347",
+        "s3348",
+        "s3349"
+      ],
+      "notes": "Exact name + genre. Sparse should match 'Kevin Hart' strongly. show_ids verified as Kevin Hart specials."
+    },
+    {
+      "id": "dave_chappelle_comedy",
+      "query": "Dave Chappelle comedy special",
+      "relevant_show_ids": [
+        "s1630",
+        "s1631",
+        "s1632",
+        "s1633"
+      ],
+      "notes": "Exact artist name."
+    },
+    {
+      "id": "anime_death_note",
+      "query": "Death Note anime",
+      "relevant_show_ids": [
+        "s1673"
+      ],
+      "notes": "Near-exact title match."
+    },
+    {
+      "id": "naruto_anime",
+      "query": "Naruto ninja anime series",
+      "relevant_show_ids": [
+        "s4405",
+        "s4406",
+        "s4407",
+        "s4408",
+        "s4409",
+        "s4410"
+      ],
+      "notes": "Franchise / exact token."
+    },
+    {
+      "id": "heist_spain",
+      "query": "Spanish bank heist series with hostages",
+      "relevant_show_ids": [
+        "s3489",
+        "s4177"
+      ],
+      "notes": "La casa de papel / Money Heist phenomenon \u2014 semantic for Money Heist."
+    },
+    {
+      "id": "oceans_heist",
+      "query": "Ocean's Eleven casino heist movie",
+      "relevant_show_ids": [
+        "s4564",
+        "s4565",
+        "s4566"
+      ],
+      "notes": "Exact franchise tokens."
+    },
+    {
+      "id": "space_documentary",
+      "query": "documentary about astronauts living in space",
+      "relevant_show_ids": [
+        "s257",
+        "s6644"
+      ],
+      "notes": "Semantic space docs; Apollo 18 is horror fiction so excluded."
+    },
+    {
+      "id": "boxing_biopic",
+      "query": "boxing biopic about a fighter",
+      "relevant_show_ids": [
+        "s977",
+        "s1508",
+        "s6143"
+      ],
+      "notes": "Sports biopic paraphrase."
+    },
+    {
+      "id": "ww2_holocaust_docs",
+      "query": "World War II Holocaust documentary",
+      "relevant_show_ids": [
+        "s29",
+        "s624"
+      ],
+      "notes": "WWII + Holocaust docs. A Bridge Too Far is fiction war film \u2014 excluded."
+    },
+    {
+      "id": "christmas_family_movie",
+      "query": "feel-good Christmas family movie",
+      "relevant_show_ids": [
+        "s160",
+        "s161",
+        "s162",
+        "s3421",
+        "s114",
+        "s149"
+      ],
+      "notes": "Seasonal + mood. Includes Christmas Prince trilogy show_ids."
+    },
+    {
+      "id": "nature_planet_docs",
+      "query": "nature documentary about wildlife on earth",
+      "relevant_show_ids": [
+        "s4697",
+        "s4876",
+        "s4877",
+        "s4467",
+        "s139",
+        "s140"
+      ],
+      "notes": "Our Planet / Planet Earth / Night on Earth / Dangerous Animals."
+    },
+    {
+      "id": "time_travel_romance",
+      "query": "time travel romantic comedy movie",
+      "relevant_show_ids": [
+        "s3315",
+        "s5341",
+        "s5482"
+      ],
+      "notes": "Kate & Leopold, Safety Not Guaranteed, See You Yesterday \u2014 romance/comedy with time travel."
+    },
+    {
+      "id": "rock_climbing_doc",
+      "query": "rock climbing documentary on a big wall",
+      "relevant_show_ids": [
+        "s6273"
+      ],
+      "notes": "The Dawn Wall. Catalog has few climbing docs."
+    },
+    {
+      "id": "spy_thriller",
+      "query": "espionage spy thriller about undercover agents",
+      "relevant_show_ids": [
+        "s455",
+        "s751",
+        "s6896",
+        "s299"
+      ],
+      "notes": "Semantic spy/espionage. Austin Powers excluded (spoof comedy)."
+    },
+    {
+      "id": "preschool_kids_show",
+      "query": "preschool cartoon for toddlers",
+      "relevant_show_ids": [
+        "s4888",
+        "s2177",
+        "s4084",
+        "s3656",
+        "s3716"
+      ],
+      "notes": "Pocoyo, Fireman Sam, Mighty Little Bheem, Little Baby Bum, Loo Loo Kids."
+    },
+    {
+      "id": "formula1_docuseries",
+      "query": "Formula 1 racing documentary series",
+      "relevant_show_ids": [
+        "s2247"
+      ],
+      "notes": "Drive to Survive \u2014 exact motorsport tokens help sparse."
+    },
+    {
+      "id": "exact_title_stranger_things",
+      "query": "Stranger Things",
+      "relevant_show_ids": [
+        "s5837",
+        "s877"
+      ],
+      "notes": "Near-exact title query. Sparse and dense should both retrieve well."
+    },
+    {
+      "id": "true_crime_serial_killer",
+      "query": "true crime documentary about a serial killer",
+      "relevant_show_ids": [
+        "s3878",
+        "s1492",
+        "s4469"
+      ],
+      "notes": "Making a Murderer, Ted Bundy tapes, Night Stalker."
+    },
+    {
+      "id": "social_media_doc",
+      "query": "documentary about social media harming society",
+      "relevant_show_ids": [
+        "s6884"
+      ],
+      "notes": "The Social Dilemma \u2014 paraphrase of topic."
+    },
+    {
+      "id": "dark_german_series",
+      "query": "German time-travel mystery series Dark",
+      "relevant_show_ids": [
+        "s1611"
+      ],
+      "notes": "Exact title 'Dark' plus language/genre cues."
+    },
+    {
+      "id": "breaking_bad_universe",
+      "query": "Breaking Bad and El Camino",
+      "relevant_show_ids": [
+        "s1090",
+        "s1946",
+        "s6831"
+      ],
+      "notes": "Exact franchise tokens."
+    },
+    {
+      "id": "witcher_fantasy",
+      "query": "The Witcher fantasy series with Geralt",
+      "relevant_show_ids": [
+        "s7007",
+        "s7008",
+        "s3879"
+      ],
+      "notes": "Exact title + character name."
+    }
+  ]
+}

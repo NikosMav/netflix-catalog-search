@@ -9,3 +9,13 @@ country-list>=1.0,<2
 jupyter>=1.0,<2
 ipykernel>=6.0,<7
 nbconvert>=7.0,<8
+
+# Dense retrieval chapter (CPU-friendly local embeddings)
+sentence-transformers>=2.2,<4
+torch>=2.0,<3
+
+# Tests for IR metrics helpers
+pytest>=7.0,<9
+
+# Optional: OpenAI embedding backend for DenseRetriever(backend="openai")
+# openai>=1.0,<2
