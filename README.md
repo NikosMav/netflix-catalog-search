@@ -1,77 +1,63 @@
-# Movie and TV Show Recommendation System
+# Netflix catalog EDA + sparse text retrieval
 
-## Overview
+Early (2023) work by **Nikolaos (Nikos) Mavrapidis** ([NikosMav](https://github.com/NikosMav)): exploratory analysis of a public Netflix titles dump, then a small **Boolean / bag-of-words vs TF-IDF** experiment on `title + description`.
 
-This Jupyter Notebook presents a recommendation system for movies and TV shows using two different methods: Boolean (Bag of Words, BoW) and TF-IDF (Term Frequency-Inverse Document Frequency). The system uses text descriptions of movies and TV shows to provide recommendations based on similarity scores.
+This is **EDA + classical sparse text retrieval**. It is **not** a production recommender, **not** collaborative filtering, **not** embeddings / vector search / RAG, and **not** a TESSI project. It sits honestly on a path toward retrieval engineering: first understand a catalog and score short text with sparse features; dense retrieval comes later.
 
-## Dependencies
+Originally written as a university data-mining assignment; reframed here so a hiring manager can clone it, run it, and read the claims at face value.
 
-To run this notebook, you'll need the following dependencies:
+## What’s in the notebook
 
-- Python (>=3.7)
-- Jupyter Notebook
-- Pandas
-- Scikit-learn (for BoW)
-- TfidfVectorizer (from Scikit-learn, for TF-IDF)
-- Numpy
+| Section | What it does |
+|--------|----------------|
+| **Cleaning** | Fill missing director/cast/country/date/rating with documented defaults |
+| **EDA** | Movies vs TV, yearly mix, countries, genres, cast, ratings/age bands, monthly adds, directors, seasons, IMDb-joined top-rated movies |
+| **Sparse retrieval** | BoW + Hamming / Jaccard-style vs TF-IDF + cosine; title→neighbors and free-text→neighbors demos |
 
-You can install these dependencies using pip or conda:
+## Data
 
-```bash
-pip install jupyter pandas scikit-learn numpy
-```
+Shipped under [`data/`](data/):
 
-## How to Use
+- `netflix_titles.csv` — Netflix Movies and TV Shows catalog ([Kaggle / Shivam Bansal](https://www.kaggle.com/shivamb/netflix-shows), via [TidyTuesday](https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-04-20))
+- `imdb_ratings_netflix_join.csv` — slim title∩IMDb ratings join from the [IMDb non-commercial datasets](https://developer.imdb.com/non-commercial-datasets/) (see [`data/README.md`](data/README.md))
 
-Clone the Repository:
+## How to run
 
 ```bash
-git clone https://github.com/your-username/DataAnalysis-Netflix.git
-cd your-repo
-```
+git clone https://github.com/NikosMav/DataAnalysis-Netflix.git
+cd DataAnalysis-Netflix
 
-Open the Jupyter Notebook:
+python -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
 
-```bash
 jupyter notebook netflix_data_analysis.ipynb
+# or: jupyter nbconvert --to notebook --execute netflix_data_analysis.ipynb
 ```
 
-Run the Notebook:
+Or open the notebook in Colab via the badge at the top (paths assume the `data/` folder from this repo).
 
-Click on "Cell" > "Run All" to run all the cells.
-Follow the instructions and examples provided in the notebook.
+**Runtime note:** building dense BoW/TF-IDF frames and full pairwise similarity matrices needs on the order of a few GB of RAM and a couple of minutes on a laptop. The free-text Boolean query path is slower than TF-IDF (row-wise scores); a few demo queries are fine.
 
-## Components
+## What you learn
 
-The notebook contains the following main components:
+- How a real catalog looks after light cleaning (and how fill-ins bias charts)
+- How **Boolean/BoW** overlap differs from **TF-IDF + cosine** on short marketing descriptions
+- Why short, sparse text struggles under coarse Boolean features (qualitative — see notebook examples)
+- How classical sparse retrieval relates to later embedding/RAG work: same *retrieve by similarity* idea, different representation
 
-1. Data Preprocessing: Loading and preparing the dataset for recommendation.
+## Limitations (read these)
 
-2. Similarity Computation:
-For BoW: Calculating Jaccard similarity between items based on binary text representations.
-For TF-IDF: Calculating cosine similarity between items based on TF-IDF vector representations.
+- **No ranking metrics.** Neighbor lists are judged by eye on a few queries. No Precision@K, nDCG, or user study.
+- **Text only.** Genre, cast, and popularity are unused in the ranker.
+- **Boolean precompute ≠ Jaccard query.** Precomputed neighbors use Hamming similarity on the count matrix; the free-text helper uses `jaccard_score`. Both are “Boolean-ish,” not identical.
+- **IMDb join is fuzzy.** Matching on title strings produces collisions and misses; the top-rated chart is exploratory.
+- **Not production.** Re-fitting a vectorizer on query+corpus is a notebook convenience, not how a real inverted index works.
 
-3. Recommendation Functions:
-get_similar_movies1: Recommends similar items based on user input using BoW or TF-IDF.
-get_similar_movies2: Recommends similar items based on user input using BoW or TF-IDF with text data.
+### Sparse retrieval vs embeddings / RAG
 
-4. Testing and Analysis: Evaluating and comparing the recommendation methods.
-
-5. Results: Displaying recommendations for sample input queries.
-
-## Methodology
-
-- The system precomputes similarity matrices for both BoW and TF-IDF representations, which significantly speeds up the recommendation process.
-- Two recommendation functions (get_similar_movies1 and get_similar_movies2) are provided to recommend items based on user input text.
-- TF-IDF method generally provides more accurate and relevant recommendations compared to BoW (Boolean) method, especially for text-based recommendation tasks.
-- Cosine similarity is more efficient and provides better results with text data compared to Jaccard similarity.
-
-## Conclusion
-
-This recommendation system demonstrates the effectiveness of TF-IDF in providing accurate and relevant recommendations for movies and TV shows. It also highlights the computational efficiency of cosine similarity in comparison to Jaccard similarity.
-
-Feel free to explore and use this notebook to build and experiment with your own recommendation system.
+TF-IDF here is **sparse text retrieval**: weighted term vectors + cosine. Dense **embeddings** + vector search (and LLM/RAG pipelines) reuse the retrieve-by-similarity pattern with continuous representations and usually a separate generation step. This repo stops at the sparse step on purpose.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
+MIT — see [LICENSE.md](LICENSE.md). Netflix catalog © Netflix (public dump via Kaggle). IMDb data subject to [IMDb non-commercial terms](https://developer.imdb.com/non-commercial-datasets/).

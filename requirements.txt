@@ -1,0 +1,11 @@
+# Core analysis stack (notebook-tested)
+pandas>=1.5,<3
+numpy>=1.23,<3
+scikit-learn>=1.2,<2
+matplotlib>=3.6,<4
+seaborn>=0.12,<1
+plotly>=5.14,<6
+country-list>=1.0,<2
+jupyter>=1.0,<2
+ipykernel>=6.0,<7
+nbconvert>=7.0,<8
