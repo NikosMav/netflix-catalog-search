@@ -12,6 +12,8 @@ import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 
+from retrieval.validation import bounded_top_k
+
 
 def _jaccard_scores(query_vec, doc_matrix) -> np.ndarray:
     """Set Jaccard between a binary query row and each binary document row."""
@@ -51,12 +53,10 @@ class BooleanRetriever:
         self.doc_matrix = self.vectorizer.fit_transform(self.catalog[self.text_field])
 
     def query(self, text: str, top_k: int = 10) -> pd.DataFrame:
-        q = self.vectorizer.transform([text])
-        scores = _jaccard_scores(q, self.doc_matrix)
-        order = np.argsort(-scores)[:top_k]
+        order, scores = self.rank_indices(text, top_k=top_k)
         hits = self.catalog.iloc[order][["show_id", "title", "description", "type"]].copy()
         hits.insert(0, "rank", np.arange(1, len(hits) + 1))
-        hits.insert(1, "score", scores[order])
+        hits.insert(1, "score", scores)
         hits.insert(2, "method", "boolean")
         return hits.reset_index(drop=True)
 
@@ -64,5 +64,6 @@ class BooleanRetriever:
         """Return (indices, scores) for the top_k documents — used by eval/hybrid."""
         q = self.vectorizer.transform([text])
         scores = _jaccard_scores(q, self.doc_matrix)
-        order = np.argsort(-scores)[:top_k]
+        k = bounded_top_k(top_k, len(scores))
+        order = np.argsort(-scores)[:k]
         return order, scores[order]

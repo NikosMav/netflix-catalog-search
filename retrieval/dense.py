@@ -15,6 +15,8 @@ import numpy as np
 import pandas as pd
 from sklearn.neighbors import NearestNeighbors
 
+from retrieval.validation import bounded_top_k
+
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CACHE_DIR = REPO_ROOT / ".cache" / "embeddings"
 DEFAULT_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
@@ -109,10 +111,7 @@ class DenseRetriever:
         return emb
 
     def query(self, text: str, top_k: int = 10) -> pd.DataFrame:
-        q = self._encode([text])
-        distances, indices = self._nn.kneighbors(q, n_neighbors=top_k)
-        sims = 1.0 - distances.ravel()
-        idxs = indices.ravel()
+        idxs, sims = self.rank_indices(text, top_k=top_k)
         hits = self.catalog.iloc[idxs][["show_id", "title", "description", "type"]].copy()
         hits.insert(0, "rank", np.arange(1, len(hits) + 1))
         hits.insert(1, "score", sims)
@@ -120,7 +119,10 @@ class DenseRetriever:
         return hits.reset_index(drop=True)
 
     def rank_indices(self, text: str, top_k: int = 100) -> tuple[np.ndarray, np.ndarray]:
+        k = bounded_top_k(top_k, len(self.catalog))
+        if k == 0:
+            return np.array([], dtype=int), np.array([], dtype=float)
         q = self._encode([text])
-        distances, indices = self._nn.kneighbors(q, n_neighbors=top_k)
+        distances, indices = self._nn.kneighbors(q, n_neighbors=k)
         sims = 1.0 - distances.ravel()
         return indices.ravel(), sims

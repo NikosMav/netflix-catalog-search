@@ -9,6 +9,8 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
+from retrieval.validation import bounded_top_k
+
 
 @dataclass
 class SparseTfidfRetriever:
@@ -35,17 +37,16 @@ class SparseTfidfRetriever:
         self.doc_matrix = self.vectorizer.fit_transform(self.catalog[self.text_field])
 
     def query(self, text: str, top_k: int = 10) -> pd.DataFrame:
-        q = self.vectorizer.transform([text])
-        scores = cosine_similarity(q, self.doc_matrix).ravel()
-        order = np.argsort(-scores)[:top_k]
+        order, scores = self.rank_indices(text, top_k=top_k)
         hits = self.catalog.iloc[order][["show_id", "title", "description", "type"]].copy()
         hits.insert(0, "rank", np.arange(1, len(hits) + 1))
-        hits.insert(1, "score", scores[order])
+        hits.insert(1, "score", scores)
         hits.insert(2, "method", "tf-idf")
         return hits.reset_index(drop=True)
 
     def rank_indices(self, text: str, top_k: int = 100) -> tuple[np.ndarray, np.ndarray]:
         q = self.vectorizer.transform([text])
         scores = cosine_similarity(q, self.doc_matrix).ravel()
-        order = np.argsort(-scores)[:top_k]
+        k = bounded_top_k(top_k, len(scores))
+        order = np.argsort(-scores)[:k]
         return order, scores[order]

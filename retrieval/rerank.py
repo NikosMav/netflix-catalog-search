@@ -13,6 +13,8 @@ from typing import Any
 import numpy as np
 import pandas as pd
 
+from retrieval.validation import bounded_top_k
+
 DEFAULT_CROSS_ENCODER = "cross-encoder/ms-marco-MiniLM-L-6-v2"
 
 
@@ -45,7 +47,10 @@ class CrossEncoderReranker:
         return self._model
 
     def rank_indices(self, text: str, top_k: int = 100) -> tuple[np.ndarray, np.ndarray]:
-        pool_k = max(self.candidate_k, top_k)
+        k = bounded_top_k(top_k, min(self.candidate_k, len(self.catalog)))
+        if k == 0:
+            return np.array([], dtype=int), np.array([], dtype=float)
+        pool_k = min(self.candidate_k, len(self.catalog))
         base_idxs, _ = self.base.rank_indices(text, top_k=pool_k)
         if len(base_idxs) == 0:
             return np.array([], dtype=int), np.array([], dtype=float)
@@ -63,7 +68,7 @@ class CrossEncoderReranker:
             ),
             dtype=float,
         )
-        order = np.argsort(-scores)[:top_k]
+        order = np.argsort(-scores)[:k]
         return cand[order], scores[order]
 
     def query(self, text: str, top_k: int = 10) -> pd.DataFrame:

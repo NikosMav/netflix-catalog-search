@@ -1,45 +1,39 @@
-# Netflix catalog text search
+# Netflix Catalog Search
 
-**Author:** Nikolaos (Nikos) Mavrapidis ([NikosMav](https://github.com/NikosMav))
+Offline text search over a public Netflix title catalog. The project compares
+Boolean retrieval, TF-IDF, BM25, dense embeddings, hybrid reciprocal rank fusion
+(RRF), and cross-encoder reranking on one labeled query set.
 
-## 5-minute walk
+This is a catalog-search project, not a personalized recommender: it uses title,
+description, genre, cast, director, and country metadata, but no viewing history or
+collaborative-filtering signals.
 
-**What it is:** offline **catalog text search** over a public Netflix titles dump — Boolean, TF-IDF, BM25, dense MiniLM, hybrid RRF, and a CPU cross-encoder rerank, with metrics on **28 author-labeled** queries.
+## What this project demonstrates
 
-**What it isn’t:** a recommender, collaborative filtering, or RAG-over-the-web. No invented metrics; no production IR claims. Demo models only (MiniLM + ms-marco MiniLM CE). **n=28, author labels — no confidence intervals.**
+- Lexical, semantic, hybrid, and two-stage retrieval in one package
+- Metadata-field ablations and explicit first-stage/reranker wiring
+- Reproducible Recall, nDCG, and MRR evaluation
+- A command-line interface for querying, indexing, and evaluation
+- Model and embedding caches for repeatable local runs
+- Unit tests and lightweight CI without model downloads
 
-| Command | What you get |
-|---------|----------------|
-| `python -m retrieval query "…" --method bm25` | Lexical catalog search |
-| `python -m retrieval query "…" --method hybrid-rerank` | Strong first-stage hybrid + CE rerank |
-| `python -m retrieval eval --failures` | Regenerates [`results/eval_metrics.json`](results/eval_metrics.json) |
-| `python -m retrieval index` | Precomputes dense embedding caches |
+## Retrieval pipeline
 
-Full method notes and limits: [`RETRIEVAL.md`](RETRIEVAL.md). Original EDA + Boolean/TF-IDF chapter stays in [`netflix_data_analysis.ipynb`](netflix_data_analysis.ipynb).
-
-### Clone and run
-
-```bash
-git clone https://github.com/NikosMav/DataAnalysis-Netflix.git
-cd DataAnalysis-Netflix
-
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-
-python -m retrieval query "war between vietnam and usa" --method bm25 --top-k 10
-python -m retrieval query "feel-good cooking competition show" --method dense-rerank
-python -m retrieval query "dark crime thriller set in Scandinavia" --method hybrid-rerank
-python -m retrieval eval --failures   # regenerates results/*.json from the gold labels
+```text
+query -> BM25 ------------------+
+                                 +-> RRF -> top 50 -> cross-encoder -> results
+query -> MiniLM dense retrieval -+
 ```
 
-First dense/rerank run downloads MiniLM + ms-marco CE (~80MB each) and embeds ~7.8k rows; then caches under `.cache/`.
+Exact names and titles often favor BM25, while dense retrieval handles paraphrases.
+RRF combines their rank lists without mixing incompatible raw score scales; the
+cross-encoder then spends more compute only on the strongest candidates.
 
-### Headline metrics
+## Results
 
-Source of truth: committed [`results/eval_metrics.json`](results/eval_metrics.json) (same 28 queries). Do not hand-edit this table — regenerate with `python -m retrieval eval`, then optionally `python scripts/sync_metrics_docs.py`.
-
-`hybrid+rerank` = cross-encoder over **`hybrid(bm25+dense,meta)`** (not the weaker TF-IDF hybrid).
+Metrics come from 28 author-labeled queries with binary relevance judgments. The
+committed [`results/eval_metrics.json`](results/eval_metrics.json) is the source of
+truth and can be regenerated with `python -m retrieval eval`.
 
 <!-- METRICS_TABLE_BEGIN -->
 | method | recall@5 | recall@10 | ndcg@5 | ndcg@10 | mrr |
@@ -58,36 +52,63 @@ Source of truth: committed [`results/eval_metrics.json`](results/eval_metrics.js
 | hybrid+rerank | 0.7001 | 0.7817 | 0.6958 | 0.7185 | 0.7583 |
 <!-- METRICS_TABLE_END -->
 
-**Headline (from JSON):** hybrid+rerank R@5 **0.7001** / R@10 **0.7817** / MRR **0.7583** vs dense(title+desc) **0.5849** / **0.6209** / **0.6304**.
+`hybrid+rerank` means cross-encoder reranking over
+`hybrid(bm25+dense,meta)`. Full method notes, qualitative examples, and failure
+analysis are in [`RETRIEVAL.md`](RETRIEVAL.md).
 
-## Two tracks
+## Quick start
 
-1. **EDA + Boolean / TF-IDF** — original case study ([`netflix_data_analysis.ipynb`](netflix_data_analysis.ipynb))
-2. **Catalog retrieval product** — package + CLI ([`retrieval/`](retrieval/), [`RETRIEVAL.md`](RETRIEVAL.md))
+```bash
+git clone https://github.com/NikosMav/netflix-catalog-search.git
+cd netflix-catalog-search
+python -m venv .venv
+source .venv/bin/activate          # Windows: .venv\Scripts\activate
+pip install -e ".[dev]"
 
-## What’s in the box
+python -m retrieval query "war between vietnam and usa" --method bm25 --top-k 10
+python -m retrieval query "feel-good cooking competition show" --method hybrid-rerank
+pytest
+```
+
+The BM25, Boolean, and TF-IDF paths need no model download. The first dense or
+reranked query downloads the MiniLM bi-encoder and MS MARCO cross-encoder and
+caches catalog embeddings under `.cache/`.
+
+Precompute all dense indexes or regenerate evaluation artifacts:
+
+```bash
+python -m retrieval index
+python -m retrieval eval --failures
+python scripts/sync_metrics_docs.py
+```
+
+Install the full exploratory-notebook stack with `pip install -r requirements.txt`.
+
+## Repository map
 
 | Path | Purpose |
-|------|---------|
-| [`netflix_data_analysis.ipynb`](netflix_data_analysis.ipynb) | EDA + Boolean/TF-IDF case study (kept intact) |
-| [`retrieval/`](retrieval/) | Package + CLI (`query`, `eval`, `index`) |
-| [`data/labeled_queries.json`](data/labeled_queries.json) | 28 author-labeled queries (`relevant_show_ids`) |
-| [`results/eval_metrics.json`](results/eval_metrics.json) | Committed metric table (source of truth) |
-| [`RETRIEVAL.md`](RETRIEVAL.md) | Full case study: method, results, limits |
-| [`netflix_dense_retrieval.ipynb`](netflix_dense_retrieval.ipynb) | Thin package walkthrough (not a second metrics source) |
-| [`.github/workflows/unit-tests.yml`](.github/workflows/unit-tests.yml) | CI: `pytest tests/` only (no full catalog eval) |
+| --- | --- |
+| `retrieval/` | Catalog loading, retrievers, reranker, metrics, and CLI |
+| `tests/` | Fast unit and wiring tests |
+| `data/labeled_queries.json` | Evaluation queries and relevant show IDs |
+| `results/` | Metrics and qualitative comparisons |
+| `RETRIEVAL.md` | Detailed retrieval case study |
+| `netflix_data_analysis.ipynb` | Original EDA and sparse-retrieval chapter |
+| `netflix_dense_retrieval.ipynb` | Short package walkthrough |
 
-## Data
+## Evaluation boundaries
 
-Under [`data/`](data/): Netflix titles dump, slim IMDb join for the EDA chart, and retrieval labels. Provenance in [`data/README.md`](data/README.md).
+- The 28 queries and relevance judgments were created by the project author.
+- Labels are binary and have no inter-annotator agreement or confidence intervals.
+- Results describe this fixed catalog snapshot, query set, and model configuration.
+- Full model evaluation is intentionally separate from lightweight CI.
 
-## Limitations
+## Data and license
 
-- **No invented metrics.** Tables come from committed JSON / `python -m retrieval eval`.
-- **28 queries, author-labeled.** Honest demo, not a public IR leaderboard; no CIs.
-- **Catalog search ≠ recommender ≠ web RAG.**
-- **CPU MiniLM + ms-marco CE are demo models.**
+The catalog is the public Netflix Movies and TV Shows dataset distributed by
+[Shivam Bansal on Kaggle](https://www.kaggle.com/shivamb/netflix-shows) and mirrored
+by [TidyTuesday](https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-04-20).
+Provenance and IMDb-join caveats are documented in [`data/README.md`](data/README.md).
 
-## License
-
-MIT — see [LICENSE.md](LICENSE.md). Netflix catalog © Netflix (public dump via Kaggle). IMDb data subject to [IMDb non-commercial terms](https://developer.imdb.com/non-commercial-datasets/).
+Code is released under the [MIT License](LICENSE.md). Netflix catalog content remains
+the property of Netflix; IMDb-derived data is subject to IMDb's non-commercial terms.

@@ -32,6 +32,19 @@ METHOD_HELP = (
 )
 
 
+def positive_int(value: str) -> int:
+    parsed = int(value)
+    if parsed < 1:
+        raise argparse.ArgumentTypeError("value must be >= 1")
+    return parsed
+
+
+def non_empty_text(value: str) -> str:
+    if not value.strip():
+        raise argparse.ArgumentTypeError("query must be non-empty")
+    return value
+
+
 def _build_retriever(name: str, catalog, show_progress: bool = False):
     name = name.lower().replace("_", "-")
     if name in {"boolean", "bow"}:
@@ -167,13 +180,13 @@ def build_parser() -> argparse.ArgumentParser:
 
     q = sub.add_parser("query", help="Run a natural-language catalog query")
     add_common(q)
-    q.add_argument("query", type=str, help="Query text")
+    q.add_argument("query", type=non_empty_text, help="Query text")
     q.add_argument(
         "--method",
         default="dense",
         help=f"{METHOD_HELP} (default: dense)",
     )
-    q.add_argument("--top-k", type=int, default=10)
+    q.add_argument("--top-k", type=positive_int, default=10)
     q.add_argument("--json", action="store_true")
     q.set_defaults(func=cmd_query)
 
@@ -181,7 +194,7 @@ def build_parser() -> argparse.ArgumentParser:
     add_common(e)
     e.add_argument("--labels", type=Path, default=None)
     e.add_argument("--out", type=Path, default=REPO_ROOT / "results" / "eval_metrics.json")
-    e.add_argument("--ks", type=int, nargs="+", default=[5, 10])
+    e.add_argument("--ks", type=positive_int, nargs="+", default=[5, 10])
     e.add_argument("--failures", action="store_true", help="Also write qualitative examples JSON")
     e.set_defaults(func=cmd_eval)
 

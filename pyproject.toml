@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "netflix-catalog-search"
+version = "0.1.0"
+description = "Offline Netflix catalog search with lexical, dense, hybrid, and reranked retrieval."
+readme = "README.md"
+license = { file = "LICENSE.md" }
+requires-python = ">=3.10"
+authors = [{ name = "Nikos Mavrapidis" }]
+keywords = ["information-retrieval", "hybrid-search", "reranking", "netflix"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+]
+dependencies = [
+  "numpy>=1.23,<3",
+  "pandas>=1.5,<3",
+  "scikit-learn>=1.2,<2",
+  "sentence-transformers>=2.2,<4",
+  "torch>=2.0,<3",
+  "rank-bm25>=0.2.2,<1",
+]
+
+[project.optional-dependencies]
+notebook = [
+  "matplotlib>=3.6,<4",
+  "seaborn>=0.12,<1",
+  "plotly>=5.14,<6",
+  "country-list>=1.0,<2",
+  "jupyter>=1.0,<2",
+  "ipykernel>=6.0,<7",
+  "nbconvert>=7.0,<8",
+]
+dev = ["pytest>=7.0,<9"]
+all = ["netflix-catalog-search[notebook,dev]"]
+
+[project.scripts]
+netflix-catalog-search = "retrieval.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/NikosMav/netflix-catalog-search"
+Repository = "https://github.com/NikosMav/netflix-catalog-search"
+
+[tool.setuptools.packages.find]
+include = ["retrieval*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+pythonpath = ["."]

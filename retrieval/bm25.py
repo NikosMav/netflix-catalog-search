@@ -9,6 +9,8 @@ import numpy as np
 import pandas as pd
 from rank_bm25 import BM25Okapi
 
+from retrieval.validation import bounded_top_k
+
 _TOKEN_RE = re.compile(r"[a-z0-9]+", re.IGNORECASE)
 
 
@@ -41,12 +43,12 @@ class BM25Retriever:
         return hits.reset_index(drop=True)
 
     def rank_indices(self, text: str, top_k: int = 100) -> tuple[np.ndarray, np.ndarray]:
+        k = bounded_top_k(top_k, self._n_docs)
         tokens = tokenize(text)
         if not tokens:
             # Empty query → empty ranking (caller gets no hits).
             return np.array([], dtype=int), np.array([], dtype=float)
         scores = np.asarray(self.bm25.get_scores(tokens), dtype=float)
-        k = min(top_k, self._n_docs)
         # argpartition then sort the top slice — O(n) + O(k log k) vs full argsort
         if k < self._n_docs:
             part = np.argpartition(-scores, k)[:k]

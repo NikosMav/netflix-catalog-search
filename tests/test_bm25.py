@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import pandas as pd
+import pytest
 
 from retrieval.bm25 import BM25Retriever, tokenize
 
@@ -54,3 +55,9 @@ def test_bm25_empty_query_returns_empty():
     idxs, scores = retriever.rank_indices("!!!", top_k=5)
     assert len(idxs) == 0
     assert len(scores) == 0
+
+
+def test_bm25_rejects_non_positive_top_k():
+    retriever = BM25Retriever(_tiny_catalog(), text_field="text")
+    with pytest.raises(ValueError, match="top_k"):
+        retriever.rank_indices("vietnam", top_k=0)

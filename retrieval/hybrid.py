@@ -14,6 +14,8 @@ from typing import Any, Protocol
 import numpy as np
 import pandas as pd
 
+from retrieval.validation import bounded_top_k
+
 
 class Ranker(Protocol):
     def rank_indices(self, text: str, top_k: int = 100) -> tuple[np.ndarray, np.ndarray]: ...
@@ -29,7 +31,8 @@ def reciprocal_rank_fusion(
     for ranking in ranked_lists:
         for rank, idx in enumerate(ranking, start=1):
             scores[int(idx)] = scores.get(int(idx), 0.0) + 1.0 / (rrf_k + rank)
-    ordered = sorted(scores.items(), key=lambda x: x[1], reverse=True)[:top_k]
+    k = bounded_top_k(top_k, len(scores))
+    ordered = sorted(scores.items(), key=lambda x: x[1], reverse=True)[:k]
     if not ordered:
         return np.array([], dtype=int), np.array([], dtype=float)
     idxs = np.array([i for i, _ in ordered], dtype=int)
@@ -44,6 +47,14 @@ class HybridRetriever:
     rrf_k: int = 60
     candidate_k: int = 100
     name: str = "hybrid"
+
+    def __post_init__(self) -> None:
+        if not self.retrievers:
+            raise ValueError("retrievers must not be empty")
+        if self.rrf_k < 0:
+            raise ValueError("rrf_k must be >= 0")
+        if self.candidate_k < 1:
+            raise ValueError("candidate_k must be >= 1")
 
     def query(self, text: str, top_k: int = 10) -> pd.DataFrame:
         idxs, scores = self.rank_indices(text, top_k=top_k)

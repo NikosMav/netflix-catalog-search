@@ -34,8 +34,8 @@ No new catalog rows; metadata columns were already in `netflix_titles.csv`.
 ## How to run
 
 ```bash
-git clone https://github.com/NikosMav/DataAnalysis-Netflix.git
-cd DataAnalysis-Netflix
+git clone https://github.com/NikosMav/netflix-catalog-search.git
+cd netflix-catalog-search
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
