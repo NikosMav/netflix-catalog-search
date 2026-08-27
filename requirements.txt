@@ -10,9 +10,12 @@ jupyter>=1.0,<2
 ipykernel>=6.0,<7
 nbconvert>=7.0,<8
 
-# Dense retrieval chapter (CPU-friendly local embeddings)
+# Dense retrieval chapter (CPU-friendly local embeddings + CE rerank)
 sentence-transformers>=2.2,<4
 torch>=2.0,<3
+
+# Proper lexical baseline (BM25 Okapi)
+rank-bm25>=0.2.2,<1
 
 # Tests for IR metrics helpers
 pytest>=7.0,<9

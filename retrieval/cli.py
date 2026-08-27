@@ -7,10 +7,12 @@ import json
 import sys
 from pathlib import Path
 
+from retrieval.bm25 import BM25Retriever
 from retrieval.boolean_retriever import BooleanRetriever
 from retrieval.catalog import load_catalog
 from retrieval.dense import DenseRetriever
 from retrieval.evaluate import (
+    RERANK_CANDIDATE_K,
     build_methods,
     load_labeled_queries,
     qualitative_failures,
@@ -19,26 +21,68 @@ from retrieval.evaluate import (
     save_results,
 )
 from retrieval.hybrid import HybridRetriever
+from retrieval.rerank import CrossEncoderReranker
 from retrieval.sparse import SparseTfidfRetriever
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
+METHOD_HELP = (
+    "boolean|tfidf|tfidf-meta|bm25|bm25-meta|dense|dense-meta|dense-title|"
+    "hybrid|hybrid-bm25|dense-rerank|hybrid-rerank"
+)
+
 
 def _build_retriever(name: str, catalog, show_progress: bool = False):
-    name = name.lower()
+    name = name.lower().replace("_", "-")
     if name in {"boolean", "bow"}:
         return BooleanRetriever(catalog)
     if name in {"tfidf", "tf-idf"}:
-        return SparseTfidfRetriever(catalog)
+        return SparseTfidfRetriever(catalog, text_field="text")
+    if name in {"tfidf-meta", "tf-idf-meta", "tfidf(desc+meta)"}:
+        return SparseTfidfRetriever(catalog, text_field="text_meta")
+    if name in {"bm25"}:
+        return BM25Retriever(catalog, text_field="text")
+    if name in {"bm25-meta", "bm25(desc+meta)"}:
+        return BM25Retriever(catalog, text_field="text_meta")
     if name in {"dense", "dense(title+desc)"}:
         return DenseRetriever(catalog, text_field="text", show_progress=show_progress)
+    if name in {"dense-meta", "dense(title+desc+meta)"}:
+        return DenseRetriever(catalog, text_field="text_meta", show_progress=show_progress)
     if name in {"dense-title", "dense(title-only)"}:
         return DenseRetriever(catalog, text_field="title_text", show_progress=show_progress)
     if name in {"hybrid", "hybrid(tfidf+dense)"}:
-        tfidf = SparseTfidfRetriever(catalog)
+        tfidf = SparseTfidfRetriever(catalog, text_field="text")
         dense = DenseRetriever(catalog, text_field="text", show_progress=show_progress)
         return HybridRetriever(catalog, retrievers=[tfidf, dense], name="hybrid(tfidf+dense)")
-    raise SystemExit(f"Unknown method: {name}. Choose boolean|tfidf|dense|dense-title|hybrid")
+    if name in {"hybrid-bm25", "hybrid(bm25+dense,meta)"}:
+        bm25 = BM25Retriever(catalog, text_field="text_meta")
+        dense = DenseRetriever(catalog, text_field="text_meta", show_progress=show_progress)
+        return HybridRetriever(
+            catalog, retrievers=[bm25, dense], name="hybrid(bm25+dense,meta)"
+        )
+    if name in {"dense-rerank", "dense+rerank"}:
+        dense = DenseRetriever(catalog, text_field="text", show_progress=show_progress)
+        return CrossEncoderReranker(
+            catalog,
+            base=dense,
+            text_field="text_meta",
+            candidate_k=RERANK_CANDIDATE_K,
+            name="dense+rerank",
+            show_progress=show_progress,
+        )
+    if name in {"hybrid-rerank", "hybrid+rerank"}:
+        tfidf = SparseTfidfRetriever(catalog, text_field="text")
+        dense = DenseRetriever(catalog, text_field="text", show_progress=show_progress)
+        hybrid = HybridRetriever(catalog, retrievers=[tfidf, dense], name="hybrid(tfidf+dense)")
+        return CrossEncoderReranker(
+            catalog,
+            base=hybrid,
+            text_field="text_meta",
+            candidate_k=RERANK_CANDIDATE_K,
+            name="hybrid+rerank",
+            show_progress=show_progress,
+        )
+    raise SystemExit(f"Unknown method: {name}. Choose {METHOD_HELP}")
 
 
 def cmd_query(args: argparse.Namespace) -> int:
@@ -94,11 +138,12 @@ def cmd_eval(args: argparse.Namespace) -> int:
 
 
 def cmd_index(args: argparse.Namespace) -> int:
-    """Precompute and cache dense embeddings for title+desc and title-only."""
+    """Precompute and cache dense embeddings for all text fields used in eval."""
     catalog = load_catalog(args.data)
     print(f"Indexing {len(catalog)} titles…")
-    DenseRetriever(catalog, text_field="text", show_progress=not args.quiet)
-    DenseRetriever(catalog, text_field="title_text", show_progress=not args.quiet)
+    for field in ("text", "text_meta", "title_text"):
+        print(f"  embedding field={field}")
+        DenseRetriever(catalog, text_field=field, show_progress=not args.quiet)
     print("Dense embedding caches ready under .cache/embeddings/")
     return 0
 
@@ -106,7 +151,10 @@ def cmd_index(args: argparse.Namespace) -> int:
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(
         prog="python -m retrieval",
-        description="Netflix catalog text retrieval (Boolean / TF-IDF / dense / hybrid)",
+        description=(
+            "Netflix catalog text retrieval "
+            "(Boolean / TF-IDF / BM25 / dense / hybrid / CE rerank)"
+        ),
     )
     sub = p.add_subparsers(dest="command", required=True)
 
@@ -120,7 +168,7 @@ def build_parser() -> argparse.ArgumentParser:
     q.add_argument(
         "--method",
         default="dense",
-        help="boolean|tfidf|dense|dense-title|hybrid (default: dense)",
+        help=f"{METHOD_HELP} (default: dense)",
     )
     q.add_argument("--top-k", type=int, default=10)
     q.add_argument("--json", action="store_true")

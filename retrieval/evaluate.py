@@ -9,16 +9,21 @@ from typing import Any
 
 import pandas as pd
 
+from retrieval.bm25 import BM25Retriever
 from retrieval.boolean_retriever import BooleanRetriever
 from retrieval.catalog import load_catalog
 from retrieval.dense import DenseRetriever
 from retrieval.hybrid import HybridRetriever
 from retrieval.metrics import aggregate_mean, mrr, ndcg_at_k, recall_at_k
+from retrieval.rerank import CrossEncoderReranker
 from retrieval.sparse import SparseTfidfRetriever
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_LABELS = REPO_ROOT / "data" / "labeled_queries.json"
 DEFAULT_RESULTS = REPO_ROOT / "results" / "eval_metrics.json"
+
+# Cross-encoder second stage: rerank top-50 of the first-stage list.
+RERANK_CANDIDATE_K = 50
 
 
 @dataclass
@@ -47,21 +52,58 @@ def validate_labels(catalog: pd.DataFrame, queries: list[dict[str, Any]]) -> Non
 
 
 def build_methods(catalog: pd.DataFrame, show_progress: bool = False) -> list[MethodSpec]:
+    """Build the full ablation suite for offline eval.
+
+    Same 28 labeled queries; methods vary representation / ranking only.
+    ``text`` = title+description; ``text_meta`` adds listed_in/cast/director/country.
+    """
     boolean = BooleanRetriever(catalog, text_field="text")
     tfidf = SparseTfidfRetriever(catalog, text_field="text")
+    tfidf_meta = SparseTfidfRetriever(catalog, text_field="text_meta")
+    bm25 = BM25Retriever(catalog, text_field="text")
+    bm25_meta = BM25Retriever(catalog, text_field="text_meta")
     dense = DenseRetriever(catalog, text_field="text", show_progress=show_progress)
+    dense_meta = DenseRetriever(catalog, text_field="text_meta", show_progress=show_progress)
     dense_title = DenseRetriever(catalog, text_field="title_text", show_progress=show_progress)
     hybrid = HybridRetriever(
         catalog,
         retrievers=[tfidf, dense],
         name="hybrid(tfidf+dense)",
     )
+    hybrid_bm25 = HybridRetriever(
+        catalog,
+        retrievers=[bm25_meta, dense_meta],
+        name="hybrid(bm25+dense,meta)",
+    )
+    dense_rerank = CrossEncoderReranker(
+        catalog,
+        base=dense,
+        text_field="text_meta",
+        candidate_k=RERANK_CANDIDATE_K,
+        name="dense+rerank",
+        show_progress=show_progress,
+    )
+    hybrid_rerank = CrossEncoderReranker(
+        catalog,
+        base=hybrid,
+        text_field="text_meta",
+        candidate_k=RERANK_CANDIDATE_K,
+        name="hybrid+rerank",
+        show_progress=show_progress,
+    )
     return [
         MethodSpec("boolean", boolean),
         MethodSpec("tf-idf", tfidf),
+        MethodSpec("tf-idf(desc+meta)", tfidf_meta),
+        MethodSpec("bm25", bm25),
+        MethodSpec("bm25(desc+meta)", bm25_meta),
         MethodSpec("dense(title+desc)", dense),
+        MethodSpec("dense(title+desc+meta)", dense_meta),
         MethodSpec("dense(title-only)", dense_title),
         MethodSpec("hybrid(tfidf+dense)", hybrid),
+        MethodSpec("hybrid(bm25+dense,meta)", hybrid_bm25),
+        MethodSpec("dense+rerank", dense_rerank),
+        MethodSpec("hybrid+rerank", hybrid_rerank),
     ]
 
 
