@@ -83,9 +83,11 @@ def build_methods(catalog: pd.DataFrame, show_progress: bool = False) -> list[Me
         name="dense+rerank",
         show_progress=show_progress,
     )
+    # Headline path: CE over the stronger first stage (BM25+dense meta RRF),
+    # not the weaker hybrid(tfidf+dense).
     hybrid_rerank = CrossEncoderReranker(
         catalog,
-        base=hybrid,
+        base=hybrid_bm25,
         text_field="text_meta",
         candidate_k=RERANK_CANDIDATE_K,
         name="hybrid+rerank",

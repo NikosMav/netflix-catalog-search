@@ -71,9 +71,12 @@ def _build_retriever(name: str, catalog, show_progress: bool = False):
             show_progress=show_progress,
         )
     if name in {"hybrid-rerank", "hybrid+rerank"}:
-        tfidf = SparseTfidfRetriever(catalog, text_field="text")
-        dense = DenseRetriever(catalog, text_field="text", show_progress=show_progress)
-        hybrid = HybridRetriever(catalog, retrievers=[tfidf, dense], name="hybrid(tfidf+dense)")
+        # Same wiring as evaluate.build_methods: CE over hybrid(bm25+dense,meta).
+        bm25 = BM25Retriever(catalog, text_field="text_meta")
+        dense = DenseRetriever(catalog, text_field="text_meta", show_progress=show_progress)
+        hybrid = HybridRetriever(
+            catalog, retrievers=[bm25, dense], name="hybrid(bm25+dense,meta)"
+        )
         return CrossEncoderReranker(
             catalog,
             base=hybrid,

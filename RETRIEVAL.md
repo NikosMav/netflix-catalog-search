@@ -2,7 +2,7 @@
 
 **Author:** Nikolaos (Nikos) Mavrapidis ([NikosMav](https://github.com/NikosMav))
 
-Five-minute walkthrough for hiring managers. This is **catalog text search** over a public Netflix titles dump. It is **not** a production recommender, **not** collaborative filtering, **not** TESSI, and **not** RAG-over-the-web (no LLM generation step).
+Five-minute walkthrough. This is **catalog text search** over a public Netflix titles dump. It is **not** a production recommender, **not** collaborative filtering, and **not** RAG-over-the-web (no LLM generation step).
 
 The older EDA + Boolean/TF-IDF notebook remains: [`netflix_data_analysis.ipynb`](netflix_data_analysis.ipynb). This document covers the **retrieval product** next to it.
 
@@ -19,7 +19,7 @@ Given a natural-language query, rank Netflix catalog rows by text similarity. Co
 | **BM25** | Okapi BM25 (`rank-bm25`) | BM25 score |
 | **Dense** | `sentence-transformers/all-MiniLM-L6-v2` (CPU) | Cosine NN |
 | **Hybrid** | Sparse + dense rank lists | Reciprocal Rank Fusion (k=60) |
-| **+rerank** | Top-50 of dense or hybrid | `cross-encoder/ms-marco-MiniLM-L-6-v2` |
+| **+rerank** | Top-50 of dense, or of `hybrid(bm25+dense,meta)` | `cross-encoder/ms-marco-MiniLM-L-6-v2` |
 
 **Document-text ablations**
 
@@ -55,20 +55,11 @@ Optional OpenAI embeddings: `DenseRetriever(backend="openai")` + `OPENAI_API_KEY
 
 ## Results (28 hand-labeled queries)
 
-Labels: [`data/labeled_queries.json`](data/labeled_queries.json) — author judgments with `relevant_show_ids` from this dump. Binary relevance. **Same 28 queries as on `main`** (unchanged gold set). Metrics recomputed by `python -m retrieval eval`.
+Labels: [`data/labeled_queries.json`](data/labeled_queries.json) — author judgments with `relevant_show_ids` from this dump. Binary relevance. **Same 28 queries** (unchanged gold set). Metrics from `python -m retrieval eval`; committed [`results/eval_metrics.json`](results/eval_metrics.json) is the source of truth. **n=28, author labels — no confidence intervals.**
 
-### Baseline (as on `main`)
+`hybrid+rerank` = cross-encoder over **`hybrid(bm25+dense,meta)`** (BM25 + dense on `text_meta`), not over `hybrid(tfidf+dense)`.
 
-| method | recall@5 | recall@10 | ndcg@5 | ndcg@10 | mrr |
-| --- | --- | --- | --- | --- | --- |
-| boolean | 0.3159 | 0.4012 | 0.3185 | 0.3527 | 0.4440 |
-| tf-idf | 0.4502 | 0.5446 | 0.4555 | 0.4912 | 0.5013 |
-| dense(title+desc) | 0.5849 | 0.6209 | 0.5710 | 0.5656 | 0.6304 |
-| dense(title-only) | 0.4241 | 0.4499 | 0.4286 | 0.4269 | 0.5081 |
-| hybrid(tfidf+dense) | 0.5059 | 0.6922 | 0.4941 | 0.5626 | 0.5853 |
-
-### Extended ablations (this branch)
-
+<!-- METRICS_TABLE_BEGIN -->
 | method | recall@5 | recall@10 | ndcg@5 | ndcg@10 | mrr |
 | --- | --- | --- | --- | --- | --- |
 | boolean | 0.3159 | 0.4012 | 0.3185 | 0.3527 | 0.4440 |
@@ -82,9 +73,10 @@ Labels: [`data/labeled_queries.json`](data/labeled_queries.json) — author judg
 | hybrid(tfidf+dense) | 0.5059 | 0.6922 | 0.4941 | 0.5626 | 0.5853 |
 | hybrid(bm25+dense,meta) | 0.6552 | 0.7421 | 0.6351 | 0.6605 | 0.7065 |
 | dense+rerank | 0.6167 | 0.7062 | 0.6179 | 0.6469 | 0.6930 |
-| hybrid+rerank | 0.6882 | 0.7627 | 0.6862 | 0.7053 | 0.7601 |
+| hybrid+rerank | 0.7001 | 0.7817 | 0.6958 | 0.7185 | 0.7583 |
+<!-- METRICS_TABLE_END -->
 
-Numbers match [`results/eval_metrics.json`](results/eval_metrics.json) from the last local eval run. Baseline rows reproduce `main` exactly (same code paths for those five methods).
+Numbers above match [`results/eval_metrics.json`](results/eval_metrics.json) from the last `python -m retrieval eval` run. After changing retrieval wiring, re-run eval (and `python scripts/sync_metrics_docs.py`) before quoting headline numbers.
 
 ### What the numbers mean
 
@@ -95,9 +87,9 @@ Numbers match [`results/eval_metrics.json`](results/eval_metrics.json) from the 
 ### Takeaways (honest)
 
 1. **BM25 beats Boolean and TF-IDF** on this set (R@5 0.52 vs 0.32 / 0.45). Boolean Jaccard was a coarse demo baseline; BM25 is the proper lexical comparator.
-2. **Metadata is mixed, not free lift.** Appending genre/cast/director/country *hurts* TF-IDF early ranks (cast-name noise) and slightly lowers BM25/dense Recall@5, but **helps dense Recall@10 and MRR** (0.62→0.69 R@10, 0.63→0.68 MRR). Genre tokens help topical recall; long cast strings dilute sparse IDF.
-3. **Cross-encoder rerank is the largest early-rank lift.** `dense+rerank` improves dense MRR 0.63→0.69; `hybrid+rerank` leads the table (R@5 0.69, MRR 0.76) by reordering the top-50 of first-stage hybrid.
-4. **Strong first-stage fusion still matters.** `hybrid(bm25+dense,meta)` already beats the old hybrid on every metric before any CE pass.
+2. **Metadata is mixed, not free lift.** Appending genre/cast/director/country *hurts* TF-IDF early ranks (cast-name noise) and slightly lowers BM25/dense Recall@5, but **helps dense Recall@10 and MRR**. Genre tokens help topical recall; long cast strings dilute sparse IDF.
+3. **Cross-encoder rerank lifts early ranks** over a fixed top-50 pool. Headline path: `hybrid+rerank` = CE over `hybrid(bm25+dense,meta)` (R@5 0.7001 / R@10 0.7817 / MRR 0.7583 on this set).
+4. **Strong first-stage fusion still matters.** `hybrid(bm25+dense,meta)` already beats `hybrid(tfidf+dense)` on every metric before any CE pass.
 5. Gains are real but **set-specific** — 28 author-labeled queries, not a public IR benchmark. Catalog search ≠ recommender.
 
 ## Ablations & failure cases
@@ -141,7 +133,7 @@ Full side-by-side dumps: [`results/qualitative_examples.json`](results/qualitati
 ## Limitations
 
 - **Catalog search ≠ recommender.** No watch history, no CF, no popularity re-rank.
-- **Not TESSI / not web RAG.** No chunking of long docs, no tool-using agent, no generation.
+- **Not web RAG.** No chunking of long docs, no tool-using agent, no generation.
 - **Tiny labeled set.** 28 author queries; useful for honesty, not SOTA claims.
 - **Binary labels only.** No graded relevance → nDCG uses 0/1 gains.
 - **Short marketing blurbs.** Bad descriptions limit every method; metadata helps unevenly.

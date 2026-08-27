@@ -1332,7 +1332,12 @@
         {
           "show_id": "s12",
           "title": "1983",
-          "score": -0.28551575541496277
+          "score": -0.2855144739151001
+        },
+        {
+          "show_id": "s18",
+          "title": "22-Jul",
+          "score": -0.5323383212089539
         },
         {
           "show_id": "s5675",
@@ -1343,11 +1348,6 @@
           "show_id": "s1618",
           "title": "Dark Places",
           "score": -2.0167860984802246
-        },
-        {
-          "show_id": "s1612",
-          "title": "Dark Chocolate (Bengali Version)",
-          "score": -3.872520923614502
         }
       ]
     }
