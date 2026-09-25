@@ -35,3 +35,13 @@ curl -fsSL -o /tmp/title.ratings.tsv.gz https://datasets.imdbws.com/title.rating
 ## `labeled_queries.json`
 
 Hand-authored retrieval evaluation set (**28 queries**) with binary `relevant_show_ids` from `netflix_titles.csv`. Used by `python -m retrieval eval`. Author judgments for catalog search — not crowd-sourced, not personalization labels.
+
+## `wikipedia_plots.jsonl`
+
+Optional plot/premise enrichment from **English Wikipedia** (MediaWiki API). Each line is one catalog `show_id` with match status, confidence, article URL, and plot text when matched. Used to build the `text_plot` retrieval field (`title + description + plot`).
+
+- **License:** CC BY-SA 4.0 (not MIT). See [`WIKIPEDIA_ATTRIBUTION.md`](WIKIPEDIA_ATTRIBUTION.md).
+- **Matching:** title + release year + type (film / TV series). Ambiguous pages are skipped.
+- **Regenerate:** `python scripts/enrich_wikipedia_plots.py` (polite User-Agent, rate limit, `.cache/wikipedia/`).
+
+Coverage summary (regenerated with the JSONL): [`wikipedia_plots_coverage.json`](wikipedia_plots_coverage.json).

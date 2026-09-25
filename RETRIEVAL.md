@@ -27,10 +27,13 @@ Given a natural-language query, rank Netflix catalog rows by text similarity. Co
 |-------|----------|
 | `text` (desc-only) | `title` + `description` |
 | `text_meta` (desc+meta) | above + `listed_in` + `cast` + `director` + `country` |
+| `text_plot` (desc+plot) | `title` + `description` + Wikipedia plot/premise (when matched) |
 | `title_text` | title only (dense ablation) |
 
-No new catalog rows; metadata columns were already in `netflix_titles.csv`.
-
+No new catalog rows for metadata; `listed_in` / cast / director / country were already in
+`netflix_titles.csv`. Plot text comes from the committed
+[`data/wikipedia_plots.jsonl`](data/wikipedia_plots.jsonl) enrichment (CC BY-SA; see
+[`data/WIKIPEDIA_ATTRIBUTION.md`](data/WIKIPEDIA_ATTRIBUTION.md)).
 ## How to run
 
 ```bash
@@ -65,10 +68,13 @@ Labels: [`data/labeled_queries.json`](data/labeled_queries.json) — author judg
 | boolean | 0.3159 | 0.4012 | 0.3185 | 0.3527 | 0.4440 |
 | tf-idf | 0.4502 | 0.5446 | 0.4555 | 0.4912 | 0.5013 |
 | tf-idf(desc+meta) | 0.4192 | 0.5446 | 0.3875 | 0.4374 | 0.4659 |
+| tf-idf(desc+plot) | 0.3639 | 0.4722 | 0.3672 | 0.4038 | 0.4956 |
 | bm25 | 0.5248 | 0.5645 | 0.5167 | 0.5253 | 0.5637 |
 | bm25(desc+meta) | 0.5020 | 0.5524 | 0.5233 | 0.5353 | 0.6002 |
+| bm25(desc+plot) | 0.5069 | 0.6116 | 0.5093 | 0.5494 | 0.5972 |
 | dense(title+desc) | 0.5849 | 0.6209 | 0.5710 | 0.5656 | 0.6304 |
 | dense(title+desc+meta) | 0.5735 | 0.6856 | 0.5825 | 0.6193 | 0.6786 |
+| dense(title+desc+plot) | 0.5569 | 0.6506 | 0.5524 | 0.5738 | 0.6376 |
 | dense(title-only) | 0.4241 | 0.4499 | 0.4286 | 0.4269 | 0.5081 |
 | hybrid(tfidf+dense) | 0.5059 | 0.6922 | 0.4941 | 0.5626 | 0.5853 |
 | hybrid(bm25+dense,meta) | 0.6552 | 0.7421 | 0.6351 | 0.6605 | 0.7065 |
@@ -88,10 +94,10 @@ Numbers above match [`results/eval_metrics.json`](results/eval_metrics.json) fro
 
 1. **BM25 beats Boolean and TF-IDF** on this set (R@5 0.52 vs 0.32 / 0.45). Boolean Jaccard was a coarse demo baseline; BM25 is the proper lexical comparator.
 2. **Metadata is mixed, not free lift.** Appending genre/cast/director/country *hurts* TF-IDF early ranks (cast-name noise) and slightly lowers BM25/dense Recall@5, but **helps dense Recall@10 and MRR**. Genre tokens help topical recall; long cast strings dilute sparse IDF.
-3. **Cross-encoder rerank lifts early ranks** over a fixed top-50 pool. Headline path: `hybrid+rerank` = CE over `hybrid(bm25+dense,meta)` (R@5 0.7001 / R@10 0.7817 / MRR 0.7583 on this set).
-4. **Strong first-stage fusion still matters.** `hybrid(bm25+dense,meta)` already beats `hybrid(tfidf+dense)` on every metric before any CE pass.
-5. Gains are real but **set-specific** — 28 author-labeled queries, not a public IR benchmark. Catalog search ≠ recommender.
-
+3. **Wikipedia plot text is also mixed.** On the same 28 queries, `text_plot` (title+description+plot when matched) **hurts TF-IDF** (R@5 0.3639 vs 0.4502) and slightly lowers BM25/dense Recall@5, while **lifting BM25 Recall@10** (0.6116 vs 0.5645) and dense Recall@10 (0.6506 vs 0.6209). Only **38/107** gold titles received plot text (catalog match rate ~44%); longer plots can dilute short query overlap and MiniLM truncates long inputs. Plot enrichment is not free lift on this set.
+4. **Cross-encoder rerank lifts early ranks** over a fixed top-50 pool. Headline path: `hybrid+rerank` = CE over `hybrid(bm25+dense,meta)` (R@5 0.7001 / R@10 0.7817 / MRR 0.7583 on this set).
+5. **Strong first-stage fusion still matters.** `hybrid(bm25+dense,meta)` already beats `hybrid(tfidf+dense)` on every metric before any CE pass.
+6. Gains are real but **set-specific** — 28 author-labeled queries, not a public IR benchmark. Catalog search ≠ recommender.
 ## Ablations & failure cases
 
 ### Dense / rerank wins (paraphrase)
@@ -137,10 +143,12 @@ Full side-by-side dumps: [`results/qualitative_examples.json`](results/qualitati
 - **Tiny labeled set.** 28 author queries; useful for honesty, not SOTA claims.
 - **Binary labels only.** No graded relevance → nDCG uses 0/1 gains.
 - **Short marketing blurbs.** Bad descriptions limit every method; metadata helps unevenly.
+  Wikipedia plot enrichment (`text_plot`) is an optional ablation — match errors and missing
+  pages remain a caveat (see coverage JSON).
 - **CPU MiniLM + ms-marco CE are demo models.** Stronger embedders / larger cross-encoders would change ranks.
 - **Hybrid is RRF, not learned fusion.** Rerank is greedy over a fixed top-50 pool.
-- **No external enrichment.** No TMDB / Wikipedia scrape in this pass.
-
 ## License
 
 MIT — see [LICENSE.md](LICENSE.md). Netflix catalog © Netflix (public dump). Labels are original to this repo.
+Wikipedia plot excerpts in `data/wikipedia_plots.jsonl` are **CC BY-SA 4.0** — see
+[`data/WIKIPEDIA_ATTRIBUTION.md`](data/WIKIPEDIA_ATTRIBUTION.md).

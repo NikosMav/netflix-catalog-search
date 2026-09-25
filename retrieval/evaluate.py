@@ -55,15 +55,19 @@ def build_methods(catalog: pd.DataFrame, show_progress: bool = False) -> list[Me
     """Build the full ablation suite for offline eval.
 
     Same 28 labeled queries; methods vary representation / ranking only.
-    ``text`` = title+description; ``text_meta`` adds listed_in/cast/director/country.
+    ``text`` = title+description; ``text_meta`` adds listed_in/cast/director/country;
+    ``text_plot`` adds Wikipedia plot/premise when matched.
     """
     boolean = BooleanRetriever(catalog, text_field="text")
     tfidf = SparseTfidfRetriever(catalog, text_field="text")
     tfidf_meta = SparseTfidfRetriever(catalog, text_field="text_meta")
+    tfidf_plot = SparseTfidfRetriever(catalog, text_field="text_plot")
     bm25 = BM25Retriever(catalog, text_field="text")
     bm25_meta = BM25Retriever(catalog, text_field="text_meta")
+    bm25_plot = BM25Retriever(catalog, text_field="text_plot")
     dense = DenseRetriever(catalog, text_field="text", show_progress=show_progress)
     dense_meta = DenseRetriever(catalog, text_field="text_meta", show_progress=show_progress)
+    dense_plot = DenseRetriever(catalog, text_field="text_plot", show_progress=show_progress)
     dense_title = DenseRetriever(catalog, text_field="title_text", show_progress=show_progress)
     hybrid = HybridRetriever(
         catalog,
@@ -97,10 +101,13 @@ def build_methods(catalog: pd.DataFrame, show_progress: bool = False) -> list[Me
         MethodSpec("boolean", boolean),
         MethodSpec("tf-idf", tfidf),
         MethodSpec("tf-idf(desc+meta)", tfidf_meta),
+        MethodSpec("tf-idf(desc+plot)", tfidf_plot),
         MethodSpec("bm25", bm25),
         MethodSpec("bm25(desc+meta)", bm25_meta),
+        MethodSpec("bm25(desc+plot)", bm25_plot),
         MethodSpec("dense(title+desc)", dense),
         MethodSpec("dense(title+desc+meta)", dense_meta),
+        MethodSpec("dense(title+desc+plot)", dense_plot),
         MethodSpec("dense(title-only)", dense_title),
         MethodSpec("hybrid(tfidf+dense)", hybrid),
         MethodSpec("hybrid(bm25+dense,meta)", hybrid_bm25),
@@ -136,16 +143,52 @@ def run_evaluation(
     csv_path: str | Path | None = None,
     show_progress: bool = True,
     ks: tuple[int, ...] = (5, 10),
+    method_names: list[str] | None = None,
 ) -> pd.DataFrame:
     catalog = load_catalog(csv_path)
     queries = load_labeled_queries(labels_path)
     validate_labels(catalog, queries)
     methods = build_methods(catalog, show_progress=show_progress)
+    if method_names:
+        wanted = set(method_names)
+        methods = [m for m in methods if m.name in wanted]
+        missing = wanted - {m.name for m in methods}
+        if missing:
+            raise ValueError(f"Unknown method names: {sorted(missing)}")
 
     rows = []
     for method in methods:
         metrics = evaluate_method(method, queries, ks=ks)
         rows.append({"method": method.name, "n_queries": len(queries), **metrics})
+    return pd.DataFrame(rows)
+
+
+def merge_metrics_preserving_existing(
+    existing_path: str | Path,
+    new_df: pd.DataFrame,
+) -> pd.DataFrame:
+    """Append/replace only rows present in ``new_df``; keep all other committed numbers."""
+    path = Path(existing_path)
+    if not path.exists():
+        return new_df.copy()
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    by_name = {row["method"]: row for row in payload.get("metrics", [])}
+    n_queries = int(payload.get("n_queries") or (new_df["n_queries"].iloc[0] if len(new_df) else 0))
+    for _, row in new_df.iterrows():
+        rec = {k: row[k] for k in new_df.columns if k != "n_queries"}
+        by_name[row["method"]] = rec
+    # Preserve historical order for pre-existing methods; append brand-new names.
+    old_order = [row["method"] for row in payload.get("metrics", [])]
+    new_names = [m for m in new_df["method"].tolist() if m not in old_order]
+    # Insert plot ablations next to their family when possible.
+    ordered: list[str] = []
+    for name in old_order + new_names:
+        if name not in ordered and name in by_name:
+            ordered.append(name)
+    for name in by_name:
+        if name not in ordered:
+            ordered.append(name)
+    rows = [{"method": m, "n_queries": n_queries, **by_name[m]} for m in ordered]
     return pd.DataFrame(rows)
 
 

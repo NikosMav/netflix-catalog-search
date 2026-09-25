@@ -26,6 +26,14 @@
       "mrr": 0.4659
     },
     {
+      "method": "tf-idf(desc+plot)",
+      "recall@5": 0.3639,
+      "recall@10": 0.4722,
+      "ndcg@5": 0.3672,
+      "ndcg@10": 0.4038,
+      "mrr": 0.4956
+    },
+    {
       "method": "bm25",
       "recall@5": 0.5248,
       "recall@10": 0.5645,
@@ -42,6 +50,14 @@
       "mrr": 0.6002
     },
     {
+      "method": "bm25(desc+plot)",
+      "recall@5": 0.5069,
+      "recall@10": 0.6116,
+      "ndcg@5": 0.5093,
+      "ndcg@10": 0.5494,
+      "mrr": 0.5972
+    },
+    {
       "method": "dense(title+desc)",
       "recall@5": 0.5849,
       "recall@10": 0.6209,
@@ -56,6 +72,14 @@
       "ndcg@5": 0.5825,
       "ndcg@10": 0.6193,
       "mrr": 0.6786
+    },
+    {
+      "method": "dense(title+desc+plot)",
+      "recall@5": 0.5569,
+      "recall@10": 0.6506,
+      "ndcg@5": 0.5524,
+      "ndcg@10": 0.5738,
+      "mrr": 0.6376
     },
     {
       "method": "dense(title-only)",
