@@ -15,6 +15,7 @@ from retrieval.evaluate import (
     RERANK_CANDIDATE_K,
     build_methods,
     load_labeled_queries,
+    merge_metrics_preserving_existing,
     qualitative_failures,
     results_to_markdown,
     run_evaluation,
@@ -27,7 +28,8 @@ from retrieval.sparse import SparseTfidfRetriever
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
 METHOD_HELP = (
-    "boolean|tfidf|tfidf-meta|bm25|bm25-meta|dense|dense-meta|dense-title|"
+    "boolean|tfidf|tfidf-meta|tfidf-plot|bm25|bm25-meta|bm25-plot|"
+    "dense|dense-meta|dense-plot|dense-title|"
     "hybrid|hybrid-bm25|dense-rerank|hybrid-rerank"
 )
 
@@ -53,14 +55,20 @@ def _build_retriever(name: str, catalog, show_progress: bool = False):
         return SparseTfidfRetriever(catalog, text_field="text")
     if name in {"tfidf-meta", "tf-idf-meta", "tfidf(desc+meta)"}:
         return SparseTfidfRetriever(catalog, text_field="text_meta")
+    if name in {"tfidf-plot", "tf-idf-plot", "tfidf(desc+plot)"}:
+        return SparseTfidfRetriever(catalog, text_field="text_plot")
     if name in {"bm25"}:
         return BM25Retriever(catalog, text_field="text")
     if name in {"bm25-meta", "bm25(desc+meta)"}:
         return BM25Retriever(catalog, text_field="text_meta")
+    if name in {"bm25-plot", "bm25(desc+plot)"}:
+        return BM25Retriever(catalog, text_field="text_plot")
     if name in {"dense", "dense(title+desc)"}:
         return DenseRetriever(catalog, text_field="text", show_progress=show_progress)
     if name in {"dense-meta", "dense(title+desc+meta)"}:
         return DenseRetriever(catalog, text_field="text_meta", show_progress=show_progress)
+    if name in {"dense-plot", "dense(title+desc+plot)"}:
+        return DenseRetriever(catalog, text_field="text_plot", show_progress=show_progress)
     if name in {"dense-title", "dense(title-only)"}:
         return DenseRetriever(catalog, text_field="title_text", show_progress=show_progress)
     if name in {"hybrid", "hybrid(tfidf+dense)"}:
@@ -118,12 +126,38 @@ def cmd_query(args: argparse.Namespace) -> int:
 
 
 def cmd_eval(args: argparse.Namespace) -> int:
+    method_names = args.methods or None
     df = run_evaluation(
         labels_path=args.labels,
         csv_path=args.data,
         show_progress=not args.quiet,
         ks=tuple(args.ks),
+        method_names=method_names,
     )
+    if args.preserve_existing and Path(args.out).exists():
+        df = merge_metrics_preserving_existing(args.out, df)
+        # Keep plot ablations adjacent to their baselines in the table.
+        preferred = [
+            "boolean",
+            "tf-idf",
+            "tf-idf(desc+meta)",
+            "tf-idf(desc+plot)",
+            "bm25",
+            "bm25(desc+meta)",
+            "bm25(desc+plot)",
+            "dense(title+desc)",
+            "dense(title+desc+meta)",
+            "dense(title+desc+plot)",
+            "dense(title-only)",
+            "hybrid(tfidf+dense)",
+            "hybrid(bm25+dense,meta)",
+            "dense+rerank",
+            "hybrid+rerank",
+        ]
+        rank = {m: i for i, m in enumerate(preferred)}
+        df = df.assign(_ord=df["method"].map(lambda m: rank.get(m, 1000))).sort_values(
+            ["_ord", "method"]
+        ).drop(columns=["_ord"]).reset_index(drop=True)
     md = results_to_markdown(df)
     print(md)
     out = save_results(df, args.out)
@@ -157,7 +191,7 @@ def cmd_index(args: argparse.Namespace) -> int:
     """Precompute and cache dense embeddings for all text fields used in eval."""
     catalog = load_catalog(args.data)
     print(f"Indexing {len(catalog)} titles…")
-    for field in ("text", "text_meta", "title_text"):
+    for field in ("text", "text_meta", "text_plot", "title_text"):
         print(f"  embedding field={field}")
         DenseRetriever(catalog, text_field=field, show_progress=not args.quiet)
     print("Dense embedding caches ready under .cache/embeddings/")
@@ -195,6 +229,17 @@ def build_parser() -> argparse.ArgumentParser:
     e.add_argument("--labels", type=Path, default=None)
     e.add_argument("--out", type=Path, default=REPO_ROOT / "results" / "eval_metrics.json")
     e.add_argument("--ks", type=positive_int, nargs="+", default=[5, 10])
+    e.add_argument(
+        "--methods",
+        nargs="+",
+        default=None,
+        help="Optional subset of method display names (e.g. 'bm25(desc+plot)')",
+    )
+    e.add_argument(
+        "--preserve-existing",
+        action="store_true",
+        help="Merge into existing JSON, keeping prior method numbers unchanged",
+    )
     e.add_argument("--failures", action="store_true", help="Also write qualitative examples JSON")
     e.set_defaults(func=cmd_eval)
 

@@ -53,6 +53,11 @@ def _tiny_catalog() -> pd.DataFrame:
                 "Cooking Show Feel-good chefs compete in a cooking competition. Reality TV United Kingdom",
                 "Space Opera Starships battle across a galaxy far away. Sci-Fi & Fantasy United States",
             ],
+            "text_plot": [
+                "Vietnam War Doc A film about the war between Vietnam and the USA. Extended plot about Vietnam.",
+                "Cooking Show Feel-good chefs compete in a cooking competition.",
+                "Space Opera Starships battle across a galaxy far away.",
+            ],
             "title_text": ["Vietnam War Doc", "Cooking Show", "Space Opera"],
         }
     )

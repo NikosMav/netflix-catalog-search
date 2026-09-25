@@ -1,0 +1,32 @@
+{
+  "catalog": {
+    "n": 7787,
+    "with_plot": 3457,
+    "coverage": 0.4439,
+    "by_status": {
+      "not_found": 3752,
+      "matched": 3457,
+      "no_plot": 577,
+      "ambiguous": 1
+    },
+    "matched_by_confidence": {
+      "high": 2698,
+      "medium": 759
+    }
+  },
+  "gold": {
+    "n": 107,
+    "with_plot": 38,
+    "coverage": 0.3551,
+    "by_status": {
+      "not_found": 58,
+      "matched": 38,
+      "no_plot": 11
+    },
+    "matched_by_confidence": {
+      "high": 31,
+      "medium": 7
+    }
+  },
+  "gold_show_ids": 107
+}
