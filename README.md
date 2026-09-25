@@ -14,6 +14,7 @@ Wikipedia plot ablation), but no viewing history or collaborative-filtering sign
 - Metadata-field ablations and explicit first-stage/reranker wiring
 - Reproducible Recall, nDCG, and MRR evaluation
 - A command-line interface for querying, indexing, and evaluation
+- A local UI that explains each result from the model that ranked it
 - Model and embedding caches for repeatable local runs
 - Unit tests and lightweight CI without model downloads
 
@@ -77,6 +78,24 @@ The BM25, Boolean, and TF-IDF paths need no model download. The first dense or
 reranked query downloads the MiniLM bi-encoder and MS MARCO cross-encoder and
 caches catalog embeddings under `.cache/`.
 
+## Run the UI
+
+```bash
+pip install -e ".[ui]"
+streamlit run app/streamlit_app.py
+```
+
+![Search page with a per-result explanation](docs/ui-search.png)
+
+The app is a search page and an evaluation page. Search runs BM25, dense MiniLM,
+hybrid RRF, or hybrid plus cross-encoder rerank (the default). Open "Why this
+result?" on a hit for the score breakdown from that method. Evaluation reads the
+committed [`results/eval_metrics.json`](results/eval_metrics.json) and does not
+recompute it.
+
+The first dense or reranked search downloads the MiniLM models and caches
+embeddings under `.cache/`. Later runs stay on CPU.
+
 Precompute all dense indexes or regenerate evaluation artifacts:
 
 ```bash
@@ -100,6 +119,8 @@ Install the full exploratory-notebook stack with `pip install -r requirements.tx
 | Path | Purpose |
 | --- | --- |
 | `retrieval/` | Catalog loading, retrievers, reranker, metrics, and CLI |
+| `retrieval/explain.py` | Score explanations used by the UI |
+| `app/streamlit_app.py` | Local search and evaluation UI |
 | `tests/` | Fast unit and wiring tests |
 | `data/labeled_queries.json` | Evaluation queries and relevant show IDs |
 | `data/wikipedia_plots.jsonl` | Wikipedia plot enrichment (CC BY-SA) |
