@@ -41,6 +41,7 @@ enrich = [
   "requests>=2.28,<3",
 ]
 dev = ["pytest>=7.0,<9", "netflix-catalog-search[enrich]"]
+ui = ["streamlit>=1.50,<2"]
 all = ["netflix-catalog-search[notebook,dev]"]
 
 [project.scripts]
