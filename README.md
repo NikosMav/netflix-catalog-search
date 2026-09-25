@@ -5,8 +5,8 @@ Boolean retrieval, TF-IDF, BM25, dense embeddings, hybrid reciprocal rank fusion
 (RRF), and cross-encoder reranking on one labeled query set.
 
 This is a catalog-search project, not a personalized recommender: it uses title,
-description, genre, cast, director, and country metadata, but no viewing history or
-collaborative-filtering signals.
+description, genre, cast, director, and country metadata (plus an optional
+Wikipedia plot ablation), but no viewing history or collaborative-filtering signals.
 
 ## What this project demonstrates
 
@@ -41,10 +41,13 @@ truth and can be regenerated with `python -m retrieval eval`.
 | boolean | 0.3159 | 0.4012 | 0.3185 | 0.3527 | 0.4440 |
 | tf-idf | 0.4502 | 0.5446 | 0.4555 | 0.4912 | 0.5013 |
 | tf-idf(desc+meta) | 0.4192 | 0.5446 | 0.3875 | 0.4374 | 0.4659 |
+| tf-idf(desc+plot) | 0.3639 | 0.4722 | 0.3672 | 0.4038 | 0.4956 |
 | bm25 | 0.5248 | 0.5645 | 0.5167 | 0.5253 | 0.5637 |
 | bm25(desc+meta) | 0.5020 | 0.5524 | 0.5233 | 0.5353 | 0.6002 |
+| bm25(desc+plot) | 0.5069 | 0.6116 | 0.5093 | 0.5494 | 0.5972 |
 | dense(title+desc) | 0.5849 | 0.6209 | 0.5710 | 0.5656 | 0.6304 |
 | dense(title+desc+meta) | 0.5735 | 0.6856 | 0.5825 | 0.6193 | 0.6786 |
+| dense(title+desc+plot) | 0.5569 | 0.6506 | 0.5524 | 0.5738 | 0.6376 |
 | dense(title-only) | 0.4241 | 0.4499 | 0.4286 | 0.4269 | 0.5081 |
 | hybrid(tfidf+dense) | 0.5059 | 0.6922 | 0.4941 | 0.5626 | 0.5853 |
 | hybrid(bm25+dense,meta) | 0.6552 | 0.7421 | 0.6351 | 0.6605 | 0.7065 |
@@ -82,6 +85,14 @@ python -m retrieval eval --failures
 python scripts/sync_metrics_docs.py
 ```
 
+Wikipedia plot enrichment is already committed under `data/wikipedia_plots.jsonl`
+(CC BY-SA). To regenerate from the MediaWiki API:
+
+```bash
+pip install -e ".[enrich]"
+python scripts/enrich_wikipedia_plots.py
+```
+
 Install the full exploratory-notebook stack with `pip install -r requirements.txt`.
 
 ## Repository map
@@ -91,6 +102,7 @@ Install the full exploratory-notebook stack with `pip install -r requirements.tx
 | `retrieval/` | Catalog loading, retrievers, reranker, metrics, and CLI |
 | `tests/` | Fast unit and wiring tests |
 | `data/labeled_queries.json` | Evaluation queries and relevant show IDs |
+| `data/wikipedia_plots.jsonl` | Wikipedia plot enrichment (CC BY-SA) |
 | `results/` | Metrics and qualitative comparisons |
 | `RETRIEVAL.md` | Detailed retrieval case study |
 | `netflix_data_analysis.ipynb` | Original EDA and sparse-retrieval chapter |
@@ -112,3 +124,5 @@ Provenance and IMDb-join caveats are documented in [`data/README.md`](data/READM
 
 Code is released under the [MIT License](LICENSE.md). Netflix catalog content remains
 the property of Netflix; IMDb-derived data is subject to IMDb's non-commercial terms.
+Wikipedia plot text in [`data/wikipedia_plots.jsonl`](data/wikipedia_plots.jsonl) is
+[CC BY-SA 4.0](data/WIKIPEDIA_ATTRIBUTION.md).
