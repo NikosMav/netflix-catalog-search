@@ -52,32 +52,34 @@ Dev results, field ablations, pool and label counts, and the v1 table are in
 <!-- METRICS_TABLE_BEGIN -->
 | method | n_scored | recall@5 | recall@10 | ndcg@10 | mrr | nDCG@10 difference vs bm25 | 95% CI | sign-test p |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| boolean | 29 | 0.5259 | 0.5632 | 0.5151 | 0.5184 | -0.1301 | [-0.2494, -0.0355] | 0.14599609375 |
-| tf-idf | 29 | 0.5989 | 0.6477 | 0.5755 | 0.5917 | -0.0697 | [-0.1719, 0.0131] | 0.7744140625 |
-| bm25 | 29 | 0.6592 | 0.6966 | 0.6452 | 0.6759 | baseline |  |  |
-| dense(title+desc) | 29 | 0.6017 | 0.6603 | 0.5995 | 0.6003 | -0.0456 | [-0.1696, 0.0607] | 1.0 |
-| hybrid(bm25+dense,meta) | 29 | 0.6459 | 0.745 | 0.6754 | 0.6707 | 0.0302 | [-0.0994, 0.1483] | 0.60723876953125 |
-| hybrid+rerank | 29 | 0.8579 | 0.9037 | 0.8859 | 0.8908 | 0.2408 | [0.1269, 0.3676] | 0.0001220703125 |
+| boolean | 30 | 0.5362 | 0.5701 | 0.419 | 0.5299 | -0.125 | [-0.221, -0.0457] | 0.0025768280029296875 |
+| tf-idf | 30 | 0.5954 | 0.6437 | 0.4973 | 0.5986 | -0.0467 | [-0.1296, 0.0227] | 0.6900379657745361 |
+| bm25 | 30 | 0.6592 | 0.6937 | 0.544 | 0.6897 | baseline |  |  |
+| dense(title+desc) | 30 | 0.592 | 0.6517 | 0.5391 | 0.6003 | -0.0049 | [-0.1, 0.0783] | 0.711071103811264 |
+| hybrid(bm25+dense,meta) | 30 | 0.6431 | 0.7393 | 0.6202 | 0.6764 | 0.0763 | [-0.0109, 0.1656] | 0.16863754391670227 |
+| hybrid+rerank | 30 | 0.8493 | 0.9002 | 0.8094 | 0.8908 | 0.2655 | [0.1728, 0.3644] | 8.430331945419312e-06 |
 <!-- METRICS_TABLE_END -->
 
 <!-- EVAL_V2_NOTES_BEGIN -->
 Judge: LLM judge (grok-4.7 via Cursor cloud agent), blinded to system and rank.
 
-Test split: 30 queries, 29 scored for nDCG. Unscored for nDCG because the highest grade is 0: `regency_london_romance`.
+Test split: 30 queries, 30 scored for nDCG. Unscored for nDCG because the highest grade is 0: none. Unscored for recall and MRR because no grade is 2 or 3: `regency_london_romance`.
 
 Each interval is the paired bootstrap of the per-query ndcg@10 difference against `bm25`.
 
-`boolean` minus `bm25` mean ndcg@10 difference -0.1301 (0.95 paired bootstrap interval [-0.2494, -0.0355], entirely below 0; 10000 resamples, seed 20260928). Two-sided sign test p 0.14599609375 (+3 / −9 / ties 17, n=29).
+`boolean` minus `bm25` mean ndcg@10 difference -0.125 (0.95 paired bootstrap interval [-0.221, -0.0457], entirely below 0; 10000 resamples, seed 20260928). Two-sided sign test p 0.0025768280029296875 (+3 / −17 / ties 10, n=30).
 
-`tf-idf` minus `bm25` mean ndcg@10 difference -0.0697 (0.95 paired bootstrap interval [-0.1719, 0.0131], includes 0; 10000 resamples, seed 20260928). Two-sided sign test p 0.7744140625 (+5 / −7 / ties 17, n=29).
+`tf-idf` minus `bm25` mean ndcg@10 difference -0.0467 (0.95 paired bootstrap interval [-0.1296, 0.0227], includes 0; 10000 resamples, seed 20260928). Two-sided sign test p 0.6900379657745361 (+11 / −14 / ties 5, n=30).
 
-`dense(title+desc)` minus `bm25` mean ndcg@10 difference -0.0456 (0.95 paired bootstrap interval [-0.1696, 0.0607], includes 0; 10000 resamples, seed 20260928). Two-sided sign test p 1.0 (+6 / −7 / ties 16, n=29).
+`dense(title+desc)` minus `bm25` mean ndcg@10 difference -0.0049 (0.95 paired bootstrap interval [-0.1, 0.0783], includes 0; 10000 resamples, seed 20260928). Two-sided sign test p 0.711071103811264 (+16 / −13 / ties 1, n=30).
 
-`hybrid(bm25+dense,meta)` minus `bm25` mean ndcg@10 difference 0.0302 (0.95 paired bootstrap interval [-0.0994, 0.1483], includes 0; 10000 resamples, seed 20260928). Two-sided sign test p 0.60723876953125 (+9 / −6 / ties 14, n=29).
+`hybrid(bm25+dense,meta)` minus `bm25` mean ndcg@10 difference 0.0763 (0.95 paired bootstrap interval [-0.0109, 0.1656], includes 0; 10000 resamples, seed 20260928). Two-sided sign test p 0.16863754391670227 (+17 / −9 / ties 4, n=30).
 
-`hybrid+rerank` minus `bm25` mean ndcg@10 difference 0.2408 (0.95 paired bootstrap interval [0.1269, 0.3676], entirely above 0; 10000 resamples, seed 20260928). Two-sided sign test p 0.0001220703125 (+14 / −0 / ties 15, n=29).
+`hybrid+rerank` minus `bm25` mean ndcg@10 difference 0.2655 (0.95 paired bootstrap interval [0.1728, 0.3644], entirely above 0; 10000 resamples, seed 20260928). Two-sided sign test p 8.430331945419312e-06 (+27 / −3 / ties 0, n=30).
 
 Spot-check sample: 303 pairs from 3032 judged pairs (fraction 0.1, seed 20260930). Status: spot-check pending.
+
+Grade counts: 0=2096, 1=711, 2=40, 3=185. nDCG gain is 2^grade - 1. Recall and MRR count a title when its grade is at least 2.
 <!-- EVAL_V2_NOTES_END -->
 
 ## Quick start

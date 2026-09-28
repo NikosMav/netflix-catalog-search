@@ -87,25 +87,25 @@ A few committed labels were changed after the blinded judge batches. The list is
 | vietnam_war | s1570 | Da 5 Bloods | 1 | 0 | The blinded re-judge assigned grade 1. The carried decision stays not relevant: the card is a decades-later return for remains and gold, not the war itself. |
 <!-- EVAL_V2_OVERRIDES_END -->
 
-- **Recall@k** — fraction of labeled relevant titles found in the top k.
-- **MRR** — how early the first relevant title appears (1 means rank 1).
-- **nDCG@k** — ranking quality with binary gains.
+- **Recall@k** — fraction of titles graded 2 or 3 found in the top k.
+- **MRR** — how early the first title graded 2 or 3 appears (1 means rank 1).
+- **nDCG@k** — ranking quality with gain `2^grade - 1`.
 
 The blocks below are written by `python scripts/sync_metrics_docs.py`.
 
 ### Dev split
 
 <!-- EVAL_V2_DEV_BEGIN -->
-Dev split: 28 queries, 25 scored for nDCG. Unscored for nDCG because the highest grade is 0: `semantic_scandi_crime`, `anime_death_note`, `dark_german_series`. No test-set interval is computed on this split.
+Dev split: 28 queries, 28 scored for nDCG. Unscored for nDCG because the highest grade is 0: none. Unscored for recall and MRR because no grade is 2 or 3: `semantic_scandi_crime`, `anime_death_note`. No test-set interval is computed on this split.
 
 | method | n_scored | recall@5 | recall@10 | ndcg@10 | mrr |
 | --- | --- | --- | --- | --- | --- |
-| boolean | 25 | 0.2747 | 0.3942 | 0.3033 | 0.3674 |
-| tf-idf | 25 | 0.4969 | 0.5588 | 0.4744 | 0.5191 |
-| bm25 | 25 | 0.5422 | 0.5879 | 0.5291 | 0.6027 |
-| dense(title+desc) | 25 | 0.6552 | 0.7524 | 0.6744 | 0.716 |
-| hybrid(bm25+dense,meta) | 25 | 0.6999 | 0.7852 | 0.7205 | 0.7647 |
-| hybrid+rerank | 25 | 0.7575 | 0.8676 | 0.8138 | 0.8433 |
+| boolean | 28 | 0.2773 | 0.3828 | 0.4223 | 0.4204 |
+| tf-idf | 28 | 0.493 | 0.5429 | 0.577 | 0.5381 |
+| bm25 | 28 | 0.5584 | 0.6262 | 0.6161 | 0.634 |
+| dense(title+desc) | 28 | 0.6222 | 0.7105 | 0.7184 | 0.6917 |
+| hybrid(bm25+dense,meta) | 28 | 0.6833 | 0.7873 | 0.7609 | 0.7564 |
+| hybrid+rerank | 28 | 0.7375 | 0.8724 | 0.857 | 0.8494 |
 <!-- EVAL_V2_DEV_END -->
 
 ### Dev ablations
@@ -115,15 +115,15 @@ These runs are not in the headline table. They are scored on the dev split only.
 <!-- EVAL_V2_ABLATIONS_BEGIN -->
 | method | n_scored | recall@5 | recall@10 | ndcg@10 | mrr |
 | --- | --- | --- | --- | --- | --- |
-| tf-idf(desc+meta) | 25 | 0.4212 | 0.5407 | 0.4364 | 0.4827 |
-| tf-idf(desc+plot) | 25 | 0.3775 | 0.4842 | 0.4222 | 0.498 |
-| bm25(desc+meta) | 25 | 0.5632 | 0.68 | 0.5953 | 0.6284 |
-| bm25(desc+plot) | 25 | 0.5484 | 0.6245 | 0.5796 | 0.6683 |
-| dense(title+desc+meta) | 25 | 0.6853 | 0.7956 | 0.7189 | 0.7767 |
-| dense(title+desc+plot) | 25 | 0.6245 | 0.7085 | 0.636 | 0.6733 |
-| dense(title-only) | 25 | 0.4672 | 0.5234 | 0.498 | 0.59 |
-| hybrid(tfidf+dense) | 25 | 0.5985 | 0.7463 | 0.6113 | 0.6213 |
-| dense+rerank | 25 | 0.7129 | 0.8165 | 0.7762 | 0.8233 |
+| tf-idf(desc+meta) | 28 | 0.4154 | 0.5035 | 0.5033 | 0.4737 |
+| tf-idf(desc+plot) | 28 | 0.3321 | 0.5155 | 0.4442 | 0.4459 |
+| bm25(desc+meta) | 28 | 0.5398 | 0.6514 | 0.6428 | 0.6508 |
+| bm25(desc+plot) | 28 | 0.5505 | 0.6555 | 0.5882 | 0.6426 |
+| dense(title+desc+meta) | 28 | 0.6425 | 0.7463 | 0.7352 | 0.7532 |
+| dense(title+desc+plot) | 28 | 0.5962 | 0.6595 | 0.6668 | 0.6506 |
+| dense(title-only) | 28 | 0.4473 | 0.5033 | 0.5462 | 0.5908 |
+| hybrid(tfidf+dense) | 28 | 0.5766 | 0.7457 | 0.692 | 0.6125 |
+| dense+rerank | 28 | 0.6525 | 0.7719 | 0.8016 | 0.7917 |
 <!-- EVAL_V2_ABLATIONS_END -->
 
 ### Labels, pool, and spot-check
@@ -133,13 +133,15 @@ Candidates are the union of each system's top of the pool, including the ablatio
 <!-- EVAL_V2_STATS_BEGIN -->
 Pool depth 10 across 15 systems and 58 queries (3032 candidate slots; 21 to 76 unique titles per query).
 
-Dev labels: 126 pairs graded 2 or 3 out of 1276 judged pairs (25 of 28 queries have a grade of 2 or 3).
+Dev labels: 139 pairs graded 2 or 3 out of 1276 judged pairs (26 of 28 queries have a grade of 2 or 3).
 
-Test labels: 81 pairs graded 2 or 3 out of 1756 judged pairs (29 of 30 queries have a grade of 2 or 3).
+Test labels: 86 pairs graded 2 or 3 out of 1756 judged pairs (29 of 30 queries have a grade of 2 or 3).
 
-v2-relevant dev titles absent from that query's v1 relevant set: 73.
+v2-relevant dev titles absent from that query's v1 relevant set: 87.
 
 Spot-check sample: 303 pairs from 3032 judged pairs (fraction 0.1, seed 20260930). Status: spot-check pending.
+
+Grade counts: 0=2096, 1=711, 2=40, 3=185. nDCG gain is 2^grade - 1. Recall and MRR count a title when its grade is at least 2.
 <!-- EVAL_V2_STATS_END -->
 
 Nikos can label the sample without seeing the model judgment. The CLI and the Streamlit spot-check page both write `data/eval_v2/spotcheck_human.json`. Neither shows the model label.
