@@ -72,3 +72,12 @@ def test_labeled_query_blob_unchanged():
     assert digest == "f70b57ef5f99e871915a94062b1f1e0c4dac0b51"
     data = json.loads(path.read_text(encoding="utf-8"))
     assert len(data["queries"]) == 28
+
+
+def test_v1_eval_metrics_blob_unchanged():
+    """Legacy metrics file must remain byte-identical to the committed blob."""
+    import subprocess
+
+    path = Path(__file__).resolve().parents[1] / "results" / "eval_metrics.json"
+    digest = subprocess.check_output(["git", "hash-object", str(path)], text=True).strip()
+    assert digest == "3029fdcc055763a26d4f9c45a92c5d53dc05a075"

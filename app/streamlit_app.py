@@ -28,7 +28,7 @@ st.set_page_config(page_title="Netflix catalog search", layout="centered")
 
 from retrieval.catalog import load_catalog, show_id_to_index
 from retrieval.cli import _build_retriever
-from retrieval.evaluate import RERANK_CANDIDATE_K, load_labeled_queries
+from retrieval.evaluate import RERANK_CANDIDATE_K
 from retrieval.explain import explain_results, highlight_html, how_it_works, metric_notes
 
 METHODS = [
@@ -195,9 +195,27 @@ def render_search() -> None:
         render_result_list(saved["query"], saved["method_id"], saved["hits"], saved["explanations"])
 
 
-def _metrics_payload() -> dict:
-    path = ROOT / "results" / "eval_metrics.json"
+def _v2_metrics() -> dict:
+    path = ROOT / "results" / "eval_v2" / "metrics.json"
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def _v2_queries(split: str) -> list[dict]:
+    path = ROOT / "data" / "eval_v2" / f"{split}_labels.json"
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    return payload["queries"]
+
+
+def _label_spotcheck(sample_id: str, relevant: bool) -> None:
+    import importlib.util
+
+    path = ROOT / "scripts" / "eval_v2_spotcheck.py"
+    spec = importlib.util.spec_from_file_location("eval_v2_spotcheck", path)
+    if spec is None or spec.loader is None:
+        raise RuntimeError(f"Could not load {path}")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    module.label_pair(sample_id, relevant)
 
 
 def render_chart(frame: pd.DataFrame) -> None:
@@ -231,15 +249,15 @@ def render_chart(frame: pd.DataFrame) -> None:
     st.altair_chart(chart, width="stretch")
 
 
-def render_labeled_query() -> None:
+def render_labeled_query(split: str) -> None:
     st.subheader("Try a labeled query")
     st.caption(
-        "Gold titles were marked relevant by the author of the query file. "
+        "Relevant titles are the v2 labels for this split. "
         "This list is that method's ranking."
     )
-    queries = load_labeled_queries()
-    labels = [item["query"] for item in queries]
-    selected = st.selectbox("Labeled query", labels, key="eval_query")
+    queries = _v2_queries(split)
+    labels = [f"{item['id']}: {item['query']}" for item in queries]
+    selected = st.selectbox("Labeled query", labels, key=f"eval_query_{split}")
     bm25_index = next(i for i, (method_id, _label) in enumerate(METHODS) if method_id == "bm25")
     method_label = st.selectbox(
         "Method",
@@ -248,7 +266,7 @@ def render_labeled_query() -> None:
         key="eval_method",
     )
     if st.button("Show ranking"):
-        item = next(query for query in queries if query["query"] == selected)
+        item = next(query for query in queries if f"{query['id']}: {query['query']}" == selected)
         method_id = METHOD_IDS[method_label]
         try:
             hits, explanations = _search(method_id, item["query"], top_k=10)
@@ -256,6 +274,7 @@ def render_labeled_query() -> None:
             st.error(f"Search failed: {exc}")
         else:
             st.session_state["eval_run"] = {
+                "split": split,
                 "query": item["query"],
                 "method_id": method_id,
                 "relevant": [str(sid) for sid in item["relevant_show_ids"]],
@@ -264,7 +283,7 @@ def render_labeled_query() -> None:
             }
 
     saved = st.session_state.get("eval_run")
-    if not saved:
+    if not saved or saved.get("split") != split:
         return
     relevant = set(saved["relevant"])
     hits = saved["hits"]
@@ -290,26 +309,116 @@ def render_labeled_query() -> None:
     )
 
 
-def render_eval() -> None:
-    st.subheader("Evaluation")
-    payload = _metrics_payload()
-    n_queries = int(payload["n_queries"])
-    st.markdown(metric_notes(n_queries))
-    st.caption("Source: results/eval_metrics.json. The app does not recompute these averages.")
-    frame = pd.DataFrame(payload["metrics"])
+def _format_cell(value: object) -> str:
+    if value is None or (isinstance(value, float) and pd.isna(value)):
+        return ""
+    if isinstance(value, bool):
+        return str(value)
+    if isinstance(value, int):
+        return str(value)
+    if isinstance(value, float):
+        return json.dumps(value)
+    return str(value)
+
+
+def _format_metrics(frame: pd.DataFrame) -> pd.DataFrame:
     display = frame.copy()
     for column in display.columns:
         if column == "method":
             continue
-        display[column] = display[column].map(lambda value: f"{float(value):.4f}")
+        display[column] = display[column].map(_format_cell)
+    return display
+
+
+def render_eval() -> None:
+    st.subheader("Evaluation")
+    payload = _v2_metrics()
+    split = st.radio("Split", ["test", "dev"], horizontal=True, key="eval_split")
+    block = payload[split]
+    systems = pd.DataFrame(block["systems"])
+    n_scored = int(systems["n_scored"].iloc[0])
+    st.markdown(metric_notes(n_scored))
+    st.caption(
+        f"{split} split: {int(block['n_queries'])} queries, {n_scored} scored. "
+        f"Judge: {payload['judge']}. "
+        "Source: results/eval_v2/metrics.json. The app does not recompute these averages."
+    )
+    show = systems[["method", "n_scored", *CHART_LABELS.keys()]]
     st.dataframe(
-        display.rename(columns=TABLE_LABELS),
+        _format_metrics(show).rename(columns=TABLE_LABELS),
         hide_index=True,
         width="stretch",
-        height=36 * (len(display) + 1),
+        height=36 * (len(show) + 1),
     )
-    render_chart(frame)
-    render_labeled_query()
+    render_chart(systems)
+    if split == "test":
+        st.subheader("Difference vs BM25")
+        comparisons = pd.DataFrame(block["comparisons_vs_bm25"])
+        keep = [
+            "method",
+            "n",
+            "mean_difference",
+            "ci_low",
+            "ci_high",
+            "sign_p_value",
+            "sign_n_positive",
+            "sign_n_negative",
+            "sign_n_ties",
+        ]
+        st.dataframe(_format_metrics(comparisons[keep]), hide_index=True, width="stretch")
+        st.caption(
+            "Paired bootstrap interval for the mean nDCG@10 difference "
+            "(system minus BM25) on the scored test queries, and a two-sided sign test."
+        )
+    else:
+        st.subheader("Dev ablations")
+        ablations = pd.DataFrame(block["ablations"])
+        show_ablations = ablations[["method", "n_scored", *CHART_LABELS.keys()]]
+        st.dataframe(
+            _format_metrics(show_ablations).rename(columns=TABLE_LABELS),
+            hide_index=True,
+            width="stretch",
+            height=36 * (len(show_ablations) + 1),
+        )
+    render_labeled_query(split)
+
+
+def _human_labels() -> dict[str, bool]:
+    path = ROOT / "data" / "eval_v2" / "spotcheck_human.json"
+    if not path.exists():
+        return {}
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    return {row["sample_id"]: bool(row["relevant"]) for row in payload.get("labels", [])}
+
+
+def render_spotcheck() -> None:
+    st.subheader("Spot-check")
+    sample = json.loads((ROOT / "data" / "eval_v2" / "spotcheck_sample.json").read_text(encoding="utf-8"))
+    labeled = _human_labels()
+    pending = [pair for pair in sample["pairs"] if pair["sample_id"] not in labeled]
+    st.caption(f"Status: {sample['status']}. {len(labeled)} labeled, {len(pending)} still open.")
+    st.caption("This page does not show the model judgment.")
+    if not pending:
+        st.info("The sample is labeled. Run python scripts/eval_v2_agreement.py for agreement and kappa.")
+        return
+    card = pending[0]
+    st.markdown(f"**Query:** {card['query']}")
+    year = card.get("release_year", "")
+    st.markdown(f"**{card['title']}**")
+    st.caption(f"{card.get('type', '')} · {year} · {card.get('listed_in', '')}")
+    if card.get("director"):
+        st.caption(f"Director: {card['director']}")
+    if card.get("cast"):
+        st.caption(f"Cast: {card['cast']}")
+    st.write(card.get("description") or "")
+    st.caption(f"sample_id: {card['sample_id']}")
+    relevant, not_relevant = st.columns(2)
+    if relevant.button("Relevant", type="primary"):
+        _label_spotcheck(card["sample_id"], True)
+        st.rerun()
+    if not_relevant.button("Not relevant"):
+        _label_spotcheck(card["sample_id"], False)
+        st.rerun()
 
 
 def render_how() -> None:
@@ -328,11 +437,13 @@ def main() -> None:
     )
     st.title("Netflix catalog search")
     st.caption("Offline text search over the public Netflix titles catalog.")
-    page = st.sidebar.radio("Page", ["Search", "Evaluation"])
+    page = st.sidebar.radio("Page", ["Search", "Evaluation", "Spot-check"])
     if page == "Search":
         render_search()
-    else:
+    elif page == "Evaluation":
         render_eval()
+    else:
+        render_spotcheck()
     render_how()
 
 

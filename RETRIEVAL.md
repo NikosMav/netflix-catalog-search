@@ -8,7 +8,7 @@ The older EDA + Boolean/TF-IDF notebook remains: [`netflix_data_analysis.ipynb`]
 
 ## Problem
 
-Given a natural-language query, rank Netflix catalog rows by text similarity. Compare classical sparse methods, dense embeddings, hybrid fusion, and a CPU cross-encoder reranker on the **same** 28 labeled queries.
+Given a natural-language query, rank Netflix catalog rows by text similarity. Compare classical sparse methods, dense embeddings, hybrid fusion, and a CPU cross-encoder reranker. Evaluation v2 splits those comparisons into a dev set and a held-out test set.
 
 ## Method
 
@@ -47,57 +47,129 @@ python -m retrieval query "war between vietnam and usa" --method bm25 --top-k 10
 python -m retrieval query "feel-good cooking competition show" --method dense-rerank
 python -m retrieval query "dark crime thriller set in Scandinavia" --method hybrid-rerank
 
-# Regenerate the metrics table from a clean checkout
-python -m retrieval eval --failures
-# → results/eval_metrics.json  (+ qualitative_examples.json)
+# Regenerate v2 metrics (downloads MiniLM; not part of CI), then refresh the docs
+python scripts/run_eval_v2.py
+python scripts/sync_metrics_docs.py
+# Legacy v1 file, still produced by:
+# python -m retrieval eval --failures  → results/eval_metrics.json
 ```
 
 First dense / rerank run downloads MiniLM bi-encoder (~80MB) and the ms-marco cross-encoder (~80MB), then embeds ~7.8k titles (a few minutes on CPU). Caches under `.cache/`.
 
 Optional OpenAI embeddings: `DenseRetriever(backend="openai")` + `OPENAI_API_KEY` (not required).
 
-## Results (28 hand-labeled queries)
+## Evaluation v2
 
-Labels: [`data/labeled_queries.json`](data/labeled_queries.json) — author judgments with `relevant_show_ids` from this dump. Binary relevance. **Same 28 queries** (unchanged gold set). Metrics from `python -m retrieval eval`; committed [`results/eval_metrics.json`](results/eval_metrics.json) is the source of truth. **n=28, author labels — no confidence intervals.**
+Protocol: [`configs/eval_v2.yaml`](configs/eval_v2.yaml), committed before the test split was scored. Rubric: [`docs/eval_v2_rubric.md`](docs/eval_v2_rubric.md). Headline numbers for the test split are in the README. This section is the dev split, the ablations, and the legacy v1 table.
 
-`hybrid+rerank` = cross-encoder over **`hybrid(bm25+dense,meta)`** (BM25 + dense on `text_meta`), not over `hybrid(tfidf+dense)`.
+`hybrid+rerank` is the cross-encoder over `hybrid(bm25+dense,meta)` (BM25 + dense on `text_meta`), not over `hybrid(tfidf+dense)`.
 
-<!-- METRICS_TABLE_BEGIN -->
+The reported systems were frozen before the test run. What was tuned on the dev query texts used the earlier v1 labels for those texts, not the v2 judgments, and was not re-selected afterward:
+
+- The headline hybrid first stage is BM25 + dense MiniLM on `text_meta`. TF-IDF + dense on title and description stays an ablation.
+- The headline reranker rescores that hybrid's candidate pool. Dense-only rerank stays an ablation.
+- Reported dense retrieval is title + description. Metadata and plot dense indexes stay ablations.
+- The BM25 baseline is title + description, not the metadata or plot BM25 ablation.
+- BM25 `k1` and `b`, RRF `k`, and the TF-IDF feature cap are library defaults. They were not grid-searched.
+
+The judge is named in the metrics JSON: an LLM judge (grok-4.7 via Cursor cloud agent), blinded to system and rank. Each decision used the query and the candidate card only. Queries with an empty relevant set stay in the per-query file and are left out of the means.
+
+- **Recall@k** — fraction of labeled relevant titles found in the top k.
+- **MRR** — how early the first relevant title appears (1 means rank 1).
+- **nDCG@k** — ranking quality with binary gains.
+
+The blocks below are written by `python scripts/sync_metrics_docs.py`.
+
+### Dev split
+
+<!-- EVAL_V2_DEV_BEGIN -->
+Dev split: 28 queries, 25 scored. Unscored because the relevant set is empty: `semantic_scandi_crime`, `anime_death_note`, `dark_german_series`. No test-set interval is computed on this split.
+
+| method | n_scored | recall@5 | recall@10 | ndcg@10 | mrr |
+| --- | --- | --- | --- | --- | --- |
+| boolean | 25 | 0.2747 | 0.3942 | 0.3033 | 0.3674 |
+| tf-idf | 25 | 0.4969 | 0.5588 | 0.4744 | 0.5191 |
+| bm25 | 25 | 0.5422 | 0.5879 | 0.5291 | 0.6027 |
+| dense(title+desc) | 25 | 0.6552 | 0.7524 | 0.6744 | 0.716 |
+| hybrid(bm25+dense,meta) | 25 | 0.6999 | 0.7852 | 0.7205 | 0.7647 |
+| hybrid+rerank | 25 | 0.7575 | 0.8676 | 0.8138 | 0.8433 |
+<!-- EVAL_V2_DEV_END -->
+
+### Dev ablations
+
+These runs are not in the headline table. They are scored on the dev split only. Metadata and Wikipedia plot text are mixed: compare each ablation row with the reported system that uses title and description. Plot match coverage is recorded in [`data/wikipedia_plots_coverage.json`](data/wikipedia_plots_coverage.json).
+
+<!-- EVAL_V2_ABLATIONS_BEGIN -->
+| method | n_scored | recall@5 | recall@10 | ndcg@10 | mrr |
+| --- | --- | --- | --- | --- | --- |
+| tf-idf(desc+meta) | 25 | 0.4212 | 0.5407 | 0.4364 | 0.4827 |
+| tf-idf(desc+plot) | 25 | 0.3775 | 0.4842 | 0.4222 | 0.498 |
+| bm25(desc+meta) | 25 | 0.5632 | 0.68 | 0.5953 | 0.6284 |
+| bm25(desc+plot) | 25 | 0.5484 | 0.6245 | 0.5796 | 0.6683 |
+| dense(title+desc+meta) | 25 | 0.6853 | 0.7956 | 0.7189 | 0.7767 |
+| dense(title+desc+plot) | 25 | 0.6245 | 0.7085 | 0.636 | 0.6733 |
+| dense(title-only) | 25 | 0.4672 | 0.5234 | 0.498 | 0.59 |
+| hybrid(tfidf+dense) | 25 | 0.5985 | 0.7463 | 0.6113 | 0.6213 |
+| dense+rerank | 25 | 0.7129 | 0.8165 | 0.7762 | 0.8233 |
+<!-- EVAL_V2_ABLATIONS_END -->
+
+### Labels, pool, and spot-check
+
+Candidates are the union of each system's top of the pool, including the ablations, shuffled without system names, ranks, scores, or v1 labels.
+
+<!-- EVAL_V2_STATS_BEGIN -->
+Pool depth 10 across 15 systems and 58 queries (3032 candidate slots; 21 to 76 unique titles per query).
+
+Dev labels: 126 relevant pairs out of 1276 judged pairs (25 of 28 queries have a relevant title).
+
+Test labels: 81 relevant pairs out of 1756 judged pairs (29 of 30 queries have a relevant title).
+
+v2-relevant dev titles absent from that query's v1 relevant set: 73.
+
+Spot-check sample: 303 pairs from 3032 judged pairs (fraction 0.1, seed 20260930). Status: spot-check pending.
+<!-- EVAL_V2_STATS_END -->
+
+Nikos can label the sample without seeing the model judgment. The CLI and the Streamlit spot-check page both write `data/eval_v2/spotcheck_human.json`. Neither shows the model label.
+
+```bash
+python scripts/eval_v2_spotcheck.py show
+python scripts/eval_v2_spotcheck.py label <sample_id> --relevant
+python scripts/eval_v2_spotcheck.py label <sample_id> --not-relevant
+python scripts/eval_v2_agreement.py
+```
+
+Until that human file has labels, the agreement file says spot-check pending. Do not fill the human file in as the model.
+
+### Limits
+
+The splits are small, the judge is an LLM, and the queries were written by the project author and agent rather than drawn from a search log. A difference whose interval includes 0 is not a stable gain over BM25 on this test set. Hybrid RRF was not re-chosen after the test run. Read the test intervals in the README before treating a hybrid row as better than BM25.
+
+## v1 (legacy)
+
+v1 scored every ablation on the same queries that were used to choose the headline configuration. There is no held-out split and no interval in that file. [`data/labeled_queries.json`](data/labeled_queries.json) and [`results/eval_metrics.json`](results/eval_metrics.json) are unchanged and are not the v2 labels.
+
+<!-- V1_METRICS_TABLE_BEGIN -->
+v1 scored 28 queries. This table is the legacy file, not the v2 test result.
+
 | method | recall@5 | recall@10 | ndcg@5 | ndcg@10 | mrr |
 | --- | --- | --- | --- | --- | --- |
-| boolean | 0.3159 | 0.4012 | 0.3185 | 0.3527 | 0.4440 |
+| boolean | 0.3159 | 0.4012 | 0.3185 | 0.3527 | 0.444 |
 | tf-idf | 0.4502 | 0.5446 | 0.4555 | 0.4912 | 0.5013 |
 | tf-idf(desc+meta) | 0.4192 | 0.5446 | 0.3875 | 0.4374 | 0.4659 |
 | tf-idf(desc+plot) | 0.3639 | 0.4722 | 0.3672 | 0.4038 | 0.4956 |
 | bm25 | 0.5248 | 0.5645 | 0.5167 | 0.5253 | 0.5637 |
-| bm25(desc+meta) | 0.5020 | 0.5524 | 0.5233 | 0.5353 | 0.6002 |
+| bm25(desc+meta) | 0.502 | 0.5524 | 0.5233 | 0.5353 | 0.6002 |
 | bm25(desc+plot) | 0.5069 | 0.6116 | 0.5093 | 0.5494 | 0.5972 |
-| dense(title+desc) | 0.5849 | 0.6209 | 0.5710 | 0.5656 | 0.6304 |
+| dense(title+desc) | 0.5849 | 0.6209 | 0.571 | 0.5656 | 0.6304 |
 | dense(title+desc+meta) | 0.5735 | 0.6856 | 0.5825 | 0.6193 | 0.6786 |
 | dense(title+desc+plot) | 0.5569 | 0.6506 | 0.5524 | 0.5738 | 0.6376 |
 | dense(title-only) | 0.4241 | 0.4499 | 0.4286 | 0.4269 | 0.5081 |
 | hybrid(tfidf+dense) | 0.5059 | 0.6922 | 0.4941 | 0.5626 | 0.5853 |
 | hybrid(bm25+dense,meta) | 0.6552 | 0.7421 | 0.6351 | 0.6605 | 0.7065 |
-| dense+rerank | 0.6167 | 0.7062 | 0.6179 | 0.6469 | 0.6930 |
+| dense+rerank | 0.6167 | 0.7062 | 0.6179 | 0.6469 | 0.693 |
 | hybrid+rerank | 0.7001 | 0.7817 | 0.6958 | 0.7185 | 0.7583 |
-<!-- METRICS_TABLE_END -->
+<!-- V1_METRICS_TABLE_END -->
 
-Numbers above match [`results/eval_metrics.json`](results/eval_metrics.json) from the last `python -m retrieval eval` run. After changing retrieval wiring, re-run eval (and `python scripts/sync_metrics_docs.py`) before quoting headline numbers.
-
-### What the numbers mean
-
-- **Recall@k** — fraction of labeled relevant titles found in the top-k.
-- **MRR** — how early the first relevant title appears (1 = rank 1).
-- **nDCG@k** — ranking quality with binary gains (order matters).
-
-### Takeaways (honest)
-
-1. **BM25 beats Boolean and TF-IDF** on this set (R@5 0.52 vs 0.32 / 0.45). Boolean Jaccard was a coarse demo baseline; BM25 is the proper lexical comparator.
-2. **Metadata is mixed, not free lift.** Appending genre/cast/director/country *hurts* TF-IDF early ranks (cast-name noise) and slightly lowers BM25/dense Recall@5, but **helps dense Recall@10 and MRR**. Genre tokens help topical recall; long cast strings dilute sparse IDF.
-3. **Wikipedia plot text is also mixed.** On the same 28 queries, `text_plot` (title+description+plot when matched) **hurts TF-IDF** (R@5 0.3639 vs 0.4502) and slightly lowers BM25/dense Recall@5, while **lifting BM25 Recall@10** (0.6116 vs 0.5645) and dense Recall@10 (0.6506 vs 0.6209). Only **38/107** gold titles received plot text (catalog match rate ~44%); longer plots can dilute short query overlap and MiniLM truncates long inputs. Plot enrichment is not free lift on this set.
-4. **Cross-encoder rerank lifts early ranks** over a fixed top-50 pool. Headline path: `hybrid+rerank` = CE over `hybrid(bm25+dense,meta)` (R@5 0.7001 / R@10 0.7817 / MRR 0.7583 on this set).
-5. **Strong first-stage fusion still matters.** `hybrid(bm25+dense,meta)` already beats `hybrid(tfidf+dense)` on every metric before any CE pass.
-6. Gains are real but **set-specific** — 28 author-labeled queries, not a public IR benchmark. Catalog search ≠ recommender.
 ## Ablations & failure cases
 
 ### Dense / rerank wins (paraphrase)
@@ -131,8 +203,10 @@ Full side-by-side dumps: [`results/qualitative_examples.json`](results/qualitati
 | `retrieval/bm25.py` | BM25 Okapi baseline |
 | `retrieval/rerank.py` | Cross-encoder second stage |
 | `data/netflix_titles.csv` | Catalog |
-| `data/labeled_queries.json` | Eval labels (show_ids) — **unchanged 28 queries** |
-| `results/` | Regenerated metrics + qualitative JSON |
+| `data/labeled_queries.json` | v1 labels, kept byte-identical |
+| `data/eval_v2/` | v2 queries, blinded pools, judgments, spot-check sample |
+| `results/eval_metrics.json` | v1 metrics, kept byte-identical |
+| `results/eval_v2/` | v2 metrics and spot-check agreement |
 | `netflix_data_analysis.ipynb` | Original EDA + Boolean/TF-IDF showcase |
 | `netflix_dense_retrieval.ipynb` | Optional walkthrough notebook |
 
@@ -140,8 +214,8 @@ Full side-by-side dumps: [`results/qualitative_examples.json`](results/qualitati
 
 - **Catalog search ≠ recommender.** No watch history, no CF, no popularity re-rank.
 - **Not web RAG.** No chunking of long docs, no tool-using agent, no generation.
-- **Tiny labeled set.** 28 author queries; useful for honesty, not SOTA claims.
-- **Binary labels only.** No graded relevance → nDCG uses 0/1 gains.
+- **Small labeled splits, an LLM judge, and queries written for this project.** Useful for honesty, not a public IR benchmark. The human spot-check is pending.
+- **Binary labels only.** No graded relevance, so nDCG uses 0/1 gains. Queries with an empty relevant set are omitted from the means and the paired tests.
 - **Short marketing blurbs.** Bad descriptions limit every method; metadata helps unevenly.
   Wikipedia plot enrichment (`text_plot`) is an optional ablation — match errors and missing
   pages remain a caveat (see coverage JSON).

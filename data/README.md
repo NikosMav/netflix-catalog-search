@@ -34,7 +34,11 @@ curl -fsSL -o /tmp/title.ratings.tsv.gz https://datasets.imdbws.com/title.rating
 
 ## `labeled_queries.json`
 
-Hand-authored retrieval evaluation set (**28 queries**) with binary `relevant_show_ids` from `netflix_titles.csv`. Used by `python -m retrieval eval`. Author judgments for catalog search — not crowd-sourced, not personalization labels.
+v1 (legacy) retrieval labels. The file stays byte-identical. `python -m retrieval eval` still reads it. Those relevance ids are not the v2 judgments.
+
+## `eval_v2/`
+
+Held-out test queries, dev labels, blinded candidate cards, binary judgments, and the spot-check sample. Counts and scores are in `results/eval_v2/metrics.json`, copied into the docs by `python scripts/sync_metrics_docs.py`. The spot-check sample has no model label. Human labels belong in `spotcheck_human.json` only after a person marks them. Until then, agreement stays spot-check pending.
 
 ## `wikipedia_plots.jsonl`
 

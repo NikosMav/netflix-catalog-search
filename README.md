@@ -2,7 +2,7 @@
 
 Offline text search over a public Netflix title catalog. The project compares
 Boolean retrieval, TF-IDF, BM25, dense embeddings, hybrid reciprocal rank fusion
-(RRF), and cross-encoder reranking on one labeled query set.
+(RRF), and cross-encoder reranking on a dev split and a held-out test split.
 
 This is a catalog-search project, not a personalized recommender: it uses title,
 description, genre, cast, director, and country metadata (plus an optional
@@ -32,33 +32,52 @@ cross-encoder then spends more compute only on the strongest candidates.
 
 ## Results
 
-Metrics come from 28 author-labeled queries with binary relevance judgments. The
-committed [`results/eval_metrics.json`](results/eval_metrics.json) is the source of
-truth and can be regenerated with `python -m retrieval eval`.
+The headline table is the held-out **test** split. The reported systems, the BM25
+baseline, Recall@5, Recall@10, nDCG@10, MRR, and the paired bootstrap and sign
+test were declared in [`configs/eval_v2.yaml`](configs/eval_v2.yaml) before that
+split was scored. `hybrid+rerank` is cross-encoder reranking over
+`hybrid(bm25+dense,meta)`.
+
+Judgments are binary. The judge saw a shuffled candidate card (title, type, year,
+genres, cast, director, description) and did not see system names, ranks, scores,
+or the older labels. Queries on both splits were written for this project. The
+dev split reuses the earlier query texts with new labels. The human spot-check of
+the judge is not filled in.
+
+Dev results, field ablations, pool and label counts, and the v1 table are in
+[`RETRIEVAL.md`](RETRIEVAL.md). The blocks below are written by
+`python scripts/sync_metrics_docs.py` from the committed JSON.
 
 <!-- METRICS_TABLE_BEGIN -->
-| method | recall@5 | recall@10 | ndcg@5 | ndcg@10 | mrr |
-| --- | --- | --- | --- | --- | --- |
-| boolean | 0.3159 | 0.4012 | 0.3185 | 0.3527 | 0.4440 |
-| tf-idf | 0.4502 | 0.5446 | 0.4555 | 0.4912 | 0.5013 |
-| tf-idf(desc+meta) | 0.4192 | 0.5446 | 0.3875 | 0.4374 | 0.4659 |
-| tf-idf(desc+plot) | 0.3639 | 0.4722 | 0.3672 | 0.4038 | 0.4956 |
-| bm25 | 0.5248 | 0.5645 | 0.5167 | 0.5253 | 0.5637 |
-| bm25(desc+meta) | 0.5020 | 0.5524 | 0.5233 | 0.5353 | 0.6002 |
-| bm25(desc+plot) | 0.5069 | 0.6116 | 0.5093 | 0.5494 | 0.5972 |
-| dense(title+desc) | 0.5849 | 0.6209 | 0.5710 | 0.5656 | 0.6304 |
-| dense(title+desc+meta) | 0.5735 | 0.6856 | 0.5825 | 0.6193 | 0.6786 |
-| dense(title+desc+plot) | 0.5569 | 0.6506 | 0.5524 | 0.5738 | 0.6376 |
-| dense(title-only) | 0.4241 | 0.4499 | 0.4286 | 0.4269 | 0.5081 |
-| hybrid(tfidf+dense) | 0.5059 | 0.6922 | 0.4941 | 0.5626 | 0.5853 |
-| hybrid(bm25+dense,meta) | 0.6552 | 0.7421 | 0.6351 | 0.6605 | 0.7065 |
-| dense+rerank | 0.6167 | 0.7062 | 0.6179 | 0.6469 | 0.6930 |
-| hybrid+rerank | 0.7001 | 0.7817 | 0.6958 | 0.7185 | 0.7583 |
+| method | n_scored | recall@5 | recall@10 | ndcg@10 | mrr | nDCG@10 difference vs bm25 | 95% CI | sign-test p |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| boolean | 29 | 0.5259 | 0.5632 | 0.5151 | 0.5184 | -0.1301 | [-0.2494, -0.0355] | 0.14599609375 |
+| tf-idf | 29 | 0.5989 | 0.6477 | 0.5755 | 0.5917 | -0.0697 | [-0.1719, 0.0131] | 0.7744140625 |
+| bm25 | 29 | 0.6592 | 0.6966 | 0.6452 | 0.6759 | baseline |  |  |
+| dense(title+desc) | 29 | 0.6017 | 0.6603 | 0.5995 | 0.6003 | -0.0456 | [-0.1696, 0.0607] | 1.0 |
+| hybrid(bm25+dense,meta) | 29 | 0.6459 | 0.745 | 0.6754 | 0.6707 | 0.0302 | [-0.0994, 0.1483] | 0.60723876953125 |
+| hybrid+rerank | 29 | 0.8579 | 0.9037 | 0.8859 | 0.8908 | 0.2408 | [0.1269, 0.3676] | 0.0001220703125 |
 <!-- METRICS_TABLE_END -->
 
-`hybrid+rerank` means cross-encoder reranking over
-`hybrid(bm25+dense,meta)`. Full method notes, qualitative examples, and failure
-analysis are in [`RETRIEVAL.md`](RETRIEVAL.md).
+<!-- EVAL_V2_NOTES_BEGIN -->
+Judge: LLM judge (grok-4.7 via Cursor cloud agent), blinded to system and rank.
+
+Test split: 30 queries, 29 scored. Unscored because the relevant set is empty: `regency_london_romance`.
+
+Each interval is the paired bootstrap of the per-query ndcg@10 difference against `bm25`.
+
+`boolean` minus `bm25` mean ndcg@10 difference -0.1301 (0.95 paired bootstrap interval [-0.2494, -0.0355], entirely below 0; 10000 resamples, seed 20260928). Two-sided sign test p 0.14599609375 (+3 / −9 / ties 17, n=29).
+
+`tf-idf` minus `bm25` mean ndcg@10 difference -0.0697 (0.95 paired bootstrap interval [-0.1719, 0.0131], includes 0; 10000 resamples, seed 20260928). Two-sided sign test p 0.7744140625 (+5 / −7 / ties 17, n=29).
+
+`dense(title+desc)` minus `bm25` mean ndcg@10 difference -0.0456 (0.95 paired bootstrap interval [-0.1696, 0.0607], includes 0; 10000 resamples, seed 20260928). Two-sided sign test p 1.0 (+6 / −7 / ties 16, n=29).
+
+`hybrid(bm25+dense,meta)` minus `bm25` mean ndcg@10 difference 0.0302 (0.95 paired bootstrap interval [-0.0994, 0.1483], includes 0; 10000 resamples, seed 20260928). Two-sided sign test p 0.60723876953125 (+9 / −6 / ties 14, n=29).
+
+`hybrid+rerank` minus `bm25` mean ndcg@10 difference 0.2408 (0.95 paired bootstrap interval [0.1269, 0.3676], entirely above 0; 10000 resamples, seed 20260928). Two-sided sign test p 0.0001220703125 (+14 / −0 / ties 15, n=29).
+
+Spot-check sample: 303 pairs from 3032 judged pairs (fraction 0.1, seed 20260930). Status: spot-check pending.
+<!-- EVAL_V2_NOTES_END -->
 
 ## Quick start
 
@@ -87,11 +106,13 @@ streamlit run app/streamlit_app.py
 
 ![Search page with a per-result explanation](docs/ui-search.png)
 
-The app is a search page and an evaluation page. Search runs BM25, dense MiniLM,
-hybrid RRF, or hybrid plus cross-encoder rerank (the default). Open "Why this
-result?" on a hit for the score breakdown from that method. Evaluation reads the
-committed [`results/eval_metrics.json`](results/eval_metrics.json) and does not
-recompute it.
+The app is a search page, an evaluation page, and a spot-check page. Search runs
+BM25, dense MiniLM, hybrid RRF, or hybrid plus cross-encoder rerank (the default).
+Open "Why this result?" on a hit for the score breakdown from that method.
+Evaluation reads [`results/eval_v2/metrics.json`](results/eval_v2/metrics.json)
+and can switch between the test and dev splits. Replay ranks a v2 labeled query
+with the method you pick. Spot-check shows a sampled card and writes
+`data/eval_v2/spotcheck_human.json` without displaying the model judgment.
 
 The first dense or reranked search downloads the MiniLM models and caches
 embeddings under `.cache/`. Later runs stay on CPU.
@@ -100,7 +121,7 @@ Precompute all dense indexes or regenerate evaluation artifacts:
 
 ```bash
 python -m retrieval index
-python -m retrieval eval --failures
+python scripts/run_eval_v2.py
 python scripts/sync_metrics_docs.py
 ```
 
@@ -122,19 +143,35 @@ Install the full exploratory-notebook stack with `pip install -r requirements.tx
 | `retrieval/explain.py` | Score explanations used by the UI |
 | `app/streamlit_app.py` | Local search and evaluation UI |
 | `tests/` | Fast unit and wiring tests |
-| `data/labeled_queries.json` | Evaluation queries and relevant show IDs |
+| `data/labeled_queries.json` | v1 labels, kept byte-identical |
+| `data/eval_v2/` | v2 queries, blinded pools, judgments, spot-check sample |
+| `configs/eval_v2.yaml` | Pre-registered v2 systems, metrics, and tests |
 | `data/wikipedia_plots.jsonl` | Wikipedia plot enrichment (CC BY-SA) |
-| `results/` | Metrics and qualitative comparisons |
+| `results/eval_v2/` | v2 metrics and spot-check agreement |
+| `results/eval_metrics.json` | v1 metrics, kept byte-identical |
 | `RETRIEVAL.md` | Detailed retrieval case study |
 | `netflix_data_analysis.ipynb` | Original EDA and sparse-retrieval chapter |
 | `netflix_dense_retrieval.ipynb` | Short package walkthrough |
 
 ## Evaluation boundaries
 
-- The 28 queries and relevance judgments were created by the project author.
-- Labels are binary and have no inter-annotator agreement or confidence intervals.
-- Results describe this fixed catalog snapshot, query set, and model configuration.
-- Full model evaluation is intentionally separate from lightweight CI.
+- v2 labels are binary. An LLM judge applied the rubric in
+  [`docs/eval_v2_rubric.md`](docs/eval_v2_rubric.md) to the blinded card only.
+  The judge string in the metrics JSON names that setup.
+- Test queries were written by browsing the catalog, before pooling. Dev queries
+  are the earlier query texts with new labels. Both were written for this project.
+- Means skip queries whose relevant set is empty. The metrics JSON records both
+  counts. Intervals are paired bootstrap differences against BM25 on the test split.
+- The human spot-check is pending until `data/eval_v2/spotcheck_human.json` exists.
+  The sample does not include the model label.
+- Settings listed as tuned in `configs/eval_v2.yaml` were frozen from the earlier
+  labels on the dev query texts. They were not re-selected on the test split or
+  on the v2 labels.
+- v1 (`data/labeled_queries.json`, `results/eval_metrics.json`) stays byte-identical.
+  That evaluation used one query set for both tuning and reporting and has no interval.
+- Results describe this catalog snapshot and the frozen configuration.
+- Lightweight CI does not download embedding models. It checks that the committed
+  docs match `python scripts/sync_metrics_docs.py`.
 
 ## Data and license
 
