@@ -55,6 +55,15 @@ def unscored_query_ids(split_payload: dict) -> list[str]:
     return [row["query_id"] for row in rows if row["ndcg@10"] is None]
 
 
+def recall_unscored_query_ids(split_payload: dict) -> list[str]:
+    rows = split_payload["per_query"]["bm25"]
+    return [row["query_id"] for row in rows if row["recall@10"] is None]
+
+
+def _id_list(query_ids: list[str]) -> str:
+    return ", ".join(f"`{qid}`" for qid in query_ids) if query_ids else "none"
+
+
 def test_table(payload: dict) -> str:
     comparisons = {row["method"]: row for row in payload["test"]["comparisons_vs_bm25"]}
     headers = [
@@ -104,14 +113,14 @@ def _ci_phrase(comp: dict) -> str:
 def test_notes(payload: dict, sample: dict, agreement: dict) -> str:
     test = payload["test"]
     n_scored = test["systems"][0]["n_scored"]
-    skipped = unscored_query_ids(test)
-    skipped_text = ", ".join(f"`{qid}`" for qid in skipped) if skipped else "none"
     lines = [
         f"Judge: {payload['judge']}.",
         (
             f"Test split: {num(test['n_queries'])} queries, "
             f"{num(n_scored)} scored for nDCG. "
-            f"Unscored for nDCG because the highest grade is 0: {skipped_text}."
+            f"Unscored for nDCG because the highest grade is 0: {_id_list(unscored_query_ids(test))}. "
+            f"Unscored for recall and MRR because no grade is 2 or 3: "
+            f"{_id_list(recall_unscored_query_ids(test))}."
         ),
         (
             "Each interval is the paired bootstrap of the per-query "
@@ -135,11 +144,11 @@ def split_table(systems: list[dict]) -> str:
 def dev_block(payload: dict) -> str:
     dev = payload["dev"]
     n_scored = dev["systems"][0]["n_scored"]
-    skipped = unscored_query_ids(dev)
-    skipped_text = ", ".join(f"`{qid}`" for qid in skipped) if skipped else "none"
     intro = (
         f"Dev split: {num(dev['n_queries'])} queries, {num(n_scored)} scored for nDCG. "
-        f"Unscored for nDCG because the highest grade is 0: {skipped_text}. "
+        f"Unscored for nDCG because the highest grade is 0: {_id_list(unscored_query_ids(dev))}. "
+        f"Unscored for recall and MRR because no grade is 2 or 3: "
+        f"{_id_list(recall_unscored_query_ids(dev))}. "
         "No test-set interval is computed on this split."
     )
     return intro + "\n\n" + split_table(dev["systems"])

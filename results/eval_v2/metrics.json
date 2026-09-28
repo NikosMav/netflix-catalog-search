@@ -1,6 +1,9 @@
 {
   "protocol": "eval_v2",
+  "amendment": "graded_labels",
   "headline_metric": "ndcg@10",
+  "ndcg_gain": "2^grade - 1",
+  "relevant_if_grade_at_least": 2,
   "baseline": "bm25",
   "judge": "LLM judge (grok-4.7 via Cursor cloud agent), blinded to system and rank",
   "metrics": [
@@ -17,6 +20,12 @@
     "hybrid(bm25+dense,meta)",
     "hybrid+rerank"
   ],
+  "grade_counts": {
+    "0": 2096,
+    "1": 711,
+    "2": 40,
+    "3": 185
+  },
   "pool": {
     "pool_depth": 10,
     "n_systems": 15,
@@ -45,19 +54,23 @@
   "labels": {
     "dev": {
       "n_queries": 28,
-      "n_queries_with_relevant": 25,
+      "n_queries_with_positive_grade": 28,
+      "n_queries_with_relevant": 26,
       "n_judged_pairs": 1276,
-      "n_relevant_pairs": 126
+      "n_positive_grade_pairs": 512,
+      "n_relevant_pairs": 139
     },
     "test": {
       "n_queries": 30,
+      "n_queries_with_positive_grade": 30,
       "n_queries_with_relevant": 29,
       "n_judged_pairs": 1756,
-      "n_relevant_pairs": 81
+      "n_positive_grade_pairs": 424,
+      "n_relevant_pairs": 86
     }
   },
   "v1_missed_on_dev": {
-    "n_v2_relevant_titles_absent_from_v1": 73,
+    "n_v2_relevant_titles_absent_from_v1": 87,
     "pairs": [
       {
         "query_id": "semantic_cooking_show",
@@ -85,10 +98,6 @@
       },
       {
         "query_id": "zombie_apocalypse",
-        "show_id": "s6819"
-      },
-      {
-        "query_id": "zombie_apocalypse",
         "show_id": "s6984"
       },
       {
@@ -105,6 +114,10 @@
       },
       {
         "query_id": "boxing_biopic",
+        "show_id": "s3973"
+      },
+      {
+        "query_id": "boxing_biopic",
         "show_id": "s4221"
       },
       {
@@ -118,6 +131,10 @@
       {
         "query_id": "ww2_holocaust_docs",
         "show_id": "s1934"
+      },
+      {
+        "query_id": "ww2_holocaust_docs",
+        "show_id": "s1984"
       },
       {
         "query_id": "ww2_holocaust_docs",
@@ -141,6 +158,10 @@
       },
       {
         "query_id": "christmas_family_movie",
+        "show_id": "s1369"
+      },
+      {
+        "query_id": "christmas_family_movie",
         "show_id": "s1373"
       },
       {
@@ -158,6 +179,10 @@
       {
         "query_id": "christmas_family_movie",
         "show_id": "s1869"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s187"
       },
       {
         "query_id": "christmas_family_movie",
@@ -189,6 +214,10 @@
       },
       {
         "query_id": "christmas_family_movie",
+        "show_id": "s4943"
+      },
+      {
+        "query_id": "christmas_family_movie",
         "show_id": "s4949"
       },
       {
@@ -198,6 +227,10 @@
       {
         "query_id": "christmas_family_movie",
         "show_id": "s4975"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s498"
       },
       {
         "query_id": "christmas_family_movie",
@@ -277,7 +310,15 @@
       },
       {
         "query_id": "nature_planet_docs",
+        "show_id": "s6028"
+      },
+      {
+        "query_id": "nature_planet_docs",
         "show_id": "s6930"
+      },
+      {
+        "query_id": "nature_planet_docs",
+        "show_id": "s7236"
       },
       {
         "query_id": "nature_planet_docs",
@@ -309,7 +350,7 @@
       },
       {
         "query_id": "spy_thriller",
-        "show_id": "s3712"
+        "show_id": "s3648"
       },
       {
         "query_id": "spy_thriller",
@@ -317,7 +358,23 @@
       },
       {
         "query_id": "spy_thriller",
+        "show_id": "s7184"
+      },
+      {
+        "query_id": "spy_thriller",
+        "show_id": "s7342"
+      },
+      {
+        "query_id": "spy_thriller",
+        "show_id": "s7396"
+      },
+      {
+        "query_id": "spy_thriller",
         "show_id": "s7488"
+      },
+      {
+        "query_id": "preschool_kids_show",
+        "show_id": "s3564"
       },
       {
         "query_id": "preschool_kids_show",
@@ -349,7 +406,19 @@
       },
       {
         "query_id": "social_media_doc",
+        "show_id": "s5258"
+      },
+      {
+        "query_id": "social_media_doc",
+        "show_id": "s5688"
+      },
+      {
+        "query_id": "social_media_doc",
         "show_id": "s6421"
+      },
+      {
+        "query_id": "breaking_bad_universe",
+        "show_id": "s859"
       }
     ]
   },
@@ -358,50 +427,56 @@
     "systems": [
       {
         "method": "boolean",
-        "n_scored": 29,
-        "recall@5": 0.5259,
-        "recall@10": 0.5632,
-        "ndcg@10": 0.5151,
-        "mrr": 0.5184
+        "n_scored": 30,
+        "n_scored_recall": 29,
+        "recall@5": 0.5362,
+        "recall@10": 0.5701,
+        "ndcg@10": 0.419,
+        "mrr": 0.5299
       },
       {
         "method": "tf-idf",
-        "n_scored": 29,
-        "recall@5": 0.5989,
-        "recall@10": 0.6477,
-        "ndcg@10": 0.5755,
-        "mrr": 0.5917
+        "n_scored": 30,
+        "n_scored_recall": 29,
+        "recall@5": 0.5954,
+        "recall@10": 0.6437,
+        "ndcg@10": 0.4973,
+        "mrr": 0.5986
       },
       {
         "method": "bm25",
-        "n_scored": 29,
+        "n_scored": 30,
+        "n_scored_recall": 29,
         "recall@5": 0.6592,
-        "recall@10": 0.6966,
-        "ndcg@10": 0.6452,
-        "mrr": 0.6759
+        "recall@10": 0.6937,
+        "ndcg@10": 0.544,
+        "mrr": 0.6897
       },
       {
         "method": "dense(title+desc)",
-        "n_scored": 29,
-        "recall@5": 0.6017,
-        "recall@10": 0.6603,
-        "ndcg@10": 0.5995,
+        "n_scored": 30,
+        "n_scored_recall": 29,
+        "recall@5": 0.592,
+        "recall@10": 0.6517,
+        "ndcg@10": 0.5391,
         "mrr": 0.6003
       },
       {
         "method": "hybrid(bm25+dense,meta)",
-        "n_scored": 29,
-        "recall@5": 0.6459,
-        "recall@10": 0.745,
-        "ndcg@10": 0.6754,
-        "mrr": 0.6707
+        "n_scored": 30,
+        "n_scored_recall": 29,
+        "recall@5": 0.6431,
+        "recall@10": 0.7393,
+        "ndcg@10": 0.6202,
+        "mrr": 0.6764
       },
       {
         "method": "hybrid+rerank",
-        "n_scored": 29,
-        "recall@5": 0.8579,
-        "recall@10": 0.9037,
-        "ndcg@10": 0.8859,
+        "n_scored": 30,
+        "n_scored_recall": 29,
+        "recall@5": 0.8493,
+        "recall@10": 0.9002,
+        "ndcg@10": 0.8094,
         "mrr": 0.8908
       }
     ],
@@ -410,81 +485,81 @@
         "method": "boolean",
         "baseline": "bm25",
         "metric": "ndcg@10",
-        "n": 29,
-        "mean_difference": -0.1301,
-        "ci_low": -0.2494,
-        "ci_high": -0.0355,
+        "n": 30,
+        "mean_difference": -0.125,
+        "ci_low": -0.221,
+        "ci_high": -0.0457,
         "ci_level": 0.95,
         "n_resamples": 10000,
         "bootstrap_seed": 20260928,
         "sign_n_positive": 3,
-        "sign_n_negative": 9,
-        "sign_n_ties": 17,
-        "sign_p_value": 0.14599609375
+        "sign_n_negative": 17,
+        "sign_n_ties": 10,
+        "sign_p_value": 0.0025768280029296875
       },
       {
         "method": "tf-idf",
         "baseline": "bm25",
         "metric": "ndcg@10",
-        "n": 29,
-        "mean_difference": -0.0697,
-        "ci_low": -0.1719,
-        "ci_high": 0.0131,
+        "n": 30,
+        "mean_difference": -0.0467,
+        "ci_low": -0.1296,
+        "ci_high": 0.0227,
         "ci_level": 0.95,
         "n_resamples": 10000,
         "bootstrap_seed": 20260928,
-        "sign_n_positive": 5,
-        "sign_n_negative": 7,
-        "sign_n_ties": 17,
-        "sign_p_value": 0.7744140625
+        "sign_n_positive": 11,
+        "sign_n_negative": 14,
+        "sign_n_ties": 5,
+        "sign_p_value": 0.6900379657745361
       },
       {
         "method": "dense(title+desc)",
         "baseline": "bm25",
         "metric": "ndcg@10",
-        "n": 29,
-        "mean_difference": -0.0456,
-        "ci_low": -0.1696,
-        "ci_high": 0.0607,
+        "n": 30,
+        "mean_difference": -0.0049,
+        "ci_low": -0.1,
+        "ci_high": 0.0783,
         "ci_level": 0.95,
         "n_resamples": 10000,
         "bootstrap_seed": 20260928,
-        "sign_n_positive": 6,
-        "sign_n_negative": 7,
-        "sign_n_ties": 16,
-        "sign_p_value": 1.0
+        "sign_n_positive": 16,
+        "sign_n_negative": 13,
+        "sign_n_ties": 1,
+        "sign_p_value": 0.711071103811264
       },
       {
         "method": "hybrid(bm25+dense,meta)",
         "baseline": "bm25",
         "metric": "ndcg@10",
-        "n": 29,
-        "mean_difference": 0.0302,
-        "ci_low": -0.0994,
-        "ci_high": 0.1483,
+        "n": 30,
+        "mean_difference": 0.0763,
+        "ci_low": -0.0109,
+        "ci_high": 0.1656,
         "ci_level": 0.95,
         "n_resamples": 10000,
         "bootstrap_seed": 20260928,
-        "sign_n_positive": 9,
-        "sign_n_negative": 6,
-        "sign_n_ties": 14,
-        "sign_p_value": 0.60723876953125
+        "sign_n_positive": 17,
+        "sign_n_negative": 9,
+        "sign_n_ties": 4,
+        "sign_p_value": 0.16863754391670227
       },
       {
         "method": "hybrid+rerank",
         "baseline": "bm25",
         "metric": "ndcg@10",
-        "n": 29,
-        "mean_difference": 0.2408,
-        "ci_low": 0.1269,
-        "ci_high": 0.3676,
+        "n": 30,
+        "mean_difference": 0.2655,
+        "ci_low": 0.1728,
+        "ci_high": 0.3644,
         "ci_level": 0.95,
         "n_resamples": 10000,
         "bootstrap_seed": 20260928,
-        "sign_n_positive": 14,
-        "sign_n_negative": 0,
-        "sign_n_ties": 15,
-        "sign_p_value": 0.0001220703125
+        "sign_n_positive": 27,
+        "sign_n_negative": 3,
+        "sign_n_ties": 0,
+        "sign_p_value": 8.430331945419312e-06
       }
     ],
     "per_query": {
@@ -493,21 +568,21 @@
           "query_id": "tech_anthology",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.752182,
           "mrr": 1.0
         },
         {
           "query_id": "adult_cartoon_hasbeen",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.033763,
           "mrr": 0.0
         },
         {
           "query_id": "hidden_camera_horror",
           "recall@5": 0.333333,
           "recall@10": 1.0,
-          "ndcg@10": 0.486009,
+          "ndcg@10": 0.459723,
           "mrr": 0.2
         },
         {
@@ -521,7 +596,7 @@
           "query_id": "cat_transformation_anime",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.533356,
           "mrr": 0.5
         },
         {
@@ -533,23 +608,23 @@
         },
         {
           "query_id": "divorce_drama",
-          "recall@5": 0.333333,
-          "recall@10": 0.416667,
-          "ndcg@10": 0.498271,
+          "recall@5": 0.266667,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.51635,
           "mrr": 0.5
         },
         {
           "query_id": "bully_redemption_anime",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.752182,
           "mrr": 1.0
         },
         {
           "query_id": "gymnastics_abuse_doc",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.703273,
           "mrr": 1.0
         },
         {
@@ -563,7 +638,7 @@
           "query_id": "wrongful_conviction_series",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.812022,
           "mrr": 1.0
         },
         {
@@ -577,35 +652,35 @@
           "query_id": "adam_sandler_comedy",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.061198,
           "mrr": 0.0
         },
         {
           "query_id": "john_mulaney_standup",
-          "recall@5": 0.333333,
-          "recall@10": 0.666667,
-          "ndcg@10": 0.431734,
+          "recall@5": 0.5,
+          "recall@10": 0.75,
+          "ndcg@10": 0.488054,
           "mrr": 0.5
         },
         {
           "query_id": "shah_rukh_romance",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.098051,
           "mrr": 0.0
         },
         {
           "query_id": "scorsese_deniro_crime",
           "recall@5": 0.25,
           "recall@10": 0.25,
-          "ndcg@10": 0.39038,
+          "ndcg@10": 0.38321,
           "mrr": 1.0
         },
         {
           "query_id": "jerry_seinfeld_standup",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.07792,
           "mrr": 0.0
         },
         {
@@ -626,77 +701,77 @@
           "query_id": "queen_elizabeth_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.920141,
           "mrr": 1.0
         },
         {
           "query_id": "mumbai_crime_series",
-          "recall@5": 0.0,
-          "recall@10": 0.0,
-          "ndcg@10": 0.0,
-          "mrr": 0.0
+          "recall@5": 0.2,
+          "recall@10": 0.2,
+          "ndcg@10": 0.172614,
+          "mrr": 0.333333
         },
         {
           "query_id": "mexican_cartel_1980s",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.5,
+          "ndcg@10": 0.627884,
           "mrr": 0.333333
         },
         {
           "query_id": "lagos_trafficking_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.741255,
           "mrr": 1.0
         },
         {
           "query_id": "southern_classic_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.811335,
           "mrr": 1.0
         },
         {
           "query_id": "office_mockumentary",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.723683,
           "mrr": 1.0
         },
         {
           "query_id": "karate_sequel_series",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.693833,
           "mrr": 1.0
         },
         {
           "query_id": "jordan_bulls_docuseries",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.703273,
           "mrr": 1.0
         },
         {
           "query_id": "regency_london_romance",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.0,
           "mrr": null
         },
         {
           "query_id": "korea_border_romance",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.812022,
           "mrr": 1.0
         },
         {
           "query_id": "delhi_police_investigation",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.692463,
           "mrr": 1.0
         }
       ],
@@ -705,7 +780,7 @@
           "query_id": "tech_anthology",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.793151,
           "mrr": 1.0
         },
         {
@@ -719,49 +794,49 @@
           "query_id": "hidden_camera_horror",
           "recall@5": 0.666667,
           "recall@10": 1.0,
-          "ndcg@10": 0.851959,
+          "ndcg@10": 0.807505,
           "mrr": 1.0
         },
         {
           "query_id": "makeover_reality",
           "recall@5": 0.2,
           "recall@10": 0.2,
-          "ndcg@10": 0.213986,
+          "ndcg@10": 0.355092,
           "mrr": 0.5
         },
         {
           "query_id": "cat_transformation_anime",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.386853,
+          "ndcg@10": 0.302619,
           "mrr": 0.2
         },
         {
           "query_id": "dystopian_therapy_film",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.778236,
           "mrr": 1.0
         },
         {
           "query_id": "divorce_drama",
-          "recall@5": 0.25,
-          "recall@10": 0.333333,
-          "ndcg@10": 0.41245,
+          "recall@5": 0.2,
+          "recall@10": 0.266667,
+          "ndcg@10": 0.452262,
           "mrr": 0.5
         },
         {
           "query_id": "bully_redemption_anime",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.884314,
           "mrr": 1.0
         },
         {
           "query_id": "gymnastics_abuse_doc",
           "recall@5": 0.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.315465,
+          "ndcg@10": 0.221858,
           "mrr": 0.125
         },
         {
@@ -775,7 +850,7 @@
           "query_id": "wrongful_conviction_series",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.839439,
           "mrr": 1.0
         },
         {
@@ -789,35 +864,35 @@
           "query_id": "adam_sandler_comedy",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.032001,
           "mrr": 0.0
         },
         {
           "query_id": "john_mulaney_standup",
-          "recall@5": 1.0,
-          "recall@10": 1.0,
-          "ndcg@10": 0.906025,
+          "recall@5": 0.75,
+          "recall@10": 0.75,
+          "ndcg@10": 0.834474,
           "mrr": 1.0
         },
         {
           "query_id": "shah_rukh_romance",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.098051,
           "mrr": 0.0
         },
         {
           "query_id": "scorsese_deniro_crime",
           "recall@5": 0.25,
           "recall@10": 0.25,
-          "ndcg@10": 0.39038,
+          "ndcg@10": 0.376635,
           "mrr": 1.0
         },
         {
           "query_id": "jerry_seinfeld_standup",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.712263,
+          "ndcg@10": 0.774912,
           "mrr": 0.5
         },
         {
@@ -838,28 +913,28 @@
           "query_id": "queen_elizabeth_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.920141,
           "mrr": 1.0
         },
         {
           "query_id": "mumbai_crime_series",
-          "recall@5": 0.0,
-          "recall@10": 0.0,
-          "ndcg@10": 0.0,
-          "mrr": 0.0
+          "recall@5": 0.2,
+          "recall@10": 0.2,
+          "ndcg@10": 0.176329,
+          "mrr": 0.2
         },
         {
           "query_id": "mexican_cartel_1980s",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.5,
+          "ndcg@10": 0.629579,
           "mrr": 0.333333
         },
         {
           "query_id": "lagos_trafficking_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.663912,
           "mrr": 1.0
         },
         {
@@ -873,42 +948,42 @@
           "query_id": "office_mockumentary",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.745324,
           "mrr": 1.0
         },
         {
           "query_id": "karate_sequel_series",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.857063,
           "mrr": 1.0
         },
         {
           "query_id": "jordan_bulls_docuseries",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.703273,
           "mrr": 1.0
         },
         {
           "query_id": "regency_london_romance",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.107789,
           "mrr": null
         },
         {
           "query_id": "korea_border_romance",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.839439,
           "mrr": 1.0
         },
         {
           "query_id": "delhi_police_investigation",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.725447,
           "mrr": 1.0
         }
       ],
@@ -917,63 +992,63 @@
           "query_id": "tech_anthology",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.7646,
           "mrr": 1.0
         },
         {
           "query_id": "adult_cartoon_hasbeen",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.033763,
           "mrr": 0.0
         },
         {
           "query_id": "hidden_camera_horror",
           "recall@5": 0.666667,
           "recall@10": 1.0,
-          "ndcg@10": 0.827812,
+          "ndcg@10": 0.782945,
           "mrr": 1.0
         },
         {
           "query_id": "makeover_reality",
           "recall@5": 0.2,
           "recall@10": 0.2,
-          "ndcg@10": 0.16958,
+          "ndcg@10": 0.201193,
           "mrr": 0.333333
         },
         {
           "query_id": "cat_transformation_anime",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.5,
+          "ndcg@10": 0.391129,
           "mrr": 0.333333
         },
         {
           "query_id": "dystopian_therapy_film",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.818897,
           "mrr": 1.0
         },
         {
           "query_id": "divorce_drama",
-          "recall@5": 0.166667,
-          "recall@10": 0.333333,
-          "ndcg@10": 0.47479,
+          "recall@5": 0.133333,
+          "recall@10": 0.266667,
+          "ndcg@10": 0.521046,
           "mrr": 1.0
         },
         {
           "query_id": "bully_redemption_anime",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.802986,
           "mrr": 1.0
         },
         {
           "query_id": "gymnastics_abuse_doc",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.703273,
           "mrr": 1.0
         },
         {
@@ -987,56 +1062,56 @@
           "query_id": "wrongful_conviction_series",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.852699,
           "mrr": 1.0
         },
         {
           "query_id": "doping_scandal_doc",
           "recall@5": 0.5,
           "recall@10": 0.5,
-          "ndcg@10": 0.613147,
+          "ndcg@10": 0.599255,
           "mrr": 1.0
         },
         {
           "query_id": "adam_sandler_comedy",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.051279,
           "mrr": 0.0
         },
         {
           "query_id": "john_mulaney_standup",
-          "recall@5": 0.666667,
-          "recall@10": 0.666667,
-          "ndcg@10": 0.530721,
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "ndcg@10": 0.525998,
           "mrr": 0.5
         },
         {
           "query_id": "shah_rukh_romance",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.098051,
           "mrr": 0.0
         },
         {
           "query_id": "scorsese_deniro_crime",
           "recall@5": 0.25,
           "recall@10": 0.25,
-          "ndcg@10": 0.246302,
+          "ndcg@10": 0.272006,
           "mrr": 0.5
         },
         {
           "query_id": "jerry_seinfeld_standup",
           "recall@5": 0.666667,
           "recall@10": 1.0,
-          "ndcg@10": 0.603907,
+          "ndcg@10": 0.67135,
           "mrr": 0.333333
         },
         {
           "query_id": "marie_kondo_tidying",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.817604,
           "mrr": 1.0
         },
         {
@@ -1050,77 +1125,77 @@
           "query_id": "queen_elizabeth_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.920141,
           "mrr": 1.0
         },
         {
           "query_id": "mumbai_crime_series",
-          "recall@5": 0.0,
-          "recall@10": 0.25,
-          "ndcg@10": 0.112845,
-          "mrr": 0.1
+          "recall@5": 0.2,
+          "recall@10": 0.4,
+          "ndcg@10": 0.24743,
+          "mrr": 0.5
         },
         {
           "query_id": "mexican_cartel_1980s",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.696024,
           "mrr": 0.5
         },
         {
           "query_id": "lagos_trafficking_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.741255,
           "mrr": 1.0
         },
         {
           "query_id": "southern_classic_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.938465,
           "mrr": 1.0
         },
         {
           "query_id": "office_mockumentary",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.75155,
           "mrr": 1.0
         },
         {
           "query_id": "karate_sequel_series",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.835075,
           "mrr": 1.0
         },
         {
           "query_id": "jordan_bulls_docuseries",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.703273,
           "mrr": 1.0
         },
         {
           "query_id": "regency_london_romance",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.0,
           "mrr": null
         },
         {
           "query_id": "korea_border_romance",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.812022,
           "mrr": 1.0
         },
         {
           "query_id": "delhi_police_investigation",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.766003,
           "mrr": 1.0
         }
       ],
@@ -1129,7 +1204,7 @@
           "query_id": "tech_anthology",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.700603,
           "mrr": 1.0
         },
         {
@@ -1143,196 +1218,196 @@
           "query_id": "hidden_camera_horror",
           "recall@5": 0.666667,
           "recall@10": 0.666667,
-          "ndcg@10": 0.703918,
+          "ndcg@10": 0.771111,
           "mrr": 1.0
         },
         {
           "query_id": "makeover_reality",
           "recall@5": 0.2,
           "recall@10": 0.4,
-          "ndcg@10": 0.238198,
+          "ndcg@10": 0.292507,
           "mrr": 0.2
         },
         {
           "query_id": "cat_transformation_anime",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.782258,
           "mrr": 1.0
         },
         {
           "query_id": "dystopian_therapy_film",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.479503,
           "mrr": 0.5
         },
         {
           "query_id": "divorce_drama",
-          "recall@5": 0.166667,
+          "recall@5": 0.133333,
           "recall@10": 0.333333,
-          "ndcg@10": 0.343018,
+          "ndcg@10": 0.438165,
           "mrr": 0.333333
         },
         {
           "query_id": "bully_redemption_anime",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.968385,
           "mrr": 1.0
         },
         {
           "query_id": "gymnastics_abuse_doc",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.769304,
           "mrr": 1.0
         },
         {
           "query_id": "trans_teen_drama",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.035551,
           "mrr": 0.0
         },
         {
           "query_id": "wrongful_conviction_series",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.736375,
           "mrr": 1.0
         },
         {
           "query_id": "doping_scandal_doc",
           "recall@5": 0.5,
           "recall@10": 0.5,
-          "ndcg@10": 0.264068,
+          "ndcg@10": 0.264719,
           "mrr": 0.25
         },
         {
           "query_id": "adam_sandler_comedy",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.054902,
           "mrr": 0.0
         },
         {
           "query_id": "john_mulaney_standup",
-          "recall@5": 1.0,
-          "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "recall@5": 0.75,
+          "recall@10": 0.75,
+          "ndcg@10": 0.905353,
           "mrr": 1.0
         },
         {
           "query_id": "shah_rukh_romance",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.103833,
           "mrr": 0.0
         },
         {
           "query_id": "scorsese_deniro_crime",
           "recall@5": 0.25,
           "recall@10": 0.25,
-          "ndcg@10": 0.246302,
+          "ndcg@10": 0.272006,
           "mrr": 0.5
         },
         {
           "query_id": "jerry_seinfeld_standup",
           "recall@5": 0.666667,
           "recall@10": 1.0,
-          "ndcg@10": 0.644784,
+          "ndcg@10": 0.703172,
           "mrr": 0.5
         },
         {
           "query_id": "marie_kondo_tidying",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.93023,
           "mrr": 1.0
         },
         {
           "query_id": "birmingham_gangsters",
           "recall@5": 0.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.315465,
+          "ndcg@10": 0.33868,
           "mrr": 0.125
         },
         {
           "query_id": "queen_elizabeth_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.912138,
           "mrr": 1.0
         },
         {
           "query_id": "mumbai_crime_series",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.200934,
           "mrr": 0.0
         },
         {
           "query_id": "mexican_cartel_1980s",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.944033,
           "mrr": 1.0
         },
         {
           "query_id": "lagos_trafficking_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.841133,
           "mrr": 1.0
         },
         {
           "query_id": "southern_classic_drama",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.178021,
           "mrr": 0.0
         },
         {
           "query_id": "office_mockumentary",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.682238,
           "mrr": 1.0
         },
         {
           "query_id": "karate_sequel_series",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.972584,
           "mrr": 1.0
         },
         {
           "query_id": "jordan_bulls_docuseries",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.895951,
           "mrr": 1.0
         },
         {
           "query_id": "regency_london_romance",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.09546,
           "mrr": null
         },
         {
           "query_id": "korea_border_romance",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.154685,
           "mrr": 0.0
         },
         {
           "query_id": "delhi_police_investigation",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.748026,
           "mrr": 1.0
         }
       ],
@@ -1341,7 +1416,7 @@
           "query_id": "tech_anthology",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.386853,
+          "ndcg@10": 0.318037,
           "mrr": 0.2
         },
         {
@@ -1355,112 +1430,112 @@
           "query_id": "hidden_camera_horror",
           "recall@5": 0.666667,
           "recall@10": 0.666667,
-          "ndcg@10": 0.765361,
+          "ndcg@10": 0.820251,
           "mrr": 1.0
         },
         {
           "query_id": "makeover_reality",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.183426,
           "mrr": 0.0
         },
         {
           "query_id": "cat_transformation_anime",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.814561,
           "mrr": 1.0
         },
         {
           "query_id": "dystopian_therapy_film",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.852682,
           "mrr": 1.0
         },
         {
           "query_id": "divorce_drama",
-          "recall@5": 0.166667,
-          "recall@10": 0.333333,
-          "ndcg@10": 0.385893,
+          "recall@5": 0.133333,
+          "recall@10": 0.266667,
+          "ndcg@10": 0.404397,
           "mrr": 0.5
         },
         {
           "query_id": "bully_redemption_anime",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.944033,
           "mrr": 1.0
         },
         {
           "query_id": "gymnastics_abuse_doc",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.703273,
           "mrr": 1.0
         },
         {
           "query_id": "trans_teen_drama",
           "recall@5": 0.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.356207,
+          "ndcg@10": 0.342214,
           "mrr": 0.166667
         },
         {
           "query_id": "wrongful_conviction_series",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.80279,
           "mrr": 1.0
         },
         {
           "query_id": "doping_scandal_doc",
           "recall@5": 0.5,
           "recall@10": 0.5,
-          "ndcg@10": 0.613147,
+          "ndcg@10": 0.599255,
           "mrr": 1.0
         },
         {
           "query_id": "adam_sandler_comedy",
           "recall@5": 0.176471,
           "recall@10": 0.411765,
-          "ndcg@10": 0.600431,
+          "ndcg@10": 0.631873,
           "mrr": 0.5
         },
         {
           "query_id": "john_mulaney_standup",
-          "recall@5": 1.0,
-          "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "recall@5": 0.75,
+          "recall@10": 0.75,
+          "ndcg@10": 0.928174,
           "mrr": 1.0
         },
         {
           "query_id": "shah_rukh_romance",
           "recall@5": 0.222222,
           "recall@10": 0.444444,
-          "ndcg@10": 0.337061,
+          "ndcg@10": 0.420601,
           "mrr": 0.25
         },
         {
           "query_id": "scorsese_deniro_crime",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.76064,
+          "ndcg@10": 0.769779,
           "mrr": 0.5
         },
         {
           "query_id": "jerry_seinfeld_standup",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.88546,
+          "ndcg@10": 0.910832,
           "mrr": 1.0
         },
         {
           "query_id": "marie_kondo_tidying",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.936481,
           "mrr": 1.0
         },
         {
@@ -1474,77 +1549,77 @@
           "query_id": "queen_elizabeth_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.906208,
           "mrr": 1.0
         },
         {
           "query_id": "mumbai_crime_series",
-          "recall@5": 0.0,
-          "recall@10": 0.25,
-          "ndcg@10": 0.139056,
-          "mrr": 0.166667
+          "recall@5": 0.2,
+          "recall@10": 0.4,
+          "ndcg@10": 0.305133,
+          "mrr": 0.333333
         },
         {
           "query_id": "mexican_cartel_1980s",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.904838,
           "mrr": 1.0
         },
         {
           "query_id": "lagos_trafficking_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.697697,
           "mrr": 1.0
         },
         {
           "query_id": "southern_classic_drama",
           "recall@5": 0.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.356207,
+          "ndcg@10": 0.51106,
           "mrr": 0.166667
         },
         {
           "query_id": "office_mockumentary",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.784884,
           "mrr": 1.0
         },
         {
           "query_id": "karate_sequel_series",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.907744,
           "mrr": 1.0
         },
         {
           "query_id": "jordan_bulls_docuseries",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.703273,
           "mrr": 1.0
         },
         {
           "query_id": "regency_london_romance",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.342222,
           "mrr": null
         },
         {
           "query_id": "korea_border_romance",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.35359,
           "mrr": 0.0
         },
         {
           "query_id": "delhi_police_investigation",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.807866,
           "mrr": 1.0
         }
       ],
@@ -1553,147 +1628,147 @@
           "query_id": "tech_anthology",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.914113,
           "mrr": 1.0
         },
         {
           "query_id": "adult_cartoon_hasbeen",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.050303,
           "mrr": 0.0
         },
         {
           "query_id": "hidden_camera_horror",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.956183,
           "mrr": 1.0
         },
         {
           "query_id": "makeover_reality",
           "recall@5": 0.2,
           "recall@10": 0.4,
-          "ndcg@10": 0.32704,
+          "ndcg@10": 0.496914,
           "mrr": 0.5
         },
         {
           "query_id": "cat_transformation_anime",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.851811,
           "mrr": 1.0
         },
         {
           "query_id": "dystopian_therapy_film",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.930714,
           "mrr": 1.0
         },
         {
           "query_id": "divorce_drama",
-          "recall@5": 0.25,
-          "recall@10": 0.5,
-          "ndcg@10": 0.615406,
+          "recall@5": 0.2,
+          "recall@10": 0.4,
+          "ndcg@10": 0.678803,
           "mrr": 1.0
         },
         {
           "query_id": "bully_redemption_anime",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.82197,
           "mrr": 1.0
         },
         {
           "query_id": "gymnastics_abuse_doc",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.832563,
           "mrr": 1.0
         },
         {
           "query_id": "trans_teen_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.86091,
           "mrr": 1.0
         },
         {
           "query_id": "wrongful_conviction_series",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.823071,
           "mrr": 1.0
         },
         {
           "query_id": "doping_scandal_doc",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.877215,
+          "ndcg@10": 0.836001,
           "mrr": 1.0
         },
         {
           "query_id": "adam_sandler_comedy",
           "recall@5": 0.235294,
           "recall@10": 0.529412,
-          "ndcg@10": 0.779908,
+          "ndcg@10": 0.81135,
           "mrr": 0.5
         },
         {
           "query_id": "john_mulaney_standup",
-          "recall@5": 1.0,
+          "recall@5": 0.75,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.991214,
           "mrr": 1.0
         },
         {
           "query_id": "shah_rukh_romance",
           "recall@5": 0.444444,
           "recall@10": 0.777778,
-          "ndcg@10": 0.694199,
+          "ndcg@10": 0.730791,
           "mrr": 0.5
         },
         {
           "query_id": "scorsese_deniro_crime",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.904717,
+          "ndcg@10": 0.926458,
           "mrr": 1.0
         },
         {
           "query_id": "jerry_seinfeld_standup",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.618289,
+          "ndcg@10": 0.702842,
           "mrr": 0.333333
         },
         {
           "query_id": "marie_kondo_tidying",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.867907,
           "mrr": 1.0
         },
         {
           "query_id": "birmingham_gangsters",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.782224,
           "mrr": 1.0
         },
         {
           "query_id": "queen_elizabeth_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.936133,
           "mrr": 1.0
         },
         {
           "query_id": "mumbai_crime_series",
-          "recall@5": 0.75,
+          "recall@5": 0.8,
           "recall@10": 1.0,
-          "ndcg@10": 0.875646,
+          "ndcg@10": 0.931207,
           "mrr": 1.0
         },
         {
@@ -1707,42 +1782,42 @@
           "query_id": "lagos_trafficking_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.722384,
           "mrr": 1.0
         },
         {
           "query_id": "southern_classic_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.959153,
           "mrr": 1.0
         },
         {
           "query_id": "office_mockumentary",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.861611,
           "mrr": 1.0
         },
         {
           "query_id": "karate_sequel_series",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.817703,
           "mrr": 1.0
         },
         {
           "query_id": "jordan_bulls_docuseries",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.854903,
           "mrr": 1.0
         },
         {
           "query_id": "regency_london_romance",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.453904,
           "mrr": null
         },
         {
@@ -1756,7 +1831,7 @@
           "query_id": "delhi_police_investigation",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.880328,
           "mrr": 1.0
         }
       ]
@@ -1767,125 +1842,140 @@
     "systems": [
       {
         "method": "boolean",
-        "n_scored": 25,
-        "recall@5": 0.2747,
-        "recall@10": 0.3942,
-        "ndcg@10": 0.3033,
-        "mrr": 0.3674
+        "n_scored": 28,
+        "n_scored_recall": 26,
+        "recall@5": 0.2773,
+        "recall@10": 0.3828,
+        "ndcg@10": 0.4223,
+        "mrr": 0.4204
       },
       {
         "method": "tf-idf",
-        "n_scored": 25,
-        "recall@5": 0.4969,
-        "recall@10": 0.5588,
-        "ndcg@10": 0.4744,
-        "mrr": 0.5191
+        "n_scored": 28,
+        "n_scored_recall": 26,
+        "recall@5": 0.493,
+        "recall@10": 0.5429,
+        "ndcg@10": 0.577,
+        "mrr": 0.5381
       },
       {
         "method": "bm25",
-        "n_scored": 25,
-        "recall@5": 0.5422,
-        "recall@10": 0.5879,
-        "ndcg@10": 0.5291,
-        "mrr": 0.6027
+        "n_scored": 28,
+        "n_scored_recall": 26,
+        "recall@5": 0.5584,
+        "recall@10": 0.6262,
+        "ndcg@10": 0.6161,
+        "mrr": 0.634
       },
       {
         "method": "dense(title+desc)",
-        "n_scored": 25,
-        "recall@5": 0.6552,
-        "recall@10": 0.7524,
-        "ndcg@10": 0.6744,
-        "mrr": 0.716
+        "n_scored": 28,
+        "n_scored_recall": 26,
+        "recall@5": 0.6222,
+        "recall@10": 0.7105,
+        "ndcg@10": 0.7184,
+        "mrr": 0.6917
       },
       {
         "method": "hybrid(bm25+dense,meta)",
-        "n_scored": 25,
-        "recall@5": 0.6999,
-        "recall@10": 0.7852,
-        "ndcg@10": 0.7205,
-        "mrr": 0.7647
+        "n_scored": 28,
+        "n_scored_recall": 26,
+        "recall@5": 0.6833,
+        "recall@10": 0.7873,
+        "ndcg@10": 0.7609,
+        "mrr": 0.7564
       },
       {
         "method": "hybrid+rerank",
-        "n_scored": 25,
-        "recall@5": 0.7575,
-        "recall@10": 0.8676,
-        "ndcg@10": 0.8138,
-        "mrr": 0.8433
+        "n_scored": 28,
+        "n_scored_recall": 26,
+        "recall@5": 0.7375,
+        "recall@10": 0.8724,
+        "ndcg@10": 0.857,
+        "mrr": 0.8494
       }
     ],
     "ablations": [
       {
         "method": "tf-idf(desc+meta)",
-        "n_scored": 25,
-        "recall@5": 0.4212,
-        "recall@10": 0.5407,
-        "ndcg@10": 0.4364,
-        "mrr": 0.4827
+        "n_scored": 28,
+        "n_scored_recall": 26,
+        "recall@5": 0.4154,
+        "recall@10": 0.5035,
+        "ndcg@10": 0.5033,
+        "mrr": 0.4737
       },
       {
         "method": "tf-idf(desc+plot)",
-        "n_scored": 25,
-        "recall@5": 0.3775,
-        "recall@10": 0.4842,
-        "ndcg@10": 0.4222,
-        "mrr": 0.498
+        "n_scored": 28,
+        "n_scored_recall": 26,
+        "recall@5": 0.3321,
+        "recall@10": 0.5155,
+        "ndcg@10": 0.4442,
+        "mrr": 0.4459
       },
       {
         "method": "bm25(desc+meta)",
-        "n_scored": 25,
-        "recall@5": 0.5632,
-        "recall@10": 0.68,
-        "ndcg@10": 0.5953,
-        "mrr": 0.6284
+        "n_scored": 28,
+        "n_scored_recall": 26,
+        "recall@5": 0.5398,
+        "recall@10": 0.6514,
+        "ndcg@10": 0.6428,
+        "mrr": 0.6508
       },
       {
         "method": "bm25(desc+plot)",
-        "n_scored": 25,
-        "recall@5": 0.5484,
-        "recall@10": 0.6245,
-        "ndcg@10": 0.5796,
-        "mrr": 0.6683
+        "n_scored": 28,
+        "n_scored_recall": 26,
+        "recall@5": 0.5505,
+        "recall@10": 0.6555,
+        "ndcg@10": 0.5882,
+        "mrr": 0.6426
       },
       {
         "method": "dense(title+desc+meta)",
-        "n_scored": 25,
-        "recall@5": 0.6853,
-        "recall@10": 0.7956,
-        "ndcg@10": 0.7189,
-        "mrr": 0.7767
+        "n_scored": 28,
+        "n_scored_recall": 26,
+        "recall@5": 0.6425,
+        "recall@10": 0.7463,
+        "ndcg@10": 0.7352,
+        "mrr": 0.7532
       },
       {
         "method": "dense(title+desc+plot)",
-        "n_scored": 25,
-        "recall@5": 0.6245,
-        "recall@10": 0.7085,
-        "ndcg@10": 0.636,
-        "mrr": 0.6733
+        "n_scored": 28,
+        "n_scored_recall": 26,
+        "recall@5": 0.5962,
+        "recall@10": 0.6595,
+        "ndcg@10": 0.6668,
+        "mrr": 0.6506
       },
       {
         "method": "dense(title-only)",
-        "n_scored": 25,
-        "recall@5": 0.4672,
-        "recall@10": 0.5234,
-        "ndcg@10": 0.498,
-        "mrr": 0.59
+        "n_scored": 28,
+        "n_scored_recall": 26,
+        "recall@5": 0.4473,
+        "recall@10": 0.5033,
+        "ndcg@10": 0.5462,
+        "mrr": 0.5908
       },
       {
         "method": "hybrid(tfidf+dense)",
-        "n_scored": 25,
-        "recall@5": 0.5985,
-        "recall@10": 0.7463,
-        "ndcg@10": 0.6113,
-        "mrr": 0.6213
+        "n_scored": 28,
+        "n_scored_recall": 26,
+        "recall@5": 0.5766,
+        "recall@10": 0.7457,
+        "ndcg@10": 0.692,
+        "mrr": 0.6125
       },
       {
         "method": "dense+rerank",
-        "n_scored": 25,
-        "recall@5": 0.7129,
-        "recall@10": 0.8165,
-        "ndcg@10": 0.7762,
-        "mrr": 0.8233
+        "n_scored": 28,
+        "n_scored_recall": 26,
+        "recall@5": 0.6525,
+        "recall@10": 0.7719,
+        "ndcg@10": 0.8016,
+        "mrr": 0.7917
       }
     ],
     "per_query": {
@@ -1894,77 +1984,77 @@
           "query_id": "vietnam_war",
           "recall@5": 0.666667,
           "recall@10": 0.666667,
-          "ndcg@10": 0.765361,
+          "ndcg@10": 0.743883,
           "mrr": 1.0
         },
         {
           "query_id": "mickey_mouse",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.430677,
+          "ndcg@10": 0.642249,
           "mrr": 0.25
         },
         {
           "query_id": "semantic_cooking_show",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.04966,
           "mrr": 0.0
         },
         {
           "query_id": "semantic_scandi_crime",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.766349,
           "mrr": null
         },
         {
           "query_id": "chess_drama",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.104682,
           "mrr": 0.0
         },
         {
           "query_id": "zombie_apocalypse",
-          "recall@5": 0.222222,
-          "recall@10": 0.222222,
-          "ndcg@10": 0.352568,
+          "recall@5": 0.25,
+          "recall@10": 0.25,
+          "ndcg@10": 0.517912,
           "mrr": 1.0
         },
         {
           "query_id": "standup_kevin_hart",
           "recall@5": 0.0,
           "recall@10": 0.285714,
-          "ndcg@10": 0.174371,
+          "ndcg@10": 0.225263,
           "mrr": 0.142857
         },
         {
           "query_id": "dave_chappelle_comedy",
           "recall@5": 0.25,
           "recall@10": 0.75,
-          "ndcg@10": 0.631047,
+          "ndcg@10": 0.684568,
           "mrr": 1.0
         },
         {
           "query_id": "anime_death_note",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 1.0,
           "mrr": null
         },
         {
           "query_id": "naruto_anime",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.912418,
           "mrr": 1.0
         },
         {
           "query_id": "heist_spain",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.374965,
           "mrr": 0.0
         },
         {
@@ -1978,112 +2068,112 @@
           "query_id": "space_documentary",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.430677,
+          "ndcg@10": 0.345772,
           "mrr": 0.25
         },
         {
           "query_id": "boxing_biopic",
           "recall@5": 0.2,
           "recall@10": 0.2,
-          "ndcg@10": 0.131205,
+          "ndcg@10": 0.294504,
           "mrr": 0.2
         },
         {
           "query_id": "ww2_holocaust_docs",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.129063,
           "mrr": 0.0
         },
         {
           "query_id": "christmas_family_movie",
-          "recall@5": 0.037037,
-          "recall@10": 0.148148,
-          "ndcg@10": 0.313285,
-          "mrr": 0.333333
+          "recall@5": 0.064516,
+          "recall@10": 0.16129,
+          "ndcg@10": 0.463071,
+          "mrr": 1.0
         },
         {
           "query_id": "nature_planet_docs",
-          "recall@5": 0.0,
-          "recall@10": 0.066667,
-          "ndcg@10": 0.063621,
-          "mrr": 0.1
+          "recall@5": 0.111111,
+          "recall@10": 0.222222,
+          "ndcg@10": 0.336077,
+          "mrr": 1.0
         },
         {
           "query_id": "time_travel_romance",
           "recall@5": 0.166667,
           "recall@10": 0.166667,
-          "ndcg@10": 0.151301,
+          "ndcg@10": 0.256631,
           "mrr": 0.333333
         },
         {
           "query_id": "rock_climbing_doc",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.86091,
           "mrr": 1.0
         },
         {
           "query_id": "spy_thriller",
-          "recall@5": 0.2,
-          "recall@10": 0.6,
-          "ndcg@10": 0.374613,
-          "mrr": 0.333333
+          "recall@5": 0.375,
+          "recall@10": 0.5,
+          "ndcg@10": 0.539401,
+          "mrr": 0.5
         },
         {
           "query_id": "preschool_kids_show",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.101329,
           "mrr": 0.0
         },
         {
           "query_id": "formula1_docuseries",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.032506,
           "mrr": 0.0
         },
         {
           "query_id": "exact_title_stranger_things",
           "recall@5": 0.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.333333,
+          "ndcg@10": 0.436819,
           "mrr": 0.142857
         },
         {
           "query_id": "true_crime_serial_killer",
           "recall@5": 0.125,
           "recall@10": 0.25,
-          "ndcg@10": 0.332737,
+          "ndcg@10": 0.440001,
           "mrr": 1.0
         },
         {
           "query_id": "social_media_doc",
           "recall@5": 0.0,
           "recall@10": 0.5,
-          "ndcg@10": 0.177239,
-          "mrr": 0.1
+          "ndcg@10": 0.207358,
+          "mrr": 0.111111
         },
         {
           "query_id": "dark_german_series",
-          "recall@5": null,
-          "recall@10": null,
-          "ndcg@10": null,
-          "mrr": null
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.244315,
+          "mrr": 0.0
         },
         {
           "query_id": "breaking_bad_universe",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.919721,
+          "ndcg@10": 0.930755,
           "mrr": 1.0
         },
         {
           "query_id": "witcher_fantasy",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.184481,
           "mrr": 0.0
         }
       ],
@@ -2092,196 +2182,196 @@
           "query_id": "vietnam_war",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.967468,
+          "ndcg@10": 0.965525,
           "mrr": 1.0
         },
         {
           "query_id": "mickey_mouse",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.439209,
           "mrr": 0.0
         },
         {
           "query_id": "semantic_cooking_show",
           "recall@5": 0.1,
           "recall@10": 0.1,
-          "ndcg@10": 0.220092,
+          "ndcg@10": 0.302835,
           "mrr": 1.0
         },
         {
           "query_id": "semantic_scandi_crime",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.855348,
           "mrr": null
         },
         {
           "query_id": "chess_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.624051,
+          "ndcg@10": 0.743259,
           "mrr": 0.5
         },
         {
           "query_id": "zombie_apocalypse",
-          "recall@5": 0.222222,
-          "recall@10": 0.333333,
-          "ndcg@10": 0.420512,
+          "recall@5": 0.25,
+          "recall@10": 0.375,
+          "ndcg@10": 0.598653,
           "mrr": 1.0
         },
         {
           "query_id": "standup_kevin_hart",
           "recall@5": 0.571429,
           "recall@10": 1.0,
-          "ndcg@10": 0.904407,
+          "ndcg@10": 0.920877,
           "mrr": 1.0
         },
         {
           "query_id": "dave_chappelle_comedy",
           "recall@5": 0.75,
           "recall@10": 0.75,
-          "ndcg@10": 0.831872,
+          "ndcg@10": 0.905353,
           "mrr": 1.0
         },
         {
           "query_id": "anime_death_note",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 1.0,
           "mrr": null
         },
         {
           "query_id": "naruto_anime",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.971449,
           "mrr": 1.0
         },
         {
           "query_id": "heist_spain",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.369397,
           "mrr": 0.0
         },
         {
           "query_id": "oceans_heist",
-          "recall@5": 0.666667,
+          "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.603907,
+          "ndcg@10": 0.50071,
           "mrr": 0.333333
         },
         {
           "query_id": "space_documentary",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.648601,
           "mrr": 0.5
         },
         {
           "query_id": "boxing_biopic",
           "recall@5": 0.0,
-          "recall@10": 0.2,
-          "ndcg@10": 0.102097,
-          "mrr": 0.111111
+          "recall@10": 0.4,
+          "ndcg@10": 0.368097,
+          "mrr": 0.125
         },
         {
           "query_id": "ww2_holocaust_docs",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.140746,
           "mrr": 0.0
         },
         {
           "query_id": "christmas_family_movie",
-          "recall@5": 0.037037,
-          "recall@10": 0.111111,
-          "ndcg@10": 0.257875,
-          "mrr": 0.333333
+          "recall@5": 0.064516,
+          "recall@10": 0.129032,
+          "ndcg@10": 0.405148,
+          "mrr": 1.0
         },
         {
           "query_id": "nature_planet_docs",
-          "recall@5": 0.133333,
-          "recall@10": 0.333333,
-          "ndcg@10": 0.40414,
-          "mrr": 0.333333
+          "recall@5": 0.166667,
+          "recall@10": 0.444444,
+          "ndcg@10": 0.565703,
+          "mrr": 0.5
         },
         {
           "query_id": "time_travel_romance",
           "recall@5": 0.166667,
           "recall@10": 0.166667,
-          "ndcg@10": 0.117063,
+          "ndcg@10": 0.228775,
           "mrr": 0.2
         },
         {
           "query_id": "rock_climbing_doc",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.86091,
           "mrr": 1.0
         },
         {
           "query_id": "spy_thriller",
-          "recall@5": 0.4,
-          "recall@10": 0.6,
-          "ndcg@10": 0.428702,
-          "mrr": 0.333333
+          "recall@5": 0.375,
+          "recall@10": 0.375,
+          "ndcg@10": 0.543023,
+          "mrr": 0.5
         },
         {
           "query_id": "preschool_kids_show",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.086384,
           "mrr": 0.0
         },
         {
           "query_id": "formula1_docuseries",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.744155,
           "mrr": 1.0
         },
         {
           "query_id": "exact_title_stranger_things",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.70981,
           "mrr": 0.5
         },
         {
           "query_id": "true_crime_serial_killer",
           "recall@5": 0.375,
           "recall@10": 0.375,
-          "ndcg@10": 0.521468,
+          "ndcg@10": 0.598393,
           "mrr": 1.0
         },
         {
           "query_id": "social_media_doc",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.043378,
           "mrr": 0.0
         },
         {
           "query_id": "dark_german_series",
-          "recall@5": null,
-          "recall@10": null,
-          "ndcg@10": null,
-          "mrr": null
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.244649,
+          "mrr": 0.0
         },
         {
           "query_id": "breaking_bad_universe",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.693426,
+          "ndcg@10": 0.764846,
           "mrr": 0.5
         },
         {
           "query_id": "witcher_fantasy",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.5,
+          "ndcg@10": 0.631039,
           "mrr": 0.333333
         }
       ],
@@ -2290,189 +2380,189 @@
           "query_id": "vietnam_war",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.946902,
+          "ndcg@10": 0.92033,
           "mrr": 1.0
         },
         {
           "query_id": "mickey_mouse",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.839969,
           "mrr": 1.0
         },
         {
           "query_id": "semantic_cooking_show",
           "recall@5": 0.1,
           "recall@10": 0.1,
-          "ndcg@10": 0.220092,
+          "ndcg@10": 0.323435,
           "mrr": 1.0
         },
         {
           "query_id": "semantic_scandi_crime",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.936379,
           "mrr": null
         },
         {
           "query_id": "chess_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.543771,
+          "ndcg@10": 0.665172,
           "mrr": 0.333333
         },
         {
           "query_id": "zombie_apocalypse",
-          "recall@5": 0.222222,
-          "recall@10": 0.222222,
-          "ndcg@10": 0.352568,
+          "recall@5": 0.25,
+          "recall@10": 0.25,
+          "ndcg@10": 0.527115,
           "mrr": 1.0
         },
         {
           "query_id": "standup_kevin_hart",
           "recall@5": 0.428571,
           "recall@10": 0.857143,
-          "ndcg@10": 0.748513,
+          "ndcg@10": 0.779202,
           "mrr": 1.0
         },
         {
           "query_id": "dave_chappelle_comedy",
           "recall@5": 0.75,
           "recall@10": 1.0,
-          "ndcg@10": 0.949389,
+          "ndcg@10": 0.958628,
           "mrr": 1.0
         },
         {
           "query_id": "anime_death_note",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 1.0,
           "mrr": null
         },
         {
           "query_id": "naruto_anime",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.941529,
           "mrr": 1.0
         },
         {
           "query_id": "heist_spain",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.430932,
           "mrr": 0.0
         },
         {
           "query_id": "oceans_heist",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.852928,
+          "ndcg@10": 0.913091,
           "mrr": 1.0
         },
         {
           "query_id": "space_documentary",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.513727,
           "mrr": 0.5
         },
         {
           "query_id": "boxing_biopic",
           "recall@5": 0.0,
-          "recall@10": 0.0,
-          "ndcg@10": 0.0,
-          "mrr": 0.0
+          "recall@10": 0.2,
+          "ndcg@10": 0.224876,
+          "mrr": 0.166667
         },
         {
           "query_id": "ww2_holocaust_docs",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.144772,
           "mrr": 0.0
         },
         {
           "query_id": "christmas_family_movie",
-          "recall@5": 0.037037,
-          "recall@10": 0.185185,
-          "ndcg@10": 0.362848,
+          "recall@5": 0.032258,
+          "recall@10": 0.193548,
+          "ndcg@10": 0.443389,
           "mrr": 0.2
         },
         {
           "query_id": "nature_planet_docs",
-          "recall@5": 0.2,
-          "recall@10": 0.266667,
-          "ndcg@10": 0.353598,
+          "recall@5": 0.166667,
+          "recall@10": 0.388889,
+          "ndcg@10": 0.546091,
           "mrr": 0.333333
         },
         {
           "query_id": "time_travel_romance",
           "recall@5": 0.166667,
           "recall@10": 0.166667,
-          "ndcg@10": 0.117063,
+          "ndcg@10": 0.158249,
           "mrr": 0.2
         },
         {
           "query_id": "rock_climbing_doc",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.86091,
           "mrr": 1.0
         },
         {
           "query_id": "spy_thriller",
-          "recall@5": 0.4,
-          "recall@10": 0.4,
-          "ndcg@10": 0.360055,
+          "recall@5": 0.125,
+          "recall@10": 0.375,
+          "ndcg@10": 0.455899,
           "mrr": 0.5
         },
         {
           "query_id": "preschool_kids_show",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.098641,
           "mrr": 0.0
         },
         {
           "query_id": "formula1_docuseries",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.84738,
           "mrr": 1.0
         },
         {
           "query_id": "exact_title_stranger_things",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.70981,
           "mrr": 0.5
         },
         {
           "query_id": "true_crime_serial_killer",
           "recall@5": 0.25,
           "recall@10": 0.5,
-          "ndcg@10": 0.506732,
+          "ndcg@10": 0.586026,
           "mrr": 1.0
         },
         {
           "query_id": "social_media_doc",
-          "recall@5": 0.0,
-          "recall@10": 0.0,
-          "ndcg@10": 0.0,
-          "mrr": 0.0
+          "recall@5": 0.25,
+          "recall@10": 0.25,
+          "ndcg@10": 0.203148,
+          "mrr": 1.0
         },
         {
           "query_id": "dark_german_series",
-          "recall@5": null,
-          "recall@10": null,
-          "ndcg@10": null,
-          "mrr": null
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.504724,
+          "mrr": 0.25
         },
         {
           "query_id": "breaking_bad_universe",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.650921,
+          "ndcg@10": 0.718639,
           "mrr": 0.5
         },
         {
@@ -2488,63 +2578,63 @@
           "query_id": "vietnam_war",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.971938,
           "mrr": 1.0
         },
         {
           "query_id": "mickey_mouse",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.679426,
           "mrr": 0.5
         },
         {
           "query_id": "semantic_cooking_show",
           "recall@5": 0.5,
           "recall@10": 0.8,
-          "ndcg@10": 0.863015,
+          "ndcg@10": 0.832341,
           "mrr": 1.0
         },
         {
           "query_id": "semantic_scandi_crime",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.921602,
           "mrr": null
         },
         {
           "query_id": "chess_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.919721,
+          "ndcg@10": 0.858716,
           "mrr": 1.0
         },
         {
           "query_id": "zombie_apocalypse",
-          "recall@5": 0.444444,
-          "recall@10": 0.555556,
-          "ndcg@10": 0.680443,
+          "recall@5": 0.5,
+          "recall@10": 0.625,
+          "ndcg@10": 0.891926,
           "mrr": 1.0
         },
         {
           "query_id": "standup_kevin_hart",
           "recall@5": 0.714286,
           "recall@10": 1.0,
-          "ndcg@10": 0.976633,
+          "ndcg@10": 0.980659,
           "mrr": 1.0
         },
         {
           "query_id": "dave_chappelle_comedy",
           "recall@5": 0.5,
           "recall@10": 0.5,
-          "ndcg@10": 0.636682,
+          "ndcg@10": 0.702973,
           "mrr": 1.0
         },
         {
           "query_id": "anime_death_note",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 1.0,
           "mrr": null
         },
         {
@@ -2558,119 +2648,119 @@
           "query_id": "heist_spain",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.789974,
           "mrr": 0.5
         },
         {
           "query_id": "oceans_heist",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.949697,
           "mrr": 1.0
         },
         {
           "query_id": "space_documentary",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.914113,
           "mrr": 1.0
         },
         {
           "query_id": "boxing_biopic",
           "recall@5": 0.2,
           "recall@10": 0.4,
-          "ndcg@10": 0.252016,
+          "ndcg@10": 0.47468,
           "mrr": 0.2
         },
         {
           "query_id": "ww2_holocaust_docs",
-          "recall@5": 0.285714,
-          "recall@10": 0.571429,
-          "ndcg@10": 0.395802,
+          "recall@5": 0.25,
+          "recall@10": 0.5,
+          "ndcg@10": 0.488219,
           "mrr": 0.25
         },
         {
           "query_id": "christmas_family_movie",
-          "recall@5": 0.111111,
-          "recall@10": 0.259259,
-          "ndcg@10": 0.603608,
+          "recall@5": 0.096774,
+          "recall@10": 0.258065,
+          "ndcg@10": 0.679165,
           "mrr": 0.5
         },
         {
           "query_id": "nature_planet_docs",
-          "recall@5": 0.133333,
-          "recall@10": 0.333333,
-          "ndcg@10": 0.388205,
-          "mrr": 0.25
+          "recall@5": 0.166667,
+          "recall@10": 0.388889,
+          "ndcg@10": 0.528007,
+          "mrr": 0.333333
         },
         {
           "query_id": "time_travel_romance",
           "recall@5": 0.166667,
           "recall@10": 0.166667,
-          "ndcg@10": 0.302602,
+          "ndcg@10": 0.37362,
           "mrr": 1.0
         },
         {
           "query_id": "rock_climbing_doc",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.666161,
           "mrr": 0.5
         },
         {
           "query_id": "spy_thriller",
-          "recall@5": 0.2,
-          "recall@10": 0.6,
-          "ndcg@10": 0.346356,
+          "recall@5": 0.125,
+          "recall@10": 0.625,
+          "ndcg@10": 0.506721,
           "mrr": 0.2
         },
         {
           "query_id": "preschool_kids_show",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.88546,
+          "ndcg@10": 0.972279,
           "mrr": 1.0
         },
         {
           "query_id": "formula1_docuseries",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.430677,
+          "ndcg@10": 0.570285,
           "mrr": 0.25
         },
         {
           "query_id": "exact_title_stranger_things",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.973758,
           "mrr": 1.0
         },
         {
           "query_id": "true_crime_serial_killer",
           "recall@5": 0.125,
           "recall@10": 0.125,
-          "ndcg@10": 0.108936,
+          "ndcg@10": 0.241527,
           "mrr": 0.25
         },
         {
           "query_id": "social_media_doc",
           "recall@5": 0.5,
-          "recall@10": 1.0,
-          "ndcg@10": 0.790386,
+          "recall@10": 0.75,
+          "ndcg@10": 0.71517,
           "mrr": 1.0
         },
         {
           "query_id": "dark_german_series",
-          "recall@5": null,
-          "recall@10": null,
-          "ndcg@10": null,
-          "mrr": null
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.027416,
+          "mrr": 0.0
         },
         {
           "query_id": "breaking_bad_universe",
-          "recall@5": 0.5,
-          "recall@10": 0.5,
-          "ndcg@10": 0.386853,
+          "recall@5": 0.333333,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.405817,
           "mrr": 0.5
         },
         {
@@ -2686,63 +2776,63 @@
           "query_id": "vietnam_war",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.967468,
+          "ndcg@10": 0.940319,
           "mrr": 1.0
         },
         {
           "query_id": "mickey_mouse",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.850448,
           "mrr": 1.0
         },
         {
           "query_id": "semantic_cooking_show",
           "recall@5": 0.5,
           "recall@10": 0.7,
-          "ndcg@10": 0.778807,
+          "ndcg@10": 0.821139,
           "mrr": 1.0
         },
         {
           "query_id": "semantic_scandi_crime",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.930569,
           "mrr": null
         },
         {
           "query_id": "chess_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.624051,
+          "ndcg@10": 0.656799,
           "mrr": 0.5
         },
         {
           "query_id": "zombie_apocalypse",
-          "recall@5": 0.333333,
-          "recall@10": 0.555556,
-          "ndcg@10": 0.60557,
+          "recall@5": 0.25,
+          "recall@10": 0.5,
+          "ndcg@10": 0.729276,
           "mrr": 1.0
         },
         {
           "query_id": "standup_kevin_hart",
           "recall@5": 0.714286,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.988585,
           "mrr": 1.0
         },
         {
           "query_id": "dave_chappelle_comedy",
           "recall@5": 0.75,
           "recall@10": 1.0,
-          "ndcg@10": 0.926758,
+          "ndcg@10": 0.918528,
           "mrr": 1.0
         },
         {
           "query_id": "anime_death_note",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 1.0,
           "mrr": null
         },
         {
@@ -2756,126 +2846,126 @@
           "query_id": "heist_spain",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.430677,
+          "ndcg@10": 0.676016,
           "mrr": 0.25
         },
         {
           "query_id": "oceans_heist",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.949697,
           "mrr": 1.0
         },
         {
           "query_id": "space_documentary",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.885967,
           "mrr": 1.0
         },
         {
           "query_id": "boxing_biopic",
-          "recall@5": 0.0,
-          "recall@10": 0.2,
-          "ndcg@10": 0.120811,
-          "mrr": 0.166667
+          "recall@5": 0.2,
+          "recall@10": 0.4,
+          "ndcg@10": 0.405016,
+          "mrr": 0.333333
         },
         {
           "query_id": "ww2_holocaust_docs",
-          "recall@5": 0.142857,
-          "recall@10": 0.285714,
-          "ndcg@10": 0.185794,
-          "mrr": 0.2
+          "recall@5": 0.25,
+          "recall@10": 0.375,
+          "ndcg@10": 0.350354,
+          "mrr": 0.25
         },
         {
           "query_id": "christmas_family_movie",
-          "recall@5": 0.148148,
-          "recall@10": 0.296296,
-          "ndcg@10": 0.845426,
+          "recall@5": 0.129032,
+          "recall@10": 0.258065,
+          "ndcg@10": 0.867508,
           "mrr": 1.0
         },
         {
           "query_id": "nature_planet_docs",
-          "recall@5": 0.133333,
-          "recall@10": 0.4,
-          "ndcg@10": 0.518465,
+          "recall@5": 0.222222,
+          "recall@10": 0.444444,
+          "ndcg@10": 0.643024,
           "mrr": 0.5
         },
         {
           "query_id": "time_travel_romance",
           "recall@5": 0.333333,
           "recall@10": 0.5,
-          "ndcg@10": 0.601312,
+          "ndcg@10": 0.638483,
           "mrr": 1.0
         },
         {
           "query_id": "rock_climbing_doc",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.86091,
           "mrr": 1.0
         },
         {
           "query_id": "spy_thriller",
-          "recall@5": 0.4,
-          "recall@10": 0.4,
-          "ndcg@10": 0.360055,
+          "recall@5": 0.125,
+          "recall@10": 0.25,
+          "ndcg@10": 0.425818,
           "mrr": 0.5
         },
         {
           "query_id": "preschool_kids_show",
-          "recall@5": 0.666667,
-          "recall@10": 0.666667,
-          "ndcg@10": 0.477624,
+          "recall@5": 0.5,
+          "recall@10": 0.75,
+          "ndcg@10": 0.583513,
           "mrr": 0.5
         },
         {
           "query_id": "formula1_docuseries",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.691428,
           "mrr": 0.5
         },
         {
           "query_id": "exact_title_stranger_things",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.982842,
           "mrr": 1.0
         },
         {
           "query_id": "true_crime_serial_killer",
           "recall@5": 0.375,
           "recall@10": 0.625,
-          "ndcg@10": 0.684685,
+          "ndcg@10": 0.735373,
           "mrr": 1.0
         },
         {
           "query_id": "social_media_doc",
-          "recall@5": 1.0,
+          "recall@5": 0.75,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.947942,
           "mrr": 1.0
         },
         {
           "query_id": "dark_german_series",
-          "recall@5": null,
-          "recall@10": null,
-          "ndcg@10": null,
-          "mrr": null
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.490022,
+          "mrr": 0.333333
         },
         {
           "query_id": "breaking_bad_universe",
-          "recall@5": 1.0,
-          "recall@10": 1.0,
-          "ndcg@10": 0.624051,
+          "recall@5": 0.666667,
+          "recall@10": 0.666667,
+          "ndcg@10": 0.608703,
           "mrr": 0.5
         },
         {
           "query_id": "witcher_fantasy",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.727655,
           "mrr": 0.5
         }
       ],
@@ -2884,63 +2974,63 @@
           "query_id": "vietnam_war",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.997145,
           "mrr": 1.0
         },
         {
           "query_id": "mickey_mouse",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.857576,
           "mrr": 1.0
         },
         {
           "query_id": "semantic_cooking_show",
           "recall@5": 0.5,
           "recall@10": 0.9,
-          "ndcg@10": 0.926636,
+          "ndcg@10": 0.841763,
           "mrr": 1.0
         },
         {
           "query_id": "semantic_scandi_crime",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.936379,
           "mrr": null
         },
         {
           "query_id": "chess_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.501266,
+          "ndcg@10": 0.639234,
           "mrr": 0.25
         },
         {
           "query_id": "zombie_apocalypse",
-          "recall@5": 0.444444,
-          "recall@10": 0.888889,
-          "ndcg@10": 0.892566,
+          "recall@5": 0.5,
+          "recall@10": 0.875,
+          "ndcg@10": 0.941178,
           "mrr": 1.0
         },
         {
           "query_id": "standup_kevin_hart",
           "recall@5": 0.571429,
           "recall@10": 1.0,
-          "ndcg@10": 0.934109,
+          "ndcg@10": 0.9345,
           "mrr": 1.0
         },
         {
           "query_id": "dave_chappelle_comedy",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.982892,
+          "ndcg@10": 0.99348,
           "mrr": 1.0
         },
         {
           "query_id": "anime_death_note",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 1.0,
           "mrr": null
         },
         {
@@ -2954,84 +3044,84 @@
           "query_id": "heist_spain",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.789974,
           "mrr": 0.5
         },
         {
           "query_id": "oceans_heist",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.949697,
           "mrr": 1.0
         },
         {
           "query_id": "space_documentary",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.789974,
           "mrr": 0.5
         },
         {
           "query_id": "boxing_biopic",
           "recall@5": 0.4,
           "recall@10": 0.6,
-          "ndcg@10": 0.610838,
+          "ndcg@10": 0.809406,
           "mrr": 1.0
         },
         {
           "query_id": "ww2_holocaust_docs",
-          "recall@5": 0.428571,
-          "recall@10": 0.714286,
-          "ndcg@10": 0.606741,
+          "recall@5": 0.375,
+          "recall@10": 0.625,
+          "ndcg@10": 0.658736,
           "mrr": 0.5
         },
         {
           "query_id": "christmas_family_movie",
-          "recall@5": 0.185185,
-          "recall@10": 0.37037,
+          "recall@5": 0.16129,
+          "recall@10": 0.322581,
           "ndcg@10": 1.0,
           "mrr": 1.0
         },
         {
           "query_id": "nature_planet_docs",
-          "recall@5": 0.133333,
-          "recall@10": 0.4,
-          "ndcg@10": 0.496676,
+          "recall@5": 0.166667,
+          "recall@10": 0.444444,
+          "ndcg@10": 0.62242,
           "mrr": 0.5
         },
         {
           "query_id": "time_travel_romance",
           "recall@5": 0.5,
           "recall@10": 0.666667,
-          "ndcg@10": 0.711319,
+          "ndcg@10": 0.765137,
           "mrr": 1.0
         },
         {
           "query_id": "rock_climbing_doc",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.86091,
           "mrr": 1.0
         },
         {
           "query_id": "spy_thriller",
-          "recall@5": 0.4,
-          "recall@10": 0.4,
-          "ndcg@10": 0.485229,
+          "recall@5": 0.375,
+          "recall@10": 0.5,
+          "ndcg@10": 0.690346,
           "mrr": 1.0
         },
         {
           "query_id": "preschool_kids_show",
-          "recall@5": 1.0,
+          "recall@5": 0.75,
           "recall@10": 1.0,
-          "ndcg@10": 0.852928,
+          "ndcg@10": 0.855739,
           "mrr": 1.0
         },
         {
           "query_id": "formula1_docuseries",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.748973,
           "mrr": 0.5
         },
         {
@@ -3045,28 +3135,28 @@
           "query_id": "true_crime_serial_killer",
           "recall@5": 0.375,
           "recall@10": 0.75,
-          "ndcg@10": 0.57262,
+          "ndcg@10": 0.641322,
           "mrr": 0.333333
         },
         {
           "query_id": "social_media_doc",
-          "recall@5": 1.0,
+          "recall@5": 0.5,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.945634,
           "mrr": 1.0
         },
         {
           "query_id": "dark_german_series",
-          "recall@5": null,
-          "recall@10": null,
-          "ndcg@10": null,
-          "mrr": null
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.841943,
+          "mrr": 1.0
         },
         {
           "query_id": "breaking_bad_universe",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.877215,
+          "ndcg@10": 0.884548,
           "mrr": 1.0
         },
         {
@@ -3082,63 +3172,63 @@
           "query_id": "vietnam_war",
           "recall@5": 0.666667,
           "recall@10": 1.0,
-          "ndcg@10": 0.906628,
+          "ndcg@10": 0.906392,
           "mrr": 1.0
         },
         {
           "query_id": "mickey_mouse",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.386853,
+          "ndcg@10": 0.472605,
           "mrr": 0.2
         },
         {
           "query_id": "semantic_cooking_show",
           "recall@5": 0.1,
           "recall@10": 0.1,
-          "ndcg@10": 0.220092,
+          "ndcg@10": 0.355262,
           "mrr": 1.0
         },
         {
           "query_id": "semantic_scandi_crime",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.760559,
           "mrr": null
         },
         {
           "query_id": "chess_drama",
           "recall@5": 0.5,
           "recall@10": 1.0,
-          "ndcg@10": 0.5,
+          "ndcg@10": 0.658543,
           "mrr": 0.333333
         },
         {
           "query_id": "zombie_apocalypse",
-          "recall@5": 0.222222,
-          "recall@10": 0.444444,
-          "ndcg@10": 0.468066,
+          "recall@5": 0.25,
+          "recall@10": 0.375,
+          "ndcg@10": 0.577185,
           "mrr": 1.0
         },
         {
           "query_id": "standup_kevin_hart",
           "recall@5": 0.714286,
           "recall@10": 1.0,
-          "ndcg@10": 0.988801,
+          "ndcg@10": 0.979769,
           "mrr": 1.0
         },
         {
           "query_id": "dave_chappelle_comedy",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.982892,
+          "ndcg@10": 0.99348,
           "mrr": 1.0
         },
         {
           "query_id": "anime_death_note",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 1.0,
           "mrr": null
         },
         {
@@ -3152,70 +3242,70 @@
           "query_id": "heist_spain",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.402381,
           "mrr": 0.0
         },
         {
           "query_id": "oceans_heist",
-          "recall@5": 0.333333,
+          "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.525694,
+          "ndcg@10": 0.432661,
           "mrr": 0.25
         },
         {
           "query_id": "space_documentary",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.079037,
           "mrr": 0.0
         },
         {
           "query_id": "boxing_biopic",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.174258,
           "mrr": 0.0
         },
         {
           "query_id": "ww2_holocaust_docs",
-          "recall@5": 0.0,
-          "recall@10": 0.0,
-          "ndcg@10": 0.0,
-          "mrr": 0.0
+          "recall@5": 0.125,
+          "recall@10": 0.125,
+          "ndcg@10": 0.189015,
+          "mrr": 0.25
         },
         {
           "query_id": "christmas_family_movie",
-          "recall@5": 0.111111,
-          "recall@10": 0.148148,
-          "ndcg@10": 0.397672,
+          "recall@5": 0.096774,
+          "recall@10": 0.129032,
+          "ndcg@10": 0.448498,
           "mrr": 0.5
         },
         {
           "query_id": "nature_planet_docs",
-          "recall@5": 0.266667,
-          "recall@10": 0.466667,
-          "ndcg@10": 0.637113,
+          "recall@5": 0.222222,
+          "recall@10": 0.444444,
+          "ndcg@10": 0.672437,
           "mrr": 0.5
         },
         {
           "query_id": "time_travel_romance",
           "recall@5": 0.166667,
           "recall@10": 0.333333,
-          "ndcg@10": 0.282013,
+          "ndcg@10": 0.294154,
           "mrr": 0.5
         },
         {
           "query_id": "rock_climbing_doc",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.543174,
           "mrr": 0.5
         },
         {
           "query_id": "spy_thriller",
-          "recall@5": 0.2,
-          "recall@10": 0.4,
-          "ndcg@10": 0.282634,
+          "recall@5": 0.125,
+          "recall@10": 0.125,
+          "ndcg@10": 0.359659,
           "mrr": 0.333333
         },
         {
@@ -3229,42 +3319,42 @@
           "query_id": "formula1_docuseries",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.744155,
           "mrr": 1.0
         },
         {
           "query_id": "exact_title_stranger_things",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.386853,
+          "ndcg@10": 0.485913,
           "mrr": 0.2
         },
         {
           "query_id": "true_crime_serial_killer",
           "recall@5": 0.25,
           "recall@10": 0.625,
-          "ndcg@10": 0.663089,
+          "ndcg@10": 0.717249,
           "mrr": 1.0
         },
         {
           "query_id": "social_media_doc",
-          "recall@5": 0.5,
+          "recall@5": 0.25,
           "recall@10": 0.5,
-          "ndcg@10": 0.264068,
+          "ndcg@10": 0.325016,
           "mrr": 0.25
         },
         {
           "query_id": "dark_german_series",
-          "recall@5": null,
-          "recall@10": null,
-          "ndcg@10": null,
-          "mrr": null
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.115728,
+          "mrr": 0.0
         },
         {
           "query_id": "breaking_bad_universe",
-          "recall@5": 0.5,
-          "recall@10": 0.5,
-          "ndcg@10": 0.386853,
+          "recall@5": 0.333333,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.405817,
           "mrr": 0.5
         },
         {
@@ -3280,141 +3370,141 @@
           "query_id": "vietnam_war",
           "recall@5": 0.333333,
           "recall@10": 0.333333,
-          "ndcg@10": 0.469279,
+          "ndcg@10": 0.45611,
           "mrr": 1.0
         },
         {
           "query_id": "mickey_mouse",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.386853,
+          "ndcg@10": 0.49131,
           "mrr": 0.2
         },
         {
           "query_id": "semantic_cooking_show",
           "recall@5": 0.1,
           "recall@10": 0.1,
-          "ndcg@10": 0.110046,
+          "ndcg@10": 0.244035,
           "mrr": 0.333333
         },
         {
           "query_id": "semantic_scandi_crime",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.696162,
           "mrr": null
         },
         {
           "query_id": "chess_drama",
           "recall@5": 0.5,
           "recall@10": 1.0,
-          "ndcg@10": 0.591235,
+          "ndcg@10": 0.69984,
           "mrr": 0.5
         },
         {
           "query_id": "zombie_apocalypse",
-          "recall@5": 0.222222,
-          "recall@10": 0.333333,
-          "ndcg@10": 0.457491,
+          "recall@5": 0.25,
+          "recall@10": 0.375,
+          "ndcg@10": 0.557169,
           "mrr": 1.0
         },
         {
           "query_id": "standup_kevin_hart",
           "recall@5": 0.428571,
           "recall@10": 0.857143,
-          "ndcg@10": 0.687045,
+          "ndcg@10": 0.729549,
           "mrr": 0.5
         },
         {
           "query_id": "dave_chappelle_comedy",
           "recall@5": 0.75,
           "recall@10": 0.75,
-          "ndcg@10": 0.831872,
+          "ndcg@10": 0.905353,
           "mrr": 1.0
         },
         {
           "query_id": "anime_death_note",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.0,
           "mrr": null
         },
         {
           "query_id": "naruto_anime",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.963309,
           "mrr": 1.0
         },
         {
           "query_id": "heist_spain",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.370766,
           "mrr": 0.0
         },
         {
           "query_id": "oceans_heist",
-          "recall@5": 0.333333,
-          "recall@10": 0.666667,
-          "ndcg@10": 0.625705,
-          "mrr": 1.0
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.389335,
+          "mrr": 0.142857
         },
         {
           "query_id": "space_documentary",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.753673,
           "mrr": 1.0
         },
         {
           "query_id": "boxing_biopic",
           "recall@5": 0.2,
-          "recall@10": 0.2,
-          "ndcg@10": 0.146068,
+          "recall@10": 0.4,
+          "ndcg@10": 0.348084,
           "mrr": 0.25
         },
         {
           "query_id": "ww2_holocaust_docs",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.122115,
           "mrr": 0.0
         },
         {
           "query_id": "christmas_family_movie",
-          "recall@5": 0.037037,
-          "recall@10": 0.074074,
-          "ndcg@10": 0.1763,
+          "recall@5": 0.032258,
+          "recall@10": 0.129032,
+          "ndcg@10": 0.336209,
           "mrr": 0.333333
         },
         {
           "query_id": "nature_planet_docs",
-          "recall@5": 0.133333,
-          "recall@10": 0.266667,
-          "ndcg@10": 0.349487,
+          "recall@5": 0.166667,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.500701,
           "mrr": 0.333333
         },
         {
           "query_id": "time_travel_romance",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.043559,
           "mrr": 0.0
         },
         {
           "query_id": "rock_climbing_doc",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.86091,
           "mrr": 1.0
         },
         {
           "query_id": "spy_thriller",
-          "recall@5": 0.4,
-          "recall@10": 0.4,
-          "ndcg@10": 0.383566,
-          "mrr": 0.5
+          "recall@5": 0.125,
+          "recall@10": 0.25,
+          "ndcg@10": 0.391444,
+          "mrr": 0.333333
         },
         {
           "query_id": "preschool_kids_show",
@@ -3427,42 +3517,42 @@
           "query_id": "formula1_docuseries",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.682628,
           "mrr": 1.0
         },
         {
           "query_id": "exact_title_stranger_things",
           "recall@5": 0.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.356207,
+          "ndcg@10": 0.457801,
           "mrr": 0.166667
         },
         {
           "query_id": "true_crime_serial_killer",
           "recall@5": 0.5,
           "recall@10": 0.625,
-          "ndcg@10": 0.676302,
+          "ndcg@10": 0.728337,
           "mrr": 1.0
         },
         {
           "query_id": "social_media_doc",
-          "recall@5": 0.5,
-          "recall@10": 0.5,
-          "ndcg@10": 0.306574,
+          "recall@5": 0.25,
+          "recall@10": 0.25,
+          "ndcg@10": 0.357766,
           "mrr": 0.333333
         },
         {
           "query_id": "dark_german_series",
-          "recall@5": null,
-          "recall@10": null,
-          "ndcg@10": null,
-          "mrr": null
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.277338,
+          "mrr": 0.166667
         },
         {
           "query_id": "breaking_bad_universe",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.074922,
           "mrr": 0.0
         },
         {
@@ -3478,63 +3568,63 @@
           "query_id": "vietnam_war",
           "recall@5": 0.666667,
           "recall@10": 0.666667,
-          "ndcg@10": 0.765361,
+          "ndcg@10": 0.743883,
           "mrr": 1.0
         },
         {
           "query_id": "mickey_mouse",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.682238,
           "mrr": 1.0
         },
         {
           "query_id": "semantic_cooking_show",
           "recall@5": 0.1,
           "recall@10": 0.2,
-          "ndcg@10": 0.286346,
+          "ndcg@10": 0.430657,
           "mrr": 1.0
         },
         {
           "query_id": "semantic_scandi_crime",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.848238,
           "mrr": null
         },
         {
           "query_id": "chess_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.543771,
+          "ndcg@10": 0.666419,
           "mrr": 0.333333
         },
         {
           "query_id": "zombie_apocalypse",
-          "recall@5": 0.222222,
-          "recall@10": 0.444444,
-          "ndcg@10": 0.522042,
+          "recall@5": 0.25,
+          "recall@10": 0.5,
+          "ndcg@10": 0.669638,
           "mrr": 1.0
         },
         {
           "query_id": "standup_kevin_hart",
           "recall@5": 0.714286,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.976623,
           "mrr": 1.0
         },
         {
           "query_id": "dave_chappelle_comedy",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.982892,
+          "ndcg@10": 0.991575,
           "mrr": 1.0
         },
         {
           "query_id": "anime_death_note",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 1.0,
           "mrr": null
         },
         {
@@ -3548,126 +3638,126 @@
           "query_id": "heist_spain",
           "recall@5": 0.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.30103,
+          "ndcg@10": 0.602239,
           "mrr": 0.111111
         },
         {
           "query_id": "oceans_heist",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.852928,
+          "ndcg@10": 0.913091,
           "mrr": 1.0
         },
         {
           "query_id": "space_documentary",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.751169,
           "mrr": 1.0
         },
         {
           "query_id": "boxing_biopic",
           "recall@5": 0.0,
-          "recall@10": 0.0,
-          "ndcg@10": 0.0,
-          "mrr": 0.0
+          "recall@10": 0.2,
+          "ndcg@10": 0.20806,
+          "mrr": 0.166667
         },
         {
           "query_id": "ww2_holocaust_docs",
           "recall@5": 0.0,
-          "recall@10": 0.0,
-          "ndcg@10": 0.0,
-          "mrr": 0.0
+          "recall@10": 0.125,
+          "ndcg@10": 0.192954,
+          "mrr": 0.142857
         },
         {
           "query_id": "christmas_family_movie",
-          "recall@5": 0.111111,
-          "recall@10": 0.296296,
+          "recall@5": 0.096774,
+          "recall@10": 0.258065,
           "ndcg@10": 0.669862,
           "mrr": 0.5
         },
         {
           "query_id": "nature_planet_docs",
-          "recall@5": 0.2,
-          "recall@10": 0.333333,
-          "ndcg@10": 0.43463,
+          "recall@5": 0.166667,
+          "recall@10": 0.277778,
+          "ndcg@10": 0.515397,
           "mrr": 0.333333
         },
         {
           "query_id": "time_travel_romance",
           "recall@5": 0.166667,
           "recall@10": 0.333333,
-          "ndcg@10": 0.25909,
+          "ndcg@10": 0.27547,
           "mrr": 0.333333
         },
         {
           "query_id": "rock_climbing_doc",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.86091,
           "mrr": 1.0
         },
         {
           "query_id": "spy_thriller",
-          "recall@5": 0.4,
-          "recall@10": 0.6,
-          "ndcg@10": 0.443231,
+          "recall@5": 0.125,
+          "recall@10": 0.25,
+          "ndcg@10": 0.479805,
           "mrr": 0.5
         },
         {
           "query_id": "preschool_kids_show",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.097744,
           "mrr": 0.0
         },
         {
           "query_id": "formula1_docuseries",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.877312,
           "mrr": 1.0
         },
         {
           "query_id": "exact_title_stranger_things",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.70981,
           "mrr": 0.5
         },
         {
           "query_id": "true_crime_serial_killer",
           "recall@5": 0.5,
           "recall@10": 0.625,
-          "ndcg@10": 0.732254,
+          "ndcg@10": 0.775295,
           "mrr": 1.0
         },
         {
           "query_id": "social_media_doc",
-          "recall@5": 0.0,
+          "recall@5": 0.25,
           "recall@10": 0.5,
-          "ndcg@10": 0.177239,
-          "mrr": 0.1
+          "ndcg@10": 0.387239,
+          "mrr": 1.0
         },
         {
           "query_id": "dark_german_series",
-          "recall@5": null,
-          "recall@10": null,
-          "ndcg@10": null,
-          "mrr": null
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.22516,
+          "mrr": 0.0
         },
         {
           "query_id": "breaking_bad_universe",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.650921,
+          "ndcg@10": 0.718639,
           "mrr": 0.5
         },
         {
           "query_id": "witcher_fantasy",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.727655,
           "mrr": 0.5
         }
       ],
@@ -3676,189 +3766,189 @@
           "query_id": "vietnam_war",
           "recall@5": 0.666667,
           "recall@10": 1.0,
-          "ndcg@10": 0.798861,
+          "ndcg@10": 0.776444,
           "mrr": 1.0
         },
         {
           "query_id": "mickey_mouse",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.662202,
           "mrr": 1.0
         },
         {
           "query_id": "semantic_cooking_show",
           "recall@5": 0.1,
           "recall@10": 0.3,
-          "ndcg@10": 0.239921,
+          "ndcg@10": 0.340304,
           "mrr": 0.333333
         },
         {
           "query_id": "semantic_scandi_crime",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.796761,
           "mrr": null
         },
         {
           "query_id": "chess_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.650921,
+          "ndcg@10": 0.696157,
           "mrr": 0.5
         },
         {
           "query_id": "zombie_apocalypse",
-          "recall@5": 0.333333,
-          "recall@10": 0.555556,
-          "ndcg@10": 0.61297,
+          "recall@5": 0.375,
+          "recall@10": 0.625,
+          "ndcg@10": 0.73773,
           "mrr": 1.0
         },
         {
           "query_id": "standup_kevin_hart",
           "recall@5": 0.428571,
           "recall@10": 0.857143,
-          "ndcg@10": 0.760681,
+          "ndcg@10": 0.790952,
           "mrr": 1.0
         },
         {
           "query_id": "dave_chappelle_comedy",
           "recall@5": 0.75,
           "recall@10": 1.0,
-          "ndcg@10": 0.944718,
+          "ndcg@10": 0.95651,
           "mrr": 1.0
         },
         {
           "query_id": "anime_death_note",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.0,
           "mrr": null
         },
         {
           "query_id": "naruto_anime",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.910248,
           "mrr": 1.0
         },
         {
           "query_id": "heist_spain",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.361534,
           "mrr": 0.0
         },
         {
           "query_id": "oceans_heist",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.949697,
           "mrr": 1.0
         },
         {
           "query_id": "space_documentary",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.832906,
           "mrr": 1.0
         },
         {
           "query_id": "boxing_biopic",
-          "recall@5": 0.2,
-          "recall@10": 0.2,
-          "ndcg@10": 0.146068,
+          "recall@5": 0.4,
+          "recall@10": 0.4,
+          "ndcg@10": 0.383194,
           "mrr": 0.25
         },
         {
           "query_id": "ww2_holocaust_docs",
           "recall@5": 0.0,
-          "recall@10": 0.142857,
-          "ndcg@10": 0.086714,
+          "recall@10": 0.125,
+          "ndcg@10": 0.211707,
           "mrr": 0.125
         },
         {
           "query_id": "christmas_family_movie",
-          "recall@5": 0.074074,
-          "recall@10": 0.074074,
-          "ndcg@10": 0.248908,
+          "recall@5": 0.064516,
+          "recall@10": 0.096774,
+          "ndcg@10": 0.324159,
           "mrr": 0.5
         },
         {
           "query_id": "nature_planet_docs",
-          "recall@5": 0.133333,
-          "recall@10": 0.333333,
-          "ndcg@10": 0.452147,
+          "recall@5": 0.111111,
+          "recall@10": 0.388889,
+          "ndcg@10": 0.598783,
           "mrr": 0.5
         },
         {
           "query_id": "time_travel_romance",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.100114,
           "mrr": 0.0
         },
         {
           "query_id": "rock_climbing_doc",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.86091,
           "mrr": 1.0
         },
         {
           "query_id": "spy_thriller",
-          "recall@5": 0.4,
-          "recall@10": 0.4,
-          "ndcg@10": 0.553146,
-          "mrr": 1.0
+          "recall@5": 0.125,
+          "recall@10": 0.5,
+          "ndcg@10": 0.483463,
+          "mrr": 0.5
         },
         {
           "query_id": "preschool_kids_show",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.062579,
           "mrr": 0.0
         },
         {
           "query_id": "formula1_docuseries",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.856385,
           "mrr": 1.0
         },
         {
           "query_id": "exact_title_stranger_things",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.70981,
           "mrr": 0.5
         },
         {
           "query_id": "true_crime_serial_killer",
           "recall@5": 0.125,
           "recall@10": 0.25,
-          "ndcg@10": 0.32606,
+          "ndcg@10": 0.406557,
           "mrr": 1.0
         },
         {
           "query_id": "social_media_doc",
           "recall@5": 0.5,
           "recall@10": 0.5,
-          "ndcg@10": 0.386853,
+          "ndcg@10": 0.467269,
           "mrr": 0.5
         },
         {
           "query_id": "dark_german_series",
-          "recall@5": null,
-          "recall@10": null,
-          "ndcg@10": null,
-          "mrr": null
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.48965,
+          "mrr": 0.5
         },
         {
           "query_id": "breaking_bad_universe",
-          "recall@5": 1.0,
+          "recall@5": 0.666667,
           "recall@10": 1.0,
-          "ndcg@10": 0.650921,
+          "ndcg@10": 0.702593,
           "mrr": 0.5
         },
         {
@@ -3874,63 +3964,63 @@
           "query_id": "vietnam_war",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.906025,
+          "ndcg@10": 0.8806,
           "mrr": 1.0
         },
         {
           "query_id": "mickey_mouse",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.738627,
           "mrr": 1.0
         },
         {
           "query_id": "semantic_cooking_show",
           "recall@5": 0.4,
           "recall@10": 0.8,
-          "ndcg@10": 0.787774,
+          "ndcg@10": 0.773109,
           "mrr": 1.0
         },
         {
           "query_id": "semantic_scandi_crime",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.870125,
           "mrr": null
         },
         {
           "query_id": "chess_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.850345,
+          "ndcg@10": 0.776445,
           "mrr": 1.0
         },
         {
           "query_id": "zombie_apocalypse",
-          "recall@5": 0.222222,
-          "recall@10": 0.666667,
-          "ndcg@10": 0.659546,
+          "recall@5": 0.125,
+          "recall@10": 0.625,
+          "ndcg@10": 0.758106,
           "mrr": 1.0
         },
         {
           "query_id": "standup_kevin_hart",
           "recall@5": 0.714286,
           "recall@10": 1.0,
-          "ndcg@10": 0.988801,
+          "ndcg@10": 0.968354,
           "mrr": 1.0
         },
         {
           "query_id": "dave_chappelle_comedy",
           "recall@5": 0.5,
           "recall@10": 0.75,
-          "ndcg@10": 0.775739,
+          "ndcg@10": 0.766012,
           "mrr": 1.0
         },
         {
           "query_id": "anime_death_note",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 1.0,
           "mrr": null
         },
         {
@@ -3944,126 +4034,126 @@
           "query_id": "heist_spain",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.430677,
+          "ndcg@10": 0.6486,
           "mrr": 0.25
         },
         {
           "query_id": "oceans_heist",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.986543,
           "mrr": 1.0
         },
         {
           "query_id": "space_documentary",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.728773,
           "mrr": 0.5
         },
         {
           "query_id": "boxing_biopic",
           "recall@5": 0.4,
           "recall@10": 0.6,
-          "ndcg@10": 0.447289,
+          "ndcg@10": 0.575243,
           "mrr": 0.5
         },
         {
           "query_id": "ww2_holocaust_docs",
-          "recall@5": 0.571429,
-          "recall@10": 0.714286,
-          "ndcg@10": 0.764649,
+          "recall@5": 0.5,
+          "recall@10": 0.625,
+          "ndcg@10": 0.786384,
           "mrr": 1.0
         },
         {
           "query_id": "christmas_family_movie",
-          "recall@5": 0.074074,
-          "recall@10": 0.259259,
-          "ndcg@10": 0.681206,
+          "recall@5": 0.064516,
+          "recall@10": 0.225806,
+          "ndcg@10": 0.726748,
           "mrr": 1.0
         },
         {
           "query_id": "nature_planet_docs",
-          "recall@5": 0.133333,
-          "recall@10": 0.4,
-          "ndcg@10": 0.480003,
-          "mrr": 0.333333
+          "recall@5": 0.166667,
+          "recall@10": 0.444444,
+          "ndcg@10": 0.612893,
+          "mrr": 0.5
         },
         {
           "query_id": "time_travel_romance",
           "recall@5": 0.5,
           "recall@10": 0.5,
-          "ndcg@10": 0.472546,
+          "ndcg@10": 0.530793,
           "mrr": 0.5
         },
         {
           "query_id": "rock_climbing_doc",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.938506,
           "mrr": 1.0
         },
         {
           "query_id": "spy_thriller",
-          "recall@5": 0.2,
-          "recall@10": 0.2,
-          "ndcg@10": 0.146068,
+          "recall@5": 0.25,
+          "recall@10": 0.25,
+          "ndcg@10": 0.376716,
           "mrr": 0.25
         },
         {
           "query_id": "preschool_kids_show",
-          "recall@5": 0.666667,
+          "recall@5": 0.75,
           "recall@10": 1.0,
-          "ndcg@10": 0.819427,
+          "ndcg@10": 0.888209,
           "mrr": 1.0
         },
         {
           "query_id": "formula1_docuseries",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.430677,
+          "ndcg@10": 0.605022,
           "mrr": 0.25
         },
         {
           "query_id": "exact_title_stranger_things",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.963999,
           "mrr": 1.0
         },
         {
           "query_id": "true_crime_serial_killer",
           "recall@5": 0.25,
           "recall@10": 0.5,
-          "ndcg@10": 0.394217,
+          "ndcg@10": 0.481371,
           "mrr": 0.333333
         },
         {
           "query_id": "social_media_doc",
-          "recall@5": 1.0,
-          "recall@10": 1.0,
-          "ndcg@10": 0.919721,
+          "recall@5": 0.75,
+          "recall@10": 0.75,
+          "ndcg@10": 0.779768,
           "mrr": 1.0
         },
         {
           "query_id": "dark_german_series",
-          "recall@5": null,
-          "recall@10": null,
-          "ndcg@10": null,
-          "mrr": null
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.027416,
+          "mrr": 0.0
         },
         {
           "query_id": "breaking_bad_universe",
-          "recall@5": 0.5,
-          "recall@10": 0.5,
-          "ndcg@10": 0.386853,
+          "recall@5": 0.333333,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.405817,
           "mrr": 0.5
         },
         {
           "query_id": "witcher_fantasy",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.991474,
           "mrr": 1.0
         }
       ],
@@ -4072,189 +4162,189 @@
           "query_id": "vietnam_war",
           "recall@5": 0.333333,
           "recall@10": 0.666667,
-          "ndcg@10": 0.636439,
+          "ndcg@10": 0.618579,
           "mrr": 1.0
         },
         {
           "query_id": "mickey_mouse",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.63252,
           "mrr": 0.5
         },
         {
           "query_id": "semantic_cooking_show",
           "recall@5": 0.5,
           "recall@10": 0.8,
-          "ndcg@10": 0.870125,
+          "ndcg@10": 0.83956,
           "mrr": 1.0
         },
         {
           "query_id": "semantic_scandi_crime",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.852171,
           "mrr": null
         },
         {
           "query_id": "chess_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.570642,
+          "ndcg@10": 0.550537,
           "mrr": 0.333333
         },
         {
           "query_id": "zombie_apocalypse",
-          "recall@5": 0.222222,
-          "recall@10": 0.444444,
-          "ndcg@10": 0.541216,
+          "recall@5": 0.25,
+          "recall@10": 0.375,
+          "ndcg@10": 0.653513,
           "mrr": 1.0
         },
         {
           "query_id": "standup_kevin_hart",
           "recall@5": 0.714286,
           "recall@10": 1.0,
-          "ndcg@10": 0.987832,
+          "ndcg@10": 0.989928,
           "mrr": 1.0
         },
         {
           "query_id": "dave_chappelle_comedy",
           "recall@5": 0.75,
           "recall@10": 0.75,
-          "ndcg@10": 0.787702,
+          "ndcg@10": 0.86272,
           "mrr": 1.0
         },
         {
           "query_id": "anime_death_note",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 1.0,
           "mrr": null
         },
         {
           "query_id": "naruto_anime",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.972584,
           "mrr": 1.0
         },
         {
           "query_id": "heist_spain",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.762558,
           "mrr": 0.5
         },
         {
           "query_id": "oceans_heist",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.949697,
           "mrr": 1.0
         },
         {
           "query_id": "space_documentary",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.909914,
           "mrr": 1.0
         },
         {
           "query_id": "boxing_biopic",
           "recall@5": 0.2,
-          "recall@10": 0.4,
-          "ndcg@10": 0.320979,
+          "recall@10": 0.2,
+          "ndcg@10": 0.306125,
           "mrr": 0.5
         },
         {
           "query_id": "ww2_holocaust_docs",
-          "recall@5": 0.285714,
-          "recall@10": 0.571429,
-          "ndcg@10": 0.402089,
+          "recall@5": 0.25,
+          "recall@10": 0.5,
+          "ndcg@10": 0.493302,
           "mrr": 0.25
         },
         {
           "query_id": "christmas_family_movie",
-          "recall@5": 0.148148,
-          "recall@10": 0.222222,
-          "ndcg@10": 0.580602,
+          "recall@5": 0.129032,
+          "recall@10": 0.258065,
+          "ndcg@10": 0.679283,
           "mrr": 0.5
         },
         {
           "query_id": "nature_planet_docs",
-          "recall@5": 0.133333,
-          "recall@10": 0.333333,
-          "ndcg@10": 0.388205,
-          "mrr": 0.25
+          "recall@5": 0.166667,
+          "recall@10": 0.388889,
+          "ndcg@10": 0.528007,
+          "mrr": 0.333333
         },
         {
           "query_id": "time_travel_romance",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.058264,
           "mrr": 0.0
         },
         {
           "query_id": "rock_climbing_doc",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.938506,
           "mrr": 1.0
         },
         {
           "query_id": "spy_thriller",
-          "recall@5": 0.2,
-          "recall@10": 0.4,
-          "ndcg@10": 0.267619,
+          "recall@5": 0.25,
+          "recall@10": 0.25,
+          "ndcg@10": 0.400726,
           "mrr": 0.333333
         },
         {
           "query_id": "preschool_kids_show",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.88546,
+          "ndcg@10": 0.972279,
           "mrr": 1.0
         },
         {
           "query_id": "formula1_docuseries",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.5,
+          "ndcg@10": 0.574864,
           "mrr": 0.333333
         },
         {
           "query_id": "exact_title_stranger_things",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.982842,
           "mrr": 1.0
         },
         {
           "query_id": "true_crime_serial_killer",
           "recall@5": 0.125,
           "recall@10": 0.125,
-          "ndcg@10": 0.126471,
+          "ndcg@10": 0.2551,
           "mrr": 0.333333
         },
         {
           "query_id": "social_media_doc",
           "recall@5": 0.5,
           "recall@10": 0.5,
-          "ndcg@10": 0.386853,
+          "ndcg@10": 0.452315,
           "mrr": 0.5
         },
         {
           "query_id": "dark_german_series",
-          "recall@5": null,
-          "recall@10": null,
-          "ndcg@10": null,
-          "mrr": null
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.028551,
+          "mrr": 0.0
         },
         {
           "query_id": "breaking_bad_universe",
-          "recall@5": 0.5,
-          "recall@10": 0.5,
-          "ndcg@10": 0.386853,
+          "recall@5": 0.333333,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.405817,
           "mrr": 0.5
         },
         {
@@ -4270,28 +4360,28 @@
           "query_id": "vietnam_war",
           "recall@5": 0.333333,
           "recall@10": 0.333333,
-          "ndcg@10": 0.469279,
+          "ndcg@10": 0.45611,
           "mrr": 1.0
         },
         {
           "query_id": "mickey_mouse",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.15554,
           "mrr": 0.0
         },
         {
           "query_id": "semantic_cooking_show",
           "recall@5": 0.3,
           "recall@10": 0.4,
-          "ndcg@10": 0.417061,
+          "ndcg@10": 0.429017,
           "mrr": 0.5
         },
         {
           "query_id": "semantic_scandi_crime",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.763193,
           "mrr": null
         },
         {
@@ -4303,121 +4393,121 @@
         },
         {
           "query_id": "zombie_apocalypse",
-          "recall@5": 0.333333,
-          "recall@10": 0.333333,
-          "ndcg@10": 0.340454,
+          "recall@5": 0.375,
+          "recall@10": 0.375,
+          "ndcg@10": 0.492003,
           "mrr": 0.5
         },
         {
           "query_id": "standup_kevin_hart",
           "recall@5": 0.714286,
           "recall@10": 1.0,
-          "ndcg@10": 0.988801,
+          "ndcg@10": 0.968354,
           "mrr": 1.0
         },
         {
           "query_id": "dave_chappelle_comedy",
           "recall@5": 0.75,
           "recall@10": 1.0,
-          "ndcg@10": 0.871214,
+          "ndcg@10": 0.887749,
           "mrr": 1.0
         },
         {
           "query_id": "anime_death_note",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 1.0,
           "mrr": null
         },
         {
           "query_id": "naruto_anime",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.938799,
           "mrr": 1.0
         },
         {
           "query_id": "heist_spain",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.202107,
           "mrr": 0.0
         },
         {
           "query_id": "oceans_heist",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.949697,
           "mrr": 1.0
         },
         {
           "query_id": "space_documentary",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.5,
+          "ndcg@10": 0.557116,
           "mrr": 0.333333
         },
         {
           "query_id": "boxing_biopic",
           "recall@5": 0.0,
           "recall@10": 0.2,
-          "ndcg@10": 0.120811,
+          "ndcg@10": 0.196132,
           "mrr": 0.166667
         },
         {
           "query_id": "ww2_holocaust_docs",
-          "recall@5": 0.428571,
-          "recall@10": 0.571429,
-          "ndcg@10": 0.637387,
+          "recall@5": 0.375,
+          "recall@10": 0.5,
+          "ndcg@10": 0.671826,
           "mrr": 1.0
         },
         {
           "query_id": "christmas_family_movie",
-          "recall@5": 0.111111,
-          "recall@10": 0.148148,
-          "ndcg@10": 0.510352,
+          "recall@5": 0.129032,
+          "recall@10": 0.193548,
+          "ndcg@10": 0.629783,
           "mrr": 1.0
         },
         {
           "query_id": "nature_planet_docs",
-          "recall@5": 0.133333,
-          "recall@10": 0.2,
-          "ndcg@10": 0.312529,
+          "recall@5": 0.111111,
+          "recall@10": 0.166667,
+          "ndcg@10": 0.344076,
           "mrr": 0.5
         },
         {
           "query_id": "time_travel_romance",
           "recall@5": 0.0,
           "recall@10": 0.0,
-          "ndcg@10": 0.0,
+          "ndcg@10": 0.084732,
           "mrr": 0.0
         },
         {
           "query_id": "rock_climbing_doc",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.430677,
+          "ndcg@10": 0.493761,
           "mrr": 0.25
         },
         {
           "query_id": "spy_thriller",
-          "recall@5": 0.2,
-          "recall@10": 0.4,
-          "ndcg@10": 0.312026,
+          "recall@5": 0.25,
+          "recall@10": 0.25,
+          "ndcg@10": 0.444791,
           "mrr": 0.5
         },
         {
           "query_id": "preschool_kids_show",
-          "recall@5": 0.0,
-          "recall@10": 0.0,
-          "ndcg@10": 0.0,
-          "mrr": 0.0
+          "recall@5": 0.25,
+          "recall@10": 0.25,
+          "ndcg@10": 0.271532,
+          "mrr": 0.5
         },
         {
           "query_id": "formula1_docuseries",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.711983,
           "mrr": 1.0
         },
         {
@@ -4431,35 +4521,35 @@
           "query_id": "true_crime_serial_killer",
           "recall@5": 0.375,
           "recall@10": 0.5,
-          "ndcg@10": 0.618798,
+          "ndcg@10": 0.646596,
           "mrr": 1.0
         },
         {
           "query_id": "social_media_doc",
           "recall@5": 0.0,
-          "recall@10": 0.0,
-          "ndcg@10": 0.0,
-          "mrr": 0.0
+          "recall@10": 0.25,
+          "ndcg@10": 0.138132,
+          "mrr": 0.111111
         },
         {
           "query_id": "dark_german_series",
-          "recall@5": null,
-          "recall@10": null,
-          "ndcg@10": null,
-          "mrr": null
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.040847,
+          "mrr": 0.0
         },
         {
           "query_id": "breaking_bad_universe",
-          "recall@5": 1.0,
-          "recall@10": 1.0,
-          "ndcg@10": 0.919721,
+          "recall@5": 0.666667,
+          "recall@10": 0.666667,
+          "ndcg@10": 0.833953,
           "mrr": 1.0
         },
         {
           "query_id": "witcher_fantasy",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.986084,
           "mrr": 1.0
         }
       ],
@@ -4468,63 +4558,63 @@
           "query_id": "vietnam_war",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.971938,
           "mrr": 1.0
         },
         {
           "query_id": "mickey_mouse",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.386853,
+          "ndcg@10": 0.718381,
           "mrr": 0.2
         },
         {
           "query_id": "semantic_cooking_show",
           "recall@5": 0.2,
           "recall@10": 0.4,
-          "ndcg@10": 0.384594,
+          "ndcg@10": 0.531264,
           "mrr": 0.5
         },
         {
           "query_id": "semantic_scandi_crime",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.855348,
           "mrr": null
         },
         {
           "query_id": "chess_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.693426,
+          "ndcg@10": 0.70258,
           "mrr": 0.5
         },
         {
           "query_id": "zombie_apocalypse",
-          "recall@5": 0.333333,
-          "recall@10": 0.555556,
-          "ndcg@10": 0.632144,
+          "recall@5": 0.375,
+          "recall@10": 0.5,
+          "ndcg@10": 0.774924,
           "mrr": 1.0
         },
         {
           "query_id": "standup_kevin_hart",
           "recall@5": 0.571429,
           "recall@10": 1.0,
-          "ndcg@10": 0.97312,
+          "ndcg@10": 0.977751,
           "mrr": 1.0
         },
         {
           "query_id": "dave_chappelle_comedy",
           "recall@5": 0.5,
           "recall@10": 0.75,
-          "ndcg@10": 0.775739,
+          "ndcg@10": 0.850065,
           "mrr": 1.0
         },
         {
           "query_id": "anime_death_note",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 1.0,
           "mrr": null
         },
         {
@@ -4538,84 +4628,84 @@
           "query_id": "heist_spain",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.386853,
+          "ndcg@10": 0.651078,
           "mrr": 0.2
         },
         {
           "query_id": "oceans_heist",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.949697,
           "mrr": 1.0
         },
         {
           "query_id": "space_documentary",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.903143,
           "mrr": 1.0
         },
         {
           "query_id": "boxing_biopic",
-          "recall@5": 0.2,
-          "recall@10": 0.4,
-          "ndcg@10": 0.26688,
+          "recall@5": 0.4,
+          "recall@10": 0.6,
+          "ndcg@10": 0.529343,
           "mrr": 0.25
         },
         {
           "query_id": "ww2_holocaust_docs",
           "recall@5": 0.0,
-          "recall@10": 0.142857,
-          "ndcg@10": 0.079457,
+          "recall@10": 0.125,
+          "ndcg@10": 0.232495,
           "mrr": 0.1
         },
         {
           "query_id": "christmas_family_movie",
-          "recall@5": 0.074074,
-          "recall@10": 0.185185,
-          "ndcg@10": 0.451667,
+          "recall@5": 0.096774,
+          "recall@10": 0.193548,
+          "ndcg@10": 0.561442,
           "mrr": 0.5
         },
         {
           "query_id": "nature_planet_docs",
-          "recall@5": 0.133333,
-          "recall@10": 0.333333,
-          "ndcg@10": 0.395314,
-          "mrr": 0.25
+          "recall@5": 0.222222,
+          "recall@10": 0.444444,
+          "ndcg@10": 0.563331,
+          "mrr": 0.5
         },
         {
           "query_id": "time_travel_romance",
           "recall@5": 0.166667,
           "recall@10": 0.166667,
-          "ndcg@10": 0.190921,
+          "ndcg@10": 0.324085,
           "mrr": 0.5
         },
         {
           "query_id": "rock_climbing_doc",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.86091,
           "mrr": 1.0
         },
         {
           "query_id": "spy_thriller",
-          "recall@5": 0.2,
-          "recall@10": 0.6,
-          "ndcg@10": 0.419019,
+          "recall@5": 0.125,
+          "recall@10": 0.5,
+          "ndcg@10": 0.485167,
           "mrr": 0.5
         },
         {
           "query_id": "preschool_kids_show",
-          "recall@5": 0.333333,
+          "recall@5": 0.5,
           "recall@10": 1.0,
-          "ndcg@10": 0.526718,
+          "ndcg@10": 0.62756,
           "mrr": 0.333333
         },
         {
           "query_id": "formula1_docuseries",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.609473,
           "mrr": 0.5
         },
         {
@@ -4629,35 +4719,35 @@
           "query_id": "true_crime_serial_killer",
           "recall@5": 0.25,
           "recall@10": 0.625,
-          "ndcg@10": 0.61664,
+          "ndcg@10": 0.678266,
           "mrr": 1.0
         },
         {
           "query_id": "social_media_doc",
-          "recall@5": 0.5,
-          "recall@10": 1.0,
-          "ndcg@10": 0.455605,
+          "recall@5": 0.25,
+          "recall@10": 0.75,
+          "ndcg@10": 0.525118,
           "mrr": 0.2
         },
         {
           "query_id": "dark_german_series",
-          "recall@5": null,
-          "recall@10": null,
-          "ndcg@10": null,
-          "mrr": null
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.358487,
+          "mrr": 0.142857
         },
         {
           "query_id": "breaking_bad_universe",
-          "recall@5": 0.5,
-          "recall@10": 0.5,
-          "ndcg@10": 0.386853,
+          "recall@5": 0.333333,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.405817,
           "mrr": 0.5
         },
         {
           "query_id": "witcher_fantasy",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.727655,
           "mrr": 0.5
         }
       ],
@@ -4666,63 +4756,63 @@
           "query_id": "vietnam_war",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.971938,
           "mrr": 1.0
         },
         {
           "query_id": "mickey_mouse",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.813401,
           "mrr": 1.0
         },
         {
           "query_id": "semantic_cooking_show",
           "recall@5": 0.5,
           "recall@10": 0.9,
-          "ndcg@10": 0.936379,
+          "ndcg@10": 0.849506,
           "mrr": 1.0
         },
         {
           "query_id": "semantic_scandi_crime",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 0.921602,
           "mrr": null
         },
         {
           "query_id": "chess_drama",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.501266,
+          "ndcg@10": 0.572947,
           "mrr": 0.25
         },
         {
           "query_id": "zombie_apocalypse",
-          "recall@5": 0.444444,
-          "recall@10": 0.888889,
-          "ndcg@10": 0.898771,
+          "recall@5": 0.5,
+          "recall@10": 0.875,
+          "ndcg@10": 0.942165,
           "mrr": 1.0
         },
         {
           "query_id": "standup_kevin_hart",
           "recall@5": 0.571429,
           "recall@10": 1.0,
-          "ndcg@10": 0.934109,
+          "ndcg@10": 0.9345,
           "mrr": 1.0
         },
         {
           "query_id": "dave_chappelle_comedy",
           "recall@5": 0.75,
           "recall@10": 0.75,
-          "ndcg@10": 0.831872,
+          "ndcg@10": 0.905353,
           "mrr": 1.0
         },
         {
           "query_id": "anime_death_note",
           "recall@5": null,
           "recall@10": null,
-          "ndcg@10": null,
+          "ndcg@10": 1.0,
           "mrr": null
         },
         {
@@ -4736,84 +4826,84 @@
           "query_id": "heist_spain",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.789974,
           "mrr": 0.5
         },
         {
           "query_id": "oceans_heist",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.949697,
           "mrr": 1.0
         },
         {
           "query_id": "space_documentary",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.762558,
           "mrr": 0.5
         },
         {
           "query_id": "boxing_biopic",
           "recall@5": 0.4,
           "recall@10": 0.6,
-          "ndcg@10": 0.60678,
+          "ndcg@10": 0.805621,
           "mrr": 1.0
         },
         {
           "query_id": "ww2_holocaust_docs",
-          "recall@5": 0.428571,
-          "recall@10": 0.714286,
-          "ndcg@10": 0.606741,
+          "recall@5": 0.375,
+          "recall@10": 0.625,
+          "ndcg@10": 0.658736,
           "mrr": 0.5
         },
         {
           "query_id": "christmas_family_movie",
-          "recall@5": 0.185185,
-          "recall@10": 0.333333,
-          "ndcg@10": 0.936379,
+          "recall@5": 0.16129,
+          "recall@10": 0.290323,
+          "ndcg@10": 0.945468,
           "mrr": 1.0
         },
         {
           "query_id": "nature_planet_docs",
-          "recall@5": 0.133333,
-          "recall@10": 0.4,
-          "ndcg@10": 0.496676,
+          "recall@5": 0.166667,
+          "recall@10": 0.444444,
+          "ndcg@10": 0.62242,
           "mrr": 0.5
         },
         {
           "query_id": "time_travel_romance",
           "recall@5": 0.333333,
           "recall@10": 0.5,
-          "ndcg@10": 0.450011,
+          "ndcg@10": 0.552545,
           "mrr": 0.5
         },
         {
           "query_id": "rock_climbing_doc",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "ndcg@10": 0.974058,
           "mrr": 1.0
         },
         {
           "query_id": "spy_thriller",
-          "recall@5": 0.2,
-          "recall@10": 0.2,
-          "ndcg@10": 0.33916,
+          "recall@5": 0.25,
+          "recall@10": 0.375,
+          "ndcg@10": 0.57384,
           "mrr": 1.0
         },
         {
           "query_id": "preschool_kids_show",
-          "recall@5": 1.0,
+          "recall@5": 0.75,
           "recall@10": 1.0,
-          "ndcg@10": 0.852928,
+          "ndcg@10": 0.870856,
           "mrr": 1.0
         },
         {
           "query_id": "formula1_docuseries",
           "recall@5": 1.0,
           "recall@10": 1.0,
-          "ndcg@10": 0.63093,
+          "ndcg@10": 0.748973,
           "mrr": 0.5
         },
         {
@@ -4827,28 +4917,28 @@
           "query_id": "true_crime_serial_killer",
           "recall@5": 0.375,
           "recall@10": 0.625,
-          "ndcg@10": 0.507674,
+          "ndcg@10": 0.586816,
           "mrr": 0.333333
         },
         {
           "query_id": "social_media_doc",
-          "recall@5": 1.0,
-          "recall@10": 1.0,
-          "ndcg@10": 1.0,
+          "recall@5": 0.5,
+          "recall@10": 0.75,
+          "ndcg@10": 0.884148,
           "mrr": 1.0
         },
         {
           "query_id": "dark_german_series",
-          "recall@5": null,
-          "recall@10": null,
-          "ndcg@10": null,
-          "mrr": null
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.235892,
+          "mrr": 0.0
         },
         {
           "query_id": "breaking_bad_universe",
-          "recall@5": 0.5,
-          "recall@10": 0.5,
-          "ndcg@10": 0.613147,
+          "recall@5": 0.333333,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.571726,
           "mrr": 1.0
         },
         {
