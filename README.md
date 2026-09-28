@@ -8,8 +8,6 @@ This is a catalog-search project, not a personalized recommender: it uses title,
 description, genre, cast, director, and country metadata (plus an optional
 Wikipedia plot ablation), but no viewing history or collaborative-filtering signals.
 
-How the work was done is in [`docs/HOW_THIS_WAS_BUILT.md`](docs/HOW_THIS_WAS_BUILT.md).
-
 ## What this project demonstrates
 
 - Lexical, semantic, hybrid, and two-stage retrieval in one package
@@ -128,7 +126,6 @@ Install the full exploratory-notebook stack with `pip install -r requirements.tx
 | `data/wikipedia_plots.jsonl` | Wikipedia plot enrichment (CC BY-SA) |
 | `results/` | Metrics and qualitative comparisons |
 | `RETRIEVAL.md` | Detailed retrieval case study |
-| `docs/HOW_THIS_WAS_BUILT.md` | How the catalog-search work was implemented |
 | `netflix_data_analysis.ipynb` | Original EDA and sparse-retrieval chapter |
 | `netflix_dense_retrieval.ipynb` | Short package walkthrough |
 
@@ -138,6 +135,10 @@ Install the full exploratory-notebook stack with `pip install -r requirements.tx
 - Labels are binary and have no inter-annotator agreement or confidence intervals.
 - Results describe this fixed catalog snapshot, query set, and model configuration.
 - Full model evaluation is intentionally separate from lightweight CI.
+
+## How this was built
+
+This project was built with AI coding agents (Cursor cloud agents) working from a staged plan. Nikos Mavrapidis designed the plan and the evaluation, reviewed each change before merge with AI assistance, and checked the reported results against the committed metrics and CI.
 
 ## Data and license
 
