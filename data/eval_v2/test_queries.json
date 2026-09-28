@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "split": "test",
+  "description": "Held-out catalog-search queries written by reading data/netflix_titles.csv only. No retriever was run, and this file has no relevance labels. Labels are assigned later from a blinded pool. The 28 queries in data/labeled_queries.json stay the dev set (same query text, new labels).",
+  "queries": [
+    {
+      "id": "tech_anthology",
+      "query": "sci-fi anthology series about technology going wrong",
+      "intent": "genre",
+      "notes": "Genre paraphrase. Near-future technology anthology, not a single-plot space film."
+    },
+    {
+      "id": "adult_cartoon_hasbeen",
+      "query": "adult cartoon about a washed-up sitcom star",
+      "intent": "genre",
+      "notes": "Genre plus tone. Adult animation about a faded celebrity, not a preschool cartoon."
+    },
+    {
+      "id": "hidden_camera_horror",
+      "query": "horror movie about hidden cameras in a rental house",
+      "intent": "genre",
+      "notes": "Genre plus a concrete horror premise."
+    },
+    {
+      "id": "makeover_reality",
+      "query": "makeover reality show that restyles someone's life",
+      "intent": "genre",
+      "notes": "Reality-TV genre paraphrase. Lifestyle makeover, not a scripted drama."
+    },
+    {
+      "id": "cat_transformation_anime",
+      "query": "anime movie about a girl who turns into a cat",
+      "intent": "genre",
+      "notes": "Anime feature with a transformation premise."
+    },
+    {
+      "id": "dystopian_therapy_film",
+      "query": "dystopian film about a violent young man forced into behavioral therapy",
+      "intent": "genre",
+      "notes": "Genre paraphrase of a classic dystopian satire."
+    },
+    {
+      "id": "divorce_drama",
+      "query": "drama about a marriage falling apart",
+      "intent": "plot_theme",
+      "notes": "Plot paraphrase. A couple separating, not a romantic comedy."
+    },
+    {
+      "id": "bully_redemption_anime",
+      "query": "anime about a former bully making amends to a deaf classmate",
+      "intent": "plot_theme",
+      "notes": "Specific plot. Redemption story, not a general deafness documentary."
+    },
+    {
+      "id": "gymnastics_abuse_doc",
+      "query": "documentary about gymnasts abused by a team doctor",
+      "intent": "plot_theme",
+      "notes": "Topical documentary paraphrase. Abuse in gymnastics, not a sports biopic."
+    },
+    {
+      "id": "trans_teen_drama",
+      "query": "drama about a teenager transitioning and their family",
+      "intent": "plot_theme",
+      "notes": "Plot plus family drama. Scripted film, not a news documentary."
+    },
+    {
+      "id": "wrongful_conviction_series",
+      "query": "series about teenagers falsely accused of an attack in Central Park",
+      "intent": "plot_theme",
+      "notes": "True-story plot. The wrongful-conviction dramatization, not a generic crime show."
+    },
+    {
+      "id": "doping_scandal_doc",
+      "query": "documentary about a sports doping conspiracy",
+      "intent": "plot_theme",
+      "notes": "Investigative sports documentary. Doping scandal, not a race-series docuseries."
+    },
+    {
+      "id": "adam_sandler_comedy",
+      "query": "Adam Sandler comedy movie",
+      "intent": "people",
+      "notes": "Person plus genre. Comedy films, not a stand-up special unless the special is the work itself."
+    },
+    {
+      "id": "john_mulaney_standup",
+      "query": "John Mulaney stand-up comedy special",
+      "intent": "people",
+      "notes": "Exact performer name plus stand-up format."
+    },
+    {
+      "id": "shah_rukh_romance",
+      "query": "Shah Rukh Khan romantic Bollywood movie",
+      "intent": "people",
+      "notes": "Person plus genre and industry. Romantic films, not every title that merely mentions the name."
+    },
+    {
+      "id": "scorsese_deniro_crime",
+      "query": "Martin Scorsese crime film with Robert De Niro",
+      "intent": "people",
+      "notes": "Two people plus crime. A crime film those two made together, not every Scorsese or De Niro title."
+    },
+    {
+      "id": "jerry_seinfeld_standup",
+      "query": "Jerry Seinfeld stand-up comedy special",
+      "intent": "people",
+      "notes": "Exact performer name plus stand-up special. Not the sitcom and not a talk show."
+    },
+    {
+      "id": "marie_kondo_tidying",
+      "query": "Marie Kondo home organization show",
+      "intent": "people",
+      "notes": "Person plus format. Home-organization series, not a generic cleaning gag."
+    },
+    {
+      "id": "birmingham_gangsters",
+      "query": "British gangster series set after the First World War",
+      "intent": "country_era",
+      "notes": "Country and era. Post-World War I Britain, not a World War II documentary."
+    },
+    {
+      "id": "queen_elizabeth_drama",
+      "query": "drama series about Queen Elizabeth II",
+      "intent": "country_era",
+      "notes": "Era and subject. A dramatized series about her reign, not a one-off royal tribute documentary."
+    },
+    {
+      "id": "mumbai_crime_series",
+      "query": "Indian crime series set in Mumbai",
+      "intent": "country_era",
+      "notes": "Country and city. An Indian crime series in Mumbai, not a one-off Mumbai movie."
+    },
+    {
+      "id": "mexican_cartel_1980s",
+      "query": "series about Mexican drug cartels in the 1980s",
+      "intent": "country_era",
+      "notes": "Country and decade. A dramatized cartel series, not a stand-up special filmed in Mexico."
+    },
+    {
+      "id": "lagos_trafficking_drama",
+      "query": "Nigerian drama about a journalist exposing trafficking in Lagos",
+      "intent": "country_era",
+      "notes": "Country plus a specific plot. Lagos trafficking drama, not every Nigerian thriller."
+    },
+    {
+      "id": "southern_classic_drama",
+      "query": "1950s classic drama about a Southern family and a dying patriarch",
+      "intent": "country_era",
+      "notes": "Era plus plot. A 1950s classic, not a modern family drama."
+    },
+    {
+      "id": "office_mockumentary",
+      "query": "mockumentary sitcom about office workers at a paper company",
+      "intent": "mixed",
+      "notes": "Mixed genre and workplace premise. The paper-company mockumentary, not a Taiwanese office romance."
+    },
+    {
+      "id": "karate_sequel_series",
+      "query": "series about a karate rivalry decades after a teen tournament",
+      "intent": "mixed",
+      "notes": "Mixed franchise sequel and premise. The later rivalry series, not the original teen movie."
+    },
+    {
+      "id": "jordan_bulls_docuseries",
+      "query": "documentary about Michael Jordan and the Chicago Bulls",
+      "intent": "mixed",
+      "notes": "Mixed person and sports documentary. Jordan with the Bulls, not every basketball documentary."
+    },
+    {
+      "id": "regency_london_romance",
+      "query": "Regency-era romantic series about a London family",
+      "intent": "mixed",
+      "notes": "Mixed era, place, and romance genre."
+    },
+    {
+      "id": "korea_border_romance",
+      "query": "South Korean romance about a woman stranded in North Korea",
+      "intent": "mixed",
+      "notes": "Mixed country and plot. A romance across the border, not a war documentary."
+    },
+    {
+      "id": "delhi_police_investigation",
+      "query": "Indian police series about investigating a gang rape in Delhi",
+      "intent": "mixed",
+      "notes": "Mixed country, format, and a specific case. A police series, not a general Mumbai gangster show."
+    }
+  ]
+}
