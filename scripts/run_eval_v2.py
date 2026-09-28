@@ -12,7 +12,7 @@ from pathlib import Path
 
 from retrieval.catalog import load_catalog
 from retrieval.evaluate import build_methods
-from retrieval.metrics import aggregate_mean, mrr, ndcg_at_k, recall_at_k
+from retrieval.metrics import aggregate_mean, mrr, ndcg_at_k_graded, recall_at_k
 from retrieval.significance import paired_bootstrap_ci, two_sided_sign_test
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -21,6 +21,8 @@ V1_LABELS = ROOT / "data" / "labeled_queries.json"
 JUDGMENTS = ROOT / "data" / "eval_v2" / "judgments.json"
 POOL_STATS = ROOT / "data" / "eval_v2" / "pool_stats.json"
 OUT_PATH = ROOT / "results" / "eval_v2" / "metrics.json"
+TOP10_PATH = ROOT / "results" / "eval_v2" / "top10.json"
+RELEVANT_AT = 2
 
 REPORTED = (
     "boolean",
@@ -42,11 +44,12 @@ def _config_int(key: str) -> int:
     return int(match.group(1))
 
 
-def _query_scores(retrieved: list[str], relevant: set[str]) -> dict[str, float]:
+def _query_scores(retrieved: list[str], grades: dict[str, int]) -> dict[str, float]:
+    relevant = {sid for sid, grade in grades.items() if grade >= RELEVANT_AT}
     return {
         "recall@5": recall_at_k(retrieved, relevant, 5),
         "recall@10": recall_at_k(retrieved, relevant, 10),
-        "ndcg@10": ndcg_at_k(retrieved, relevant, 10),
+        "ndcg@10": ndcg_at_k_graded(retrieved, grades, 10),
         "mrr": mrr(retrieved, relevant),
     }
 
@@ -106,50 +109,84 @@ def main() -> None:
         per_query_out: dict[str, list[dict]] = {name: [] for name in names}
         vectors: dict[str, list[float]] = {name: [] for name in names}
         n_relevant_pairs = 0
+        n_positive_grades = 0
         n_judged = 0
-        n_scored = 0
+        n_scored_ndcg = 0
+        n_scored_recall = 0
+        top10_rows = []
         for item in queries:
-            relevant = {j["show_id"] for j in item["judgments"] if j["relevant"]}
-            n_judged += len(item["judgments"])
+            grades = {j["show_id"]: int(j["grade"]) for j in item["judgments"]}
+            relevant = {sid for sid, grade in grades.items() if grade >= RELEVANT_AT}
+            n_judged += len(grades)
             n_relevant_pairs += len(relevant)
-            if not relevant:
-                for name in names:
-                    empty = {metric: None for metric in METRICS}
-                    per_query_out[name].append({"query_id": item["query_id"], **empty})
-                    vectors[name].append(float("nan"))
-                continue
-            n_scored += 1
+            n_positive_grades += sum(1 for grade in grades.values() if grade > 0)
+            has_ndcg = any(grade > 0 for grade in grades.values())
+            has_recall = bool(relevant)
+            if has_ndcg:
+                n_scored_ndcg += 1
+            if has_recall:
+                n_scored_recall += 1
+            rankings: dict[str, list[str]] = {}
             for name in names:
                 hits = by_name[name].retriever.query(item["query"], top_k=10)
                 retrieved = hits["show_id"].astype(str).tolist()
-                scores = _query_scores(retrieved, relevant)
+                if name in REPORTED:
+                    rankings[name] = retrieved
+                if not has_ndcg and not has_recall:
+                    empty = {metric: None for metric in METRICS}
+                    per_query_out[name].append({"query_id": item["query_id"], **empty})
+                    vectors[name].append(float("nan"))
+                    continue
+                scores = _query_scores(retrieved, grades)
+                if not has_ndcg:
+                    scores["ndcg@10"] = float("nan")
+                if not has_recall:
+                    scores["recall@5"] = float("nan")
+                    scores["recall@10"] = float("nan")
+                    scores["mrr"] = float("nan")
                 per_query_out[name].append({"query_id": item["query_id"], **_round_scores(scores)})
                 vectors[name].append(scores["ndcg@10"])
+            if rankings:
+                top10_rows.append(
+                    {
+                        "split": split,
+                        "query_id": item["query_id"],
+                        "rankings": rankings,
+                    }
+                )
         for name in names:
             finite = [v for v in vectors[name] if v == v]
-            # Means use the same finite-query rule as retrieval.metrics.aggregate_mean.
-            per_metric = []
-            for metric in METRICS:
-                vals = []
-                for row in per_query_out[name]:
-                    value = row[metric]
-                    if value is None:
-                        continue
-                    vals.append(value)
-                per_metric.append({metric: vals})
             summary = {}
             for metric in METRICS:
                 vals = [row[metric] for row in per_query_out[name] if row[metric] is not None]
                 mean = aggregate_mean(vals)
                 summary[metric] = None if mean != mean else round(float(mean), 4)
-            system_rows.append({"method": name, "n_scored": len(finite), **summary})
+            recall_n = sum(
+                1
+                for row in per_query_out[name]
+                if row["recall@10"] is not None
+            )
+            system_rows.append(
+                {
+                    "method": name,
+                    "n_scored": len(finite),
+                    "n_scored_recall": recall_n,
+                    **summary,
+                }
+            )
         label_counts[split] = {
             "n_queries": len(queries),
-            "n_queries_with_relevant": n_scored,
+            "n_queries_with_positive_grade": n_scored_ndcg,
+            "n_queries_with_relevant": n_scored_recall,
             "n_judged_pairs": n_judged,
+            "n_positive_grade_pairs": n_positive_grades,
             "n_relevant_pairs": n_relevant_pairs,
         }
-        splits_out[split] = {"systems": system_rows, "per_query": per_query_out}
+        splits_out[split] = {
+            "systems": system_rows,
+            "per_query": per_query_out,
+            "top10": top10_rows,
+        }
         per_query_vectors[split] = vectors
 
     # Paired tests on TEST, reported systems against BM25. Uses unrounded
@@ -198,7 +235,7 @@ def main() -> None:
 
     missed = []
     for item in by_split["dev"]:
-        v2_rel = {j["show_id"] for j in item["judgments"] if j["relevant"]}
+        v2_rel = {j["show_id"] for j in item["judgments"] if int(j["grade"]) >= RELEVANT_AT}
         v1_rel = v1_by_id[item["query_id"]]
         for sid in sorted(v2_rel - v1_rel):
             missed.append({"query_id": item["query_id"], "show_id": sid})
@@ -213,13 +250,30 @@ def main() -> None:
     test_systems = splits_out["test"]["systems"]
     test_systems.sort(key=lambda row: REPORTED.index(row["method"]))
 
+    grade_counts = {str(grade): 0 for grade in range(4)}
+    for item in judgments["queries"]:
+        for judgment in item["judgments"]:
+            grade_counts[str(int(judgment["grade"]))] += 1
+
+    top10_payload = {
+        "depth": 10,
+        "systems": list(REPORTED),
+        "queries": splits_out["dev"]["top10"] + splits_out["test"]["top10"],
+    }
+    TOP10_PATH.parent.mkdir(parents=True, exist_ok=True)
+    TOP10_PATH.write_text(json.dumps(top10_payload, indent=2) + "\n", encoding="utf-8")
+
     payload = {
         "protocol": "eval_v2",
+        "amendment": "graded_labels",
         "headline_metric": "ndcg@10",
+        "ndcg_gain": "2^grade - 1",
+        "relevant_if_grade_at_least": RELEVANT_AT,
         "baseline": BASELINE,
         "judge": judgments.get("judge"),
         "metrics": list(METRICS),
         "reported_systems": list(REPORTED),
+        "grade_counts": grade_counts,
         "pool": {
             "pool_depth": pool["pool_depth"],
             "n_systems": pool["n_systems"],

@@ -107,6 +107,47 @@ def two_sided_sign_test(differences: Sequence[float]) -> dict[str, float | int |
     }
 
 
+def quadratic_weighted_kappa(
+    labels_a: Sequence[int],
+    labels_b: Sequence[int],
+    *,
+    n_classes: int = 4,
+) -> dict[str, float | int | None]:
+    """Quadratic-weighted Cohen's kappa.
+
+    Weight for classes i and j is ``(i - j)^2 / (n_classes - 1)^2``.
+    Raw agreement is the exact-match rate. Kappa is None when the expected
+    weighted disagreement is 0.
+    """
+    a = [int(x) for x in labels_a]
+    b = [int(x) for x in labels_b]
+    if len(a) != len(b):
+        raise ValueError("label sequences differ in length")
+    if n_classes < 2:
+        raise ValueError("n_classes must be >= 2")
+    if any(x < 0 or x >= n_classes for x in a + b):
+        raise ValueError(f"labels must be in 0..{n_classes - 1}")
+    n = len(a)
+    if n == 0:
+        return {"n": 0, "n_agree": 0, "agreement": None, "kappa": None}
+    observed = [[0 for _ in range(n_classes)] for _ in range(n_classes)]
+    for left, right in zip(a, b):
+        observed[left][right] += 1
+    hist_a = [sum(row) for row in observed]
+    hist_b = [sum(observed[i][j] for i in range(n_classes)) for j in range(n_classes)]
+    denom = float((n_classes - 1) ** 2)
+    weighted_obs = 0.0
+    weighted_exp = 0.0
+    for i in range(n_classes):
+        for j in range(n_classes):
+            weight = ((i - j) ** 2) / denom
+            weighted_obs += weight * observed[i][j]
+            weighted_exp += weight * (hist_a[i] * hist_b[j] / n)
+    agree = sum(observed[i][i] for i in range(n_classes))
+    kappa = None if weighted_exp == 0.0 else 1.0 - (weighted_obs / weighted_exp)
+    return {"n": n, "n_agree": agree, "agreement": agree / n, "kappa": kappa}
+
+
 def cohens_kappa(labels_a: Sequence[int], labels_b: Sequence[int]) -> dict[str, float | int | None]:
     """Cohen's kappa for two binary label sequences, plus raw agreement."""
     a = [int(x) for x in labels_a]

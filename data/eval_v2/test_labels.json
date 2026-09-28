@@ -2,7 +2,7 @@
   "version": 2,
   "split": "test",
   "judge": "LLM judge (grok-4.7 via Cursor cloud agent), blinded to system and rank",
-  "description": "Binary relevance labels from the blinded eval v2 pool. Judged from the candidate card only.",
+  "description": "Grades 2 and 3 from the blinded eval v2 pool, in blinded-file order. Judged from the candidate card only.",
   "queries": [
     {
       "id": "tech_anthology",
@@ -59,6 +59,7 @@
         "s5179",
         "s7569",
         "s6970",
+        "s202",
         "s181",
         "s3950",
         "s1931",
@@ -66,7 +67,9 @@
         "s6723",
         "s5969",
         "s6625",
+        "s1253",
         "s6900",
+        "s2493",
         "s2429"
       ]
     },
@@ -133,6 +136,7 @@
       "id": "john_mulaney_standup",
       "query": "John Mulaney stand-up comedy special",
       "relevant_show_ids": [
+        "s5508",
         "s3210",
         "s3211",
         "s3209"
@@ -197,6 +201,7 @@
       "id": "mumbai_crime_series",
       "query": "Indian crime series set in Mumbai",
       "relevant_show_ids": [
+        "s6489",
         "s4924",
         "s5332",
         "s5552",
@@ -264,5 +269,7 @@
         "s1692"
       ]
     }
-  ]
+  ],
+  "label_schema": "graded_0_3",
+  "relevant_if_grade_at_least": 2
 }

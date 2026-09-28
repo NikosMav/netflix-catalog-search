@@ -110,8 +110,8 @@ def test_notes(payload: dict, sample: dict, agreement: dict) -> str:
         f"Judge: {payload['judge']}.",
         (
             f"Test split: {num(test['n_queries'])} queries, "
-            f"{num(n_scored)} scored. "
-            f"Unscored because the relevant set is empty: {skipped_text}."
+            f"{num(n_scored)} scored for nDCG. "
+            f"Unscored for nDCG because the highest grade is 0: {skipped_text}."
         ),
         (
             "Each interval is the paired bootstrap of the per-query "
@@ -120,6 +120,9 @@ def test_notes(payload: dict, sample: dict, agreement: dict) -> str:
     ]
     lines.extend(_ci_phrase(comp) for comp in test["comparisons_vs_bm25"])
     lines.append(_spotcheck_sentence(sample, agreement))
+    grades = _grade_sentence(payload)
+    if grades:
+        lines.append(grades)
     return "\n\n".join(lines)
 
 
@@ -135,8 +138,8 @@ def dev_block(payload: dict) -> str:
     skipped = unscored_query_ids(dev)
     skipped_text = ", ".join(f"`{qid}`" for qid in skipped) if skipped else "none"
     intro = (
-        f"Dev split: {num(dev['n_queries'])} queries, {num(n_scored)} scored. "
-        f"Unscored because the relevant set is empty: {skipped_text}. "
+        f"Dev split: {num(dev['n_queries'])} queries, {num(n_scored)} scored for nDCG. "
+        f"Unscored for nDCG because the highest grade is 0: {skipped_text}. "
         "No test-set interval is computed on this split."
     )
     return intro + "\n\n" + split_table(dev["systems"])
@@ -157,8 +160,9 @@ def _spotcheck_sentence(sample: dict, agreement: dict) -> str:
     if status == "scored":
         return (
             base
-            + f" Raw agreement {num(agreement['agreement'])}, "
-            + f"Cohen's kappa {num(agreement['kappa'])}, "
+            + f" Raw agreement {num(agreement['raw_agreement'])}, "
+            + f"quadratic-weighted kappa {num(agreement['quadratic_weighted_kappa'])}, "
+            + f"binary kappa {num(agreement['binary_kappa'])}, "
             + f"n={num(agreement['n'])}."
         )
     return base
@@ -176,45 +180,60 @@ def stats_block(payload: dict, sample: dict, agreement: dict) -> str:
             f"{num(pool['candidates_min'])} to {num(pool['candidates_max'])} unique titles per query)."
         ),
         (
-            f"Dev labels: {num(labels['dev']['n_relevant_pairs'])} relevant pairs "
+            f"Dev labels: {num(labels['dev']['n_relevant_pairs'])} pairs graded 2 or 3 "
             f"out of {num(labels['dev']['n_judged_pairs'])} judged pairs "
             f"({num(labels['dev']['n_queries_with_relevant'])} of "
-            f"{num(labels['dev']['n_queries'])} queries have a relevant title)."
+            f"{num(labels['dev']['n_queries'])} queries have a grade of 2 or 3)."
         ),
         (
-            f"Test labels: {num(labels['test']['n_relevant_pairs'])} relevant pairs "
+            f"Test labels: {num(labels['test']['n_relevant_pairs'])} pairs graded 2 or 3 "
             f"out of {num(labels['test']['n_judged_pairs'])} judged pairs "
             f"({num(labels['test']['n_queries_with_relevant'])} of "
-            f"{num(labels['test']['n_queries'])} queries have a relevant title)."
+            f"{num(labels['test']['n_queries'])} queries have a grade of 2 or 3)."
         ),
         (
             f"v2-relevant dev titles absent from that query's v1 relevant set: {num(missed)}."
         ),
         _spotcheck_sentence(sample, agreement),
     ]
+    grades = _grade_sentence(payload)
+    if grades:
+        lines.append(grades)
     return "\n\n".join(lines)
 
 
 def overrides_block(payload: dict) -> str:
     rows_in = payload["overrides"]
     intro = (
-        f"{num(len(rows_in))} committed labels differ from the blinded judge batches. "
+        f"{num(len(rows_in))} committed grades differ from the blinded re-judge. "
         "There are no other overrides."
     )
-    headers = ["query_id", "show_id", "title", "batch", "raw label", "final label", "reason"]
+    headers = ["query_id", "show_id", "title", "raw grade", "final grade", "reason"]
     rows = [
         [
             row["query_id"],
             row["show_id"],
             row["title"],
-            str(row["batch"]),
-            num(row["raw_label"]),
-            num(row["final_label"]),
+            num(row["raw_grade"]),
+            num(row["final_grade"]),
             row["reason"],
         ]
         for row in rows_in
     ]
     return intro + "\n\n" + _md_table(headers, rows)
+
+
+def _grade_sentence(payload: dict) -> str:
+    counts = payload.get("grade_counts")
+    if not counts:
+        return ""
+    return (
+        "Grade counts: "
+        + ", ".join(f"{grade}={num(counts[str(grade)])}" for grade in range(4))
+        + f". nDCG gain is {payload.get('ndcg_gain', '2^grade - 1')}. "
+        + "Recall and MRR count a title when its grade is at least "
+        + f"{num(payload.get('relevant_if_grade_at_least', 2))}."
+    )
 
 
 def v1_table(payload: dict) -> str:

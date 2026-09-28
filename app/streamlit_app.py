@@ -206,7 +206,7 @@ def _v2_queries(split: str) -> list[dict]:
     return payload["queries"]
 
 
-def _label_spotcheck(sample_id: str, relevant: bool) -> None:
+def _label_spotcheck(sample_id: str, grade: int) -> None:
     import importlib.util
 
     path = ROOT / "scripts" / "eval_v2_spotcheck.py"
@@ -215,7 +215,7 @@ def _label_spotcheck(sample_id: str, relevant: bool) -> None:
         raise RuntimeError(f"Could not load {path}")
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
-    module.label_pair(sample_id, relevant)
+    module.label_pair(sample_id, grade)
 
 
 def render_chart(frame: pd.DataFrame) -> None:
@@ -338,6 +338,11 @@ def render_eval() -> None:
     systems = pd.DataFrame(block["systems"])
     n_scored = int(systems["n_scored"].iloc[0])
     st.markdown(metric_notes(n_scored))
+    if payload.get("ndcg_gain"):
+        st.caption(
+            f"nDCG gain is {payload['ndcg_gain']}. "
+            f"Recall and MRR count grade {payload.get('relevant_if_grade_at_least', 2)} or higher."
+        )
     st.caption(
         f"{split} split: {int(block['n_queries'])} queries, {n_scored} scored. "
         f"Judge: {payload['judge']}. "
@@ -383,12 +388,12 @@ def render_eval() -> None:
     render_labeled_query(split)
 
 
-def _human_labels() -> dict[str, bool]:
+def _human_labels() -> set[str]:
     path = ROOT / "data" / "eval_v2" / "spotcheck_human.json"
     if not path.exists():
-        return {}
+        return set()
     payload = json.loads(path.read_text(encoding="utf-8"))
-    return {row["sample_id"]: bool(row["relevant"]) for row in payload.get("labels", [])}
+    return {row["sample_id"] for row in payload.get("labels", [])}
 
 
 def render_spotcheck() -> None:
@@ -412,13 +417,12 @@ def render_spotcheck() -> None:
         st.caption(f"Cast: {card['cast']}")
     st.write(card.get("description") or "")
     st.caption(f"sample_id: {card['sample_id']}")
-    relevant, not_relevant = st.columns(2)
-    if relevant.button("Relevant", type="primary"):
-        _label_spotcheck(card["sample_id"], True)
-        st.rerun()
-    if not_relevant.button("Not relevant"):
-        _label_spotcheck(card["sample_id"], False)
-        st.rerun()
+    st.caption("Grade 0 not relevant, 1 marginal, 2 relevant, 3 highly relevant.")
+    columns = st.columns(4)
+    for grade, column in enumerate(columns):
+        if column.button(f"Grade {grade}", key=f"spot_grade_{grade}"):
+            _label_spotcheck(card["sample_id"], grade)
+            st.rerun()
 
 
 def render_how() -> None:

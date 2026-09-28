@@ -45,12 +45,13 @@ def test_notes_say_spotcheck_pending_until_scored():
     scored = {
         "status": "scored",
         "n": 2,
-        "n_agree": 2,
-        "agreement": 1.0,
-        "kappa": 1.0,
+        "raw_agreement": 1.0,
+        "quadratic_weighted_kappa": 1.0,
+        "binary_kappa": 1.0,
     }
     scored_notes = sync.test_notes(payload, sample, scored)
-    assert "Cohen's kappa 1.0" in scored_notes
+    assert "quadratic-weighted kappa 1.0" in scored_notes
+    assert "binary kappa 1.0" in scored_notes
 
 
 def test_label_overrides_are_the_only_disclosed_edits_and_match_judgments():
@@ -67,8 +68,8 @@ def test_label_overrides_are_the_only_disclosed_edits_and_match_judgments():
         assert key not in seen
         seen.add(key)
         match = next(j for j in by_query[row["query_id"]]["judgments"] if j["show_id"] == row["show_id"])
-        assert int(match["relevant"]) == row["final_label"]
-        assert row["raw_label"] != row["final_label"]
+        assert int(match["grade"]) == row["final_grade"]
+        assert row["raw_grade"] != row["final_grade"]
         assert row["reason"] in block
         assert row["show_id"] in block
 

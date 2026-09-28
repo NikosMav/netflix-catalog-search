@@ -2,7 +2,7 @@
   "version": 2,
   "split": "dev",
   "judge": "LLM judge (grok-4.7 via Cursor cloud agent), blinded to system and rank",
-  "description": "Binary relevance labels from the blinded eval v2 pool. Judged from the candidate card only.",
+  "description": "Grades 2 and 3 from the blinded eval v2 pool, in blinded-file order. Judged from the candidate card only.",
   "queries": [
     {
       "id": "vietnam_war",
@@ -58,7 +58,6 @@
         "s7779",
         "s2705",
         "s7756",
-        "s6819",
         "s967",
         "s6984",
         "s5167"
@@ -110,9 +109,7 @@
       "id": "oceans_heist",
       "query": "Ocean's Eleven casino heist movie",
       "relevant_show_ids": [
-        "s4564",
-        "s4565",
-        "s4566"
+        "s4564"
       ]
     },
     {
@@ -128,9 +125,9 @@
       "relevant_show_ids": [
         "s4221",
         "s5064",
+        "s3973",
         "s6173",
-        "s3370",
-        "s6143"
+        "s3370"
       ]
     },
     {
@@ -143,6 +140,7 @@
         "s29",
         "s4437",
         "s624",
+        "s1984",
         "s6062"
       ]
     },
@@ -151,8 +149,10 @@
       "query": "feel-good Christmas family movie",
       "relevant_show_ids": [
         "s1373",
+        "s187",
         "s589",
         "s243",
+        "s4943",
         "s2273",
         "s286",
         "s234",
@@ -163,6 +163,7 @@
         "s178",
         "s5385",
         "s4949",
+        "s498",
         "s6219",
         "s6221",
         "s5760",
@@ -170,6 +171,7 @@
         "s3857",
         "s1363",
         "s5009",
+        "s1369",
         "s160",
         "s4975",
         "s2840",
@@ -187,7 +189,9 @@
         "s4876",
         "s6930",
         "s322",
+        "s4877",
         "s2988",
+        "s6028",
         "s1634",
         "s4467",
         "s290",
@@ -196,6 +200,7 @@
         "s783",
         "s4432",
         "s3633",
+        "s7236",
         "s7619",
         "s1001"
       ]
@@ -225,15 +230,19 @@
       "relevant_show_ids": [
         "s6896",
         "s6809",
-        "s3712",
+        "s3648",
+        "s7342",
         "s2296",
-        "s7488"
+        "s7488",
+        "s7396",
+        "s7184"
       ]
     },
     {
       "id": "preschool_kids_show",
       "query": "preschool cartoon for toddlers",
       "relevant_show_ids": [
+        "s3564",
         "s4888",
         "s7102",
         "s3716"
@@ -272,19 +281,24 @@
       "query": "documentary about social media harming society",
       "relevant_show_ids": [
         "s6421",
+        "s5688",
+        "s5258",
         "s6884"
       ]
     },
     {
       "id": "dark_german_series",
       "query": "German time-travel mystery series Dark",
-      "relevant_show_ids": []
+      "relevant_show_ids": [
+        "s1611"
+      ]
     },
     {
       "id": "breaking_bad_universe",
       "query": "Breaking Bad and El Camino",
       "relevant_show_ids": [
         "s1090",
+        "s859",
         "s1946"
       ]
     },
@@ -295,5 +309,7 @@
         "s7007"
       ]
     }
-  ]
+  ],
+  "label_schema": "graded_0_3",
+  "relevant_if_grade_at_least": 2
 }

@@ -72,19 +72,19 @@ The reported systems were frozen before the test run. What was tuned on the dev 
 - The BM25 baseline is title + description, not the metadata or plot BM25 ablation.
 - BM25 `k1` and `b`, RRF `k`, and the TF-IDF feature cap are library defaults. They were not grid-searched.
 
-The judge is named in the metrics JSON: an LLM judge (grok-4.7 via Cursor cloud agent), blinded to system and rank. Each decision used the query and the candidate card only. Queries with an empty relevant set stay in the per-query file and are left out of the means.
+The judge is named in the metrics JSON: an LLM judge (grok-4.7 via Cursor cloud agent), blinded to system and rank. Each decision used the query and the candidate card only. Grades are 0 (not relevant), 1 (marginal), 2 (relevant), and 3 (highly relevant). nDCG@10 uses gain `2^grade - 1`. Recall and MRR treat grade 2 or 3 as relevant. A query with no positive grade is left out of nDCG. A query with no grade of 2 or 3 is left out of recall and MRR.
 
 ### Label corrections
 
 A few committed labels were changed after the blinded judge batches. The list is copied from [`data/eval_v2/label_overrides.json`](data/eval_v2/label_overrides.json). `judgments.json` points at that file.
 
 <!-- EVAL_V2_OVERRIDES_BEGIN -->
-2 committed labels differ from the blinded judge batches. There are no other overrides.
+2 committed grades differ from the blinded re-judge. There are no other overrides.
 
-| query_id | show_id | title | batch | raw label | final label | reason |
-| --- | --- | --- | --- | --- | --- | --- |
-| office_mockumentary | s6719 | The Office (U.S.) | F | 0 | 1 | The card is a TV comedy about office workers at the Dunder Mifflin paper company, so the pair was marked relevant even though the card never says mockumentary. |
-| vietnam_war | s1570 | Da 5 Bloods | C | 1 | 0 | The card is a decades-later return to recover remains and buried gold, so the pair was marked not relevant to a query about the war itself. |
+| query_id | show_id | title | raw grade | final grade | reason |
+| --- | --- | --- | --- | --- | --- |
+| office_mockumentary | s6719 | The Office (U.S.) | 3 | 2 | The blinded re-judge assigned grade 3, but the card never says mockumentary, so the carried relevant decision is grade 2 rather than exact intent. |
+| vietnam_war | s1570 | Da 5 Bloods | 1 | 0 | The blinded re-judge assigned grade 1. The carried decision stays not relevant: the card is a decades-later return for remains and gold, not the war itself. |
 <!-- EVAL_V2_OVERRIDES_END -->
 
 - **Recall@k** — fraction of labeled relevant titles found in the top k.
@@ -96,7 +96,7 @@ The blocks below are written by `python scripts/sync_metrics_docs.py`.
 ### Dev split
 
 <!-- EVAL_V2_DEV_BEGIN -->
-Dev split: 28 queries, 25 scored. Unscored because the relevant set is empty: `semantic_scandi_crime`, `anime_death_note`, `dark_german_series`. No test-set interval is computed on this split.
+Dev split: 28 queries, 25 scored for nDCG. Unscored for nDCG because the highest grade is 0: `semantic_scandi_crime`, `anime_death_note`, `dark_german_series`. No test-set interval is computed on this split.
 
 | method | n_scored | recall@5 | recall@10 | ndcg@10 | mrr |
 | --- | --- | --- | --- | --- | --- |
@@ -133,9 +133,9 @@ Candidates are the union of each system's top of the pool, including the ablatio
 <!-- EVAL_V2_STATS_BEGIN -->
 Pool depth 10 across 15 systems and 58 queries (3032 candidate slots; 21 to 76 unique titles per query).
 
-Dev labels: 126 relevant pairs out of 1276 judged pairs (25 of 28 queries have a relevant title).
+Dev labels: 126 pairs graded 2 or 3 out of 1276 judged pairs (25 of 28 queries have a grade of 2 or 3).
 
-Test labels: 81 relevant pairs out of 1756 judged pairs (29 of 30 queries have a relevant title).
+Test labels: 81 pairs graded 2 or 3 out of 1756 judged pairs (29 of 30 queries have a grade of 2 or 3).
 
 v2-relevant dev titles absent from that query's v1 relevant set: 73.
 
@@ -146,10 +146,12 @@ Nikos can label the sample without seeing the model judgment. The CLI and the St
 
 ```bash
 python scripts/eval_v2_spotcheck.py show
-python scripts/eval_v2_spotcheck.py label <sample_id> --relevant
-python scripts/eval_v2_spotcheck.py label <sample_id> --not-relevant
+python scripts/eval_v2_spotcheck.py label <sample_id> --grade 0
+python scripts/eval_v2_spotcheck.py label <sample_id> --grade 3
 python scripts/eval_v2_agreement.py
 ```
+
+The agreement script reports quadratic-weighted kappa, kappa on grades binarised at 2, raw exact-grade agreement, those same figures split by which reported system retrieved the pair in its top 10, and nDCG@10 on the human grades alone. Until the human file has grades, the result stays spot-check pending.
 
 Until that human file has labels, the agreement file says spot-check pending. Do not fill the human file in as the model.
 
@@ -228,7 +230,7 @@ Full side-by-side dumps: [`results/qualitative_examples.json`](results/qualitati
 - **Catalog search ≠ recommender.** No watch history, no CF, no popularity re-rank.
 - **Not web RAG.** No chunking of long docs, no tool-using agent, no generation.
 - **Small labeled splits, an LLM judge, and queries written for this project.** Useful for honesty, not a public IR benchmark. The human spot-check is pending.
-- **Binary labels only.** No graded relevance, so nDCG uses 0/1 gains. Queries with an empty relevant set are omitted from the means and the paired tests.
+- **Grades are 0-3.** nDCG uses gain `2^grade - 1`. Recall and MRR use grades 2 and 3. Queries with no positive grade are omitted from nDCG. Queries with no grade of 2 or 3 are omitted from recall and MRR.
 - **Short marketing blurbs.** Bad descriptions limit every method; metadata helps unevenly.
   Wikipedia plot enrichment (`text_plot`) is an optional ablation — match errors and missing
   pages remain a caveat (see coverage JSON).
