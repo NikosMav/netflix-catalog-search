@@ -1,0 +1,4864 @@
+{
+  "protocol": "eval_v2",
+  "headline_metric": "ndcg@10",
+  "baseline": "bm25",
+  "judge": "LLM judge (grok-4.7 via Cursor cloud agent), blinded to system and rank",
+  "metrics": [
+    "recall@5",
+    "recall@10",
+    "ndcg@10",
+    "mrr"
+  ],
+  "reported_systems": [
+    "boolean",
+    "tf-idf",
+    "bm25",
+    "dense(title+desc)",
+    "hybrid(bm25+dense,meta)",
+    "hybrid+rerank"
+  ],
+  "pool": {
+    "pool_depth": 10,
+    "n_systems": 15,
+    "systems": [
+      "boolean",
+      "tf-idf",
+      "tf-idf(desc+meta)",
+      "tf-idf(desc+plot)",
+      "bm25",
+      "bm25(desc+meta)",
+      "bm25(desc+plot)",
+      "dense(title+desc)",
+      "dense(title+desc+meta)",
+      "dense(title+desc+plot)",
+      "dense(title-only)",
+      "hybrid(tfidf+dense)",
+      "hybrid(bm25+dense,meta)",
+      "dense+rerank",
+      "hybrid+rerank"
+    ],
+    "n_queries": 58,
+    "n_candidate_slots": 3032,
+    "candidates_min": 21,
+    "candidates_max": 76
+  },
+  "labels": {
+    "dev": {
+      "n_queries": 28,
+      "n_queries_with_relevant": 25,
+      "n_judged_pairs": 1276,
+      "n_relevant_pairs": 126
+    },
+    "test": {
+      "n_queries": 30,
+      "n_queries_with_relevant": 29,
+      "n_judged_pairs": 1756,
+      "n_relevant_pairs": 81
+    }
+  },
+  "v1_missed_on_dev": {
+    "n_v2_relevant_titles_absent_from_v1": 73,
+    "pairs": [
+      {
+        "query_id": "semantic_cooking_show",
+        "show_id": "s1497"
+      },
+      {
+        "query_id": "semantic_cooking_show",
+        "show_id": "s6077"
+      },
+      {
+        "query_id": "zombie_apocalypse",
+        "show_id": "s2705"
+      },
+      {
+        "query_id": "zombie_apocalypse",
+        "show_id": "s3420"
+      },
+      {
+        "query_id": "zombie_apocalypse",
+        "show_id": "s5107"
+      },
+      {
+        "query_id": "zombie_apocalypse",
+        "show_id": "s5167"
+      },
+      {
+        "query_id": "zombie_apocalypse",
+        "show_id": "s6819"
+      },
+      {
+        "query_id": "zombie_apocalypse",
+        "show_id": "s6984"
+      },
+      {
+        "query_id": "zombie_apocalypse",
+        "show_id": "s7756"
+      },
+      {
+        "query_id": "dave_chappelle_comedy",
+        "show_id": "s1685"
+      },
+      {
+        "query_id": "boxing_biopic",
+        "show_id": "s3370"
+      },
+      {
+        "query_id": "boxing_biopic",
+        "show_id": "s4221"
+      },
+      {
+        "query_id": "boxing_biopic",
+        "show_id": "s5064"
+      },
+      {
+        "query_id": "boxing_biopic",
+        "show_id": "s6173"
+      },
+      {
+        "query_id": "ww2_holocaust_docs",
+        "show_id": "s1934"
+      },
+      {
+        "query_id": "ww2_holocaust_docs",
+        "show_id": "s4437"
+      },
+      {
+        "query_id": "ww2_holocaust_docs",
+        "show_id": "s4531"
+      },
+      {
+        "query_id": "ww2_holocaust_docs",
+        "show_id": "s4550"
+      },
+      {
+        "query_id": "ww2_holocaust_docs",
+        "show_id": "s6062"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s1363"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s1373"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s172"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s178"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s1843"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s1869"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s2273"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s234"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s243"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s2840"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s286"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s3248"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s3857"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s4949"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s4957"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s4975"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s5009"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s520"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s521"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s5385"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s5760"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s589"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s6219"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s6220"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s6221"
+      },
+      {
+        "query_id": "christmas_family_movie",
+        "show_id": "s6770"
+      },
+      {
+        "query_id": "nature_planet_docs",
+        "show_id": "s1001"
+      },
+      {
+        "query_id": "nature_planet_docs",
+        "show_id": "s1634"
+      },
+      {
+        "query_id": "nature_planet_docs",
+        "show_id": "s290"
+      },
+      {
+        "query_id": "nature_planet_docs",
+        "show_id": "s2988"
+      },
+      {
+        "query_id": "nature_planet_docs",
+        "show_id": "s322"
+      },
+      {
+        "query_id": "nature_planet_docs",
+        "show_id": "s3633"
+      },
+      {
+        "query_id": "nature_planet_docs",
+        "show_id": "s4429"
+      },
+      {
+        "query_id": "nature_planet_docs",
+        "show_id": "s4432"
+      },
+      {
+        "query_id": "nature_planet_docs",
+        "show_id": "s4434"
+      },
+      {
+        "query_id": "nature_planet_docs",
+        "show_id": "s6930"
+      },
+      {
+        "query_id": "nature_planet_docs",
+        "show_id": "s7619"
+      },
+      {
+        "query_id": "nature_planet_docs",
+        "show_id": "s783"
+      },
+      {
+        "query_id": "time_travel_romance",
+        "show_id": "s288"
+      },
+      {
+        "query_id": "time_travel_romance",
+        "show_id": "s301"
+      },
+      {
+        "query_id": "time_travel_romance",
+        "show_id": "s4394"
+      },
+      {
+        "query_id": "time_travel_romance",
+        "show_id": "s7587"
+      },
+      {
+        "query_id": "spy_thriller",
+        "show_id": "s2296"
+      },
+      {
+        "query_id": "spy_thriller",
+        "show_id": "s3712"
+      },
+      {
+        "query_id": "spy_thriller",
+        "show_id": "s6809"
+      },
+      {
+        "query_id": "spy_thriller",
+        "show_id": "s7488"
+      },
+      {
+        "query_id": "preschool_kids_show",
+        "show_id": "s7102"
+      },
+      {
+        "query_id": "true_crime_serial_killer",
+        "show_id": "s2634"
+      },
+      {
+        "query_id": "true_crime_serial_killer",
+        "show_id": "s3016"
+      },
+      {
+        "query_id": "true_crime_serial_killer",
+        "show_id": "s3030"
+      },
+      {
+        "query_id": "true_crime_serial_killer",
+        "show_id": "s5500"
+      },
+      {
+        "query_id": "true_crime_serial_killer",
+        "show_id": "s6238"
+      },
+      {
+        "query_id": "true_crime_serial_killer",
+        "show_id": "s6825"
+      },
+      {
+        "query_id": "social_media_doc",
+        "show_id": "s6421"
+      }
+    ]
+  },
+  "test": {
+    "n_queries": 30,
+    "systems": [
+      {
+        "method": "boolean",
+        "n_scored": 29,
+        "recall@5": 0.5259,
+        "recall@10": 0.5632,
+        "ndcg@10": 0.5151,
+        "mrr": 0.5184
+      },
+      {
+        "method": "tf-idf",
+        "n_scored": 29,
+        "recall@5": 0.5989,
+        "recall@10": 0.6477,
+        "ndcg@10": 0.5755,
+        "mrr": 0.5917
+      },
+      {
+        "method": "bm25",
+        "n_scored": 29,
+        "recall@5": 0.6592,
+        "recall@10": 0.6966,
+        "ndcg@10": 0.6452,
+        "mrr": 0.6759
+      },
+      {
+        "method": "dense(title+desc)",
+        "n_scored": 29,
+        "recall@5": 0.6017,
+        "recall@10": 0.6603,
+        "ndcg@10": 0.5995,
+        "mrr": 0.6003
+      },
+      {
+        "method": "hybrid(bm25+dense,meta)",
+        "n_scored": 29,
+        "recall@5": 0.6459,
+        "recall@10": 0.745,
+        "ndcg@10": 0.6754,
+        "mrr": 0.6707
+      },
+      {
+        "method": "hybrid+rerank",
+        "n_scored": 29,
+        "recall@5": 0.8579,
+        "recall@10": 0.9037,
+        "ndcg@10": 0.8859,
+        "mrr": 0.8908
+      }
+    ],
+    "comparisons_vs_bm25": [
+      {
+        "method": "boolean",
+        "baseline": "bm25",
+        "metric": "ndcg@10",
+        "n": 29,
+        "mean_difference": -0.1301,
+        "ci_low": -0.2494,
+        "ci_high": -0.0355,
+        "ci_level": 0.95,
+        "n_resamples": 10000,
+        "bootstrap_seed": 20260928,
+        "sign_n_positive": 3,
+        "sign_n_negative": 9,
+        "sign_n_ties": 17,
+        "sign_p_value": 0.14599609375
+      },
+      {
+        "method": "tf-idf",
+        "baseline": "bm25",
+        "metric": "ndcg@10",
+        "n": 29,
+        "mean_difference": -0.0697,
+        "ci_low": -0.1719,
+        "ci_high": 0.0131,
+        "ci_level": 0.95,
+        "n_resamples": 10000,
+        "bootstrap_seed": 20260928,
+        "sign_n_positive": 5,
+        "sign_n_negative": 7,
+        "sign_n_ties": 17,
+        "sign_p_value": 0.7744140625
+      },
+      {
+        "method": "dense(title+desc)",
+        "baseline": "bm25",
+        "metric": "ndcg@10",
+        "n": 29,
+        "mean_difference": -0.0456,
+        "ci_low": -0.1696,
+        "ci_high": 0.0607,
+        "ci_level": 0.95,
+        "n_resamples": 10000,
+        "bootstrap_seed": 20260928,
+        "sign_n_positive": 6,
+        "sign_n_negative": 7,
+        "sign_n_ties": 16,
+        "sign_p_value": 1.0
+      },
+      {
+        "method": "hybrid(bm25+dense,meta)",
+        "baseline": "bm25",
+        "metric": "ndcg@10",
+        "n": 29,
+        "mean_difference": 0.0302,
+        "ci_low": -0.0994,
+        "ci_high": 0.1483,
+        "ci_level": 0.95,
+        "n_resamples": 10000,
+        "bootstrap_seed": 20260928,
+        "sign_n_positive": 9,
+        "sign_n_negative": 6,
+        "sign_n_ties": 14,
+        "sign_p_value": 0.60723876953125
+      },
+      {
+        "method": "hybrid+rerank",
+        "baseline": "bm25",
+        "metric": "ndcg@10",
+        "n": 29,
+        "mean_difference": 0.2408,
+        "ci_low": 0.1269,
+        "ci_high": 0.3676,
+        "ci_level": 0.95,
+        "n_resamples": 10000,
+        "bootstrap_seed": 20260928,
+        "sign_n_positive": 14,
+        "sign_n_negative": 0,
+        "sign_n_ties": 15,
+        "sign_p_value": 0.0001220703125
+      }
+    ],
+    "per_query": {
+      "boolean": [
+        {
+          "query_id": "tech_anthology",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "adult_cartoon_hasbeen",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "hidden_camera_horror",
+          "recall@5": 0.333333,
+          "recall@10": 1.0,
+          "ndcg@10": 0.486009,
+          "mrr": 0.2
+        },
+        {
+          "query_id": "makeover_reality",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "cat_transformation_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "dystopian_therapy_film",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "divorce_drama",
+          "recall@5": 0.333333,
+          "recall@10": 0.416667,
+          "ndcg@10": 0.498271,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "bully_redemption_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "gymnastics_abuse_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "trans_teen_drama",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "wrongful_conviction_series",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "doping_scandal_doc",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "adam_sandler_comedy",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "john_mulaney_standup",
+          "recall@5": 0.333333,
+          "recall@10": 0.666667,
+          "ndcg@10": 0.431734,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "shah_rukh_romance",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "scorsese_deniro_crime",
+          "recall@5": 0.25,
+          "recall@10": 0.25,
+          "ndcg@10": 0.39038,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "jerry_seinfeld_standup",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "marie_kondo_tidying",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "birmingham_gangsters",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "queen_elizabeth_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mumbai_crime_series",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "mexican_cartel_1980s",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.5,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "lagos_trafficking_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "southern_classic_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "office_mockumentary",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "karate_sequel_series",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "jordan_bulls_docuseries",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "regency_london_romance",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "korea_border_romance",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "delhi_police_investigation",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        }
+      ],
+      "tf-idf": [
+        {
+          "query_id": "tech_anthology",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "adult_cartoon_hasbeen",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "hidden_camera_horror",
+          "recall@5": 0.666667,
+          "recall@10": 1.0,
+          "ndcg@10": 0.851959,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "makeover_reality",
+          "recall@5": 0.2,
+          "recall@10": 0.2,
+          "ndcg@10": 0.213986,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "cat_transformation_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.386853,
+          "mrr": 0.2
+        },
+        {
+          "query_id": "dystopian_therapy_film",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "divorce_drama",
+          "recall@5": 0.25,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.41245,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "bully_redemption_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "gymnastics_abuse_doc",
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.315465,
+          "mrr": 0.125
+        },
+        {
+          "query_id": "trans_teen_drama",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "wrongful_conviction_series",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "doping_scandal_doc",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "adam_sandler_comedy",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "john_mulaney_standup",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.906025,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "shah_rukh_romance",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "scorsese_deniro_crime",
+          "recall@5": 0.25,
+          "recall@10": 0.25,
+          "ndcg@10": 0.39038,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "jerry_seinfeld_standup",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.712263,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "marie_kondo_tidying",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "birmingham_gangsters",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "queen_elizabeth_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mumbai_crime_series",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "mexican_cartel_1980s",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.5,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "lagos_trafficking_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "southern_classic_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "office_mockumentary",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "karate_sequel_series",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "jordan_bulls_docuseries",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "regency_london_romance",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "korea_border_romance",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "delhi_police_investigation",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        }
+      ],
+      "bm25": [
+        {
+          "query_id": "tech_anthology",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "adult_cartoon_hasbeen",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "hidden_camera_horror",
+          "recall@5": 0.666667,
+          "recall@10": 1.0,
+          "ndcg@10": 0.827812,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "makeover_reality",
+          "recall@5": 0.2,
+          "recall@10": 0.2,
+          "ndcg@10": 0.16958,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "cat_transformation_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.5,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "dystopian_therapy_film",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "divorce_drama",
+          "recall@5": 0.166667,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.47479,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "bully_redemption_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "gymnastics_abuse_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "trans_teen_drama",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "wrongful_conviction_series",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "doping_scandal_doc",
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "ndcg@10": 0.613147,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "adam_sandler_comedy",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "john_mulaney_standup",
+          "recall@5": 0.666667,
+          "recall@10": 0.666667,
+          "ndcg@10": 0.530721,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "shah_rukh_romance",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "scorsese_deniro_crime",
+          "recall@5": 0.25,
+          "recall@10": 0.25,
+          "ndcg@10": 0.246302,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "jerry_seinfeld_standup",
+          "recall@5": 0.666667,
+          "recall@10": 1.0,
+          "ndcg@10": 0.603907,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "marie_kondo_tidying",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "birmingham_gangsters",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "queen_elizabeth_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mumbai_crime_series",
+          "recall@5": 0.0,
+          "recall@10": 0.25,
+          "ndcg@10": 0.112845,
+          "mrr": 0.1
+        },
+        {
+          "query_id": "mexican_cartel_1980s",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "lagos_trafficking_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "southern_classic_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "office_mockumentary",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "karate_sequel_series",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "jordan_bulls_docuseries",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "regency_london_romance",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "korea_border_romance",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "delhi_police_investigation",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        }
+      ],
+      "dense(title+desc)": [
+        {
+          "query_id": "tech_anthology",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "adult_cartoon_hasbeen",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "hidden_camera_horror",
+          "recall@5": 0.666667,
+          "recall@10": 0.666667,
+          "ndcg@10": 0.703918,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "makeover_reality",
+          "recall@5": 0.2,
+          "recall@10": 0.4,
+          "ndcg@10": 0.238198,
+          "mrr": 0.2
+        },
+        {
+          "query_id": "cat_transformation_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "dystopian_therapy_film",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "divorce_drama",
+          "recall@5": 0.166667,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.343018,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "bully_redemption_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "gymnastics_abuse_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "trans_teen_drama",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "wrongful_conviction_series",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "doping_scandal_doc",
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "ndcg@10": 0.264068,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "adam_sandler_comedy",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "john_mulaney_standup",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "shah_rukh_romance",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "scorsese_deniro_crime",
+          "recall@5": 0.25,
+          "recall@10": 0.25,
+          "ndcg@10": 0.246302,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "jerry_seinfeld_standup",
+          "recall@5": 0.666667,
+          "recall@10": 1.0,
+          "ndcg@10": 0.644784,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "marie_kondo_tidying",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "birmingham_gangsters",
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.315465,
+          "mrr": 0.125
+        },
+        {
+          "query_id": "queen_elizabeth_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mumbai_crime_series",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "mexican_cartel_1980s",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "lagos_trafficking_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "southern_classic_drama",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "office_mockumentary",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "karate_sequel_series",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "jordan_bulls_docuseries",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "regency_london_romance",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "korea_border_romance",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "delhi_police_investigation",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        }
+      ],
+      "hybrid(bm25+dense,meta)": [
+        {
+          "query_id": "tech_anthology",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.386853,
+          "mrr": 0.2
+        },
+        {
+          "query_id": "adult_cartoon_hasbeen",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "hidden_camera_horror",
+          "recall@5": 0.666667,
+          "recall@10": 0.666667,
+          "ndcg@10": 0.765361,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "makeover_reality",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "cat_transformation_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "dystopian_therapy_film",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "divorce_drama",
+          "recall@5": 0.166667,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.385893,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "bully_redemption_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "gymnastics_abuse_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "trans_teen_drama",
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.356207,
+          "mrr": 0.166667
+        },
+        {
+          "query_id": "wrongful_conviction_series",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "doping_scandal_doc",
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "ndcg@10": 0.613147,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "adam_sandler_comedy",
+          "recall@5": 0.176471,
+          "recall@10": 0.411765,
+          "ndcg@10": 0.600431,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "john_mulaney_standup",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "shah_rukh_romance",
+          "recall@5": 0.222222,
+          "recall@10": 0.444444,
+          "ndcg@10": 0.337061,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "scorsese_deniro_crime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.76064,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "jerry_seinfeld_standup",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.88546,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "marie_kondo_tidying",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "birmingham_gangsters",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "queen_elizabeth_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mumbai_crime_series",
+          "recall@5": 0.0,
+          "recall@10": 0.25,
+          "ndcg@10": 0.139056,
+          "mrr": 0.166667
+        },
+        {
+          "query_id": "mexican_cartel_1980s",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "lagos_trafficking_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "southern_classic_drama",
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.356207,
+          "mrr": 0.166667
+        },
+        {
+          "query_id": "office_mockumentary",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "karate_sequel_series",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "jordan_bulls_docuseries",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "regency_london_romance",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "korea_border_romance",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "delhi_police_investigation",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        }
+      ],
+      "hybrid+rerank": [
+        {
+          "query_id": "tech_anthology",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "adult_cartoon_hasbeen",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "hidden_camera_horror",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "makeover_reality",
+          "recall@5": 0.2,
+          "recall@10": 0.4,
+          "ndcg@10": 0.32704,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "cat_transformation_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "dystopian_therapy_film",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "divorce_drama",
+          "recall@5": 0.25,
+          "recall@10": 0.5,
+          "ndcg@10": 0.615406,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "bully_redemption_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "gymnastics_abuse_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "trans_teen_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "wrongful_conviction_series",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "doping_scandal_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.877215,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "adam_sandler_comedy",
+          "recall@5": 0.235294,
+          "recall@10": 0.529412,
+          "ndcg@10": 0.779908,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "john_mulaney_standup",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "shah_rukh_romance",
+          "recall@5": 0.444444,
+          "recall@10": 0.777778,
+          "ndcg@10": 0.694199,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "scorsese_deniro_crime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.904717,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "jerry_seinfeld_standup",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.618289,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "marie_kondo_tidying",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "birmingham_gangsters",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "queen_elizabeth_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mumbai_crime_series",
+          "recall@5": 0.75,
+          "recall@10": 1.0,
+          "ndcg@10": 0.875646,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mexican_cartel_1980s",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "lagos_trafficking_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "southern_classic_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "office_mockumentary",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "karate_sequel_series",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "jordan_bulls_docuseries",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "regency_london_romance",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "korea_border_romance",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "delhi_police_investigation",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        }
+      ]
+    }
+  },
+  "dev": {
+    "n_queries": 28,
+    "systems": [
+      {
+        "method": "boolean",
+        "n_scored": 25,
+        "recall@5": 0.2747,
+        "recall@10": 0.3942,
+        "ndcg@10": 0.3033,
+        "mrr": 0.3674
+      },
+      {
+        "method": "tf-idf",
+        "n_scored": 25,
+        "recall@5": 0.4969,
+        "recall@10": 0.5588,
+        "ndcg@10": 0.4744,
+        "mrr": 0.5191
+      },
+      {
+        "method": "bm25",
+        "n_scored": 25,
+        "recall@5": 0.5422,
+        "recall@10": 0.5879,
+        "ndcg@10": 0.5291,
+        "mrr": 0.6027
+      },
+      {
+        "method": "dense(title+desc)",
+        "n_scored": 25,
+        "recall@5": 0.6552,
+        "recall@10": 0.7524,
+        "ndcg@10": 0.6744,
+        "mrr": 0.716
+      },
+      {
+        "method": "hybrid(bm25+dense,meta)",
+        "n_scored": 25,
+        "recall@5": 0.6999,
+        "recall@10": 0.7852,
+        "ndcg@10": 0.7205,
+        "mrr": 0.7647
+      },
+      {
+        "method": "hybrid+rerank",
+        "n_scored": 25,
+        "recall@5": 0.7575,
+        "recall@10": 0.8676,
+        "ndcg@10": 0.8138,
+        "mrr": 0.8433
+      }
+    ],
+    "ablations": [
+      {
+        "method": "tf-idf(desc+meta)",
+        "n_scored": 25,
+        "recall@5": 0.4212,
+        "recall@10": 0.5407,
+        "ndcg@10": 0.4364,
+        "mrr": 0.4827
+      },
+      {
+        "method": "tf-idf(desc+plot)",
+        "n_scored": 25,
+        "recall@5": 0.3775,
+        "recall@10": 0.4842,
+        "ndcg@10": 0.4222,
+        "mrr": 0.498
+      },
+      {
+        "method": "bm25(desc+meta)",
+        "n_scored": 25,
+        "recall@5": 0.5632,
+        "recall@10": 0.68,
+        "ndcg@10": 0.5953,
+        "mrr": 0.6284
+      },
+      {
+        "method": "bm25(desc+plot)",
+        "n_scored": 25,
+        "recall@5": 0.5484,
+        "recall@10": 0.6245,
+        "ndcg@10": 0.5796,
+        "mrr": 0.6683
+      },
+      {
+        "method": "dense(title+desc+meta)",
+        "n_scored": 25,
+        "recall@5": 0.6853,
+        "recall@10": 0.7956,
+        "ndcg@10": 0.7189,
+        "mrr": 0.7767
+      },
+      {
+        "method": "dense(title+desc+plot)",
+        "n_scored": 25,
+        "recall@5": 0.6245,
+        "recall@10": 0.7085,
+        "ndcg@10": 0.636,
+        "mrr": 0.6733
+      },
+      {
+        "method": "dense(title-only)",
+        "n_scored": 25,
+        "recall@5": 0.4672,
+        "recall@10": 0.5234,
+        "ndcg@10": 0.498,
+        "mrr": 0.59
+      },
+      {
+        "method": "hybrid(tfidf+dense)",
+        "n_scored": 25,
+        "recall@5": 0.5985,
+        "recall@10": 0.7463,
+        "ndcg@10": 0.6113,
+        "mrr": 0.6213
+      },
+      {
+        "method": "dense+rerank",
+        "n_scored": 25,
+        "recall@5": 0.7129,
+        "recall@10": 0.8165,
+        "ndcg@10": 0.7762,
+        "mrr": 0.8233
+      }
+    ],
+    "per_query": {
+      "boolean": [
+        {
+          "query_id": "vietnam_war",
+          "recall@5": 0.666667,
+          "recall@10": 0.666667,
+          "ndcg@10": 0.765361,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mickey_mouse",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.430677,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "semantic_cooking_show",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "semantic_scandi_crime",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "chess_drama",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "zombie_apocalypse",
+          "recall@5": 0.222222,
+          "recall@10": 0.222222,
+          "ndcg@10": 0.352568,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "standup_kevin_hart",
+          "recall@5": 0.0,
+          "recall@10": 0.285714,
+          "ndcg@10": 0.174371,
+          "mrr": 0.142857
+        },
+        {
+          "query_id": "dave_chappelle_comedy",
+          "recall@5": 0.25,
+          "recall@10": 0.75,
+          "ndcg@10": 0.631047,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "anime_death_note",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "naruto_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "heist_spain",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "oceans_heist",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "space_documentary",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.430677,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "boxing_biopic",
+          "recall@5": 0.2,
+          "recall@10": 0.2,
+          "ndcg@10": 0.131205,
+          "mrr": 0.2
+        },
+        {
+          "query_id": "ww2_holocaust_docs",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "christmas_family_movie",
+          "recall@5": 0.037037,
+          "recall@10": 0.148148,
+          "ndcg@10": 0.313285,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "nature_planet_docs",
+          "recall@5": 0.0,
+          "recall@10": 0.066667,
+          "ndcg@10": 0.063621,
+          "mrr": 0.1
+        },
+        {
+          "query_id": "time_travel_romance",
+          "recall@5": 0.166667,
+          "recall@10": 0.166667,
+          "ndcg@10": 0.151301,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "rock_climbing_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "spy_thriller",
+          "recall@5": 0.2,
+          "recall@10": 0.6,
+          "ndcg@10": 0.374613,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "preschool_kids_show",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "formula1_docuseries",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "exact_title_stranger_things",
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.333333,
+          "mrr": 0.142857
+        },
+        {
+          "query_id": "true_crime_serial_killer",
+          "recall@5": 0.125,
+          "recall@10": 0.25,
+          "ndcg@10": 0.332737,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "social_media_doc",
+          "recall@5": 0.0,
+          "recall@10": 0.5,
+          "ndcg@10": 0.177239,
+          "mrr": 0.1
+        },
+        {
+          "query_id": "dark_german_series",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "breaking_bad_universe",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.919721,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "witcher_fantasy",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        }
+      ],
+      "tf-idf": [
+        {
+          "query_id": "vietnam_war",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.967468,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mickey_mouse",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "semantic_cooking_show",
+          "recall@5": 0.1,
+          "recall@10": 0.1,
+          "ndcg@10": 0.220092,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "semantic_scandi_crime",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "chess_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.624051,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "zombie_apocalypse",
+          "recall@5": 0.222222,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.420512,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "standup_kevin_hart",
+          "recall@5": 0.571429,
+          "recall@10": 1.0,
+          "ndcg@10": 0.904407,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "dave_chappelle_comedy",
+          "recall@5": 0.75,
+          "recall@10": 0.75,
+          "ndcg@10": 0.831872,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "anime_death_note",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "naruto_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "heist_spain",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "oceans_heist",
+          "recall@5": 0.666667,
+          "recall@10": 1.0,
+          "ndcg@10": 0.603907,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "space_documentary",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "boxing_biopic",
+          "recall@5": 0.0,
+          "recall@10": 0.2,
+          "ndcg@10": 0.102097,
+          "mrr": 0.111111
+        },
+        {
+          "query_id": "ww2_holocaust_docs",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "christmas_family_movie",
+          "recall@5": 0.037037,
+          "recall@10": 0.111111,
+          "ndcg@10": 0.257875,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "nature_planet_docs",
+          "recall@5": 0.133333,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.40414,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "time_travel_romance",
+          "recall@5": 0.166667,
+          "recall@10": 0.166667,
+          "ndcg@10": 0.117063,
+          "mrr": 0.2
+        },
+        {
+          "query_id": "rock_climbing_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "spy_thriller",
+          "recall@5": 0.4,
+          "recall@10": 0.6,
+          "ndcg@10": 0.428702,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "preschool_kids_show",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "formula1_docuseries",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "exact_title_stranger_things",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "true_crime_serial_killer",
+          "recall@5": 0.375,
+          "recall@10": 0.375,
+          "ndcg@10": 0.521468,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "social_media_doc",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "dark_german_series",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "breaking_bad_universe",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.693426,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "witcher_fantasy",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.5,
+          "mrr": 0.333333
+        }
+      ],
+      "bm25": [
+        {
+          "query_id": "vietnam_war",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.946902,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mickey_mouse",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "semantic_cooking_show",
+          "recall@5": 0.1,
+          "recall@10": 0.1,
+          "ndcg@10": 0.220092,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "semantic_scandi_crime",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "chess_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.543771,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "zombie_apocalypse",
+          "recall@5": 0.222222,
+          "recall@10": 0.222222,
+          "ndcg@10": 0.352568,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "standup_kevin_hart",
+          "recall@5": 0.428571,
+          "recall@10": 0.857143,
+          "ndcg@10": 0.748513,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "dave_chappelle_comedy",
+          "recall@5": 0.75,
+          "recall@10": 1.0,
+          "ndcg@10": 0.949389,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "anime_death_note",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "naruto_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "heist_spain",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "oceans_heist",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.852928,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "space_documentary",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "boxing_biopic",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "ww2_holocaust_docs",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "christmas_family_movie",
+          "recall@5": 0.037037,
+          "recall@10": 0.185185,
+          "ndcg@10": 0.362848,
+          "mrr": 0.2
+        },
+        {
+          "query_id": "nature_planet_docs",
+          "recall@5": 0.2,
+          "recall@10": 0.266667,
+          "ndcg@10": 0.353598,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "time_travel_romance",
+          "recall@5": 0.166667,
+          "recall@10": 0.166667,
+          "ndcg@10": 0.117063,
+          "mrr": 0.2
+        },
+        {
+          "query_id": "rock_climbing_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "spy_thriller",
+          "recall@5": 0.4,
+          "recall@10": 0.4,
+          "ndcg@10": 0.360055,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "preschool_kids_show",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "formula1_docuseries",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "exact_title_stranger_things",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "true_crime_serial_killer",
+          "recall@5": 0.25,
+          "recall@10": 0.5,
+          "ndcg@10": 0.506732,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "social_media_doc",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "dark_german_series",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "breaking_bad_universe",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.650921,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "witcher_fantasy",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        }
+      ],
+      "dense(title+desc)": [
+        {
+          "query_id": "vietnam_war",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mickey_mouse",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "semantic_cooking_show",
+          "recall@5": 0.5,
+          "recall@10": 0.8,
+          "ndcg@10": 0.863015,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "semantic_scandi_crime",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "chess_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.919721,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "zombie_apocalypse",
+          "recall@5": 0.444444,
+          "recall@10": 0.555556,
+          "ndcg@10": 0.680443,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "standup_kevin_hart",
+          "recall@5": 0.714286,
+          "recall@10": 1.0,
+          "ndcg@10": 0.976633,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "dave_chappelle_comedy",
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "ndcg@10": 0.636682,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "anime_death_note",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "naruto_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "heist_spain",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "oceans_heist",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "space_documentary",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "boxing_biopic",
+          "recall@5": 0.2,
+          "recall@10": 0.4,
+          "ndcg@10": 0.252016,
+          "mrr": 0.2
+        },
+        {
+          "query_id": "ww2_holocaust_docs",
+          "recall@5": 0.285714,
+          "recall@10": 0.571429,
+          "ndcg@10": 0.395802,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "christmas_family_movie",
+          "recall@5": 0.111111,
+          "recall@10": 0.259259,
+          "ndcg@10": 0.603608,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "nature_planet_docs",
+          "recall@5": 0.133333,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.388205,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "time_travel_romance",
+          "recall@5": 0.166667,
+          "recall@10": 0.166667,
+          "ndcg@10": 0.302602,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "rock_climbing_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "spy_thriller",
+          "recall@5": 0.2,
+          "recall@10": 0.6,
+          "ndcg@10": 0.346356,
+          "mrr": 0.2
+        },
+        {
+          "query_id": "preschool_kids_show",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.88546,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "formula1_docuseries",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.430677,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "exact_title_stranger_things",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "true_crime_serial_killer",
+          "recall@5": 0.125,
+          "recall@10": 0.125,
+          "ndcg@10": 0.108936,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "social_media_doc",
+          "recall@5": 0.5,
+          "recall@10": 1.0,
+          "ndcg@10": 0.790386,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "dark_german_series",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "breaking_bad_universe",
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "ndcg@10": 0.386853,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "witcher_fantasy",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        }
+      ],
+      "hybrid(bm25+dense,meta)": [
+        {
+          "query_id": "vietnam_war",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.967468,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mickey_mouse",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "semantic_cooking_show",
+          "recall@5": 0.5,
+          "recall@10": 0.7,
+          "ndcg@10": 0.778807,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "semantic_scandi_crime",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "chess_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.624051,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "zombie_apocalypse",
+          "recall@5": 0.333333,
+          "recall@10": 0.555556,
+          "ndcg@10": 0.60557,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "standup_kevin_hart",
+          "recall@5": 0.714286,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "dave_chappelle_comedy",
+          "recall@5": 0.75,
+          "recall@10": 1.0,
+          "ndcg@10": 0.926758,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "anime_death_note",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "naruto_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "heist_spain",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.430677,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "oceans_heist",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "space_documentary",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "boxing_biopic",
+          "recall@5": 0.0,
+          "recall@10": 0.2,
+          "ndcg@10": 0.120811,
+          "mrr": 0.166667
+        },
+        {
+          "query_id": "ww2_holocaust_docs",
+          "recall@5": 0.142857,
+          "recall@10": 0.285714,
+          "ndcg@10": 0.185794,
+          "mrr": 0.2
+        },
+        {
+          "query_id": "christmas_family_movie",
+          "recall@5": 0.148148,
+          "recall@10": 0.296296,
+          "ndcg@10": 0.845426,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "nature_planet_docs",
+          "recall@5": 0.133333,
+          "recall@10": 0.4,
+          "ndcg@10": 0.518465,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "time_travel_romance",
+          "recall@5": 0.333333,
+          "recall@10": 0.5,
+          "ndcg@10": 0.601312,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "rock_climbing_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "spy_thriller",
+          "recall@5": 0.4,
+          "recall@10": 0.4,
+          "ndcg@10": 0.360055,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "preschool_kids_show",
+          "recall@5": 0.666667,
+          "recall@10": 0.666667,
+          "ndcg@10": 0.477624,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "formula1_docuseries",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "exact_title_stranger_things",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "true_crime_serial_killer",
+          "recall@5": 0.375,
+          "recall@10": 0.625,
+          "ndcg@10": 0.684685,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "social_media_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "dark_german_series",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "breaking_bad_universe",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.624051,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "witcher_fantasy",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        }
+      ],
+      "hybrid+rerank": [
+        {
+          "query_id": "vietnam_war",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mickey_mouse",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "semantic_cooking_show",
+          "recall@5": 0.5,
+          "recall@10": 0.9,
+          "ndcg@10": 0.926636,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "semantic_scandi_crime",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "chess_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.501266,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "zombie_apocalypse",
+          "recall@5": 0.444444,
+          "recall@10": 0.888889,
+          "ndcg@10": 0.892566,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "standup_kevin_hart",
+          "recall@5": 0.571429,
+          "recall@10": 1.0,
+          "ndcg@10": 0.934109,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "dave_chappelle_comedy",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.982892,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "anime_death_note",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "naruto_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "heist_spain",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "oceans_heist",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "space_documentary",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "boxing_biopic",
+          "recall@5": 0.4,
+          "recall@10": 0.6,
+          "ndcg@10": 0.610838,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "ww2_holocaust_docs",
+          "recall@5": 0.428571,
+          "recall@10": 0.714286,
+          "ndcg@10": 0.606741,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "christmas_family_movie",
+          "recall@5": 0.185185,
+          "recall@10": 0.37037,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "nature_planet_docs",
+          "recall@5": 0.133333,
+          "recall@10": 0.4,
+          "ndcg@10": 0.496676,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "time_travel_romance",
+          "recall@5": 0.5,
+          "recall@10": 0.666667,
+          "ndcg@10": 0.711319,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "rock_climbing_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "spy_thriller",
+          "recall@5": 0.4,
+          "recall@10": 0.4,
+          "ndcg@10": 0.485229,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "preschool_kids_show",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.852928,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "formula1_docuseries",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "exact_title_stranger_things",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "true_crime_serial_killer",
+          "recall@5": 0.375,
+          "recall@10": 0.75,
+          "ndcg@10": 0.57262,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "social_media_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "dark_german_series",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "breaking_bad_universe",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.877215,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "witcher_fantasy",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        }
+      ],
+      "tf-idf(desc+meta)": [
+        {
+          "query_id": "vietnam_war",
+          "recall@5": 0.666667,
+          "recall@10": 1.0,
+          "ndcg@10": 0.906628,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mickey_mouse",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.386853,
+          "mrr": 0.2
+        },
+        {
+          "query_id": "semantic_cooking_show",
+          "recall@5": 0.1,
+          "recall@10": 0.1,
+          "ndcg@10": 0.220092,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "semantic_scandi_crime",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "chess_drama",
+          "recall@5": 0.5,
+          "recall@10": 1.0,
+          "ndcg@10": 0.5,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "zombie_apocalypse",
+          "recall@5": 0.222222,
+          "recall@10": 0.444444,
+          "ndcg@10": 0.468066,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "standup_kevin_hart",
+          "recall@5": 0.714286,
+          "recall@10": 1.0,
+          "ndcg@10": 0.988801,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "dave_chappelle_comedy",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.982892,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "anime_death_note",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "naruto_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "heist_spain",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "oceans_heist",
+          "recall@5": 0.333333,
+          "recall@10": 1.0,
+          "ndcg@10": 0.525694,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "space_documentary",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "boxing_biopic",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "ww2_holocaust_docs",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "christmas_family_movie",
+          "recall@5": 0.111111,
+          "recall@10": 0.148148,
+          "ndcg@10": 0.397672,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "nature_planet_docs",
+          "recall@5": 0.266667,
+          "recall@10": 0.466667,
+          "ndcg@10": 0.637113,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "time_travel_romance",
+          "recall@5": 0.166667,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.282013,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "rock_climbing_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "spy_thriller",
+          "recall@5": 0.2,
+          "recall@10": 0.4,
+          "ndcg@10": 0.282634,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "preschool_kids_show",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "formula1_docuseries",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "exact_title_stranger_things",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.386853,
+          "mrr": 0.2
+        },
+        {
+          "query_id": "true_crime_serial_killer",
+          "recall@5": 0.25,
+          "recall@10": 0.625,
+          "ndcg@10": 0.663089,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "social_media_doc",
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "ndcg@10": 0.264068,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "dark_german_series",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "breaking_bad_universe",
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "ndcg@10": 0.386853,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "witcher_fantasy",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        }
+      ],
+      "tf-idf(desc+plot)": [
+        {
+          "query_id": "vietnam_war",
+          "recall@5": 0.333333,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.469279,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mickey_mouse",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.386853,
+          "mrr": 0.2
+        },
+        {
+          "query_id": "semantic_cooking_show",
+          "recall@5": 0.1,
+          "recall@10": 0.1,
+          "ndcg@10": 0.110046,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "semantic_scandi_crime",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "chess_drama",
+          "recall@5": 0.5,
+          "recall@10": 1.0,
+          "ndcg@10": 0.591235,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "zombie_apocalypse",
+          "recall@5": 0.222222,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.457491,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "standup_kevin_hart",
+          "recall@5": 0.428571,
+          "recall@10": 0.857143,
+          "ndcg@10": 0.687045,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "dave_chappelle_comedy",
+          "recall@5": 0.75,
+          "recall@10": 0.75,
+          "ndcg@10": 0.831872,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "anime_death_note",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "naruto_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "heist_spain",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "oceans_heist",
+          "recall@5": 0.333333,
+          "recall@10": 0.666667,
+          "ndcg@10": 0.625705,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "space_documentary",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "boxing_biopic",
+          "recall@5": 0.2,
+          "recall@10": 0.2,
+          "ndcg@10": 0.146068,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "ww2_holocaust_docs",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "christmas_family_movie",
+          "recall@5": 0.037037,
+          "recall@10": 0.074074,
+          "ndcg@10": 0.1763,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "nature_planet_docs",
+          "recall@5": 0.133333,
+          "recall@10": 0.266667,
+          "ndcg@10": 0.349487,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "time_travel_romance",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "rock_climbing_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "spy_thriller",
+          "recall@5": 0.4,
+          "recall@10": 0.4,
+          "ndcg@10": 0.383566,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "preschool_kids_show",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "formula1_docuseries",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "exact_title_stranger_things",
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.356207,
+          "mrr": 0.166667
+        },
+        {
+          "query_id": "true_crime_serial_killer",
+          "recall@5": 0.5,
+          "recall@10": 0.625,
+          "ndcg@10": 0.676302,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "social_media_doc",
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "ndcg@10": 0.306574,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "dark_german_series",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "breaking_bad_universe",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "witcher_fantasy",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        }
+      ],
+      "bm25(desc+meta)": [
+        {
+          "query_id": "vietnam_war",
+          "recall@5": 0.666667,
+          "recall@10": 0.666667,
+          "ndcg@10": 0.765361,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mickey_mouse",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "semantic_cooking_show",
+          "recall@5": 0.1,
+          "recall@10": 0.2,
+          "ndcg@10": 0.286346,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "semantic_scandi_crime",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "chess_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.543771,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "zombie_apocalypse",
+          "recall@5": 0.222222,
+          "recall@10": 0.444444,
+          "ndcg@10": 0.522042,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "standup_kevin_hart",
+          "recall@5": 0.714286,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "dave_chappelle_comedy",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.982892,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "anime_death_note",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "naruto_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "heist_spain",
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.30103,
+          "mrr": 0.111111
+        },
+        {
+          "query_id": "oceans_heist",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.852928,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "space_documentary",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "boxing_biopic",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "ww2_holocaust_docs",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "christmas_family_movie",
+          "recall@5": 0.111111,
+          "recall@10": 0.296296,
+          "ndcg@10": 0.669862,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "nature_planet_docs",
+          "recall@5": 0.2,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.43463,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "time_travel_romance",
+          "recall@5": 0.166667,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.25909,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "rock_climbing_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "spy_thriller",
+          "recall@5": 0.4,
+          "recall@10": 0.6,
+          "ndcg@10": 0.443231,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "preschool_kids_show",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "formula1_docuseries",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "exact_title_stranger_things",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "true_crime_serial_killer",
+          "recall@5": 0.5,
+          "recall@10": 0.625,
+          "ndcg@10": 0.732254,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "social_media_doc",
+          "recall@5": 0.0,
+          "recall@10": 0.5,
+          "ndcg@10": 0.177239,
+          "mrr": 0.1
+        },
+        {
+          "query_id": "dark_german_series",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "breaking_bad_universe",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.650921,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "witcher_fantasy",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        }
+      ],
+      "bm25(desc+plot)": [
+        {
+          "query_id": "vietnam_war",
+          "recall@5": 0.666667,
+          "recall@10": 1.0,
+          "ndcg@10": 0.798861,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mickey_mouse",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "semantic_cooking_show",
+          "recall@5": 0.1,
+          "recall@10": 0.3,
+          "ndcg@10": 0.239921,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "semantic_scandi_crime",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "chess_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.650921,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "zombie_apocalypse",
+          "recall@5": 0.333333,
+          "recall@10": 0.555556,
+          "ndcg@10": 0.61297,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "standup_kevin_hart",
+          "recall@5": 0.428571,
+          "recall@10": 0.857143,
+          "ndcg@10": 0.760681,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "dave_chappelle_comedy",
+          "recall@5": 0.75,
+          "recall@10": 1.0,
+          "ndcg@10": 0.944718,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "anime_death_note",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "naruto_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "heist_spain",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "oceans_heist",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "space_documentary",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "boxing_biopic",
+          "recall@5": 0.2,
+          "recall@10": 0.2,
+          "ndcg@10": 0.146068,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "ww2_holocaust_docs",
+          "recall@5": 0.0,
+          "recall@10": 0.142857,
+          "ndcg@10": 0.086714,
+          "mrr": 0.125
+        },
+        {
+          "query_id": "christmas_family_movie",
+          "recall@5": 0.074074,
+          "recall@10": 0.074074,
+          "ndcg@10": 0.248908,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "nature_planet_docs",
+          "recall@5": 0.133333,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.452147,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "time_travel_romance",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "rock_climbing_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "spy_thriller",
+          "recall@5": 0.4,
+          "recall@10": 0.4,
+          "ndcg@10": 0.553146,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "preschool_kids_show",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "formula1_docuseries",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "exact_title_stranger_things",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "true_crime_serial_killer",
+          "recall@5": 0.125,
+          "recall@10": 0.25,
+          "ndcg@10": 0.32606,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "social_media_doc",
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "ndcg@10": 0.386853,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "dark_german_series",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "breaking_bad_universe",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.650921,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "witcher_fantasy",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        }
+      ],
+      "dense(title+desc+meta)": [
+        {
+          "query_id": "vietnam_war",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.906025,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mickey_mouse",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "semantic_cooking_show",
+          "recall@5": 0.4,
+          "recall@10": 0.8,
+          "ndcg@10": 0.787774,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "semantic_scandi_crime",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "chess_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.850345,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "zombie_apocalypse",
+          "recall@5": 0.222222,
+          "recall@10": 0.666667,
+          "ndcg@10": 0.659546,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "standup_kevin_hart",
+          "recall@5": 0.714286,
+          "recall@10": 1.0,
+          "ndcg@10": 0.988801,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "dave_chappelle_comedy",
+          "recall@5": 0.5,
+          "recall@10": 0.75,
+          "ndcg@10": 0.775739,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "anime_death_note",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "naruto_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "heist_spain",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.430677,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "oceans_heist",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "space_documentary",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "boxing_biopic",
+          "recall@5": 0.4,
+          "recall@10": 0.6,
+          "ndcg@10": 0.447289,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "ww2_holocaust_docs",
+          "recall@5": 0.571429,
+          "recall@10": 0.714286,
+          "ndcg@10": 0.764649,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "christmas_family_movie",
+          "recall@5": 0.074074,
+          "recall@10": 0.259259,
+          "ndcg@10": 0.681206,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "nature_planet_docs",
+          "recall@5": 0.133333,
+          "recall@10": 0.4,
+          "ndcg@10": 0.480003,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "time_travel_romance",
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "ndcg@10": 0.472546,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "rock_climbing_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "spy_thriller",
+          "recall@5": 0.2,
+          "recall@10": 0.2,
+          "ndcg@10": 0.146068,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "preschool_kids_show",
+          "recall@5": 0.666667,
+          "recall@10": 1.0,
+          "ndcg@10": 0.819427,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "formula1_docuseries",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.430677,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "exact_title_stranger_things",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "true_crime_serial_killer",
+          "recall@5": 0.25,
+          "recall@10": 0.5,
+          "ndcg@10": 0.394217,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "social_media_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.919721,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "dark_german_series",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "breaking_bad_universe",
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "ndcg@10": 0.386853,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "witcher_fantasy",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        }
+      ],
+      "dense(title+desc+plot)": [
+        {
+          "query_id": "vietnam_war",
+          "recall@5": 0.333333,
+          "recall@10": 0.666667,
+          "ndcg@10": 0.636439,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mickey_mouse",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "semantic_cooking_show",
+          "recall@5": 0.5,
+          "recall@10": 0.8,
+          "ndcg@10": 0.870125,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "semantic_scandi_crime",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "chess_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.570642,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "zombie_apocalypse",
+          "recall@5": 0.222222,
+          "recall@10": 0.444444,
+          "ndcg@10": 0.541216,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "standup_kevin_hart",
+          "recall@5": 0.714286,
+          "recall@10": 1.0,
+          "ndcg@10": 0.987832,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "dave_chappelle_comedy",
+          "recall@5": 0.75,
+          "recall@10": 0.75,
+          "ndcg@10": 0.787702,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "anime_death_note",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "naruto_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "heist_spain",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "oceans_heist",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "space_documentary",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "boxing_biopic",
+          "recall@5": 0.2,
+          "recall@10": 0.4,
+          "ndcg@10": 0.320979,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "ww2_holocaust_docs",
+          "recall@5": 0.285714,
+          "recall@10": 0.571429,
+          "ndcg@10": 0.402089,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "christmas_family_movie",
+          "recall@5": 0.148148,
+          "recall@10": 0.222222,
+          "ndcg@10": 0.580602,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "nature_planet_docs",
+          "recall@5": 0.133333,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.388205,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "time_travel_romance",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "rock_climbing_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "spy_thriller",
+          "recall@5": 0.2,
+          "recall@10": 0.4,
+          "ndcg@10": 0.267619,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "preschool_kids_show",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.88546,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "formula1_docuseries",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.5,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "exact_title_stranger_things",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "true_crime_serial_killer",
+          "recall@5": 0.125,
+          "recall@10": 0.125,
+          "ndcg@10": 0.126471,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "social_media_doc",
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "ndcg@10": 0.386853,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "dark_german_series",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "breaking_bad_universe",
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "ndcg@10": 0.386853,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "witcher_fantasy",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        }
+      ],
+      "dense(title-only)": [
+        {
+          "query_id": "vietnam_war",
+          "recall@5": 0.333333,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.469279,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mickey_mouse",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "semantic_cooking_show",
+          "recall@5": 0.3,
+          "recall@10": 0.4,
+          "ndcg@10": 0.417061,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "semantic_scandi_crime",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "chess_drama",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "zombie_apocalypse",
+          "recall@5": 0.333333,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.340454,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "standup_kevin_hart",
+          "recall@5": 0.714286,
+          "recall@10": 1.0,
+          "ndcg@10": 0.988801,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "dave_chappelle_comedy",
+          "recall@5": 0.75,
+          "recall@10": 1.0,
+          "ndcg@10": 0.871214,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "anime_death_note",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "naruto_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "heist_spain",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "oceans_heist",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "space_documentary",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.5,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "boxing_biopic",
+          "recall@5": 0.0,
+          "recall@10": 0.2,
+          "ndcg@10": 0.120811,
+          "mrr": 0.166667
+        },
+        {
+          "query_id": "ww2_holocaust_docs",
+          "recall@5": 0.428571,
+          "recall@10": 0.571429,
+          "ndcg@10": 0.637387,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "christmas_family_movie",
+          "recall@5": 0.111111,
+          "recall@10": 0.148148,
+          "ndcg@10": 0.510352,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "nature_planet_docs",
+          "recall@5": 0.133333,
+          "recall@10": 0.2,
+          "ndcg@10": 0.312529,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "time_travel_romance",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "rock_climbing_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.430677,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "spy_thriller",
+          "recall@5": 0.2,
+          "recall@10": 0.4,
+          "ndcg@10": 0.312026,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "preschool_kids_show",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "formula1_docuseries",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "exact_title_stranger_things",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "true_crime_serial_killer",
+          "recall@5": 0.375,
+          "recall@10": 0.5,
+          "ndcg@10": 0.618798,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "social_media_doc",
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "ndcg@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "query_id": "dark_german_series",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "breaking_bad_universe",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.919721,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "witcher_fantasy",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        }
+      ],
+      "hybrid(tfidf+dense)": [
+        {
+          "query_id": "vietnam_war",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mickey_mouse",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.386853,
+          "mrr": 0.2
+        },
+        {
+          "query_id": "semantic_cooking_show",
+          "recall@5": 0.2,
+          "recall@10": 0.4,
+          "ndcg@10": 0.384594,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "semantic_scandi_crime",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "chess_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.693426,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "zombie_apocalypse",
+          "recall@5": 0.333333,
+          "recall@10": 0.555556,
+          "ndcg@10": 0.632144,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "standup_kevin_hart",
+          "recall@5": 0.571429,
+          "recall@10": 1.0,
+          "ndcg@10": 0.97312,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "dave_chappelle_comedy",
+          "recall@5": 0.5,
+          "recall@10": 0.75,
+          "ndcg@10": 0.775739,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "anime_death_note",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "naruto_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "heist_spain",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.386853,
+          "mrr": 0.2
+        },
+        {
+          "query_id": "oceans_heist",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "space_documentary",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "boxing_biopic",
+          "recall@5": 0.2,
+          "recall@10": 0.4,
+          "ndcg@10": 0.26688,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "ww2_holocaust_docs",
+          "recall@5": 0.0,
+          "recall@10": 0.142857,
+          "ndcg@10": 0.079457,
+          "mrr": 0.1
+        },
+        {
+          "query_id": "christmas_family_movie",
+          "recall@5": 0.074074,
+          "recall@10": 0.185185,
+          "ndcg@10": 0.451667,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "nature_planet_docs",
+          "recall@5": 0.133333,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.395314,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "time_travel_romance",
+          "recall@5": 0.166667,
+          "recall@10": 0.166667,
+          "ndcg@10": 0.190921,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "rock_climbing_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "spy_thriller",
+          "recall@5": 0.2,
+          "recall@10": 0.6,
+          "ndcg@10": 0.419019,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "preschool_kids_show",
+          "recall@5": 0.333333,
+          "recall@10": 1.0,
+          "ndcg@10": 0.526718,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "formula1_docuseries",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "exact_title_stranger_things",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "true_crime_serial_killer",
+          "recall@5": 0.25,
+          "recall@10": 0.625,
+          "ndcg@10": 0.61664,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "social_media_doc",
+          "recall@5": 0.5,
+          "recall@10": 1.0,
+          "ndcg@10": 0.455605,
+          "mrr": 0.2
+        },
+        {
+          "query_id": "dark_german_series",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "breaking_bad_universe",
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "ndcg@10": 0.386853,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "witcher_fantasy",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        }
+      ],
+      "dense+rerank": [
+        {
+          "query_id": "vietnam_war",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "mickey_mouse",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "semantic_cooking_show",
+          "recall@5": 0.5,
+          "recall@10": 0.9,
+          "ndcg@10": 0.936379,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "semantic_scandi_crime",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "chess_drama",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.501266,
+          "mrr": 0.25
+        },
+        {
+          "query_id": "zombie_apocalypse",
+          "recall@5": 0.444444,
+          "recall@10": 0.888889,
+          "ndcg@10": 0.898771,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "standup_kevin_hart",
+          "recall@5": 0.571429,
+          "recall@10": 1.0,
+          "ndcg@10": 0.934109,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "dave_chappelle_comedy",
+          "recall@5": 0.75,
+          "recall@10": 0.75,
+          "ndcg@10": 0.831872,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "anime_death_note",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "naruto_anime",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "heist_spain",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "oceans_heist",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "space_documentary",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "boxing_biopic",
+          "recall@5": 0.4,
+          "recall@10": 0.6,
+          "ndcg@10": 0.60678,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "ww2_holocaust_docs",
+          "recall@5": 0.428571,
+          "recall@10": 0.714286,
+          "ndcg@10": 0.606741,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "christmas_family_movie",
+          "recall@5": 0.185185,
+          "recall@10": 0.333333,
+          "ndcg@10": 0.936379,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "nature_planet_docs",
+          "recall@5": 0.133333,
+          "recall@10": 0.4,
+          "ndcg@10": 0.496676,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "time_travel_romance",
+          "recall@5": 0.333333,
+          "recall@10": 0.5,
+          "ndcg@10": 0.450011,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "rock_climbing_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "spy_thriller",
+          "recall@5": 0.2,
+          "recall@10": 0.2,
+          "ndcg@10": 0.33916,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "preschool_kids_show",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.852928,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "formula1_docuseries",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 0.63093,
+          "mrr": 0.5
+        },
+        {
+          "query_id": "exact_title_stranger_things",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "true_crime_serial_killer",
+          "recall@5": 0.375,
+          "recall@10": 0.625,
+          "ndcg@10": 0.507674,
+          "mrr": 0.333333
+        },
+        {
+          "query_id": "social_media_doc",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "dark_german_series",
+          "recall@5": null,
+          "recall@10": null,
+          "ndcg@10": null,
+          "mrr": null
+        },
+        {
+          "query_id": "breaking_bad_universe",
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "ndcg@10": 0.613147,
+          "mrr": 1.0
+        },
+        {
+          "query_id": "witcher_fantasy",
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "ndcg@10": 1.0,
+          "mrr": 1.0
+        }
+      ]
+    }
+  }
+}
