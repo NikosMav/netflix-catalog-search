@@ -1,0 +1,196 @@
+# Evaluation v2 protocol.
+# Committed before any v2 test-set run. Do not edit reported systems, metrics,
+# the baseline, or the statistical procedure after looking at test results.
+# Ablations may be discussed on the dev split only.
+
+protocol: eval_v2
+status: preregistered
+
+splits:
+  dev:
+    # Same query strings as v1. v1 relevance labels are not reused.
+    query_source: data/labeled_queries.json
+    fields_used: [id, query]
+    fields_ignored: [relevant_show_ids, notes]
+  test:
+    query_source: data/eval_v2/test_queries.json
+    fields_used: [id, query, intent, notes]
+
+# Exactly six systems are reported in the headline table.
+# Method names match retrieval.evaluate.build_methods.
+reported_systems:
+  - name: boolean
+    display: Boolean
+    text_field: text
+    scoring: jaccard
+  - name: tf-idf
+    display: TF-IDF
+    text_field: text
+    scoring: cosine
+    vectorizer:
+      max_features: 10000
+      ngram_range: [1, 2]
+      max_df: 0.4
+      min_df: 1
+      stop_words: english
+  - name: bm25
+    display: BM25
+    role: baseline
+    text_field: text
+    scoring: okapi
+    # rank-bm25 defaults. Not grid-searched.
+    k1: 1.5
+    b: 0.75
+  - name: dense(title+desc)
+    display: Dense MiniLM
+    text_field: text
+    model: sentence-transformers/all-MiniLM-L6-v2
+    scoring: cosine
+  - name: hybrid(bm25+dense,meta)
+    display: Hybrid RRF
+    fusion: reciprocal_rank_fusion
+    rrf_k: 60
+    candidate_k: 100
+    branches:
+      - retriever: bm25
+        text_field: text_meta
+      - retriever: dense
+        text_field: text_meta
+        model: sentence-transformers/all-MiniLM-L6-v2
+  - name: hybrid+rerank
+    display: Hybrid + rerank
+    first_stage: hybrid(bm25+dense,meta)
+    reranker: cross-encoder/ms-marco-MiniLM-L-6-v2
+    rerank_text_field: text_meta
+    candidate_k: 50
+
+baseline: bm25
+headline_metric: ndcg@10
+
+# Metrics computed for every reported system, on dev and on test.
+metrics:
+  - recall@5
+  - recall@10
+  - ndcg@10
+  - mrr
+
+# Field and plot variants are pooled and may be tabulated on dev.
+# They are not part of the six-row headline table and are not used to
+# change the reported systems after the test split is scored.
+ablations_not_reported:
+  - tf-idf(desc+meta)
+  - tf-idf(desc+plot)
+  - bm25(desc+meta)
+  - bm25(desc+plot)
+  - dense(title+desc+meta)
+  - dense(title+desc+plot)
+  - dense(title-only)
+  - hybrid(tfidf+dense)
+  - dense+rerank
+
+# Settings already chosen on the dev query texts (the former v1 set) and frozen
+# here. Nothing below is re-selected using test queries or v2 labels.
+tuned_on_dev:
+  - id: hybrid_first_stage
+    choice: hybrid(bm25+dense,meta)
+    rejected: hybrid(tfidf+dense)
+    reason: >
+      On the v1 labels for these dev query texts, BM25 plus dense MiniLM over
+      title, description, genres, cast, director, and country was the stronger
+      first stage. v2 does not revisit that choice.
+  - id: rerank_pool
+    choice: cross-encoder over the top 50 of hybrid(bm25+dense,meta)
+    rejected: cross-encoder over dense(title+desc) alone as the headline
+    reason: >
+      The headline second stage was wired to the stronger first stage above.
+      candidate_k stays 50.
+  - id: reported_dense_field
+    choice: dense(title+desc)
+    reason: >
+      The reported dense system is the standalone MiniLM index over title and
+      description. Metadata and plot dense indexes stay ablations. They are
+      not promoted into the headline table from either v1 scores or v2 dev scores.
+  - id: reported_bm25_field
+    choice: bm25 on text (title + description)
+    reason: >
+      The baseline is that BM25 configuration, not the metadata or plot
+      ablation, even where an ablation scored higher on v1.
+  - id: not_grid_searched
+    choice: BM25 k1=1.5, b=0.75, RRF k=60, TF-IDF max_features=10000
+    reason: Library defaults. No sweep on dev or test.
+
+pooling:
+  depth: 10
+  # Union of the top `depth` from every system in build_methods, including ablations.
+  systems: all_built_methods
+  splits: [dev, test]
+  blinded_fields: [show_id, title, type, release_year, listed_in, cast, director, description]
+  forbidden_in_blinded_file: [method, rank, score, relevant_show_ids, v1_label]
+  shuffle_seed: 20260928
+  output_dir: data/eval_v2/blinded
+
+judging:
+  schema: binary
+  positive_means: relevant
+  rubric: docs/eval_v2_rubric.md
+  # Filled in when judgments are written. Declared here so the name is part of the protocol.
+  judge: "LLM judge (grok-4.7 via Cursor cloud agent), blinded to system and rank"
+
+statistics:
+  comparison_split: test
+  compared_with: bm25
+  effect: per_query_ndcg@10 difference (system minus bm25)
+  bootstrap:
+    kind: paired
+    resamples: 10000
+    seed: 20260928
+    interval: percentile
+    level: 0.95
+    # For each replicate, draw n_test queries with replacement and take the mean difference.
+  sign_test:
+    sided: two
+    ties: exclude
+    null: equal probability of a positive or negative per-query difference
+  also_report:
+    - pool_depth
+    - label_counts
+    - v2_relevant_titles_missed_by_v1
+
+spotcheck:
+  fraction: 0.10
+  stratified_by: binary_label
+  # Within each label, sample round(fraction * n_label) pairs, but at least one
+  # pair when that label is present, so both classes appear.
+  minimum_per_present_label: 1
+  seed: 20260930
+  human_labels: data/eval_v2/spotcheck_human.json
+  # Human labels are not written by the judging agent.
+  status_until_human_file: spot-check pending
+  # The 303-pair draw is kept. Human grades are 0-3. Agreement stays pending
+  # until spotcheck_human.json has grades.
+
+# Documented amendment. Committed before the graded re-run.
+# Supersedes judging.schema (binary) and the binary nDCG gain for eval v2 only.
+# The six reported systems, the BM25 baseline, the test/dev split, the paired
+# bootstrap (10_000 resamples, seed 20260928), and the two-sided sign test
+# are unchanged. v1 files stay binary.
+amendment:
+  id: graded_labels
+  committed_before_rerun: true
+  label_schema: graded_0_3
+  rubric: docs/eval_v2_rubric.md
+  grades:
+    0: not relevant
+    1: marginal
+    2: relevant
+    3: highly relevant
+  ndcg:
+    metric: ndcg@10
+    gain: exponential
+    formula: "2^grade - 1"
+    gains: [0, 1, 3, 7]
+    skip_query_when: highest grade is 0
+  recall_and_mrr:
+    relevant_if_grade_at_least: 2
+    skip_query_when: no grade is 2 or 3
+  carried_overrides: data/eval_v2/label_overrides.json

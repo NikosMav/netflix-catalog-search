@@ -1,0 +1,477 @@
+{
+  "split": "dev",
+  "query_id": "witcher_fantasy",
+  "query": "The Witcher fantasy series with Geralt",
+  "candidates": [
+    {
+      "show_id": "s4859",
+      "title": "PILI Fantasy: War of Dragons",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, TV Action & Adventure, TV Sci-Fi & Fantasy",
+      "cast": "Wang Hsi-hua, Lai Wei, Zhang Yu-quan, Chen Yu-kuan, Gao Ming-xiao, Tian Zhi-jie, Li Xiang-yu, Guo Ya-zhen, Zhan Yi-chun, Ye Yu-jia",
+      "director": "",
+      "description": "As turmoil looms in the Martial World, and the Eight Wonders of the Evil Dragon unleashes dark forces, who will emerge as the new warrior legend?"
+    },
+    {
+      "show_id": "s152",
+      "title": "A Boy Called Po",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, Sci-Fi & Fantasy",
+      "cast": "Christopher Gorham, Julian Feder, Kaitlin Doubleday, Andrew Bowen, Caitlin Carmichael, Sean Gunn, Bryan Batt, Fay Masterson, Brian George",
+      "director": "John Asher",
+      "description": "After his wife's death, an overworked engineer struggles to care for his son with autism, who regresses into a fantasy world to escape real-life bullying."
+    },
+    {
+      "show_id": "s6431",
+      "title": "The Guild",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "TV Comedies",
+      "cast": "Felicia Day, Sandeep Parikh, Jeff Lewis, Robin Thorsen, Amy Okuda, Vincent Caso",
+      "director": "",
+      "description": "Fantasy and reality collide when a surprisingly diverse group of online video-game addicts struggle to balance the game with personal relationships."
+    },
+    {
+      "show_id": "s2167",
+      "title": "FINAL FANTASY XIV Dad of Light",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Yudai Chiba, Ren Osugi, Fumika Baba, Yoshihiko Hakamada, Hatsunori Hasegawa, Mako Ishino",
+      "director": "",
+      "description": "A father and son rekindle their bond through the online role-playing game Final Fantasy XIV in this live-action series based on a true story."
+    },
+    {
+      "show_id": "s5452",
+      "title": "Season of the Witch",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Action & Adventure, Sci-Fi & Fantasy",
+      "cast": "Nicolas Cage, Ron Perlman, Christopher Lee, Stephen Campbell Moore, Stephen Graham, Ulrich Thomsen, Claire Foy, Robert Sheehan, Kevin Rees, Andrew Hefler",
+      "director": "Dominic Sena",
+      "description": "A group of weary warriors transport a suspected witch believed to be responsible for spreading the devastating Black Plague."
+    },
+    {
+      "show_id": "s6125",
+      "title": "The Beginning of Life: The Series",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Docuseries, International TV Shows, Science & Nature TV",
+      "cast": "",
+      "director": "Estela Renner",
+      "description": "Using breakthroughs in technology and neuroscience, this series examines how environment affects infants – and how infants can affect our future."
+    },
+    {
+      "show_id": "s4816",
+      "title": "Pek Yakında",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Cem Yılmaz, Tülin Özen, Ozan Güven, Özkan Uğur, Zafer Algöz, Cengiz Bozkurt, Cahit Gök, Bahtiyar Engin, Mazhar Alanson, Metin Coşkun, Tuğrul Tülek",
+      "director": "Cem Yılmaz",
+      "description": "An ex-movie extra plans to win his wife back by making a fantasy film, but neither he nor his crew has a knack for filmmaking."
+    },
+    {
+      "show_id": "s7021",
+      "title": "The Worst Witch",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "British TV Shows, Kids' TV",
+      "cast": "Bella Ramsey, Clare Higgins, Meibh Campbell, Raquel Cassidy, Jenny Richardson, Miriam Petche, Tallulah Milligan, Wendy Craig, Shauna Shim",
+      "director": "",
+      "description": "After stumbling into a school for witches, a bumbling heroine comes to realize that she just might belong there. Based on Jill Murphy's beloved books."
+    },
+    {
+      "show_id": "s5520",
+      "title": "Seventh Son",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Action & Adventure, Sci-Fi & Fantasy",
+      "cast": "Jeff Bridges, Ben Barnes, Julianne Moore, Alicia Vikander, Antje Traue, Olivia Williams, John DeSantis, Kit Harington, Djimon Hounsou, Gerard Plunkett, Jason Scott Lee",
+      "director": "Sergei Bodrov",
+      "description": "In the 18th century, apprentice exorcist Tom Ward is the lynchpin in a battle between good and evil when imprisoned witch Mother Malkin escapes."
+    },
+    {
+      "show_id": "s7008",
+      "title": "The Witcher: A Look Inside the Episodes",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries, TV Sci-Fi & Fantasy",
+      "cast": "Henry Cavill, Anya Chalotra, Freya Allan, Lauren Schmidt Hissrich, Eamon Farren, Mimi Ndiweni, MyAnna Buring, Joey Batey, Adam Levy, Jodhi May",
+      "director": "",
+      "description": "With series creator Lauren S. Hissrich as your guide, take an in-depth journey into the stories and themes powering the first season of \"The Witcher.\""
+    },
+    {
+      "show_id": "s958",
+      "title": "Black Mirror: Bandersnatch",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, International Movies, Sci-Fi & Fantasy",
+      "cast": "Fionn Whitehead, Will Poulter, Craig Parkinson, Alice Lowe, Asim Chaudhry",
+      "director": "",
+      "description": "In 1984, a young programmer begins to question reality as he adapts a dark fantasy novel into a video game. A mind-bending tale with multiple endings."
+    },
+    {
+      "show_id": "s2834",
+      "title": "House of the Witch",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Horror Movies",
+      "cast": "Emily Bader, Darren Mann, Michelle Randolph, Coy Stewart, Jesse Pepe, Arden Belle, Joel Nagle, Nolan Bateman",
+      "director": "Alex Merkin",
+      "description": "A group of daring teens finds themselves in a fight for their lives inside a haunted house when a sinister spirit crashes their Halloween party."
+    },
+    {
+      "show_id": "s7750",
+      "title": "Yu-Gi-Oh!",
+      "type": "TV Show",
+      "release_year": 2005,
+      "listed_in": "Anime Series, Kids' TV",
+      "cast": "Dan Green, Eric Stuart, Amy Birnbaum, Darren Dunstan, Wayne Grayson, Tara Sands, Lisa Ortiz, Megan Hollingshead, Madeleine Blaustein, Sam Riegel, Ted Lewis, Gregory Abbey, Jimmy Zoppi",
+      "director": "",
+      "description": "The lives of young Yugi Moto and his friends Joey, Tristan, and Téa are forever changed when a fantasy card game becomes their reality."
+    },
+    {
+      "show_id": "s7651",
+      "title": "Wizards: Tales of Arcadia",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV, TV Action & Adventure, TV Sci-Fi & Fantasy",
+      "cast": "Colin O'Donoghue, David Bradley, Lena Headey, Emile Hirsch, Lexi Medrano, Steven Yeun, Alfred Molina, James Faulkner, Stephanie Beatriz, John Rhys-Davies",
+      "director": "",
+      "description": "Merlin’s apprentice joins Arcadia’s heroes on a time-bending adventure in Camelot, where conflict is brewing between the human, troll and magical worlds."
+    },
+    {
+      "show_id": "s3822",
+      "title": "Luo Bao Bei",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "British TV Shows, Kids' TV",
+      "cast": "Hana Burnett, Natalia-Jade Jonathan, Leo Tang, Gok Wan, Ching-He Huang, Pik Sen Lim, David Yip",
+      "director": "",
+      "description": "A bright and spirited seven-year-old girl uses her vivid, dreamlike imagination to navigate everyday adventures alongside her real and imaginary BFFs."
+    },
+    {
+      "show_id": "s5055",
+      "title": "Race to Witch Mountain",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Children & Family Movies",
+      "cast": "Dwayne Johnson, AnnaSophia Robb, Alexander Ludwig, Carla Gugino, Ciarán Hinds, Tom Everett Scott, Chris Marquette, Billy Brown, Christine Lakin, Tom Woodruff Jr., John Kassir, Garry Marshall, John Duff, Ted Hartley, Dave Engfer, Bob Clendenin, Shengyi Huang, Robert Torti, Kim Richards, Brandon Miller, Paul Darnell, Omar Dorsey, Dennis Hayden, Suzanne Krull, Steve Rosenbaum, Andrew Shaifer, Bryan Fogel, Bob Koherr, Sam Wolfson, Beth Kennedy, Corri English, Jonathan Slavin, Kevin Christy, Meredith Salenger",
+      "director": "Andy Fickman",
+      "description": "A sister and brother with special powers are on the run from a mysterious organization that wants to take advantage of the siblings' gifts."
+    },
+    {
+      "show_id": "s7007",
+      "title": "The Witcher",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Action & Adventure, TV Dramas, TV Mysteries",
+      "cast": "Henry Cavill, Anya Chalotra, Freya Allan, Jodhi May, MyAnna Buring, Joey Batey, Eamon Farren, Mimi Ndiweni, Björn Hlynur Haraldsson, Adam Levy, Lars Mikkelsen, Royce Pierreson, Wilson Radjou-Pujalte, Anna Shaffer",
+      "director": "",
+      "description": "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts."
+    },
+    {
+      "show_id": "s5482",
+      "title": "See You Yesterday",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Sci-Fi & Fantasy, Thrillers",
+      "cast": "Eden Duncan-Smith, Dante Crichlow, Astro, Johnathan Nieves, Marsha Stephanie Blake, Wavyy Jonez, Myra Lucretia Taylor",
+      "director": "Stefon Bristol",
+      "description": "As two teen prodigies try to master the art of time travel, a tragic police shooting sends them on a series of dangerous trips to the past."
+    },
+    {
+      "show_id": "s226",
+      "title": "A Series of Unfortunate Events",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Kids' TV, TV Action & Adventure, TV Comedies",
+      "cast": "Neil Patrick Harris, Patrick Warburton, Malina Weissman, Louis Hynes, K. Todd Freeman, Joan Cusack, Aasif Mandvi",
+      "director": "",
+      "description": "The extraordinary Baudelaire orphans face trials, tribulations and the evil Count Olaf in their fateful quest to unlock long-held family secrets."
+    },
+    {
+      "show_id": "s4707",
+      "title": "Outlander",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Romantic TV Shows, TV Action & Adventure, TV Dramas",
+      "cast": "Caitriona Balfe, Sam Heughan, Tobias Menzies, Gary Lewis, Graham McTavish, Lotte Verbeek, Duncan Lacroix, Laura Donnelly, Bill Paterson, Stephen Walters, Grant O'Rourke, Simon Callow, Richard Rankin, Sophie Skelton, David Berry, Romann Berrux, Ed Speleers, Maria Doyle Kennedy, Tim Downie",
+      "director": "",
+      "description": "This epic tale adapted from Diana Gabaldon's popular series of fantasy-romance novels focuses on the drama of two time-crossed lovers."
+    },
+    {
+      "show_id": "s4767",
+      "title": "Paranormal",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Dramas, TV Horror",
+      "cast": "Ahmed Amin, Razane Jammal, Ayah Samaha, Samaa Ibrahem, Roshdy El Shamy, Reem Abd El Kader",
+      "director": "",
+      "description": "After a skeptical hematologist is plunged into a series of inexplicable events, he unwillingly becomes the go-to-guy for paranormal investigations."
+    },
+    {
+      "show_id": "s2568",
+      "title": "H2O: Just Add Water",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "Kids' TV, TV Dramas",
+      "cast": "Cariba Heine, Phoebe Tonkin, Angus McLaren, Burgess Abernethy, Claire Holt, Alan David Lee, Cleo Massey, Jamie Timony",
+      "director": "",
+      "description": "The gals in this fantasy series cope with the burden of growing a giant fin and transforming into mermaids whenever they come in contact with water."
+    },
+    {
+      "show_id": "s441",
+      "title": "Always a Witch",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, Spanish-Language TV Shows, TV Comedies",
+      "cast": "Angely Gaviria, Sebastián Eslava, Luis Fernando Hoyos, Verónica Orozco, Lenard Vanderaa, Sofía Araujo, Dylan Fuentes, Valeria Emiliani, Dubán Prado, Carlos Quintero",
+      "director": "",
+      "description": "A young 17th-century witch time travels to the future to save the man she loves, but first must adjust to present-day Cartagena and defeat a dark rival."
+    },
+    {
+      "show_id": "s7237",
+      "title": "Trotro",
+      "type": "TV Show",
+      "release_year": 2004,
+      "listed_in": "Kids' TV",
+      "cast": "",
+      "director": "",
+      "description": "Trotro the donkey may be opinionated, but he's as sweet as can be in this animated series that's full of lessons for children."
+    },
+    {
+      "show_id": "s6893",
+      "title": "The Spiderwick Chronicles",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Children & Family Movies",
+      "cast": "Freddie Highmore, Mary-Louise Parker, Sarah Bolger, Joan Plowright, David Strathairn, Nick Nolte, Seth Rogen, Andrew McCarthy, Martin Short",
+      "director": "Mark Waters",
+      "description": "When city-raised twins move to a tumbledown country mansion, it's quite an adjustment – especially after they uncover a magical fantasy world."
+    },
+    {
+      "show_id": "s1432",
+      "title": "Club Friday The Series 6",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Puttichai Kasetsin, Kongtoranin Lalana, Preechaya Pongthananikorn",
+      "director": "",
+      "description": "Based on a Thai radio show that gives love advice to callers, this series dramatizes stories of infidelity, love triangles, sexual identity and more."
+    },
+    {
+      "show_id": "s2492",
+      "title": "Good Witch",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Dramas, TV Sci-Fi & Fantasy",
+      "cast": "Catherine Bell, Bailee Madison, Rhys Matthew Bond, James Denton, Catherine Disher, Anthony Lemke, Peter MacNeill, Hannah Endicott-Douglas, Noah Cappe, Kylee Evans",
+      "director": "",
+      "description": "Raising her daughter in a small town, an enchanting widow with magical powers provokes the interest and exasperation of a skeptical big-city doctor."
+    },
+    {
+      "show_id": "s6635",
+      "title": "The Magicians",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Dramas, TV Sci-Fi & Fantasy",
+      "cast": "Jason Ralph, Arjun Gupta, Hale Appleman, Stella Maeve, Summer Bishil, Olivia Taylor Dudley, Jade Tailor, Rick Worthy, Mackenzie Astin, Kacey Rohl, Charles Mesure, Keegan Connor Tracy, Trevor Einhorn",
+      "director": "",
+      "description": "When grad student Quentin Coldwater enters a college specializing in magic, he learns that the mythic fantasy world he once read about is very real."
+    },
+    {
+      "show_id": "s6954",
+      "title": "The Twilight Zone (Original Series)",
+      "type": "TV Show",
+      "release_year": 1963,
+      "listed_in": "Classic & Cult TV, TV Sci-Fi & Fantasy",
+      "cast": "Rod Serling",
+      "director": "",
+      "description": "Hosted by creator Rod Serling, this groundbreaking anthology series presents tales of the supernatural that are often tinged with social commentary."
+    },
+    {
+      "show_id": "s375",
+      "title": "Albion: The Enchanted Stallion",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Children & Family Movies",
+      "cast": "Daniel Sharman, Jennifer Morrison, Debra Messing, Stephen Dorff, John Cleese, Liam McIntyre, Richard Kind, Avery Arendes, Castille Landon",
+      "director": "Castille Landon",
+      "description": "After a magical horse transports her to a fantasy world ruled by an evil general, a brave girl sets out to save the land once and for all."
+    },
+    {
+      "show_id": "s4899",
+      "title": "Pokémon the Series",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Anime Series, Kids' TV",
+      "cast": "Sarah Natochenny, Laurie Hymes, Jessica Paquet, Rosie Reyes, Alyson Leigh Rosenfeld, Marc Swint, Rodger Parsons",
+      "director": "",
+      "description": "Ash and his Pikachu travel to the Alola region with his mother and enroll in the Pokémon school, where they confront the nefarious Team Skull."
+    },
+    {
+      "show_id": "s7646",
+      "title": "Witches: A Century of Murder",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "British TV Shows, Crime TV Shows, Docuseries",
+      "cast": "Suzannah Lipscomb",
+      "director": "",
+      "description": "Historian Suzannah Lipscomb investigates the witch hunts that plagued Britain in the 17th century, examining common myths about their origin."
+    },
+    {
+      "show_id": "s3821",
+      "title": "Lunatics",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, TV Comedies",
+      "cast": "Chris Lilley",
+      "director": "",
+      "description": "This mockumentary series follows the peculiar lives of six eccentric – and sometimes obscene – misfits who march to their own beat."
+    },
+    {
+      "show_id": "s7006",
+      "title": "The Witch: Part 1 - The Subversion",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure, International Movies, Sci-Fi & Fantasy",
+      "cast": "Kim Da-mi, Cho Min-soo, Choi Woo-shik, Park Hee-soon, Choi Jung-woo, Ko Min-si, Oh Mi-hee, Kim Byung-ok",
+      "director": "Park Hoon-jung",
+      "description": "The life of a seemingly ordinary high school student with a mysterious past is turned upside down when a group of strangers show up and wreak havoc."
+    },
+    {
+      "show_id": "s7004",
+      "title": "The Witch",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Horror Movies, Independent Movies",
+      "cast": "Anya Taylor-Joy, Ralph Ineson, Kate Dickie, Harvey Scrimshaw, Ellie Grainger, Lucas Dawson, Bathsheba Garnett, Sarah Stephens, Julian Richings, Wahab Chaudhry",
+      "director": "Robert Eggers",
+      "description": "Believing that a witch has cursed their family, pilgrims homesteading on the edge of a primeval New England forest become increasingly paranoid."
+    },
+    {
+      "show_id": "s2934",
+      "title": "Ice Fantasy",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "International TV Shows, TV Action & Adventure, TV Sci-Fi & Fantasy",
+      "cast": "Feng Shaofeng, Victoria Song, Ma Tianyu, Zhang Meng, Hee-seon Kim, Gong Beibi, Shao Bing, Hu Bing, Wang Duo",
+      "director": "",
+      "description": "The Ice Tribe prince journeys to a sacred mountain to vanquish evil but soon finds himself at war with the Fire Tribe, led by his long-lost brother."
+    },
+    {
+      "show_id": "s7005",
+      "title": "The Witch Files",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Holly Taylor, Alice Ziolkoski, Britt Flatmo, Paget Brewster, Tara Robinson, Adrienne Rose White, Greg Finley, Valerie Mahaffey, Jared Boghosian, William Bornkessel",
+      "director": "Kyle Rankin",
+      "description": "A disparate group of teenage girls discovers how to obtain supernatural abilities, but abusing their newfound power has disturbing consequences."
+    },
+    {
+      "show_id": "s1851",
+      "title": "Dragonheart 3: The Sorcerer",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Action & Adventure, Sci-Fi & Fantasy",
+      "cast": "Julian Morris, Tamzin Merchant, Ben Kingsley, Jassa Ahluwalia, Jonjo O'Neill, Dominic Mafham, Roger Ashton-Griffiths, Jake Curran, Duncan Preston, Ozama Oancea",
+      "director": "Colin Teague",
+      "description": "When an aspiring knight crosses paths with a dragon, the two form an unlikely alliance in a high-stakes battle against a malicious sorcerer."
+    },
+    {
+      "show_id": "s3764",
+      "title": "Love Jones",
+      "type": "Movie",
+      "release_year": 1997,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Larenz Tate, Nia Long, Isaiah Washington, Lisa Nicole Carson, Bill Bellamy, Leonard Roberts, Bernadette L. Clarke, Khalil Kain",
+      "director": "Theodore Witcher",
+      "description": "In this urban romantic comedy set in Chicago, the ups and downs of courtship play out between a young black poet and a pretty shutterbug."
+    },
+    {
+      "show_id": "s3879",
+      "title": "Making The Witcher",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries",
+      "cast": "Henry Cavill, Anya Chalotra, Freya Allan, Eamon Farren, Mimi Ndiweni, Adam Levy, MyAnna Buring, Joey Batey, Lauren Schmidt Hissrich, Tomasz Bagiński, Andrew Laws, Sneha Koorse, Declan De Barra, Beau DeMayo, Simon Emanuel, Iván Pohárnok, Tim Aslam, Charlotte Brändström",
+      "director": "Nathan Wiley",
+      "description": "Journey into the extraordinary world of \"The Witcher\" — from casting the roles to Jaskier's catchy song — in this behind-the-scenes look at the series."
+    },
+    {
+      "show_id": "s4010",
+      "title": "MeatEater",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries, Reality TV, Science & Nature TV",
+      "cast": "Steven Rinella",
+      "director": "",
+      "description": "Steven Rinella scrounges in some of America's wildest terrains in this unscripted series showing him on the hunt for wild animals from ducks to deer."
+    },
+    {
+      "show_id": "s5494",
+      "title": "Sense8",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, TV Dramas, TV Mysteries",
+      "cast": "Tuppence Middleton, Brian J. Smith, Doona Bae, Max Riemelt, Naveen Andrews, Daryl Hannah, Freema Agyeman, Terrence Mann, Adam Shapiro, Max Mauff, Alfonso Herrera, Eréndira Ibarra, Aml Ameen, Jamie Clayton, Tina Desae, Miguel Ángel Silvestre, Toby Onwumere, Joe Pantoliano",
+      "director": "",
+      "description": "From the creators of \"The Matrix\" and \"Babylon 5\" comes this tense series in which eight people can telepathically experience each other's lives."
+    },
+    {
+      "show_id": "s1339",
+      "title": "Chilling Adventures of Sabrina",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Horror, TV Mysteries, TV Sci-Fi & Fantasy",
+      "cast": "Kiernan Shipka, Ross Lynch, Miranda Otto, Lucy Davis, Chance Perdomo, Michelle Gomez, Richard Coyle, Jaz Sinclair, Lachlan Watson, Tati Gabrielle, Adeline Rudolph, Abigail Cowen, Gavin Leatherwood, Bronson Pinchot",
+      "director": "",
+      "description": "Magic and mischief collide as half-human, half-witch Sabrina navigates between two worlds: mortal teen life and her family's legacy, the Church of Night."
+    },
+    {
+      "show_id": "s2512",
+      "title": "GRANBLUE FANTASY the Animation",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Yuki Ono, Nao Toyama, Rie Kugimiya, Miyuki Sawashiro, Hiroaki Hirata, Yukari Tamura, Kazuhiro Yamaji, Rie Tanaka, Emiri Kato, Tomokazu Sugita, Kanae Ito",
+      "director": "",
+      "description": "In a world where islands float in the sky, Gran encounters a mysterious girl wanted by the Erste Empire for her ability to summon Primal Beasts."
+    },
+    {
+      "show_id": "s6617",
+      "title": "The Lord of the Rings: The Return of the King",
+      "type": "Movie",
+      "release_year": 2003,
+      "listed_in": "Action & Adventure, Sci-Fi & Fantasy",
+      "cast": "Elijah Wood, Ian McKellen, Liv Tyler, Viggo Mortensen, Sean Astin, Cate Blanchett, John Rhys-Davies, Bernard Hill, Billy Boyd, Dominic Monaghan, Orlando Bloom, Hugo Weaving",
+      "director": "Peter Jackson",
+      "description": "Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor."
+    },
+    {
+      "show_id": "s6258",
+      "title": "The Crystal Calls Making the Dark Crystal: Age of Resistance",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Taron Egerton, Natalie Dormer, Simon Pegg, Jason Isaacs",
+      "director": "Randall Lobb",
+      "description": "Go behind the scenes with stars, puppeteers and creators as they bring Jim Henson's magical world of Thra back to life in a sweeping fantasy series."
+    },
+    {
+      "show_id": "s7640",
+      "title": "Winx Club",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Kids' TV",
+      "cast": "Liza Jacqueline, Helena Evangeliou, Lisa Ortiz, Kerry Williams, Gregory Abbey, Dan Green, Michael Sinterniklaas, Suzy Myers, Christina Rodriguez, Dani Schaffel, Sebastian Arcelus, Rachael Lillis",
+      "director": "",
+      "description": "In this animated fantasy, a girl named Bloom befriends a band of fairies, then follows them into the secretive and dangerous \"Magical Dimension.\""
+    }
+  ]
+}

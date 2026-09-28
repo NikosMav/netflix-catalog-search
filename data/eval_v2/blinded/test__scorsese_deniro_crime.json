@@ -1,0 +1,677 @@
+{
+  "split": "test",
+  "query_id": "scorsese_deniro_crime",
+  "query": "Martin Scorsese crime film with Robert De Niro",
+  "candidates": [
+    {
+      "show_id": "s6784",
+      "title": "The Prison",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Suk-kyu Han, Rae-won Kim, Kyeong-yeong Lee, Woong-in Jeong, Jae-yun Jo, Sung-rok Shin, Kim Sung-kyun, Kwak Min-ho",
+      "director": "Na Hyeon",
+      "description": "A cop-turned-convict discovers a crime syndicate inside a prison lorded over by an inmate crime boss – and joins in on their nightly heists."
+    },
+    {
+      "show_id": "s5208",
+      "title": "Righteous Kill",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Robert De Niro, Al Pacino, 50 Cent, Carla Gugino, John Leguizamo, Donnie Wahlberg, Brian Dennehy, Trilby Glover",
+      "director": "Jon Avnet",
+      "description": "Two detectives investigate a rash of vigilante killings linked to an old case, suggesting they might have put an innocent man behind bars."
+    },
+    {
+      "show_id": "s5769",
+      "title": "Spotless",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Marc-André Grondin, Denis Ménochet, Miranda Raison, Doug Allen, Liam Garrigan, Ciarán Owens, Kate Magowan, Tanya Fear, Naomi Radcliffe, Lucy Akhurst, Jemma Donovan, Niall Hayes, Brendan Coyle",
+      "director": "",
+      "description": "The law-abiding owner of a crime scene cleaning service is forced into business with a powerful mob boss thanks to his irresponsible older brother."
+    },
+    {
+      "show_id": "s1613",
+      "title": "Dark Crimes",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Jim Carrey, Marton Csokas, Charlotte Gainsbourg, Agata Kulesza, Kati Outinen, Zbigniew Zamachowski, Danuta Kowalska, Vlad Ivanov, Robert Więckiewicz, Piotr Głowacki",
+      "director": "Alexandros Avranas",
+      "description": "A detective on a cold murder case discovers that a famous writer’s latest novel contains details chillingly similar to the crime he’s investigating."
+    },
+    {
+      "show_id": "s3383",
+      "title": "Kill the Irishman",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Action & Adventure, Dramas, Independent Movies",
+      "cast": "Ray Stevenson, Vincent D'Onofrio, Val Kilmer, Christopher Walken, Linda Cardellini, Fionnula Flanagan, Jason Butler Harner, Vinnie Jones, Paul Sorvino, Marcus Thomas, Tony Darrow",
+      "director": "Jonathan Hensleigh",
+      "description": "This true crime tale charts the rise and fall of mobster Danny Greene, who faced down the Mafia to gain control of organized crime in 1970s Cleveland."
+    },
+    {
+      "show_id": "s6509",
+      "title": "The Irishman: In Conversation",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries",
+      "cast": "Martin Scorsese, Robert De Niro, Al Pacino, Joe Pesci",
+      "director": "",
+      "description": "Join director Martin Scorsese as he sits down with stars Robert De Niro, Al Pacino and Joe Pesci for an intimate, intriguing look inside \"The Irishman.\""
+    },
+    {
+      "show_id": "s5003",
+      "title": "Pulp Fiction",
+      "type": "Movie",
+      "release_year": 1994,
+      "listed_in": "Classic Movies, Cult Movies, Dramas",
+      "cast": "John Travolta, Samuel L. Jackson, Uma Thurman, Harvey Keitel, Tim Roth, Amanda Plummer, Maria de Medeiros, Ving Rhames, Eric Stoltz, Rosanna Arquette, Christopher Walken, Bruce Willis",
+      "director": "Quentin Tarantino",
+      "description": "This stylized crime caper weaves together stories featuring a burger-loving hit man, his philosophical partner and a washed-up boxer."
+    },
+    {
+      "show_id": "s6238",
+      "title": "The Confession Killer",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "Robert Kenner, Taki Oldham",
+      "description": "Henry Lee Lucas rose to infamy when he confessed to hundreds of unsolved murders. This docuseries examines the truth – and horrifying consequences."
+    },
+    {
+      "show_id": "s1698",
+      "title": "Demetri Martin: The Overthinker",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Demetri Martin",
+      "director": "Jay Karas, Demetri Martin",
+      "description": "With his signature one-liners and drawings, Demetri Martin muses on doughnut holes, dogs, sports bars, the alphabet's most aggressive letters and more."
+    },
+    {
+      "show_id": "s5995",
+      "title": "Taxi Driver",
+      "type": "Movie",
+      "release_year": 1976,
+      "listed_in": "Classic Movies, Dramas, Thrillers",
+      "cast": "Robert De Niro, Jodie Foster, Cybill Shepherd, Peter Boyle, Albert Brooks, Leonard Harris, Harvey Keitel, Murray Moston, Richard Higgs, Victor Argo",
+      "director": "Martin Scorsese",
+      "description": "Enraged by New York's moral rot and urban decay, an unhinged cab driver goes mad, plotting an assassination and saving a teen sex worker."
+    },
+    {
+      "show_id": "s2352",
+      "title": "Gangs of New York",
+      "type": "Movie",
+      "release_year": 2002,
+      "listed_in": "Dramas",
+      "cast": "Leonardo DiCaprio, Daniel Day-Lewis, Cameron Diaz, Jim Broadbent, John C. Reilly, Henry Thomas, Liam Neeson, Brendan Gleeson, Gary Lewis, Stephen Graham",
+      "director": "Martin Scorsese",
+      "description": "In the crime-ridden slums of New York in the 1860s, vengeful orphan Amsterdam Vallon joins the cutthroat gang of his father's killer, Bill the Butcher."
+    },
+    {
+      "show_id": "s6626",
+      "title": "The Lovers and the Despot",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Robert Cannan, Ross Adam",
+      "description": "This firsthand account tells of two kidnapped South Korean movie professionals who became the unwilling personal filmmakers of dictator Kim Jong-il."
+    },
+    {
+      "show_id": "s6485",
+      "title": "The Incident",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "International Movies, Sci-Fi & Fantasy, Thrillers",
+      "cast": "Raúl Méndez, Nailea Norvind, Hernán Mendoza, Humberto Busto, Fernando Álvarez Rebeil, Gabriel Santoyo, Paulina Montemayor, Héctor Mendoza, Leonel Tinajero, Marcos Moreno",
+      "director": "Isaac Ezban",
+      "description": "Two criminals race down a stairwell, a cop close behind. A bickering family begins a road trip. Their journeys will take far longer than expected."
+    },
+    {
+      "show_id": "s2001",
+      "title": "Encounters with Evil",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Crime TV Shows, Docuseries",
+      "cast": "Richard Lintern",
+      "director": "",
+      "description": "This documentary series tries to get at the root of some of the most heinous crimes ever committed by deranged, cold-blooded criminals."
+    },
+    {
+      "show_id": "s4643",
+      "title": "One Direction: This Is Us",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Documentaries, Music & Musicals",
+      "cast": "Harry Styles, Niall Horan, Zayn Malik, Louis Tomlinson, Liam Payne",
+      "director": "Morgan Spurlock",
+      "description": "Award-winning documentarian Morgan Spurlock turns his camera on boy band phenomenon One Direction in this combination concert film and backstage pass."
+    },
+    {
+      "show_id": "s966",
+      "title": "Black Spot",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Suliane Brahim, Hubert Delattre, Laurent Capelluto, Samuel Jouy, Renaud Rutten, Camille Aguilar, Tiphaine Daviot, Naidra Ayadi, Brigitte Sy, Anne Suarez, Dan Herzberg, Olivier Bonjour, Thomas Doret",
+      "director": "",
+      "description": "A police chief and an eccentric new prosecutor investigate a string of grisly crimes and eerie phenomena in an isolated town at the edge of a forest."
+    },
+    {
+      "show_id": "s7410",
+      "title": "Very Big Shot",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Alain Saadeh, Fouad Yammine, Tarek Yaacoub, Alexandra Kahwaji, Wissam Fares, Georges Hayeck, Fadi Abi Samra, Marcel Ghanem",
+      "director": "Mir-Jean Bou Chaaya",
+      "description": "When three brothers struggling to go straight become targets of a criminal underworld, they use the making of a movie as a front to transport drugs."
+    },
+    {
+      "show_id": "s1946",
+      "title": "El Camino: A Breaking Bad Movie",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Aaron Paul",
+      "director": "Vince Gilligan",
+      "description": "Fugitive Jesse Pinkman attempts to outrun his past. Written and directed by \"Breaking Bad\" creator Vince Gilligan, starring Aaron Paul."
+    },
+    {
+      "show_id": "s2516",
+      "title": "Grand Masti",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Comedies, International Movies, Music & Musicals",
+      "cast": "Riteish Deshmukh, Vivek Oberoi, Aftab Shivdasani, Suresh Menon, Manjari Fadnis, Sonalee Kulkarni, Karishma Tanna, Kainaat Arora, Bruna Abdullah, Maryam Zakaria, Pradeep Singh Rawat",
+      "director": "Indra Kumar",
+      "description": "Leaving their wives at home, three randy friends look forward to some raunchy extramarital fun at their college reunion."
+    },
+    {
+      "show_id": "s4009",
+      "title": "Mean Streets",
+      "type": "Movie",
+      "release_year": 1973,
+      "listed_in": "Classic Movies, Dramas, Independent Movies",
+      "cast": "Robert De Niro, Harvey Keitel, David Proval, Amy Robinson, Richard Romanus, Cesare Danova, Victor Argo, George Memmoli",
+      "director": "Martin Scorsese",
+      "description": "In New York's Little Italy, a low-level hoodlum wrestles with loyalty to his mobster uncle, his faith and his friendship with an inveterate gambler."
+    },
+    {
+      "show_id": "s2293",
+      "title": "From Dusk Till Dawn",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Classic & Cult TV, TV Action & Adventure, TV Horror",
+      "cast": "D.J. Cotrona, Zane Holtz, Eiza Gonzalez, Jesse Garcia, Madison Davenport, Brandon Soo Hoo, Wilmer Valderrama, Robert Patrick, Jake Busey, Samantha Esteban, Don Johnson",
+      "director": "",
+      "description": "Bank-robbing brothers encounter vengeful lawmen and demons south of the border in this original series based on Robert Rodriguez' cult horror film."
+    },
+    {
+      "show_id": "s3955",
+      "title": "Martin Lawrence Live: Runteldat",
+      "type": "Movie",
+      "release_year": 2002,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Martin Lawrence",
+      "director": "David Raynr",
+      "description": "This provocative film sheds light on actor-comedian Martin Lawrence's roots, his rise to fame and his walk on the wild side."
+    },
+    {
+      "show_id": "s3104",
+      "title": "Jackie Brown",
+      "type": "Movie",
+      "release_year": 1997,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Pam Grier, Samuel L. Jackson, Robert Forster, Bridget Fonda, Michael Keaton, Robert De Niro, Michael Bowen, Chris Tucker, LisaGay Hamilton, Tommy 'Tiny' Lister, Hattie Winston, Sid Haig",
+      "director": "Quentin Tarantino",
+      "description": "When an aging flight attendant's caught smuggling cash and forced to help with an investigation, she hatches a clever plan to make off with the dough."
+    },
+    {
+      "show_id": "s6137",
+      "title": "The Black Godfather",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, Music & Musicals",
+      "cast": "Clarence Avant, Quincy Jones",
+      "director": "Reginald Hudlin",
+      "description": "This documentary follows the life of Clarence Avant, the ultimate, uncensored mentor and behind-the-scenes rainmaker in music, film, TV and politics."
+    },
+    {
+      "show_id": "s4708",
+      "title": "Outlaw King",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure, Dramas",
+      "cast": "Chris Pine, Aaron Taylor-Johnson, Florence Pugh, Billy Howle, Sam Spruell, Tony Curran, Callan Mulvey, James Cosmo, Stephen Dillane",
+      "director": "David Mackenzie",
+      "description": "In 14th-century Scotland, Robert the Bruce claims the crown and leads a fierce uprising to win back the country's independence from English rule."
+    },
+    {
+      "show_id": "s7280",
+      "title": "Twin Murders: the Silence of the White City",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "International Movies, Thrillers",
+      "cast": "Belén Rueda, Javier Rey, Aura Garrido, Manolo Solo, Alex Brendemühl, Ramón Barea, Sergio Dorado, Allende Blanco, Rubén Ochandiano",
+      "director": "Daniel Calparsoro",
+      "description": "A detective returns to Vitoria-Gasteiz to solve murders mimicking those allegedly committed by a serial killer who's about to be released from prison."
+    },
+    {
+      "show_id": "s6844",
+      "title": "The Russian Revolution",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "Jonathan Kydd",
+      "director": "Cal Seville",
+      "description": "Starting in 1881, this film describes how the personal battle between the royal Romanovs and Lenin's Ulyanov family led to the Russian Revolution."
+    },
+    {
+      "show_id": "s6289",
+      "title": "The Departed",
+      "type": "Movie",
+      "release_year": 2006,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Leonardo DiCaprio, Matt Damon, Jack Nicholson, Mark Wahlberg, Martin Sheen, Ray Winstone, Vera Farmiga, Anthony Anderson, Alec Baldwin, Kevin Corrigan",
+      "director": "Martin Scorsese",
+      "description": "Two rookie Boston cops are sent deep undercover – one inside the gang of a charismatic Irish mob boss and the other double-crossing his own department."
+    },
+    {
+      "show_id": "s5836",
+      "title": "Stranger than Fiction",
+      "type": "Movie",
+      "release_year": 2006,
+      "listed_in": "Comedies, Romantic Movies",
+      "cast": "Will Ferrell, Maggie Gyllenhaal, Dustin Hoffman, Queen Latifah, Emma Thompson, Kristin Chenoweth, Tony Hale, Tom Hulce, Linda Hunt",
+      "director": "Marc Forster",
+      "description": "As a writer ponders how to kill off her main character, the man begins hearing her voice in his head and realizes that his days are numbered."
+    },
+    {
+      "show_id": "s1615",
+      "title": "Dark Forces",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Horror Movies, Independent Movies, International Movies",
+      "cast": "Tenoch Huerta, Eréndira Ibarra, Dale Carley, Ariane Pellicer, Johana Blendl, Dai Liparoti, Mauricio Aspe, Nick Zedd",
+      "director": "Bernardo Arellano",
+      "description": "In search of his sister, a renegade criminal seeks answers at a sordid hotel where he encounters a sinister guest and romances a mysterious waitress."
+    },
+    {
+      "show_id": "s2561",
+      "title": "Guy Martin: Last Flight of the Vulcan Bomber",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Guy Martin, Kevin Stone, Shaun Dooley",
+      "director": "James Woodroffe",
+      "description": "Guy Martin assists in preparing the last airworthy Vulcan bomber for a farewell tour while revealing the stories behind the iconic aircraft."
+    },
+    {
+      "show_id": "s4470",
+      "title": "Nightcrawler",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Dramas, Independent Movies, Thrillers",
+      "cast": "Jake Gyllenhaal, Rene Russo, Riz Ahmed, Bill Paxton, Kevin Rahm, Michael Hyatt, Ann Cusack, Marco Rodriguez, Michael Papajohn, Kent Shocknek, James Huang",
+      "director": "Dan Gilroy",
+      "description": "A young hustler finds success trolling the streets of Los Angeles to film disasters and death. But the darkness he captures starts to take hold of him."
+    },
+    {
+      "show_id": "s5585",
+      "title": "Shot in the Dark",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Reality TV",
+      "cast": "",
+      "director": "",
+      "description": "Three rival freelance stringers scour the streets at night to film crime scenes, fires, accidents – and anything else they can sell to news outlets."
+    },
+    {
+      "show_id": "s3713",
+      "title": "Long Shot",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Jacob LaMendola",
+      "description": "When Juan Catalan is arrested for a murder he didn't commit, he builds his case for innocence around raw footage from a popular TV show. A documentary."
+    },
+    {
+      "show_id": "s6377",
+      "title": "The Frozen Dead",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Charles Berling, Julia Piaton, Pascal Greggory, Nina Meurisse, Lubna Azabal, Anne Le Ny, Robinson Stévenin, Robert Plagnol, Sophie Guillemin",
+      "director": "",
+      "description": "A grisly find atop a mountain in the French Pyrenees leads investigator Martin Servaz into a twisted dance with a serial killer in this icy thriller."
+    },
+    {
+      "show_id": "s618",
+      "title": "Attacking the Devil: Harold Evans and the Last Nazi War Crime",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Harold Evans",
+      "director": "David Morris, Jacqui Morris",
+      "description": "Intrepid newspaper editor Harold Evans wages an ongoing battle to expose the truth about a dangerous drug and obtain compensation for its victims."
+    },
+    {
+      "show_id": "s6329",
+      "title": "The End",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Action & Adventure, Comedies, International Movies",
+      "cast": "Mohamed El Hemaly, Abdulla Al-khudr, Ghadeer Zayid, Heba El Dorry, Abdulaziz Al-mesallam, Meshal Al-farhan, Meshal Al-Mujibel, Ibrahim Al-Sheikhly, Souad al-Husseini, Soliman Elyassin",
+      "director": "Mohammed Alhmly",
+      "description": "A wrongly accused man is pursued by a dogged investigator in this action-comedy featuring car chases, dark humor and more than a few vampires."
+    },
+    {
+      "show_id": "s4966",
+      "title": "Pretend It’s a City",
+      "type": "TV Show",
+      "release_year": 2021,
+      "listed_in": "Docuseries",
+      "cast": "Fran Lebowitz",
+      "director": "",
+      "description": "Wander the New York City streets and fascinating mind of wry writer, humorist and raconteur Fran Lebowitz as she sits down with Martin Scorsese."
+    },
+    {
+      "show_id": "s6508",
+      "title": "The Irishman",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas",
+      "cast": "Robert De Niro, Al Pacino, Joe Pesci, Harvey Keitel, Ray Romano, Bobby Cannavale, Anna Paquin, Stephen Graham, Stephanie Kurtzuba, Kathrine Narducci, Welker White, Jesse Plemons, Jack Huston, Domenick Lombardozzi, Louis Cancelmi, Paul Herman, Gary Basaraba, Marin Ireland, Sebastian Maniscalco, Steven Van Zandt",
+      "director": "Martin Scorsese",
+      "description": "Hit man Frank Sheeran looks back at the secrets he kept as a loyal member of the Bufalino crime family in this acclaimed film from Martin Scorsese."
+    },
+    {
+      "show_id": "s5116",
+      "title": "Real Crime: Diamond Geezers",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Documentaries",
+      "cast": "Forbes KB",
+      "director": "Tom Whitter",
+      "description": "In an attempted heist worthy of a Hollywood film, a cadre of criminals sets out to steal the world's largest perfect diamond from a London landmark."
+    },
+    {
+      "show_id": "s7610",
+      "title": "Who's That Knocking at My Door?",
+      "type": "Movie",
+      "release_year": 1967,
+      "listed_in": "Classic Movies, Dramas, Independent Movies",
+      "cast": "Zina Bethune, Harvey Keitel, Anne Collette, Lennard Kuras, Michael Scala, Harry Northup, Susan Wood, Marissa Mathes, Catherine Scorsese",
+      "director": "Martin Scorsese",
+      "description": "A woman's revelation that she was once raped sends her boyfriend, a reformed street thug, into an emotional and spiritual tailspin."
+    },
+    {
+      "show_id": "s213",
+      "title": "A Patch of Fog",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Stephen Graham, Conleth Hill, Lara Pulver, Arsher Ali, Stuart Graham, Ian McElhinney",
+      "director": "Michael Lennox",
+      "description": "When a guard catches a writer-television host shoplifting, instead of turning him in, he only asks to be a friend, then begins to rule his life."
+    },
+    {
+      "show_id": "s4423",
+      "title": "National Lampoon's Loaded Weapon 1",
+      "type": "Movie",
+      "release_year": 1993,
+      "listed_in": "Action & Adventure, Comedies, Independent Movies",
+      "cast": "Emilio Estevez, Samuel L. Jackson, Jon Lovitz, Tim Curry, Kathy Ireland, Frank McRae, William Shatner, Dhiru Shah, Gokul, Thomas Bruggemann",
+      "director": "Gene Quintano",
+      "description": "In this parody of the Lethal Weapon franchise, criminals murder a detective and steal her prized evidence: microfilm with a recipe for cocaine cookies. Luckily, loose-cannon cop Jack Colt and his by-the-book partner, Wes Luger, are on the case."
+    },
+    {
+      "show_id": "s6528",
+      "title": "The Killing of a Sacred Deer",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Independent Movies, Thrillers",
+      "cast": "Colin Farrell, Nicole Kidman, Barry Keoghan, Alicia Silverstone, Raffey Cassidy, Sunny Suljic, Bill Camp, Drew Logan, Barry G. Bernson, Denise Dal Vera, Herb Caillouet",
+      "director": "Yorgos Lanthimos",
+      "description": "A surgeon's carefully curated life edges toward disaster when a troubled teenage boy with mysterious motives begins to impose himself on his family."
+    },
+    {
+      "show_id": "s5064",
+      "title": "Raging Bull",
+      "type": "Movie",
+      "release_year": 1980,
+      "listed_in": "Classic Movies, Dramas, Sports Movies",
+      "cast": "Robert De Niro, Cathy Moriarty, Joe Pesci, Frank Vincent, Nicholas Colasanto, Theresa Saldana, Mario Gallo, Frank Adonis, Joseph Bono",
+      "director": "Martin Scorsese",
+      "description": "This gritty biopic of brutal boxer Jake LaMotta portrays a tormented soul rising to the top of his sport, only to be undone by his demons."
+    },
+    {
+      "show_id": "s3520",
+      "title": "Lady, la vendedora de rosas",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "International TV Shows, Spanish-Language TV Shows, TV Dramas",
+      "cast": "Natalia Reyes, Michelle Orozco, Majida Issa, Ernesto Benjumea, Viña Machado, Carlos Mariño, Alberto Cardeño, Fabio Restrepo, Juan Pablo Barragán, Maria Jose Vargas",
+      "director": "",
+      "description": "This series tells the life story of Colombian film star Lady Tabares, who was plucked off the mean streets to star in a film and quickly rose to fame."
+    },
+    {
+      "show_id": "s1697",
+      "title": "Demetri Martin: Live (At the Time)",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Demetri Martin",
+      "director": "Jay Karas",
+      "description": "Demetri Martin brings his off-kilter take on acoustic guitar, hairless cats, color schemes, and the word \"nope\" to Washington in his original special."
+    },
+    {
+      "show_id": "s4984",
+      "title": "Prohibition: A Film by Ken Burns and Lynn Novick",
+      "type": "TV Show",
+      "release_year": 2011,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "Peter Coyote",
+      "director": "",
+      "description": "Ken Burns's documentary traces the passage of the 18th Amendment, the social and legal effects of prohibiting alcohol, and the repeal of Prohibition."
+    },
+    {
+      "show_id": "s5987",
+      "title": "Tarif de nuit",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "International Movies, Thrillers",
+      "cast": "Jonathan Howard, Jonathan Demurger, Fanny Valette, Jess Liaudin",
+      "director": "Julien Seri",
+      "description": "A night out in Paris quickly unravels when two friends provoke the wrong taxi driver, who's after something bigger than cab fare."
+    },
+    {
+      "show_id": "s447",
+      "title": "Amar Akbar Anthony",
+      "type": "Movie",
+      "release_year": 1977,
+      "listed_in": "Action & Adventure, Classic Movies, Comedies",
+      "cast": "Vinod Khanna, Rishi Kapoor, Amitabh Bachchan, Neetu Singh, Parveen Babi, Shabana Azmi, Nirupa Roy, Pran",
+      "director": "Manmohan Desai",
+      "description": "Abandoned in a park by their father, Amar, Akbar and Anthony grow up independently and have no knowledge of one another. They're reunited as adults when, by coincidence, they all give blood at the same hospital."
+    },
+    {
+      "show_id": "s6370",
+      "title": "The Forest of Love: Deep Cut",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Kippei Shiina, Shinnosuke Mitsushima, Kyooko Hinami, Eri Kamataki, Young Dais, Natsuki Kawamura, Yuzuka Nakaya, Dai Hasegawa, Chiho Fujii, Sei Matobu, Denden",
+      "director": "Sion Sono",
+      "description": "Nothing's as it seems when a charismatic conman and an aspiring film crew delve into the lives of two emotionally scarred women."
+    },
+    {
+      "show_id": "s3926",
+      "title": "Mara",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Olga Kurylenko, Javier Botet, Mitch Eakins, Lance E. Nichols, Rosie Fellner, Mackenzie Imsand, Dandy Barrett, Craig Conway, Melissa Bolona",
+      "director": "Clive Tonge",
+      "description": "When criminal psychologist Kate Fuller investigates a man who was seemingly murdered in his sleep by his wife, she uncovers a case like no other."
+    },
+    {
+      "show_id": "s3099",
+      "title": "Jack Taylor",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Iain Glen, Killian Scott, Nora-Jane Noone, Tara Breathnach, Frank O'Sullivan",
+      "director": "Stuart Orme",
+      "description": "Ken Bruen's bestselling crime novels leap to life in this series of TV movies featuring Irish cop-turned-private-investigator Jack Taylor."
+    },
+    {
+      "show_id": "s332",
+      "title": "Afterschool",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Ezra Miller, Addison Timlin, Jeremy Allen White, Michael Stuhlbarg, Emory Cohen, David Costabile, Rosemarie DeWitt, Dariusz M. Uczkowski, Gary Wilmes, Paul Sparks, Alexandra Neil, Lee Wilkof",
+      "director": "Antonio Campos",
+      "description": "When a prep school loner films two classmates overdosing on cocaine, his footage plays a role in the emotional fallout within the school community."
+    },
+    {
+      "show_id": "s2494",
+      "title": "GoodFellas",
+      "type": "Movie",
+      "release_year": 1990,
+      "listed_in": "Classic Movies, Dramas",
+      "cast": "Robert De Niro, Ray Liotta, Joe Pesci, Lorraine Bracco, Paul Sorvino, Frank Sivero, Tony Darrow, Mike Starr, Frank Vincent, Chuck Low",
+      "director": "Martin Scorsese",
+      "description": "Former mobster Henry Hill recounts his colorful yet violent rise and fall in a New York crime family – a high-rolling dream turned paranoid nightmare."
+    },
+    {
+      "show_id": "s6696",
+      "title": "The Naked Director",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Takayuki Yamada, Shinnosuke Mitsushima, Tetsuji Tamayama, Misato Morita, Tokio Emoto, Sairi Ito, Ami Tomite, Takenori Goto, Koyuki, Lily Franky, Jun Kunimura, Ryo Ishibashi, Kotaro Yoshida, Itsuji Itao, Kimiko Yo",
+      "director": "",
+      "description": "In 1980s Japan, one determined man turned every crushing setback into opportunity. His name was Toru Muranishi, and he revolutionized his industry."
+    },
+    {
+      "show_id": "s5261",
+      "title": "Rolling Thunder Revue: A Bob Dylan Story by Martin Scorsese",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, Music & Musicals",
+      "cast": "Bob Dylan, Allen Ginsberg, Joan Baez, Patti Smith, Roger McGuinn, Sam Shepard, Sharon Stone, Joni Mitchell, Scarlet Rivera, Ramblin' Jack Elliott, Ronnie Hawkins, Anne Waldman, Ronee Blakley",
+      "director": "Martin Scorsese",
+      "description": "In an alchemic mix of fact and fantasy, Martin Scorsese looks back at Bob Dylan's 1975 Rolling Thunder Revue tour and a country ripe for reinvention."
+    },
+    {
+      "show_id": "s1649",
+      "title": "De Film van Dylan Haegens",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Dylan Haegens, Nick Golterman, Marit Brugman, Ilse Warringa, Teun Peters, Patrick Stoof, Rick Vermeulen, Rico Verhoeven",
+      "director": "Dylan Haegens, Bas van Teylingen",
+      "description": "A YouTuber becomes obsessed with figuring out how his copycat archnemesis manages to steal all of his ideas."
+    },
+    {
+      "show_id": "s3977",
+      "title": "Masameer - The Movie",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Malik Nejer, Shahad Alahmari, Abdulaziz Almuzaini, Yousef Aldakheel",
+      "director": "Malik Nejer",
+      "description": "A young girl passionate about AI sets out to make an impact as three friends become crime-fighting superheroes. Based on the hit animated web series."
+    },
+    {
+      "show_id": "s693",
+      "title": "Bad Grandpa .5",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Comedies",
+      "cast": "Johnny Knoxville, Jackson Nicoll, Greg Harris, Georgina Cates, Kamber Hejlik, Jill Killington, Madison Davis, George Faughnan, Spike Jonze, Catherine Keener",
+      "director": "Jeff Tremaine",
+      "description": "The geriatric antics of Irving Zisman continue in this next installment of the Jackass franchise, which features unused footage from the first film."
+    },
+    {
+      "show_id": "s1539",
+      "title": "Criminal: France",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Margot Bancilhon, Laurent Lucas, Stéphane Jobert, Anne Azoulay, Mhamed Arezki, Sara Giraudeau, Nathalie Baye, Jérémie Renier",
+      "director": "",
+      "description": "Secrets emerge and entire cases unravel inside a police interview room in Paris, where suspects and investigators face off in an intricate dance."
+    },
+    {
+      "show_id": "s6343",
+      "title": "The Family",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Action & Adventure, Comedies",
+      "cast": "Robert De Niro, Michelle Pfeiffer, Tommy Lee Jones, Dianna Agron, John D'Leo, Jimmy Palumbo, Domenick Lombardozzi, Stan Carp, Vincent Pastore, Jon Freda",
+      "director": "Luc Besson",
+      "description": "The Manzonis, an infamous mob family, are relocated to Normandy, France, by the witness protection program and have some difficulty fitting in."
+    },
+    {
+      "show_id": "s5806",
+      "title": "Steal a Pencil for Me",
+      "type": "Movie",
+      "release_year": 2006,
+      "listed_in": "Documentaries",
+      "cast": "Jack Polak, Ina Soep",
+      "director": "Michèle Ohayon",
+      "description": "This moving documentary chronicles the unshakeable romance between a couple who met and fell in love while imprisoned in a Nazi concentration camp."
+    },
+    {
+      "show_id": "s6852",
+      "title": "The Score",
+      "type": "Movie",
+      "release_year": 2001,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Robert De Niro, Edward Norton, Marlon Brando, Angela Bassett, Gary Farmer, Paul Soles, Jamie Harrold, Serge Houde",
+      "director": "Frank Oz",
+      "description": "Ready-to-retire safecracker Nick, flamboyant fence Max and talented but volatile thief Jackie team up to rob the Montreal Customs House."
+    },
+    {
+      "show_id": "s4482",
+      "title": "Nisman: The Prosecutor, the President, and the Spy",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, Docuseries, International TV Shows",
+      "cast": "",
+      "director": "Justin Webster",
+      "description": "This docuseries details the suspicious death of Alberto Nisman, investigator of the 1994 bombing of the Argentine Israelite Mutual Association building."
+    },
+    {
+      "show_id": "s6527",
+      "title": "The Killer",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure, International Movies",
+      "cast": "Diogo Morgado, Etienne Chicot, Maria de Medeiros, Deto Montenegro, Jonas Leite, Paulo Gorgulho, Will Roberts, Allan Lima, Eduardo Galvão, Igor Galvão",
+      "director": "Marcelo Galvão",
+      "description": "In lawless badlands, reclusive Cabeleira sets out to discover the fate of his gunman father and grows to be a feared assassin himself."
+    },
+    {
+      "show_id": "s5816",
+      "title": "Steve Martin and Martin Short: An Evening You Will Forget for the Rest of Your Life",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Steve Martin, Martin Short",
+      "director": "Marcus Raboy",
+      "description": "Longtime pals and showbiz icons Steve Martin and Martin Short share countless quips, catchy tunes and hilarious stories about their lives in comedy."
+    }
+  ]
+}

@@ -1,0 +1,637 @@
+{
+  "split": "test",
+  "query_id": "lagos_trafficking_drama",
+  "query": "Nigerian drama about a journalist exposing trafficking in Lagos",
+  "candidates": [
+    {
+      "show_id": "s949",
+      "title": "Black Crows",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Rashed Al Shamrani, Sayed Rajab, Dina Talaat, Mohamad Al Ahmad, Maram Al Bloushi, Mahmoud Bu Shehri, Aseel Omran, Mona Shaddad, Azeez Khayoun, Ayman Mabrouk, Eisa Diab, Dima Al Jundi",
+      "director": "",
+      "description": "This drama portrays women and kids living under the Islamic State group: a Yazidi slave, an undercover reporter, a recruited mom and child snipers."
+    },
+    {
+      "show_id": "s708",
+      "title": "Bala Loca",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "International TV Shows, Spanish-Language TV Shows, TV Dramas",
+      "cast": "Alejandro Goic, Trinidad González, Ingrid Isensee, Mario Horton, Manuela Oyarzún, Fernanda Urrejola, Catalina Saavedra, Pablo Schwarz, Aline Küppenheim, Marcial Tagle, Víctor Quezada, Alfredo Castro, Roberto Farías, Hugo Medina, Daniel Candia, María Paz Grandjean, Alejandro Sieveking, Nicolás Durán, Sergio Hernández, Willy Semler, Erto Pantoja",
+      "director": "",
+      "description": "A veteran journalist starting a news site about corruption in Chile stumbles on a big story when a fellow investigative reporter dies suspiciously."
+    },
+    {
+      "show_id": "s1862",
+      "title": "Dramaworld",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Romantic TV Shows, TV Comedies, TV Dramas",
+      "cast": "Liv Hewson, Sean Dulake, Justin Chon, Noo-Ri Bae, Sa-hee Kim, Jimmy Shubert",
+      "director": "",
+      "description": "A huge fan of a Korean TV drama is transported to a magical realm where she has the power to alter her favorite show's story line as a \"Facilitator.\""
+    },
+    {
+      "show_id": "s2676",
+      "title": "Heart & Soul",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Anthony Monjaro, Phoenix Ezendu, Ademola Amoo, Chioma Adibe, Ijeoma Richards, Joy Mmezi",
+      "director": "",
+      "description": "At a hospital in Lagos, a doctor yearning for more field experience meets patients with various ailments that test his spiritual and medical beliefs."
+    },
+    {
+      "show_id": "s2534",
+      "title": "Green White Green (And All the Beautiful Colours in My Mosaic of Madness)",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, Independent Movies, International Movies",
+      "cast": "Ifeanyi Dike Jr., Jamal Ibrahim, Samuel Robinson, Cristabel Goddy, Okey Uzoeshi, Bimbo Manuel, Meg Otanwa, Eric Didie, Donatus Ekwuazi, Omoye Uzamere",
+      "director": "Abba T. Makama",
+      "description": "Three young Nigerian bohemians, each from one of the country's major ethnic groups, explore the directions in which their lives could go."
+    },
+    {
+      "show_id": "s6621",
+      "title": "The Lost Okoroshi",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Seun Ajayi, Judith Audu, Tope Tedela, Ifu Ennada, Chiwetalu Agu, Demi Banwo, Ibrahim Jammal, Micheal Ajotubu, Ozzy Agu, Cristabel Goddy",
+      "director": "Abba T. Makama",
+      "description": "A disillusioned security guard transforms into a masquerade, channeling ancestral spirits as he roams the streets of Lagos."
+    },
+    {
+      "show_id": "s3224",
+      "title": "Journey of an African Colony",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries, International TV Shows",
+      "cast": "Olasupo Shasore",
+      "director": "",
+      "description": "This docuseries delves into the untold stories and unsung heroes that paved Nigeria's road to independence. Based on the books by host Olasupo Shasore."
+    },
+    {
+      "show_id": "s5646",
+      "title": "Skin",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Beverly Naya",
+      "director": "Daniel Effiong",
+      "description": "On a quest to find beauty in all complexions, actress Beverly Naya travels to her home country of Nigeria and explores colorism's impact on society."
+    },
+    {
+      "show_id": "s6937",
+      "title": "The Traffickers",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "Nelufar Hedayat",
+      "director": "",
+      "description": "In this hard-hitting series, journalist Nelufar Hedayat travels the globe to expose an array of black markets, from guns and gold to human body parts."
+    },
+    {
+      "show_id": "s3087",
+      "title": "Iyore",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Rita Dominic, Joseph Benjamin, Okawa Shaznay, Paul Obazele, Yemi Blaq, Bukky Wright",
+      "director": "Frank Rajah Arase",
+      "description": "A tragic romance unfolds during a teacher's lessons on the Benin empire after they begin to mirror her love life when her childhood love reappears."
+    },
+    {
+      "show_id": "s3144",
+      "title": "Jeffrey Epstein: Filthy Rich",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Stories from survivors fuel this docuseries examining how convicted sex offender Jeffrey Epstein used his wealth and power to carry out his abuses."
+    },
+    {
+      "show_id": "s6512",
+      "title": "The Island",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Sambasa Nzeribe, Segun Arinze, Tokunbo Idowu, Femi Adebayo",
+      "director": "Toka McBaror",
+      "description": "When a colonel uncovers controversial intel about the government, he makes a shocking discovery and must decide whether to reveal it or risk his life."
+    },
+    {
+      "show_id": "s3504",
+      "title": "La Reina del Sur",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Kate del Castillo, Cristina Urgel, Alberto Jiménez, Juan José Arjona, Humberto Zurita, Dagoberto Gama, Christian Tappán, Miguel de Miguel, Salvador Zerboni, Carmen Navarro, Santiago Meléndez, Juan Carlos Solarte",
+      "director": "",
+      "description": "This compelling show tells the story of the legendary Teresa Mendoza, a courageous woman who is perceived as conquering the world of drug trafficking."
+    },
+    {
+      "show_id": "s2891",
+      "title": "I Am Jane Doe",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "Jessica Chastain",
+      "director": "Mary Mazzio",
+      "description": "This intense documentary follows real cases of American girls enslaved in the child sex trade through ads in a newspaper's online classified section."
+    },
+    {
+      "show_id": "s3018",
+      "title": "Inside the Real Narcos",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "British TV Shows, Crime TV Shows, Docuseries",
+      "cast": "Jason Fox",
+      "director": "",
+      "description": "Exposing a rarely seen perspective on the drug wars, ex-Special Forces commando Jason Fox interviews dangerous traffickers and cartel members."
+    },
+    {
+      "show_id": "s5870",
+      "title": "Sudani from Nigeria",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Soubin Shahir, Samuel Abiola Robinson, Savithri Sredharan, Aneesh Menon",
+      "director": "Zakariya",
+      "description": "When a soccer club manager brings one of his injured foreign players home to recuperate, they form an unlikely bond despite their cultural differences."
+    },
+    {
+      "show_id": "s7446",
+      "title": "Voyeur",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "Gay Talese",
+      "director": "Myles Kane, Josh Koury",
+      "description": "Legendary journalist Gay Talese unmasks a motel owner who spied on his guests for decades. But his bombshell story soon becomes a scandal of its own."
+    },
+    {
+      "show_id": "s44",
+      "title": "Òlòtūré",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Beverly Osu, Sharon Ooja, Omowunmi Dada, Pearl Okorie, Wofai Samuel, Ikechukwu Onunaku, Kemi Lala Akindoju, Blossom Chukwujekwu, Adebukola Oladipupo, Omoni Oboli, Segun Arinze, Ada Ameh, Sambasa Nzeribe, Patrick Doyle, Gregory Ojefua",
+      "director": "Kenneth Gyang",
+      "description": "In Lagos, a journalist goes undercover as a prostitute to expose human trafficking. What she finds is a world of exploited women and ruthless violence."
+    },
+    {
+      "show_id": "s504",
+      "title": "Anchor Baby",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Omoni Oboli, Sam Sarpong, Terri Oliver, Colin Paradine, Mark Cassius",
+      "director": "Lonzo Nzekwe",
+      "description": "A Nigerian couple living in the U.S. face agonizing fallout when they defy deportation orders with the hopes of giving their unborn child citizenship."
+    },
+    {
+      "show_id": "s3226",
+      "title": "Joy",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Anwulika Alphonsus, Mariam Precious Sanusi, Angela Ekeleme",
+      "director": "Sudabeh Mortezai",
+      "description": "Close to paying off her debts, a Nigerian sex worker in Austria coaches a reluctant novice, and assesses the risks of taking a faster path to freedom."
+    },
+    {
+      "show_id": "s5671",
+      "title": "Slow Country",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Ivie Okujaye, Sambasa Nzeribe, Tope Tedela, Gina Castel, Majid Michel, Victor Erabie, Brutus Richard, Adebayo Thomas",
+      "director": "Eric Aghimien",
+      "description": "Desperate to leave a life of prostitution, a teenage mother attempts to outsmart her ruthless boss who is determined to keep his prized asset."
+    },
+    {
+      "show_id": "s607",
+      "title": "Asura: The City of Madness",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Jung-min Hwang, Do-won Kwak, Man-sik Jung, Woo-sung Jung",
+      "director": "Sung-soo Kim",
+      "description": "Caught between a corrupt mayor and a prosecutor intent on exposing political depravity, a police detective must decide whose side he's on."
+    },
+    {
+      "show_id": "s6146",
+      "title": "The Bling Lagosians",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Gbenga Titiloye, Elvina Ibru, Sharon Ooja, Osas Ighodaro Ajibade, Monalisa Chinda, Toyin Abraham, Bisola Aiyeola, Oladele Ogunlana, Jimmy Odukoya, Alex Ekubo",
+      "director": "Bolanle Austen-Peters",
+      "description": "With a matriarch bent on having a lavish 51st birthday party, her family's debt is on the verge of exposure, threatening their business – and legacy."
+    },
+    {
+      "show_id": "s1484",
+      "title": "Connected",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries, Science & Nature TV",
+      "cast": "Latif Nasser",
+      "director": "",
+      "description": "Science journalist Latif Nasser investigates the surprising and intricate ways in which we are connected to each other, the world and the universe."
+    },
+    {
+      "show_id": "s3920",
+      "title": "Mantostaan",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Raghuvir Yadav, Veerendra Saxena, Sonal Sehgal, Aaditya Pratap Singh, Rahat Kazmi, Raina Bassnet, Sakshi Bhat",
+      "director": "Rahat Kazmi",
+      "description": "Four stories by writer Sadaat Hasan Manto culminate in a single gruesome drama that's set during the partitioning of the Indian subcontinent."
+    },
+    {
+      "show_id": "s4980",
+      "title": "Private Lives",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Seohyun, Ko Kyung-pyo, Kim Hyo-jin, Kim Young-min, Tae Won-seok, Song Sun-mi, Park Seong-geun, Jang Jin-hee, Yoon Sa-bong, Lee Hak-ju, Song Sang-eun, Jang Won-hyeok, Yoo Hee-je, Min Zio, Kim Min-sang, Kim Ba-da, Cha Soo-yeon",
+      "director": "",
+      "description": "In a world where data is no longer private, con artists uncover a sinister surveillance scheme headed by the government and a greedy corporation."
+    },
+    {
+      "show_id": "s2885",
+      "title": "Hypersomnia",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Horror Movies, International Movies, Thrillers",
+      "cast": "Yamila Saud, Gerardo Romano, Jimena Barón, Vanesa González, Candela Vetrano, Florencia Torrente, Nazareno Casero, Sofía Gala, Gustavo Garzón, Belén Chavanne, Fabiana Cantilo, Peter Lanzani",
+      "director": "Gabriel Grieco",
+      "description": "A young actress rehearsing for a play about human trafficking begins to relive terrifying scenes that may be dreams – or an alternate reality."
+    },
+    {
+      "show_id": "s4016",
+      "title": "Meet the Adebanjos",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, International TV Shows, TV Comedies",
+      "cast": "Wale Ojo, Yetunde Oduwole, Andrea Aboagye, Daniel Davids, Moji Bamtefa, Jordan Coulson",
+      "director": "",
+      "description": "In South London, tradition clashes with culture as a Nigerian father tries to instill his old-fashioned African values into his modern British family."
+    },
+    {
+      "show_id": "s3389",
+      "title": "Killer Ratings",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, Docuseries, International TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "Brazilian TV personality and politician Wallace Souza faces accusations of masterminding the violent crimes he reported on and rallied against."
+    },
+    {
+      "show_id": "s145",
+      "title": "93 Days",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Bimbo Akintola, Somkele Iyamah, Danny Glover, Gideon Okeke, Seun Kentebe, Keppy Ekpenyong, Zara Udofia Ejoh, Bimbo Manuel, Patrick Diabuah, Tina Mba, Alastair Mackenzie, Tim Reid",
+      "director": "Steve Gukas",
+      "description": "Heroic health workers fight to contain an Ebola outbreak when a patient arrives in Lagos with symptoms of the deadly virus. Based on a true story."
+    },
+    {
+      "show_id": "s4477",
+      "title": "Nimbe",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Odunlade Adekola, Chimezie Imo, Sani Danja, Rachael Okonkwo, Broda Shaggi, Toyin Abraham, Kelechi Udegbe, Doyin Abiola, Molawa Davis",
+      "director": "Tope Alake",
+      "description": "A bullied teenager gravitates toward the acceptance he finds in a street gang but soon ends up involved in a world of drug abuse and organized crime."
+    },
+    {
+      "show_id": "s5223",
+      "title": "Rita",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Comedies, TV Dramas",
+      "cast": "Mille Dinesen, Carsten Bjørnlund, Lise Baastrup, Nikolaj Groth, Ellen Hillingsø, Morten Vang Simonsen, Lykke Sand Michelsen, Carsten Norgaard, Sara Hjort Ditlevsen, Alexandre Willaume",
+      "director": "",
+      "description": "Independent, outspoken and adored by her students, schoolteacher Rita fares less well with adults in this comedy-drama from Denmark."
+    },
+    {
+      "show_id": "s4463",
+      "title": "Nigerian Prince",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Antonio Bell, Chinaza Uche, Tina Mba, Bimbo Manuel, Toyin Oshinaike, Craig Stott, Ebbe Bassey, Cristabel Goddy, Omar Maskati, Russell G. Jones, Dean Cameron",
+      "director": "Faraday Okoro",
+      "description": "When a stubborn American teenager is sent to Nigeria by his mother, his cousin's scamming business becomes a viable option for securing a return flight."
+    },
+    {
+      "show_id": "s1567",
+      "title": "Dérè: An African Tale",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Weruche Opia, Gbenro Ajibade, Ireti Doyle, Keppy Ekpenyong, Carol King, Shaffy Bello, Tosan Edremoda Ugbeye, Nina Iphechukwude Anyianuka, Pearl Nkiru Waturuocha, Emmanuel Ikubese, Omowunmi Dada, Paul Adams, Charles Ukpong, Monica Friday, Kevin Ushi",
+      "director": "",
+      "description": "After experiencing a tragic loss, a woman must resist a new family dynamic that could control the future of her father's company and her life."
+    },
+    {
+      "show_id": "s5745",
+      "title": "Special Correspondents",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies",
+      "cast": "Eric Bana, Ricky Gervais, Vera Farmiga, Kelly Macdonald, Kevin Pollak, America Ferrera, Raúl Castillo, Benjamin Bratt",
+      "director": "Ricky Gervais",
+      "description": "When they lose their passports, a bickering radio team invents phony reports from a combat zone in a ruse that becomes increasingly complicated."
+    },
+    {
+      "show_id": "s1398",
+      "title": "Citation",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Temi Otedola, Jimmy Jean-Louis, Joke Silva, Gabriel Afolayan, Adjetey Anang, Ini Edo, Sadiq Daba, Wole Olowomojuore, Yomi Fash-Lanso, Bukunmi Oluwashina, Bienvenu Neba, Ray Reboul, Ibukun Awosika, Seun Kuti",
+      "director": "Kunle Afolayan",
+      "description": "A bright student in Nigeria takes on the academic establishment when she reports a popular professor who tried to rape her. Based on real events."
+    },
+    {
+      "show_id": "s7392",
+      "title": "Vanjagar Ulagam",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Guru Somasundaram, Cibi Bhuvana Chandran, Vishagan Vanangamudi, Anisha Ambrose, Chandini Tamilarasan, Azhagamperumal, John Vijay, Vasu Vikram, Hareesh Peradi, Jayaprakash Radhakrishnan",
+      "director": "Manoj Beedha",
+      "description": "Shyam wakes to discover he's suspected in a murder that one journalist believes may have ties to a mysterious gangster."
+    },
+    {
+      "show_id": "s1535",
+      "title": "Crime Diaries: Night Out",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Sebastián Osorio, Fabiana Medina, Laura Osma, Enrique Carriazo, Julián Román, Juliana Velásquez, Juan Pablo Urrego, Carlos Vergara, Ernesto Campos, Fabio Rubiano, Ernesto Benjumea, Jairo Camargo, Marcela Agudelo",
+      "director": "Felipe Cano",
+      "description": "After going to a Halloween party, college student Luis Andrés Colmenares is found dead. Was it an accident or murder? Inspired by true events."
+    },
+    {
+      "show_id": "s2422",
+      "title": "Girl from Nowhere",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, TV Dramas, TV Mysteries",
+      "cast": "Chicha Amatayakul, Thanawetch Siriwattanakul, Pajaree Nantarat, Thitinan Khlangphet, Chonnikan Netjui, Nutthasit Kotimanuswanich, Tatchapol Thitiapichai, Chanicha Boonpanuvichit, Morakot Liu, Ekawat Niratvorapanya, Anuchit Sapanpong, Awat Ratanapintha, Claudia Chakrapan, Piyathida Woramusik, Apasiri Kittithanon, Kunchanuj Kengkarnka, Nutnicha Lueanganankhun",
+      "director": "",
+      "description": "A mysterious, clever girl named Nanno transfers to different schools, exposing the lies and misdeeds of the students and faculty at every turn."
+    },
+    {
+      "show_id": "s6494",
+      "title": "The Innocence Files",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "The Innocence Project unravels missteps and deceit in a series of wrongful convictions, exposing the injustice inflicted on victims and the accused."
+    },
+    {
+      "show_id": "s1740",
+      "title": "Dhobi Ghat (Mumbai Diaries)",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Aamir Khan, Monica Dogra, Kriti Malhotra, Prateik, Aasha Pawar, Jyoti Pawar, Norma Lobo, Kitu Gidwani, Danish Husain, Jehan Manekshaw",
+      "director": "Kiran Rao",
+      "description": "In this intimate drama, circumstances draw together four people from different castes – which would normally preclude them from forming friendships."
+    },
+    {
+      "show_id": "s2059",
+      "title": "Exclusive Edition",
+      "type": "TV Show",
+      "release_year": 2008,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Berg Lee, Yise Loo, Alvin Wong, Hady, Monday Kang, Ruobing, Wymen Yang, May June, Aenie Wong, Ernest Chong",
+      "director": "James Lee",
+      "description": "Young journalists working for a magazine juggle careers, romance and other challenges while reporting on social issues and news stories in Malaysia."
+    },
+    {
+      "show_id": "s3733",
+      "title": "Lost in London",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Ime Bishop Umoh, Alexx Ekubo, Stanley Chibunna, Ella Betts, Adi Lev, Kemi Olofinmakin",
+      "director": "Sunkanmi Adebayo",
+      "description": "Nigerian students Okon and Bona experience culture shock – several shocks, really – after being selected for an exchange program in London."
+    },
+    {
+      "show_id": "s4051",
+      "title": "Merry Men: The Real Yoruba Demons",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Ramsey Nouah, Jim Iyke, Ayo Makun, Falz, Richard Mofe-Damijo, Iretiola Doyle, Damilola Adegbite, Rosaline Meurer, Jide Kosoko, Ali Nuhu, Segun Arinze, Francis Duru",
+      "director": "Toka McBaror",
+      "description": "Four of the richest bachelors in Abuja, Nigeria enjoy a life of fast cars, palatial homes and female attention while concealing their true activities."
+    },
+    {
+      "show_id": "s3217",
+      "title": "Jonaki",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Lolita Chatterjee, Sumanto Chattopadhyay, Ratnabali Bhattacharjee, Jim Sarbh, Indrajit Sinha, Sandershika Tamang, Arunima Sinha, Satya Priya Chakraborty, Christel Das, Burjor Patel",
+      "director": "Aditya Vikram Sengupta",
+      "description": "In this quiet, wistful drama, a woman on her deathbed searches her fraying memories for love and fulfillment through surreal, meditative tableaux."
+    },
+    {
+      "show_id": "s4402",
+      "title": "Narcos",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, TV Action & Adventure, TV Dramas",
+      "cast": "Wagner Moura, Pedro Pascal, Boyd Holbrook, Damián Alcázar, Alberto Ammann, Francisco Denis, Pêpê Rapazote, Matias Varela, Michael Stahl-David, Matt Whelan, Arturo Castro, Javier Cámara, José María Yazpik, Eric Lange, Brett Cullen, Miguel Ángel Silvestre, Kerry Bishé, Paulina Gaitán, Cristina Umaña, Paulina García, Juan Sebastián Calero, Joanna Christie, Taliana Vargas, Andrea Londo, Manolo Cardona, Diego Cataño, Raúl Méndez, Bruno Bichir, Stephanie Sigman, Florencia Lozano, Juan Pablo Raba, Leynar Gomez, Konstantin Melikhov, Martina García, Maurice Compte, Mauricio Cujar, Jorge Monterrosa, Germán Jaramillo, Juan Pablo Shuk, Julián Díaz, Alejandro Buitrago, Federico Rivera",
+      "director": "",
+      "description": "The true story of Colombia's infamously violent and powerful drug cartels fuels this gritty gangster drama series."
+    },
+    {
+      "show_id": "s2102",
+      "title": "Falz Experience",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "International Movies, Music & Musicals",
+      "cast": "Falz, Adunni Ade, Bisola Aiyeola, Frank Donga",
+      "director": "Falz",
+      "description": "Playing multiple characters, from lawyer to preacher, Nigerian artist Falz combines cinema with a concert after his successful 2017 end-of-year show."
+    },
+    {
+      "show_id": "s6760",
+      "title": "The Pirates of Somalia",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas",
+      "cast": "Evan Peters, Barkhad Abdi, Melanie Griffith, Al Pacino, Philip Ettinger, Sabrina Hassan Abdulle, Kiana Madani, Abdi Sidow Farah, Mohamed Barre, Armaan Haggio",
+      "director": "Bryan Buckley",
+      "description": "An aspiring journalist travels to Somalia in hopes of making a name for himself by covering dangerous pirates and hijackers."
+    },
+    {
+      "show_id": "s2155",
+      "title": "Fifty",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Dakore Akande, Ireti Doyle, Nse Ikpe-Etim, Omoni Oboli",
+      "director": "Biyi Bandele",
+      "description": "In Lagos, Nigeria, four successful women on the verge of 50 take stock of their lives and loves over the course of one week."
+    },
+    {
+      "show_id": "s6841",
+      "title": "THE RUM DIARY",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Comedies, Dramas",
+      "cast": "Johnny Depp, Aaron Eckhart, Michael Rispoli, Amber Heard, Richard Jenkins, Giovanni Ribisi, Amaury Nolasco, Marshall Bell, Bill Smitrovich",
+      "director": "Bruce Robinson",
+      "description": "Johnny Depp stars in this adaptation of Hunter S. Thompson's novel about a boozy journalist who moves to Puerto Rico and falls for a taken woman."
+    },
+    {
+      "show_id": "s1244",
+      "title": "Catching Feelings",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Kagiso Lediga, Pearl Thusi, Akin Omotoso, Andrew Buckland",
+      "director": "Kagiso Lediga",
+      "description": "Amid growing tensions in their marriage, a Johannesburg professor and his journalist wife find their lives upended by a famous, hard-partying author."
+    },
+    {
+      "show_id": "s3028",
+      "title": "Interrogation",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Dinesh Ravi, Samuthirakani, Kishore Kumar, Anandhi, Murugadoss, Ajay Ghosh",
+      "director": "Vetrimaaran",
+      "description": "In this fact-based drama, politically motivated cops in Andhra Pradesh set out to frame four Tamil laborers for a crime, torturing them to no avail."
+    },
+    {
+      "show_id": "s16",
+      "title": "Oct-01",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Sadiq Daba, David Bailie, Kayode Olaiya, Kehinde Bankole, Fabian Adeoye Lojede, Nick Rhys, Kunle Afolayan, Colin David Reese, Ibrahim Shatta, Femi Adebayo, Kanayo O. Kanayo, Lawrence Stubbings, Ademola Adedoyin",
+      "director": "Kunle Afolayan",
+      "description": "Against the backdrop of Nigeria's looming independence from Britain, detective Danladi Waziri races to capture a killer terrorizing local women."
+    },
+    {
+      "show_id": "s1641",
+      "title": "Dawson's Creek",
+      "type": "TV Show",
+      "release_year": 2002,
+      "listed_in": "Romantic TV Shows, TV Dramas, Teen TV Shows",
+      "cast": "James Van Der Beek, Katie Holmes, Michelle Williams, Joshua Jackson, Kerr Smith, Meredith Monroe, Busy Philipps, Mary Beth Peil",
+      "director": "",
+      "description": "This nighttime soap about a group of close-knit teens frankly depicts the issues of adolescence that obsess young adults, including sex, sex and sex."
+    },
+    {
+      "show_id": "s5569",
+      "title": "Shine Your Eyes",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "O.C. Ukeje, Indira Nascimento, Paulo André, Ike Barry, Chukwudi Iwuji",
+      "director": "Matias Mariani",
+      "description": "A Nigerian musician travels to Brazil to search for his estranged brother, who is living a life very different than the one his family thought."
+    },
+    {
+      "show_id": "s3523",
+      "title": "Lagos Real Fake Life",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Nonso Diobi, Mike Ezuruonye, Mercy Aigbe, Rex Nosa, Annie Macaulay Idibia, Ik Ogbonna, Nedu Wazobia, Uzee Usman, Odunlade Adekola, Mr Jollof, Efe Irele, Josh 2 Funny, Haillie Sumney, Emmanuella, MC Lively",
+      "director": "Mike Ezuruonye",
+      "description": "Two mooching friends vie for the attention of wealthy, beautiful women only to discover that their lavish lifestyles are bogus."
+    },
+    {
+      "show_id": "s6192",
+      "title": "The Bygone",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Independent Movies, Thrillers",
+      "cast": "Graham Phillips, Shawn Hatosy, Jamie McShane, Sydney Schafer, Tokala Black Elk, Jacqueline Toboni, Mike McColl, Jacob Ming-Trent",
+      "director": "Graham Phillips, Parker Phillips",
+      "description": "His way of life under threat due to the oil fracking boom, a young rancher defends a Lakota woman and becomes entangled in human trafficking."
+    },
+    {
+      "show_id": "s7219",
+      "title": "Trial 4",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Charged as a teen in the 1993 killing of a Boston cop, Sean K. Ellis fights to prove his innocence while exposing police corruption and systemic racism."
+    },
+    {
+      "show_id": "s806",
+      "title": "Before 30",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Comedies",
+      "cast": "Damilola Adegbite, O.C. Ukeje, Beverly Naya, Meg Otanwa, Anee Icha, Patrick Diabuah, Tunbosun Aiyedehin, Patrick Doyle",
+      "director": "BB Sasore",
+      "description": "Four female friends in the fast-paced city of Lagos, Nigeria endure public and private pressures to walk down the aisle by the age of 30."
+    },
+    {
+      "show_id": "s3878",
+      "title": "Making a Murderer",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Filmed over 10 years, this real-life thriller follows a DNA exoneree who, while exposing police corruption, becomes a suspect in a grisly new crime."
+    },
+    {
+      "show_id": "s5399",
+      "title": "Sarvopari Palakkaran",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Anoop Menon, Alencier Ley Lopez, Balu Varghese, Aparna Balamurali, Anu Sithara, Gayathri Arun, Nandu, Chali Pala",
+      "director": "Venugopan",
+      "description": "In the course of a human trafficking investigation, a conservative cop crosses paths with an artist-activist in a clash of worldviews."
+    },
+    {
+      "show_id": "s6514",
+      "title": "The Ivory Game",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Kief Davidson, Richard Ladkani",
+      "description": "Filmmakers infiltrate the corrupt global network of ivory trafficking, exposing poachers and dealers as African elephants edge closer to extinction."
+    },
+    {
+      "show_id": "s3398",
+      "title": "King of Boys",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Sola Sobowale, Adesua Etomi, Remilekun Safaru, iLLBLISS, Toni Tones, Paul Sambo, Jide Kosoko, Sharon Ooja",
+      "director": "Kemi Adetiba",
+      "description": "When a powerful businesswoman’s political ambitions are threatened by her underworld connections, the ensuing power struggle could cost her everything."
+    }
+  ]
+}

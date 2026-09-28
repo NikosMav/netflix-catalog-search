@@ -1,0 +1,477 @@
+{
+  "split": "dev",
+  "query_id": "oceans_heist",
+  "query": "Ocean's Eleven casino heist movie",
+  "candidates": [
+    {
+      "show_id": "s6250",
+      "title": "The Crew",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Action & Adventure, International Movies",
+      "cast": "Sami Bouajila, Guillaume Gouix, Youssef Hajdi, Redouane Behache, Kahina Carina, David Saracino, Alice de Lencquesaing, Baya Belal, Steve Tientcheu, Kaaris",
+      "director": "Julien Leclercq",
+      "description": "After an unexpected misstep, a crew of skilled Parisian robbers find themselves forced to carry out a daring heist for a powerful crime organization."
+    },
+    {
+      "show_id": "s466",
+      "title": "American Heist",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Action & Adventure, Dramas",
+      "cast": "Hayden Christensen, Adrien Brody, Jordana Brewster, Tory Kittles, Akon, Luis Da Silva Jr., Lance E. Nichols, Joe Chrest",
+      "director": "Sarik Andreasyan",
+      "description": "An ex-con is just getting his life back on track when his older brother is released from prison and drags him into the underworld for one final heist."
+    },
+    {
+      "show_id": "s4407",
+      "title": "Naruto Shippûden the Movie: The Will of Fire",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Junko Takeuchi, Kazuhiko Inoue, Chie Nakamura, Satoshi Hino, Showtaro Morikubo, Kentarô Itô, Ryoka Yuzuki, Kosuke Toriumi, Nana Mizuki, Shinji Kawada, Yoichi Masukawa, Koichi Tochika, Yukari Tamura",
+      "director": "Masahiko Murata",
+      "description": "When four out of five ninja villages are destroyed, the leader of the one spared tries to find the true culprit and protect his land."
+    },
+    {
+      "show_id": "s6149",
+      "title": "The Blue Planet: A Natural History of the Oceans",
+      "type": "TV Show",
+      "release_year": 2001,
+      "listed_in": "British TV Shows, Docuseries, International TV Shows",
+      "cast": "David Attenborough",
+      "director": "Alastair Fothergill",
+      "description": "David Attenborough narrates this definitive exploration of the marine world, from the familiar to the unknown, revealing the sea and its communities."
+    },
+    {
+      "show_id": "s962",
+      "title": "Black Sea",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Jude Law, Scoot McNairy, Ben Mendelsohn, Bobby Schofield, Tobias Menzies, Michael Smiley, Grigoriy Dobrygin, David Threlfall, Jodie Whittaker, Karl Davies",
+      "director": "Kevin MacDonald",
+      "description": "A hard-driving submarine captain is hired to steal gold from a sunken Nazi sub, but there's no honor among thieves during this underwater heist."
+    },
+    {
+      "show_id": "s3710",
+      "title": "London Heist",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure",
+      "cast": "Craig Fairbrass, James Cosmo, Mem Ferda, Nick Moran, Steven Berkoff, Nathalie Cox, Roland Manookian, Eddie Webber, Tony Denham, Katie Clarkson-Hill",
+      "director": "Mark McQueen",
+      "description": "After a heist gone wrong, a career criminal gradually uncovers the hidden motive behind his father's murder – and it has nothing to do with money."
+    },
+    {
+      "show_id": "s6011",
+      "title": "Teen Patti",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Amitabh Bachchan, Madhavan, Ben Kingsley, Shraddha Kapoor, Siddharth Kher, Dhruv Ganesh, Vaibhav Talwar",
+      "director": "Leena Yadav",
+      "description": "Luck brings together math expert Perci Trachtenberg and obscure genius Venkat Subramaniam in a casino, but the foundations of probability may be utterly altered when their chat leads Subramaniam to try a new theory in the gambling dens of Mumbai."
+    },
+    {
+      "show_id": "s4367",
+      "title": "My Week with Marilyn",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Dramas, Romantic Movies",
+      "cast": "Michelle Williams, Kenneth Branagh, Eddie Redmayne, Dominic Cooper, Philip Jackson, Derek Jacobi, Toby Jones, Michael Kitchen, Julia Ormond, Simon Russell Beale, Dougray Scott, Zoë Wanamaker, Emma Watson, Judi Dench",
+      "director": "Simon Curtis",
+      "description": "While filming a movie in England, Hollywood icon Marilyn Monroe slips away with a young Brit for a week of self-discovery and frivolity."
+    },
+    {
+      "show_id": "s1741",
+      "title": "Dhoondte Reh Jaoge",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Comedies, International Movies, Music & Musicals",
+      "cast": "Paresh Rawal, Kunal Khemu, Sonu Sood, Soha Ali Khan, Johnny Lever, Dilip Joshi, Asrani, Malay Chakrabarty, Razak Khan, Hrishitaa Bhatt",
+      "director": "Umesh Shukla",
+      "description": "An accountant and a producer hatch a scheme to finance a movie, while making every effort to ensure that it flops so they may pocket the difference."
+    },
+    {
+      "show_id": "s5111",
+      "title": "Re:Mind",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, TV Dramas, TV Mysteries",
+      "cast": "Keyakizaka46",
+      "director": "",
+      "description": "Eleven high school classmates awaken, restrained to a large dining room. While fearing for their lives, they question a motive to this bizarre act."
+    },
+    {
+      "show_id": "s6109",
+      "title": "The Bad Education Movie",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Comedies",
+      "cast": "Jack Whitehall, Joanna Scanlan, Iain Glen, Ethan Lawrence, Layton Williams, Kae Alexander, Weruche Opia, Nikki Runeckles, Charlie Wernham, Jack Binstead",
+      "director": "Elliot Hegarty",
+      "description": "Britain's most ineffective but caring teacher takes his class to Cornwall for one last school trip, where anything could happen –\n and probably will."
+    },
+    {
+      "show_id": "s3538",
+      "title": "Last Breath",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Alex Parkinson, Richard da Costa",
+      "description": "A commercial diver becomes trapped on the ocean floor with dwindling oxygen and little hope of a timely rescue, so he tries to save himself."
+    },
+    {
+      "show_id": "s940",
+      "title": "Bitcoin Heist",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure, Comedies, International Movies",
+      "cast": "Kate Nhung, Thanh Pham, Petey Majik Nguyen, Suboi, Jayvee Mai The Hiep, Lam Thanh My",
+      "director": "Ham Tran",
+      "description": "A unconventional, efficient Interpol special agent goes rogue and assembles a team of thieves to catch a shadowy hacker called \"The Ghost.\""
+    },
+    {
+      "show_id": "s4177",
+      "title": "Money Heist: The Phenomenon",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Pablo Lejarreta, Luis Alfaro",
+      "description": "A documentary on why and how \"Money Heist\" sparked a wave of enthusiasm around the world for a lovable group of thieves and their professor."
+    },
+    {
+      "show_id": "s1235",
+      "title": "Casino Royale",
+      "type": "Movie",
+      "release_year": 2006,
+      "listed_in": "Action & Adventure",
+      "cast": "Daniel Craig, Judi Dench, Eva Green, Jeffrey Wright, Mads Mikkelsen, Giancarlo Giannini",
+      "director": "Martin Campbell",
+      "description": "Daniel Craig makes his debut as the newly minted agent 007, who's pitted against an infamous financier of global terrorism – at the poker table."
+    },
+    {
+      "show_id": "s2191",
+      "title": "Fishpeople",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Keith Malloy",
+      "description": "In this exploration of the life-changing power of the ocean, six people from very different backgrounds find purpose and meaning in the sea."
+    },
+    {
+      "show_id": "s5",
+      "title": "21",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Dramas",
+      "cast": "Jim Sturgess, Kevin Spacey, Kate Bosworth, Aaron Yoo, Liza Lapira, Jacob Pitts, Laurence Fishburne, Jack McGee, Josh Gad, Sam Golzari, Helen Carey, Jack Gilpin",
+      "director": "Robert Luketic",
+      "description": "A brilliant group of students become card-counting experts with the intent of swindling millions out of Las Vegas casinos by playing blackjack."
+    },
+    {
+      "show_id": "s1682",
+      "title": "Deep Water",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Noah Taylor, Yael Stone, Jeremy Lindsay Taylor, Danielle Cormack, Ben Oxenbould, Dan Spielman, Craig McLachlan, William McInnes, Olivia McNamara, John Brumpton, Simon Burke, Simon Elrahi, Victoria Haralabidou, Renee Lim, Julian Maroun, George Harrison Xanthis",
+      "director": "",
+      "description": "Back in Bondi Beach, where she grew up, DC Tori Lustigman investigates a gay man's murder and finds a link to her brother's death decades earlier."
+    },
+    {
+      "show_id": "s1224",
+      "title": "Carmen Sandiego: To Steal or Not to Steal",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Children & Family Movies",
+      "cast": "Gina Rodriguez, Finn Wolfhard, Abby Trott, Michael Hawley, Liam O'Brien, Mary Elizabeth McGlynn, Toks Olagundoye, Sharon Muthu",
+      "director": "Jos Humphrey",
+      "description": "You drive the action in this interactive adventure, helping Carmen save Ivy and Zack when V.I.L.E. captures them during a heist in Shanghai."
+    },
+    {
+      "show_id": "s7622",
+      "title": "Wild Oats",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies",
+      "cast": "Shirley MacLaine, Jessica Lange, Billy Connolly, Santiago Segura, Howard Hesseman, Matt Walsh, Jay Hayden, Rebecca Da Costa, Demi Moore",
+      "director": "Andy Tennant",
+      "description": "When insurance accidentally pays her millions, retired teacher Eva and her pal Maddie head to the Canary Islands for the adventure of their lives."
+    },
+    {
+      "show_id": "s5029",
+      "title": "Quantum of Solace",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Action & Adventure",
+      "cast": "Daniel Craig, Olga Kurylenko, Mathieu Amalric, Judi Dench, Giancarlo Giannini, Gemma Arterton, Jeffrey Wright, David Harbour, Jesper Christensen, Anatole Taubman",
+      "director": "Marc Forster",
+      "description": "Picking up an hour after the events of 2006's Casino Royale, this James Bond adventure finds 007 tracking a traitor who's infiltrated Britain's MI6."
+    },
+    {
+      "show_id": "s4561",
+      "title": "Océans",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Pierce Brosnan, Jacques Perrin, Rie Miyazawa, Lancelot Perrin",
+      "director": "Jacques Perrin, Jacques Cluzaud",
+      "description": "This documentary examines the vital role water plays in human existence and the cause-and-effect interplay between oceans and the environment."
+    },
+    {
+      "show_id": "s2973",
+      "title": "In The Deep",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Horror Movies, International Movies, Thrillers",
+      "cast": "Mandy Moore, Claire Holt, Matthew Modine, Chris Johnson, Yani Gellman, Santiago Segura",
+      "director": "Johannes Roberts",
+      "description": "With little oxygen left in their scuba tanks, two sisters are trapped in a shark cage at the bottom of the ocean while great whites circle nearby."
+    },
+    {
+      "show_id": "s1040",
+      "title": "Bondi Rescue",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Reality TV",
+      "cast": "Andrew Günsberg, Dean Gladstone, Bruce Hopkins, Trent 'Maxi' Maxwell, Andrew Reid, Ryan Clark, Chris Chapman, Anthony 'Harries' Caroll",
+      "director": "",
+      "description": "This reality series follows elite professional lifeguards on Sydney's Bondi Beach, as they take on everything from animal stings to criminals."
+    },
+    {
+      "show_id": "s5595",
+      "title": "Si Doel the Movie 3",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, International Movies, Music & Musicals",
+      "cast": "Rano Karno, Cornelia Agatha, Maudy Koesnaedi, Suty Karno, Mandra Naih, Aminah Tjendrakasih, Rey Bong, Akhmad Zulhoir Mardia",
+      "director": "Rano Karno",
+      "description": "Torn between reuniting with one family and leaving another behind, Doel must choose between the two women he loves."
+    },
+    {
+      "show_id": "s1016",
+      "title": "Bobbleheads The Movie",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Jennifer Coolidge, Karen Fukuhara, Khary Payton, Julian Sands, Brenda Song, Luke Wilson, Cher",
+      "director": "Kirk Wise",
+      "description": "A team of bobbleheads band together to defend their collector’s home when uninvited relatives barge in looking to steal from his prized collection."
+    },
+    {
+      "show_id": "s2390",
+      "title": "Getaway Plan",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "International Movies, Thrillers",
+      "cast": "Alain Hernández, Javier Gutiérrez, Alba Galocha, Itziar Atienza, Luis Tosar, Florin Opritescu, Jaroslaw Bielski, Peter Nikolas",
+      "director": "Iñaki Dorronsoro",
+      "description": "Professional burglar and blowtorch expert Víctor is recruited by the Russian mafia to break into a vault as part of an elaborate bank heist."
+    },
+    {
+      "show_id": "s1237",
+      "title": "Casino Tycoon 2",
+      "type": "Movie",
+      "release_year": 1992,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Dennis Chan",
+      "director": "Wong Jing",
+      "description": "Casino mogul Benny Ho wields enormous power. But a feud with his former partner and a massive fraud scheme soon threaten his family and his empire."
+    },
+    {
+      "show_id": "s6422",
+      "title": "The Great Heist",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Andrés Parra, Christian Tappan, Marcela Benjumea, Juan Sebastián Calero, Waldo Urrego, Rodrigo Jerez, Katherine Vélez, Paula Castaño, Pedro Suárez, Édgar Vittorino, Ramsés Ramos, Juan Pablo Barragán",
+      "director": "",
+      "description": "In 1994, a team of thieves plans an ambitious heist to steal millions from Colombia's Bank of the Republic. Inspired by true events."
+    },
+    {
+      "show_id": "s311",
+      "title": "Adel Karam: Live from Beirut",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Adel Karam",
+      "director": "",
+      "description": "From Casino du Liban, Lebanese actor and comedian Adel Karam delivers earthy punchlines on kissing norms, colonoscopies and a porn star named Rocco."
+    },
+    {
+      "show_id": "s2193",
+      "title": "Fishtronaut: The Movie",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Children & Family Movies",
+      "cast": "Fábio Lucindo, Celso Alves, Fernanda Bullara",
+      "director": "Célia Catunda, Kiko Mistrorigo, Rodrigo Eba",
+      "description": "Fishtronaut, Marina and Zeek travel to the big city in search of Grandpa, only to find that everyone else has mysteriously vanished too."
+    },
+    {
+      "show_id": "s5544",
+      "title": "Shark Night",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Horror Movies",
+      "cast": "Sara Paxton, Dustin Milligan, Chris Carmack, Katharine McPhee, Donal Logue, Joshua Leonard, Sinqua Walls, Chris Zylka, Alyssa Diaz, Joel David Moore",
+      "director": "David R. Ellis",
+      "description": "A weekend of beach-house debauchery turns into a nightmare for a group of friends when they discover that the waters are infested with vicious sharks."
+    },
+    {
+      "show_id": "s4564",
+      "title": "Ocean's Eleven",
+      "type": "Movie",
+      "release_year": 1960,
+      "listed_in": "Action & Adventure, Classic Movies, Comedies",
+      "cast": "Frank Sinatra, Dean Martin, Sammy Davis Jr., Peter Lawford, Angie Dickinson, Richard Conte, Cesar Romero, Patrice Wymore, Joey Bishop",
+      "director": "Lewis Milestone",
+      "description": "Frank Sinatra leads an all-star cast as Danny Ocean, who decides to knock over a few casinos on the Las Vegas Strip with his buddies."
+    },
+    {
+      "show_id": "s5655",
+      "title": "Sky Tour: The Movie",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, International Movies, Music & Musicals",
+      "cast": "Son Tung M-TP",
+      "director": "Nguyen Thanh Tung",
+      "description": "From the preparations to the performances, this documentary showcases Vietnamese pop idol Sơn Tùng M-TP and the passion behind his Sky Tour concerts."
+    },
+    {
+      "show_id": "s4565",
+      "title": "Ocean's Thirteen",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Action & Adventure, Comedies",
+      "cast": "George Clooney, Brad Pitt, Matt Damon, Andy Garcia, Don Cheadle, Bernie Mac, Ellen Barkin, Al Pacino, Casey Affleck, Scott Caan",
+      "director": "Steven Soderbergh",
+      "description": "This entry in the all-star caper franchise finds debonair con man Danny Ocean and his gang taking revenge on a double-crossing Las Vegas kingpin."
+    },
+    {
+      "show_id": "s4733",
+      "title": "Pacificum: Return to the Ocean",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Mariana Tschudi, Héctor Gálvez",
+      "description": "Four scientists offer a sweeping yet intimate exploration of Peru's majestic coastline by land, sea and air."
+    },
+    {
+      "show_id": "s1680",
+      "title": "Deep",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Justin Felbinger, Stephen Erza  Hughes, Lindsey Alena, Elisabeth Catherine Gray, Dwight Schultz, Anna Vocino",
+      "director": "Julio Soto Gurpide",
+      "description": "After accidentally trapping his family in their underwater home, a young octopus and his ocean-dwelling buddies search for help far across the sea."
+    },
+    {
+      "show_id": "s4566",
+      "title": "Ocean's Twelve",
+      "type": "Movie",
+      "release_year": 2004,
+      "listed_in": "Action & Adventure, Comedies",
+      "cast": "George Clooney, Brad Pitt, Matt Damon, Catherine Zeta-Jones, Andy Garcia, Don Cheadle, Bernie Mac, Julia Roberts, Casey Affleck, Scott Caan",
+      "director": "Steven Soderbergh",
+      "description": "Danny Ocean reunites with his old flame and the rest of his merry band of thieves in a caper covering three huge heists in Rome, Paris and Amsterdam."
+    },
+    {
+      "show_id": "s6475",
+      "title": "The Hurricane Heist",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure",
+      "cast": "Toby Kebbell, Maggie Grace, Ryan Kwanten, Ralph Ineson, Melissa Bolona, Ben Cross, Jamie Andrew Cutler",
+      "director": "Rob Cohen",
+      "description": "A deadly hurricane with mile-high waves provides the perfect cover for stealing $600 million from a U.S. Treasury outpost in Mississippi."
+    },
+    {
+      "show_id": "s1560",
+      "title": "Cuties",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Fathia Youssouf, Médina El Aidi-Azouni, Esther Gohourou, Ilanah Cami-Goursolas, Myriam Hamma, Maïmouna Gueye, Mbissine Thérèse Diop, Demba Diaw, Mamadou Samaké",
+      "director": "Maïmouna Doucouré",
+      "description": "Eleven-year-old Amy starts to rebel against her conservative family’s traditions when she becomes fascinated with a free-spirited dance crew."
+    },
+    {
+      "show_id": "s4569",
+      "title": "Octonauts",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "British TV Shows, Kids' TV",
+      "cast": "Keith Wickham, Jo Wyatt, Ross Breen, Simon Greenall, Paul Panting, Rob Rackstraw, Teresa Gallagher, Shelley Longworth",
+      "director": "",
+      "description": "A team of brave underwater explorers known as the Octonauts combs the world's oceans for aquatic creatures in desperate need of assistance."
+    },
+    {
+      "show_id": "s6668",
+      "title": "The Millions",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Ramsey Nouah, Blossom Chukwujekwu, Ayo Makun, Nancy Isime, Ali Nuhu, Folusho Durojaiye, Toyin Abraham, Chika Lann, Broda Shaggi, Etinosa Idemudia",
+      "director": "Toka McBaror, Tunde Apalowo",
+      "description": "To pull off a massive heist, a charismatic con artist attempts to rob a fortified home with the help of a team he can't completely trust."
+    },
+    {
+      "show_id": "s1236",
+      "title": "Casino Tycoon",
+      "type": "Movie",
+      "release_year": 1992,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Wong Jing",
+      "director": "Wong Jing",
+      "description": "When Japanese troops invade Hong Kong, young Benny Ho flees to Macau and rises to the top of the city's casino business with pluck, diligence and wit."
+    },
+    {
+      "show_id": "s5621",
+      "title": "Sincerely Yours, Dhaka",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Mostafizur Noor Imran, Orchita Sporshia, Allen Shubhro, Shamol Mawla, Sarder Saniat Hossain, Manoj Kumar Pramanik, Trapa Majumder, Intekhab Dinar, Iresh Zaker, Lutfur Rahman George",
+      "director": "Nuhash Humayun, Syed Ahmed Shawki, Rahat Rahman, Robiul Alam Robi, Golam Kibria Farooki, Mir Mukarram Hossain, Tanvir Ahsan, Mahmudul Islam, Abdullah Al Noor, Krishnendu Chattopadhyay, Syed Saleh Ahmed Sobhan",
+      "description": "Eleven emerging Bangladeshi filmmakers present a collection of gritty shorts centered on the capital city and the people living in its margins."
+    },
+    {
+      "show_id": "s6978",
+      "title": "The Vault",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Taryn Manning, Francesca Eastwood, James Franco, Scott Haze, Q'Orianka Kilcher, Keith Loneker, Clifton Collins Jr., Jeff Gum",
+      "director": "Dan Bush",
+      "description": "A bank heist takes an unnerving turn when the three sibling robbers attempt to gain entrance into an subterranean vault with sinister secrets."
+    },
+    {
+      "show_id": "s975",
+      "title": "Bleach The Movie: Fade to Black",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Action & Adventure, Anime Features, Sci-Fi & Fantasy",
+      "cast": "Masakazu Morita, Fumiko Orikasa, Aya Hirano, Hiroshi Kamiya, Mitsuaki Madono, Ryotaro Okiayu, Kentaro Ito, Shinichiro Miki, Satsuki Yukino, Masaaki Tsukada",
+      "director": "Noriyuki Abe",
+      "description": "When his mind is fogged by a scimitar-weilding stranger, Mayuri destroys his laboratory, unleashing a cloud of reishi that lays waste to the Seiretei."
+    },
+    {
+      "show_id": "s217",
+      "title": "A Plastic Ocean",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "Tanya Streeter",
+      "director": "",
+      "description": "When he discovers the world's oceans brimming with plastic waste, a documentary filmmaker investigates the pollution's environmental impacts."
+    }
+  ]
+}

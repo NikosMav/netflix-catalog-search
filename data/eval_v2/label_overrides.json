@@ -1,0 +1,21 @@
+{
+  "description": "Committed grades that differ from the blinded re-judge. Every other grade matches that re-judge. These two pairs carry the previously disclosed binary overrides onto the 0-3 scale.",
+  "overrides": [
+    {
+      "query_id": "office_mockumentary",
+      "show_id": "s6719",
+      "title": "The Office (U.S.)",
+      "raw_grade": 3,
+      "final_grade": 2,
+      "reason": "The blinded re-judge assigned grade 3, but the card never says mockumentary, so the carried relevant decision is grade 2 rather than exact intent."
+    },
+    {
+      "query_id": "vietnam_war",
+      "show_id": "s1570",
+      "title": "Da 5 Bloods",
+      "raw_grade": 1,
+      "final_grade": 0,
+      "reason": "The blinded re-judge assigned grade 1. The carried decision stays not relevant: the card is a decades-later return for remains and gold, not the war itself."
+    }
+  ]
+}

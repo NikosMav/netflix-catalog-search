@@ -1,0 +1,557 @@
+{
+  "split": "dev",
+  "query_id": "vietnam_war",
+  "query": "war between vietnam and usa",
+  "candidates": [
+    {
+      "show_id": "s3762",
+      "title": "Love Is War",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Omoni Oboli, Richard Mofe-Damijo, Jide Kosoko, Akin Lewis, Bimbo Manuel, Shaffy Bello, Toke Makinwa, Femi Branch, Uzor Osimkpa",
+      "director": "Omoni Oboli",
+      "description": "An adoring couple elects to test the strength of their marriage when they run against each other for the office of state governor."
+    },
+    {
+      "show_id": "s6849",
+      "title": "The Sapphires",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Chris O'Dowd, Deborah Mailman, Jessica Mauboy, Shari Sebbens, Miranda Tapsell, Tory Kittles, Eka Darville, Tammy Anderson, Lynette Narkle, Kylie Belling",
+      "director": "Wayne Blair",
+      "description": "Sisters Gail, Cynthia and Julie have talent, but their career takes off when promoter Dave convinces them to tour for U.S. troops in Vietnam."
+    },
+    {
+      "show_id": "s612",
+      "title": "Athlete A",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Bonni Cohen, Jon Shenk",
+      "description": "This documentary focuses on the gymnasts who survived USA Gymnastics doctor Larry Nassar's abuse and the reporters who exposed USAG's toxic culture."
+    },
+    {
+      "show_id": "s7480",
+      "title": "War Machine",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Dramas",
+      "cast": "Brad Pitt, Topher Grace, Emory Cohen, John Magaro, Scoot McNairy, Anthony Michael Hall, Will Poulter",
+      "director": "David Michôd",
+      "description": "When a proud general is tasked with winning an unpopular war, he takes the challenge head-on, not knowing that hubris may be his own worst enemy."
+    },
+    {
+      "show_id": "s2590",
+      "title": "Hamburger Hill",
+      "type": "Movie",
+      "release_year": 1987,
+      "listed_in": "Action & Adventure, Dramas",
+      "cast": "Anthony Barille, Michael Boatman, Don Cheadle, Michael Dolan, Don James, Dylan McDermott, Michael A. Nickles, Harry O'Reilly, Daniel O'Shea, Tim Quill, Tommy Swerdlow, Courtney B. Vance, Steven Weber, Tegan West",
+      "director": "John Irvin",
+      "description": "The Vietnam War's horrors come brutally to life through the eyes of American soldiers trying to take a heavily fortified hill under Vietcong control."
+    },
+    {
+      "show_id": "s2319",
+      "title": "Furie",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Ngo Thanh Van, Phan Thanh Nhien, Mai Cat Vi, Thanh Hoa, Pham Anh Khoa",
+      "director": "Le Van Kiet",
+      "description": "When traffickers kidnap her daughter from their village, vengeful Hai Phuong returns to Saigon – and her outlaw roots – to take down the abductors."
+    },
+    {
+      "show_id": "s6424",
+      "title": "The Great Raid",
+      "type": "Movie",
+      "release_year": 2005,
+      "listed_in": "Action & Adventure, Dramas",
+      "cast": "Benjamin Bratt, James Franco, Connie Nielsen, Marton Csokas, Joseph Fiennes, Motoki Kobayashi, Robert Mammone, Natalie Mendoza, Cesar Montano, James Carpinello, Mark Consuelos, Sam Worthington, Craig McLachlan, Max Martini, Clayne Crawford",
+      "director": "John Dahl",
+      "description": "In World War II, a battalion goes on a daring rescue mission to liberate the Americans and Filipinos who've been captured by the Japanese."
+    },
+    {
+      "show_id": "s5655",
+      "title": "Sky Tour: The Movie",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, International Movies, Music & Musicals",
+      "cast": "Son Tung M-TP",
+      "director": "Nguyen Thanh Tung",
+      "description": "From the preparations to the performances, this documentary showcases Vietnamese pop idol Sơn Tùng M-TP and the passion behind his Sky Tour concerts."
+    },
+    {
+      "show_id": "s4172",
+      "title": "Moms at War",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Omoni Oboli, Funke Akindele, Yul Edochie, Abayomi Alvin, Adebukola Oladipupo, Sharon Ooja, Eucharia Anunobi, Harriet Akinola, Michelle Dede",
+      "director": "Omoni Oboli",
+      "description": "Two fierce mothers become rivals when a school contest forces their kids, both model students, to compete against one another to be the best in class."
+    },
+    {
+      "show_id": "s4880",
+      "title": "Platoon",
+      "type": "Movie",
+      "release_year": 1986,
+      "listed_in": "Action & Adventure, Classic Movies, Dramas",
+      "cast": "Tom Berenger, Willem Dafoe, Charlie Sheen, Forest Whitaker, Francesco Quinn, John C. McGinley, Richard Edson, Kevin Dillon, Reggie Johnson, Keith David",
+      "director": "Oliver Stone",
+      "description": "A soldier grows disillusioned as he's caught between rival sergeants in this semi-autobiographical Vietnam War drama from writer-director Oliver Stone."
+    },
+    {
+      "show_id": "s6726",
+      "title": "The Order",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Dramas, TV Horror",
+      "cast": "Jake Manley, Sarah Grey, Max Martini, Matt Frewer, Adam DiMarco, Katharine Isabelle, Louriza Tronco, Aaron Hale, Devery Jacobs, Thomas Elms, Dylan Playfair, Ian Tracey, Sam Trammell",
+      "director": "",
+      "description": "Out to avenge his mother's death, a college student pledges a secret order and lands in a war between werewolves and practitioners of dark magic."
+    },
+    {
+      "show_id": "s1737",
+      "title": "Dharmakshetra",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "International TV Shows, TV Dramas, TV Sci-Fi & Fantasy",
+      "cast": "Kashmira Irani, Chandan Anand, Dinesh Mehta, Ankit Arora, Pushkar Goggiaa, Anjali Rana, Aarya DharmChand Kumar, Amit Behl, Maleeka Ghai",
+      "director": "",
+      "description": "After the ancient Great War, the god Chitragupta oversees a trial to determine who were the battle's true heroes and villains."
+    },
+    {
+      "show_id": "s4360",
+      "title": "My Stupid Boss 2",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Reza Rahadian, Bunga Citra Lestari, Chew Kin Wah, Atikah Suhaime, Iedil Putra, Iskandar Zulkarnain, Alex Abbad, Melissa Karim",
+      "director": "Upi Avianto",
+      "description": "Having driven away many of his employees, Bossman and three of his long-suffering workers try to find cheap labor in Vietnam but find trouble instead."
+    },
+    {
+      "show_id": "s3106",
+      "title": "Jackpot",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Chi Tai, Lan Ngoc, Dustin Nguyen, Thu Trang",
+      "director": "Dustin Nguyen",
+      "description": "A lottery ticket salesperson faces an ethical dilemma after setting aside a soon-to-be winning ticket for a customer to pick up and pay for later."
+    },
+    {
+      "show_id": "s7013",
+      "title": "The Women's Balcony",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, Dramas, Faith & Spirituality",
+      "cast": "Evelin Hagoel, Igal Naor, Orna Banay, Einat Sarouf, Avraham Aviv Alush, Itzik Cohen, Yafit Asulin, Sharona Elimelech, Herzl Tobey, Haim Znati",
+      "director": "Emil Ben-Shimon",
+      "description": "A conservative rabbi steps in to lead a congregation reeling from an accident, but his controversial plans incite a gender war among the congregation."
+    },
+    {
+      "show_id": "s6830",
+      "title": "The Road to Calvary",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Anna Chipovskaya, Yulia Snigir, Leonid Bichevin, Pavel Trubiner",
+      "director": "",
+      "description": "Swept up in political unrest during World War I, two sisters in St. Petersburg cope with turbulent romances as Russian history is made around them."
+    },
+    {
+      "show_id": "s6987",
+      "title": "The War: A Film by Ken Burns and Lynn Novick",
+      "type": "TV Show",
+      "release_year": 2007,
+      "listed_in": "Docuseries",
+      "cast": "Keith David",
+      "director": "",
+      "description": "A seven-part series brings World War II to life through the harrowing personal accounts of soldiers and others from \"typical\" American towns."
+    },
+    {
+      "show_id": "s7476",
+      "title": "War",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Action & Adventure",
+      "cast": "Jet Li, Jason Statham, John Lone, Devon Aoki, Luis Guzmán, Saul Rubinek, Sung Kang, Mathew St. Patrick, Nadine Velazquez, Andrea Roth, Mark Cheng, Kane Kosugi, Ryo Ishibashi, Steph Song",
+      "director": "Philip G. Atwell",
+      "description": "When his partner is killed and all clues point to a notorious assassin, FBI agent Jack Crawford sets out for revenge in this taut action-thriller."
+    },
+    {
+      "show_id": "s1410",
+      "title": "Class of '61",
+      "type": "Movie",
+      "release_year": 1993,
+      "listed_in": "Dramas",
+      "cast": "Christien Anholt, Andre Braugher, Dan Futterman, Josh Lucas, Clive Owen, Sophie Ward, Sue-Ann Leeds, Laura Linney",
+      "director": "Gregory Hoblit",
+      "description": "As the Civil War looms, a runaway slave seeks freedom, and West Point cadets find their camaraderie shattered as they choose between North or South."
+    },
+    {
+      "show_id": "s2188",
+      "title": "First They Killed My Father",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas",
+      "cast": "Sreymoch Sareum, Kompheak Phoeung, Socheata Sveng, Dara Heng, Sothea Khoun, Sreyneang Oun, Kimhak Mun, Chenda Run, Nika Sarun, Nita Sarun",
+      "director": "Angelina Jolie",
+      "description": "A 5-year-old girl embarks on a harrowing quest for survival amid the sudden rise and terrifying reign of the Khmer Rouge in Cambodia."
+    },
+    {
+      "show_id": "s298",
+      "title": "Across the Universe",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Dramas, Music & Musicals, Romantic Movies",
+      "cast": "Evan Rachel Wood, Jim Sturgess, Joe Anderson, Dana Fuchs, Martin Luther, James Urbaniak, T.V. Carpio, Spencer Liff",
+      "director": "Julie Taymor",
+      "description": "An American girl and a British lad fall in love amid the social and political upheaval of the 1960s, in this musical featuring songs by the Beatles."
+    },
+    {
+      "show_id": "s7269",
+      "title": "Tunisian Victory",
+      "type": "Movie",
+      "release_year": 1944,
+      "listed_in": "Classic Movies, Documentaries",
+      "cast": "Burgess Meredith",
+      "director": "Frank Capra, John Huston, Hugh Stewart, Roy Boulting, Anthony Veiller",
+      "description": "British and American troops join forces to liberate a Nazi stranglehold in North Africa, sharing battles, hard work and a peaceful Christmas dinner."
+    },
+    {
+      "show_id": "s7133",
+      "title": "Tokyo Trial",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Marcel Hensema, Paul Freeman, Irrfan Khan, Stacy Keach, Michael Ironside, Stephen McHattie, Shinya Tsukamoto",
+      "director": "",
+      "description": "In the wake of World War II, 11 Allied judges are tasked with weighing the fates of Japanese war criminals in a tense international trial."
+    },
+    {
+      "show_id": "s3335",
+      "title": "Ken Burns: The Civil War",
+      "type": "TV Show",
+      "release_year": 1990,
+      "listed_in": "Docuseries",
+      "cast": "Sam Waterston, Julie Harris, Jason Robards, Morgan Freeman, Paul Roebling, Garrison Keillor, George Black, David McCullough, Arthur Miller, Christopher Murney, Charles McDowell, Horton Foote, George Plimpton, Philip Bosco, Terry Courier, Jody Powell, Studs Terkel",
+      "director": "Ken Burns",
+      "description": "Ken Burns's documentary depicts the action of famous Civil War battles, and relates the stories of soldiers, generals and a beleaguered president."
+    },
+    {
+      "show_id": "s940",
+      "title": "Bitcoin Heist",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure, Comedies, International Movies",
+      "cast": "Kate Nhung, Thanh Pham, Petey Majik Nguyen, Suboi, Jayvee Mai The Hiep, Lam Thanh My",
+      "director": "Ham Tran",
+      "description": "A unconventional, efficient Interpol special agent goes rogue and assembles a team of thieves to catch a shadowy hacker called \"The Ghost.\""
+    },
+    {
+      "show_id": "s7477",
+      "title": "War Against Women",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Hernán Zin",
+      "description": "Filmed over three years in 10 countries, this documentary gives voice to the women who have become victims of sexual violence as weapons of war."
+    },
+    {
+      "show_id": "s4605",
+      "title": "Oliver Stone's Untold History of the United States",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "Docuseries",
+      "cast": "Oliver Stone",
+      "director": "Oliver Stone",
+      "description": "This documentary series offers an alternative take on modern American history, focusing on underreported events that shaped the nation's character."
+    },
+    {
+      "show_id": "s497",
+      "title": "An Ordinary Man",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Ben Kingsley, Hera Hilmar, Peter Serafinowicz",
+      "director": "Brad Silberling",
+      "description": "A war criminal in hiding begins to suspect that the maid, his only confidant and contact with the outside world, may be hiding something herself."
+    },
+    {
+      "show_id": "s477",
+      "title": "American Warfighter",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas",
+      "cast": "Jerry G. Angelo, Paul Logan, Joshua Santana, Carolina Castro, David Robbins, Michael King, Tom Crisp, Jennifer Marshall, Victoria Clare, Ryan Baumann, Isaac C. Singleton Jr., Said Faraj",
+      "director": "Jerry G. Angelo",
+      "description": "A Navy SEAL haunted by wartime memories tries to rebuild his life at home, even as one last mission threatens to unravel everything."
+    },
+    {
+      "show_id": "s1570",
+      "title": "Da 5 Bloods",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Action & Adventure, Dramas",
+      "cast": "Delroy Lindo, Jonathan Majors, Clarke Peters, Norm Lewis, Isiah Whitlock Jr., Mélanie Thierry, Paul Walter Hauser, Jasper Pääkkönen, Johnny Nguyen, Chadwick Boseman",
+      "director": "Spike Lee",
+      "description": "Four African American veterans return to Vietnam decades after the war to find their squad leader's remains — and a stash of buried gold. From Spike Lee."
+    },
+    {
+      "show_id": "s7478",
+      "title": "War Chhod Na Yaar",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Sharman Joshi, Soha Ali Khan, Javed Jaffrey, Dalip Tahil, Mukul Dev, Sanjay Mishra, Vivek Rana, Manoj Pahwa",
+      "director": "Faraz Haider",
+      "description": "Set in an India-Pakistan border post, this satirical but thought-provoking comedy about war deals with serious events in a humorous manner."
+    },
+    {
+      "show_id": "s6552",
+      "title": "The Last Bomb of the Second World War",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Dinesh, Anandhi, Munishkanth, Riythvika, John Vijay",
+      "director": "Athiyan Athirai",
+      "description": "A piece of unexploded ordnance wreaks havoc on the lives of a scrapyard worker whose truck it falls into and an anti-war activist who's hunting for it."
+    },
+    {
+      "show_id": "s6559",
+      "title": "The Last Face",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas",
+      "cast": "Javier Bardem, Charlize Theron, Adèle Exarchopoulos, Jared Harris, Jean Reno, Denise Newman, Merritt Wever, Sibongile Mlambo",
+      "director": "Sean Penn",
+      "description": "Savage civil war and a dispute over humanitarian assistance threaten to unravel a checkered romance between an aid director and a doctor."
+    },
+    {
+      "show_id": "s3401",
+      "title": "King’s War",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Chen Daoming, Peter Ho, Duan Yihong, Qin Lan, Li Yixiao, Yang Lixin, You Yong, Yu Hewei",
+      "director": "",
+      "description": "In 210 B.C., during the upheaval following the death of Emperor Qin, insurgent warriors Xiang Yu and Liu Bang fight for control of the Chinese empire."
+    },
+    {
+      "show_id": "s6095",
+      "title": "The Art of War",
+      "type": "Movie",
+      "release_year": 2000,
+      "listed_in": "Action & Adventure",
+      "cast": "Wesley Snipes, Anne Archer, Maury Chaykin, Marie Matiko, Cary-Hiroyuki Tagawa, Michael Biehn, Donald Sutherland, Liliana Komorowska, James Hong",
+      "director": "Christian Duguay",
+      "description": "Framed for the murder of an ambassador, a former member of the United Nations' elite covert action unit will do whatever it takes to clear his name."
+    },
+    {
+      "show_id": "s1900",
+      "title": "Dying to Tell",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Hernán Zin",
+      "description": "Seeking answers after a life-changing incident in 2012, filmmaker Hernán Zin interviews other war reporters about the personal toll of their work."
+    },
+    {
+      "show_id": "s7044",
+      "title": "Thi Mai",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Carmen Machi, Adriana Ozores, Aitana Sánchez-Gijón, Dani Rovira, Eric Nguyen, Pedro Casablanc, José Troncoso, José Burgos, Ana López, Pedro Miguel Martínez, Nguyen Ngan Ha",
+      "director": "Patricia Ferreira",
+      "description": "Along with her two friends, a determined woman travels to Vietnam to bring home the baby her recently deceased daughter had planned to adopt."
+    },
+    {
+      "show_id": "s2699",
+      "title": "Heneral Luna",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies",
+      "cast": "John Arcilla, Mon Confiado, Arron Villaflor, Joem Bascon, Archie Alemania, Art Acuña, Alex Medina, Nonie Buencamino, Lorenz Martinez, Jeffrey Quizon, Alvin Anson, Mylene Dizon, Bing Pimentel, Leo Martinez, Ketchup Eusebio, Ronnie Lazaro, Paulo Avelino",
+      "director": "Jerrold Tarog",
+      "description": "Flashbacks reveal Gen. Antonio Luna's tireless fight for Filipino independence from the U.S. and his leadership in the Philippine-American War in 1899."
+    },
+    {
+      "show_id": "s838",
+      "title": "Bennett's War",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Sports Movies",
+      "cast": "Michael Roark, Trace Adkins, Ali Afshar, Allison Paige, Tony Panterra, Brando Eaton, Hunter Clowdus, Michael King",
+      "director": "Alex Ranarivelo",
+      "description": "A medically discharged soldier attempts an improbable return to motorcycle racing to win enough prize money to save his father's farm."
+    },
+    {
+      "show_id": "s3463",
+      "title": "Kulipari: An Army of Frogs",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Kids' TV",
+      "cast": "Mark Hamill, Keith David, Wendie Malick, Josh Keaton, Mikey Kelley, Phil LaMarr, Laraine Newman, Jess Harnell, Charles Adler, Amy Margolis, Cree Summer, Lacey Chabert, Rolonda Watts, Kevin Michael Richardson, Candi Milo",
+      "director": "",
+      "description": "In a tale of bravery and heroism, fearless frogs go to war against the sinister scorpions and spiders that have teamed up to conquer the amphibians."
+    },
+    {
+      "show_id": "s3444",
+      "title": "Kraftidioten",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Comedies, International Movies, Thrillers",
+      "cast": "Stellan Skarsgård, Pål Sverre Hagen, Bruno Ganz, Hildegun Riise, Peter Andersson, Birgitte Hjort Sørensen, Jakob Oftebro, Anders Baasmo Christiansen, Jon Øigarden, Gard B. Eidsvold, Kristofer Hivju, Birgitte Hjort Sorensen, Stellan Skarsgard",
+      "director": "Hans Petter Moland",
+      "description": "When he sets out to avenge his son's murder, mild-mannered snowplow driver Nils sparks a war between a Norwegian mobster and his Serbian rival."
+    },
+    {
+      "show_id": "s1279",
+      "title": "Charité at War",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Mala Emde, Ulrich Noethen, Jannik Schümann, Artjom Gilz, Luise Wolfram, Jacob Matschenz, Frida-Lovisa Hamann, Lukas Miko, Susanne Böwe",
+      "director": "",
+      "description": "In 1943, the staff at Berlin's Charité hospital struggle against the effects of World War II and the Nazi regime, including eugenic medical practices."
+    },
+    {
+      "show_id": "s6052",
+      "title": "The 24 Hour War",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Nate Adams, Adam Carolla",
+      "description": "An intense rivalry between Henry Ford II of the Ford Motor Company and Enzo Ferrari results in the most epic showdown in racing history."
+    },
+    {
+      "show_id": "s4797",
+      "title": "Patton Oswalt: Annihilation",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Patton Oswalt",
+      "director": "Bobcat Goldthwait",
+      "description": "By turns scathing and candid, Patton Oswalt reflects on the glut of comic material in the Trump era and the dark days following a personal tragedy."
+    },
+    {
+      "show_id": "s3525",
+      "title": "Lakshya",
+      "type": "Movie",
+      "release_year": 2004,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Amitabh Bachchan, Hrithik Roshan, Preity Zinta, Om Puri, Sharad Kapoor, Rajendranath Zutshi, Sushant Singh, Prashant Chainani, Shakeel Khan, Ranvir Shorey",
+      "director": "Farhan Akhtar",
+      "description": "After dropping out of the army, a spoiled teenager reenlists and proves his mettle by becoming an officer just as war breaks out."
+    },
+    {
+      "show_id": "s7479",
+      "title": "War Horse",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Dramas",
+      "cast": "Emily Watson, David Thewlis, Peter Mullan, Niels Arestrup, Tom Hiddleston, Jeremy Irvine, Benedict Cumberbatch, Toby Kebbell, David Kross, Eddie Marsan, Nicolas Bro, Rainer Bock, Patrick Kennedy, Liam Cunningham",
+      "director": "Steven Spielberg",
+      "description": "During World War I, the bond between a young Englishman and his loyal horse, Joey, is tested when Joey is sold to the cavalry and sent to France."
+    },
+    {
+      "show_id": "s7176",
+      "title": "Trailer Park Boys: Out of the Park: USA",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, TV Comedies",
+      "cast": "John Paul Tremblay, Robb Wells, Mike Smith, Tom Mayhue, Alex Lifeson, Sebastian Bach, Tommy Chong, Dennis Rodman, Tony Hawk, Verne Troyer, Tom Green, Riley Hawk",
+      "director": "",
+      "description": "The boys are back on the loose as Bubbles, Julian and Ricky head south of the Canadian border for some outrageous American adventures."
+    },
+    {
+      "show_id": "s3647",
+      "title": "Lincoln",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Dramas",
+      "cast": "Daniel Day-Lewis, Sally Field, David Strathairn, Joseph Gordon-Levitt, James Spader, Hal Holbrook, Tommy Lee Jones, Jackie Earle Haley, John Hawkes, Jared Harris, Joseph Cross, Tim Blake Nelson, David Oyelowo, Bruce McGill",
+      "director": "Steven Spielberg",
+      "description": "Director Steven Spielberg takes on the towering legacy of Abraham Lincoln, focusing on his stewardship of the Union during the Civil War years."
+    },
+    {
+      "show_id": "s6652",
+      "title": "The Maus",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Horror Movies, Independent Movies, International Movies",
+      "cast": "Alma Terzic, August Wittgenstein, Aleksandar Seksan, Sanin Milavic, Diana Fernández Pérez, Ella Jazz",
+      "director": "Yayo Herrero",
+      "description": "While traveling with her German boyfriend, Selma is confronted by the violent remnants of the Bosnian War and the ethnic cleansing her family faced."
+    },
+    {
+      "show_id": "s6700",
+      "title": "The Negro Soldier",
+      "type": "Movie",
+      "release_year": 1944,
+      "listed_in": "Classic Movies, Documentaries",
+      "cast": "",
+      "director": "Stuart Heisler",
+      "description": "This documentary urged African Americans to enlist and join in the effort to be part of America's continuing fight in World War II."
+    },
+    {
+      "show_id": "s6874",
+      "title": "The Silent War",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Asier Etxeandia, Marian Álvarez, Hugo Silva, Aitor Luna, Imanol Arias, Olimpia Melinte, Ruth Díaz, Jorge Basanta, Stephanie Gil, Roberto Bonacini",
+      "director": "Alfonso Cortés-Cavanillas",
+      "description": "Alluding to \"For Whom the Bell Tolls,\" this drama follows a fugitive guerrilla, deaf after an explosion, as he tries to survive in 1944 northern Spain."
+    },
+    {
+      "show_id": "s7381",
+      "title": "V Wars",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Action & Adventure, TV Dramas, TV Horror",
+      "cast": "Ian Somerhalder, Adrian Holmes, Jacky Lai, Kyle Breitkopf, Peter Outerbridge, Kimberly-Sue Murray, Sydney Meyer, Kandyse McClure, Laura Vandervoort, Michael Greyeyes, Greg Bryk, Teddy Moynihan, Ted Atherton, Jonathan Higgins, Nikki Reed, Samantha Liana Cole, Laura de Carteret, Bo Martyn",
+      "director": "",
+      "description": "A fast-spreading disease that turns victims into blood-sucking fiends pits two best friends against each other in a fight for humanity's future."
+    },
+    {
+      "show_id": "s4961",
+      "title": "Prelude to War",
+      "type": "Movie",
+      "release_year": 1942,
+      "listed_in": "Classic Movies, Documentaries",
+      "cast": "",
+      "director": "Frank Capra",
+      "description": "Frank Capra's documentary chronicles the rise of authoritarianism in Germany, Italy and Japan as America prepares for a defense of liberty."
+    },
+    {
+      "show_id": "s6981",
+      "title": "The Vietnam War: A Film by Ken Burns and Lynn Novick",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "Ken Burns, Lynn Novick",
+      "description": "Ken Burns presents an epic 10-part, 18-hour chronicle of the Vietnam War, featuring the soldiers, protesters, politicians and families that lived it."
+    },
+    {
+      "show_id": "s6907",
+      "title": "The Story of Us with Morgan Freeman",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Docuseries",
+      "cast": "Morgan Freeman",
+      "director": "",
+      "description": "Explore the forces of love, belief, power, war, peace, rebellion and freedom in this series about the ties that bind – and destroy – humanity."
+    }
+  ]
+}

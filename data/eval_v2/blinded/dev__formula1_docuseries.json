@@ -1,0 +1,457 @@
+{
+  "split": "dev",
+  "query_id": "formula1_docuseries",
+  "query": "Formula 1 racing documentary series",
+  "candidates": [
+    {
+      "show_id": "s6052",
+      "title": "The 24 Hour War",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Nate Adams, Adam Carolla",
+      "description": "An intense rivalry between Henry Ford II of the Ford Motor Company and Enzo Ferrari results in the most epic showdown in racing history."
+    },
+    {
+      "show_id": "s5211",
+      "title": "Rimba Racer",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Kids' TV",
+      "cast": "Steven Tan, Iain McNally, Chi-Ren Choong, Kevin Adrian Barnaby, Tikriti Shabudin, Sherilyn Pang Li Ching, Azman Zulkiply",
+      "director": "",
+      "description": "In this animated action series, a rookie driver seeks glory in a world-class auto race, but he’ll need more than just his talent behind the wheel."
+    },
+    {
+      "show_id": "s1079",
+      "title": "Brave Blue World: Racing to Solve Our Water Crisis",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Liam Neeson, Matt Damon, Jaden Smith",
+      "director": "Tim Neeves",
+      "description": "From reuse to energy generation, new innovations across five continents are explored in this documentary about building a future for sustainable water."
+    },
+    {
+      "show_id": "s6231",
+      "title": "The Code",
+      "type": "TV Show",
+      "release_year": 2011,
+      "listed_in": "British TV Shows, Docuseries, International TV Shows",
+      "cast": "Marcus du Sautoy",
+      "director": "",
+      "description": "In this three-part documentary series, host Marcus du Sautoy examines the mathematical code underlying all of life on Earth and the universe itself."
+    },
+    {
+      "show_id": "s6476",
+      "title": "The Hurt Business",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Kevin Costner",
+      "director": "Vlad Yudin",
+      "description": "Featuring legendary and up-and-coming MMA fighters, this documentary details the history of the brutal sport and the fighters' struggles and triumphs."
+    },
+    {
+      "show_id": "s5054",
+      "title": "Race 2",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Action & Adventure, International Movies, Music & Musicals",
+      "cast": "Anil Kapoor, Saif Ali Khan, John Abraham, Deepika Padukone, Jacqueline Fernandez, Ameesha Patel, Rajesh Khattar, Chunky Pandey",
+      "director": "Abbas Alibhai Burmawalla, Mastan Alibhai Burmawalla",
+      "description": "In this sequel set in the world of horse racing, half-brothers Ranvir and Rajiv Singh return for another complex tale of love, greed and violence."
+    },
+    {
+      "show_id": "s2016",
+      "title": "Episodes",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Classic & Cult TV, TV Comedies",
+      "cast": "Matt LeBlanc, Tamsin Greig, Stephen Mangan, Kathleen Rose Perkins, John Pankow, Mircea Monroe",
+      "director": "",
+      "description": "Hoping to create an American version of their hit British sitcom, two screenwriters run into cultural obstacles, starting with the lead character."
+    },
+    {
+      "show_id": "s5924",
+      "title": "Surviving R. Kelly",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "R. Kelly",
+      "director": "",
+      "description": "In this documentary series on the tangled history of allegations against musician R. Kelly, women give detailed accounts of sexual and mental abuse."
+    },
+    {
+      "show_id": "s4483",
+      "title": "Niyazi Gül Dörtnala",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Ata Demirer, Demet Akbağ, Şebnem Bozoklu, Levent Ülgen",
+      "director": "Hakan Algül",
+      "description": "Seeking the formula behind a magical elixir bequeathed to him by his father, a veterinary professor gets embroiled in a mobster's horse-racing scheme."
+    },
+    {
+      "show_id": "s4748",
+      "title": "Palio",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries, International Movies, Sports Movies",
+      "cast": "",
+      "director": "Cosima Spender",
+      "description": "In this documentary, a centuries-old horse race in the city of Siena, Italy, is the forum for a showdown between a young jockey and his former mentor."
+    },
+    {
+      "show_id": "s7627",
+      "title": "Williams",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, International Movies, Sports Movies",
+      "cast": "",
+      "director": "Morgan Matthews",
+      "description": "This inspiring documentary charts the birth of Sir Frank Williams's renowned racing empire – and the near-fatal crash that nearly stalled its future."
+    },
+    {
+      "show_id": "s1795",
+      "title": "Documentary Now!",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Comedies",
+      "cast": "Fred Armisen, Bill Hader, Helen Mirren",
+      "director": "",
+      "description": "Elevating the art of parody, this sharply comic series spoofs high-profile documentaries such as \"Grey Gardens\" and \"The Thin Blue Line.\""
+    },
+    {
+      "show_id": "s4438",
+      "title": "Nazi Mega Weapons",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "This documentary series examines Nazi Germany's military hardware, defenses and technology, including fortifications, U-boats and ballistic missiles."
+    },
+    {
+      "show_id": "s5927",
+      "title": "Survivor",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Reality TV",
+      "cast": "Jeff Probst, Jerri Manthey, Colby Donaldson, Rupert Boneham, Parvati Shallow, Rob Mariano, Amanda Kimmel, James Clement, Amber Brkich, Alicia Calaway, Ethan Zohn, Tina Wesson",
+      "director": "",
+      "description": "In this long-running reality competition series, players battle the elements and each other as they vie for $1 million and the title of Sole Survivor."
+    },
+    {
+      "show_id": "s7371",
+      "title": "Uppity: The Willy T. Ribbs Story",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Willy T. Ribbs",
+      "director": "Nate Adams, Adam Carolla",
+      "description": "This documentary profiles a defiant driver who challenged racial barriers in American auto racing, becoming the first black man to race in the Indy 500."
+    },
+    {
+      "show_id": "s7617",
+      "title": "Why We Fight: The Battle of Russia",
+      "type": "Movie",
+      "release_year": 1943,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Frank Capra, Anatole Litvak",
+      "description": "This installment of Frank Capra's acclaimed documentary series highlights the need for a Russo-American alliance to defeat the Nazis."
+    },
+    {
+      "show_id": "s1057",
+      "title": "Born Racer",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Scott Dixon",
+      "director": "Bryn Evans",
+      "description": "In this all-access pass, IndyCar champion Scott Dixon and his team navigate the risks on the road in the quest to win it all."
+    },
+    {
+      "show_id": "s1884",
+      "title": "Drugs, Inc.",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "Mike Secher",
+      "director": "",
+      "description": "This absorbing documentary series follows the entire supply chain of the illicit drug trade, tracing its production, export, sale and consumption."
+    },
+    {
+      "show_id": "s5493",
+      "title": "Senna",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Documentaries, International Movies, Sports Movies",
+      "cast": "Ayrton Senna, Alain Prost, Frank Williams",
+      "director": "Asif Kapadia",
+      "description": "This fast-paced documentary profiles Ayrton Senna, one of the greatest drivers in the history of Formula One racing, and a hero in his native Brazil."
+    },
+    {
+      "show_id": "s4548",
+      "title": "Nuestra Lucha Libre",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries, International TV Shows, Spanish-Language TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "This documentary series lifts the mask on Mexican wrestling, diving into the daily lives of its stars, examining the sport’s cultural impact and more."
+    },
+    {
+      "show_id": "s4379",
+      "title": "Myths & Monsters",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "British TV Shows, Docuseries",
+      "cast": "Nicholas Day",
+      "director": "Daniel Kontur",
+      "description": "This documentary series takes us to the mythic landscapes of Europe to explore some of most enduring legends produced by European culture."
+    },
+    {
+      "show_id": "s2001",
+      "title": "Encounters with Evil",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Crime TV Shows, Docuseries",
+      "cast": "Richard Lintern",
+      "director": "",
+      "description": "This documentary series tries to get at the root of some of the most heinous crimes ever committed by deranged, cold-blooded criminals."
+    },
+    {
+      "show_id": "s3959",
+      "title": "Marvel & ESPN Films Present: 1 of 1: Genesis",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Manny Pacquiao, Michael Smith, Tony Hawk, Esther Howard, Alex Morgan, Danica Patrick, Russell Wilson, Carmelo Anthony, Dwight Howard, Joe Quesada, Albert Pujols, Brandi Chastain, Cal Ripken Jr.",
+      "director": "Eric Drath",
+      "description": "This documentary explores the connections between elite athletes and Marvel superheroes such as Spider Man, Black Widow and Captain America."
+    },
+    {
+      "show_id": "s2121",
+      "title": "Fast & Furious Spy Racers",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV",
+      "cast": "Tyler Posey, Charlet Chung, Jorge Diaz, Camille Ramsey, Luke Youngblood, Renée Elise Goldsberry",
+      "director": "",
+      "description": "A government agency recruits teen driver Tony Toretto and his thrill-seeking friends to infiltrate a criminal street racing circuit as undercover spies."
+    },
+    {
+      "show_id": "s7304",
+      "title": "Ultimate Beastmaster",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Reality TV",
+      "cast": "Tiki Barber, Chris Distefano, Francesco Facchinetti, Bianca Balti, Vidyut Jammwal, Sarah-Jane Dias, BIn Gu, Qinyi Du, Paula Vázquez, Saúl Craviotto, Gilles Marini, Sandy Heribert, Terry Crews, Charissa Thompson, Yuji Kondo, Sayaka Akimoto, Luke Mockridge, Hans Sarpei, Kyung-seok Seo, Kyeong-rim Park, Luis Ernesto Franco, Inés Sainz, Rafinha Bastos, Anderson Silva, Sylvester Stallone",
+      "director": "",
+      "description": "In this intense obstacle course series, elite athletes from the U.S. and other countries compete for cash prizes, individual glory and national pride."
+    },
+    {
+      "show_id": "s4684",
+      "title": "Origins Collection",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "Peter McDonnell",
+      "description": "This documentary series explores the stories behind history's most fascinating innovations, including games, technology, sports, medicine and more."
+    },
+    {
+      "show_id": "s2247",
+      "title": "Formula 1: Drive to Survive",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Drivers, managers and team owners live life in the fast lane – both on and off the track – during one cutthroat season of Formula 1 racing."
+    },
+    {
+      "show_id": "s5620",
+      "title": "Sinatra: All or Nothing at All",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "Alex Gibney",
+      "description": "Legendary crooner Frank Sinatra's life and talent are captured in this documentary series featuring fond memories from friends, family and colleagues."
+    },
+    {
+      "show_id": "s6767",
+      "title": "The Playbook",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Coaches with championship résumés share their personal rules for success in sports and life in this reflective and inspiring documentary series."
+    },
+    {
+      "show_id": "s6388",
+      "title": "The Gentleman Driver",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Mario Mattei",
+      "description": "This documentary follows four tycoons who moonlight as motorsport competitors and examines what fuels them to succeed, both at work and on the track."
+    },
+    {
+      "show_id": "s801",
+      "title": "Becoming Champions",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries, International TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "This series looks at the stories behind the athletes and countries that have achieved World Cup champion status."
+    },
+    {
+      "show_id": "s6236",
+      "title": "The Competition",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Romantic Movies",
+      "cast": "Thora Birch, Chris Klein, Claire Coffee, David Blue, Kelsey Tucker, Michael Draper, Jason Tobias, Gabrielle Stone, Catherine Johnson, Tiffany Fallon",
+      "director": "Harvey Lowry",
+      "description": "After developing an \"infidelity formula\" said to repel cheating, a popular blogger crosses paths with a charming lawyer willing to put it to the test."
+    },
+    {
+      "show_id": "s5736",
+      "title": "Space Racers",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Kids' TV",
+      "cast": "Yuri Lowenthal, Meyer DeLeeuw, Johnny Yong Bosch, Phil Lollar, Alicyn Packard, Melissa Hutchison, Joseph J. Terry, Danny Katiana, Katie Leigh",
+      "director": "",
+      "description": "Spaceships Eagle, Robyn, Hawk and their pals at the Stardust Space Academy rocket through the galaxy, teaching kids about the wonders of science."
+    },
+    {
+      "show_id": "s5253",
+      "title": "Roger Corman's Death Race 2050",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure, Sci-Fi & Fantasy",
+      "cast": "Manu Bennett, Malcolm McDowell, Marci Miller, Burt Grinstead, Folake Olowofoyeku, Ramsey Moore, Yancy Butler, Charlie Farrell, Shanna Olson",
+      "director": "G.J. Echternkamp",
+      "description": "In this dystopian sequel, kills equal points in a violently gory annual cross-country road race sponsored by the United Corporations of America."
+    },
+    {
+      "show_id": "s1413",
+      "title": "Classic Legends",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "Docuseries, International TV Shows",
+      "cast": "Javed Akhtar",
+      "director": "",
+      "description": "This documentary series explores the glamour of Bollywood through the stories of the men and women who have illuminated its screens."
+    },
+    {
+      "show_id": "s2887",
+      "title": "I AM A KILLER",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "British TV Shows, Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Death row inmates convicted of capital murder give a firsthand account of their crimes in this documentary series."
+    },
+    {
+      "show_id": "s2677",
+      "title": "Heartbreak High",
+      "type": "TV Show",
+      "release_year": 1999,
+      "listed_in": "International TV Shows, TV Dramas, Teen TV Shows",
+      "cast": "Callan Mulvey, Lara Cox, Emma Roche, Ada Nicodemou, Rel Hunt, Putu Winchester, Salvatore Coco, Barbara Gouskos, Ivar Kants, Stephen O'Rourke, Abi Tucker, Scott Major, Corey Page, Despina Caldis, Deni Gordon, Jon Pollard, Vince Poletto, Andrea Moor, Jeremy Lindsay Taylor, Doris Younane, Tony Martin, Sebastian Goldspink, Katherine Halliday, Marcel Bracks, Nina Liu, Morna Seres, Nathalie Roy, Rebecca Smart, Fleur Beaupert, Alex Dimitriades, Tina Bursill, Peter Sumner, Mario Gamma, Tai Nguyen, Inge Hornstra, Rupert Reid, John Walton, Nick Lathouris, Hugh Baldwin, Sarah Lambert, Jan Adele, Diane Craig, Ian Bliss, Alexandra Brunning, Kym Wilson, Isabella Gutierrez, Simon Baker",
+      "director": "",
+      "description": "A crash course on the turbulence of being a teen is always on the schedule for the students at Hartley High School in this 1990s series set in Sydney."
+    },
+    {
+      "show_id": "s562",
+      "title": "APEX: The Story of the Hypercar",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "Zachary Levi",
+      "director": "J.F. Musial, Josh Vietze",
+      "description": "A visionary carmaker introduces his fuel-efficient, high-performance hypercar to a market filled with big-name competitors like Ferrari and Porsche."
+    },
+    {
+      "show_id": "s3890",
+      "title": "Malibu Rescue: The Series",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Kids' TV, TV Action & Adventure, TV Comedies",
+      "cast": "Ricardo Hurtado, Breanna Yde, Jackie R. Jacobson, Abby Donnelly, Alkoya Brunson, Jeremy Howard, JT Neal, Bryana Salaz, Ian Ziering, Camaron Engels",
+      "director": "",
+      "description": "On the heels of Junior Rescue training, Team Flounder returns to brave the beach in a series of thrilling saves and lighthearted laughs."
+    },
+    {
+      "show_id": "s6327",
+      "title": "The Eighties",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "This nostalgic documentary series relives the 1980s from a variety of angles, exploring its impact on the politics, technology and culture of today."
+    },
+    {
+      "show_id": "s5881",
+      "title": "Summertime",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Coco Rebecca Edogamhe, Ludovico Tersigni, Amanda Campana, Andrea Lattanzi, Giovanni Maini, Alicia Ann Edogamhe, Thony",
+      "director": "",
+      "description": "Two young adults from very different backgrounds fall in love during a summer on Italy’s Adriatic Coast. Inspired by Federico Moccia's book series."
+    },
+    {
+      "show_id": "s195",
+      "title": "A Life of Speed: The Juan Manuel Fangio Story",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, International Movies, Sports Movies",
+      "cast": "",
+      "director": "Francisco Macri",
+      "description": "Juan Manuel Fangio was the Formula One king, winning five world championships in the early 1950s — before protective gear or safety features were used."
+    },
+    {
+      "show_id": "s5749",
+      "title": "Speed Is My Need",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Mark Sloper",
+      "description": "This daredevil documentary trails behind and into the minds of the biggest names in one of the world's most dangerous sports, superbike racing."
+    },
+    {
+      "show_id": "s4989",
+      "title": "Project S The Series",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, TV Dramas, Teen TV Shows",
+      "cast": "Wiwattanawarang Oabnithi, Mahayotaruk Thiti, Lerkcharoempoj Papangkorn, Imanothai Kawin, Sakuljaroensuk Apinya, Oat Pasakorn Sanrattana, Leeratanakajorn Thanapob, Skye Nateeton Wongrawee, Supapunpinyo Teeradon, Chansangavej Chayanit, Ketprapakorn Narikun, Pibunsonggram Kritsanapoom, Santinatornkul Chanon",
+      "director": "",
+      "description": "Sports and friendship intertwine in tales of a volleyball team, an autistic badminton player, a skateboarder with depression and an archery-club crush."
+    },
+    {
+      "show_id": "s4244",
+      "title": "Move",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries, International TV Shows",
+      "cast": "",
+      "director": "Thierry Demaizière, Alban Teurlai",
+      "description": "Discover the brilliant dancers and choreographers who are shaping the art of movement around the world in this documentary series."
+    }
+  ]
+}

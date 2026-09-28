@@ -1,0 +1,527 @@
+{
+  "split": "test",
+  "query_id": "birmingham_gangsters",
+  "query": "British gangster series set after the First World War",
+  "candidates": [
+    {
+      "show_id": "s4019",
+      "title": "Mega Food",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "British TV Shows, Docuseries, International TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "Visiting the busiest kitchens in the world, this reality series focuses on large-scale food production – and the people who make it happen."
+    },
+    {
+      "show_id": "s7679",
+      "title": "WWII in HD",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "Docuseries",
+      "cast": "Gary Sinise, Rob Lowe, Josh Lucas, Justin Bartha, Amy Smart, LL Cool J, Steve Zahn, Jason Ritter, Ron Livingston, Tim DeKay, Mark Hefti, James Kyson, Rob Corddry",
+      "director": "",
+      "description": "Rare color footage interwoven with firsthand interviews and diary entries bring to life the global sweep of World War II via those who were there."
+    },
+    {
+      "show_id": "s6515",
+      "title": "The Jack King Affair",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Benjamin Cohen, Nicolas Cotto",
+      "description": "This documentary explores a bold World War II operation in which an MI5 agent infiltrated a fascist network to intercept stolen documents."
+    },
+    {
+      "show_id": "s5236",
+      "title": "Robin Hood: The Rebellion",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure, Independent Movies, International Movies",
+      "cast": "Ben Freeman, James Oliver Wheatley, Marie Everett, Jamie Kenna, James Groom, James G. Nunn, Martyn Ford, Gareth David-Lloyd, Brian Blessed, Kristian Nairn",
+      "director": "Nicholas Winter",
+      "description": "When the Sheriff of Nottingham takes his beloved captive, Robin Hood embarks on a daring rescue mission at the tyrant's castle."
+    },
+    {
+      "show_id": "s4621",
+      "title": "Once a Gangster",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Action & Adventure, Comedies, International Movies",
+      "cast": "Ekin Cheng, Jordan Chan, Alex Fong, Michelle Ye, On-on Yu, Wilfred Lau, Conroy Chan",
+      "director": "Felix Chong",
+      "description": "Two former triads are tapped to run in an election for leader of the underworld, but both want normal lives. Each must outwit the other to lose."
+    },
+    {
+      "show_id": "s6700",
+      "title": "The Negro Soldier",
+      "type": "Movie",
+      "release_year": 1944,
+      "listed_in": "Classic Movies, Documentaries",
+      "cast": "",
+      "director": "Stuart Heisler",
+      "description": "This documentary urged African Americans to enlist and join in the effort to be part of America's continuing fight in World War II."
+    },
+    {
+      "show_id": "s382",
+      "title": "Alexandria ... Why?",
+      "type": "Movie",
+      "release_year": 1979,
+      "listed_in": "Classic Movies, Dramas, International Movies",
+      "cast": "Naglaa Fathi, Farid Shawqy, Mohsen Mohiedine, Ezzat El Alaili, Abdalla Mahmoud, Youssef Wahby, Yehia Chahine, Laila Fawzy, Mahmoud El Meleigy, Ahmed Zaki, Gerry Sundquist",
+      "director": "Youssef Chahine",
+      "description": "Living in Alexandria during World War II, an Egyptian teen enamored with American films dreams of making it in Hollywood."
+    },
+    {
+      "show_id": "s1578",
+      "title": "Dad's Army",
+      "type": "TV Show",
+      "release_year": 1977,
+      "listed_in": "British TV Shows, Classic & Cult TV, TV Comedies",
+      "cast": "Arthur Lowe, John Le Mesurier, Clive Dunn, John Laurie, Arnold Ridley, Ian Lavender, James Beck, Bill Pertwee",
+      "director": "",
+      "description": "This beloved sitcom follows the unlikely heroes of the volunteer British Home Guard as they prepare for German invasion in World War II."
+    },
+    {
+      "show_id": "s3951",
+      "title": "Married at First Sight",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Reality TV, Romantic TV Shows",
+      "cast": "Viviana Coles, Calvin Roberson, Pepper Schwartz",
+      "director": "",
+      "description": "Set up by experts, four couples meet at the altar for the first time and test their compatibility after the wedding."
+    },
+    {
+      "show_id": "s6552",
+      "title": "The Last Bomb of the Second World War",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Dinesh, Anandhi, Munishkanth, Riythvika, John Vijay",
+      "director": "Athiyan Athirai",
+      "description": "A piece of unexploded ordnance wreaks havoc on the lives of a scrapyard worker whose truck it falls into and an anti-war activist who's hunting for it."
+    },
+    {
+      "show_id": "s7486",
+      "title": "Wartime Portraits",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Docuseries, International TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "Part live-action and part animation, this visually inventive series offers striking portrayals of some of the unsung heroes of World War II."
+    },
+    {
+      "show_id": "s2661",
+      "title": "Hawaizaada",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Ayushmann Khurrana, Mithun Chakraborty, Pallavi Sharda, Naman Jain, Jameel Khan",
+      "director": "Vibhu Virender Puri",
+      "description": "In 1895 Mumbai, spirited Indian lad Shiv Talpade defies British rule and sparse funding – and physics – to build the world's first airplane."
+    },
+    {
+      "show_id": "s2977",
+      "title": "In This Corner of the World",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Anime Features, Children & Family Movies, International Movies",
+      "cast": "Non, Yoshimasa Hosoya, Natsuki Inaba, Minori Omi, Daisuke Ono, Megumi Han, Nanase Iwai, Shigeru Ushiyama, Mayumi Shintani",
+      "director": "Sunao Katabuchi",
+      "description": "Suzu marries into a family living outside of Hiroshima and quickly settles into her new life, until World War II challenges her ability to survive."
+    },
+    {
+      "show_id": "s6874",
+      "title": "The Silent War",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Asier Etxeandia, Marian Álvarez, Hugo Silva, Aitor Luna, Imanol Arias, Olimpia Melinte, Ruth Díaz, Jorge Basanta, Stephanie Gil, Roberto Bonacini",
+      "director": "Alfonso Cortés-Cavanillas",
+      "description": "Alluding to \"For Whom the Bell Tolls,\" this drama follows a fugitive guerrilla, deaf after an explosion, as he tries to survive in 1944 northern Spain."
+    },
+    {
+      "show_id": "s5125",
+      "title": "Rebellion",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Charlie Murphy, Ruth Bradley, Sarah Greene, Brian Gleeson, Michelle Fairley, Ian McElhinney, Michael Ford-FitzGerald, Paul Reid, Barry Ward, Tom Turner, Perdita Weeks, Andrew Simpson, Sophie Robinson",
+      "director": "",
+      "description": "As World War I rages, three women and their families in Dublin choose sides in the violent Easter Rising revolt against British rule."
+    },
+    {
+      "show_id": "s5972",
+      "title": "Tales From the Hood 2",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Cult Movies, Horror Movies, Independent Movies",
+      "cast": "Keith David, Bryan Batt, Alexandria Deberry, Bill Martin Williams, Martin Bats Bradford, Kendrick Cross, Jasmine Akakpo, Kedrick Brown",
+      "director": "Rusty Cundieff, Darin Scott",
+      "description": "Buckle up for an anthology of socially conscious horror stories that focus on the perils of racial injustice and the price of ignorance."
+    },
+    {
+      "show_id": "s1279",
+      "title": "Charité at War",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Mala Emde, Ulrich Noethen, Jannik Schümann, Artjom Gilz, Luise Wolfram, Jacob Matschenz, Frida-Lovisa Hamann, Lukas Miko, Susanne Böwe",
+      "director": "",
+      "description": "In 1943, the staff at Berlin's Charité hospital struggle against the effects of World War II and the Nazi regime, including eugenic medical practices."
+    },
+    {
+      "show_id": "s1387",
+      "title": "Churchill’s Secret Agents: The New Recruits",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "British TV Shows, International TV Shows, Reality TV",
+      "cast": "",
+      "director": "",
+      "description": "In this history-steeped reality series, 14 contestants undergo the same rigorous four-day selection process as Britain's top-secret World War II spies."
+    },
+    {
+      "show_id": "s4807",
+      "title": "Peaky Blinders",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "British TV Shows, Crime TV Shows, International TV Shows",
+      "cast": "Cillian Murphy, Sam Neill, Helen McCrory, Paul Anderson, Iddo Goldberg, Annabelle Wallis, Sophie Rundle, Tom Hardy, Joe Cole, Ned Dennehy, Andy Nyman, Charlie Creed-Miles, Charlotte Riley, David Dawson, Jeffrey Postlethwaite, Matthew Postlethwaite, Ian Peck, Tony Pitts, Aidan Gillen, Adrien Brody, Charlie Murphy, Aimee-Ffion Edwards",
+      "director": "",
+      "description": "A notorious gang in 1919 Birmingham, England, is led by the fierce Tommy Shelby, a crime boss set on moving up in the world no matter the cost."
+    },
+    {
+      "show_id": "s2001",
+      "title": "Encounters with Evil",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Crime TV Shows, Docuseries",
+      "cast": "Richard Lintern",
+      "director": "",
+      "description": "This documentary series tries to get at the root of some of the most heinous crimes ever committed by deranged, cold-blooded criminals."
+    },
+    {
+      "show_id": "s6497",
+      "title": "The Intent",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Dylan Duffus, Scorcher, Shone Romulus, Jade Asha, Femi Oyeniran, Ashley Chin, Nicky Slimting Walker, Fekky",
+      "director": "Femi Oyeniran, Kalvadour Peterson",
+      "description": "After burgeoning criminal Gunz joins the increasingly violent TIC crew, the gang finds itself dealing with threats from all sides."
+    },
+    {
+      "show_id": "s1983",
+      "title": "Elles étaient en guerre (1914-1918)",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Nathalie Baye",
+      "director": "Fabien Beziat, Hugues Nancy",
+      "description": "Trace the overlapping journeys of exceptional women swept up in World War I and hear their tales of bravery on history's front lines."
+    },
+    {
+      "show_id": "s1472",
+      "title": "COMEDIANS of the world",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Stand-Up Comedy & Talk Shows, TV Comedies",
+      "cast": "Neal Brennan, Chris D'Elia, Nicole Byer, Nick Swardson, DeAnne Smith, Ivan Decker, Dave Merheje, K. Trevor Wilson, Joel Dommett, Mae Martin, Nish Kumar, Ellie Taylor, Urzila Carlson, Joel Creasey, Nazeem Hussain, Cal Wilson, Riaad Moosa, Tumi Morake, Loyiso Gola, Loyiso Madinga, Atul Khatri, Aditi Mittal, Amit Tandon, Franco Escamilla, Hugo El Cojo Feliz, Gaby Llanas, Enissa Amani, Ilka Bessin, Kaya Yanar, Thiago Ventura, Mhel Merrer, Afonso Padilha, Shirley Souagnon, Jason Brokerss, Tania Dutel, Donel Jack'sman, Ibraheem Alkhairallah, Rawsan Hallak, Adi Khalefa, Moayad Alnefaie, Louis-José Houde, François Bellefeuille, Katherine Levac, Adib Alkhalidey, Martijn Koning, Soundos El Ahmadi, Rayen Panday",
+      "director": "",
+      "description": "This global stand-up comedy series features a diverse set of comics from 13 regions bringing their perspectives on what's funny around the world."
+    },
+    {
+      "show_id": "s946",
+      "title": "Black '47",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure, Dramas, Independent Movies",
+      "cast": "Hugo Weaving, James Frecheville, Stephen Rea, Freddie Fox, Barry Keoghan, Moe Dunford, Sarah Greene, Jim Broadbent",
+      "director": "Lance Daly",
+      "description": "When the Great Famine ravages his beloved country, a battle-hardened Irishman deserts the British Empire and exacts revenge on the tyrants responsible."
+    },
+    {
+      "show_id": "s6830",
+      "title": "The Road to Calvary",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Anna Chipovskaya, Yulia Snigir, Leonid Bichevin, Pavel Trubiner",
+      "director": "",
+      "description": "Swept up in political unrest during World War I, two sisters in St. Petersburg cope with turbulent romances as Russian history is made around them."
+    },
+    {
+      "show_id": "s4402",
+      "title": "Narcos",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, TV Action & Adventure, TV Dramas",
+      "cast": "Wagner Moura, Pedro Pascal, Boyd Holbrook, Damián Alcázar, Alberto Ammann, Francisco Denis, Pêpê Rapazote, Matias Varela, Michael Stahl-David, Matt Whelan, Arturo Castro, Javier Cámara, José María Yazpik, Eric Lange, Brett Cullen, Miguel Ángel Silvestre, Kerry Bishé, Paulina Gaitán, Cristina Umaña, Paulina García, Juan Sebastián Calero, Joanna Christie, Taliana Vargas, Andrea Londo, Manolo Cardona, Diego Cataño, Raúl Méndez, Bruno Bichir, Stephanie Sigman, Florencia Lozano, Juan Pablo Raba, Leynar Gomez, Konstantin Melikhov, Martina García, Maurice Compte, Mauricio Cujar, Jorge Monterrosa, Germán Jaramillo, Juan Pablo Shuk, Julián Díaz, Alejandro Buitrago, Federico Rivera",
+      "director": "",
+      "description": "The true story of Colombia's infamously violent and powerful drug cartels fuels this gritty gangster drama series."
+    },
+    {
+      "show_id": "s6190",
+      "title": "The Butterfly's Dream",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Kıvanç Tatlıtuğ, Mert Fırat, Belçim Bilgin, Farah Zeynep Abdullah, Yılmaz Erdoğan, Ahmet Mümtaz Taylan, Taner Birsel, Selman Ünlüsoy, İpek Bilgin, Aksel Bonfil, Devrim Yakut, Salih Kalyon",
+      "director": "Yılmaz Erdoğan",
+      "description": "Forced to work in a coal mine during World War II, two young poets find some escape when they both fall for the same woman."
+    },
+    {
+      "show_id": "s6354",
+      "title": "The First Line",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Pantelis Kodogiannis, Kassandra Voyagis, Paul Freeman, Michael Byrne, Georges Corraface, Yorgo Voyagis, Giancarlo Giannini, Kelly Eleftheriou",
+      "director": "Coerte Voorhees, John Voorhees",
+      "description": "Two determined Athenian attorneys spearhead a lawsuit against the British Museum for the return of the Parthenon Marbles to Greece."
+    },
+    {
+      "show_id": "s1984",
+      "title": "Elles étaient en guerre 1939-1945",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Hugues Nancy, Fabien Beziat",
+      "description": "Mothers, nurses, soldiers and deportees – these women fought against persecution for freedom and survival amid the turbulence of World War II."
+    },
+    {
+      "show_id": "s1405",
+      "title": "Civilizations",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "British TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Expanding Kenneth Clark's 1969 \"Civilisation\" series for a new generation, this reboot explores the art of cultures around the world, throughout time."
+    },
+    {
+      "show_id": "s6987",
+      "title": "The War: A Film by Ken Burns and Lynn Novick",
+      "type": "TV Show",
+      "release_year": 2007,
+      "listed_in": "Docuseries",
+      "cast": "Keith David",
+      "director": "",
+      "description": "A seven-part series brings World War II to life through the harrowing personal accounts of soldiers and others from \"typical\" American towns."
+    },
+    {
+      "show_id": "s1212",
+      "title": "Cardboard Gangsters",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies",
+      "cast": "John Connors, Fionn Walton, Kierston Wareing, Paul Alwright, Ryan Lincoln, Jimmy Smallhorne, Toni O'Rourke, Fionna Hewitt-Twamley, Stephen Clinch, Ciaran McCabe",
+      "director": "Mark O'Connor",
+      "description": "A low-level drug dealer decides to move up the ranks of the illegal narcotics trade in Darndale, Dublin, putting him and his gang on a violent path."
+    },
+    {
+      "show_id": "s6507",
+      "title": "The Irish Mob",
+      "type": "TV Show",
+      "release_year": 2008,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "Mickey Spillane",
+      "director": "",
+      "description": "This documentary crime series charts the rise of the Irish Mob in America, from urban immigrant poverty to political power and wealth."
+    },
+    {
+      "show_id": "s1829",
+      "title": "Dope",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Filmed from the perspectives of dealers, users and the police, this vivid series offers a bracing look at the war on drugs."
+    },
+    {
+      "show_id": "s5181",
+      "title": "Revenge of the Green Dragons",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Action & Adventure, Dramas, Independent Movies",
+      "cast": "Ray Liotta, Justin Chon, Kevin Wu, Harry Shum Jr., Eugenia Yuan, Leonard Wu, Jin Auyeung, Jon Kit Lee, Shuya Chang, Geoff Pierson",
+      "director": "Andrew Lau Wai-Keung, Andrew Loo",
+      "description": "In gritty 1980s New York, two Chinese immigrant boys rise through the ranks of the infamous Green Dragons gang, where they're trained to kill."
+    },
+    {
+      "show_id": "s2377",
+      "title": "Gentlemen and Gangsters",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Crime TV Shows, International TV Shows, Romantic TV Shows",
+      "cast": "David Dencik, Ruth Vega Fernandez, David Fukamachi Regnfors, Sverrir Gudnason, Andreas Kundler, Sven Nordin, Boman Oscarsson, Lars Green, Sebastian Sporsén, Amanda Ooms, Magnus Krepper, Peter Carlberg, Peter Bergared, Christopher Wagelin, Lars Helander, Emilie Jonsson",
+      "director": "",
+      "description": "Now on the run, a writer relates his previous year's escapades when he got sucked into the thrilling, sordid orbit of boxer and jazz man Henry Morgan."
+    },
+    {
+      "show_id": "s2352",
+      "title": "Gangs of New York",
+      "type": "Movie",
+      "release_year": 2002,
+      "listed_in": "Dramas",
+      "cast": "Leonardo DiCaprio, Daniel Day-Lewis, Cameron Diaz, Jim Broadbent, John C. Reilly, Henry Thomas, Liam Neeson, Brendan Gleeson, Gary Lewis, Stephen Graham",
+      "director": "Martin Scorsese",
+      "description": "In the crime-ridden slums of New York in the 1860s, vengeful orphan Amsterdam Vallon joins the cutthroat gang of his father's killer, Bill the Butcher."
+    },
+    {
+      "show_id": "s4633",
+      "title": "Once Upon a Time in London",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Leo Gregory, Terry Stone, Doug Allen, Andy Beckwith, Kate Braithwaite, Holly Earl, Joe Egan, Nadia Forde",
+      "director": "Simon Rumley",
+      "description": "Organized crime came to London in the 1930s, ushering in three decades ruled by two legendary gangsters whose legacy outlived their reign."
+    },
+    {
+      "show_id": "s1550",
+      "title": "Cuckoo",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "British TV Shows, International TV Shows, TV Comedies",
+      "cast": "Andy Samberg, Taylor Lautner, Greg Davies, Helen Baxendale, Tamla Kari, Tyger Drew-Honey, Esther Smith",
+      "director": "",
+      "description": "Rachel shocks her proper British parents when she marries an American hippie, but it's just the first in a series of surprises for the family."
+    },
+    {
+      "show_id": "s2349",
+      "title": "Gang of the Caribbean",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Djédjé Apali, Eriq Ebouaney, Adama Niane, Vincent Vermignon, Djibril Pavadé, Zita Hanrot, Karim Belkhadra, Lise Lomi, Zoé Charron, Jocelyne Béroard, Julien Courbey, Lucien Jean-Baptiste, Romane Bohringer, Mathieu Kassovitz",
+      "director": "Jean-Claude Flamand-Barny",
+      "description": "Disillusioned by life in 1970s France, a West Indian expatriate named Jimmy joins a gang of idealistic robbers, but betrayal and violence soon follow."
+    },
+    {
+      "show_id": "s7185",
+      "title": "Traitors",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "British TV Shows, International TV Shows, TV Dramas",
+      "cast": "Emma Appleton, Michael Stuhlbarg, Luke Treadaway, Keeley Hawes, Brandon P. Bell, Matt Lauria, Jamie Blackley, David Hargreaves, Sam Hoare, Simon Kunz, Greg McHugh, Stephen Campbell Moore, Cara Horgan",
+      "director": "",
+      "description": "As World War II ends, a young English woman agrees to help an enigmatic American agent root out Russian infiltration of the British government."
+    },
+    {
+      "show_id": "s6154",
+      "title": "The Bomb Squad",
+      "type": "TV Show",
+      "release_year": 2011,
+      "listed_in": "British TV Shows, Docuseries",
+      "cast": "Christopher Eccleston",
+      "director": "",
+      "description": "This documentary follows British bomb disposal teams in Afghanistan and the dangers they face in their methodical lives on the front lines of war."
+    },
+    {
+      "show_id": "s6733",
+      "title": "The Ottoman Lieutenant",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Romantic Movies",
+      "cast": "Michiel Huisman, Hera Hilmar, Josh Hartnett, Ben Kingsley, Haluk Bilginer, Affif Ben Badra, Paul Barrett, Jessica Turner",
+      "director": "Joseph Ruben",
+      "description": "As World War I looms, an American nurse travels to the Ottoman Empire on a medical mission, where she clashes with a dashing lieutenant."
+    },
+    {
+      "show_id": "s7133",
+      "title": "Tokyo Trial",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Marcel Hensema, Paul Freeman, Irrfan Khan, Stacy Keach, Michael Ironside, Stephen McHattie, Shinya Tsukamoto",
+      "director": "",
+      "description": "In the wake of World War II, 11 Allied judges are tasked with weighing the fates of Japanese war criminals in a tense international trial."
+    },
+    {
+      "show_id": "s5537",
+      "title": "Shaka Zulu",
+      "type": "TV Show",
+      "release_year": 1986,
+      "listed_in": "TV Dramas",
+      "cast": "Edward Fox, Robert Powell, Trevor Howard, Fiona Fullerton, Christopher Lee, Henry Cele, Dudu Mkhize, Roy Dotrice, Gordon Jackson, Kenneth Griffith, Conrad Magwaza, Patrick Ndlovu, Roland Mqwebu, Gugu Nxumalo, Tu Nokwe",
+      "director": "",
+      "description": "This miniseries recounts the early 19th-century conflict between the expanding British Empire in Africa and Shaka, the leader of the vast Zulu Nation."
+    },
+    {
+      "show_id": "s1190",
+      "title": "Camp X",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Established during World War II, North America's first secret agent training school – known as Camp X – paved the way for present-day espionage."
+    },
+    {
+      "show_id": "s6259",
+      "title": "The Cuba Libre Story",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Docuseries, International TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "This documentary series recounts the tumultuous history of Cuba, a nation of foreign conquest, freedom fighters and Cold War political machinations."
+    },
+    {
+      "show_id": "s2778",
+      "title": "Hollywood",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Dramas",
+      "cast": "David Corenswet, Darren Criss, Patti LuPone, Jeremy Pope, Jim Parsons, Laura Harrier, Joe Mantello, Dylan McDermott, Jake Picking, Holland Taylor, Samara Weaving",
+      "director": "",
+      "description": "In post-World War II Hollywood, an ambitious group of aspiring actors and filmmakers will do almost anything to make their showbiz dreams come true."
+    },
+    {
+      "show_id": "s7479",
+      "title": "War Horse",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Dramas",
+      "cast": "Emily Watson, David Thewlis, Peter Mullan, Niels Arestrup, Tom Hiddleston, Jeremy Irvine, Benedict Cumberbatch, Toby Kebbell, David Kross, Eddie Marsan, Nicolas Bro, Rainer Bock, Patrick Kennedy, Liam Cunningham",
+      "director": "Steven Spielberg",
+      "description": "During World War I, the bond between a young Englishman and his loyal horse, Joey, is tested when Joey is sold to the cavalry and sent to France."
+    },
+    {
+      "show_id": "s769",
+      "title": "Battlefield Recovery",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Docuseries, Reality TV",
+      "cast": "",
+      "director": "",
+      "description": "A four-man team heads to Latvia and Poland to unearth rare World War II artifacts and shed new light on the bloody battles of the Eastern Front."
+    },
+    {
+      "show_id": "s339",
+      "title": "Age of Tanks",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Docuseries, International TV Shows, Science & Nature TV",
+      "cast": "",
+      "director": "",
+      "description": "The history of military tanks unfolds in a documentary series that traces their role in history and geopolitics from World War I to the 21st century."
+    },
+    {
+      "show_id": "s7669",
+      "title": "World War II in Colour",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "British TV Shows, Docuseries, International TV Shows",
+      "cast": "Robert Powell",
+      "director": "",
+      "description": "Footage of the most dramatic moments from World War II is restored in color and high definition for this historical documentary series."
+    }
+  ]
+}

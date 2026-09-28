@@ -1,0 +1,547 @@
+{
+  "split": "dev",
+  "query_id": "christmas_family_movie",
+  "query": "feel-good Christmas family movie",
+  "candidates": [
+    {
+      "show_id": "s1999",
+      "title": "Encerrados",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, Spanish-Language TV Shows, TV Comedies",
+      "cast": "Luis Machín, Maria Merlino, Fabián Vena, Ana Chalentano, Nelly Prince, Victor Laplace, Silvia Pérez, Pilar Gamboa, Alberto Ajaka, Fabio Alberti, Martin Slipak, Martín Piroyansky, Paula Ransenberg",
+      "director": "",
+      "description": "This fictional series tells the stories of what happens to people when they feel caged in, whether physically, psychologically or emotionally."
+    },
+    {
+      "show_id": "s1373",
+      "title": "Christmas with the Kranks",
+      "type": "Movie",
+      "release_year": 2004,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Tim Allen, Jamie Lee Curtis, Dan Aykroyd, Erik Per Sullivan, Cheech Marin, Jake Busey, M. Emmet Walsh, Kevin Chamberlin, Elizabeth Franz, René Lavan",
+      "director": "Joe Roth",
+      "description": "When Luther Krank and his wife opt to skip Christmas – no tree and no rooftop Frosty – can they handle the fallout from their family and neighbors?"
+    },
+    {
+      "show_id": "s187",
+      "title": "A Holiday Engagement",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Children & Family Movies, Comedies, Romantic Movies",
+      "cast": "Bonnie Somerville, Shelley Long, Jordan Bridges, Sam McMurray, Haylie Duff, Sam Horrigan, Carrie Wiita, Chris McKenna, Edi Patterson, Jennifer Elise Cox",
+      "director": "Jim Fall",
+      "description": "Hilary's plan to hire a good-looking guy to act as her boyfriend backfires when she brings him home for the holidays to try and fool her family."
+    },
+    {
+      "show_id": "s589",
+      "title": "Arthur Christmas",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "James McAvoy, Hugh Laurie, Bill Nighy, Jim Broadbent, Imelda Staunton, Ashley Jensen, Ramona Marquez, Marc Wootton, Laura Linney, Eva Longoria, Michael Palin, Joan Cusack, Deborah Findlay, Rich Fulcher, Sarah Smith, Clint Dyer, Kerry Shale, Stewart Lee, Bronagh Gallagher, Kevin Cecil, Alistair McGowan, David Menkin, Kris Pearn, Ian Ashpitel, Rich Hall, Seeta Indrani, Jane Horrocks, Peter Baynham, Emma Kennedy, Dominic West, Jerry Lambert, Julia Davis, Robbie Coltrane, Iain McKee, Sanjeev Bhaskar, Andy Serkis, Tamsin Greig, Rhys Darby, Seamus Malone, Cody Cameron, David Schneider, Kevin Eldon, Danny John-Jules, Brian Cummings",
+      "director": "Sarah Smith",
+      "description": "At Santa Claus's super-secret toy-making facility, Mr. Claus entrusts his son, Arthur, to carry out an ultra-important Christmas mission."
+    },
+    {
+      "show_id": "s243",
+      "title": "A Trash Truck Christmas",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Children & Family Movies",
+      "cast": "Henry Keane, Glen Keane, Lucas Neff, Brian Baumgartner, Jackie Loeb, John DiMaggio",
+      "director": "Eddie Rosas",
+      "description": "When Santa crash-lands in the junkyard on Christmas Eve, Hank, Trash Truck and their animal friends all have a hand in rescuing the holiday for everyone."
+    },
+    {
+      "show_id": "s4943",
+      "title": "Power Rangers Samurai: Christmas Together, Friends Forever (Christmas Special)",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Movies",
+      "cast": "Alex Heartman, Erika Fong, Hector David Jr., Najee De-Tiege, Brittany Anne Pirtle, Steven Skyler, Rene Naufahu, Felix Ryan, Paul Schrier",
+      "director": "",
+      "description": "On Christmas Eve, as the teens at Shiba House reflect on their first year together, they get an unexpected lesson on the true spirit of the holidays."
+    },
+    {
+      "show_id": "s2273",
+      "title": "Free Rein: The Twelve Neighs of Christmas",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Children & Family Movies, Dramas",
+      "cast": "Jaylen Barron, Billy Angel, Manpreet Bambra, Celine Buckens, Freddy Carter, Bruce Herbelin-Earle, Kerry Ingram, Charlotte Jordan, Geoff McGivern, Martin Bobb-Semple",
+      "director": "Marek Losey",
+      "description": "As Bright Fields preps for its Mistletoe Ball, a broken ornament leads Zoe to a family secret, while Gaby finds herself at the mercy of new boss Mia."
+    },
+    {
+      "show_id": "s286",
+      "title": "Abominable Christmas",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Isabella Acres, Drake Bell, Emilio Estevez, Nolan Gould, Matthew Lillard, Ray Liotta, Jane Lynch, Ariel Winter",
+      "director": "Chad Van De Keere",
+      "description": "Two small abominable snowmen flee their mountain to escape a scientist who's trying to capture them and end up spending Christmas with a human family."
+    },
+    {
+      "show_id": "s221",
+      "title": "A Russell Peters Christmas",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Russell Peters, Pamela Anderson, Michael Bublé, Jon Lovitz, Scott Thompson, Faizon Love, Goapele, Ted Lange",
+      "director": "Henry Sarwer-Foner",
+      "description": "Inspired by the variety shows of the 1970s, \"A Russell Peters Christmas\" is a sweet, silly, sentimental and, most of all, funny Christmas special."
+    },
+    {
+      "show_id": "s5134",
+      "title": "Red Christmas",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Horror Movies",
+      "cast": "Dee Wallace, Geoff Morrell, Sarah Bishop, Janis McGavin, David Collins, Bjorn Stewart, Gerard O'Dwyer, Deelia Meriel, Sam Campbell, Anthony Jensen, Robert Anderson",
+      "director": "Craig Anderson",
+      "description": "A family Christmas gathering at an isolated Australian estate turns into the holiday from hell after a mysterious stranger turns up at the door."
+    },
+    {
+      "show_id": "s2849",
+      "title": "How To Ruin Christmas",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Comedies, TV Dramas",
+      "cast": "",
+      "director": "",
+      "description": "Prodigal daughter Tumi tries to make things right after completely ruining what should have been her sister's picture-perfect Christmas wedding."
+    },
+    {
+      "show_id": "s234",
+      "title": "A StoryBots Christmas",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Edward Asner, Judy Greer, Erin Fitzgerald, Fred Tatasciore, Jeff Gill, Gregg Spiridellis, Evan Spiridellis, Jim Meskimen, Nate Theis",
+      "director": "Evan Spiridellis, Jeff Gill",
+      "description": "Bo thinks her holiday gift-giving isn't good enough, so she heads north to study under Santa Claus – only to find he's missing."
+    },
+    {
+      "show_id": "s3248",
+      "title": "Just Another Christmas",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Leandro Hassum, Elisa Pinheiro, Danielle Winits, Louise Cardoso, Rodrigo Fagundes, Arianne Botelho, Miguel Rômulo, José Rubens Chachá, Levi Ferreira, Daniel Filho",
+      "director": "Roberto Santucci",
+      "description": "Stuck in a time loop where it's forever Christmas, a family man who hates the holiday starts to learn valuable lessons about what's important in life."
+    },
+    {
+      "show_id": "s172",
+      "title": "A Family Reunion Christmas",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Movies",
+      "cast": "Loretta Devine, Tia Mowry-Hardrict, Anthony Alabi, Talia Jackson, Isaiah Russell-Bailey, Cameron J. Wright, Jordyn Raya James, Jackée Harry, Richard Roundtree",
+      "director": "Robbie Countryman",
+      "description": "M'Dear and her sisters struggle to keep their singing act together before a church Christmas pageant while Grandpa teaches the kids a valuable lesson."
+    },
+    {
+      "show_id": "s1869",
+      "title": "DreamWorks Home: For the Holidays",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Children & Family Movies, Comedies, Music & Musicals",
+      "cast": "Rachel Crow, Mark Whitten, Kelly Clarkson, Ana Ortiz, Ben Schwartz, Ron Funches, Matt Jones",
+      "director": "",
+      "description": "Oh takes it upon himself to introduce Christmas joy to his fellow Boovs. Unfortunately, his well-meaning mission nearly destroys the city."
+    },
+    {
+      "show_id": "s6770",
+      "title": "The Polar Express",
+      "type": "Movie",
+      "release_year": 2004,
+      "listed_in": "Children & Family Movies",
+      "cast": "Tom Hanks, Leslie Zemeckis, Eddie Deezen, Nona Gaye, Peter Scolari, Brendan King, Andy Pellick, Michael Jeter, Chris Coppola, Julene Renee",
+      "director": "Robert Zemeckis",
+      "description": "In this warm-hearted tale, a young boy's faith in the holiday spirit is revived after he makes his way by train to the North Pole on Christmas Eve."
+    },
+    {
+      "show_id": "s7725",
+      "title": "You Can’t Fight Christmas",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Romantic Movies",
+      "cast": "Brely Evans, Andra Fuller, Persia White, Porscha Coleman, Travis Winfrey, Nathan Davis Jr., Dedrick Bonner, Matthew Jones, Larry Poindexter, Richard Gant, Marla Gibbs",
+      "director": "Kenny Young",
+      "description": "After stepping in to revitalize his family's hotel, a money-minded businessman clashes with the hotel's cheery, Christmas-loving decorator."
+    },
+    {
+      "show_id": "s178",
+      "title": "A Go! Go! Cory Carson Christmas",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Children & Family Movies",
+      "cast": "Alan C. Lim, Taron C. Hensley, Maisie Benson, Kerry Gudjohnsen, Paul Killam, Smith Foreman, Ann Kendrick, Ella Joy Ballesteros, Neena-Sinaii Simpo, Eli Morse",
+      "director": "Stanley Moore, Alex Woo",
+      "description": "When a familiar-looking stranger crashes in without a memory, Cory helps him remember the magic of Christmas to save the holiday for everyone."
+    },
+    {
+      "show_id": "s149",
+      "title": "A Bad Moms Christmas",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies",
+      "cast": "Mila Kunis, Kristen Bell, Kathryn Hahn, Susan Sarandon, Christine Baranski, Jay Hernandez, Cheryl Hines, Peter Gallagher, Justin Hartley",
+      "director": "Jon Lucas, Scott Moore",
+      "description": "Stressed-out moms Amy, Carla and Kiki are back, and the looming Christmas holiday gets even more daunting when their mothers show up for a visit."
+    },
+    {
+      "show_id": "s5385",
+      "title": "Santa's Apprentice",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Children & Family Movies",
+      "cast": "Julie Gayet, Jean-Pierre Marielle, Lorànt Deutsch, Bruno Salomone, Pierre-François Martin-Laval, Didier Brice, Benoît Allemane, Nathan Simony, Daniela Duspara, Max Cullen",
+      "director": "Luc Vinciguerra",
+      "description": "Young orphan Nicolas learns how to guide a sleigh, slide down chimneys and other duties he'll need when he becomes the next Santa Claus."
+    },
+    {
+      "show_id": "s1188",
+      "title": "Camera Store",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, Dramas",
+      "cast": "John Larroquette, John Rhys-Davies, Paul Ben-Victor, David James Elliott, Laura Silverman, Cheryl Ladd, Justin Lieberman, Maddie McCormick",
+      "director": "Scott Marshall Smith",
+      "description": "With the digital revolution just around the corner, the employees of Bibideaux camera store strive to stay relevant amid unstoppable change."
+    },
+    {
+      "show_id": "s2140",
+      "title": "Feel Good",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Romantic TV Shows, TV Comedies, TV Dramas",
+      "cast": "Mae Martin, Charlotte Ritchie, Lisa Kudrow, Sophie Thompson, Tom Andrews, Tobi Bamtefa, Phil Burgers, Ophelia Lovibond, Adrian Lukis, Ritu Arya, Ramon Tikaram",
+      "director": "Ally Pankiw",
+      "description": "Stand-up comic Mae Martin navigates a passionate, messy new relationship with her girlfriend, George, while dealing with the challenges of sobriety."
+    },
+    {
+      "show_id": "s5334",
+      "title": "Sad Hill Unearthed",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Guillermo de Oliveira",
+      "description": "An eclectic group of fans of 1966's \"The Good, the Bad and the Ugly\" attempt to restore the cemetery set in Spain where the movie's climax was filmed."
+    },
+    {
+      "show_id": "s4949",
+      "title": "Power Rangers Super Samurai: Stuck on Christmas",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Children & Family Movies, Sci-Fi & Fantasy",
+      "cast": "Alex Heartman, Najee De-Tiege, Hector David Jr., Erika Fong, Brittany Anne Pirtle, Steven Skyler, Paul Schrier, Felix Ryan, Jeff Szusterman, Stig Alred, Kate Elliot",
+      "director": "",
+      "description": "The Samurai Rangers get stuck in the Megazord's cockpit on Christmas Eve when it breaks down. Can the Rangers get out in time for Christmas?"
+    },
+    {
+      "show_id": "s7001",
+      "title": "The Willoughbys",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Will Forte, Maya Rudolph, Ricky Gervais, Alessia Cara, Terry Crews, Jane Krakowski, Martin Short, Seán Cullen",
+      "director": "Kris Pearn",
+      "description": "Four siblings with horribly selfish parents hatch a plan to get rid of them for good and form a perfectly imperfect family of their own."
+    },
+    {
+      "show_id": "s2775",
+      "title": "Holiday Secrets",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Corinna Harfouch, Christiane Paul, Svenja Jung, Leonie Benesch, Anita Vulesica, Barbara Nüsse, Hans-Uwe Bauer, Lorna zu Solms, Tilda Jenkins, Emilie Neumeister, Golo Euler, Dennis Herrmann, Maik Solbach, Merlin Rose",
+      "director": "",
+      "description": "A Christmas reunion becomes a gateway to the past in this three-part series that explores the intimate complexities of one family's history."
+    },
+    {
+      "show_id": "s498",
+      "title": "An Unremarkable Christmas",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Antonio Sanint, Luis Eduardo Arango, María Cecilia Sánchez, Mariana Gómez, Julián Cerati, Aura Cristina Geithener, Biassini Segura, Lina Tejeiro, Julio César Herrera, Christian Villamil",
+      "director": "Juan Camilo Pinzon",
+      "description": "An accountant and aspiring magician invites his boss to spend Christmas with his family — unaware that he's one of Colombia's most-wanted criminals."
+    },
+    {
+      "show_id": "s2207",
+      "title": "Flinch",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Reality TV",
+      "cast": "Desiree Burch, Lloyd Griffith, Seann Walsh",
+      "director": "",
+      "description": "Harrowing and hilarious tests await the brave and foolhardy, as well as the judges, in this comedy game show. If they flinch, they feel the pain."
+    },
+    {
+      "show_id": "s1027",
+      "title": "BoJack Horseman Christmas Special: Sabrina's Christmas Wish",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Movies",
+      "cast": "Will Arnett, Aaron Paul, Alison Brie, Adam Conover, Kristen Schaal, Fred Savage",
+      "director": "",
+      "description": "It's Christmas, and BoJack wants nothing to do with it. Then Todd shows up with a giant candy cane and an old \"Horsin' Around\" Christmas episode."
+    },
+    {
+      "show_id": "s6219",
+      "title": "The Christmas Chronicles",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Kurt Russell, Darby Camp, Judah Lewis, Kimberly Williams-Paisley, Oliver Hudson, Lamorne Morris, Martin Roach",
+      "director": "Clay Kaytis",
+      "description": "After accidentally crashing Santa's sleigh, a brother and sister pull an all-nighter to save Christmas with a savvy, straight-talking St. Nick."
+    },
+    {
+      "show_id": "s6221",
+      "title": "The Christmas Project",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Jacob Buster, Anson Bagley, Grace Hallows, Josh Reid, Cooper Daniel Johnson, Alison Akin Clark, Brian Neal Clark, Evan Clark, Caitlin E.J. Meyer, Gabe White",
+      "director": "Michael Buster",
+      "description": "Four brothers prepare for war when they're forced to deliver secret holiday gifts to the school bullies. But they soon learn kindness goes a long way."
+    },
+    {
+      "show_id": "s5760",
+      "title": "Spirit Riding Free: Spirit of Christmas",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Children & Family Movies",
+      "cast": "Amber Frank, Bailey Gambertoglio, Sydney Park, Evan Agos, Kay Bess, Darcy Rose Byrnes, David Faustino, Gabriella Graves, Duncan Joiner, Katherine McNamara, Nolan North, Tiya Sircar",
+      "director": "",
+      "description": "Lucky and friends must figure out how to get home in time for Christmas when a falling boulder – and a serious snowstorm – derail their travel plans."
+    },
+    {
+      "show_id": "s6220",
+      "title": "The Christmas Chronicles: Part Two",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Kurt Russell, Goldie Hawn, Darby Camp, Jahzir Bruno, Julian Dennison, Judah Lewis, Kimberly Williams-Paisley, Tyrese Gibson",
+      "director": "Chris Columbus",
+      "description": "Unhappy over her mom’s new relationship, a now-teenage Kate runs away and lands at the North Pole, where a naughty elf is plotting to cancel Christmas."
+    },
+    {
+      "show_id": "s247",
+      "title": "A Very Country Christmas",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Music & Musicals, Romantic Movies",
+      "cast": "Bea Santos, Greyston Holt, Greg Vaughan, Deana Carter, Allison Hossack",
+      "director": "Justin G. Dyck",
+      "description": "When an unfulfilled country music star hides out in his hometown, he meets a budding interior designer who finds her way into his heart."
+    },
+    {
+      "show_id": "s3857",
+      "title": "Magic Snowflake",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Children & Family Movies",
+      "cast": "Nathan Simony, Benoît Allemane, Vincent Grass, Jean-Claude Donda, Alexis Tomassian, Pascal Sellem, Evelyne Grandjean, Alice Révérend, Kylian Trouillard, Céline Melloul",
+      "director": "Luc Vinciguerra",
+      "description": "Young Nicolas agrees to do Santa's work for one year. But the stress of the job threatens the boy's sense of joy – and Christmas itself."
+    },
+    {
+      "show_id": "s1370",
+      "title": "Christmas Wedding Planner",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Stephen Huszar, Kelly Rutherford",
+      "director": "Justin G. Dyck",
+      "description": "A wedding planner’s world is turned upside down when a handsome private investigator is hired to disrupt one of her biggest jobs."
+    },
+    {
+      "show_id": "s1363",
+      "title": "Christmas Break-In",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Danny Glover, Denise Richards, Cameron Seely, Sean O'Bryan, Katrina Begin, Jake Van Wagoner, Douglas Spain, Dawson Ehlke",
+      "director": "Michael Kampa",
+      "description": "Stranded at school before holiday break, a precocious girl gets into the spirit of saving when a trio of robbers trespass and hold the janitor hostage."
+    },
+    {
+      "show_id": "s5595",
+      "title": "Si Doel the Movie 3",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, International Movies, Music & Musicals",
+      "cast": "Rano Karno, Cornelia Agatha, Maudy Koesnaedi, Suty Karno, Mandra Naih, Aminah Tjendrakasih, Rey Bong, Akhmad Zulhoir Mardia",
+      "director": "Rano Karno",
+      "description": "Torn between reuniting with one family and leaving another behind, Doel must choose between the two women he loves."
+    },
+    {
+      "show_id": "s7065",
+      "title": "Three Days of Christmas",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, Spanish-Language TV Shows, TV Dramas",
+      "cast": "Victoria Abril, Elena Anaya, Mar Ayala, Nerea Barros, Berta Castañé, Verónica Echegui, Verónica Forqué, Ángela Molina, Anna Moliner, Charo López, Mariona Pagès, Carla Tous, Carles Arquimbau, Manel Barceló, Nausicaa Bonnín, Alicia Borrachero, Antonio Dechent, Miquel Fernández, Francesc Garrido, Iván Morales, Susi Sánchez, David Solans",
+      "director": "",
+      "description": "Four sisters deal with family drama and secrets throughout three different time periods, all occurring on Christmas Day."
+    },
+    {
+      "show_id": "s5009",
+      "title": "Puppy Star Christmas",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Kaitlyn Maher, Mackenzie Sol, Makenzie Moss, David DeLuise, George Newbern, Reggie De Leon, Diedrich Bader, Chloe Coleman, Oakley Bull, Dillon Fontana, vivienne Rutherford, Tyreese Burnett",
+      "director": "Robert Vince",
+      "description": "A new pack of Pup Star pooches stumbles upon a rival team’s plan to ruin Christmas, then ends up at the North Pole to try and save the holiday spirit."
+    },
+    {
+      "show_id": "s1369",
+      "title": "Christmas Survival",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies",
+      "cast": "Julian Ovenden, Gemma Whelan, Joely Richardson, Michael Landes, Sally Phillips, Patricia Hodge, Ronni Ancona, James Fox, Sophie Simnett, Jade Ma",
+      "director": "James Dearden",
+      "description": "With Christmas just around the corner, sisters Miranda and Lyla bring their families to their childhood home, where rivalries don't take a holiday."
+    },
+    {
+      "show_id": "s1372",
+      "title": "Christmas With A View",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "International Movies, Romantic Movies",
+      "cast": "Scott Cavalheiro, Kaitlyn Leeb, Vivica A. Fox, Patrick Duffy, Jess Walton, Mark Ghanimé",
+      "director": "Justin G. Dyck",
+      "description": "Still reeling from a business failure, the restaurant manager of a ski resort finds her world jolted by a new chef, who has his own hidden past."
+    },
+    {
+      "show_id": "s4712",
+      "title": "Over Christmas",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Comedies",
+      "cast": "Luke Mockridge, Seyneb Saleh, Cristina do Rego, Lucas Reiber, Johanna Gastdorf, Rudolf Kowalski, Carmen-Maja Antoni, Eugen Bauder, Jonathan Kwesi Aikins, Martina Eitner-Acheampong, Eike Weinreich, Eskindir Tesfay",
+      "director": "",
+      "description": "Down-and-out musician Bastian battles the blues as he returns home for Christmas and encounters a series of not-so-cheery surprises."
+    },
+    {
+      "show_id": "s160",
+      "title": "A Christmas Prince",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Children & Family Movies, Dramas, Romantic Movies",
+      "cast": "Rose McIver, Ben Lamb, Alice Krige, Honor Kneafsey",
+      "director": "Alex Zamm",
+      "description": "Christmas comes early for an aspiring young journalist when she's sent abroad to get the scoop on a dashing prince who's poised to be king."
+    },
+    {
+      "show_id": "s4975",
+      "title": "Prince of Peoria: A Christmas Moose Miracle",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Gavin Lewis, Theodore Barnes, Shelby Simmons, Cynthia Kaye McWilliams",
+      "director": "Jon Rosenbaum",
+      "description": "Teddy's never missed the Festival of Lights, but the bowling alley’s been snowed in! Not to worry – Emil insists the Christmas moose will save the day."
+    },
+    {
+      "show_id": "s2840",
+      "title": "How the Grinch Stole Christmas",
+      "type": "Movie",
+      "release_year": 2000,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Jim Carrey, Taylor Momsen, Jeffrey Tambor, Christine Baranski, Bill Irwin, Molly Shannon, Clint Howard, Josh Ryan Evans, Mindy Sterling, Anthony Hopkins",
+      "director": "Ron Howard",
+      "description": "The Grinch decides to rob Whoville of Christmas – but a dash of kindness from little Cindy Lou Who and her family may be enough to melt his heart."
+    },
+    {
+      "show_id": "s155",
+      "title": "A California Christmas",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Comedies, Romantic Movies",
+      "cast": "Lauren Swickard, Josh Swickard, Ali Afshar, David Del Rio, Natalia Mann, Katelyn Epperly, Gunnar Anderson, Julie Lancaster, Amanda Detmer",
+      "director": "Shaun Paul Piccinino",
+      "description": "With his carefree lifestyle on the line, a wealthy charmer poses as a ranch hand to get a hardworking farmer to sell her family’s land before Christmas."
+    },
+    {
+      "show_id": "s4141",
+      "title": "Miss Me This Christmas",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Romantic Movies",
+      "cast": "Eva Marcille, Richard Gant, Redaric Williams, Allen Maldonado, Erica Ash, Brely Evans",
+      "director": "Kenny Young",
+      "description": "With their divorce set to become final on Christmas day, a couple must decide if they're really ready to throw in the towel on their relationship."
+    },
+    {
+      "show_id": "s3101",
+      "title": "Jack Whitehall: Christmas with My Father",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Jack Whitehall, Michael Whitehall, Hugh Bonneville, Graham Norton, Layton Williams, Andrew Lloyd Webber, Tim Rice, Tan France, Antoni Porowski, Jonathan Van Ness",
+      "director": "Richard van't Riet",
+      "description": "Jack Whitehall invites his notoriously stuffy father onstage in London's West End for a Christmas comedy extravaganza, complete with celebrity guests."
+    },
+    {
+      "show_id": "s6456",
+      "title": "The Holiday Movies That Made Us",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Unwrap the real stories behind these iconic Christmas blockbusters, thanks to insider interviews and behind-the-scenes peeks."
+    },
+    {
+      "show_id": "s521",
+      "title": "Angela's Christmas Wish",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Children & Family Movies",
+      "cast": "Lucy O'Connell, Brendan Mullins, Ruth Negga, Lola Metcalfe, Jared Harris, Moe Dunford, Oscar Butler, Shona Hamill, Pat Kinevane, Janet Moran, Anya O'Connor",
+      "director": "Damien O’Connor",
+      "description": "With her father working far away in Australia, a determined Angela makes a plan — and a heartfelt wish — to reunite her family in time for the holidays."
+    },
+    {
+      "show_id": "s520",
+      "title": "Angela's Christmas",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Children & Family Movies",
+      "cast": "Lucy O'Connell, Ruth Negga, Brendan Mullins, Malachy McCourt, Vivian Drew, Anya O'Connor, Janet Moran, Brian Gleeson, Pat Kinevane",
+      "director": "Damien O’Connor",
+      "description": "A trip to church with her family on Christmas Eve gives young Angela an extraordinary idea. A heartwarming tale based on a story by Frank McCourt."
+    },
+    {
+      "show_id": "s4957",
+      "title": "Power Rangers: Megaforce: The Robo Knight Before Christmas",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Children & Family Movies",
+      "cast": "Andrew M. Gray, Ciara Hanna, John Mark Loudermilk, Christina Masterson, Azim Rizk, Shailesh Prajapati, Ian Harcourt",
+      "director": "James Barr",
+      "description": "Robo Knight learns the meaning of Christmas from a group of children when he is mistaken for a donated Christmas toy and is shipped to a foreign land."
+    },
+    {
+      "show_id": "s1843",
+      "title": "Dr. Seuss' The Grinch",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Benedict Cumberbatch, Cameron Seely, Rashida Jones, Pharrell Williams, Kenan Thompson, Angela Lansbury",
+      "director": "Scott Mosier, Yarrow Cheney",
+      "description": "A grump with a mean streak plots to bring Christmas to a halt in the cheerful town of Whoville. But a generous little girl could change his heart."
+    }
+  ]
+}

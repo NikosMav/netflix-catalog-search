@@ -1,0 +1,647 @@
+{
+  "split": "test",
+  "query_id": "korea_border_romance",
+  "query": "South Korean romance about a woman stranded in North Korea",
+  "candidates": [
+    {
+      "show_id": "s3681",
+      "title": "Live",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, International TV Shows, Korean TV Shows",
+      "cast": "Jung Yu-mi, Lee Kwang-soo, Bae Seong-woo, Bae Jong-ok, Sung Dong-il",
+      "director": "",
+      "description": "The police officers at South Korea's busiest patrol division toil day and night as keepers of law and peace – but the reality is far from orderly."
+    },
+    {
+      "show_id": "s1752",
+      "title": "Die Another Day",
+      "type": "Movie",
+      "release_year": 2002,
+      "listed_in": "Action & Adventure",
+      "cast": "Pierce Brosnan, Halle Berry, Toby Stephens, Rick Yune, Rosamund Pike, Judi Dench, John Cleese, Michael Madsen, Will Yun Lee, Kenneth Tsang, Emilio Echevarría, Mikhail Gorevoy, Lawrence Makoare, Colin Salmon, Samantha Bond",
+      "director": "Lee Tamahori",
+      "description": "Pierce Brosnan's final outing as 007 finds James Bond facing off against a North Korean terrorist who's in league with a British diamond merchant."
+    },
+    {
+      "show_id": "s5188",
+      "title": "Revolutionary Love",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Choi Si-won, Kang So-ra, Gong Myoung",
+      "director": "",
+      "description": "A third-generation chaebol falls in love with a woman who opens his eyes to the struggles of the working class and inspires him to make a difference."
+    },
+    {
+      "show_id": "s2657",
+      "title": "Have You Ever Fallen in Love, Miss Jiang?",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Lan Cheng-lung, Esther Yeh, He Yu-chen, Greg Han",
+      "director": "",
+      "description": "A new teacher finds herself in an unenviable situation after witnessing a troubling interaction between an administrator and a student."
+    },
+    {
+      "show_id": "s3950",
+      "title": "Marriage Story",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas",
+      "cast": "Scarlett Johansson, Adam Driver, Laura Dern, Alan Alda, Ray Liotta, Julie Hagerty, Merritt Wever, Azhy Robertson",
+      "director": "Noah Baumbach",
+      "description": "Academy Award-nominated filmmaker Noah Baumbach directs this incisive and compassionate look at a marriage coming apart and a family staying together."
+    },
+    {
+      "show_id": "s3072",
+      "title": "마녀사냥",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "International TV Shows, Korean TV Shows, Stand-Up Comedy & Talk Shows",
+      "cast": "Si-kyung Sung, Se-yoon Yoo, Dong-yup Shin, Ji-woong Heo, Sam Hammington",
+      "director": "",
+      "description": "Four Korean celebrity men and guest stars of both genders discuss women, sex and relationships – to an unprecedented degree of openness."
+    },
+    {
+      "show_id": "s6626",
+      "title": "The Lovers and the Despot",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Robert Cannan, Ross Adam",
+      "description": "This firsthand account tells of two kidnapped South Korean movie professionals who became the unwilling personal filmmakers of dictator Kim Jong-il."
+    },
+    {
+      "show_id": "s1410",
+      "title": "Class of '61",
+      "type": "Movie",
+      "release_year": 1993,
+      "listed_in": "Dramas",
+      "cast": "Christien Anholt, Andre Braugher, Dan Futterman, Josh Lucas, Clive Owen, Sophie Ward, Sue-Ann Leeds, Laura Linney",
+      "director": "Gregory Hoblit",
+      "description": "As the Civil War looms, a runaway slave seeks freedom, and West Point cadets find their camaraderie shattered as they choose between North or South."
+    },
+    {
+      "show_id": "s7487",
+      "title": "Was It Love?",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Song Ji-hyo, Son Ho-jun, Song Jong-ho, Koo Ja-sung, Kim Min-jun, Kim Da-som, Kim Mee-kyung, Um Chae-young, Kim Young-ah, Kim Byung-choon",
+      "director": "",
+      "description": "When four very different men appear in her life, a single mother who hasn't dated in years begins to rediscover love — and herself."
+    },
+    {
+      "show_id": "s62",
+      "title": "12 Years Promise",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "So-yeon Lee, Namkoong Min, Tae-im Lee, So-hui Yoon, Won-keun Lee, Hyo-young Ryu",
+      "director": "",
+      "description": "A pregnant teen is forced by her family to leave her boyfriend and assume a new identity in America, but 12 years later, the couple reunites in Korea."
+    },
+    {
+      "show_id": "s3884",
+      "title": "Malaal",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Meezaan Jaffrey, Sharmin Segal, Chinmaya Surve, Anil Gawas, Sonal Jha, Sanjay Gurbaxani, Sameer Dharmadhikari, Deepak Damle",
+      "director": "Mangesh Hadawale",
+      "description": "Class divides become thorns in the budding romance between the crony of a nativist Mumbai politician and the new, North Indian resident of his chawl."
+    },
+    {
+      "show_id": "s3612",
+      "title": "Let’s Eat",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Lee Soo-kyung, Yoon Du-jun, Yoon So-hui, Shim Hyoung-tak, Do-yeon Lee, Jang Won-young, Jung Soo-young",
+      "director": "",
+      "description": "With the help of her neighbors, a divorced woman residing in a one-person-household apartment complex learns to balance living alone and eating well."
+    },
+    {
+      "show_id": "s7574",
+      "title": "What's Up?",
+      "type": "Movie",
+      "release_year": 2006,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Hisham Abdulrahman, Turki Al-Yusuf, Mais Hamdan, Khaled Sami, Mishal Al-Mutairi, Hind Muhamed",
+      "director": "Izidore K. Musallam",
+      "description": "Flirting with modernity, a young woman must keep her new romance a secret from her conservative brother, who plans to keep her in line with tradition."
+    },
+    {
+      "show_id": "s4354",
+      "title": "My Secret Romance",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Sung Hoon, Song Ji-eun, Kim Jae-young, Jeong Da-sol, Lee Kan-hee, Kim Jong-goo, Park Sin-un, Jeon So-min",
+      "director": "",
+      "description": "A nutritionist gets entangled in a series of misunderstandings with her new chaebol boss – who turns out to be someone she slept with in the past."
+    },
+    {
+      "show_id": "s1304",
+      "title": "Chef & My Fridge",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Korean TV Shows, Reality TV",
+      "cast": "Seong-joo Kim​, Jung-hwan Ahn",
+      "director": "",
+      "description": "The best chefs of Korea go head-to-head to create impromptu dishes that feature ingredients found inside the guest stars' very own refrigerators."
+    },
+    {
+      "show_id": "s5709",
+      "title": "Something in the Rain",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Son Ye-jin, Jung Hae-in, Jang So-yeon",
+      "director": "",
+      "description": "Reunited with her best friend’s younger brother, who’s back from a stint abroad, a recently dumped career woman begins to see him in a new light."
+    },
+    {
+      "show_id": "s2493",
+      "title": "Goodbye My Wife",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Soo-hyun Hong, Si Won Ryu, Ji-yoon Park, Min-soo Kim, Julien Kang, Joo-eun Oh, Seong-mo Jeong",
+      "director": "",
+      "description": "A couple’s five-year marriage is put on the line when each of their first loves comes back hoping for another shot at romance."
+    },
+    {
+      "show_id": "s436",
+      "title": "AlphaGo",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Greg Kohs",
+      "description": "Seemingly simple but deceptively complex, the game of \"Go\" serves as the backdrop for this battle between artificial intelligence and man."
+    },
+    {
+      "show_id": "s5414",
+      "title": "Save Our Shelter",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Reality TV",
+      "cast": "Rocky Kanaka, Rob North",
+      "director": "",
+      "description": "Pet rescue expert Rocky Kanaka and renovation specialist Rob North travel across North America, transforming animal shelters to help homeless pets."
+    },
+    {
+      "show_id": "s2695",
+      "title": "Hello, Love, Goodbye",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Kathryn Bernardo, Alden Richards, Maymay Entrata, Maricel Laxa, Joross Gamboa, Jameson Blake, Kaka Bautista, Lito Pimentel, Jeffrey Tam, Lovely Abella",
+      "director": "Cathy Garcia-Molina",
+      "description": "In Hong Kong, the lives of two overseas Filipino workers intertwine as they navigate daily duties, career aspirations and romantic possibilities."
+    },
+    {
+      "show_id": "s4344",
+      "title": "My Only Love Song",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Seung-yeon Gong, Jong-hyun Lee, Yeon-seo Kim, Bo-hyun Ahn, Jai-jin Lee, Joo-hyung Park",
+      "director": "",
+      "description": "When things don't go her way during a shooting for her new show, a top actress runs away in an old van that guides her on a time-traveling journey."
+    },
+    {
+      "show_id": "s3792",
+      "title": "Lovestruck in the City",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Comedies",
+      "cast": "Ji Chang-wook, Kim Ji-won, Kim Min-seok, Han Ji-eun, Ryu Gyeong-soo, So Joo-yeon",
+      "director": "",
+      "description": "Heart stolen by a free-spirited woman after a beachside romance, a passionate architect sets out to reunite with her on the streets of Seoul."
+    },
+    {
+      "show_id": "s5941",
+      "title": "Sweetheart",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Horror Movies, Sci-Fi & Fantasy, Thrillers",
+      "cast": "Kiersey Clemons, Emory Cohen, Hanna Mangan Lawrence, Andrew Crawford, Benedict Samuel",
+      "director": "J.D. Dillard",
+      "description": "A woman shipwrecked on a remote island discovers she’s not alone and begins a fight for survival against a deadly presence that emerges each night."
+    },
+    {
+      "show_id": "s4116",
+      "title": "Miniforce X",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Kids' TV, Korean TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "Zenos wants to use the Earth’s negative energy for his own good – and it's up to Miniforce X to stop this space alien’s evil plans."
+    },
+    {
+      "show_id": "s192",
+      "title": "A Korean Odyssey",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Lee Seung-gi, Cha Seung-won, Oh Yeon-seo, Lee Hong-gi, Jang Gwang, Lee Se-young",
+      "director": "",
+      "description": "A self-serving mythical creature's bid for invincibility backfires when he finds himself at the mercy of a woman who can see otherworldly beings."
+    },
+    {
+      "show_id": "s1324",
+      "title": "Chicago Typewriter",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Yoo Ah-in, Im Soo-jung, Ko Kyoung-pyo, Kwak Si-yang, Jo Woo-jin, Yang Jin-sung, Jeon Soo-kyeong, Ji Dae-han, Chun Ho-jin",
+      "director": "",
+      "description": "A veterinarian and two writers have a mysterious connection to Korean independence fighters from the Japanese colonial period."
+    },
+    {
+      "show_id": "s6816",
+      "title": "The Reservoir Game",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Choi Jin-seong",
+      "description": "An investigative reporter seeks to expose the whereabouts of a slush fund belonging to the former president of South Korea, Lee Myung-bak."
+    },
+    {
+      "show_id": "s7556",
+      "title": "What in the World Happened?",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Eun-mi Go, Jaehyo, Eun-Hyung Jo, Ha-yeon Kim, Shin Yi, Kwang-sun Park",
+      "director": "",
+      "description": "A happy secret romance between a 40-year-old woman and a 25-year-old man is complicated after a greeting card grants her wish to be young again."
+    },
+    {
+      "show_id": "s882",
+      "title": "Bhaage Re Mann",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Karuna Pandey, Chandan Anand, Kanika Shivpuri, Ved Thappar, Nupur Alankar, Tarun Mehta, Priya Marathe, Vasundhara Kaul, Ankit Narang, Arshima Thapar",
+      "director": "",
+      "description": "An impulsive, free-spirited woman who's defied convention for much of her life suddenly finds herself flirting with a classic romance."
+    },
+    {
+      "show_id": "s5163",
+      "title": "Reply 1994",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Go Ara, Jung Woo, Sung Dong-il, Dohee, Son Ho-jun, Kim Sung-kyun, Cha Seon-wu, Yoo Yeon-seok, Lee Il-hwa",
+      "director": "Shin Won-ho",
+      "description": "All hailing from various parts of Korea, a group of college students go from being complete strangers to a big happy family at a Seoul boarding house."
+    },
+    {
+      "show_id": "s727",
+      "title": "Bangkok Love Stories: Plead",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Chanon Santinatornkul, Sutatta Udomsilp, Morakot Liu, Varot Makaduangkeo, Sutthatip Wutichaipradit, Cholsawas Tiewwanichkul, Surapol Poonpiriya, Hattaya Wongkrachang",
+      "director": "",
+      "description": "In Bangkok's Chinatown, a spirited digital marketing expert falls for a blind fortune-teller, but their love is predestined to end in disaster."
+    },
+    {
+      "show_id": "s2608",
+      "title": "Happy And",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "International TV Shows, Korean TV Shows, TV Dramas",
+      "cast": "Hee-Jin Lee, Hae-seong Kwon, Paul Stafford, Mi-ji Lee, Ik-tae Kim, Ki-hyeon Kim",
+      "director": "",
+      "description": "This relatable relationship drama explores the real-life trials and joys of married life through the lens of 11 different wives."
+    },
+    {
+      "show_id": "s5459",
+      "title": "Secret Affair",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Hee-ae Kim, Ah-in Yoo, Hye-jin Shim, Hyuk-kwon Park, Hye-eun Kim, Soo-jin Kyung, Yong-gun Kim, Chang-wan Kim, Tae-hwan Choi, Kan-hie Lee",
+      "director": "",
+      "description": "A married middle-aged woman is swept off her feet, both romantically and artistically, by a gifted young pianist."
+    },
+    {
+      "show_id": "s726",
+      "title": "Bangkok Love Stories: Objects of Affection",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Apinya Sakuljaroensuk, Kanokchat Munyadon, Gyeon Seo, Nalin Hohler, Thongpoom Siripipat, Chinawut Indracusin, Preeyada Sitthachai, Akarin Akaranitimaytharatt, Adul Charoenrasameekiat, Kanlaya Lertkasemsup",
+      "director": "",
+      "description": "A kind computer repairman falls for a street-smart graffiti artist whose multiple personality disorder worsens after she witnesses a double murder."
+    },
+    {
+      "show_id": "s4779",
+      "title": "Park Na-rae: Glamour Warning",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Park Na-rae",
+      "director": "Kim Joo-hyung",
+      "description": "Korea’s beloved comedian and favorite big sister figure talks sex, relationships and celebrity life. And she’s sassier and dirtier than ever before."
+    },
+    {
+      "show_id": "s7666",
+      "title": "World Famous Lover",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Vijay Deverakonda, Raashi Khanna, Aishwarya Rajesh, Catherine Tresa, Izabelle Leite",
+      "director": "Kranthi Madhav",
+      "description": "When his frustrated girlfriend decides to leave him, a struggling writer gets down to work on stories of romance he hopes will win her back."
+    },
+    {
+      "show_id": "s3775",
+      "title": "Love Rain",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Keun-suk Jang, Yoon-ah Im, Shi-hoo Kim, Eun-seo Son, In-guk Seo, Bo-ra Hwang, Jin-young Jung, Mi-sook Lee",
+      "director": "",
+      "description": "A story of two couples' journey of new love, loss and unexpected reunion spans decades, from the 1970s through present day."
+    },
+    {
+      "show_id": "s725",
+      "title": "Bangkok Love Stories: Innocence",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Nida Patcharaveerapong, Nicole Theriault, Nattapol Diloknawarit, Tosatid Darnkhuntod, Narupornkamol Chaisang, Pavadee Komchokpaisan, Kawin Manonukul, Ponlawit Ketprapakorn, Rudklao Amratisha, Paramej Noiam, Tachakorn Boonlupyanun, Teera Pratumtree, Nawarat Techarathanaprasert, Naphon Phromsuwan",
+      "director": "",
+      "description": "From a teenage parkour enthusiast to a bawdy restaurateur, an eclectic group of characters find romance in Bangkok's glittering Silom district."
+    },
+    {
+      "show_id": "s92",
+      "title": "26 Years",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Goo Jin, Hye-jin Han, Soo-bin Bae, Seul-ong Im, Kyeong-yeong Lee, Gwang Jang, Deok-jae Jo, Eui-sung Kim, Seok-Hwan An, Bok-gi Min",
+      "director": "Geun-hyun Cho",
+      "description": "Twenty-six years after the 1980 massacre at Gwangju, South Korea, three relatives of the victims come together to avenge the infamous orchestrator."
+    },
+    {
+      "show_id": "s1519",
+      "title": "Crash Landing on You",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Hyun Bin, Son Ye-jin, Seo Ji-hye, Kim Jung-hyun, Oh Man-seok, Kim Young-min, Kim Jung-nan, Kim Sun-young, Hwangwoo Seul-hye",
+      "director": "",
+      "description": "A paragliding mishap drops a South Korean heiress in North Korea – and into the life of an army officer, who decides he will help her hide."
+    },
+    {
+      "show_id": "s6180",
+      "title": "The Bride of Habaek",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Shin Sae-kyeong, Nam Joo-hyuk, Lim Ju-hwan, Krystal Jung, Gong Myoung, Lee Gyoung-young, Yang Dong-geun",
+      "director": "",
+      "description": "When a quest for divine stones in the human world goes awry, the water god Habaek seeks help from a psychiatrist predestined to serve him."
+    },
+    {
+      "show_id": "s6594",
+      "title": "The Lies Within",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, Korean TV Shows",
+      "cast": "Lee Min-ki, Lee Yoo-young, On Ju-wan, Lee Jun-hyeok, Yun Jong-seok, Kim Jong-soo, Seo Hyun-woo, Song Young-chang, Lee Jun-hyuk",
+      "director": "",
+      "description": "After her father dies and her husband goes missing, Kim Seo-hui teams up with detective Jo Tae-sik and joins the National Assembly."
+    },
+    {
+      "show_id": "s7354",
+      "title": "Unlucky Ploy",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Comedies",
+      "cast": "Anusorn Maneethet, Atsadaporn Siriwattanakul, Waratthaya Wongchayaporn, Thanawetch Siriwattanakul, Pokchat Thiamchai, Phichikorn Ployphimana, Supachai Suwanon, Daraneenuch Pasutanavin, Kittiphong Dumavibhat, Aphiradi Phawaphutanon, Attharut Krongrasri, Ronnawee Sereerat, Lita Janvarapa, Sitang Punnapob, Yani Tramod",
+      "director": "Nopparoj Chotmunkongsit",
+      "description": "In this remake of the Korean series, a man becomes mired in the lives of two women who happen to share the same name."
+    },
+    {
+      "show_id": "s5809",
+      "title": "Steel Rain",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Woo-sung Jung, Do-won Kwak, Kap-soo Kim, Woo-jin Jo, Eui-sung Kim, Kyeong-yeong Lee, Won-joong Jung, Hyun-sung Jang",
+      "director": "Yang Woo-seok",
+      "description": "Amid a coup, a North Korean agent escapes south with the country's injured leader in an attempt to keep him alive and prevent a Korean war."
+    },
+    {
+      "show_id": "s2902",
+      "title": "I Am Sun Mu",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Adam Sjöberg",
+      "description": "A North Korean propagandist who escaped to Seoul now creates satirical art about Kim Jong Il's regime and copes with repercussions of his defection."
+    },
+    {
+      "show_id": "s2687",
+      "title": "Helios",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Action & Adventure, International Movies",
+      "cast": "Jacky Cheung, Nick Cheung, Chang Chen, Shawn Yue, Wang Xueqi, Janice Man, Ji Jin-hee, Choi Si-won",
+      "director": "Leung Lok Man, Luk Kim-ching",
+      "description": "When master criminal Helios steals a mobile WMD, rival agents from Hong Kong, South Korea and China must join forces to recover the device."
+    },
+    {
+      "show_id": "s7268",
+      "title": "Tune in for Love",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Kim Go-eun, Jung Hae-in, Park Hae-joon, Kim Guk-hee, Jung Eugene, Choi Jun-young, Yoo Yeol, Nam Mun-cheol",
+      "director": "Jung Ji-woo",
+      "description": "A student and a reticent teen first meet at a bakery in the 1990s and try to find each other through the years, as fate keeps pulling them apart."
+    },
+    {
+      "show_id": "s3747",
+      "title": "Love and Hong Kong",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Eiko Koike, Ryo Yoshizawa, Fumika Baba, Moga Mogami, Tomo Yanagishita, Kaoru Nagata, Ryo Iwamatsu",
+      "director": "",
+      "description": "The lives of five strangers become intertwined forever when a starlet filming a documentary is kidnapped on the streets of Hong Kong."
+    },
+    {
+      "show_id": "s7289",
+      "title": "Two Lovers and a Bear",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, Independent Movies, Romantic Movies",
+      "cast": "Dane DeHaan, Tatiana Maslany, Gordon Pinsent, John Ralston",
+      "director": "Kim Nguyen",
+      "description": "A troubled couple living near the North Pole begins a perilous journey south in an attempt to find peace and vanquish ghosts from the past."
+    },
+    {
+      "show_id": "s1713",
+      "title": "Designated Survivor: 60 Days",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, Korean TV Shows, TV Dramas",
+      "cast": "Ji Jin-hee, Lee Jun-hyuk, Heo Jun-ho, Kang Han-na, Bae Jong-ok, Kim Gyu-ri, Son Suk-ku, Choi Yoon-young, Lee Moo-saeng",
+      "director": "",
+      "description": "When the National Assembly suffers a catastrophic attack, Minister of Environment Park Mu-jin must find a way to lead Korea through the ensuing chaos."
+    },
+    {
+      "show_id": "s7050",
+      "title": "This Is My Love",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Jin-mo Joo, Sa-rang Kim, Junior, Ja-in Lee, Sung-hyun Baek, So-hui Yoon",
+      "director": "",
+      "description": "A renowned actor who is still pining over the loss of his first real love writes an autobiography about his memories of her, hoping to reconnect."
+    },
+    {
+      "show_id": "s4000",
+      "title": "Maya Memsaab",
+      "type": "Movie",
+      "release_year": 1993,
+      "listed_in": "Dramas, International Movies, Music & Musicals",
+      "cast": "Deepa Sahi, Farooq Shaikh, Raj Babbar, Shah Rukh Khan, Shreeram Lagoo, Sudha Shivpuri, Paresh Rawal, Raghuvir Yadav, Satyadev Dubey",
+      "director": "Ketan Mehta",
+      "description": "A beautiful, wealthy woman’s insatiable appetite for romance leads to tragedy and a police investigation."
+    },
+    {
+      "show_id": "s5265",
+      "title": "Romance is a bonus book",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Lee Jong-suk, Lee Na-young, Jung Eugene, Wi Ha-jun, Kim Tae-woo, Kim Yu-mi, Cho Han-cheul, Kim Sun-young",
+      "director": "",
+      "description": "A gifted writer who's the youngest editor-in-chief ever at his publishing company gets enmeshed in the life of a former copywriter desperate for a job."
+    },
+    {
+      "show_id": "s1940",
+      "title": "Ek Ladki Ko Dekha Toh Aisa Laga",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Anil Kapoor, Sonam Kapoor, Rajkummar Rao, Juhi Chawla, Abhishek Duhan, Regina Cassandra, Madhumalti Kapoor, Seema Pahwa, Brijendra Kala, Alka Badola Kaushal",
+      "director": "Shelly Chopra Dhar",
+      "description": "As her family seeks to marry her off and a hopeful writer pursues her, a small-town woman struggles to reveal the long-hidden truth about who she loves."
+    },
+    {
+      "show_id": "s1244",
+      "title": "Catching Feelings",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Kagiso Lediga, Pearl Thusi, Akin Omotoso, Andrew Buckland",
+      "director": "Kagiso Lediga",
+      "description": "Amid growing tensions in their marriage, a Johannesburg professor and his journalist wife find their lives upended by a famous, hard-partying author."
+    },
+    {
+      "show_id": "s4608",
+      "title": "Olympus Has Fallen",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Action & Adventure",
+      "cast": "Gerard Butler, Aaron Eckhart, Morgan Freeman, Finley Jacobsen, Dylan McDermott, Rick Yune, Angela Bassett, Melissa Leo, Radha Mitchell, Cole Hauser, Ashley Judd, Robert Forster",
+      "director": "Antoine Fuqua",
+      "description": "A disgraced Secret Service agent must come to the rescue when Korean terrorists descend on the White House and take the president hostage."
+    },
+    {
+      "show_id": "s2881",
+      "title": "Hymn of Death",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Lee Jong-suk, Shin Hye-sun, Kim Myeong-su, Park Seon-im, Kim Won-hae, Hwang Yeong-hee, Lee Ji-hoon, Go Bo-gyeol, Shin Jae-ha",
+      "director": "",
+      "description": "During the Japanese colonial period, married playwright Kim U-jin falls in love with soprano Yun Sim-deok, one of Korea’s notable New Women."
+    },
+    {
+      "show_id": "s6542",
+      "title": "The Lady in Dignity",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Korean TV Shows, TV Dramas",
+      "cast": "Hee-seon Kim, Seon-a Kim, Sang-hun Jeong, Tae-im Lee, Ki-woo Lee",
+      "director": "",
+      "description": "The wife of a corporate heir finds her luxurious life overturned by a mysterious woman who joins the household as a caregiver for her father-in-law."
+    },
+    {
+      "show_id": "s2422",
+      "title": "Girl from Nowhere",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, TV Dramas, TV Mysteries",
+      "cast": "Chicha Amatayakul, Thanawetch Siriwattanakul, Pajaree Nantarat, Thitinan Khlangphet, Chonnikan Netjui, Nutthasit Kotimanuswanich, Tatchapol Thitiapichai, Chanicha Boonpanuvichit, Morakot Liu, Ekawat Niratvorapanya, Anuchit Sapanpong, Awat Ratanapintha, Claudia Chakrapan, Piyathida Woramusik, Apasiri Kittithanon, Kunchanuj Kengkarnka, Nutnicha Lueanganankhun",
+      "director": "",
+      "description": "A mysterious, clever girl named Nanno transfers to different schools, exposing the lies and misdeeds of the students and faculty at every turn."
+    },
+    {
+      "show_id": "s285",
+      "title": "Abnormal Summit",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Korean TV Shows, Stand-Up Comedy & Talk Shows",
+      "cast": "Hyun-moo Jun, Si-kyung Sung, Se-yoon Yoo",
+      "director": "Jung-ah Im, Seung-uk Jo",
+      "description": "Led by a trio of Korean celebs, a multinational panel of men engage in – usually – lighthearted debates on issues that surround Korea and beyond."
+    },
+    {
+      "show_id": "s4513",
+      "title": "North & South",
+      "type": "TV Show",
+      "release_year": 2004,
+      "listed_in": "British TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Daniela Denby-Ashe, Richard Armitage, Tim Pigott-Smith, Sinéad Cusack, Lesley Manville, Brendan Coyle, Anna Maxwell Martin, Jo Joyner, Pauline Quirke, Kay Lyon",
+      "director": "",
+      "description": "When her father moves his family to an industrial mill town, the parson's daughter, Margaret Hale, struggles to adapt to her harsh new surroundings."
+    },
+    {
+      "show_id": "s5496",
+      "title": "Seoul Searching",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "In-pyo Cha, Justin Chon, Jessika Van, Esteban Ahn, Teo Yoo, Rosalina Leigh, Kang Byul, Crystal Kay, Dante Han, Sue Son, Albert Kong, Byeol Kang, David Lee McInnis, Seung-hyeon Han, Nathalia Ramos, Seong-guk Choi, Ji-a Park",
+      "director": "Benson Lee",
+      "description": "Teens of Korean descent who were born and raised in other countries travel to Seoul to learn about their cultural heritage at a summer camp in 1986."
+    },
+    {
+      "show_id": "s1862",
+      "title": "Dramaworld",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Romantic TV Shows, TV Comedies, TV Dramas",
+      "cast": "Liv Hewson, Sean Dulake, Justin Chon, Noo-Ri Bae, Sa-hee Kim, Jimmy Shubert",
+      "director": "",
+      "description": "A huge fan of a Korean TV drama is transported to a magical realm where she has the power to alter her favorite show's story line as a \"Facilitator.\""
+    },
+    {
+      "show_id": "s4668",
+      "title": "Operation Chromite",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Jung-jae Lee, Beom-su Lee, Liam Neeson, Se-yeon Jin, Jun-ho Jeong, Cheol-min Park",
+      "director": "John H. Lee",
+      "description": "To pave the way for a major amphibious invasion, a team of South Korean spies goes behind enemy lines to steal a map of North Korean coastal defenses."
+    }
+  ]
+}

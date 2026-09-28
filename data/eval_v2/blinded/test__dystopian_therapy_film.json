@@ -1,0 +1,747 @@
+{
+  "split": "test",
+  "query_id": "dystopian_therapy_film",
+  "query": "dystopian film about a violent young man forced into behavioral therapy",
+  "candidates": [
+    {
+      "show_id": "s1399",
+      "title": "Cities of Last Things",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Jack Kao, Lee Hong-chi, Louise Grinberg, Huang Lu, Ding Ning",
+      "director": "Wi Ding Ho",
+      "description": "In a dystopian tale unfolding in reverse chronology, a man with a complicated past takes revenge on the individuals who wronged him decades ago."
+    },
+    {
+      "show_id": "s474",
+      "title": "American Psycho",
+      "type": "Movie",
+      "release_year": 2000,
+      "listed_in": "Comedies, Cult Movies, Dramas",
+      "cast": "Christian Bale, Willem Dafoe, Jared Leto, Reese Witherspoon, Samantha Mathis, Chloë Sevigny, Justin Theroux, Josh Lucas, Matt Ross, Bill Sage, Cara Seymour, Guinevere Turner",
+      "director": "Mary Harron",
+      "description": "With chiseled good looks that belie his insanity, a businessman takes pathological pride in yuppie pursuits and indulges in sudden homicidal urges."
+    },
+    {
+      "show_id": "s4286",
+      "title": "Muramba",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Mithila Palkar, Amey Wagh, Sachin Khedekar, Chinmayi Sumit",
+      "director": "Varun Narvekar",
+      "description": "A young man and his parents ponder the reasons behind the recent breakdown of a relationship he was in – and the possibility of reconciliation."
+    },
+    {
+      "show_id": "s3117",
+      "title": "Jal",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Purab Kohli, Tannishtha Chatterjee, Kirti Kulhari, Yashpal Sharma, Mukul Dev, Saidah Jules, Ravi Gossain, Rahul Singh",
+      "director": "Girish Malik",
+      "description": "A gifted young man from a drought-stricken village helps a group of ecologists find water for migrating flamingoes."
+    },
+    {
+      "show_id": "s2916",
+      "title": "I Lost My Body",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Hakim Faris, Victoire Du Bois, Patrick d'Assumçao, Dev Patel, Alia Shawkat, George Wendt",
+      "director": "Jérémy Clapin",
+      "description": "Romance, mystery and adventure intertwine as a young man falls in love and a severed hand scours Paris for its owner in this mesmerizing animated film."
+    },
+    {
+      "show_id": "s3926",
+      "title": "Mara",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Olga Kurylenko, Javier Botet, Mitch Eakins, Lance E. Nichols, Rosie Fellner, Mackenzie Imsand, Dandy Barrett, Craig Conway, Melissa Bolona",
+      "director": "Clive Tonge",
+      "description": "When criminal psychologist Kate Fuller investigates a man who was seemingly murdered in his sleep by his wife, she uncovers a case like no other."
+    },
+    {
+      "show_id": "s4994",
+      "title": "Psycho",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Horror Movies, International Movies, Thrillers",
+      "cast": "Udhayanidhi Stalin, Aditi Rao Hydari, Nithya Menon, Ram, Rajkumar Pitchumani",
+      "director": "Mysskin",
+      "description": "As a visually impaired man attempts to rescue his love interest from a serial killer, the dark story behind the murderer’s disturbing psyche emerges."
+    },
+    {
+      "show_id": "s7649",
+      "title": "Wives on Strike",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Omoni Oboli, Kenneth Okonkwo, Kalu Ikeagwu, Uche Jumbo, Ufoma Ejenobor, Julius Agu, Udoka Oyeka, Chioma Chukwuka-Akpotha, Kehinde Bankole",
+      "director": "Omoni Oboli",
+      "description": "A group of local women band together to save a terrified young girl from marriage, launching a hilarious strike against their frustrated husbands."
+    },
+    {
+      "show_id": "s7297",
+      "title": "Udaan",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Rajat Barmecha, Ronit Roy, Ram Kapoor, Aayan Boradia, Manjot Singh, Anand Tiwari, Raja Hudda, Shaunak Sengupta, Varun Khettry, Akshay Sachdev",
+      "director": "Vikramaditya Motwane",
+      "description": "Upon returning to his industrial hometown, a young man must decide whether to follow his own dreams or acquiesce to his father's plans for his future."
+    },
+    {
+      "show_id": "s3016",
+      "title": "Inside the Mind of a Serial Killer",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Mixing dramatic re-enactments with real-life footage, this series delves into the tormented psyches of the world's most infamous serial killers."
+    },
+    {
+      "show_id": "s4477",
+      "title": "Nimbe",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Odunlade Adekola, Chimezie Imo, Sani Danja, Rachael Okonkwo, Broda Shaggi, Toyin Abraham, Kelechi Udegbe, Doyin Abiola, Molawa Davis",
+      "director": "Tope Alake",
+      "description": "A bullied teenager gravitates toward the acceptance he finds in a street gang but soon ends up involved in a world of drug abuse and organized crime."
+    },
+    {
+      "show_id": "s2136",
+      "title": "Fear and Loathing in Las Vegas",
+      "type": "Movie",
+      "release_year": 1998,
+      "listed_in": "Comedies, Cult Movies, Dramas",
+      "cast": "Johnny Depp, Benicio Del Toro, Tobey Maguire, Ellen Barkin, Gary Busey, Christina Ricci, Mark Harmon, Cameron Diaz, Katherine Helmond, Michael Jeter, Craig Bierko, Lyle Lovett, Flea, Christopher Meloni, Harry Dean Stanton, Tim Thomerson",
+      "director": "Terry Gilliam",
+      "description": "A sportswriter and his Samoan lawyer embark on a hallucinogenic three-day romp from Los Angeles to Las Vegas in this counterculture cult favorite."
+    },
+    {
+      "show_id": "s6433",
+      "title": "The Happytime Murders",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure, Comedies",
+      "cast": "Melissa McCarthy, Elizabeth Banks, Maya Rudolph, Bill Barretta, Leslie David Baker, Joel McHale, Dorien Davies, Cynthy Wu, Michael McDonald, Mitch Silpa",
+      "director": "Brian Henson",
+      "description": "In an LA where puppets and humans coexist, a down-on-his-luck detective teams with his ex-partner to nab a killer targeting the cast of an old TV show."
+    },
+    {
+      "show_id": "s7560",
+      "title": "What Makes a Psychopath?",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Rebecca Harrison",
+      "description": "This wide-ranging documentary examines the behaviors considered in a diagnosis of psychopathy and includes nonviolent, successful figures in history."
+    },
+    {
+      "show_id": "s5797",
+      "title": "Starred Up",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Jack O'Connell, Ben Mendelsohn, Rupert Friend, Sam Spruell, Anthony Welsh, David Ajala, Peter Ferdinando, Gershwyn Eustache Jnr, Ashley Chin, Raphael Sowole, Gilly Gilchrist, Tommy McDonnell",
+      "director": "David Mackenzie",
+      "description": "A British juvenile offender's violent temper gets him transferred to an adult prison, where he encounters his estranged father."
+    },
+    {
+      "show_id": "s1898",
+      "title": "Durarara!!",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Anime Series, Crime TV Shows, International TV Shows",
+      "cast": "Toshiyuki Toyonaga, Miyuki Sawashiro, Mamoru Miyano, Kana Hanazawa, Hiroshi Kamiya, Daisuke Ono, Jun Fukuyama, Yuichi Nakamura, Yuki Kaji, Ayahi Takagaki, Kazuma Horie, Sanae Kobayashi, Takaya Kuroda, Kari Wahlgren, Darrel Guilbeau, Bryce Papenbrook, Michelle Ruff, Johnny Yong Bosch, Crispin Freeman, Yuri Lowenthal, Steve Blum",
+      "director": "",
+      "description": "A young man looking for excitement moves to Ikebukuro, a district in Tokyo, where he finds a world of mystery in which the past and present mesh."
+    },
+    {
+      "show_id": "s4451",
+      "title": "Never Heard",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Faith & Spirituality",
+      "cast": "Romeo Miller, David Banner, Robin Givens, Karrueche Tran, Dijon Talton, Dorien Wilson, Karen Abercrombie, Kandi Burruss, Brian White, Jackie Long",
+      "director": "Josh Webber",
+      "description": "As his father sits behind bars, a young man is lured into Los Angeles' merciless drug world and forced to choose between God and gang life."
+    },
+    {
+      "show_id": "s630",
+      "title": "Automata",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "International Movies, Sci-Fi & Fantasy, Thrillers",
+      "cast": "Antonio Banderas, Dylan McDermott, Melanie Griffith, Birgitte Hjort Sørensen, Robert Forster, Christa Campbell, Tim McInnerny, Andy Nyman, David Ryall",
+      "director": "Gabe Ibáñez",
+      "description": "In a dystopian future, an insurance adjuster for a tech company investigates a robot killed for violating protocol and discovers a global conspiracy."
+    },
+    {
+      "show_id": "s4040",
+      "title": "Mercenary",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies, Sports Movies",
+      "cast": "Toki Pilioko, Iliana Zabeth, Mikaele Tuugahala, Laurent Pakihivatau, Petelo Sealeu, Maoni Talalua, Teotola Maka, Bessarion Udesiani",
+      "director": "Sacha Wolff",
+      "description": "When he defies his cruel father and leaves New Caledonia to play rugby in France, young Soane learns hard lessons about life, love and success."
+    },
+    {
+      "show_id": "s4157",
+      "title": "Mob Psycho 100",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, TV Action & Adventure, TV Comedies",
+      "cast": "Tatsuomi Hamada, Kazuki Namioka, Yuki Yoda, Ayumu Mochizuki, Atsushi Arai, Akio Otsuka, Moro Morooka",
+      "director": "",
+      "description": "There's an organization gathering espers for a nefarious purpose. Powerful psychic Mob, however, is just trying to be the protagonist of his own life."
+    },
+    {
+      "show_id": "s2459",
+      "title": "Godzilla",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "TV Shows",
+      "cast": "Mamoru Miyano, Takahiro Sakurai, Kana Hanazawa, Tomokazu Sugita, Yuki Kaji, Junichi Suwabe, Daisuke Ono, Kenta Miyake, Kenyu Horiuchi, Kazuya Nakai, Kazuhiro Yamaji",
+      "director": "Kobun Shizuno, Hiroyuki Seshita",
+      "description": "A desperate group of refugees attempts to recolonize Earth 20,000 years after Godzilla took over. But one young man wants revenge above all else."
+    },
+    {
+      "show_id": "s1394",
+      "title": "Cinta Teruna Kimchi",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Nazim Othman, Johan As'ari, Nur Risteena, Niena Baharun",
+      "director": "",
+      "description": "When a young man determines to discover his father's true identity, he faces unexpected realizations that shake his sense of self."
+    },
+    {
+      "show_id": "s7069",
+      "title": "Thriller",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Horror Movies",
+      "cast": "Jessica Allain, Luke Tennie, Tequan Richmond, Paige Hurd, Chelsea Rendon, Mitchell Edwards, Pepi Sonuga, Jason Woods, Maestro Harrell, RZA, Mykelti Williamson",
+      "director": "Dallas Jackson",
+      "description": "When a prank goes wrong, a shy kid from Compton is sent away for murder. Four years later, he’s back and out for revenge on homecoming weekend."
+    },
+    {
+      "show_id": "s6109",
+      "title": "The Bad Education Movie",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Comedies",
+      "cast": "Jack Whitehall, Joanna Scanlan, Iain Glen, Ethan Lawrence, Layton Williams, Kae Alexander, Weruche Opia, Nikki Runeckles, Charlie Wernham, Jack Binstead",
+      "director": "Elliot Hegarty",
+      "description": "Britain's most ineffective but caring teacher takes his class to Cornwall for one last school trip, where anything could happen –\n and probably will."
+    },
+    {
+      "show_id": "s1419",
+      "title": "Clinical",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Vinessa Shaw, Kevin Rahm, William Atherton, Aaron Stanford, Wilmer Calderon, Sydney Tamiia Poitier, India Eisley, Nestor Serrano",
+      "director": "Alistair Legrand",
+      "description": "A psychiatrist is plagued by flashbacks to a terrifying attack as she treats a new patient who was horribly disfigured in an accident."
+    },
+    {
+      "show_id": "s560",
+      "title": "Apaches",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Alberto Ammann, Eloy Azorín, Verónica Echegui, Lucía Jiménez, Claudia Traisac",
+      "director": "",
+      "description": "A young journalist is forced into a life of crime to save his father and family in this series based on the novel by Miguel Sáez Carral."
+    },
+    {
+      "show_id": "s6437",
+      "title": "The Hater",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Maciej Musiałowski, Agata Kulesza, Danuta Stenka, Vanessa Aleksander, Maciej Stuhr, Jacek Koman, Adam Gradowski, Piotr Biedron, Martynika Kosnica",
+      "director": "Jan Komasa",
+      "description": "A duplicitous young man finds success in the dark world of social media smear tactics — but his virtual vitriol soon has violent real-life consequences."
+    },
+    {
+      "show_id": "s7083",
+      "title": "Tiger",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Sippy Gill, Ihana Dhillon, Yograj Singh, Yashpal Sharma, Deedar GIll, Rahul Jugraj, Virender Nath Lubana, Aneeta",
+      "director": "Sartaj Singh Pannu",
+      "description": "Imprisoned for drug smuggling as a child, a young man uses the law he studied while in jail to take revenge on those who wronged him."
+    },
+    {
+      "show_id": "s5329",
+      "title": "Saawan",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Karam Hussain, Arif Bahlim, Najiba Faiz, Saleem Mairaj, Imran Aslam, Daniyal Yousuf, Sohail Malik, Ali Hafiz",
+      "director": "Farhan Alam",
+      "description": "Outcast from society and left to die in the wilderness, a young boy with polio embarks on a journey to connect with his mother. Based on a true story."
+    },
+    {
+      "show_id": "s3035",
+      "title": "Into the Wild",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Action & Adventure, Dramas, Independent Movies",
+      "cast": "Emile Hirsch, Marcia Gay Harden, William Hurt, Jena Malone, Brian Dierker, Catherine Keener, Vince Vaughn, Kristen Stewart, Hal Holbrook, Zach Galifianakis",
+      "director": "Sean Penn",
+      "description": "A young man gives up everything – including his trust fund and ties to a seemingly stable family – to lead a solitary life in the wild."
+    },
+    {
+      "show_id": "s332",
+      "title": "Afterschool",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Ezra Miller, Addison Timlin, Jeremy Allen White, Michael Stuhlbarg, Emory Cohen, David Costabile, Rosemarie DeWitt, Dariusz M. Uczkowski, Gary Wilmes, Paul Sparks, Alexandra Neil, Lee Wilkof",
+      "director": "Antonio Campos",
+      "description": "When a prep school loner films two classmates overdosing on cocaine, his footage plays a role in the emotional fallout within the school community."
+    },
+    {
+      "show_id": "s2125",
+      "title": "Fatal Destiny",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Action & Adventure",
+      "cast": "Arucha Tosawat, Nappon Gomarachun, Phakin Khamwilaisak, Ratchawin Wongviriya, Penpak Sirikul, Saksit Tangtong",
+      "director": "",
+      "description": "A young man from a humble family is drawn into a life of crime – and soon confronts a determined cop in hot pursuit."
+    },
+    {
+      "show_id": "s5561",
+      "title": "Shelter",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Julianne Moore, Jonathan Rhys Meyers, Jeffrey DeMunn, Frances Conroy, Nate Corddry, Brooklynn Proulx, Brian Anthony Wilson, Joyce Feurring, Steven Rishard, Charles Techman",
+      "director": "Måns Mårlind, Björn Stein",
+      "description": "A forensic psychiatrist has to think outside the box when she takes on a patient whose multiple personalities lead to a trail of murder victims."
+    },
+    {
+      "show_id": "s7771",
+      "title": "Zinzana",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Ali Suliman, Saleh Bakri, Yasa, Ali Al-Jabri, Mansoor Alfeeli, Ahd",
+      "director": "Majid Al Ansari",
+      "description": "Recovering alcoholic Talal wakes up inside a small-town police station cell, where he's subject to the mind games of a psychotic sadist."
+    },
+    {
+      "show_id": "s5173",
+      "title": "Resurface",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Josh Izenberg, Wynn Padula",
+      "description": "A suicidal war veteran finds like-minded souls in a surf therapy program that helps traumatized soldiers heal while riding the waves."
+    },
+    {
+      "show_id": "s2960",
+      "title": "In a Valley of Violence",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure",
+      "cast": "Ethan Hawke, John Travolta, Taissa Farmiga, James Ransone, Karen Gillan, Toby Huss, Tommy Nohilly, Larry Fessenden, Michael Davis, Burn Gorman",
+      "director": "Ti West",
+      "description": "After a quiet drifter is met with violence and bullying in a small town, he finds himself enmeshed in a vengeful struggle with the local marshal."
+    },
+    {
+      "show_id": "s754",
+      "title": "Barfi!",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Ranbir Kapoor, Priyanka Chopra, Ileana D'Cruz, Saurabh Shukla, Ashish Vidyarthi, Rupa Ganguly, Bholaraj Sapkota, Jishu Sengupta, Haradhan Bannerjee",
+      "director": "Anurag Basu",
+      "description": "Years after rejecting Barfii, a hearing and speech impaired young man, for a more \"appropriate\" suitor, Shruti finds herself falling for him."
+    },
+    {
+      "show_id": "s1999",
+      "title": "Encerrados",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, Spanish-Language TV Shows, TV Comedies",
+      "cast": "Luis Machín, Maria Merlino, Fabián Vena, Ana Chalentano, Nelly Prince, Victor Laplace, Silvia Pérez, Pilar Gamboa, Alberto Ajaka, Fabio Alberti, Martin Slipak, Martín Piroyansky, Paula Ransenberg",
+      "director": "",
+      "description": "This fictional series tells the stories of what happens to people when they feel caged in, whether physically, psychologically or emotionally."
+    },
+    {
+      "show_id": "s1113",
+      "title": "Brother",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "MHD, Darren Muselet, Aïssa Maïga, Jalil Lespert, Youssouf Gueye, Hiam Abbass, Lisette Malidor",
+      "director": "Julien Abraham",
+      "description": "Thrust from a violent home into a brutal custody center, a teenager learns to navigate a tough new reality and forge unlikely alliances to survive."
+    },
+    {
+      "show_id": "s5489",
+      "title": "Selfless",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Sci-Fi & Fantasy, Thrillers",
+      "cast": "Ryan Reynolds, Natalie Martinez, Matthew Goode, Ben Kingsley, Victor Garber, Derek Luke, Michelle Dockery, Melora Hardin, Brendan McCarthy, Sam Page",
+      "director": "Tarsem Singh",
+      "description": "A dying tycoon has his consciousness transplanted into the body of a healthy young man, only to make a troubling discovery about the body's origin."
+    },
+    {
+      "show_id": "s5694",
+      "title": "Sohni Mahiwal",
+      "type": "Movie",
+      "release_year": 1984,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Zeenat Aman, Pran, Tanuja, Poonam Dhillon",
+      "director": "Latif Faiziyev, Umesh Mehra",
+      "description": "After being violently separated from the woman he loves, a young man must disguise himself in order to keep meeting her."
+    },
+    {
+      "show_id": "s2373",
+      "title": "Genius",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Roshan, Priyaa Lal, Aadukalam Naren, Singam Puli, Meera Krishnan, Jayaprakash",
+      "director": "Suseenthiran",
+      "description": "Extreme pressure from his father to excel at school during childhood has dangerous psychological effects on a brilliant but suicidal man’s adult life."
+    },
+    {
+      "show_id": "s6471",
+      "title": "The Humanity Bureau",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure, Sci-Fi & Fantasy",
+      "cast": "Nicolas Cage, Sarah Lind, Hugh Dillon, Jakob Davies, Vicellous Shannon, Kurt Max Runte, Lorne Cardinal, Jett Klyne, David Lovgren",
+      "director": "Rob W. King",
+      "description": "In a dystopian, near-future United States, a deportation caseworker who has begun to question authority tries to safeguard a woman and her young son."
+    },
+    {
+      "show_id": "s3221",
+      "title": "Jora 10 Numbaria",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure, International Movies",
+      "cast": "Deep Sidhu, Dharmendra, Ashish Duggal, Aman Hundal, Pali Sidhu, Mukesh Tiwari, Mukul Dev",
+      "director": "Amardeep Singh Gill",
+      "description": "The wounds of a traumatic childhood and a corrupt, unjust system push a young man into becoming a cold-blooded, ruthless gangster."
+    },
+    {
+      "show_id": "s6638",
+      "title": "The Man Who Feels No Pain",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure, Comedies, International Movies",
+      "cast": "Abhimanyu Dassani, Radhika Madan, Gulshan Devaiah, Mahesh Manjrekar, Jimit Trivedi, Loveleen Mishra, Sartaaj Kakkar, Riva Arora",
+      "director": "Vasan Bala",
+      "description": "Leveraging his ability to withstand pain, a young man trains to follow in the footsteps of his martial-arts hero in this high-action, meta comedy."
+    },
+    {
+      "show_id": "s4129",
+      "title": "Mischief",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Suraj Venjaramoodu, Soubin Shahir, Surabhi Lakshmi, Vincy Aloshious, Gracy Soudi, Mammukoya, Jaffer Idukki, Baburaj, Sudhi Koppa, Irshad",
+      "director": "Emcy Joseph",
+      "description": "Mistaking the sleeping passenger on his train for a drunk, a young man posts a picture of him online, unaware of his impulsive act's ugly repercussions."
+    },
+    {
+      "show_id": "s2046",
+      "title": "Every Time I Die",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Independent Movies, Thrillers",
+      "cast": "Drew Fonteiro, Marc Menchaca, Michelle Macedo, Tyler Fleming, Melissa Macedo, Kenneth Moronta, Frankie Hinton",
+      "director": "Robi Michael",
+      "description": "After a paramedic’s violent death during a weekend trip, his spirit inhabits his friends’ bodies in an effort to save them from a similar fate."
+    },
+    {
+      "show_id": "s408",
+      "title": "All Day and a Night",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Jeffrey Wright, Ashton Sanders, Regina Taylor, Yahya Abdul-Mateen II, Isaiah John, Kelly Jenrette, Shakira Ja-nai Paye",
+      "director": "Joe Robert Cole",
+      "description": "While serving life in prison, a young man looks back at the people, the circumstances and the system that set him on the path toward his crime."
+    },
+    {
+      "show_id": "s2944",
+      "title": "III Smoking Barrels",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Subrat Dutta, Indraneil Sengupta, Mandakini Goswami, Amrita Chattopadhyay, Nalneesh Neel, Niloy Sankar Gupta, Shiny Gogoi, Siddharth Boro",
+      "director": "Sanjib Dey",
+      "description": "In three stories set in Northeast India, a child goes on the run, a young adult falls in with the wrong crowd and a desperate man turns to crime."
+    },
+    {
+      "show_id": "s3765",
+      "title": "Love Like the Falling Rain",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Jefri Nichol, Aurora Ribero, Axel Matthew, Nadya Arina, Karina Suwandhi, Rebecca Klopper",
+      "director": "Lasja Fauzia Susatyo",
+      "description": "Fearing rejection, a young man struggles to declare his feelings for his best friend, who soon falls for another man — until a fateful incident."
+    },
+    {
+      "show_id": "s1233",
+      "title": "Case 39",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Renée Zellweger, Jodelle Ferland, Ian McShane, Bradley Cooper, Callum Keith Rennie, Adrian Lester, Kerry O'Malley, Cynthia Stevenson, Alexander Conti, Philip Cabrita",
+      "director": "Christian Alvart",
+      "description": "A naïve social worker brings a 10-year-old child into her home to rescue the girl from abusive parents – only to learn that she isn't what she seems."
+    },
+    {
+      "show_id": "s2672",
+      "title": "Headshot",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure, International Movies",
+      "cast": "Iko Uwais, Chelsea Islan, Julie Estelle, Sunny Pang, Very Tri Yulisman, David Hendrawan, Zack Lee, Yayu Unru, Ganindra Bimo",
+      "director": "Timo Tjahjanto, Kimo Stamboel",
+      "description": "When a young man wakes from a coma, memories of brutal violence begin to surface, putting his life – and that of his doctor – in jeopardy."
+    },
+    {
+      "show_id": "s4984",
+      "title": "Prohibition: A Film by Ken Burns and Lynn Novick",
+      "type": "TV Show",
+      "release_year": 2011,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "Peter Coyote",
+      "director": "",
+      "description": "Ken Burns's documentary traces the passage of the 18th Amendment, the social and legal effects of prohibiting alcohol, and the repeal of Prohibition."
+    },
+    {
+      "show_id": "s4825",
+      "title": "Peppermint",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure",
+      "cast": "Jennifer Garner, John Ortiz, John Gallagher Jr., Juan Pablo Raba, Annie Ilonzeh, Jeff Hephner, Pell James, Method Man, Cailey Fleming, Tyson Ritter",
+      "director": "Pierre Morel",
+      "description": "After her family is murdered, a mild-mannered mom remakes herself into a badass vigilante in order to exact violent justice."
+    },
+    {
+      "show_id": "s1977",
+      "title": "Eli",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Horror Movies",
+      "cast": "Charlie Shotwell, Lili Taylor, Kelly Reilly, Max Martini, Sadie Sink, Deneen Tyler, Katia Gomez",
+      "director": "Ciarán Foy",
+      "description": "With his desperate parents in tow, an 11-year-old boy with a debilitating illness checks into an isolated clinic to undergo experimental therapy."
+    },
+    {
+      "show_id": "s6115",
+      "title": "The Barrier",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, Spanish-Language TV Shows, TV Dramas",
+      "cast": "Unax Ugalde, Olivia Molina, Eleonora Wexler, Abel Folk, Ángela Molina, Manu Fullola, Daniel Ibáñez, Laura Quirós, Nicolás Illoro, Belén Écija, Juan Blanco, Yaima Ramos",
+      "director": "",
+      "description": "One family’s fight for survival in a future dystopian Madrid illustrates the disparity between two worlds separated by a fence — and so much more."
+    },
+    {
+      "show_id": "s3329",
+      "title": "Kaviyude Osyath",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Prakash Bare, Arun Kumar, Kulappulli Leela, Sangeetha Mohan, Kochu Preman",
+      "director": "Vineeth Anil",
+      "description": "When a late poet leaves behind his property to a young man, the man's brother suspects the poet may have been more than just a family friend."
+    },
+    {
+      "show_id": "s6444",
+      "title": "The Healing Powers of Dude",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV, TV Comedies, TV Dramas",
+      "cast": "Jace Chapman, Larisa Oleynik, Tom Everett Scott, Steve Zahn, Mauricio Lara, Sophie Kim, Laurel Emory",
+      "director": "",
+      "description": "When an 11-year-old boy with social anxiety disorder starts middle school, he finds strength in a scruffy emotional support dog named Dude."
+    },
+    {
+      "show_id": "s281",
+      "title": "Abdo Mota",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Mohamed Ramadan",
+      "director": "",
+      "description": "Following the mysterious death of his parents, a young man finds himself enmeshed in the dark world of drugs and crime."
+    },
+    {
+      "show_id": "s2019",
+      "title": "Equilibrium",
+      "type": "Movie",
+      "release_year": 2002,
+      "listed_in": "Action & Adventure, Dramas, Sci-Fi & Fantasy",
+      "cast": "Christian Bale, Emily Watson, Taye Diggs, Angus Macfadyen, Sean Bean, Sean Pertwee, Matthew Harbour, William Fichtner",
+      "director": "Kurt Wimmer",
+      "description": "In a dystopian future, a totalitarian regime maintains peace by subduing the populace with a drug, and displays of emotion are punishable by death."
+    },
+    {
+      "show_id": "s5716",
+      "title": "Son of a Gun",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Action & Adventure, Dramas, Independent Movies",
+      "cast": "Ewan McGregor, Brenton Thwaites, Alicia Vikander, Jacek Koman, Matt Nable, Tom Budge, Eddie Baroo, Nash Edgerton",
+      "director": "Julius Avery",
+      "description": "A young petty thief who received protection from a notorious inmate in jail is forced to spring his defender from prison and help pull off a heist."
+    },
+    {
+      "show_id": "s629",
+      "title": "Autohead",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Deepak Sampat, Ronjini Chakroborty, Vikrant Singh, Jhanvi Dwivedi, Ajay Mishra, Rohit Mittal, Sunny Banerjee, Ravidev Singh",
+      "director": "Rohit Mittal",
+      "description": "A production crew that thinks it's making a documentary about a humble Mumbai rickshaw driver unmasks a horrifying truth about their film's subject."
+    },
+    {
+      "show_id": "s166",
+      "title": "A Clockwork Orange",
+      "type": "Movie",
+      "release_year": 1971,
+      "listed_in": "Classic Movies, Cult Movies, Dramas",
+      "cast": "Malcolm McDowell, Patrick Magee, Michael Bates, Warren Clarke, Adrienne Corri, Paul Farrell, Miriam Karlin, James Marcus",
+      "director": "Stanley Kubrick",
+      "description": "In this dark satire from director Stanley Kubrick, a young, vicious sociopath in a dystopian England undergoes an experimental rehabilitation therapy."
+    },
+    {
+      "show_id": "s2243",
+      "title": "Forget Me Not",
+      "type": "TV Show",
+      "release_year": 2011,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "",
+      "director": "",
+      "description": "Teenage Xue Ming was forced to marry the man who raped her. Years after abandoning her young sons to find a better life, can she escape the guilt?"
+    },
+    {
+      "show_id": "s6381",
+      "title": "The Fury of a Patient Man",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "International Movies, Thrillers",
+      "cast": "Antonio de la Torre, Luis Callejo, Ruth Díaz, Raúl Jiménez, Manolo Solo, Font García, Pilar Gómez, Alicia Rubio",
+      "director": "Raúl Arévalo",
+      "description": "After his lover is killed in a jewelry store robbery, quiet José romances café owner Ana, who's unaware he has other motivations."
+    },
+    {
+      "show_id": "s6089",
+      "title": "The Apostate",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Álvaro Ogalla, Marta Larralde, Bárbara Lennie, Vicky Peña, Juan Calot, Kaiet Rodriguez, Andrés Gertrúdix, Joaquín Climent, Álvaro Roig, Tino Martinez, Mercedes Hoyos",
+      "director": "Federico Veiroj",
+      "description": "A young man determined to renounce Catholicism by having his baptismal records excised is thwarted by church bureaucracy and his own inner conflicts."
+    },
+    {
+      "show_id": "s1938",
+      "title": "Ek Jaan Hain Hum",
+      "type": "Movie",
+      "release_year": 1983,
+      "listed_in": "Dramas, International Movies, Music & Musicals",
+      "cast": "Rajiv Kapoor, Divya Rana, Shammi Kapoor, Tanuja, Kiran Vairale, Rakesh Bedi, Gulshan Grover, Monty Sharma",
+      "director": "Rajiv Mehra",
+      "description": "While trying to win over his beloved’s parents, a young man is accused of arson, and his father soon realizes insanity may be his only defense."
+    },
+    {
+      "show_id": "s786",
+      "title": "Beasts of No Nation",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Idris Elba, Abraham Attah, Kurt Egyiawan, Jude Akuwudike, Emmanuel \"King Kong\" Nii Adom Quaye, Ama K. Abebrese, Kobina Amissah Sam, Francis Weddey, Richard Pepple",
+      "director": "Cary Joji Fukunaga",
+      "description": "When civil war tears his family apart, a young West African boy is forced to join a unit of mercenary fighters and transform into a child soldier."
+    },
+    {
+      "show_id": "s3910",
+      "title": "Manje Bistre",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Gippy Grewal, Sonam Bajwa, Karamjit Anmol, Jaggi Singh, B.N. Sharma, Hobby Dhaliwal, Rana Ranbir, Sardar Sohi, Anita Devgan, Harby Sangha",
+      "director": "Baljit Singh Deo",
+      "description": "While prepping for a family wedding, a young man falls for his sister’s friend, who has already been promised to someone else."
+    },
+    {
+      "show_id": "s5522",
+      "title": "Sex and the City: The Movie",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Comedies, Dramas, Romantic Movies",
+      "cast": "Sarah Jessica Parker, Kim Cattrall, Kristin Davis, Cynthia Nixon, Chris Noth, Candice Bergen, Jennifer Hudson, David Eigenberg, Evan Handler, Jason Lewis, Mario Cantone, Lynn Cohen",
+      "director": "Michael Patrick King",
+      "description": "When Carrie's big step forward in her relationship goes awry, best friends Charlotte, Miranda and Samantha are there to help her pick up the pieces."
+    },
+    {
+      "show_id": "s304",
+      "title": "Ad Vitam",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Yvan Attal, Garance Marillier, Niels Schneider, Victor Assié, Rod Paradot, Anne Azoulay, Adel Bencherif",
+      "director": "",
+      "description": "In a future where regeneration technology lets humans live indefinitely, a cop and a troubled young woman investigate a strange wave of youth suicides."
+    },
+    {
+      "show_id": "s523",
+      "title": "Anger Management",
+      "type": "Movie",
+      "release_year": 2003,
+      "listed_in": "Comedies",
+      "cast": "Adam Sandler, Jack Nicholson, Marisa Tomei, Luis Guzmán, Allen Covert, Lynne Thigpen, Kurt Fuller, Jonathan Loughran, Krista Allen, January Jones, Woody Harrelson, John Turturro, Kevin Nealon",
+      "director": "Peter Segal",
+      "description": "After a gentle businessman is forced to get anger management counseling, his therapist moves in – but turns out to have anger issues of his own."
+    },
+    {
+      "show_id": "s6292",
+      "title": "The Devil All The Time",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Tom Holland, Bill Skarsgård, Riley Keough, Robert Pattinson, Mia Wasikowska, Jason Clarke, Sebastian Stan, Haley Bennett, Harry Melling, Eliza Scanlen",
+      "director": "Antonio Campos",
+      "description": "Sinister characters converge around a young man devoted to protecting those he loves in a postwar backwoods town teeming with corruption and brutality."
+    },
+    {
+      "show_id": "s1538",
+      "title": "Criminal Minds",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, TV Dramas, TV Mysteries",
+      "cast": "Mandy Patinkin, Joe Mantegna, Thomas Gibson, Shemar Moore, Matthew Gray Gubler, Kirsten Vangsness, A.J. Cook, Paget Brewster, Lola Glaudini, Jennifer Love Hewitt, Jeanne Tripplehorn",
+      "director": "",
+      "description": "This intense police procedural follows a group of extraordinary FBI profilers who spend their days getting into the minds of psychopathic criminals."
+    }
+  ]
+}

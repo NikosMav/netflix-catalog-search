@@ -1,0 +1,457 @@
+{
+  "split": "dev",
+  "query_id": "preschool_kids_show",
+  "query": "preschool cartoon for toddlers",
+  "candidates": [
+    {
+      "show_id": "s1378",
+      "title": "ChuChu TV Nursery Rhymes & Kids Songs (Hindi)",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Kids' TV",
+      "cast": "",
+      "director": "",
+      "description": "This educational series for tiny tots features a toe-tapping spin on nursery rhymes with upbeat tunes and a diverse set of easy-to-follow lessons."
+    },
+    {
+      "show_id": "s2786",
+      "title": "Home for Christmas",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Comedies",
+      "cast": "Ida Elise Broch, Gabrielle Susanne Solheim Leithaug, Dennis Storhøi, Anette Hoff, Felix Sandman, Ghita Nørby, Hege Schøyen, Bjørn Skagestad, Mads Sjøgård Pettersen",
+      "director": "",
+      "description": "Tired of the constant comments on her relationship status, perpetually single Johanne starts a 24-day hunt for a boyfriend to bring home for Christmas."
+    },
+    {
+      "show_id": "s5",
+      "title": "21",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Dramas",
+      "cast": "Jim Sturgess, Kevin Spacey, Kate Bosworth, Aaron Yoo, Liza Lapira, Jacob Pitts, Laurence Fishburne, Jack McGee, Josh Gad, Sam Golzari, Helen Carey, Jack Gilpin",
+      "director": "Robert Luketic",
+      "description": "A brilliant group of students become card-counting experts with the intent of swindling millions out of Las Vegas casinos by playing blackjack."
+    },
+    {
+      "show_id": "s10",
+      "title": "1920",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Horror Movies, International Movies, Thrillers",
+      "cast": "Rajneesh Duggal, Adah Sharma, Indraneil Sengupta, Anjori Alagh, Rajendranath Zutshi, Vipin Sharma, Amin Hajee, Shri Vallabh Vyas",
+      "director": "Vikram Bhatt",
+      "description": "An architect and his wife move into a castle that is slated to become a luxury hotel. But something inside is determined to stop the renovation."
+    },
+    {
+      "show_id": "s3656",
+      "title": "Little Baby Bum: Go Buster",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Children & Family Movies",
+      "cast": "",
+      "director": "",
+      "description": "This compilation for preschoolers features a peppy young bus and his first life experiences where bumps in the road won't stop him from a fun ride."
+    },
+    {
+      "show_id": "s1445",
+      "title": "Cocomelon",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV",
+      "cast": "",
+      "director": "",
+      "description": "Learn letters, numbers, animal sounds and more with J.J. in this edutaining series that brings fun times with nursery rhymes for the whole family!"
+    },
+    {
+      "show_id": "s3657",
+      "title": "Little Baby Bum: Nursery Rhyme Friends",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "British TV Shows, Kids' TV",
+      "cast": "Chloe Marsden, Aaron Marsden, María Esnoz",
+      "director": "",
+      "description": "Twinkle, Mia, Jacus and the rest of the Nursery Rhyme Friends perform catchy tunes for the little ones."
+    },
+    {
+      "show_id": "s5893",
+      "title": "Super Monsters",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Kids' TV",
+      "cast": "Elyse Maloway, Vincent Tong, Erin Matthews, Andrea Libman, Alessandro Juliani, Nicole Anthony, Ian James Corlett, Britt McKillip, Kathleen Barr, Diana Kaarina",
+      "director": "",
+      "description": "Preschool kids whose parents are the world's most famous monsters try to master their special powers while preparing for kindergarten."
+    },
+    {
+      "show_id": "s7363",
+      "title": "Unspeakable Acts",
+      "type": "Movie",
+      "release_year": 1990,
+      "listed_in": "Dramas",
+      "cast": "Jill Clayburgh, Brad Davis, Sam Behrens",
+      "director": "Linda Otto",
+      "description": "Laurie and Joseph are doctors who interview sexually abused children. With a lot of energy they track down a pedophile who has abused many toddlers."
+    },
+    {
+      "show_id": "s6105",
+      "title": "The Bachelor",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "Reality TV, Romantic TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "A single man searches for his soulmate through a series of dates with 25 contestants ready to romance him for a chance at love."
+    },
+    {
+      "show_id": "s3",
+      "title": "23:59",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Horror Movies, International Movies",
+      "cast": "Tedd Chan, Stella Chung, Henley Hii, Lawrence Koh, Tommy Kuan, Josh Lai, Mark Lee, Susan Leong, Benjamin Lim",
+      "director": "Gilbert Chan",
+      "description": "When an army recruit is found dead, his fellow soldiers are forced to confront a terrifying secret that's haunting their jungle island training camp."
+    },
+    {
+      "show_id": "s3564",
+      "title": "Learning Songs by Little Baby Bum: Nursery Rhyme Friends",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "British TV Shows, Kids' TV",
+      "cast": "Chloe Marsden, Aaron Marsden, María Esnoz",
+      "director": "",
+      "description": "Simple songs mix with colorful animation to teach youngsters about concepts such as animals, vehicles, numbers, colors and more."
+    },
+    {
+      "show_id": "s7",
+      "title": "122",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Horror Movies, International Movies",
+      "cast": "Amina Khalil, Ahmed Dawood, Tarek Lotfy, Ahmed El Fishawy, Mahmoud Hijazi, Jihane Khalil, Asmaa Galal, Tara Emad",
+      "director": "Yasir Al Yasiri",
+      "description": "After an awful accident, a couple admitted to a grisly hospital are separated and must find each other to escape — before death finds them."
+    },
+    {
+      "show_id": "s1377",
+      "title": "ChuChu TV Kids Songs, Learning Videos & Bedtime Stories",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Kids' TV",
+      "cast": "",
+      "director": "",
+      "description": "This educational series for tiny tots features a toe-tapping spin on nursery rhymes with upbeat tunes and a diverse set of easy-to-follow lessons."
+    },
+    {
+      "show_id": "s5903",
+      "title": "Super Monsters: The New Class",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Children & Family Movies",
+      "cast": "Elyse Maloway, Vincent Tong, Erin Mathews, Andrea Libman, Alessandro Juliani, Nicole Anthony, Diana Kaarina, Gigi Saul Guerrero, Asia Mattu, Rukiya Bernard, Elicia MacKenzie, Ian James Corlett, Britt McKillip",
+      "director": "Steve Ball",
+      "description": "A new class of pint-sized preschoolers arrives at Pitchfork Pines, and the Super Monsters take their superpowers to the next level — the Purple Room!"
+    },
+    {
+      "show_id": "s2315",
+      "title": "Fun Mom Dinner",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Katie Aselton, Toni Collette, Bridget Everett, Molly Shannon, Adam Scott, Rob Huebel, Adam Levine, Paul Rust",
+      "director": "Alethea Jones",
+      "description": "Four preschool moms with little in common need a night out to take a break from their kids. But one thing leads to another, and things get rowdy."
+    },
+    {
+      "show_id": "s4",
+      "title": "9",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Action & Adventure, Independent Movies, Sci-Fi & Fantasy",
+      "cast": "Elijah Wood, John C. Reilly, Jennifer Connelly, Christopher Plummer, Crispin Glover, Martin Landau, Fred Tatasciore, Alan Oppenheimer, Tom Kane",
+      "director": "Shane Acker",
+      "description": "In a postapocalyptic world, rag-doll robots hide in fear from dangerous machines out to exterminate them, until a brave newcomer joins the group."
+    },
+    {
+      "show_id": "s830",
+      "title": "Ben 10",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Kids' TV",
+      "cast": "Tara Strong, Montse Hernandez, David Kaye, Roger Craig Smith, Todd Haberkorn, Dwight Schultz, Daryl Sabara",
+      "director": "",
+      "description": "Ben can transform into ten types of aliens. He'll try 'em all while adventuring across the country with his cousin Gwen and Grandpa Max."
+    },
+    {
+      "show_id": "s4888",
+      "title": "Pocoyo",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Kids' TV, Spanish-Language TV Shows",
+      "cast": "Stephen Fry, Alex Marty",
+      "director": "",
+      "description": "Discovery is the name of the game for friendly toddler Pocoyo in this lifelike and richly colored animated adventure series for preschoolers."
+    },
+    {
+      "show_id": "s7771",
+      "title": "Zinzana",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Ali Suliman, Saleh Bakri, Yasa, Ali Al-Jabri, Mansoor Alfeeli, Ahd",
+      "director": "Majid Al Ansari",
+      "description": "Recovering alcoholic Talal wakes up inside a small-town police station cell, where he's subject to the mind games of a psychotic sadist."
+    },
+    {
+      "show_id": "s7770",
+      "title": "Zindagi Na Milegi Dobara",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Hrithik Roshan, Abhay Deol, Farhan Akhtar, Katrina Kaif, Kalki Koechlin, Deepti Naval, Naseeruddin Shah, Ariadna Cabrol",
+      "director": "Zoya Akhtar",
+      "description": "Three friends on an adventurous road trip/bachelor party in Spain learn some lessons about themselves and each other that will change them forever."
+    },
+    {
+      "show_id": "s1332",
+      "title": "Child's Play",
+      "type": "Movie",
+      "release_year": 1988,
+      "listed_in": "Cult Movies, Horror Movies",
+      "cast": "Catherine Hicks, Alex Vincent, Brad Dourif, Chris Sarandon, Dinah Manoff, Tommy Swerdlow, Jack Colvin, Neil Giuntoli, Juan Ramírez, Alan Wilder",
+      "director": "Tom Holland",
+      "description": "When a rash of murders unfolds, 6-year-old Andy knows that his toy doll Chucky is the killer, but neither his mom nor the cops believe him."
+    },
+    {
+      "show_id": "s7769",
+      "title": "Zindagi Kitni Haseen Hay",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Feroze Khan, Sajal Ali, Jibrayl Ahmed Rajput, Alyy Khan, Shafqat Cheema, Nayyar Ejaz, Rashid Farooqi",
+      "director": "Anjum Shahzad",
+      "description": "Two young parents struggle to keep their marriage afloat and their son protected amidst financial woes, career goals and clashes of ego."
+    },
+    {
+      "show_id": "s6",
+      "title": "46",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "International TV Shows, TV Dramas, TV Mysteries",
+      "cast": "Erdal Beşikçioğlu, Yasemin Allen, Melis Birkan, Saygın Soysal, Berkan Şal, Metin Belgin, Ayça Eren, Selin Uludoğan, Özay Fecht, Suna Yıldızoğlu",
+      "director": "Serdar Akar",
+      "description": "A genetics professor experiments with a treatment for his comatose sister that blends medical and shamanic cures, but unlocks a shocking side effect."
+    },
+    {
+      "show_id": "s7178",
+      "title": "Trailer Park Boys: The Animated Series",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Comedies",
+      "cast": "Mike Smith, John Paul Tremblay, Robb Wells, John Dunsworth, Pat Roach, Cory Bowles, Jacob Rolfe, Tyrone Parsons, Sarah Dunsworth, Jeanna Harrison, Marguerite McNeil",
+      "director": "Norm Hiscock, Gary Howsam, Mike Smith, John Paul Tremblay, Robb Wells",
+      "description": "Nova Scotia’s favorite miscreants have always been super sketchy. Now, carrying on from the Season 12 finale, the boys have become complete cartoons."
+    },
+    {
+      "show_id": "s3184",
+      "title": "JingleKids",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Kids' TV",
+      "cast": "",
+      "director": "",
+      "description": "In a magical wonderland, merry children and their furry friends explore their unique hobbies while making eye-opening discoveries through adventures."
+    },
+    {
+      "show_id": "s8",
+      "title": "187",
+      "type": "Movie",
+      "release_year": 1997,
+      "listed_in": "Dramas",
+      "cast": "Samuel L. Jackson, John Heard, Kelly Rowan, Clifton Collins Jr., Tony Plana",
+      "director": "Kevin Reynolds",
+      "description": "After one of his high school students attacks him, dedicated teacher Trevor Garfield grows weary of the gang warfare in the New York City school system and moves to California to teach there, thinking it must be a less hostile environment."
+    },
+    {
+      "show_id": "s2618",
+      "title": "Happy!",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, TV Action & Adventure, TV Comedies",
+      "cast": "Christopher Meloni, Lili Mirojnick, Glenn Wein, Patrick Fischler, Toby Jaffe, Ritchie Coster, Grant Morrison, Pavun Shetty, Medina Senghore, Patton Oswalt",
+      "director": "",
+      "description": "A boozy ex-cop turned hit man thinks he's losing his marbles when a cartoon unicorn only he can see urges him to rescue a girl kidnapped by Santa."
+    },
+    {
+      "show_id": "s4084",
+      "title": "Mighty Little Bheem",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "",
+      "director": "",
+      "description": "An innocent toddler’s boundless curiosity – and extraordinary might – lead to mischief and adventure in his small Indian town."
+    },
+    {
+      "show_id": "s3501",
+      "title": "LA Originals",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, Music & Musicals",
+      "cast": "",
+      "director": "",
+      "description": "Photographer Estevan Oriol and artist Mister Cartoon turned their Chicano roots into gritty art, impacting street culture, hip hop and beyond."
+    },
+    {
+      "show_id": "s9",
+      "title": "706",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Horror Movies, International Movies",
+      "cast": "Divya Dutta, Atul Kulkarni, Mohan Agashe, Anupam Shyam, Raayo S. Bakhirta, Yashvit Sancheti, Greeva Kansara, Archan Trivedi, Rajiv Pathak",
+      "director": "Shravan Kumar",
+      "description": "When a doctor goes missing, his psychiatrist wife treats the bizarre medical condition of a psychic patient, who knows much more than he's leading on."
+    },
+    {
+      "show_id": "s5439",
+      "title": "Scooby-Doo!: Mystery Incorporated",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Frank Welker, Mindy Cohn, Grey DeLisle, Matthew Lillard, Patrick Warburton, Gary Cole, Frances Conroy, Vivica A. Fox",
+      "director": "",
+      "description": "In this animated update of the cartoon classic, Scooby-Doo, Shaggy and their pals solve spooky mysteries in a hamlet bedeviled by supernatural bedlam."
+    },
+    {
+      "show_id": "s2",
+      "title": "7:19",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Demián Bichir, Héctor Bonilla, Oscar Serrano, Azalia Ortiz, Octavio Michel, Carmen Beato",
+      "director": "Jorge Michel Grau",
+      "description": "After a devastating earthquake hits Mexico City, trapped survivors from all walks of life wait to be rescued while trying desperately to stay alive."
+    },
+    {
+      "show_id": "s7237",
+      "title": "Trotro",
+      "type": "TV Show",
+      "release_year": 2004,
+      "listed_in": "Kids' TV",
+      "cast": "",
+      "director": "",
+      "description": "Trotro the donkey may be opinionated, but he's as sweet as can be in this animated series that's full of lessons for children."
+    },
+    {
+      "show_id": "s578",
+      "title": "Ari Eldjárn: Pardon My Icelandic",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Ari Eldjárn",
+      "director": "August Jakobsson",
+      "description": "In this English-language special, Icelandic comedian Ari Eldjárn pokes fun at Nordic rivalries, Hollywood's take on Thor, the whims of toddlers and more."
+    },
+    {
+      "show_id": "s3661",
+      "title": "Little Lunch",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Flynn Curry, Olivia Deeble, Madison Lu, Oisín O'Leary, Faith Seci, Joshua Sitch, Heidi Arena",
+      "director": "",
+      "description": "Adopting a child's perspective, this show takes a humorous look at what happens during those action-packed 15 minutes of snack time each day."
+    },
+    {
+      "show_id": "s6361",
+      "title": "The Flintstones",
+      "type": "Movie",
+      "release_year": 1994,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "John Goodman, Elizabeth Perkins, Rick Moranis, Rosie O'Donnell, Kyle MacLachlan, Halle Berry, Elizabeth Taylor, Dann Florek, Sam Raimi, Harvey Korman",
+      "director": "Brian Levant",
+      "description": "The Flintstones hit the big screen in this live-action comedy that finds Fred and Barney struggling to cope with the pressures of work and family."
+    },
+    {
+      "show_id": "s6672",
+      "title": "The Minimighty Kids",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "",
+      "director": "",
+      "description": "Some have big feet or a sniffly nose, others are clumsy or too sweaty – but these kids soon discover their mini problems can become superpowers."
+    },
+    {
+      "show_id": "s4587",
+      "title": "Oh My Ghost 3",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Comedies, Horror Movies, International Movies",
+      "cast": "Kohtee Aramboy, Yingsak Chonglertjetsadawong, Jaturong Mokjok, Waraphat Phatsathit, Wiradit Srimalai, Ekkachai Srivichai, Varuth Waratham, Butsarin Yokpraipan",
+      "director": "Poj Arnon",
+      "description": "After a body is discovered in their building, a vengeful, paranormal presence begins to affect Taew, Mod Dum and Cartoon's business."
+    },
+    {
+      "show_id": "s3666",
+      "title": "Little Monsters",
+      "type": "Movie",
+      "release_year": 1989,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Fred Savage, Howie Mandel, Daniel Stern, Margaret Whitton, Rick Ducommun, Frank Whaley, Ben Savage, William Murray Weiss, Devin Ratray, Amber Barretto",
+      "director": "Richard Greenberg",
+      "description": "Brian knows there are creatures under his bed. When he faces his fears and confronts them, however, he makes some hilariously weird new friends."
+    },
+    {
+      "show_id": "s1",
+      "title": "3%",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Dramas, TV Sci-Fi & Fantasy",
+      "cast": "João Miguel, Bianca Comparato, Michel Gomes, Rodolfo Valente, Vaneza Oliveira, Rafael Lozano, Viviane Porto, Mel Fronckowiak, Sergio Mamberti, Zezé Motta, Celso Frateschi",
+      "director": "",
+      "description": "In a future where the elite inhabit an island paradise far from the crowded slums, you get one chance to join the 3% saved from squalor."
+    },
+    {
+      "show_id": "s7102",
+      "title": "Timmy Time",
+      "type": "TV Show",
+      "release_year": 2010,
+      "listed_in": "British TV Shows, Kids' TV",
+      "cast": "Kate Harbour, Justin Fletcher, Louis Jones",
+      "director": "",
+      "description": "This delightful animated series centers on impish lamb Timmy as he enters nursery school, where he learns about sharing, responsibility and fairness."
+    },
+    {
+      "show_id": "s4813",
+      "title": "Pee-wee's Playhouse: Christmas Special",
+      "type": "Movie",
+      "release_year": 1988,
+      "listed_in": "Movies",
+      "cast": "Paul Reubens, Annette Funicello, Frankie Avalon, Grace Jones, k.d. lang, Dinah Shore, Little Richard, Cher, Eadie del Rubio, Magic Johnson, Elena del Rubio, Zsa Zsa Gabor, Milly del Rubio, Whoopi Goldberg, Oprah Winfrey, Joan Rivers",
+      "director": "Paul Reubens, Wayne Orr",
+      "description": "Amid an avalanche of stars, Pee-wee straps on his ice skates and glides into the holiday season with Christmas cards, carols ... and Charo."
+    },
+    {
+      "show_id": "s7000",
+      "title": "The Wiggles",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Kids' TV",
+      "cast": "Anthony Field, Lachlan Gillespie, Simon Pryce, Emma Watkins, Paul Paddick",
+      "director": "",
+      "description": "The top band for preschool kids, The Wiggles, entertains tots with spirited music, simple choreography and whimsical adventures."
+    },
+    {
+      "show_id": "s3716",
+      "title": "Loo Loo Kids: Johny & Friends Musical Adventures",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Kids' TV",
+      "cast": "",
+      "director": "",
+      "description": "Music-loving baby Johny goes on dance-filled adventures with his family, friends and adorable critters in this colorful, animated preschooler series."
+    }
+  ]
+}

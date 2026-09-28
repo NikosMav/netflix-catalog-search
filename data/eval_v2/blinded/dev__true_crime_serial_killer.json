@@ -1,0 +1,467 @@
+{
+  "split": "dev",
+  "query_id": "true_crime_serial_killer",
+  "query": "true crime documentary about a serial killer",
+  "candidates": [
+    {
+      "show_id": "s6825",
+      "title": "The Ripper",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "British TV Shows, Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "Ellena Wood, Jesse Vile",
+      "description": "In the late 1970s, British police struggle to identify — let alone capture — the serial killer known throughout the world as the Yorkshire Ripper."
+    },
+    {
+      "show_id": "s7280",
+      "title": "Twin Murders: the Silence of the White City",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "International Movies, Thrillers",
+      "cast": "Belén Rueda, Javier Rey, Aura Garrido, Manolo Solo, Alex Brendemühl, Ramón Barea, Sergio Dorado, Allende Blanco, Rubén Ochandiano",
+      "director": "Daniel Calparsoro",
+      "description": "A detective returns to Vitoria-Gasteiz to solve murders mimicking those allegedly committed by a serial killer who's about to be released from prison."
+    },
+    {
+      "show_id": "s3713",
+      "title": "Long Shot",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Jacob LaMendola",
+      "description": "When Juan Catalan is arrested for a murder he didn't commit, he builds his case for innocence around raw footage from a popular TV show. A documentary."
+    },
+    {
+      "show_id": "s1170",
+      "title": "Cairo Station",
+      "type": "Movie",
+      "release_year": 1958,
+      "listed_in": "Classic Movies, Dramas, International Movies",
+      "cast": "Farid Shawqy, Hind Rostom, Youssef Chahine, Hassan el Baroudi, Abdel Aziz Khalil, Naima Wasfy, Said Khalil, Abdel Ghani Nagdi",
+      "director": "Youssef Chahine",
+      "description": "A Cairo newsstand vendor's fantasies morph into a dangerous fixation with a lemonade seller as a serial killer begins terrorizing the city."
+    },
+    {
+      "show_id": "s5780",
+      "title": "Spyder",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure, International Movies",
+      "cast": "Mahesh Babu, Rakul Preet Singh, S.J. Surya, Bharath Srinivasan, Priyadarshi Pullikonda, RJ Balaji",
+      "director": "A.R. Murugadoss",
+      "description": "When an Intelligence Bureau officer’s phone-tapping day job leads him to a serial killer, he must track down and thwart the murderer’s next steps."
+    },
+    {
+      "show_id": "s2887",
+      "title": "I AM A KILLER",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "British TV Shows, Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Death row inmates convicted of capital murder give a firsthand account of their crimes in this documentary series."
+    },
+    {
+      "show_id": "s3030",
+      "title": "Interview with a Serial Killer",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Documentaries",
+      "cast": "Arthur Shawcross",
+      "director": "Christopher Martin",
+      "description": "In this jailhouse interview, Arthur Shawcross, the Genesee River Killer, shares candid details of his crimes and his surprising family bonds."
+    },
+    {
+      "show_id": "s5500",
+      "title": "Serial Killer with Piers Morgan",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "British TV Shows, Crime TV Shows, Docuseries",
+      "cast": "Piers Morgan",
+      "director": "",
+      "description": "Through intense prison interviews, Piers Morgan revisits the crimes of three convicted serial killers and learns more about their motives."
+    },
+    {
+      "show_id": "s7775",
+      "title": "Zodiac",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Cult Movies, Dramas, Thrillers",
+      "cast": "Mark Ruffalo, Jake Gyllenhaal, Robert Downey Jr., Anthony Edwards, Brian Cox, Elias Koteas, Donal Logue, John Carroll Lynch, Dermot Mulroney, Chloë Sevigny",
+      "director": "David Fincher",
+      "description": "A political cartoonist, a crime reporter and a pair of cops investigate San Francisco's infamous Zodiac Killer in this thriller based on a true story."
+    },
+    {
+      "show_id": "s3932",
+      "title": "Marcella",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "British TV Shows, Crime TV Shows, International TV Shows",
+      "cast": "Anna Friel, Nicholas Pinnock, Sinéad Cusack, Nina Sosanya, Harry Lloyd, Laura Carmichael, Maeve Dermody, Ray Panthaki, Ian Puleston-Davies, Patrick Baladi, Florence Pugh, Jamie Bamber, Charlie Covell, Andrew Lancel, Jack Doolan, Tobias Santelmann, Stephen Lord, Ben Cura, Imogen Faires",
+      "director": "",
+      "description": "Her marriage just ended and she's returning to work as a London detective after 12 years away. Is the serial killer she once investigated back, too?"
+    },
+    {
+      "show_id": "s7318",
+      "title": "Unbelievable",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, TV Dramas",
+      "cast": "Toni Collette, Merritt Wever, Kaitlyn Dever, Dale Dickey, Scott Lawrence, Danielle Macdonald, Austin Hébert, Eric Lange, Elizabeth Marvel",
+      "director": "",
+      "description": "After a young woman is accused of lying about a rape, two female detectives investigate a spate of eerily similar attacks. Inspired by true events."
+    },
+    {
+      "show_id": "s3499",
+      "title": "La Mante",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Carole Bouquet, Fred Testot, Pascal Demolon, Manon Azem, Frédérique Bel, Élodie Navarre, Jacques Weber",
+      "director": "",
+      "description": "Decades after her capture, a serial killer offers to help solve a string of copycat murders – but only if her son, now a cop, will work by her side."
+    },
+    {
+      "show_id": "s3016",
+      "title": "Inside the Mind of a Serial Killer",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Mixing dramatic re-enactments with real-life footage, this series delves into the tormented psyches of the world's most infamous serial killers."
+    },
+    {
+      "show_id": "s7353",
+      "title": "Unknown Origins",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "International Movies, Thrillers",
+      "cast": "Javier Rey, Verónica Echegui, Brays Efe, Antonio Resines, Álex García, Carlos Areces, Ernesto Alterio, Leonardo Sbaraglia",
+      "director": "David Galán Galindo",
+      "description": "A very chiseled but somber detective must find a serial killer who leaves clues that only his mentor's nerdy comics-loving son can decipher."
+    },
+    {
+      "show_id": "s5534",
+      "title": "Shadow of Truth",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Crime TV Shows, Docuseries, International TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "This documentary series explores the explosive 2006 murder case of a 13-year-old Israeli girl and the subsequent conviction of a Ukrainian immigrant."
+    },
+    {
+      "show_id": "s2518",
+      "title": "Grandmaster",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "International Movies, Thrillers",
+      "cast": "Mithra Kurian, Anoop Menon, Mohanlal, Narein, Priyamani, Roma, Siddique, Jagathy Sreekumar",
+      "director": "B. Unnikrishnan",
+      "description": "Anticipating the next move in a serial killer's grisly game, a police chief realizes that his daughter and estranged wife are the next likely victims."
+    },
+    {
+      "show_id": "s4469",
+      "title": "Night Stalker: The Hunt for a Serial Killer",
+      "type": "TV Show",
+      "release_year": 2021,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "Tiller Russell",
+      "description": "Beneath the sunlit glamour of 1985 LA lurks a relentlessly evil serial killer. In this true-crime story, two detectives won't rest until they catch him."
+    },
+    {
+      "show_id": "s2001",
+      "title": "Encounters with Evil",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Crime TV Shows, Docuseries",
+      "cast": "Richard Lintern",
+      "director": "",
+      "description": "This documentary series tries to get at the root of some of the most heinous crimes ever committed by deranged, cold-blooded criminals."
+    },
+    {
+      "show_id": "s6694",
+      "title": "The Murder Detectives",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "British TV Shows, Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "This series tracks the ups and downs of an 18-month investigation into the 2014 stabbing murder of teenager Nicholas Robinson in Bristol, England."
+    },
+    {
+      "show_id": "s4027",
+      "title": "Memoir of a Murderer",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Kyung-gu Seol, Nam-gil Kim, Seol-hyun Kim, Dal-su Oh, Seok-jeong Hwang, In-Gum Jung, Ki-jun Shin, Jin-young Jang, Rina Shin, Hye-yoon Kim",
+      "director": "Shin-yeon Won",
+      "description": "Hiding his own murderous past, a man suffering from Alzheimer's must protect his daughter from her boyfriend, who he suspects is also a serial killer."
+    },
+    {
+      "show_id": "s3878",
+      "title": "Making a Murderer",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Filmed over 10 years, this real-life thriller follows a DNA exoneree who, while exposing police corruption, becomes a suspect in a grisly new crime."
+    },
+    {
+      "show_id": "s2888",
+      "title": "I AM A KILLER: RELEASED",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "British TV Shows, Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "In this crime docuseries spinoff, a convict is paroled 30 years after being sentenced to death for murder. Then he makes a stunning confession."
+    },
+    {
+      "show_id": "s208",
+      "title": "A Murder in the Park",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Christopher S. Rech, Brandon Kimber",
+      "description": "This documentary excoriates a noted anti-death-penalty activist and his team, whose questionable methods got a convicted killer freed in 1999."
+    },
+    {
+      "show_id": "s6377",
+      "title": "The Frozen Dead",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Charles Berling, Julia Piaton, Pascal Greggory, Nina Meurisse, Lubna Azabal, Anne Le Ny, Robinson Stévenin, Robert Plagnol, Sophie Guillemin",
+      "director": "",
+      "description": "A grisly find atop a mountain in the French Pyrenees leads investigator Martin Servaz into a twisted dance with a serial killer in this icy thriller."
+    },
+    {
+      "show_id": "s4290",
+      "title": "Murder Mystery",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies",
+      "cast": "Adam Sandler, Jennifer Aniston, Luke Evans, Gemma Arterton, Adeel Akhtar, Luis Gerardo Méndez, Dany Boon, Terence Stamp",
+      "director": "Kyle Newacheck",
+      "description": "On a long-awaited trip to Europe, a New York City cop and his hairdresser wife scramble to solve a baffling murder aboard a billionaire's yacht."
+    },
+    {
+      "show_id": "s1492",
+      "title": "Conversations with a Killer: The Ted Bundy Tapes",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Present-day interviews, archival footage and audio recordings made on death row form a searing portrait of notorious serial killer Ted Bundy."
+    },
+    {
+      "show_id": "s7362",
+      "title": "Unsolved Mysteries",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Real cases of perplexing disappearances, shocking murders and paranormal encounters fuel this gripping revival of the iconic documentary series."
+    },
+    {
+      "show_id": "s4263",
+      "title": "Mrs. Serial Killer",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "International Movies, Thrillers",
+      "cast": "Jacqueline Fernandez, Manoj Bajpayee, Mohit Raina, Zayn Marie Khan",
+      "director": "Shirish Kunder",
+      "description": "When a doctor gets jailed for a string of shocking murders, his loyal wife sets out to commit a copycat crime to prove his innocence."
+    },
+    {
+      "show_id": "s6239",
+      "title": "The Confession Tapes",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "This true crime documentary series investigates cases where people convicted of murder claim their confessions were coerced, involuntary or false."
+    },
+    {
+      "show_id": "s7442",
+      "title": "Voice",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, International TV Shows, Korean TV Shows",
+      "cast": "Jang Hyuk, Lee Ha-na, Baek Sung-hyun, Ye-sung, Son Eun-seo, Kwon Jae-hwan, Lee Ju-seung, Kim Jae-wook",
+      "director": "",
+      "description": "A deft detective whose wife is killed by a serial murderer teams up with a rookie cop, a gifted voice profiler dealing with her own father’s murder."
+    },
+    {
+      "show_id": "s2634",
+      "title": "Harold Shipman - Driven to Kill",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "British TV Shows, Crime TV Shows, Docuseries",
+      "cast": "Harold Shipman",
+      "director": "",
+      "description": "Interviews and dramatic reconstructions illuminate the twisted motivations and brazen crimes of serial killer and respected physician, Harold Shipman."
+    },
+    {
+      "show_id": "s6238",
+      "title": "The Confession Killer",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "Robert Kenner, Taki Oldham",
+      "description": "Henry Lee Lucas rose to infamy when he confessed to hundreds of unsolved murders. This docuseries examines the truth – and horrifying consequences."
+    },
+    {
+      "show_id": "s6503",
+      "title": "The Investigator: A British Crime Story",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "British TV Shows, Crime TV Shows, Docuseries",
+      "cast": "Mark Williams-Thomas, Rick Warden, Frances Millar, Tanya Winsor, Alice Harding, David Bannerman, Danielle Bird, Eve Perry, Polly Lewis, Billy James Machin",
+      "director": "",
+      "description": "After 40 years of inconclusive evidence, renowned criminologist Mark Williams-Thomas re-examines a string of mysterious murders."
+    },
+    {
+      "show_id": "s5712",
+      "title": "Somewhere Between",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, TV Dramas, TV Mysteries",
+      "cast": "Paula Patton, Devon Sawa, JR Bourne, Aria Birch, Catherine Barroll, Samantha Ferris, Imogen Tear, Daniel Bacon, Carmel Amit, Noel Johansen, Rebecca Staab",
+      "director": "",
+      "description": "A local news producer is given one chance to relive a deadly week and stop a serial killer. If she fails, she'll lose her daughter forever."
+    },
+    {
+      "show_id": "s5673",
+      "title": "Small Crimes",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Nikolaj Coster-Waldau, Gary Cole, Molly Parker, Macon Blair, Pat Healy, Jacki Weaver, Robert Forster",
+      "director": "Evan Katz",
+      "description": "After serving a six-year prison sentence, an ex-cop tries to rebuild his life in his hometown, but gets caught up in the fallout from his past."
+    },
+    {
+      "show_id": "s6196",
+      "title": "The Call",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "International Movies, Thrillers",
+      "cast": "Park Shin-hye, Jun Jong-seo, Kim Sung-ryoung, EL, Park Ho-san, Oh Jung-se, Lee Dong-hwi, Um Chae-young",
+      "director": "Lee Chung-hyun",
+      "description": "Connected by phone in the same home but 20 years apart, a serial killer puts another woman’s past — and life — on the line to change her own fate."
+    },
+    {
+      "show_id": "s1535",
+      "title": "Crime Diaries: Night Out",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Sebastián Osorio, Fabiana Medina, Laura Osma, Enrique Carriazo, Julián Román, Juliana Velásquez, Juan Pablo Urrego, Carlos Vergara, Ernesto Campos, Fabio Rubiano, Ernesto Benjumea, Jairo Camargo, Marcela Agudelo",
+      "director": "Felipe Cano",
+      "description": "After going to a Halloween party, college student Luis Andrés Colmenares is found dead. Was it an accident or murder? Inspired by true events."
+    },
+    {
+      "show_id": "s1536",
+      "title": "Crime Diaries: The Candidate",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Jorge A. Jiménez, Ilse Salas, Alberto Guerra, Gustavo Sánchez Parra, Jorge Antonio Guerrero, Ari Brickman, Martín Altomaro, Hernán Del Riego, Norma Angélica, Lisa Owen, Eligio Meléndez, Marco Treviño, Pedro de Tavira Egurrola, Leonardo Alonso",
+      "director": "",
+      "description": "In 1994, Mexican presidential candidate Luis Donaldo Colosio's assassination sends his dying widow racing to uncover who did it. Based on true events."
+    },
+    {
+      "show_id": "s1732",
+      "title": "Dexter",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "Crime TV Shows, TV Dramas, TV Mysteries",
+      "cast": "Michael C. Hall, Jennifer Carpenter, David Zayas, James Remar, C.S. Lee, Lauren Vélez, Desmond Harrington, Julie Benz, Christina Robinson, Geoff Pierson",
+      "director": "",
+      "description": "By day, mild-mannered Dexter is a blood-spatter analyst for the Miami police. But at night, he is a serial killer who only targets other murderers."
+    },
+    {
+      "show_id": "s282",
+      "title": "Abducted in Plain Sight",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Skye Borgman",
+      "description": "In this true crime documentary, a family falls prey to the manipulative charms of a neighbor, who abducts their adolescent daughter. Twice."
+    },
+    {
+      "show_id": "s1532",
+      "title": "Creep 2",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Horror Movies, Independent Movies, Thrillers",
+      "cast": "Mark Duplass, Desiree Akhavan, Karan Soni",
+      "director": "Patrick Brice",
+      "description": "A video artist finds the perfect character for a sensational piece, but the subject of her dreams soon reveals his insidious side."
+    },
+    {
+      "show_id": "s7220",
+      "title": "Trial By Media",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "In this true crime docuseries, some of the most dramatic trials of all time are examined with an emphasis on how the media may have impacted verdicts."
+    },
+    {
+      "show_id": "s3732",
+      "title": "Lost Girls",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas",
+      "cast": "Amy Ryan, Gabriel Byrne, Thomasin McKenzie, Lola Kirke, Oona Laurence, Dean Winters, Miriam Shor, Reed Birney, Kevin Corrigan, Stan Carp",
+      "director": "Liz Garbus",
+      "description": "Desperate to find her missing daughter, a mother fights to uncover the truth — and helps expose a string of unsolved murders. Based on a true story."
+    },
+    {
+      "show_id": "s7415",
+      "title": "Victim of Beauty",
+      "type": "Movie",
+      "release_year": 1991,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "William Devane, Jeri Ryan, Michele Abrams, Nick Searcy, Linda Pierce, J. Don Ferguson, Butch Slade, Joyce Bowden-Kirby",
+      "director": "Roger Young",
+      "description": "A beauty pageant winner is stalked by a serial killer who kidnaps her sister and torments her family in this thriller based on a shocking true story."
+    },
+    {
+      "show_id": "s1051",
+      "title": "Bordertown",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Ville Virtanen, Matleena Kuusniemi, Anu Sinisalo, Lenita Susi, Kristiina Halttu, Olivia Ainali, Ilkka Villi, Max Bremer, Matti Laine, Jasmin Hamid",
+      "director": "",
+      "description": "A gifted detective takes a job in a small town so he can spend more time with his family. But he's soon drawn into a web of disturbing murder cases."
+    },
+    {
+      "show_id": "s2053",
+      "title": "Evil Genius",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, Docuseries, TV Mysteries",
+      "cast": "",
+      "director": "Trey Borzillieri, Barbara Schroeder",
+      "description": "This baffling true crime story starts with the grisly death of a pizza man who robs a bank with a bomb around his neck – and gets weirder from there."
+    }
+  ]
+}
