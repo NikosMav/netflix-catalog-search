@@ -1,0 +1,597 @@
+{
+  "split": "test",
+  "query_id": "adam_sandler_comedy",
+  "query": "Adam Sandler comedy movie",
+  "candidates": [
+    {
+      "show_id": "s1417",
+      "title": "Click",
+      "type": "Movie",
+      "release_year": 2006,
+      "listed_in": "Comedies, Sci-Fi & Fantasy",
+      "cast": "Adam Sandler, Kate Beckinsale, Christopher Walken, David Hasselhoff, Henry Winkler, Julie Kavner, Sean Astin, Joseph Castanon, Jonah Hill, Jake Hoffman, Jennifer Coolidge",
+      "director": "Frank Coraci",
+      "description": "Overworked Michael Newman stumbles on a universal remote control that gives him the power to pause or fast-forward through scenes in his life."
+    },
+    {
+      "show_id": "s1264",
+      "title": "Chalay Thay Saath",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Syra Shehroz, Kent S. Leung, Osama Tahir, Mansha Pasha, Zhalay Sharhadi, Faris Khalid, Behroze Sabzwari, Shamim Hilaly",
+      "director": "Umer Adil",
+      "description": "Beautiful and adventurous doctor Resham meets a handsome Chinese backpacker named Adam while traveling with friends on a journey of self-discovery."
+    },
+    {
+      "show_id": "s5708",
+      "title": "Something Huge",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Independent Movies, International Movies",
+      "cast": "Berto Romero, Carolina Bang, Javier Botet, Carlos Areces, Miguel Noguera, Toni Sevilla",
+      "director": "Carlo Padial",
+      "description": "A director and a comedian want to shoot the \"comedy of the future\" and make cinema history, but soon run out of resources and run into mission creep."
+    },
+    {
+      "show_id": "s552",
+      "title": "Anthony Jeselnik: Thoughts and Prayers",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Anthony Jeselnik",
+      "director": "Adam Dubin",
+      "description": "There's no subject too dark as the comedian skewers taboos and riffs on national tragedies before pulling back the curtain on his provocative style."
+    },
+    {
+      "show_id": "s3174",
+      "title": "Jim Jefferies: Intolerant",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Jim Jefferies",
+      "director": "Scott Zabielski",
+      "description": "Between scenes from an excruciating date, Jim Jefferies digs into generational differences, his own bad habits and the shifting boundaries in comedy."
+    },
+    {
+      "show_id": "s975",
+      "title": "Bleach The Movie: Fade to Black",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Action & Adventure, Anime Features, Sci-Fi & Fantasy",
+      "cast": "Masakazu Morita, Fumiko Orikasa, Aya Hirano, Hiroshi Kamiya, Mitsuaki Madono, Ryotaro Okiayu, Kentaro Ito, Shinichiro Miki, Satsuki Yukino, Masaaki Tsukada",
+      "director": "Noriyuki Abe",
+      "description": "When his mind is fogged by a scimitar-weilding stranger, Mayuri destroys his laboratory, unleashing a cloud of reishi that lays waste to the Seiretei."
+    },
+    {
+      "show_id": "s3122",
+      "title": "Jandino: Whatever it Takes",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Jandino Asporaat",
+      "director": "",
+      "description": "Jandino Asporaat riffs on the challenges of raising kids and serenades the audience with a rousing rendition of \"Sex on Fire\" in his comedy show."
+    },
+    {
+      "show_id": "s4290",
+      "title": "Murder Mystery",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies",
+      "cast": "Adam Sandler, Jennifer Aniston, Luke Evans, Gemma Arterton, Adeel Akhtar, Luis Gerardo Méndez, Dany Boon, Terence Stamp",
+      "director": "Kyle Newacheck",
+      "description": "On a long-awaited trip to Europe, a New York City cop and his hairdresser wife scramble to solve a baffling murder aboard a billionaire's yacht."
+    },
+    {
+      "show_id": "s1599",
+      "title": "Dangerous Lies",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Thrillers",
+      "cast": "Camila Mendes, Jessie T. Usher, Jamie Chung, Cam Gigandet, Sasha Alexander, Elliott Gould",
+      "director": "Michael M. Scott",
+      "description": "A broke caregiver unexpectedly inherits her patient's estate, but dark secrets swirl around her newfound wealth, tangling her in deceit and danger."
+    },
+    {
+      "show_id": "s1333",
+      "title": "Children of Adam",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Dramas, TV Thrillers",
+      "cast": "Maguy Bou Ghosn, Daniella Rahme, Maxim Khalil, Qays Sheikh Najib, Mohamed Yaghy, Rodney Haddad, Nada Abou Farhat",
+      "director": "",
+      "description": "Amid crime and corruption, the lives of two couples intertwine as unexpected events soon reveal their dark secrets and tainted pasts."
+    },
+    {
+      "show_id": "s3168",
+      "title": "Jim Gaffigan: Cinco",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Jim Gaffigan",
+      "director": "Jeannie Gaffigan",
+      "description": "America's king of clean comedy delivers wickedly funny jokes in his fifth hour-long special."
+    },
+    {
+      "show_id": "s5561",
+      "title": "Shelter",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Julianne Moore, Jonathan Rhys Meyers, Jeffrey DeMunn, Frances Conroy, Nate Corddry, Brooklynn Proulx, Brian Anthony Wilson, Joyce Feurring, Steven Rishard, Charles Techman",
+      "director": "Måns Mårlind, Björn Stein",
+      "description": "A forensic psychiatrist has to think outside the box when she takes on a patient whose multiple personalities lead to a trail of murder victims."
+    },
+    {
+      "show_id": "s6867",
+      "title": "The Show Must Go On: The Queen + Adam Lambert Story",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, Music & Musicals",
+      "cast": "Adam Lambert, Brian May, Roger Taylor",
+      "director": "",
+      "description": "With rare footage and candid interviews, this documentary details the serendipitous pairing of legendary rock band Queen and powerhouse Adam Lambert."
+    },
+    {
+      "show_id": "s4251",
+      "title": "Mr. Deeds",
+      "type": "Movie",
+      "release_year": 2002,
+      "listed_in": "Comedies, Romantic Movies",
+      "cast": "Adam Sandler, Winona Ryder, Peter Gallagher, Jared Harris, Allen Covert, Erick Avari, John Turturro, Peter Dante, Conchata Ferrell, Steve Buscemi",
+      "director": "Steve Brill",
+      "description": "After inheriting a media empire, humble Longfellow Deeds moves to the Big Apple – where a reporter and a company bigwig are waiting to pounce on him."
+    },
+    {
+      "show_id": "s902",
+      "title": "Big Daddy",
+      "type": "Movie",
+      "release_year": 1999,
+      "listed_in": "Comedies",
+      "cast": "Adam Sandler, Joey Lauren Adams, Jon Stewart, Cole Sprouse, Dylan Sprouse, Josh Mostel, Leslie Mann, Allen Covert, Rob Schneider, Kristy Swanson",
+      "director": "Dennis Dugan",
+      "description": "Dumped by his girlfriend because he refuses to accept responsibility, overgrown adolescent Sonny Koufax adopts a 5-year-old to prove he's a grownup."
+    },
+    {
+      "show_id": "s523",
+      "title": "Anger Management",
+      "type": "Movie",
+      "release_year": 2003,
+      "listed_in": "Comedies",
+      "cast": "Adam Sandler, Jack Nicholson, Marisa Tomei, Luis Guzmán, Allen Covert, Lynne Thigpen, Kurt Fuller, Jonathan Loughran, Krista Allen, January Jones, Woody Harrelson, John Turturro, Kevin Nealon",
+      "director": "Peter Segal",
+      "description": "After a gentle businessman is forced to get anger management counseling, his therapist moves in – but turns out to have anger issues of his own."
+    },
+    {
+      "show_id": "s803",
+      "title": "Bedtime Stories",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Adam Sandler, Keri Russell, Guy Pearce, Russell Brand, Richard Griffiths, Jonathan Pryce, Courteney Cox, Lucy Lawless, Teresa Palmer, Aisha Tyler, Laura Ann Kesling, Jackie Sandler, Lorna Scott, Dana Min Goodman, Andrew Collins, Jonathan Loughran, Jonathan Morgan Heit, Nick Swardson, Tim Herlihy, Billy Tyler, Johntae Lipscomb, Mikey Post, Sebastian Saraceno, Bill Romanowski, Sadie Sandler, Carmen Electra, Allen Covert, Kathryn Joosten, Annalise Basso, Blake Clark, Julia Lea Wolov, Sarah G. Buxton",
+      "director": "Adam Shankman",
+      "description": "Skeeter's life is turned upside down when the fantastical stories he makes up to entertain his niece and nephew inexplicably turn into reality."
+    },
+    {
+      "show_id": "s4281",
+      "title": "Munafik 2",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Horror Movies, International Movies",
+      "cast": "Syamsul Yusof, Maya Karin, Nasir Bilal Khan, Rahim Razali, Fizz Fairuz, Fauzi Nawawi, Mawi, Ku Faridah",
+      "director": "Syamsul Yusof",
+      "description": "Haunted by terrifying visions, a Muslim healer finds his faith tested when he helps a woman locked in battle, body and soul, with a diabolical leader."
+    },
+    {
+      "show_id": "s6308",
+      "title": "The Do-Over",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure, Comedies",
+      "cast": "Adam Sandler, David Spade, Paula Patton, Kathryn Hahn, Nick Swardson, Catherine Bell, Michael Chiklis, Natasha Leggero, Sean Astin",
+      "director": "Steven Brill",
+      "description": "The life of a bank manager is turned upside down when a friend from his past manipulates him into faking his own death and taking off on an adventure."
+    },
+    {
+      "show_id": "s5680",
+      "title": "SMOSH: The Movie",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Comedies",
+      "cast": "Ian Hecox, Anthony Padilla, Jenna Marbles, Grace Helbig, Harley Morenstein, Jillian Nelson, Brittany Ross, Michael Ian Black, Steve Austin",
+      "director": "Alex Winter",
+      "description": "To keep his teen crush from spotting him in an embarrassing YouTube video, Anthony and his friend Ian must enter the virtual world and alter the clip."
+    },
+    {
+      "show_id": "s5717",
+      "title": "Son Of Adam",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Youssef El Sherif, Dina El-Sherbiny, Ahmad Rizq, Hana El Zahed, Mahmoud El Gendy, Bayyumi Fuad, Khaled Kamal, Mahmoud El-Bazzawy",
+      "director": "Ahmed Nader Galal",
+      "description": "To escape conviction on criminal charges, a businessman agrees to aid a risky police mission, but his motives soon turn suspicious."
+    },
+    {
+      "show_id": "s2602",
+      "title": "Hannibal Buress: Comedy Camisado",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Hannibal Buress",
+      "director": "Lance Bangs",
+      "description": "In a special packed with stealthy humor, Hannibal Buress tackles zipper etiquette, the legacy of steroids and the fallout from his Bill Cosby routine."
+    },
+    {
+      "show_id": "s3900",
+      "title": "Man with a Plan",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Comedies",
+      "cast": "Matt LeBlanc, Liza Snyder, Grace Kaufman, Matthew McCann, Hala Finley, Matt Cook, Jessica Chaffin",
+      "director": "",
+      "description": "When his wife Andi returns to work, contractor Adam Burns becomes a stay-at-home dad and discovers that parenting is a tougher job than he realized."
+    },
+    {
+      "show_id": "s122",
+      "title": "50 First Dates",
+      "type": "Movie",
+      "release_year": 2004,
+      "listed_in": "Comedies, Romantic Movies",
+      "cast": "Adam Sandler, Drew Barrymore, Rob Schneider, Sean Astin, Lusia Strus, Dan Aykroyd, Amy Hill, Allen Covert, Blake Clark, Maya Rudolph",
+      "director": "Peter Segal",
+      "description": "After falling for a pretty art teacher who has no short-term memory, a marine veterinarian has to win her over again every single day."
+    },
+    {
+      "show_id": "s123",
+      "title": "50/50",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Joseph Gordon-Levitt, Seth Rogen, Anna Kendrick, Bryce Dallas Howard, Anjelica Huston, Serge Houde, Andrew Airlie, Matt Frewer, Philip Baker Hall, Marie Avgeropoulos, Jessica Parker Kennedy",
+      "director": "Jonathan Levine",
+      "description": "An otherwise healthy twentysomething has a comically early midlife crisis when he gets slapped with a cancer diagnosis and a 50-50 chance of survival."
+    },
+    {
+      "show_id": "s5937",
+      "title": "Swearnet: The Movie",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Mike Smith, John Paul Tremblay, Robb Wells, Patrick Roach, Mishael Morgan, Sarah Jurgens, Shannon Leroux, Dana Woods, Howard Jerome, Tom Green",
+      "director": "Warren P. Sonoda",
+      "description": "After losing a TV network deal, the Trailer Park Boys launch their own Internet series, but they soon confront personal and creative differences."
+    },
+    {
+      "show_id": "s2856",
+      "title": "Hubie Halloween",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Comedies, Horror Movies",
+      "cast": "Adam Sandler, Kevin James, Julie Bowen, Ray Liotta, Steve Buscemi, Maya Rudolph, Rob Schneider, June Squibb, Kenan Thompson, Tim Meadows, Michael Chiklis, Karan Brar, George Wallace, Paris Berelc, Noah Schnapp, China Anne McClain, Colin Quinn, Kym Whitley, Lavell Crawford, Mikey Day, Jackie Sandler, Sadie Sandler, Sunny Sandler",
+      "director": "Steve Brill",
+      "description": "Hubie's not the most popular guy in Salem, Mass., but when Halloween turns truly spooky, this good-hearted scaredy-cat sets out to keep his town safe."
+    },
+    {
+      "show_id": "s2193",
+      "title": "Fishtronaut: The Movie",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Children & Family Movies",
+      "cast": "Fábio Lucindo, Celso Alves, Fernanda Bullara",
+      "director": "Célia Catunda, Kiko Mistrorigo, Rodrigo Eba",
+      "description": "Fishtronaut, Marina and Zeek travel to the big city in search of Grandpa, only to find that everyone else has mysteriously vanished too."
+    },
+    {
+      "show_id": "s5402",
+      "title": "Satan & Adam",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries, Music & Musicals",
+      "cast": "Sterling Magee, Adam Gussow",
+      "director": "V. Scott Balcerek",
+      "description": "An aging blues guitarist and a grad student form an unlikely duo while busking on the street corners of 1980s Harlem."
+    },
+    {
+      "show_id": "s308",
+      "title": "ADAM SANDLER 100% FRESH",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Adam Sandler",
+      "director": "Steve Brill",
+      "description": "From \"Heroes\" to \"Ice Cream Ladies\" – Adam Sandler's comedy special hits you with new songs and jokes in an unexpected, groundbreaking way."
+    },
+    {
+      "show_id": "s6727",
+      "title": "The Original Kings of Comedy",
+      "type": "Movie",
+      "release_year": 2000,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Steve Harvey, D.L. Hughley, Cedric the Entertainer, Bernie Mac",
+      "director": "Spike Lee",
+      "description": "Director Spike Lee documents the last night of the hit comedy tour featuring comics Steve Harvey, Cedric the Entertainer, D.L. Hughley and Bernie Mac."
+    },
+    {
+      "show_id": "s307",
+      "title": "Adam Ruins Everything",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "TV Comedies",
+      "cast": "Adam Conover, Adam Lustick, Emily Axford",
+      "director": "",
+      "description": "Education can be fun – and funny. Comedian Adam Conover bursts misconceptions, deconstructs topics and leaves with positive takeaways."
+    },
+    {
+      "show_id": "s6991",
+      "title": "The Waterboy",
+      "type": "Movie",
+      "release_year": 1998,
+      "listed_in": "Comedies, Sports Movies",
+      "cast": "Adam Sandler, Kathy Bates, Henry Winkler, Fairuza Balk, Jerry Reed, Lawrence Gilliard Jr., Blake Clark, Peter Dante, Jonathan Loughran, Al Whiting",
+      "director": "Frank Coraci",
+      "description": "A water boy for a college football team has a rage that makes him a tackling machine whose bone-crushing power might vault his team into the playoffs."
+    },
+    {
+      "show_id": "s309",
+      "title": "Adam: His Song Continues",
+      "type": "Movie",
+      "release_year": 1986,
+      "listed_in": "Dramas",
+      "cast": "Daniel J. Travanti, JoBeth Williams, Richard Masur, Martha Scott, Paul Regina",
+      "director": "Robert Markowitz",
+      "description": "After their child was abducted and murdered, John and Reve Walsh fought to raise national awareness of the problem of missing children."
+    },
+    {
+      "show_id": "s5387",
+      "title": "Santo Cachón",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "",
+      "director": "",
+      "description": "A man whose wife is repeatedly cheating on him turns to his friends for support in this wacky comedy."
+    },
+    {
+      "show_id": "s492",
+      "title": "An Evening with Beverly Luff Linn",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Independent Movies",
+      "cast": "Aubrey Plaza, Emile Hirsch, Jemaine Clement, Craig Robinson, Matt Berry, Zach Cherry, Maria Bamford, Michael D. Cohen, Sky Elobar, Jacob Wysocki, John Kerry, Bettina Devin, Gil Gex",
+      "director": "Jim Hosking",
+      "description": "When an unhappily married woman discovers a man from her past has a role in a local theater production, she'll do anything to reconnect with him."
+    },
+    {
+      "show_id": "s2207",
+      "title": "Flinch",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Reality TV",
+      "cast": "Desiree Burch, Lloyd Griffith, Seann Walsh",
+      "director": "",
+      "description": "Harrowing and hilarious tests await the brave and foolhardy, as well as the judges, in this comedy game show. If they flinch, they feel the pain."
+    },
+    {
+      "show_id": "s7729",
+      "title": "You Don't Mess with the Zohan",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Action & Adventure, Comedies",
+      "cast": "Adam Sandler, John Turturro, Emmanuelle Chriqui, Nick Swardson, Lainie Kazan, Ido Mosseri, Rob Schneider, Dave Matthews, Michael Buffer, Charlotte Rae",
+      "director": "Dennis Dugan",
+      "description": "An Israeli counterterrorism soldier with a secretly fabulous ambition to become a Manhattan hairstylist will do anything to make his dreams come true."
+    },
+    {
+      "show_id": "s5376",
+      "title": "Sandy Wexler",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies",
+      "cast": "Adam Sandler, Jennifer Hudson, Kevin James, Terry Crews, Rob Schneider, Colin Quinn, Nick Swardson, Lamorne Morris, Arsenio Hall, Jamie Gray Hyder",
+      "director": "Steven Brill",
+      "description": "When a hapless but dedicated talent manager signs his first client who actually has talent, his career finally starts to take off."
+    },
+    {
+      "show_id": "s6866",
+      "title": "The Show",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas",
+      "cast": "Josh Duhamel, Giancarlo Esposito, Famke Janssen, Sarah Wayne Callies, Caitlin Fitzgerald, Chris Ellis, Lucia Walters, James Franco",
+      "director": "Giancarlo Esposito",
+      "description": "A disillusioned reality TV host and an idealistic producer are lured by their network into producing a show in which participants kill themselves."
+    },
+    {
+      "show_id": "s2830",
+      "title": "Hotel Transylvania 3: Summer Vacation",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Adam Sandler, Selena Gomez, Kevin James, Kathryn Hahn, Andy Samberg, David Spade, Steve Buscemi, Fran Drescher, Molly Shannon, Mel Brooks, Keegan-Michael Key",
+      "director": "Genndy Tartakovsky",
+      "description": "It's love at first sight for Dracula when he meets Ericka, the charming but mysterious captain of the monster cruise that Mavis plans for the family."
+    },
+    {
+      "show_id": "s4245",
+      "title": "Movie 43",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Comedies",
+      "cast": "Greg Kinnear, Dennis Quaid, Common, Seth MacFarlane, Will Sasso, Hugh Jackman, Kate Winslet, Liev Schreiber, Naomi Watts, Anna Faris, Chris Pratt, J.B. Smoove, Kieran Culkin, Emma Stone, Cathy Cliften, Kristen Bell, Leslie Bibb, Bobby Cannavale, John Hodgman, Justin Long, Jason Sudeikis, Uma Thurman, Phil Crowley, Kate Bosworth, Richard Gere, Jack McBrayer, Aasif Mandvi, Christopher Mintz-Plasse, Chloë Grace Moretz, Matt Walsh, Patrick Warburton, Gerard Butler, Johnny Knoxville, Seann William Scott, Halle Berry, Stephen Merchant, Terrence Howard, Elizabeth Banks, Josh Duhamel",
+      "director": "Peter Farrelly, Will Graham, Steve Carr, Griffin Dunne, Steve Brill, James Duffy, Jonathan van Tulleken, Elizabeth Banks, Patrik Forsberg, Brett Ratner, Rusty Cundieff, James Gunn",
+      "description": "An eye-popping cast stars in this sketch-comedy collage, the new millennium's homage to classic anthology films like The Kentucky Fried Movie."
+    },
+    {
+      "show_id": "s2005",
+      "title": "Enemy",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Independent Movies, Thrillers",
+      "cast": "Jake Gyllenhaal, Mélanie Laurent, Sarah Gadon, Isabella Rossellini, Joshua Peace, Tim Post",
+      "director": "Denis Villeneuve",
+      "description": "When a humdrum academic spots his double in a movie, he launches a search that leads him to a small-time actor who looks exactly like him."
+    },
+    {
+      "show_id": "s4262",
+      "title": "Mr. Young",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Brendan Meyer, Matreya Fedor, Gig Morton, Kurt Ostlund, Emily Tennant, Milo Shandel",
+      "director": "",
+      "description": "After Adam graduates from college at age 14, he heads back to high school to teach science, where his crush and his best friends are his students!"
+    },
+    {
+      "show_id": "s6820",
+      "title": "The Ridiculous 6",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Action & Adventure, Comedies",
+      "cast": "Adam Sandler, Terry Crews, Jorge Garcia, Taylor Lautner, Rob Schneider, Luke Wilson, Will Forte, Steve Zahn, Harvey Keitel, Nick Nolte, Jon Lovitz, Whitney Cummings, David Spade, Danny Trejo, Nick Swardson, Blake Shelton, Vanilla Ice, Julia Jones, Saginaw Grant, Lavell Crawford, Steve Buscemi",
+      "director": "Frank Coraci",
+      "description": "When his outlaw dad is kidnapped, Tommy “White Knife” Stockburn sets off across the West on a rescue mission with five brothers he never knew he had."
+    },
+    {
+      "show_id": "s3977",
+      "title": "Masameer - The Movie",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Malik Nejer, Shahad Alahmari, Abdulaziz Almuzaini, Yousef Aldakheel",
+      "director": "Malik Nejer",
+      "description": "A young girl passionate about AI sets out to make an impact as three friends become crime-fighting superheroes. Based on the hit animated web series."
+    },
+    {
+      "show_id": "s3368",
+      "title": "Kicking and Screaming",
+      "type": "Movie",
+      "release_year": 1995,
+      "listed_in": "Comedies, Independent Movies, Romantic Movies",
+      "cast": "Josh Hamilton, Olivia d'Abo, Carlos Jacott, Chris Eigeman, Eric Stoltz, Jason Wiles, Parker Posey, Cara Buono, Elliott Gould, Samuel Gould",
+      "director": "Noah Baumbach",
+      "description": "After graduating, four college roomies – petrified by the prospect of facing \"real life\" – reluctantly step into adulthood in this ensemble comedy."
+    },
+    {
+      "show_id": "s3667",
+      "title": "Little Nicky",
+      "type": "Movie",
+      "release_year": 2000,
+      "listed_in": "Comedies",
+      "cast": "Adam Sandler, Patricia Arquette, Harvey Keitel, Rhys Ifans, Allen Covert, Tommy 'Tiny' Lister, Kevin Nealon, Jon Lovitz, Michael McKean, Quentin Tarantino",
+      "director": "Steve Brill",
+      "description": "The devil sends his sweet son Nicky to Earth to bring back his scheming siblings, who have plans to oust dear old dad from power."
+    },
+    {
+      "show_id": "s4470",
+      "title": "Nightcrawler",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Dramas, Independent Movies, Thrillers",
+      "cast": "Jake Gyllenhaal, Rene Russo, Riz Ahmed, Bill Paxton, Kevin Rahm, Michael Hyatt, Ann Cusack, Marco Rodriguez, Michael Papajohn, Kent Shocknek, James Huang",
+      "director": "Dan Gilroy",
+      "description": "A young hustler finds success trolling the streets of Los Angeles to film disasters and death. But the darkness he captures starts to take hold of him."
+    },
+    {
+      "show_id": "s116",
+      "title": "4th Man Out",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Comedies, LGBTQ Movies",
+      "cast": "Evan Todd, Parker Young, Chord Overstreet, Jon Gabrus, Kate Flannery, Brooke Dillman, Jennifer Damiano, Jordan Lane Price, Alex Rennie, Jake Epstein",
+      "director": "Andrew Nackman",
+      "description": "A young mechanic comes out to his extremely straight best friends. Once they get used to the idea, they're determined to help him find the right guy."
+    },
+    {
+      "show_id": "s6840",
+      "title": "The Rugrats Movie",
+      "type": "Movie",
+      "release_year": 1998,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Elizabeth Daily, Christine Cavanaugh, Kath Soucie, Melanie Chartoff, Phil Proctor, Cree Summer, Cheryl Chase, Tara Strong, Jack Riley, Joe Alaskey, Michael Bell, Tress MacNeille, Busta Rhymes, Whoopi Goldberg, David Spade",
+      "director": "Igor Kovalyov, Norton Virgien",
+      "description": "When his baby brother Dil is born, Tommy Pickles and his pals decide that he's too much responsibility and try to return him to the hospital."
+    },
+    {
+      "show_id": "s6663",
+      "title": "The Meyerowitz Stories (New and Selected)",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Adam Sandler, Ben Stiller, Dustin Hoffman, Elizabeth Marvel, Grace Van Patten, Emma Thompson, Candice Bergen, Rebecca Miller, Danny Flaherty, Sakina Jaffrey, Adam David Thompson",
+      "director": "Noah Baumbach",
+      "description": "Grudges and rivalries abound as three adult siblings converge in New York to contend with their prickly artist father – and his fading legacy."
+    },
+    {
+      "show_id": "s306",
+      "title": "Adam Devine: Best Time of Our Lives",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Adam Devine",
+      "director": "Jay Karas",
+      "description": "Frenetic comic Adam Devine talks teen awkwardness, celebrity encounters, his \"Pitch Perfect\" audition and more in a special from his hometown of Omaha."
+    },
+    {
+      "show_id": "s7329",
+      "title": "Uncut Gems",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Adam Sandler, LaKeith Stanfield, Kevin Garnett, Julia Fox, Idina Menzel, Eric Bogosian, Judd Hirsch, Abel Tesfaye",
+      "director": "Josh Safdie, Benny Safdie",
+      "description": "With his debts mounting and angry collectors closing in, a fast-talking New York City jeweler risks everything in hopes of staying afloat and alive."
+    },
+    {
+      "show_id": "s5655",
+      "title": "Sky Tour: The Movie",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, International Movies, Music & Musicals",
+      "cast": "Son Tung M-TP",
+      "director": "Nguyen Thanh Tung",
+      "description": "From the preparations to the performances, this documentary showcases Vietnamese pop idol Sơn Tùng M-TP and the passion behind his Sky Tour concerts."
+    },
+    {
+      "show_id": "s6996",
+      "title": "The Week Of",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies",
+      "cast": "Adam Sandler, Chris Rock, Steve Buscemi, Rachel Dratch, Allison Strong, Roland Buck III, Katie Hartman, Chloe Himmelman, Jake Lippmann, Jim Barone, June Gable",
+      "director": "Robert Smigel",
+      "description": "Two fathers with clashing views about their children's upcoming wedding struggle to keep it together during the chaotic week before the big day."
+    },
+    {
+      "show_id": "s6909",
+      "title": "THE STRANGER",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, TV Dramas, TV Mysteries",
+      "cast": "Richard Armitage, Siobhan Finneran, Jennifer Saunders, Shaun Dooley, Paul Kaye, Dervla Kirwan, Kadiff Kirwan, Hannah John-Kamen, Anthony Head, Stephen Rea, Jacob Dudman, Ella-Rae Smith, Brandon Fellows, Misha Handley",
+      "director": "",
+      "description": "When a stranger makes a shocking claim about his wife, family man Adam Price becomes entangled in a mystery as he desperately searches for answers."
+    },
+    {
+      "show_id": "s6109",
+      "title": "The Bad Education Movie",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Comedies",
+      "cast": "Jack Whitehall, Joanna Scanlan, Iain Glen, Ethan Lawrence, Layton Williams, Kae Alexander, Weruche Opia, Nikki Runeckles, Charlie Wernham, Jack Binstead",
+      "director": "Elliot Hegarty",
+      "description": "Britain's most ineffective but caring teacher takes his class to Cornwall for one last school trip, where anything could happen –\n and probably will."
+    },
+    {
+      "show_id": "s6729",
+      "title": "The Other",
+      "type": "Movie",
+      "release_year": 1999,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Nabila Ebeid, Mahmoud Hemeida, Hanan Turk, Hani Salama, Lebleba, Hassan Abdel Hamid, Ezzat Abou Aouf, Ahmed Fouad Selim, Amr Saad, Ahmad Wafiq",
+      "director": "Youssef Chahine",
+      "description": "When a graduate student elopes with a plucky reporter, his wealthy, possessive mother connives with his militant brother-in-law to wreck the union."
+    }
+  ]
+}

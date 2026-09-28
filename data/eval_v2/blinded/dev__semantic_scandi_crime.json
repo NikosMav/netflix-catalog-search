@@ -1,0 +1,497 @@
+{
+  "split": "dev",
+  "query_id": "semantic_scandi_crime",
+  "query": "dark crime thriller set in Scandinavia",
+  "candidates": [
+    {
+      "show_id": "s4468",
+      "title": "Night on Earth: Shot in the Dark",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Movies",
+      "cast": "Samira Wiley",
+      "director": "",
+      "description": "This look behind the scenes shows how worldwide camera crews climbed, dived and froze to capture the documentary's groundbreaking night footage."
+    },
+    {
+      "show_id": "s281",
+      "title": "Abdo Mota",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Mohamed Ramadan",
+      "director": "",
+      "description": "Following the mysterious death of his parents, a young man finds himself enmeshed in the dark world of drugs and crime."
+    },
+    {
+      "show_id": "s4822",
+      "title": "Penny Dreadful",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "TV Dramas, TV Horror, TV Mysteries",
+      "cast": "Josh Hartnett, Eva Green, Timothy Dalton, Reeve Carney, Rory Kinnear, Billie Piper, Danny Sapani, Harry Treadaway",
+      "director": "",
+      "description": "The classic tales of Dracula, Frankenstein, Dorian Gray and more are woven together in this horror series set on the dark streets of Victorian London."
+    },
+    {
+      "show_id": "s2001",
+      "title": "Encounters with Evil",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Crime TV Shows, Docuseries",
+      "cast": "Richard Lintern",
+      "director": "",
+      "description": "This documentary series tries to get at the root of some of the most heinous crimes ever committed by deranged, cold-blooded criminals."
+    },
+    {
+      "show_id": "s4469",
+      "title": "Night Stalker: The Hunt for a Serial Killer",
+      "type": "TV Show",
+      "release_year": 2021,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "Tiller Russell",
+      "description": "Beneath the sunlit glamour of 1985 LA lurks a relentlessly evil serial killer. In this true-crime story, two detectives won't rest until they catch him."
+    },
+    {
+      "show_id": "s7069",
+      "title": "Thriller",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Horror Movies",
+      "cast": "Jessica Allain, Luke Tennie, Tequan Richmond, Paige Hurd, Chelsea Rendon, Mitchell Edwards, Pepi Sonuga, Jason Woods, Maestro Harrell, RZA, Mykelti Williamson",
+      "director": "Dallas Jackson",
+      "description": "When a prank goes wrong, a shy kid from Compton is sent away for murder. Four years later, he’s back and out for revenge on homecoming weekend."
+    },
+    {
+      "show_id": "s1618",
+      "title": "Dark Places",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Charlize Theron, Nicholas Hoult, Chloë Grace Moretz, Tye Sheridan, Sterling Jerins, Corey Stoll, Christina Hendricks, Drea de Matteo, Sean Bridgers, Andrea Roth",
+      "director": "Gilles Paquet-Brenner",
+      "description": "Years after surviving a brutal crime as a child, Libby Day comes to believe that the brother she testified against for committing it may be innocent."
+    },
+    {
+      "show_id": "s1535",
+      "title": "Crime Diaries: Night Out",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Sebastián Osorio, Fabiana Medina, Laura Osma, Enrique Carriazo, Julián Román, Juliana Velásquez, Juan Pablo Urrego, Carlos Vergara, Ernesto Campos, Fabio Rubiano, Ernesto Benjumea, Jairo Camargo, Marcela Agudelo",
+      "director": "Felipe Cano",
+      "description": "After going to a Halloween party, college student Luis Andrés Colmenares is found dead. Was it an accident or murder? Inspired by true events."
+    },
+    {
+      "show_id": "s2972",
+      "title": "In The Dark",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, TV Dramas",
+      "cast": "Perry Mattfeld, Brooke Markham, Casey Deidrick, Keston John, Morgan Krantz, Rich Sommer, Thamela Mpumlwana, Saycon Sengbloh, Kathleen York, Derek Webster",
+      "director": "",
+      "description": "A blind woman with vices finds herself in the middle of a murder investigation when her best friend turns up dead."
+    },
+    {
+      "show_id": "s1712",
+      "title": "Designated Survivor",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, TV Dramas, TV Thrillers",
+      "cast": "Kiefer Sutherland, Natascha McElhone, Maggie Q, Kal Penn, Adan Canto, Italia Ricci, LaMonica Garrett, Tanner Buchanan, Ben Lawson, Paulo Costanzo, Zoe McLellan",
+      "director": "",
+      "description": "America's fate rests in the hands of a low-level official after an attack on Washington decimates the government in this gripping political thriller."
+    },
+    {
+      "show_id": "s2563",
+      "title": "Gypsy",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "TV Dramas",
+      "cast": "Naomi Watts, Billy Crudup, Sophie Cookson, Karl Glusman, Poorna Jagannathan, Brooke Bloom, Lucy Boynton, Melanie Liburd, Brenda Vaccaro, Maren Heary, Blythe Danner",
+      "director": "",
+      "description": "Therapist Jean Holloway develops dangerous and intimate relationships with the people in her patients' lives in this simmering psychological thriller."
+    },
+    {
+      "show_id": "s1745",
+      "title": "Diamond City",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Noxee Maqashalala, Angela Sithole, Nambitha Ben-Mazwi, Thabang Molaba, Lehlohonolo Makoko, Ilse Klink, Makgano Mamabolo, Tshepo Maseko",
+      "director": "",
+      "description": "A prominent prosecuting attorney must defend her innocence — and her life — when she's set up and sent to prison as she investigates a conspiracy."
+    },
+    {
+      "show_id": "s1615",
+      "title": "Dark Forces",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Horror Movies, Independent Movies, International Movies",
+      "cast": "Tenoch Huerta, Eréndira Ibarra, Dale Carley, Ariane Pellicer, Johana Blendl, Dai Liparoti, Mauricio Aspe, Nick Zedd",
+      "director": "Bernardo Arellano",
+      "description": "In search of his sister, a renegade criminal seeks answers at a sordid hotel where he encounters a sinister guest and romances a mysterious waitress."
+    },
+    {
+      "show_id": "s1051",
+      "title": "Bordertown",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Ville Virtanen, Matleena Kuusniemi, Anu Sinisalo, Lenita Susi, Kristiina Halttu, Olivia Ainali, Ilkka Villi, Max Bremer, Matti Laine, Jasmin Hamid",
+      "director": "",
+      "description": "A gifted detective takes a job in a small town so he can spend more time with his family. But he's soon drawn into a web of disturbing murder cases."
+    },
+    {
+      "show_id": "s5614",
+      "title": "Simon Amstell: Set Free",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Simon Amstell",
+      "director": "Julia Knowles",
+      "description": "Honest, introspective comic Simon Amstell digs deep and delivers a uniquely vulnerable stand-up set on love, ego, intimacy and ayahuasca."
+    },
+    {
+      "show_id": "s6974",
+      "title": "The Valhalla Murders",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Nína Dögg Filippusdóttir, Björn Thors, Bergur Ebbi, Aldís Amah Hamilton, Sigurður Skúlason, Tinna Hrafnsdóttir, Arndís Hrönn Egilsdóttir, Edda Björgvinsdóttir, Valur Freyr Einarsson, Damon Younger",
+      "director": "",
+      "description": "An Oslo detective with a painful past returns to his native Iceland to help a dedicated cop hunt a serial killer with a link to a mysterious photo."
+    },
+    {
+      "show_id": "s7089",
+      "title": "Til Death Do Us Part",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, TV Dramas, TV Thrillers",
+      "cast": "Wen Chen-ling, River Huang, Lin He-xuan, Phoebe Lin, Janel Tsai, Dara Hanfman, Hsia Teng-hung, Nikki Hsin-Ying Hsieh",
+      "director": "Cho Li, Chen Hung-yi, Weica Wang, Liu Bang-yao, Lin Guan-fu, Shen Chi, YC Tom Lee",
+      "description": "Based on the speculative short stories of MirrorFiction, this sci-fi thriller anthology plunges headlong into our deepest desires – and darkest fears."
+    },
+    {
+      "show_id": "s3878",
+      "title": "Making a Murderer",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Filmed over 10 years, this real-life thriller follows a DNA exoneree who, while exposing police corruption, becomes a suspect in a grisly new crime."
+    },
+    {
+      "show_id": "s2745",
+      "title": "Hinterland",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Crime TV Shows, International TV Shows",
+      "cast": "Richard Harrington, Mali Harries, Hannah Daniel, Alex Harries, Aneirin Hughes, Daniel Rochford",
+      "director": "",
+      "description": "Forsaking London for the rustic landscapes of Wales, a police detective with a troubled soul finds himself in a place with secrets as dark as his own."
+    },
+    {
+      "show_id": "s4290",
+      "title": "Murder Mystery",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies",
+      "cast": "Adam Sandler, Jennifer Aniston, Luke Evans, Gemma Arterton, Adeel Akhtar, Luis Gerardo Méndez, Dany Boon, Terence Stamp",
+      "director": "Kyle Newacheck",
+      "description": "On a long-awaited trip to Europe, a New York City cop and his hairdresser wife scramble to solve a baffling murder aboard a billionaire's yacht."
+    },
+    {
+      "show_id": "s6377",
+      "title": "The Frozen Dead",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Charles Berling, Julia Piaton, Pascal Greggory, Nina Meurisse, Lubna Azabal, Anne Le Ny, Robinson Stévenin, Robert Plagnol, Sophie Guillemin",
+      "director": "",
+      "description": "A grisly find atop a mountain in the French Pyrenees leads investigator Martin Servaz into a twisted dance with a serial killer in this icy thriller."
+    },
+    {
+      "show_id": "s4766",
+      "title": "Paranoid",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Crime TV Shows, International TV Shows",
+      "cast": "Indira Varma, Robert Glenister, Dino Fetscher, Neil Stuke, Christiane Paul, Lesley Sharp, Kevin Doyle",
+      "director": "",
+      "description": "When a woman is brutally murdered on a playground, a group of detectives find themselves drawn into a dark conspiracy as they search for the killer."
+    },
+    {
+      "show_id": "s686",
+      "title": "Bad Blood",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, TV Dramas",
+      "cast": "Anthony LaPaglia, Kim Coates, Enrico Colantoni, Paul Sorvino, Maxim Roy, Brett Donahue, Michelle Mylett, Claudia Ferri, Tony Nappo",
+      "director": "",
+      "description": "This sprawling crime drama follows the true story of the Rizzuto family and its associates, who presided over organized crime in Montreal for decades."
+    },
+    {
+      "show_id": "s6251",
+      "title": "The Crime",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Magdalena Boczarska, Wojciech Zieliński, Joanna Kulig, Radosław Pazura, Magdalena Zawadzka, Dorota Kolak, Zdzislaw Wardejn, Małgorzata Rożniatowska, Aleksandra Popławska, Lukasz Nowicki, Tamara Arciuch, Rafał Cieszyński, Karolina Kominek",
+      "director": "",
+      "description": "The peaceful lives of the residents inhabiting a breathtaking seaside town are shaken following a series of macabre crimes."
+    },
+    {
+      "show_id": "s2768",
+      "title": "Hold the Dark",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure, Dramas",
+      "cast": "Jeffrey Wright, Alexander Skarsgård, James Badge Dale, Riley Keough, Julian Black Antelope, Tantoo Cardinal, Macon Blair, Jonathan Whitesell, Peter McRobbie",
+      "director": "Jeremy Saulnier",
+      "description": "In the grim Alaskan winter, a naturalist hunts for wolves blamed for killing a local boy, but he soon finds himself swept into a chilling mystery."
+    },
+    {
+      "show_id": "s1479",
+      "title": "Compulsion",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Analeigh Tipton, Jakob Cedergren, Marta Gastini, Jan Bijvoet, Anita Kravos, Valentin Merlet",
+      "director": "Craig Goodwill",
+      "description": "Lured to a majestic, remote villa by an old lover, an erotic novelist finds herself falling for a mysterious woman and descending into a moral abyss."
+    },
+    {
+      "show_id": "s5675",
+      "title": "Small Town Crime",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Thrillers",
+      "cast": "John Hawkes, Anthony Anderson, Octavia Spencer, Robert Forster, Clifton Collins Jr., Jeremy Ratchford, James Lafferty, Michael Vartan, Daniel Sunjata, Don Harvey, Stefanie Scott, Caity Lotz, Dale Dickey",
+      "director": "Ian Nelms, Eshom Nelms",
+      "description": "When a disgraced ex-cop discovers a dying woman, he's compelled to track down her killer – an act of self-redemption that takes him down a dark path."
+    },
+    {
+      "show_id": "s18",
+      "title": "22-Jul",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Anders Danielsen Lie, Jon Øigarden, Jonas Strand Gravli, Ola G. Furuseth, Maria Bock, Thorbjørn Harr, Jaden Smith",
+      "director": "Paul Greengrass",
+      "description": "After devastating terror attacks in Norway, a young survivor, grieving families and the country rally for justice and healing. Based on a true story."
+    },
+    {
+      "show_id": "s1612",
+      "title": "Dark Chocolate (Bengali Version)",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Riya Sen, Mahima Chaudhry, Rajesh Sharma, Indrasish Roy, Mumtaz Sorcar, Sudip Mukherjee, Shataf Figar, Koushik Sen",
+      "director": "Agnidev Chatterjee",
+      "description": "In this Bangla thriller inspired by a true story, the discovery of a charred corpse in the woods leads to a high-profile murder investigation."
+    },
+    {
+      "show_id": "s12",
+      "title": "1983",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Robert Więckiewicz, Maciej Musiał, Michalina Olszańska, Andrzej Chyra, Clive Russell, Zofia Wichłacz, Edyta Olszówka, Mateusz Kościukiewicz, Ewa Błaszczyk, Vu Le Hong, Tomasz Włosok, Krzysztof Wach",
+      "director": "",
+      "description": "In this dark alt-history thriller, a naïve law student and a world-weary detective uncover a conspiracy that has tyrannized Poland for decades."
+    },
+    {
+      "show_id": "s3715",
+      "title": "Longmire",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, TV Dramas",
+      "cast": "Robert Taylor, Katee Sackhoff, Lou Diamond Phillips, Bailey Chase, Cassidy Freeman, Adam Bartley, Louanne Stephens",
+      "director": "",
+      "description": "This contemporary crime thriller focuses on a Wyoming sheriff who's rebuilding his life and career following the death of his wife."
+    },
+    {
+      "show_id": "s7775",
+      "title": "Zodiac",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Cult Movies, Dramas, Thrillers",
+      "cast": "Mark Ruffalo, Jake Gyllenhaal, Robert Downey Jr., Anthony Edwards, Brian Cox, Elias Koteas, Donal Logue, John Carroll Lynch, Dermot Mulroney, Chloë Sevigny",
+      "director": "David Fincher",
+      "description": "A political cartoonist, a crime reporter and a pair of cops investigate San Francisco's infamous Zodiac Killer in this thriller based on a true story."
+    },
+    {
+      "show_id": "s6799",
+      "title": "The Rain",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Dramas, TV Mysteries",
+      "cast": "Alba August, Lucas Lynggaard Tønnesen, Mikkel Boe Følsgaard, Lukas Løkken, Jessica Dinnage, Sonny Lindberg, Angela Bundalovic, Lars Simonsen",
+      "director": "",
+      "description": "Six years after a brutal virus wipes out most of Scandinavia's population, two siblings join a band of young survivors seeking safety – and answers."
+    },
+    {
+      "show_id": "s5673",
+      "title": "Small Crimes",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Nikolaj Coster-Waldau, Gary Cole, Molly Parker, Macon Blair, Pat Healy, Jacki Weaver, Robert Forster",
+      "director": "Evan Katz",
+      "description": "After serving a six-year prison sentence, an ex-cop tries to rebuild his life in his hometown, but gets caught up in the fallout from his past."
+    },
+    {
+      "show_id": "s6764",
+      "title": "The Plagues of Breslau",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "International Movies, Thrillers",
+      "cast": "Małgorzata Kożuchowska, Daria Widawska, Katarzyna Bujakiewicz, Maria Dejmek, Andrzej Grabowski, Ewa Kasprzyk, Jacek Beler, Wojciech Kalinowski, Igor Kujawski, Iwona Bielska, Tomasz Oświeciński",
+      "director": "Patryk Vega",
+      "description": "After a body is found sewn inside a cow hide, a Wrocław detective discovers a killer is recreating an 18th-century \"plague\" of criminal punishments."
+    },
+    {
+      "show_id": "s3028",
+      "title": "Interrogation",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Dinesh Ravi, Samuthirakani, Kishore Kumar, Anandhi, Murugadoss, Ajay Ghosh",
+      "director": "Vetrimaaran",
+      "description": "In this fact-based drama, politically motivated cops in Andhra Pradesh set out to frame four Tamil laborers for a crime, torturing them to no avail."
+    },
+    {
+      "show_id": "s1112",
+      "title": "Brooklyn's Finest",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Richard Gere, Don Cheadle, Ethan Hawke, Wesley Snipes, Will Patton, Lili Taylor, Michael Kenneth Williams, Brían F. O'Byrne, Shannon Kane, Ellen Barkin, Vincent D'Onofrio, Logan Marshall-Green",
+      "director": "Antoine Fuqua",
+      "description": "Three cops find themselves hurtling toward the same crime scene on one fatal night in this tense, edge-of your-seat thriller."
+    },
+    {
+      "show_id": "s5567",
+      "title": "Shimmer Lake",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Independent Movies, Thrillers",
+      "cast": "Benjamin Walker, Rainn Wilson, Rob Corddry, Adam Pally, Ron Livingston, John Michael Higgins, Wyatt Russell, Stephanie Sigman, Mark Rendall, Isabel Dove, Angela Vint",
+      "director": "Oren Uziel",
+      "description": "Unfolding in reverse time, this darkly comic crime thriller follows a local sheriff hunting three bank robbery suspects, one of whom is his brother."
+    },
+    {
+      "show_id": "s5534",
+      "title": "Shadow of Truth",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Crime TV Shows, Docuseries, International TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "This documentary series explores the explosive 2006 murder case of a 13-year-old Israeli girl and the subsequent conviction of a Ukrainian immigrant."
+    },
+    {
+      "show_id": "s4994",
+      "title": "Psycho",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Horror Movies, International Movies, Thrillers",
+      "cast": "Udhayanidhi Stalin, Aditi Rao Hydari, Nithya Menon, Ram, Rajkumar Pitchumani",
+      "director": "Mysskin",
+      "description": "As a visually impaired man attempts to rescue his love interest from a serial killer, the dark story behind the murderer’s disturbing psyche emerges."
+    },
+    {
+      "show_id": "s408",
+      "title": "All Day and a Night",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Jeffrey Wright, Ashton Sanders, Regina Taylor, Yahya Abdul-Mateen II, Isaiah John, Kelly Jenrette, Shakira Ja-nai Paye",
+      "director": "Joe Robert Cole",
+      "description": "While serving life in prison, a young man looks back at the people, the circumstances and the system that set him on the path toward his crime."
+    },
+    {
+      "show_id": "s5585",
+      "title": "Shot in the Dark",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Reality TV",
+      "cast": "",
+      "director": "",
+      "description": "Three rival freelance stringers scour the streets at night to film crime scenes, fires, accidents – and anything else they can sell to news outlets."
+    },
+    {
+      "show_id": "s4542",
+      "title": "November Criminals",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Ansel Elgort, Chloë Grace Moretz, David Strathairn, Catherine Keener, Terry Kinney, Cory Hardrict, Philip Ettinger, Danny Flaherty, Victor Williams, Tessa Albertson",
+      "director": "Sacha Gervasi",
+      "description": "Dissatisfied with the police’s progress, a teen and his best friend investigate their classmate's murder, treading down a dark path to the uneasy truth."
+    },
+    {
+      "show_id": "s4807",
+      "title": "Peaky Blinders",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "British TV Shows, Crime TV Shows, International TV Shows",
+      "cast": "Cillian Murphy, Sam Neill, Helen McCrory, Paul Anderson, Iddo Goldberg, Annabelle Wallis, Sophie Rundle, Tom Hardy, Joe Cole, Ned Dennehy, Andy Nyman, Charlie Creed-Miles, Charlotte Riley, David Dawson, Jeffrey Postlethwaite, Matthew Postlethwaite, Ian Peck, Tony Pitts, Aidan Gillen, Adrien Brody, Charlie Murphy, Aimee-Ffion Edwards",
+      "director": "",
+      "description": "A notorious gang in 1919 Birmingham, England, is led by the fierce Tommy Shelby, a crime boss set on moving up in the world no matter the cost."
+    },
+    {
+      "show_id": "s5176",
+      "title": "Retribution",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Crime TV Shows, International TV Shows",
+      "cast": "Georgina Campbell, Joe Dempsie, Adrian Edmondson, Steve Evets, Laura Fraser, Julie Graham, John Lynch, Gary Lewis, Juliet Stevenson, Joanna Vanderham",
+      "director": "",
+      "description": "A dark web of secrets and lies emerges when a newlywed couple is killed and detectives question their feuding families."
+    },
+    {
+      "show_id": "s1658",
+      "title": "Deadly Switch",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Independent Movies, Thrillers",
+      "cast": "Teri Polo, Dylan Walsh, Danika Yarosh, Hayley McLaughlin, Bryce Durfee, Matt Passmore, Heather Mazur, Ashlyn Pearce",
+      "director": "Svetlana Cvetko",
+      "description": "In this indie thriller, a foreign exchange student moves in with her roommate's family who grieves over the daughter they would do anything to get back."
+    },
+    {
+      "show_id": "s1613",
+      "title": "Dark Crimes",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Jim Carrey, Marton Csokas, Charlotte Gainsbourg, Agata Kulesza, Kati Outinen, Zbigniew Zamachowski, Danuta Kowalska, Vlad Ivanov, Robert Więckiewicz, Piotr Głowacki",
+      "director": "Alexandros Avranas",
+      "description": "A detective on a cold murder case discovers that a famous writer’s latest novel contains details chillingly similar to the crime he’s investigating."
+    },
+    {
+      "show_id": "s6694",
+      "title": "The Murder Detectives",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "British TV Shows, Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "This series tracks the ups and downs of an 18-month investigation into the 2014 stabbing murder of teenager Nicholas Robinson in Bristol, England."
+    },
+    {
+      "show_id": "s1620",
+      "title": "Dark Tourist",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries, International TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "From a nuclear lake to a haunted forest, journalist David Farrier visits unusual – and often macabre – tourism spots around the world."
+    }
+  ]
+}

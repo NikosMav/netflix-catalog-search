@@ -1,0 +1,637 @@
+{
+  "split": "test",
+  "query_id": "trans_teen_drama",
+  "query": "drama about a teenager transitioning and their family",
+  "candidates": [
+    {
+      "show_id": "s6344",
+      "title": "The Family Court",
+      "type": "TV Show",
+      "release_year": 2010,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Tay Ping Hui, Qi Yu Wu, Chris Tong, Yao Wenlong, Eelyn Kok, Hong Hui Fang, Ann Kok",
+      "director": "",
+      "description": "Five lawyers from different firms develop a strong bond of friendship that is occasionally tested by their court cases and growing romantic feelings."
+    },
+    {
+      "show_id": "s4322",
+      "title": "My Happy Family",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Ia Shugliashvili, Merab Ninidze, Berta Khapava, Tsisia Qumsishvili, Giorgi Khurtsilava, Giorgi Tabidze, Goven Cheishvili, Dimitri Oragvelidze, Mariam Bokeria",
+      "director": "Nana Ekvtimishvili, Simon Gross",
+      "description": "A middle-aged wife and mother of two shocks her traditional, multigenerational Georgian household when she announces she's going to live by herself."
+    },
+    {
+      "show_id": "s2205",
+      "title": "Flavors of Youth: International Version",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Anime Features, International Movies, Romantic Movies",
+      "cast": "Taito Ban, Mariya Ise, Minako Kotobuki, Haruka Shiraishi, Hiroki Yasumoto, Takeo Otsuka, Ikumi Hasegawa, Takayuki Nakatsukasa",
+      "director": "Xiaoxing Yi, Yoshitaka Takeuchi, Haoling Li",
+      "description": "Memories in a bowl of steaming noodles, a fading beauty finding her way and a bittersweet first love – all in these stories of city life in China."
+    },
+    {
+      "show_id": "s2803",
+      "title": "Hope Aur Hum",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Children & Family Movies, Comedies, Dramas",
+      "cast": "Naseeruddin Shah, Kabir Sajid, Sonali Kulkarni, Amir Bashir, Naveen Kasturia, Neha Chauhan, Virti Vaghani",
+      "director": "Sudip Bandyopadhyay",
+      "description": "A multigenerational household navigates daily life, evolving relationships and clashes between old and new mindsets in this light family drama."
+    },
+    {
+      "show_id": "s7639",
+      "title": "Winter's Bone",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Jennifer Lawrence, John Hawkes, Kevin Breznahan, Dale Dickey, Garret Dillahunt, Sheryl Lee, Lauren Sweetser, Tate Taylor",
+      "director": "Debra Granik",
+      "description": "In this unflinching noir drama, a resilient teen goes on the trail of her missing, drug-dealing father when his absence threatens the family's safety."
+    },
+    {
+      "show_id": "s4582",
+      "title": "Offspring",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "TV Comedies, TV Dramas",
+      "cast": "Asher Keddie, Kat Stewart, Richard Davies, Linda Cropper, Jane Harber, Alicia Gardiner, Lachy Hulme, Eddie Perfect, Deborah Mailman, John Waters",
+      "director": "",
+      "description": "A Melbourne obstetrician in her thirties struggles with the increasingly chaotic family, romantic and professional aspects of her life in this drama."
+    },
+    {
+      "show_id": "s6343",
+      "title": "The Family",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Action & Adventure, Comedies",
+      "cast": "Robert De Niro, Michelle Pfeiffer, Tommy Lee Jones, Dianna Agron, John D'Leo, Jimmy Palumbo, Domenick Lombardozzi, Stan Carp, Vincent Pastore, Jon Freda",
+      "director": "Luc Besson",
+      "description": "The Manzonis, an infamous mob family, are relocated to Normandy, France, by the witness protection program and have some difficulty fitting in."
+    },
+    {
+      "show_id": "s2107",
+      "title": "Family Reunion",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Loretta Devine, Tia Mowry-Hardrict, Anthony Alabi, Talia Jackson, Isaiah Russell-Bailey, Cameron J. Wright, Jordyn Raya James, Richard Roundtree",
+      "director": "",
+      "description": "When the McKellan family moves from Seattle to small-town Georgia, life down South – and traditional grandparents – challenge their big-city ways."
+    },
+    {
+      "show_id": "s4464",
+      "title": "Night Comes On",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Dominique Fishback, Tatum Marilyn Hall, Nastashia Fuller, Angel Bismark Curiel, John Earl Jelks, Max Casella, James McDaniel, Cymbal Byrd",
+      "director": "Jordana Spiro",
+      "description": "A teen fresh out of juvenile detention tries to rescue her sister from foster care in order to exact revenge on their father for their mother's murder."
+    },
+    {
+      "show_id": "s1786",
+      "title": "Divines",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Déborah Lukumuena, Jisca Kalvanda, Kévin Mischel, Majdouline Idrissi, Oulaya Amamra, Yasin Houicha",
+      "director": "Houda Benyamina",
+      "description": "A shrewd teenager and her wisecracking best friend plan to get rich or die trying by following in the footsteps of a flashy female drug dealer."
+    },
+    {
+      "show_id": "s99",
+      "title": "3 Generations",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, LGBTQ Movies",
+      "cast": "Elle Fanning, Naomi Watts, Susan Sarandon, Tate Donovan, Linda Emond, Jordan Carlos, Sam Trammell, Maria Dizzia, Tessa Albertson",
+      "director": "Gaby Dellal",
+      "description": "When teenage Ray begins transitioning from female to male, his single mom and grandmother must cope with the change while tracking down his father."
+    },
+    {
+      "show_id": "s1719",
+      "title": "Despite Everything",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Blanca Suárez, Macarena García, Amaia Salamanca, Belén Cuesta, Maxi Iglesias, Juan Diego, Joaquín Climent, Carlos Bardem, Emilio Gutiérrez Caba, Tito Valverde, Teresa Rabal, Rossy de Palma, Marisa Paredes",
+      "director": "Gabriela Tagliavini",
+      "description": "After their mother's death, four sisters learn a shocking family secret and embark on an adventure to discover the truth about their genealogy."
+    },
+    {
+      "show_id": "s1923",
+      "title": "Edge of Seventeen",
+      "type": "Movie",
+      "release_year": 1998,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Chris Stafford, Tina Holmes, Andersen Gabrych, Stephanie McVay, Lea DeLaria, John Eby, Antonio Carriero, Jason Lockhart",
+      "director": "David Moreton",
+      "description": "A 17-year-old confronts confusion and heartbreak as he rediscovers his sexuality in this story about coming out and its social consequences."
+    },
+    {
+      "show_id": "s395",
+      "title": "Alice Junior",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies, International Movies, LGBTQ Movies",
+      "cast": "Anne Celestino Mota, Emmanuel Rosset, Matheus Moura, Surya Amitrano, Thaís Schier, Cida Rolim, Katia Horn, Igor Augustho, Marcel Szymanski",
+      "director": "Gil Baroni",
+      "description": "In a small town, a trans teen with a vibrant personality shakes up her high school's conservative ways while trying to secure her first kiss."
+    },
+    {
+      "show_id": "s1862",
+      "title": "Dramaworld",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Romantic TV Shows, TV Comedies, TV Dramas",
+      "cast": "Liv Hewson, Sean Dulake, Justin Chon, Noo-Ri Bae, Sa-hee Kim, Jimmy Shubert",
+      "director": "",
+      "description": "A huge fan of a Korean TV drama is transported to a magical realm where she has the power to alter her favorite show's story line as a \"Facilitator.\""
+    },
+    {
+      "show_id": "s1113",
+      "title": "Brother",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "MHD, Darren Muselet, Aïssa Maïga, Jalil Lespert, Youssouf Gueye, Hiam Abbass, Lisette Malidor",
+      "director": "Julien Abraham",
+      "description": "Thrust from a violent home into a brutal custody center, a teenager learns to navigate a tough new reality and forge unlikely alliances to survive."
+    },
+    {
+      "show_id": "s7161",
+      "title": "Total Drama",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Clé Bennett, Christian Potenza, Scott McCord, Rachel Wilson, Drew Nelson, Stephanie Anne Mills, Novie Edwards, Megan Fahlenbock, Brian Foud, Emilie-Claire Barlow, Phillip David Lewis, Katie Crown, Sarah Gadon, Peter Oldring, Kristin Fairlie, Dan Petronijevic, Adam Greydon Reid",
+      "director": "",
+      "description": "Heartwarming moments are interspersed with backstabbing, scheming, sabotage and broken alliances in this animated spoof of reality show competitions."
+    },
+    {
+      "show_id": "s2076",
+      "title": "Extremely Wicked, Shockingly Evil and Vile",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Zac Efron, Lily Collins, Kaya Scodelario, Jeffrey Donovan, Angela Sarafyan, Jim Parsons, John Malkovich, Haley Joel Osment, Dylan Baker, Brian Geraghty",
+      "director": "Joe Berlinger",
+      "description": "Single mother Liz falls for Ted Bundy and refuses to believe the truth about his crimes for years. A drama based on a true story."
+    },
+    {
+      "show_id": "s6481",
+      "title": "The Impossible",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Dramas",
+      "cast": "Naomi Watts, Ewan McGregor, Tom Holland, Samuel Joslin, Oaklee Pendergast, Marta Etura, Sönke Möhring, Geraldine Chaplin, Ploy Jindachote, Jomjaoi Sae-Limh",
+      "director": "J.A. Bayona",
+      "description": "Tracking one family's harrowing experiences, this gripping drama depicts the chaos generated by the massive 2004 tsunami in Southeast Asia."
+    },
+    {
+      "show_id": "s620",
+      "title": "Atypical",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Comedies, TV Dramas, Teen TV Shows",
+      "cast": "Jennifer Jason Leigh, Keir Gilchrist, Michael Rapaport, Brigette Lundy-Paine, Amy Okuda, Jenna Boyd, Graham Rogers, Nik Dodani",
+      "director": "",
+      "description": "When a teen on the autism spectrum decides to get a girlfriend, his bid for more independence puts his whole family on a path of self-discovery."
+    },
+    {
+      "show_id": "s2106",
+      "title": "Family Business",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Comedies, TV Dramas",
+      "cast": "Jonathan Cohen, Gérard Darmon, Julia Piaton, Liliane Rovère, Olivier Rosemberg, Ali Marhyar, Lina El Arabi, Louise Coldefy, Enrico Macias, Valérie Damidot",
+      "director": "",
+      "description": "After learning France is about to legalize pot, a down-on-his-luck entrepreneur and his family race to turn their butcher shop into a marijuana café."
+    },
+    {
+      "show_id": "s680",
+      "title": "Back to the 90s",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Comedies, International Movies, Music & Musicals",
+      "cast": "Dan Aaron Ramnarong, Pimchanok Leuwisetpaiboon, Chanintorn Jitpreeda, Chonlakarn Puangnoy, Achita Pramoj Na Ayudhya, Vichuda Pindum, Kriengsak Hrientong, Likit Sittiphun",
+      "director": "Yanyong Kuruaungkoul",
+      "description": "When a teenager is transported back to his parents’ high school days, he has the chance to alter the events that led to their unhappy marriage."
+    },
+    {
+      "show_id": "s2895",
+      "title": "I Am Me!",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "International TV Shows, Spanish-Language TV Shows, TV Comedies",
+      "cast": "Germán Bracco, Daniela Luque, José Antonio Becerril, Paula Serrano, Héctor Holten, Héctor Loeza, Edson Loyo, Brandon Rosas, José Sefami, Tiosha Bojórquez",
+      "director": "",
+      "description": "Aspiring hip-hop star Francisco builds a name for himself as a musical artist while his conscience helps him through family drama and discrimination."
+    },
+    {
+      "show_id": "s7456",
+      "title": "Wadi",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Syafie Naswip, Ardell Aryana, Naim Daniel, Shafieq Shazwan, Fimie Don, Afieq Syazwan, Amyza Aznan, Azhan Rani, Ahmad Iswazir",
+      "director": "",
+      "description": "After the death of his father, a passive and good-natured teenager named Wadi struggles with family, work and love."
+    },
+    {
+      "show_id": "s2156",
+      "title": "Fifty Year Old Teenager",
+      "type": "Movie",
+      "release_year": 1996,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Abdulhussain Abdulredah, Haifaa Adel, Dawood Hussain, Mohamed Gaber",
+      "director": "Fouad Al Shatti",
+      "description": "The life of a married 50-year-old doctor turns topsy-turvy when he falls in love with a younger woman and begins to act like a teenager."
+    },
+    {
+      "show_id": "s4772",
+      "title": "Parasyte: The Maxim",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Anime Series, International TV Shows, TV Horror",
+      "cast": "Nobunaga Shimazaki, Aya Hirano, Kana Hanazawa, Kiyono Yasuno, Rena Maeda, Miyuki Sawashiro, Hiroyuki Yoshino, Atsuko Tanaka",
+      "director": "",
+      "description": "A teenager battles an onslaught of parasites from space with help from Migi, a docile parasitic creature that's taken over his right hand."
+    },
+    {
+      "show_id": "s6707",
+      "title": "The Next Skin",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Àlex Monner, Emma Suárez, Sergi López, Bruno Todeschini, Igor Szpakowski, Sílvia Bel, Greta Fernández, Mikel Iglesias",
+      "director": "Isaki Lacuesta, Isa Campo",
+      "description": "When a withdrawn, long-missing teenager reappears in a chilly alpine town, his heartbroken family begins to wonder if he's actually who he says he is."
+    },
+    {
+      "show_id": "s3525",
+      "title": "Lakshya",
+      "type": "Movie",
+      "release_year": 2004,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Amitabh Bachchan, Hrithik Roshan, Preity Zinta, Om Puri, Sharad Kapoor, Rajendranath Zutshi, Sushant Singh, Prashant Chainani, Shakeel Khan, Ranvir Shorey",
+      "director": "Farhan Akhtar",
+      "description": "After dropping out of the army, a spoiled teenager reenlists and proves his mettle by becoming an officer just as war breaks out."
+    },
+    {
+      "show_id": "s2399",
+      "title": "Ghost Patrol",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Scott McNeil, Vincent Tong, Travis Turner, Shannon Chan-Kent, Lili Beaudoin",
+      "director": "Karen J. Lloyd",
+      "description": "Two kids and their pet dog (aka the Ghost Patrol) get a call about an old manor and soon find they are investigating their first real haunted house."
+    },
+    {
+      "show_id": "s5891",
+      "title": "Super Deluxe",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Vijay Sethupathi, Fahadh Faasil, Samantha Ruth Prabhu, Ramya Krishnan, Mysskin, Gayathrie, Ashwanth Ashok Kumar, Bagavathi Perumal",
+      "director": "Thiagarajan Kumararaja",
+      "description": "Sex, stigma and spirituality merge in these eccentric stories of an angsty teenager, an unfaithful wife and a transgender woman returning to her past."
+    },
+    {
+      "show_id": "s3818",
+      "title": "Luna Nera",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Antonia Fotaras, Giorgio Belli, Manuela Mandracchia, Roberto De Francesco, Federica Fracassi, Lucrezia Guidone, Adalgisa Manfrida, Giada Gagliardi, Giandomenico Cupaiuolo, Gloria Carovana, Filippo Scotti",
+      "director": "",
+      "description": "In 17th-century Italy, a teenager learns about her destiny among a family of witches, just as her boyfriend's father hunts her down for witchcraft."
+    },
+    {
+      "show_id": "s3223",
+      "title": "Joshua: Teenager vs. Superpower",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Joe Piscatella",
+      "description": "Mobilized by teenage activist Joshua Wong, young citizens of Hong Kong take to the streets in a bid to preserve their history of autonomy from China."
+    },
+    {
+      "show_id": "s7065",
+      "title": "Three Days of Christmas",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, Spanish-Language TV Shows, TV Dramas",
+      "cast": "Victoria Abril, Elena Anaya, Mar Ayala, Nerea Barros, Berta Castañé, Verónica Echegui, Verónica Forqué, Ángela Molina, Anna Moliner, Charo López, Mariona Pagès, Carla Tous, Carles Arquimbau, Manel Barceló, Nausicaa Bonnín, Alicia Borrachero, Antonio Dechent, Miquel Fernández, Francesc Garrido, Iván Morales, Susi Sánchez, David Solans",
+      "director": "",
+      "description": "Four sisters deal with family drama and secrets throughout three different time periods, all occurring on Christmas Day."
+    },
+    {
+      "show_id": "s7223",
+      "title": "Trikal (Past, Present, Future)",
+      "type": "Movie",
+      "release_year": 1985,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Leela Naidu, Neena Gupta, Anita Kanwar, Soni Razdan, Dalip Tahil, K.K. Raina, Kunal Kapoor, Keith Stevenson, Naseeruddin Shah, Kulbhushan Kharbanda",
+      "director": "Shyam Benegal",
+      "description": "A Goan native returns to his now-derelict, palatial childhood home, recalling his family’s interpersonal drama during the end of Portuguese rule."
+    },
+    {
+      "show_id": "s1083",
+      "title": "Braxton Family Values",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Reality TV",
+      "cast": "Toni Braxton, Trina Braxton, Traci Braxton, Towanda Braxton, Tamar Braxton",
+      "director": "",
+      "description": "Songstress sisters Toni, Traci, Towanda, Trina and Tamar Braxton open up about their lives and their relationships — and reveal a few surprises."
+    },
+    {
+      "show_id": "s6021",
+      "title": "Temporada de Caza",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Germán Palacios, Lautaro Bettoni, Boy Olmi, Rita Pauls, Pilar Benitez Vibart, Diana Szeinblum",
+      "director": "Natalia Garagiola",
+      "description": "Animosity gives way to love and forgiveness when an angry teenager reunites with his estranged biological father in the wilds of Patagonia."
+    },
+    {
+      "show_id": "s3011",
+      "title": "Insatiable",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Comedies, TV Dramas, Teen TV Shows",
+      "cast": "Dallas Roberts, Debby Ryan, Alyssa Milano, Christopher Gorham, Kimmy Shields, Michael Provost, Erinn Westbrook, Daniel Kang, Arden Myrin",
+      "director": "",
+      "description": "A bullied teenager turns to beauty pageants as a way to exact her revenge, with the help of a disgraced coach who soon realizes he's in over his head."
+    },
+    {
+      "show_id": "s6811",
+      "title": "The Rehearsal",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "James Rolleston, Kerry Fox, Ella Edwards, Alice Englert",
+      "director": "Alison MacLean",
+      "description": "A drama student is torn between creative possibility and ethical boundaries when his girlfriend's family gets caught up in a sex scandal."
+    },
+    {
+      "show_id": "s4976",
+      "title": "Princess Cyd",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Independent Movies, LGBTQ Movies",
+      "cast": "Tyler Ross, Rebecca Spence, James Vincent Meredith",
+      "director": "Stephen Cone",
+      "description": "A teenager moves to Chicago for the summer and finds a poignant mentor in her aunt and a sweet love interest in a girl who works in the neighborhood."
+    },
+    {
+      "show_id": "s3295",
+      "title": "Kalel, 15",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Elijah Canlas, Eddie Garcia, Jaclyn Jose, Gabby Padilla, Cedrick Juan, Elora Espano, Sue Prado",
+      "director": "Jun Lana",
+      "description": "Surrounded by tensions and secrets, a teenage boy searches for validation and navigates life with a dysfunctional family following an HIV diagnosis."
+    },
+    {
+      "show_id": "s3990",
+      "title": "Material",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Vincent Ebrahim, Riaad Moosa, Joey Rasdien, Denise Newman, Krijay Govender, Nik Rabinowitz, Zakeeya Patel, Carishma Basday, Royston Stoffels, Mel Miller",
+      "director": "Craig Freimond",
+      "description": "A dutiful son must hide his pursuit of stand-up comedy from his staunch father, who expects him to inherit his store and uphold their Muslim beliefs."
+    },
+    {
+      "show_id": "s4161",
+      "title": "Moesha",
+      "type": "TV Show",
+      "release_year": 2000,
+      "listed_in": "TV Comedies, Teen TV Shows",
+      "cast": "Brandy Norwood, William Allen Young, Sheryl Lee Ralph, Countess Vaughn, Lamont Bentley, Shar Jackson, Marcus T. Paulk, Yvette Wilson",
+      "director": "",
+      "description": "Navigating the twists and firsts of high school, Moesha juggles friendships, romance and the occasional drama while trying to keep her family together."
+    },
+    {
+      "show_id": "s5129",
+      "title": "Reckoning",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, TV Dramas, TV Mysteries",
+      "cast": "Aden Young, Sam Trammell, Simone Kessell, Laura Gordon, Gloria Garayua, Mitzi Ruhlmann, Milly Alcock, Ed Oxenbould, Finn Little, Anthony Phelan, Diana Glenn, Lauren Pegus",
+      "director": "",
+      "description": "When a local teen is murdered in their quiet, suburban community, two fathers intent on protecting their families must contend with their inner demons."
+    },
+    {
+      "show_id": "s603",
+      "title": "Assimilate",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Horror Movies, Sci-Fi & Fantasy, Thrillers",
+      "cast": "Joel Courtney, Calum Worthy, Andi Matichak, Katherine McNamara, Cam Gigandet, Mason McNulty, Terry Dale Parks, Vito Viscuso, Jennifer Pierce Mathus, Kevin Remington",
+      "director": "John Murlowski",
+      "description": "A group of friends making a web series about their hometown realize it isn’t as boring as they thought when their neighbors start behaving strangely."
+    },
+    {
+      "show_id": "s3723",
+      "title": "Los Herederos",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Máximo Hollander, Sebastián Aguirre, Úrsula Pruneda, Rodrigo Mendoza, Germán Bracco, Tomás Manterola, Regina Soto, Diego Velázquez, Mónica Del Carmen, José Egüez, Pablo Cruz",
+      "director": "Jorge Hernandez Aldana",
+      "description": "Spurred by boredom and peer pressure, a group of suburban teens becomes increasingly violent and find their paths intersecting those of their parents."
+    },
+    {
+      "show_id": "s361",
+      "title": "AJIN: Demi-Human",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Mamoru Miyano, Yoshimasa Hosoya, Jun Fukuyama, Hochu Otsuka, Daisuke Hirakawa, Takahiro Sakurai, Mikako Komatsu, Hiroyuki Kinoshita, Aya Suzaki",
+      "director": "",
+      "description": "A teenager discovers that he is an Ajin and flees before the authorities experiment on him. Other Ajin plan to fight back and he must choose a side."
+    },
+    {
+      "show_id": "s4132",
+      "title": "Mismatched",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Comedies",
+      "cast": "Prajakta Koli, Rohit Saraf, Vihaan Samat, Taaruk Raina, Vidya Malavade, Kritika Bharadwaj, Rannvijay Singh, Muskkaan Jaferi, Devyani Shorey, Suhasini Mulay, Abhinav Sharma, Ravin Makhija",
+      "director": "",
+      "description": "After a disastrous set-up by their families, two teens strike up a tentative friendship at their summer program — but deeper feelings aren’t far behind."
+    },
+    {
+      "show_id": "s6010",
+      "title": "Teen Mom 2",
+      "type": "TV Show",
+      "release_year": 2011,
+      "listed_in": "Reality TV",
+      "cast": "Jenelle Evans, Chelsea Houska, Kailyn Lowry, Leah Messer",
+      "director": "",
+      "description": "The highs and lows of new parenting and adulting create drama and heartbreak as life moves on for the cast of \"16 and Pregnant\" Season 2."
+    },
+    {
+      "show_id": "s6879",
+      "title": "The Sky Is Pink",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Rohit Saraf, Zaira Wasim, Farhan Akhtar, Priyanka Chopra",
+      "director": "Shonali Bose",
+      "description": "After succumbing to her terminal illness, a teenager posthumously narrates her parents’ tenacious relationship in this drama based on a true story."
+    },
+    {
+      "show_id": "s2797",
+      "title": "Honeytrap",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Jessica Sula, Lucien Laviscount, Ntonga Mwanza, Naomi Ryan, Danielle Vitalis, Lauren Johns, Tosin Cole, Savannah Gordon-Liburd, Modupe Adeyeye",
+      "director": "Rebecca Johnson",
+      "description": "New to London, a naive and desperate teenager tries to fit in but instead becomes tragically implicated in a merciless world of gang violence."
+    },
+    {
+      "show_id": "s5962",
+      "title": "Take My Brother Away",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, TV Comedies, TV Dramas",
+      "cast": "Sun Qian, Joseph Zeng, Lv Xiao Yu, Hu Yong Tao, Wang Xu Dong, Ma Bai Quan",
+      "director": "Han Qing",
+      "description": "Bickering siblings Shi Miao and Shi Fen tackle friendship matters, school drama and the pitfalls of growing up with little parental supervision."
+    },
+    {
+      "show_id": "s2681",
+      "title": "Heaven Without People",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Farah Shaer, Jean Paul Hage, Samira Sarkis, Jenny Gebara, Laeticia Semaan, Nadim Abou Samra, Hussein Hijazi, Ghassan Chemali",
+      "director": "Lucien Bourjeily",
+      "description": "From long resentments to deep secrets, an overdue family reunion erupts with drama when the matriarch makes a disturbing discovery."
+    },
+    {
+      "show_id": "s4568",
+      "title": "October Faction",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Action & Adventure, TV Dramas, TV Horror",
+      "cast": "Tamara Taylor, J.C. MacKenzie, Aurora Burghart, Gabriel Darku, Maxim Roy, Stephen McHattie, Wendy Crewson, Megan Follows, Nicola Correia-Damude, Praneet Akilla, Michelle Nolden, Anwen O'Driscoll",
+      "director": "",
+      "description": "The family drama gets downright monstrous as parents Fred and Deloris hunt the supernatural, and twins Viv and Geoff harbor their own strange secrets."
+    },
+    {
+      "show_id": "s3451",
+      "title": "Krish Trish and Baltiboy: Part II",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Children & Family Movies",
+      "cast": "Damandeep Singh Baggan, Smita Malhotra, Baba Sehgal",
+      "director": "",
+      "description": "Animal minstrels narrate stories about a monkey's friendship with a crocodile, two monkeys' foolishness and a villager's encounter with a demon."
+    },
+    {
+      "show_id": "s4028",
+      "title": "Memories of a Teenager",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, International Movies, LGBTQ Movies",
+      "cast": "Renato Quattordio, Malena Narvay, Thomás Lepera, Jerónimo Giocondo Bosia, Tomás Wicz, Tomás Raimondi, Majo Chicar, Agustina Cabo",
+      "director": "Lucas Santa Ana",
+      "description": "To cope with a friend's death, a teen blogs about his daily life but falls further into an existential crisis while experiencing a sexual awakening."
+    },
+    {
+      "show_id": "s2750",
+      "title": "Historia de un clan",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Alejandro Awada, Cecilia Roth, Chino Darín, Nazareno Casero, Tristán, Gustavo Garzón, Pablo Cedrón, María Soldi, Rita Pauls, Victoria Almeida, Benjamín Alfonso",
+      "director": "",
+      "description": "This drama based on a true story follows the Puccios, a criminal family who kidnaps wealthy people and holds them hostage in their home."
+    },
+    {
+      "show_id": "s4339",
+      "title": "My Mother's Wound",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Ozan Güven, Meryem Uzerli, Belçim Bilgin, Okan Yalabık, Bora Akkaş, Sabina Ajrula",
+      "director": "Ozan Açıktan",
+      "description": "After leaving the orphanage where he was raised, a teen searches for his family only to find work at a farm, where secrets of the past begin to surface."
+    },
+    {
+      "show_id": "s5076",
+      "title": "Raising the Bar",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Children & Family Movies, Dramas, Sports Movies",
+      "cast": "Kelli Berglund, Lili Karamalikis, Tess Fowler, Emily Morris, Peta Shannon, Adam Tuominen, Caetlyn Collins, Jack Tomich, Isabelle Andary-Geslin, Rachel D'Sena",
+      "director": "Clay Glen",
+      "description": "A teenager who gave up her spot in an elite U.S. gymnastics program when her family moved to Australia enters a competition to help a new friend."
+    },
+    {
+      "show_id": "s4201",
+      "title": "Monster Island",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Children & Family Movies",
+      "cast": "Joey Camen, Fiona Hardingham, Johnny Rose, Katie Leigh, Roger L. Jackson, Wally Wingert, Phillip Vasquez",
+      "director": "Leopoldo Aguilar",
+      "description": "When a teenager discovers he's not really human, he ventures out to a remote island to explore his roots and confronts a series of wild challenges."
+    },
+    {
+      "show_id": "s287",
+      "title": "About a Boy",
+      "type": "Movie",
+      "release_year": 2002,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Nicholas Hoult, Toni Collette, Victoria Smurfit, Sharon Small, Natalia Tena, Isabel Brook, Hugh Grant, Rachel Weisz, Nicholas Hutchison",
+      "director": "Chris Weitz, Paul Weitz",
+      "description": "Hip, irresponsible Londoner Will invents an imaginary son and starts attending single-parent meetings to find available women."
+    },
+    {
+      "show_id": "s6571",
+      "title": "The Last Summer",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies, Romantic Movies",
+      "cast": "K.J. Apa, Maia Mitchell, Tyler Posey, Jacob Latimore, Halston Sage, Wolfgang Novogratz, Sosie Bacon, Jacob McCarthy, Mario Revolori, Gage Golightly, Audrey Grace Marshall",
+      "director": "William Bindley",
+      "description": "Teens from a Chicago high school grapple with their dreams, relationships and identities in a transformative summer before they leave for college."
+    },
+    {
+      "show_id": "s4414",
+      "title": "Nasha",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Shivam Patil, Poonam Pandey, Sheetal Singh, Vishal Bhosle, Rohan Khurana, Ranbir Chakma, Raj Kesaria, Chirag Lobo",
+      "director": "Amit Saxena",
+      "description": "A teenage boy becomes smitten with his new drama teacher and pursues her, despite the perilous risks of being found out."
+    },
+    {
+      "show_id": "s7458",
+      "title": "Wait, My Youth",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, Romantic TV Shows, Teen TV Shows",
+      "cast": "Zhao Yiqin, Li Jiaqi, Li Geyang, Xu Mengyuan, Wu Shuangyi, Dong Yanlei, Vincent Wei",
+      "director": "",
+      "description": "Six hopeful friends journey into adulthood to create the moments that pull them together, draw them apart and make them fall in love."
+    }
+  ]
+}

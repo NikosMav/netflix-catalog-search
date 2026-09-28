@@ -1,0 +1,447 @@
+{
+  "split": "dev",
+  "query_id": "semantic_cooking_show",
+  "query": "feel-good cooking competition show",
+  "candidates": [
+    {
+      "show_id": "s1528",
+      "title": "CRD",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Mrinmayee Godbole, Vinay Sharma, Saurabh Saraswat, Isha Keskar, Abhay Mahajan, Geetika Tyagi",
+      "director": "Kranti Kanade",
+      "description": "At odds with his radical instructor's ruthless methods, a drama student assembles his own troupe of misfit actors ahead of a prestigious competition."
+    },
+    {
+      "show_id": "s6403",
+      "title": "The Good Cop",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, TV Comedies, TV Dramas",
+      "cast": "Tony Danza, Josh Groban, Monica Barbaro, Isiah Whitlock Jr.",
+      "director": "",
+      "description": "When he's not solving murders, a pathologically honest detective tries to keep an eye on his crooked but kindhearted dad."
+    },
+    {
+      "show_id": "s6129",
+      "title": "The Big Family Cooking Showdown",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "British TV Shows, International TV Shows, Reality TV",
+      "cast": "Zoe Ball, Nadiya Hussain, Giorgio Locatelli, Rosemary Shrager",
+      "director": "",
+      "description": "In this unscripted series, families passionate about food serve up their most delicious dishes for the chance to be crowned Britain's best home cooks."
+    },
+    {
+      "show_id": "s1494",
+      "title": "Cook Off",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Tendaiishe Chitima, Tendai Nguni, Jesese Mungoshi, Eddie Sandifolo, Charmaine Mujeri, Kudzai Sevenzo, Fungai Majaya, Eugene Zimbudzi, Chimwemwe Chipidza, Kevin Hanssen, Zihlo, Michael Kudakwashe",
+      "director": "Tomas Brickhill",
+      "description": "Yearning for a better life, a single mother with a passion for cooking gets a shot at greatness when her son enters her into a top reality cooking show."
+    },
+    {
+      "show_id": "s6419",
+      "title": "The Great British Baking Show: The Beginnings",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "British TV Shows, Reality TV",
+      "cast": "Paul Hollywood, Mary Berry, Mel Giedroyc, Sue Perkins",
+      "director": "",
+      "description": "A dozen amateur bakers amiably compete for the coveted title of Britain's best as they whip up tasty treats for judges Mary Berry and Paul Hollywood."
+    },
+    {
+      "show_id": "s3027",
+      "title": "Internet Famous",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies",
+      "cast": "Shane Dawson, Steve Greene, Amanda Cerny, Christian Delgrosso, Wendy McColm, Richard Ryan, Roger Bart, John Michael Higgins, Missi Pyle, Jimmy Tatro, Tay Zonday, Adam Busch",
+      "director": "Michael Gallagher",
+      "description": "Five viral Internet celebrities travel to a competition that will award one of them their own television series in this ensemble comedy."
+    },
+    {
+      "show_id": "s1306",
+      "title": "Chef's Table: BBQ",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries, Reality TV",
+      "cast": "",
+      "director": "",
+      "description": "The Emmy-nominated series delves into the juicy, smoky world of barbecue, visiting acclaimed chefs and pitmasters in the US, Australia and Mexico."
+    },
+    {
+      "show_id": "s1495",
+      "title": "Cooked",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Docuseries",
+      "cast": "Michael Pollan",
+      "director": "",
+      "description": "As he tries his hand at baking, brewing and braising, acclaimed food writer Michael Pollan explores how cooking transforms food and shapes our world."
+    },
+    {
+      "show_id": "s4392",
+      "title": "Nailed It! Spain",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, Reality TV, Spanish-Language TV Shows",
+      "cast": "La Terremoto de Alcorcón, Christian Escribà",
+      "director": "",
+      "description": "On this competition show, novice bakers try to avoid a fiasco while duplicating stunning sweets. At stake are a trophy and 5,000 euros."
+    },
+    {
+      "show_id": "s2442",
+      "title": "Glow Up",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "British TV Shows, International TV Shows, Reality TV",
+      "cast": "",
+      "director": "",
+      "description": "In this competition show, aspiring makeup artists navigate colorful challenges to win a career-making opportunity in the beauty industry."
+    },
+    {
+      "show_id": "s2477",
+      "title": "Good Burger",
+      "type": "Movie",
+      "release_year": 1997,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Kenan Thompson, Kel Mitchell, Abe Vigoda, Dan Schneider, Shar Jackson, Jan Schweiterman, Linda Cardellini, Sinbad, Ron Lester, Josh Server, Ginny Schreiber",
+      "director": "Brian Robbins",
+      "description": "Working at a neighborhood fast-food joint, two teens try to save the restaurant when a giant burger franchise fires up the competition."
+    },
+    {
+      "show_id": "s6077",
+      "title": "The American Barbecue Showdown",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Reality TV",
+      "cast": "Lyric Lewis, Rutledge Wood",
+      "director": "",
+      "description": "Eight of the country's best backyard smokers and pitmasters vie for the title of American Barbecue Champion in a fierce but friendly faceoff."
+    },
+    {
+      "show_id": "s4384",
+      "title": "Nadiya’s Time to Eat",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "British TV Shows, International TV Shows, Reality TV",
+      "cast": "Nadiya Hussain",
+      "director": "",
+      "description": "On this cooking show, Nadiya Hussain serves up delicious shortcuts, vital ingredients and fast favorites — perfect for today's time-strapped families."
+    },
+    {
+      "show_id": "s1523",
+      "title": "Crazy Delicious",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "British TV Shows, International TV Shows, Reality TV",
+      "cast": "Jayde Adams, Carla Hall, Heston Blumenthal, Niklas Ekstedt",
+      "director": "",
+      "description": "In this competition show, daring home chefs tempt the food gods with reinvented classics and fanciful feasts in their quest to win a golden apple."
+    },
+    {
+      "show_id": "s6406",
+      "title": "The Good Place",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Comedies",
+      "cast": "Kristen Bell, Ted Danson, William Jackson Harper, Jameela Jamil, D'Arcy Carden, Manny Jacinto",
+      "director": "",
+      "description": "Due to an error, self-absorbed Eleanor Shellstrop arrives at the Good Place after her death. Determined to stay, she tries to become a better person."
+    },
+    {
+      "show_id": "s733",
+      "title": "Barbecue",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Matthew Salleh",
+      "description": "A blend of cultural nuance and mesmerizing techniques adds flavor to this globe-hopping celebration of cooking, tradition and community."
+    },
+    {
+      "show_id": "s3934",
+      "title": "Marching Orders",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "A top-ranked college marching band’s members fight to keep their spots, memorize routines, tend to their social lives – and slay the competition."
+    },
+    {
+      "show_id": "s6212",
+      "title": "The Chef Show",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries",
+      "cast": "Jon Favreau, Roy Choi",
+      "director": "",
+      "description": "Writer, director and food enthusiast Jon Favreau and chef Roy Choi explore food in and out of the kitchen with accomplished chefs and celebrity friends."
+    },
+    {
+      "show_id": "s6416",
+      "title": "The Great British Baking Show",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "British TV Shows, Reality TV",
+      "cast": "Mel Giedroyc, Sue Perkins, Mary Berry, Paul Hollywood",
+      "director": "Andy Devonshire",
+      "description": "A talented batch of amateur bakers face off in a 10-week competition, whipping up their best dishes in the hopes of being named the U.K.'s best."
+    },
+    {
+      "show_id": "s1497",
+      "title": "Cooking on High",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Reality TV",
+      "cast": "Josh Leyva, Ngaio Bealum",
+      "director": "",
+      "description": "In the first-ever competitive cannabis cooking show, two chefs prepare mouthwatering marijuana-infused dishes for a panel of very chill celeb judges."
+    },
+    {
+      "show_id": "s6866",
+      "title": "The Show",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas",
+      "cast": "Josh Duhamel, Giancarlo Esposito, Famke Janssen, Sarah Wayne Callies, Caitlin Fitzgerald, Chris Ellis, Lucia Walters, James Franco",
+      "director": "Giancarlo Esposito",
+      "description": "A disillusioned reality TV host and an idealistic producer are lured by their network into producing a show in which participants kill themselves."
+    },
+    {
+      "show_id": "s6352",
+      "title": "The Final Table",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Reality TV",
+      "cast": "Andrew Knowlton",
+      "director": "",
+      "description": "Teams of elite chefs vie to impress the world's toughest palates as they whip up iconic dishes from nine nations in this star-packed competition."
+    },
+    {
+      "show_id": "s6236",
+      "title": "The Competition",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Romantic Movies",
+      "cast": "Thora Birch, Chris Klein, Claire Coffee, David Blue, Kelsey Tucker, Michael Draper, Jason Tobias, Gabrielle Stone, Catherine Johnson, Tiffany Fallon",
+      "director": "Harvey Lowry",
+      "description": "After developing an \"infidelity formula\" said to repel cheating, a popular blogger crosses paths with a charming lawyer willing to put it to the test."
+    },
+    {
+      "show_id": "s6213",
+      "title": "The Chefs' Line",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Reality TV",
+      "cast": "Dan Hong, Mark Olive, Melissa Leong, Maeve O'Meara",
+      "director": "",
+      "description": "Home cooks face off against trained chefs to see if passion can beat profession in the kitchen in this reality competition show."
+    },
+    {
+      "show_id": "s2218",
+      "title": "Food Wars!: Shokugeki no Soma",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Anime Series, International TV Shows, Teen TV Shows",
+      "cast": "Yoshitsugu Matsuoka, Risa Taneda, Minami Takahashi, Shizuka Ishigami, Natsuki Hanae, Yuki Ono, Takahiro Sakurai, Ai Kayano, Maaya Uchida, Taishi Murata, Yusuke Kobayashi, Saori Onishi, Hisako Kanemoto, Chinatsu Akasaki, Nobuhiko Okamoto, Junichi Suwabe, Yuichi Nakamura, Jun Fukuyama",
+      "director": "",
+      "description": "Young chef Soma enters the prestigious Totsuki Culinary Academy, where he must emerge victorious in over-the-top cooking battles or face expulsion."
+    },
+    {
+      "show_id": "s6044",
+      "title": "That '70s Show",
+      "type": "TV Show",
+      "release_year": 2005,
+      "listed_in": "TV Comedies",
+      "cast": "Topher Grace, Mila Kunis, Ashton Kutcher, Danny Masterson, Laura Prepon, Wilmer Valderrama, Debra Jo Rupp, Kurtwood Smith, Don Stark, Tanya Roberts, Tommy Chong, Lisa Robin Kelly",
+      "director": "",
+      "description": "Feel groovy in 1970s suburbia, where a teen and his pals hang in the basement, listening to rock and indulging other hazy benefits of '70s culture."
+    },
+    {
+      "show_id": "s4389",
+      "title": "Nailed It! Germany",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, Reality TV",
+      "cast": "Angelina Kirsch, Bernd Siefert",
+      "director": "",
+      "description": "Home cooks try – and inevitably fail – to re-create spectacular confections on this comical competition show, all for a sweet 5,000 euros."
+    },
+    {
+      "show_id": "s6088",
+      "title": "The Apartment",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "International TV Shows, Reality TV",
+      "cast": "Jamie Durie, Laurence Llewelyn-Bowen",
+      "director": "",
+      "description": "With their eyes on the grand prize, amateur designers push their creative limits in this reality competition show hosted by design icon Jamie Durie."
+    },
+    {
+      "show_id": "s2142",
+      "title": "Feel the Beat",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Children & Family Movies, Comedies, Dramas",
+      "cast": "Sofia Carson, Wolfgang Novogratz, Donna Lynne Champlin, Eva Hauge, Rex Lee, Brandon Kyle Goodman, Lidya Jewett, Sadie Lapidus, Johanna Colón, Shaylee Mansfield, Shiloh Nelson, Justin Allan, Carina Battrick, Kai Zen, Marissa Jaret Winokur, Enrico Colantoni, Dennis Andres",
+      "director": "Elissa Down",
+      "description": "After blowing a Broadway audition, a self-centered dancer reluctantly returns home and agrees to coach a squad of young misfits for a big competition."
+    },
+    {
+      "show_id": "s5355",
+      "title": "Salt Fat Acid Heat",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries",
+      "cast": "Samin Nosrat",
+      "director": "",
+      "description": "Chef and food writer Samin Nosrat travels the world to explore four basic keys to wonderful cooking, serving up feasts and helpful tips along the way."
+    },
+    {
+      "show_id": "s2480",
+      "title": "Good Hair",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Documentaries",
+      "cast": "Chris Rock, Nia Long, Maya Angelou, Ice-T, Eve, Meagan Good, Al Sharpton, KRS-One, Raven-Symoné",
+      "director": "Jeff Stilson",
+      "description": "Chris Rock hops around the world going from beauty salons to science labs to comb through the mystery of Black hair."
+    },
+    {
+      "show_id": "s5576",
+      "title": "Shopkins: Chef Club",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Movies",
+      "cast": "Erika Harlacher, Marieve Herington, David Lodge, Cassandra Morris, Kate Murphy, Abby Trott",
+      "director": "Raymond McGrath",
+      "description": "In this first full Shopkins movie, Peppa-Mint is the new Shoppie in town who stirs things up by hosting a team cooking competition."
+    },
+    {
+      "show_id": "s1999",
+      "title": "Encerrados",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, Spanish-Language TV Shows, TV Comedies",
+      "cast": "Luis Machín, Maria Merlino, Fabián Vena, Ana Chalentano, Nelly Prince, Victor Laplace, Silvia Pérez, Pilar Gamboa, Alberto Ajaka, Fabio Alberti, Martin Slipak, Martín Piroyansky, Paula Ransenberg",
+      "director": "",
+      "description": "This fictional series tells the stories of what happens to people when they feel caged in, whether physically, psychologically or emotionally."
+    },
+    {
+      "show_id": "s5753",
+      "title": "Spice Up",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Jeanette Aw, Patrick Lee, Huang Qi Ming, Sora Ma, Hong Huifang, Xu Bin, Chen Shucheng",
+      "director": "",
+      "description": "A spoiled young woman steps in to save her family’s restaurant with her cooking and tasting skills while balancing her complicated love life."
+    },
+    {
+      "show_id": "s6418",
+      "title": "The Great British Baking Show: Masterclass",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "British TV Shows, Reality TV",
+      "cast": "Mary Berry, Paul Hollywood",
+      "director": "",
+      "description": "Hosts Mary Berry and Paul Hollywood leave the tent and go into the kitchen to put their professional spin on baking techniques used in the show."
+    },
+    {
+      "show_id": "s2140",
+      "title": "Feel Good",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Romantic TV Shows, TV Comedies, TV Dramas",
+      "cast": "Mae Martin, Charlotte Ritchie, Lisa Kudrow, Sophie Thompson, Tom Andrews, Tobi Bamtefa, Phil Burgers, Ophelia Lovibond, Adrian Lukis, Ritu Arya, Ramon Tikaram",
+      "director": "Ally Pankiw",
+      "description": "Stand-up comic Mae Martin navigates a passionate, messy new relationship with her girlfriend, George, while dealing with the challenges of sobriety."
+    },
+    {
+      "show_id": "s6223",
+      "title": "The Circle",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Reality TV",
+      "cast": "Michelle Buteau",
+      "director": "",
+      "description": "Status and strategy collide in this social experiment and competition show where online players flirt, befriend and catfish their way toward $100,000."
+    },
+    {
+      "show_id": "s4388",
+      "title": "Nailed It! France",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, Reality TV",
+      "cast": "Artus, Noémie Honiat",
+      "director": "",
+      "description": "On this fun and funny competition show, home bakers talented in catastrophe struggle to re-create dessert masterpieces and win a 5,000 euro prize."
+    },
+    {
+      "show_id": "s6208",
+      "title": "The Challenge",
+      "type": "TV Show",
+      "release_year": 2006,
+      "listed_in": "Reality TV",
+      "cast": "Jamie Chung, Landon Lueck, Diem Brown, Mike 'The Miz' Mizanin, Darrell Taylor, Wes Bergmann, Jodi Weatherton, Brad Fiorenza, Cara Maria Sorbello, Zachary Nichols, Turabi \"Turbo\" Çamkıran, Theo Campbell",
+      "director": "",
+      "description": "Reality show alumni must compete in grueling physical contests and survive eliminations amid cutthroat alliances and steamy hookups to win big money."
+    },
+    {
+      "show_id": "s499",
+      "title": "An Upper Egyptian",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Mohamed Ramadan, Randa El Behery, Nermin Maher, Inas El Naggar, Mayar El Gheity, Hassan Abdulfattah, Sabri Abdulmonem, Alaa Zenhom, Abdalah Mishrif, Mohamed Soliman",
+      "director": "Ismail Farouk, Hazem Fouda",
+      "description": "Eager to settle down, Abdullah searches for the right woman to marry – but the one he truly longs for may not feel the same way."
+    },
+    {
+      "show_id": "s2207",
+      "title": "Flinch",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Reality TV",
+      "cast": "Desiree Burch, Lloyd Griffith, Seann Walsh",
+      "director": "",
+      "description": "Harrowing and hilarious tests await the brave and foolhardy, as well as the judges, in this comedy game show. If they flinch, they feel the pain."
+    },
+    {
+      "show_id": "s3752",
+      "title": "Love Cuisine",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Comedies",
+      "cast": "Lego Lee, Allison Lin, Duncan Chow, Nita Lei, Hank Wu, Calvin Lee, Fu Lei",
+      "director": "",
+      "description": "A successful Taiwanese chef moves home from Europe to teach at a cooking school. He soon clashes with a pretty teacher he met under odd circumstances."
+    },
+    {
+      "show_id": "s6162",
+      "title": "The Boulet Brothers Dragula",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Reality TV",
+      "cast": "Boulet Brothers",
+      "director": "",
+      "description": "Ten queens must slay the competition and put their fiercest, filthiest faces forward for the chance to be crowned the world's next drag supermonster."
+    },
+    {
+      "show_id": "s1303",
+      "title": "Chef",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Comedies, Independent Movies",
+      "cast": "Jon Favreau, Sofía Vergara, John Leguizamo, Scarlett Johansson, Dustin Hoffman, Oliver Platt, Bobby Cannavale, Amy Sedaris, Robert Downey Jr., Emjay Anthony, Russell Peters",
+      "director": "Jon Favreau",
+      "description": "After igniting a Twitter war with a well-known culinary critic, a Los Angeles chef packs his knives, heads home to Miami and opens a food truck."
+    }
+  ]
+}

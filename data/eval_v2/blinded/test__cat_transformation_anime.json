@@ -1,0 +1,567 @@
+{
+  "split": "test",
+  "query_id": "cat_transformation_anime",
+  "query": "anime movie about a girl who turns into a cat",
+  "candidates": [
+    {
+      "show_id": "s2556",
+      "title": "Gunslinger Girl",
+      "type": "TV Show",
+      "release_year": 2008,
+      "listed_in": "Anime Series, Crime TV Shows",
+      "cast": "Yuuka Nanri, Kanako Mitsuhashi, Eri Sendai, Ami Koshimizu, Hidenobu Kiuchi, Mitsuru Miyamoto, Masashi Ebara, Norihiro Inoue, Rie Nakagawa, Masami Iwasaki, Laura Bailey, Luci Christian, Caitlin Glass, Alese Johnson, Monica Rial, Jerry Jewell, Stephanie Young, Mike McFarland",
+      "director": "",
+      "description": "On the surface, the Social Welfare Agency appears to help orphaned schoolgirls, but it's actually turning them into lethal agents."
+    },
+    {
+      "show_id": "s4997",
+      "title": "Puella Magi Madoka Magica",
+      "type": "TV Show",
+      "release_year": 2011,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Aoi Yuki, Chiwa Saito, Kaori Mizuhashi, Eri Kitamura, Emiri Kato, Ai Nonaka",
+      "director": "",
+      "description": "One day, Madoka Kaname has a very magical encounter, one that can change her destiny. This is the beginning of the new story of magical witch girls."
+    },
+    {
+      "show_id": "s1166",
+      "title": "Cagaster of an Insect Cage",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Yoshimasa Hosoya, Kana Hanazawa, Natsuki Hanae, Takahiro Sakurai, Daisuke Namikawa, Toshiyuki Morikawa, Kazuyuki Okitsu, Junichi Suwabe, Tomohiro Shiozaki, Ai Kayano, Tetsu Shiratori, Yasuhiro Mamiya, Daiki Yamashita, Akari Kito, Tomokazu Sugita, Aoi Yuki, Kohsuke Toriumi",
+      "director": "",
+      "description": "Thirty years after a disease that turns the infected into carnivorous insects emerged, a young exterminator and a teenage girl search for her mother."
+    },
+    {
+      "show_id": "s191",
+      "title": "A Kind of Murder",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Thrillers",
+      "cast": "Patrick Wilson, Jessica Biel, Vincent Kartheiser, Haley Bennett, Eddie Marsan, Jon Osbeck, Radek Lord, Christine Dye",
+      "director": "Andy Goddard",
+      "description": "Obsessed with an unsolved murder case, a crime novelist stuck in an unhappy marriage fantasizes about killing his wife, who soon turns up dead."
+    },
+    {
+      "show_id": "s2422",
+      "title": "Girl from Nowhere",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, TV Dramas, TV Mysteries",
+      "cast": "Chicha Amatayakul, Thanawetch Siriwattanakul, Pajaree Nantarat, Thitinan Khlangphet, Chonnikan Netjui, Nutthasit Kotimanuswanich, Tatchapol Thitiapichai, Chanicha Boonpanuvichit, Morakot Liu, Ekawat Niratvorapanya, Anuchit Sapanpong, Awat Ratanapintha, Claudia Chakrapan, Piyathida Woramusik, Apasiri Kittithanon, Kunchanuj Kengkarnka, Nutnicha Lueanganankhun",
+      "director": "",
+      "description": "A mysterious, clever girl named Nanno transfers to different schools, exposing the lies and misdeeds of the students and faculty at every turn."
+    },
+    {
+      "show_id": "s6204",
+      "title": "The Cat in the Hat Knows a Lot About That!",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Kids' TV",
+      "cast": "Martin Short, Alexa Torrington, Jacob Ewaniuk, Robert Tinkler, Tracey Hoyt",
+      "director": "Tony Collingwood",
+      "description": "The Cat in the Hat is back – and this time, he's teaching Sally and her brother, Nick, some awfully nifty things to think about!"
+    },
+    {
+      "show_id": "s4413",
+      "title": "Naruto the Movie: Ninja Clash in the Land of Snow",
+      "type": "Movie",
+      "release_year": 2004,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Yuri Lowenthal, Maile Flanagan, Sam Regal, Cam Clarke, Lex Lang, Kari Wahlgren, Crispin Freeman",
+      "director": "Tensai Okamura",
+      "description": "Naruto, Sasuke and Sakura learn they'll be protecting an actress from being hurt while making her next film, but it turns out she's a princess."
+    },
+    {
+      "show_id": "s1234",
+      "title": "Case Closed",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Anime Series, Crime TV Shows, TV Thrillers",
+      "cast": "Minami Takayama, Alison Retzloff, Wakana Yamazaki, Colleen Clinkenbeard, Akira Kamiya, R. Bruce Elliott, Wataru Takagi, Chafurin, Mark Stoddard",
+      "director": "",
+      "description": "Turned into a young boy by a sinister potion, teen sleuth Conan helps solve baffling crimes while tracking down the nefarious agents who poisoned him."
+    },
+    {
+      "show_id": "s4840",
+      "title": "Petta (Telugu Version)",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Action & Adventure, Comedies, Dramas",
+      "cast": "Rajnikanth, Vijay Sethupathi, M. Sasikumar, Nawazuddin Siddiqui, Trisha Krishnan, Simran",
+      "director": "Karthik Subbaraj",
+      "description": "An affable, newly appointed college warden proves to be no ordinary man when an old enemy resurfaces and exposes his complicated, violent past."
+    },
+    {
+      "show_id": "s3038",
+      "title": "Inuyasha the Movie - L'isola del fuoco scarlatto",
+      "type": "Movie",
+      "release_year": 2004,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Kappei Yamaguchi, Satsuki Yukino, Koji Tsujitani, Houko Kuwashima, Kumiko Watanabe, Noriko Hidaka, Ken Narita, Cho, Mamiko Noto, Nobutoshi Canna, Fumiko Orikasa, Richard Ian Cox, Moneca Stori",
+      "director": "Toshiya Shinohara",
+      "description": "Ai, a young half-demon who has escaped from Horai Island to try to help his people, returns with potential saviors InuYasha, Sesshomaru and Kikyo."
+    },
+    {
+      "show_id": "s2512",
+      "title": "GRANBLUE FANTASY the Animation",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Yuki Ono, Nao Toyama, Rie Kugimiya, Miyuki Sawashiro, Hiroaki Hirata, Yukari Tamura, Kazuhiro Yamaji, Rie Tanaka, Emiri Kato, Tomokazu Sugita, Kanae Ito",
+      "director": "",
+      "description": "In a world where islands float in the sky, Gran encounters a mysterious girl wanted by the Erste Empire for her ability to summon Primal Beasts."
+    },
+    {
+      "show_id": "s873",
+      "title": "Beyblade: Metal Fusion",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "Anime Series, Kids' TV",
+      "cast": "Aki Kanada, Satoshi Hino, Emiri Kato, Kei Shindo, Robert Tinkler, Peter Cugno, Lisette St. Louis, Barbara Mamabolo",
+      "director": "",
+      "description": "In this anime adventure series for kids, the forces of good and evil \"blade it out,\" battling each other with enchanted spinning tops."
+    },
+    {
+      "show_id": "s3447",
+      "title": "Krish Trish and Baltiboy: Best Friends Forever",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Children & Family Movies",
+      "cast": "Damandeep Singh Baggan, Smita Malhotra, Deepak Chachra",
+      "director": "Munjal Shroff, Tilak Shetty",
+      "description": "A cat, monkey and donkey team up to narrate folktales about friendship from Northeast India, and the Indian regions of Bihar and Rajasthan."
+    },
+    {
+      "show_id": "s7061",
+      "title": "Thorne: Scaredy Cat",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Dramas, International Movies",
+      "cast": "David Morrissey, Eddie Marsan, Aidan Gillen, O.T. Fagbenle, Lorraine Ashbourne, Sandra Oh, Tom Brooke, Joe Absolom",
+      "director": "Benjamin Ross",
+      "description": "Heading a new team whose aim is to crack the cases that leave others stumped, detective Tom Thorne finds himself on the hunt for two serial killers."
+    },
+    {
+      "show_id": "s3972",
+      "title": "Mary and the Witch's Flower",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Anime Features, Children & Family Movies",
+      "cast": "Ruby Barnhill, Kate Winslet, Jim Broadbent, Ewen Bremner, Lynda Baron, Louis Ashbourne Serkis, Morwenna Banks, Teresa Gallagher, Rasmus Hardiker",
+      "director": "Hiromasa Yonebayashi",
+      "description": "Ordinary girl Mary picks an extraordinary flower and travels to Endor College, a school for magic. But its foremost teachers have a sinister plan."
+    },
+    {
+      "show_id": "s4122",
+      "title": "Miraculous: Tales of Ladybug & Cat Noir",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Kids' TV, TV Action & Adventure",
+      "cast": "Cristina Vee, Bryce Papenbrook, Keith Silverstein, Mela Lee, Max Mittelman, Carrie Keranen, Stephanie Sheh, André Gordon, Matthew Mercer, Christopher Corey Smith, Philece Sampler, Selah Victor, Marieve Herington, Ben Diskin, Kira Buckland, Erin Fitzgerald, Grant George, Ethan Murray, David Roach, Todd Haberkorn",
+      "director": "Thomas Astruc",
+      "description": "When Paris is in peril, Marinette becomes Ladybug. Little does she know, her school crush Adrien is actually Cat Noir, another city-saving superhero."
+    },
+    {
+      "show_id": "s4245",
+      "title": "Movie 43",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Comedies",
+      "cast": "Greg Kinnear, Dennis Quaid, Common, Seth MacFarlane, Will Sasso, Hugh Jackman, Kate Winslet, Liev Schreiber, Naomi Watts, Anna Faris, Chris Pratt, J.B. Smoove, Kieran Culkin, Emma Stone, Cathy Cliften, Kristen Bell, Leslie Bibb, Bobby Cannavale, John Hodgman, Justin Long, Jason Sudeikis, Uma Thurman, Phil Crowley, Kate Bosworth, Richard Gere, Jack McBrayer, Aasif Mandvi, Christopher Mintz-Plasse, Chloë Grace Moretz, Matt Walsh, Patrick Warburton, Gerard Butler, Johnny Knoxville, Seann William Scott, Halle Berry, Stephen Merchant, Terrence Howard, Elizabeth Banks, Josh Duhamel",
+      "director": "Peter Farrelly, Will Graham, Steve Carr, Griffin Dunne, Steve Brill, James Duffy, Jonathan van Tulleken, Elizabeth Banks, Patrik Forsberg, Brett Ratner, Rusty Cundieff, James Gunn",
+      "description": "An eye-popping cast stars in this sketch-comedy collage, the new millennium's homage to classic anthology films like The Kentucky Fried Movie."
+    },
+    {
+      "show_id": "s3977",
+      "title": "Masameer - The Movie",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Malik Nejer, Shahad Alahmari, Abdulaziz Almuzaini, Yousef Aldakheel",
+      "director": "Malik Nejer",
+      "description": "A young girl passionate about AI sets out to make an impact as three friends become crime-fighting superheroes. Based on the hit animated web series."
+    },
+    {
+      "show_id": "s4898",
+      "title": "Pokémon the Movie: Power of Us",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Anime Features, Children & Family Movies",
+      "cast": "Gim Yeong-seon, Ikue Otani, O Inseong, I Sen-ho, Jeong-shin Woo, Sarah Natochenny",
+      "director": "Tetsuo Yajima",
+      "description": "Ash and Pikachu journey to Fula City for its Wind Festival. When disaster looms, they must work together with a group of misfits to save the day!"
+    },
+    {
+      "show_id": "s2013",
+      "title": "Enter the Anime",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Kozo Morishita, Yoko Takahashi, Shinji Aramaki, Kenji Kamiyama",
+      "director": "Alex Burunova",
+      "description": "What is anime? Through deep-dives with notable masterminds of this electrifying genre, this fast-paced peek behind the curtain seeks to find the answers."
+    },
+    {
+      "show_id": "s3961",
+      "title": "Marvel Anime: X-Men",
+      "type": "TV Show",
+      "release_year": 2011,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Toshiyuki Morikawa, Rikiya Koyama, Katsunosuke Hori, Aya Hisakawa, Kaori Yamagata, Yoshiko Sakakibara, Yurika Hino, Yukari Tamura, Hideyuki Tanaka",
+      "director": "",
+      "description": "A year after their dissolution, the X-Men are re-assembled by Professor Charles Xavier to investigate the kidnapping of young mutants in Japan."
+    },
+    {
+      "show_id": "s3039",
+      "title": "Inuyasha the Movie - La spada del dominatore del mondo",
+      "type": "Movie",
+      "release_year": 2003,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Kappei Yamaguchi, Satsuki Yukino, Koji Tsujitani, Houko Kuwashima, Kumiko Watanabe, Ken Narita, Akio Otsuka, Kikuko Inoue",
+      "director": "Toshiya Shinohara",
+      "description": "The Great Dog Demon beaqueathed one of the Three Swords of the Fang to each of his two sons. Now the evil power of the third sword has been awakened."
+    },
+    {
+      "show_id": "s4600",
+      "title": "Okko's Inn",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Anime Features, Children & Family Movies",
+      "cast": "Seiran Kobayashi, Nana Mizuki, Satsumi Matsuda, Rina Endo, Etsuko Kozakura, Yoko Asagami, Teiyu Ichiryusai, Masaki Terasoma, Hirohide Yakumaru, Anju Suzuki, Osamu Shitara, Mikako Komatsu, Horan Chiaki, Koichi Yamadera, Fumiko Orikasa",
+      "director": "Kitaro Kosaka",
+      "description": "After losing her parents, a young girl learns about grief and healing from a friendly ghost who lives in her grandmother's traditional Japanese inn."
+    },
+    {
+      "show_id": "s3419",
+      "title": "Kitten Rescuers",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "British TV Shows, International TV Shows, Reality TV",
+      "cast": "Jo Brand",
+      "director": "",
+      "description": "Cat-crazy host Jo Brand follows vets and animal welfare officers who take on daring rescues to save furry felines subjected to different cat-astrophes."
+    },
+    {
+      "show_id": "s2856",
+      "title": "Hubie Halloween",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Comedies, Horror Movies",
+      "cast": "Adam Sandler, Kevin James, Julie Bowen, Ray Liotta, Steve Buscemi, Maya Rudolph, Rob Schneider, June Squibb, Kenan Thompson, Tim Meadows, Michael Chiklis, Karan Brar, George Wallace, Paris Berelc, Noah Schnapp, China Anne McClain, Colin Quinn, Kym Whitley, Lavell Crawford, Mikey Day, Jackie Sandler, Sadie Sandler, Sunny Sandler",
+      "director": "Steve Brill",
+      "description": "Hubie's not the most popular guy in Salem, Mass., but when Halloween turns truly spooky, this good-hearted scaredy-cat sets out to keep his town safe."
+    },
+    {
+      "show_id": "s7741",
+      "title": "Your lie in April",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Anime Series, International TV Shows, Romantic TV Shows",
+      "cast": "Natsuki Hanae, Risa Taneda, Ayane Sakura, Ryota Osaka, Saori Hayami, Yuki Kaji",
+      "director": "",
+      "description": "After his mother's death, a piano prodigy's will to play disappears. But meeting a free-spirited girl who plays the violin turns his life around."
+    },
+    {
+      "show_id": "s1248",
+      "title": "Cats & Dogs: The Revenge of Kitty Galore",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "James Marsden, Nick Nolte, Christina Applegate, Katt Williams, Bette Midler, Neil Patrick Harris, Sean Hayes, Wallace Shawn, Roger Moore, Joe Pantoliano, Michael Clarke Duncan, Chris O'Donnell, Jack McBrayer, Kiernan Shipka",
+      "director": "Brad Peyton",
+      "description": "Cats and dogs must set aside their differences and merge animal instincts when Kitty Galore decides to claw her way to global domination."
+    },
+    {
+      "show_id": "s7157",
+      "title": "Toradora!",
+      "type": "TV Show",
+      "release_year": 2008,
+      "listed_in": "Anime Series, International TV Shows, Romantic TV Shows",
+      "cast": "Rie Kugimiya, Junji Majima, Yui Horie, Hirofumi Nojima, Eri Kitamura, Sayaka Ohara, Ai Nonaka, Momoko Ishikawa, Hiroyuki Yoshino, Kazuyuki Okitsu, Rie Tanaka, Yuhko Kaida, Saori Goto",
+      "director": "",
+      "description": "Menacing in appearance but gentle at heart, Ryūji forms an unlikely friendship with Taiga, a tiny girl with a sharp tongue and a tough attitude."
+    },
+    {
+      "show_id": "s3364",
+      "title": "Kia and Cosmos",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Ritwika Pal, Swastika Mukherjee, Joy Sengupta",
+      "director": "Sudipto Roy",
+      "description": "A 15-year-old girl with autism attempts to write a mystery novel based on her hunt for the killer of a neighborhood cat."
+    },
+    {
+      "show_id": "s4897",
+      "title": "Pokémon the Movie: I Choose You!",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Anime Features, Children & Family Movies",
+      "cast": "Ikue Otani, Sarah Natochenny, David Oliver Nelson, Mike Pollock, Kate Bristol, Suzy Myers, Rodger Parsons",
+      "director": "Kunihiko Yuyama",
+      "description": "When Ash tries to pick his first Pokémon on his birthday, he ends up with a stubborn Pikachu and they embark on a journey to find the legendary Ho-Oh."
+    },
+    {
+      "show_id": "s5330",
+      "title": "Sab Jholmaal Hai",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "",
+      "director": "Vijay Roche",
+      "description": "In this madcap comedy, two mischievous cats, a talking parrot and a high-strung dog keep getting into trouble while their human is away."
+    },
+    {
+      "show_id": "s31",
+      "title": "#cats_the_mewvie",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Michael Margolis",
+      "description": "This pawesome documentary explores how our feline friends became online icons, from the earliest text memes to the rise of celebrity cat influencers."
+    },
+    {
+      "show_id": "s5224",
+      "title": "Rivaaz",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Deepti Naval, Vijay Raaz, Meghna Naidu, Saadhika Randhawa, Ritisha Vijayvargya, Manoj Biddvai, Sayaji Shinde, Reema Lagoo",
+      "director": "Ashok Nanda",
+      "description": "In a village where girls are auctioned off rather than married, a man falls in love with a girl who is about to face the bidders."
+    },
+    {
+      "show_id": "s3037",
+      "title": "InuYasha",
+      "type": "TV Show",
+      "release_year": 2001,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Kappei Yamaguchi, Satsuki Yukino, Kumiko Watanabe, Noriko Hidaka, Koji Tsujitani, Houko Kuwashima, Toshiyuki Morikawa, Richard Ian Cox, Moneca Stori, Paul Dobson, Kirby Morrow, Kelly Sheridan, Jillian Michaels",
+      "director": "",
+      "description": "Yanked down a well, schoolgirl Kagome Higurashi emerges in feudal Japan, where she must reassemble a sacred jewel while eluding half-demon Inuyasha."
+    },
+    {
+      "show_id": "s3371",
+      "title": "Kid-E-Cats",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Kids' TV",
+      "cast": "Lori Gardner, Kate Bristol, Billy Bob Thompson, Marc Thompson, Erica Schroeder",
+      "director": "",
+      "description": "Cookie, Pudding and Candy are kitten siblings whose favorite things are sweet treats and letting their curiosity lead them on adventures in learning."
+    },
+    {
+      "show_id": "s4351",
+      "title": "My Sassy Girl",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Joo Won, Oh Yeon-seo, Lee Jung-shin, Kim Yoon-hye, Sohn Chang-min, Yoon Se-a, Cho Hee-bong, Jung Woong-in, Lee Kyung-hwa",
+      "director": "",
+      "description": "A refined young Joseon scholar's life turns upside down after he rescues a drunk princess who later accuses him of taking something precious from her."
+    },
+    {
+      "show_id": "s7266",
+      "title": "TUNA GIRL",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Fuka Koshiba, Tom Fujita, Hidetoshi Hoshida, Hiroto Kanai, Ryosuke Yusa, Shuri Tanaka, Chal Inoue, Takashi Taniguchi, Takeshi Masu",
+      "director": "Mana Yasuda",
+      "description": "A clumsy but cheerful fisheries student struggles to find her place at a research institute renowned for its tuna cultivation. The work isn't easy."
+    },
+    {
+      "show_id": "s1249",
+      "title": "Catwalk: Tales from the Cat Show Circuit",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Aaron Hancox, Michael McNamara",
+      "description": "This fun, charming documentary follows the exploits of some very feline-friendly folks as they strive to get their kitties crowned Canada’s top cat."
+    },
+    {
+      "show_id": "s1842",
+      "title": "Dr. Seuss' The Cat in the Hat",
+      "type": "Movie",
+      "release_year": 2003,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Mike Myers, Alec Baldwin, Kelly Preston, Dakota Fanning, Spencer Breslin, Amy Hill, Sean Hayes, Dan Castellaneta",
+      "director": "Bo Welch",
+      "description": "While Mom is away, a bored little boy and girl are visited by the Cat in the Hat, who proceeds to turn the house into the \"mother of all messes.\""
+    },
+    {
+      "show_id": "s1213",
+      "title": "Cardcaptor Sakura",
+      "type": "TV Show",
+      "release_year": 1999,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Miwa Matsumoto, Motoko Kumai, Nozomu Sasaki, Hideyuki Tanaka, Junko Iwao, Emi Motoi, Yukana, Aya Hisakawa, Katsuyuki Konishi, Emi Shinohara, Sakura Tange, Ryoka Yuzuki, Minako Kotobuki, Yumi Toma, Natsuki Hanae, Issei Miyazaki, Tomokazu Seki, Kazuo Hayashi, Masaya Onosaka, Minori Suzuki, Megumi Ogata",
+      "director": "",
+      "description": "After a young girl breaks the seal of a magical book, releasing the spirits of the cards inside, she must become a \"Cardcaptor\" and retrieve them."
+    },
+    {
+      "show_id": "s7411",
+      "title": "Vettai",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Action & Adventure, International Movies, Music & Musicals",
+      "cast": "Arya, Madhavan, Sameera Reddy, Amala Paul, Nasser, Ashutosh Rana, Sreejith Ravi, Muthukumar",
+      "director": "N. Linguswamy",
+      "description": "This powerful Tamil action film follows the shared fate of two very different siblings: policeman Thiru and his roguish brother, Guru."
+    },
+    {
+      "show_id": "s5346",
+      "title": "Saint Seiya: The Lost Canvas",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Tetsuya Kakihara, Hiro Shimono, Aya Hirano, Atsushi Abe, Sanae Kobayashi, Kenta Miyake, Tomohiro Tsuboi, Nana Mizuki, Shigeru Chiba",
+      "director": "",
+      "description": "This anime adventure follows the battle between a saint of Athena and an avatar of Hades who's working on a painting that could destroy the world."
+    },
+    {
+      "show_id": "s4227",
+      "title": "Morphle",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "British TV Shows, Kids' TV",
+      "cast": "",
+      "director": "",
+      "description": "Little Mila turns playtime into a series of fun and educational adventures with her magical pet Morphle, who transforms into anything she dreams up!"
+    },
+    {
+      "show_id": "s222",
+      "title": "A Scandall",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "International Movies, Thrillers",
+      "cast": "Johnny Baweja, Reeth Mazumder, Manav Kaul, Tanvi Vyas, Puru Chibber, Vasundhara Kaul, Aayam Mehta, Niraj Sah",
+      "director": "Ishaan Trivedi",
+      "description": "A film school graduate is interested in making a movie about his girlfriend's uncle, who claims that he can see his long-dead daughter."
+    },
+    {
+      "show_id": "s1246",
+      "title": "Catfight",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, Independent Movies",
+      "cast": "Sandra Oh, Anne Heche, Alicia Silverstone, Amy Hill, Myra Lucretia Taylor, Ariel Kavoussi, Damian Young, Stephen Gevedon, Giullian Yao Gioiello, Tituss Burgess",
+      "director": "Onur Tukel",
+      "description": "Two college frenemies whose lives aren't what they hoped meet up decades later and escalate their resentments from verbal jabs to bloody brawls."
+    },
+    {
+      "show_id": "s7762",
+      "title": "Zapped",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Zendaya, Chanelle Peloso, Spencer Boldman, Emilia McCarthy, Adam DiMarco, William Ainscough, Aleks Paunovic, Lucia Walters",
+      "director": "Peter DeLuise",
+      "description": "A girl discovers a dog-training app that can get boys to obey her every command. But she soon learns that it isn't the cure-all she had hoped for."
+    },
+    {
+      "show_id": "s487",
+      "title": "An American Tail: Fievel Goes West",
+      "type": "Movie",
+      "release_year": 1991,
+      "listed_in": "Children & Family Movies",
+      "cast": "Philip Glasser, James Stewart, Erica Yohn, Cathy Cavadini, Nehemiah Persoff, Dom DeLuise, Amy Irving, John Cleese, Jon Lovitz",
+      "director": "Phil Nibbelink, Simon Wells",
+      "description": "Fievel and his family head west for what turns out to be a wild adventure. Deep in cowboy country, the intrepid mouse faces down a nasty feline."
+    },
+    {
+      "show_id": "s254",
+      "title": "A Whisker Away",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Anime Features, Children & Family Movies, International Movies",
+      "cast": "Mirai Shida, Natsuki Hanae, Hiroaki Ogi, Koichi Yamadera, Minako Kotobuki, Susumu Chiba, Ayako Kawasumi, Sayaka Ohara, Daisuke Namikawa",
+      "director": "Junichi Sato, Tomotaka Shibayama",
+      "description": "A peculiar girl transforms into a cat to catch her crush's attention. But before she realizes it, the line between human and animal starts to blur."
+    },
+    {
+      "show_id": "s1768",
+      "title": "Dino Girl Gauko",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Anime Series, Kids' TV",
+      "cast": "Naoko Matsui, Hiroshi Kamiya, Kazue Ikura, Chafurin, Chie Kojiro, Mari Mashiba, Ryoko Shiraishi, Hidekatsu Shibata, Tadashi Miyazawa, Sonosuke Hattori, Karen, Yui Toita, Izu Konishi, Eri Ozaki, Risa Nakamura, Tomoyo Chujo, Takuro Hijioka, Sawako Yoshida, Chika Okubo, Yuri Fujiwara, Tomomi Yamakawa, Hikaru Yuki, Miyako Kobayashi, Mutsuki Arisawa, Koharu Nogata, Tomoka Kuzutani, Madoka Yokoyama, Madoka Hiraide, Ayako Takamura, Yuki Arimoto, Yuto Kazama, Arisa Takami, Chika Sakamoto",
+      "director": "",
+      "description": "When she gets angry, middle schooler Naoko turns into fierce dinosaur Gauko! Thanks to friends, aliens and more, her life is full of wacky incidents."
+    },
+    {
+      "show_id": "s5356",
+      "title": "Sam & Cat",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Jennette McCurdy, Ariana Grande, Cameron Ocasio, Brandon Weaver, Zoran Korach, Dre Swain, Maree Cheatham, Eduardo Drummond, Alondra Hidalgo",
+      "director": "",
+      "description": "To earn cash, roommates Sam and Cat start a baby-sitting service – and quickly discover just what an adventure baby-sitting can be."
+    },
+    {
+      "show_id": "s5621",
+      "title": "Sincerely Yours, Dhaka",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Mostafizur Noor Imran, Orchita Sporshia, Allen Shubhro, Shamol Mawla, Sarder Saniat Hossain, Manoj Kumar Pramanik, Trapa Majumder, Intekhab Dinar, Iresh Zaker, Lutfur Rahman George",
+      "director": "Nuhash Humayun, Syed Ahmed Shawki, Rahat Rahman, Robiul Alam Robi, Golam Kibria Farooki, Mir Mukarram Hossain, Tanvir Ahsan, Mahmudul Islam, Abdullah Al Noor, Krishnendu Chattopadhyay, Syed Saleh Ahmed Sobhan",
+      "description": "Eleven emerging Bangladeshi filmmakers present a collection of gritty shorts centered on the capital city and the people living in its margins."
+    },
+    {
+      "show_id": "s4662",
+      "title": "Only Mine",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Thrillers",
+      "cast": "Amber Midthunder, Brett Zimmerman, Chris Browning, Walter Fauntleroy, Claudia Ferri, Lorenzo James Henrie, Ellen Wroe, Ashley Holliday Tavares, Nancy Linehan Charles, Jonna Walsh",
+      "director": "Michael Civille",
+      "description": "After dating a charming cop who turns into an obsessive stalker, a small-town girl must save herself from his deadly ways."
+    },
+    {
+      "show_id": "s5864",
+      "title": "Sturgill Simpson Presents Sound & Fury",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Anime Features, Music & Musicals, Sci-Fi & Fantasy",
+      "cast": "",
+      "director": "Jumpei Mizusaki, Koji Morimoto, Michael Arias, Masaru Matsumoto, Arthell Isom, Henry Thurlow, Takanobu Mizuno, Elsa Nakamichi, Hajime Sasaki, Shinji Takagi",
+      "description": "In this anime visual album, a mysterious driver heads deep into a postapocalyptic hellscape toward a ferocious showdown with two monstrous opponents."
+    },
+    {
+      "show_id": "s4447",
+      "title": "Neruda",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Luis Gnecco, Gael García Bernal, Mercedes Morán, Emilio Gutiérrez Caba, Diego Muñoz, Alejandro Goic, Pablo Derqui, Marcelo Alonso",
+      "director": "Pablo Larraín",
+      "description": "When a Chilean policeman vows to find and capture leftist poet Pablo Neruda, a game of cat and mouse ensues that tests both their wills."
+    },
+    {
+      "show_id": "s3423",
+      "title": "Knights of Sidonia",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Ryota Osaka, Aya Suzaki, Aki Toyosaki, Takahiro Sakurai, Hisako Kanemoto, Eri Kitamura, Sayaka Ohara, Tomohiro Tsuboi, Takehito Koyasu, Satomi Arai, Atsuko Tanaka, Nanako Mori, Takako Honda, Kohsuke Toriumi, Ayane Sakura, Osamu Saka",
+      "director": "",
+      "description": "A hero rises to save a world that's also a spaceship under siege by an alien threat in this original anime series based on the popular manga comic."
+    },
+    {
+      "show_id": "s5559",
+      "title": "She's the One",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Bea Alonzo, Dingdong Dantes, Enrique Gil",
+      "director": "Mae Czarina Cruz",
+      "description": "When his best friend gets stranded in the rain and becomes the subject of a romantic viral video, a morning show host must confront his true feelings."
+    }
+  ]
+}

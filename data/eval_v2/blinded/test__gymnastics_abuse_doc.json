@@ -1,0 +1,647 @@
+{
+  "split": "test",
+  "query_id": "gymnastics_abuse_doc",
+  "query": "documentary about gymnasts abused by a team doctor",
+  "candidates": [
+    {
+      "show_id": "s1744",
+      "title": "Diagnosis",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Docuseries, Science & Nature TV",
+      "cast": "Lisa Sanders",
+      "director": "",
+      "description": "Dr. Lisa Sanders crowdsources diagnoses for mysterious and rare medical conditions in a documentary series based on her New York Times Magazine column."
+    },
+    {
+      "show_id": "s208",
+      "title": "A Murder in the Park",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Christopher S. Rech, Brandon Kimber",
+      "description": "This documentary excoriates a noted anti-death-penalty activist and his team, whose questionable methods got a convicted killer freed in 1999."
+    },
+    {
+      "show_id": "s7772",
+      "title": "Zion",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Zion Clark",
+      "director": "Floyd Russ",
+      "description": "Born without legs and stuck in foster care for years, teen Zion Clark finds his calling when he pursues competitive wrestling. A documentary short."
+    },
+    {
+      "show_id": "s1075",
+      "title": "Brain on Fire",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Chloë Grace Moretz, Thomas Mann, Richard Armitage, Jenny Slate, Carrie-Anne Moss, Tyler Perry, Alex Zahara",
+      "director": "Gerard Barrett",
+      "description": "Stricken with seizures, psychosis and memory loss, a young New York Post reporter visits doctor after doctor in search of an elusive diagnosis."
+    },
+    {
+      "show_id": "s7118",
+      "title": "To the Bone",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Lily Collins, Keanu Reeves, Carrie Preston, Lili Taylor, Alex Sharp, Liana Liberato, Brooke Smith, Leslie Bibb, Kathryn Prescott",
+      "director": "Marti Noxon",
+      "description": "Ellen, a 20-year-old with anorexia nervosa, goes on a harrowing, sometimes funny journey of self-discovery at a group home run by an unusual doctor."
+    },
+    {
+      "show_id": "s1903",
+      "title": "E-Team",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Katy Chevigny, Ross Kauffman",
+      "description": "The courageous investigators of Human Rights Watch's Emergencies Team risk their lives to document unlawful attacks on civilians by brutal dictators."
+    },
+    {
+      "show_id": "s7542",
+      "title": "Westside vs. the World",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Ron Perlman, Louie Simmons",
+      "director": "Michael Fahey",
+      "description": "A look into the journey of influential strength coach Louie Simmons and the Westside Barbell gym he founded, evolving the sport of powerlifting."
+    },
+    {
+      "show_id": "s7611",
+      "title": "Who's the One",
+      "type": "TV Show",
+      "release_year": 2011,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Comedies",
+      "cast": "Tien Hsin, Weber Yang, Pink Yang, Johnny Lu, Amanda Chou, Xiu Qin",
+      "director": "",
+      "description": "A doctor performs plastic surgery on a fat man who's been jilted, and continues his transformation by turning him into a handsome, desirable man."
+    },
+    {
+      "show_id": "s7435",
+      "title": "Virunga: Gorillas in Peril",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "",
+      "description": "The team behind the searing documentary reveals what inspired them to tell the story of Virunga and the lethal fight to save the gorillas' sanctuary."
+    },
+    {
+      "show_id": "s6454",
+      "title": "The Hockey Girls",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, TV Comedies, TV Dramas",
+      "cast": "Iria del Río, Nora Navas, Josep Linuesa, Natàlia Barrientos, Dèlia Brufau, Yasmina Drissi Sales, Júlia Gibert, Mireia Oriol, Asia Ortega Leiva, Claudia Riera, Mireia Aixalà, Juli Fàbregas, Àgata Roca, Marc Clotet",
+      "director": "Kiko Cruz Claverol, Patricia Font",
+      "description": "The passionate members of a girls' roller hockey team chase down victories in the rink while striving to make time for school, family and romance."
+    },
+    {
+      "show_id": "s4347",
+      "title": "My Perfect Landing",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV",
+      "cast": "Morgan Wigle, Tom Hulshof, Helena Marie, Shawn Thompson, Natasha Zaborski, Ajanae Stephenson, Francesca Van Keekan, Jordan Clark",
+      "director": "",
+      "description": "Everything changes for talented young gymnast Jenny Cortez when she moves with her family from Miami to Toronto to open a new gymnastics club."
+    },
+    {
+      "show_id": "s554",
+      "title": "Antidote",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure, Horror Movies",
+      "cast": "Randy Couture, Chuck Zito, Wil Traval, Celeste Thornton, Rafael De La Fuente, Alyona Chekhova, Natali Yura, Thom Rivera",
+      "director": "Ken Barbet",
+      "description": "A tough-as-nails treasure hunter protects a humanitarian doctor as she tries to cure a supernatural disease caused by a mysterious witch."
+    },
+    {
+      "show_id": "s5581",
+      "title": "Short Term 12",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Brie Larson, John Gallagher Jr., Kaitlyn Dever, Rami Malek, Lakeith Stanfield, Kevin Hernandez, Melora Walters, Stephanie Beatriz, Lydia Du Veaux, Alex Calloway, Frantz Turner",
+      "director": "Destin Daniel Cretton",
+      "description": "A new charge at a foster care facility dredges up the memories of a young supervisor's own troubled past, and her tough exterior begins eroding."
+    },
+    {
+      "show_id": "s5928",
+      "title": "Survivors Guide to Prison",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "Susan Sarandon",
+      "director": "Matthew Cooke",
+      "description": "Former inmates, officers and celebrities critique the U.S. prison system in this documentary packaged as a how-to handbook for the incarcerated."
+    },
+    {
+      "show_id": "s259",
+      "title": "A Young Doctor's Notebook and Other Stories",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "British TV Shows, TV Comedies, TV Dramas",
+      "cast": "Daniel Radcliffe, Jon Hamm, Adam Godley, Christopher Godwin, Rosie Cavaliero, Vicki Pepperdine, Margaret Clunie, Tim Steed, Shaun Pye",
+      "director": "",
+      "description": "Set during the Russian Revolution, this comic miniseries is based on a doctor's memories of his early career working in an out-of-the-way village."
+    },
+    {
+      "show_id": "s1183",
+      "title": "Calum von Moger: Unbroken",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Calum Von Moger",
+      "director": "Vlad Yudin",
+      "description": "Bodybuilder and two-time Mr. Universe, Calum von Moger, reflects on his rise to fame and battle to come back from a debilitating injury."
+    },
+    {
+      "show_id": "s608",
+      "title": "At All Costs",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Parker Jackson Cartwright, Gabe York",
+      "director": "Mike Nicoll",
+      "description": "This revealing documentary explores how the high-stakes world of Amateur Athletic Union basketball has professionalized youth sports in America."
+    },
+    {
+      "show_id": "s1546",
+      "title": "Crossroads: One Two Jaga",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Zahiril Adzim, Ario Bayu, Asmara Abigail, Rosdeen Suboh, Amerul Affendi, Iedil Putra, Timothy Castillo, Chew Kin Wah, Along Eyzendy, Nam Ron",
+      "director": "Nam Ron",
+      "description": "In Kuala Lumpur, an abused domestic worker tries to escape to Indonesia, while an idealistic cop insists on fighting corruption  – at a heavy price."
+    },
+    {
+      "show_id": "s5076",
+      "title": "Raising the Bar",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Children & Family Movies, Dramas, Sports Movies",
+      "cast": "Kelli Berglund, Lili Karamalikis, Tess Fowler, Emily Morris, Peta Shannon, Adam Tuominen, Caetlyn Collins, Jack Tomich, Isabelle Andary-Geslin, Rachel D'Sena",
+      "director": "Clay Glen",
+      "description": "A teenager who gave up her spot in an elite U.S. gymnastics program when her family moved to Australia enters a competition to help a new friend."
+    },
+    {
+      "show_id": "s4052",
+      "title": "Mersal",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Joseph Vijay, S.J. Surya, Kajal Aggarwal, Samantha Ruth Prabhu, Nithya Menon, Vadivelu, Sathyaraj",
+      "director": "Atlee Kumar",
+      "description": "A detective arrests a doctor for crimes targeting medical professionals but later finds the real culprit in a tale of revenge, corruption and magic."
+    },
+    {
+      "show_id": "s3148",
+      "title": "Jenni Rivera: Mariposa de Barrio",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Spanish-Language TV Shows, TV Dramas",
+      "cast": "Angélica Celaya, Gabriel Porras, Rosalinda Rodríguez, Samadhi Zendejas, Tony Garza, Regina Orquín, Enrique Montaño, Adrián Carvajal, Emmanuel Morales, Adriano Zendejas, Xavier Ruvalcaba, Raúl Sandoval, Mauricio Novoa, Uriel del Toro, Ana Wolfermann, Stephanie Arcila, Vanessa Pose, Alma Matrecito",
+      "director": "",
+      "description": "This drama follows Mexican-American singer Jenni Rivera's unlikely rise from suicidal pregnant teen and abused wife to banda superstar."
+    },
+    {
+      "show_id": "s146",
+      "title": "A 2nd Chance",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Children & Family Movies, Dramas, Sports Movies",
+      "cast": "Nina Pearce, Adam Tuominen, Emily Morris, Amy Handley, Carmel Johnson, Alanah Gilbert, Hapi Murphy, Lilly Blacker, Julie Kay Lumasag, Elysia Markou",
+      "director": "Clay Glen",
+      "description": "A gymnast lacks the confidence she needs to reach the top. But with the help of her new coach, she has the chance to win a spot on the national team."
+    },
+    {
+      "show_id": "s1347",
+      "title": "Chocolate",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Ha Ji-won, Yoon Kye-sang, Jang Seung-jo, Kang Bu-ja, Lee Jae-ryong, Min Jin-woong, Kim Won-hae, Yoo Teo",
+      "director": "",
+      "description": "Brought together by meaningful meals in the past and present, a doctor and a chef are reacquainted when they begin working at a hospice ward."
+    },
+    {
+      "show_id": "s5924",
+      "title": "Surviving R. Kelly",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "R. Kelly",
+      "director": "",
+      "description": "In this documentary series on the tangled history of allegations against musician R. Kelly, women give detailed accounts of sexual and mental abuse."
+    },
+    {
+      "show_id": "s6872",
+      "title": "The Silence of Others",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Almudena Carracedo, Robert Bahar",
+      "description": "Filmed over six years, this documentary captures the struggles of victims who suffered abuse under Gen. Francisco Franco's regime as they seek justice."
+    },
+    {
+      "show_id": "s1795",
+      "title": "Documentary Now!",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Comedies",
+      "cast": "Fred Armisen, Bill Hader, Helen Mirren",
+      "director": "",
+      "description": "Elevating the art of parody, this sharply comic series spoofs high-profile documentaries such as \"Grey Gardens\" and \"The Thin Blue Line.\""
+    },
+    {
+      "show_id": "s5770",
+      "title": "Spotlight",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Mark Ruffalo, Michael Keaton, Rachel McAdams, Liev Schreiber, John Slattery, Brian d'Arcy James, Stanley Tucci, Billy Crudup, Paul Guilfoyle, Jamey Sheridan",
+      "director": "Tom McCarthy",
+      "description": "A team of reporters and editors at the Boston Globe relentlessly investigate a shocking child molestation cover-up by the Catholic Church."
+    },
+    {
+      "show_id": "s6480",
+      "title": "The Imaginarium of Doctor Parnassus",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Action & Adventure, Sci-Fi & Fantasy",
+      "cast": "Heath Ledger, Christopher Plummer, Andrew Garfield, Verne Troyer, Lily Cole, Tom Waits, Johnny Depp, Colin Farrell, Jude Law",
+      "director": "Terry Gilliam",
+      "description": "When a deal with the devil comes due, the immortal Doctor Parnassus must renegotiate the pact to save his daughter and right the wrongs of his past."
+    },
+    {
+      "show_id": "s2630",
+      "title": "Harlem Globetrotters: The Team That Changed the World",
+      "type": "Movie",
+      "release_year": 2005,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Chuck D., Harlem Globetrotters",
+      "director": "",
+      "description": "Relive the greatest moments of the Harlem Globetrotters with this documentary that chronicles the team's legendary 1948 defeat over the Minneapolis Lakers and their historic 1951 Berlin trip."
+    },
+    {
+      "show_id": "s2542",
+      "title": "Gringo: The Dangerous Life of John McAfee",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Nanette Burstein",
+      "description": "Tech tycoon John McAfee made millions from his anti-virus software. Now, he may be best known for his bizarre and scandalous lifestyle."
+    },
+    {
+      "show_id": "s7358",
+      "title": "Unrest",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "Jennifer Brea, Omar Wasow, Jessica Taylor-Bearman",
+      "director": "Jennifer Brea",
+      "description": "In this heart-wrenching documentary, a 28-year-old Ph.D. student turns the camera on herself to capture her struggles with chronic fatigue syndrome."
+    },
+    {
+      "show_id": "s4117",
+      "title": "Minimalism: A Documentary About the Important Things",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "Joshua Fields Millburn, Ryan Nicodemus",
+      "director": "Matt D'Avella",
+      "description": "People dedicated to rejecting the American ideal that things bring happiness are interviewed in this documentary showing the virtues of less is more."
+    },
+    {
+      "show_id": "s5825",
+      "title": "Stonehearst Asylum",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Kate Beckinsale, Jim Sturgess, David Thewlis, Brendan Gleeson, Ben Kingsley, Michael Caine, Jason Flemyng, Sophie Kennedy Clark, Sinéad Cusack, Edmund Kingsley",
+      "director": "Brad Anderson",
+      "description": "In 1899, a young doctor arrives at an asylum for an apprenticeship and becomes suspicious of his mentor's methods while falling for a female patient."
+    },
+    {
+      "show_id": "s4244",
+      "title": "Move",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries, International TV Shows",
+      "cast": "",
+      "director": "Thierry Demaizière, Alban Teurlai",
+      "description": "Discover the brilliant dancers and choreographers who are shaping the art of movement around the world in this documentary series."
+    },
+    {
+      "show_id": "s4784",
+      "title": "Party Monster: Scratching the Surface",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies",
+      "cast": "Ellie Kemper, Jane Krakowski, Tituss Burgess, Carol Kane, Jon Hamm, Bobby Moynihan, Lauren Adams, Sara Chase, Sol Miranda, Derek Klena, Aidy Bryant",
+      "director": "",
+      "description": "In the probing documentary \"Party Monster,\" DJ Fingablast investigates what became of his childhood hero, DJ Slizzard."
+    },
+    {
+      "show_id": "s6553",
+      "title": "The Last Boy Scout",
+      "type": "Movie",
+      "release_year": 1991,
+      "listed_in": "Action & Adventure, Comedies",
+      "cast": "Bruce Willis, Damon Wayans, Chelsea Field, Noble Willingham, Taylor Negron, Danielle Harris, Halle Berry, Bruce McGill",
+      "director": "Tony Scott",
+      "description": "Private eye Joe Hallenbeck is forced to team up with a disgraced quarterback to uncover a conspiracy by a politician and a football team owner."
+    },
+    {
+      "show_id": "s6757",
+      "title": "The Physician",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Tom Payne, Ben Kingsley, Stellan Skarsgård, Olivier Martinez, Emma Rigby, Elyas M'Barek, Fahri Yardim, Makram Khoury, Michael Marcus",
+      "director": "Philipp Stölzl",
+      "description": "A medical apprentice in 11th-century Persia disguises himself as a Jew to study at a school that does not admit Christians."
+    },
+    {
+      "show_id": "s1419",
+      "title": "Clinical",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Vinessa Shaw, Kevin Rahm, William Atherton, Aaron Stanford, Wilmer Calderon, Sydney Tamiia Poitier, India Eisley, Nestor Serrano",
+      "director": "Alistair Legrand",
+      "description": "A psychiatrist is plagued by flashbacks to a terrifying attack as she treats a new patient who was horribly disfigured in an accident."
+    },
+    {
+      "show_id": "s4818",
+      "title": "Penalty",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Lukram Smil, Manjot Singh, Shashank Arora, Kay Kay Menon, Aakash Dabhade, Srishti Jain, Bijou Thaangjam, Mohit Nain, Ashwin Kaushal",
+      "director": "Shubham Singh",
+      "description": "At a Lucknow college, an aspiring football player’s dream of playing nationally is threatened when he faces discrimination for his Manipuri background."
+    },
+    {
+      "show_id": "s6383",
+      "title": "The Game",
+      "type": "TV Show",
+      "release_year": 2008,
+      "listed_in": "Romantic TV Shows, TV Comedies, TV Dramas",
+      "cast": "Tia Mowry-Hardrict, Pooch Hall, Coby Bell, Wendy Raquel Robinson, Hosea Chanchez, Brittany Daniel, Barry Floyd",
+      "director": "",
+      "description": "Medical school student Melanie adjusts to life in the world of professional sports when her boyfriend Derwin becomes a pro football player."
+    },
+    {
+      "show_id": "s6476",
+      "title": "The Hurt Business",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Kevin Costner",
+      "director": "Vlad Yudin",
+      "description": "Featuring legendary and up-and-coming MMA fighters, this documentary details the history of the brutal sport and the fighters' struggles and triumphs."
+    },
+    {
+      "show_id": "s2760",
+      "title": "Hitler's Olympics",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Daniel Kontur",
+      "description": "Hitler, Nazi propaganda and 1936 Berlin Olympics are put under the microscope to uncover hidden truths and the historical legacy of those games."
+    },
+    {
+      "show_id": "s7398",
+      "title": "Vegas Baby",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Amanda Micheli",
+      "description": "A Las Vegas doctor's controversial online contest sees anxious entrants vie for free in vitro fertilization, a procedure rarely covered by insurance."
+    },
+    {
+      "show_id": "s957",
+      "title": "Black Mirror",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "British TV Shows, International TV Shows, TV Dramas",
+      "cast": "Jesse Plemons, Cristin Milioti, Jimmi Simpson, Rosemarie DeWitt, Douglas Hodge, Andrea Riseborough, Brenna Harding, Owen Teague, Andrew Gower, Kiran Sonia Sawar, Georgina Campbell, Joe Cole, Maxine Peake, Jake Davies, Clint Dyer, Letitia Wright, Babs Olusanmokun, Bryce Dallas Howard, Alice Eve, Michael Kelly, Cherry Jones, Gugu Mbatha-Raw, Mackenzie Davis, Wyatt Russell, Benedict Wong, Kelly Macdonald, Faye Marsay, Madeline Brewer, Hannah John-Kamen, Malachi Kirby, Alex Lawther, Jerome Flynn, James Norton, Rory Kinnear, Lindsay Duncan, Daniel Kaluuya, Jessica Brown Findlay, Rupert Everett, Toby Kebbell, Jodie Whittaker, Hayley Atwell, Domhnall Gleeson, Lenora Crichlow, Michael Smiley, Daniel Rigby, Chloe Pirrie, Jason Flemyng, Jon Hamm, Oona Chaplin, Rafe Spall",
+      "director": "",
+      "description": "This sci-fi anthology series explores a twisted, high-tech near-future where humanity's greatest innovations and darkest instincts collide."
+    },
+    {
+      "show_id": "s4773",
+      "title": "Parchís: the Documentary",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, International Movies, Music & Musicals",
+      "cast": "",
+      "director": "Daniel Arasanz",
+      "description": "The spotlight's on Parchís, a record company-created Spanish boy/girl band that had unprecedented success with Top 10 songs and hit films in the '80s."
+    },
+    {
+      "show_id": "s4672",
+      "title": "Operation Ouch!",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "British TV Shows, Kids' TV, TV Comedies",
+      "cast": "Chris van Tulleken, Xand van Tulleken",
+      "director": "",
+      "description": "Drs. Chris and Xand van Tulleken take an entertaining approach to educate children about medicine and biology through experiments and hospital visits."
+    },
+    {
+      "show_id": "s6072",
+      "title": "The African Doctor",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Marc Zinga, Aïssa Maïga, Bayron Lebli, Médina Diarra, Rufus, Jonathan Lambert, Jean-Benoît Ugeux",
+      "director": "Julien Rambaldi",
+      "description": "Happily escaping a dictatorship, a Congolese doctor transplants his family to a small French village, where culture shock sets in for everyone."
+    },
+    {
+      "show_id": "s3728",
+      "title": "Losing Sight of Shore",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Sarah Moshman",
+      "description": "This documentary recounts the feats of the Coxless Crew, a team of four women who rowed from San Francisco to Australia in support of two charities."
+    },
+    {
+      "show_id": "s629",
+      "title": "Autohead",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Deepak Sampat, Ronjini Chakroborty, Vikrant Singh, Jhanvi Dwivedi, Ajay Mishra, Rohit Mittal, Sunny Banerjee, Ravidev Singh",
+      "director": "Rohit Mittal",
+      "description": "A production crew that thinks it's making a documentary about a humble Mumbai rickshaw driver unmasks a horrifying truth about their film's subject."
+    },
+    {
+      "show_id": "s3149",
+      "title": "Jenny Slate: Stage Fright",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, Stand-Up Comedy",
+      "cast": "Jenny Slate",
+      "director": "Gillian Robespierre",
+      "description": "Jenny Slate's first stand-up special is a mix of stage time, funny stories about adulthood and conversations with family in her childhood home."
+    },
+    {
+      "show_id": "s2310",
+      "title": "Full Out",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Children & Family Movies, Dramas, Sports Movies",
+      "cast": "Jennifer Beals, Ana Golja, Art Hindle, Jake Epstein, Ramona Milano, Trevor Tordjman, Lamar Johnson, Asha Bromfield, Sarah Fisher",
+      "director": "Sean Cisterna",
+      "description": "After a debilitating accident ends her Olympic dreams, gymnast Ariana Berlin finds recovery and hope in the world of hip-hop and college athletics."
+    },
+    {
+      "show_id": "s7158",
+      "title": "Torbaaz",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, International Movies, Sports Movies",
+      "cast": "Sanjay Dutt, Nargis Fakhri, Rahul Dev, Priyanka Verma, Kuwaarjeet Chopraa, Aishan Jawaid Malik, Rahul Mittra, Gavie Chahal, Humayun Shams Khan, Babrak Akbari",
+      "director": "Girish Malik",
+      "description": "At an Afghanistan refugee camp, an ex-army doctor seeks to bring children joy through cricket — and soon realizes that the stakes go beyond the sport."
+    },
+    {
+      "show_id": "s4989",
+      "title": "Project S The Series",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, TV Dramas, Teen TV Shows",
+      "cast": "Wiwattanawarang Oabnithi, Mahayotaruk Thiti, Lerkcharoempoj Papangkorn, Imanothai Kawin, Sakuljaroensuk Apinya, Oat Pasakorn Sanrattana, Leeratanakajorn Thanapob, Skye Nateeton Wongrawee, Supapunpinyo Teeradon, Chansangavej Chayanit, Ketprapakorn Narikun, Pibunsonggram Kritsanapoom, Santinatornkul Chanon",
+      "director": "",
+      "description": "Sports and friendship intertwine in tales of a volleyball team, an autistic badminton player, a skateboarder with depression and an archery-club crush."
+    },
+    {
+      "show_id": "s612",
+      "title": "Athlete A",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Bonni Cohen, Jon Shenk",
+      "description": "This documentary focuses on the gymnasts who survived USA Gymnastics doctor Larry Nassar's abuse and the reporters who exposed USAG's toxic culture."
+    },
+    {
+      "show_id": "s5608",
+      "title": "Silicon Cowboys",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Jason Cohen",
+      "description": "This documentary tells the story of Compaq Computer and its three founders, who in 1982, took on Goliath IBM at the height of its PC dominance."
+    },
+    {
+      "show_id": "s6584",
+      "title": "The Legend of Cocaine Island",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Theo Love",
+      "description": "An urban legend about a duffel bag of cocaine buried in the Caribbean leads a misfit band to hatch a nutball plan to find it in this comic documentary."
+    },
+    {
+      "show_id": "s2311",
+      "title": "Full Out 2: You Got This!",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Children & Family Movies, Dramas, Sports Movies",
+      "cast": "Sydney Cope, Logan Edra, Liza Wilk, Braedyn Bruner, Billie Merritt",
+      "director": "Jeff Deverett",
+      "description": "With a championship on the line, Chayse and her gymnastics team look to a local break-dancer for all the right moves to rise above their competition."
+    },
+    {
+      "show_id": "s4012",
+      "title": "Medical Police",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, TV Action & Adventure, TV Comedies",
+      "cast": "Erinn Hayes, Rob Huebel, Malin Akerman, Rob Corddry, Lake Bell, Sarayu Blue, Ken Marino, Fred Melamed, Tom Wright, Jason Schwartzman, Eric Nenninger, Megan Le, Beth Dover, Zandy Hartig, Brian Huskey, Michael Cera",
+      "director": "",
+      "description": "Doctors Owen Maestro and Lola Spratt leave Childrens Hospital and join a secret arm of the CDC to investigate and destroy a deadly global virus."
+    },
+    {
+      "show_id": "s6018",
+      "title": "Tell Me Who I Am",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Ed Perkins",
+      "description": "In this documentary, Alex trusts his twin, Marcus, to tell him about his past after he loses his memory. But Marcus is hiding a dark family secret."
+    },
+    {
+      "show_id": "s3603",
+      "title": "Les Bleus - Une autre histoire de France, 1996-2016",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, International Movies, Sports Movies",
+      "cast": "",
+      "director": "Pascal Blanchard, Sonia Dauger, David Dietz",
+      "description": "This documentary charts 20 years of the French national soccer team, Les Bleus, whose ups and downs have mirrored those of French society."
+    },
+    {
+      "show_id": "s6949",
+      "title": "The Truth About Alcohol",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Javid Abdelmoneim",
+      "director": "David Briggs",
+      "description": "Emergency room doctor Javid Abdelmoneim endeavors to learn the truth about alcohol, both its benefits and risks, by exploring the science of drinking."
+    },
+    {
+      "show_id": "s7363",
+      "title": "Unspeakable Acts",
+      "type": "Movie",
+      "release_year": 1990,
+      "listed_in": "Dramas",
+      "cast": "Jill Clayburgh, Brad Davis, Sam Behrens",
+      "director": "Linda Otto",
+      "description": "Laurie and Joseph are doctors who interview sexually abused children. With a lot of energy they track down a pedophile who has abused many toddlers."
+    },
+    {
+      "show_id": "s2002",
+      "title": "End Game",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Rob Epstein, Jeffrey Friedman",
+      "description": "Facing an inevitable outcome, terminally ill patients meet extraordinary medical practitioners seeking to change our approach to life and death."
+    },
+    {
+      "show_id": "s4536",
+      "title": "NOVA: Prediction by the Numbers",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries",
+      "cast": "Jay O. Sanders",
+      "director": "Daniel McCabe",
+      "description": "With the science of forecasting flourishing, this documentary explores how predictions inform our lives and statistics and algorithms' reliability."
+    }
+  ]
+}

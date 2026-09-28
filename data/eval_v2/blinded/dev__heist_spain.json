@@ -1,0 +1,407 @@
+{
+  "split": "dev",
+  "query_id": "heist_spain",
+  "query": "Spanish bank heist series with hostages",
+  "candidates": [
+    {
+      "show_id": "s2390",
+      "title": "Getaway Plan",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "International Movies, Thrillers",
+      "cast": "Alain Hernández, Javier Gutiérrez, Alba Galocha, Itziar Atienza, Luis Tosar, Florin Opritescu, Jaroslaw Bielski, Peter Nikolas",
+      "director": "Iñaki Dorronsoro",
+      "description": "Professional burglar and blowtorch expert Víctor is recruited by the Russian mafia to break into a vault as part of an elaborate bank heist."
+    },
+    {
+      "show_id": "s6422",
+      "title": "The Great Heist",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Andrés Parra, Christian Tappan, Marcela Benjumea, Juan Sebastián Calero, Waldo Urrego, Rodrigo Jerez, Katherine Vélez, Paula Castaño, Pedro Suárez, Édgar Vittorino, Ramsés Ramos, Juan Pablo Barragán",
+      "director": "",
+      "description": "In 1994, a team of thieves plans an ambitious heist to steal millions from Colombia's Bank of the Republic. Inspired by true events."
+    },
+    {
+      "show_id": "s5117",
+      "title": "Real Crime: Supermarket Heist (Tesco Bomber)",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "",
+      "description": "In 2000, U.K. detectives spent months tracking a criminal known only as Sally, who was targeting a supermarket chain with extortion and letter bombs."
+    },
+    {
+      "show_id": "s6250",
+      "title": "The Crew",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Action & Adventure, International Movies",
+      "cast": "Sami Bouajila, Guillaume Gouix, Youssef Hajdi, Redouane Behache, Kahina Carina, David Saracino, Alice de Lencquesaing, Baya Belal, Steve Tientcheu, Kaaris",
+      "director": "Julien Leclercq",
+      "description": "After an unexpected misstep, a crew of skilled Parisian robbers find themselves forced to carry out a daring heist for a powerful crime organization."
+    },
+    {
+      "show_id": "s4800",
+      "title": "Paul Blart: Mall Cop",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Action & Adventure, Comedies",
+      "cast": "Kevin James, Keir O'Donnell, Jayma Mays, Raini Rodriguez, Shirley Knight, Stephen Rannazzisi, Peter Gerety, Bobby Cannavale, Adam Ferrara, Jamal Mixon, Adhir Kalyan, Gary Valentine",
+      "director": "Steve Carr",
+      "description": "An overzealous security guard finds himself in over his head when he tries to thwart a criminal mastermind's plot to rob an entire shopping mall."
+    },
+    {
+      "show_id": "s7323",
+      "title": "Uncertain Glory",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Marcel Borràs, Bruna Cusí, Nuria Prims, Oriol Pla, Luisa Gavasa, Terele Pávez, Fernando Esteso, Juan Diego, Roger Casamajor, Jorge Usón",
+      "director": "Agustí Villaronga",
+      "description": "When Lluís, a disinterested Spanish soldier, meets Carlana, he falls quickly in love, but soon discovers that Carlana's true passion is power."
+    },
+    {
+      "show_id": "s6556",
+      "title": "The Last Days of American Crime",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Action & Adventure, Dramas, Independent Movies",
+      "cast": "Edgar Ramírez, Michael Pitt, Anna Brewster, Patrick Bergin, Sharlto Copley, Brandon Auret, Tamer Burjaq, Terence Maynard, James Richard Marshall",
+      "director": "Olivier Megaton",
+      "description": "A bank robber joins a plot to commit one final, historic heist before the government turns on a mind-altering signal that will end all criminal behavior."
+    },
+    {
+      "show_id": "s4184",
+      "title": "Monopoly (The Bank Of Luck)",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Mohamed Mamdouh, Mohammed Tharwat, Akram Hosny",
+      "director": "Ahmed El Gendy",
+      "description": "Seeking revenge on his employer, a lazy bank agent and his two dim-witted friends concoct an elaborate but flawed heist."
+    },
+    {
+      "show_id": "s1092",
+      "title": "Breaking the Bank",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Kelsey Grammer, Tamsin Greig, John Michael Higgins, Mathew Horne, Pearce Quigley, Togo Igawa, Sonya Cassidy, Julie Dray, Danny Morgan, Andrew Sachs",
+      "director": "Vadim Jean",
+      "description": "Bank chairman Charles Bunbury – who knows next to nothing about banking – fights to save both his company and his marriage from disaster."
+    },
+    {
+      "show_id": "s5417",
+      "title": "Saving Mr. Banks",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Comedies, Dramas",
+      "cast": "Emma Thompson, Tom Hanks, Paul Giamatti, Jason Schwartzman, Colin Farrell, Bradley Whitford, Annie Buckley, Ruth Wilson, B.J. Novak, Rachel Griffiths, Kathy Baker, Melanie Paxson, Andy McPhee, Jerry Hauck, Mia Serafino, Michelle Arthur, Demetrius Grosse, Steven Cabral, David Ross Paterson, Ronan Vibert, Luke Baines, Dendrie Taylor, Laura Waddell, Paul Tassone",
+      "director": "John Lee Hancock",
+      "description": "When Walt Disney sets his sights on obtaining the rights to the children's classic \"Mary Poppins,\" the book's author proves a tough nut to crack."
+    },
+    {
+      "show_id": "s4175",
+      "title": "Money",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Thrillers",
+      "cast": "Kellan Lutz, Jess Weixler, Jesse Williams, Jamie Bamber, Lucía Guerrero, Fredric Lehne",
+      "director": "Martin Rosete",
+      "description": "Two corporate spies with a $5 million haul for selling secrets are held hostage by a thief, triggering a game of cat and mouse to gain the upper hand."
+    },
+    {
+      "show_id": "s4565",
+      "title": "Ocean's Thirteen",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Action & Adventure, Comedies",
+      "cast": "George Clooney, Brad Pitt, Matt Damon, Andy Garcia, Don Cheadle, Bernie Mac, Ellen Barkin, Al Pacino, Casey Affleck, Scott Caan",
+      "director": "Steven Soderbergh",
+      "description": "This entry in the all-star caper franchise finds debonair con man Danny Ocean and his gang taking revenge on a double-crossing Las Vegas kingpin."
+    },
+    {
+      "show_id": "s7237",
+      "title": "Trotro",
+      "type": "TV Show",
+      "release_year": 2004,
+      "listed_in": "Kids' TV",
+      "cast": "",
+      "director": "",
+      "description": "Trotro the donkey may be opinionated, but he's as sweet as can be in this animated series that's full of lessons for children."
+    },
+    {
+      "show_id": "s466",
+      "title": "American Heist",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Action & Adventure, Dramas",
+      "cast": "Hayden Christensen, Adrien Brody, Jordana Brewster, Tory Kittles, Akon, Luis Da Silva Jr., Lance E. Nichols, Joe Chrest",
+      "director": "Sarik Andreasyan",
+      "description": "An ex-con is just getting his life back on track when his older brother is released from prison and drags him into the underworld for one final heist."
+    },
+    {
+      "show_id": "s1209",
+      "title": "Captive",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "This documentary series reconstructs history's most complex, high-stakes hostage negotiations as kidnapping victims recount their terrifying ordeals."
+    },
+    {
+      "show_id": "s4767",
+      "title": "Paranormal",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Dramas, TV Horror",
+      "cast": "Ahmed Amin, Razane Jammal, Ayah Samaha, Samaa Ibrahem, Roshdy El Shamy, Reem Abd El Kader",
+      "director": "",
+      "description": "After a skeptical hematologist is plunged into a series of inexplicable events, he unwillingly becomes the go-to-guy for paranormal investigations."
+    },
+    {
+      "show_id": "s3710",
+      "title": "London Heist",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure",
+      "cast": "Craig Fairbrass, James Cosmo, Mem Ferda, Nick Moran, Steven Berkoff, Nathalie Cox, Roland Manookian, Eddie Webber, Tony Denham, Katie Clarkson-Hill",
+      "director": "Mark McQueen",
+      "description": "After a heist gone wrong, a career criminal gradually uncovers the hidden motive behind his father's murder – and it has nothing to do with money."
+    },
+    {
+      "show_id": "s5967",
+      "title": "Takers",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Action & Adventure",
+      "cast": "Matt Dillon, Paul Walker, Chris Brown, Idris Elba, Jay Hernandez, Hayden Christensen, Michael Ealy, T.I., Marianne Jean-Baptiste, Zoe Saldana, Steve Harris, Johnathon Schaech",
+      "director": "John Luessenhop",
+      "description": "A motley crew of bank robbers plans their next heist after a former colleague convinces them to target an armored car carrying $20 million."
+    },
+    {
+      "show_id": "s2816",
+      "title": "Hostages",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Federico Lemos",
+      "description": "Witnesses recount the shocking 1996 hostage crisis in Lima, Peru, where rebels held scores of high-level figures captive at an ambassador's residence."
+    },
+    {
+      "show_id": "s4177",
+      "title": "Money Heist: The Phenomenon",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Pablo Lejarreta, Luis Alfaro",
+      "description": "A documentary on why and how \"Money Heist\" sparked a wave of enthusiasm around the world for a lovable group of thieves and their professor."
+    },
+    {
+      "show_id": "s3204",
+      "title": "John Day",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "International Movies, Thrillers",
+      "cast": "Naseeruddin Shah, Randeep Hooda, Shernaz Patel, Elena Kazan, Sharat Saxena, Vipin Sharma, Denzil Smith, Kenneth Desai, Sushil Pandey",
+      "director": "Ahishor Solomon",
+      "description": "A bank manager and his wife, still grieving over their daughter who died in a fire, become pawns in a bank heist with ties to corruption and fraud."
+    },
+    {
+      "show_id": "s6668",
+      "title": "The Millions",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Ramsey Nouah, Blossom Chukwujekwu, Ayo Makun, Nancy Isime, Ali Nuhu, Folusho Durojaiye, Toyin Abraham, Chika Lann, Broda Shaggi, Etinosa Idemudia",
+      "director": "Toka McBaror, Tunde Apalowo",
+      "description": "To pull off a massive heist, a charismatic con artist attempts to rob a fortified home with the help of a team he can't completely trust."
+    },
+    {
+      "show_id": "s6743",
+      "title": "The Parole Officer",
+      "type": "Movie",
+      "release_year": 2001,
+      "listed_in": "Action & Adventure, Comedies",
+      "cast": "Steve Coogan, Emma Gilmour, Susan Jane Tanner, Iain Mitchell, James Smith, Om Puri, Steven Waddington, Ben Miller, Lena Headey, Jenny Agutter",
+      "director": "John Duigan",
+      "description": "After witnessing a murder, Simon Garden is framed – and the only evidence that proves his innocence is a videotape locked inside a bank vault."
+    },
+    {
+      "show_id": "s1454",
+      "title": "Coin Heist",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Children & Family Movies, Dramas",
+      "cast": "Sasha Pieterse, Alexis G. Zall, Alex Saxon, Jay Walker, Mark Blum, Neal Huff, Michael Cyril Creighton, Blanche Baker, Connor Ratliff, Will Denton",
+      "director": "Emily Hagins",
+      "description": "When a crisis threatens to destroy their high school, four teens hatch a daring plan to raise $10 million. Step one? Breaking into the U.S. Mint."
+    },
+    {
+      "show_id": "s4059",
+      "title": "Mexicanos de Bronce",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, International Movies, Music & Musicals",
+      "cast": "",
+      "director": "Julio Fernández Talamantes",
+      "description": "When street vices keep them coming back, three prisoners make sense of their lives in a penitentiary – and beyond it – through rap."
+    },
+    {
+      "show_id": "s3928",
+      "title": "Marauders",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure",
+      "cast": "Bruce Willis, Christopher Meloni, Dave Bautista, Adrian Grenier, Johnathon Schaech, Lydia Hull, Tyler Jon Olson, Christopher Rob Bowen, Richie Chance",
+      "director": "Steven C. Miller",
+      "description": "A series of high-stakes thefts at banks owned by a manipulative millionaire sparks an FBI agent to suspect a sinister plan behind the deadly heists."
+    },
+    {
+      "show_id": "s1702",
+      "title": "Den of Thieves",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure",
+      "cast": "Gerard Butler, Pablo Schreiber, O'Shea Jackson Jr., 50 Cent, Meadow Williams, Maurice Compte, Brian Van Holt, Evan Jones, Mo McRae, Kaiwi Lyman",
+      "director": "Christian Gudegast",
+      "description": "A highly skilled crew of bank robbers plotting a heist at the supposedly impenetrable Federal Reserve faces off against an elite unit of L.A. cops."
+    },
+    {
+      "show_id": "s5949",
+      "title": "Swordfish",
+      "type": "Movie",
+      "release_year": 2001,
+      "listed_in": "Action & Adventure",
+      "cast": "John Travolta, Hugh Jackman, Halle Berry, Don Cheadle, Sam Shepard, Vinnie Jones, Drea de Matteo, Rudolf Martin, Zach Grenier, Camryn Grimes",
+      "director": "Dominic Sena",
+      "description": "Determined to get his mitts on $9 billion in a secret DEA account so he can fight terrorism, a rogue agent recruits an encryption expert to hack in."
+    },
+    {
+      "show_id": "s3372",
+      "title": "Kidnapping Mr. Heineken",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Jim Sturgess, Sam Worthington, Ryan Kwanten, Anthony Hopkins, Mark van Eeuwen, Thomas Cocquerel, Jemima West, David Dencik",
+      "director": "Daniel Alfredson",
+      "description": "When beer magnate Alfred \"Freddy\" Heineken is kidnapped in 1983, his abductors make the largest ransom demand in history."
+    },
+    {
+      "show_id": "s3489",
+      "title": "La casa de papel",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Úrsula Corberó, Itziar Ituño, Álvaro Morte, Paco Tous, Enrique Arce, Pedro Alonso, María Pedraza, Alba Flores, Miguel Herrán, Jaime Lorente, Esther Acebo, Darko Peric, Kiti Mánver",
+      "director": "",
+      "description": "Eight thieves take hostages and lock themselves in the Royal Mint of Spain as a criminal mastermind manipulates the police to carry out his plan."
+    },
+    {
+      "show_id": "s5737",
+      "title": "Spanish Affair 2",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Dani Rovira, Clara Lago, Karra Elejalde, Carmen Machi, Belén Cuesta, Berto Romero, Rosa María Sardà, Alfonso Sánchez, Alberto López, Josep Maria Riera",
+      "director": "Emilio Martínez Lázaro",
+      "description": "Spanish provincialism is put into the spotlight as a man from the Basque Country embarks on a mission to keep his daughter from marrying a Catalan."
+    },
+    {
+      "show_id": "s2691",
+      "title": "Hell or High Water",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Jeff Bridges, Chris Pine, Ben Foster, Gil Birmingham, Marin Ireland, Katy Mixon, Dale Dickey, Kevin Rankin, William Sterchi",
+      "director": "David Mackenzie",
+      "description": "In a desperate bid to save their family ranch, two brothers stage a series of clever bank robberies with a pair of Texas Rangers in hot pursuit."
+    },
+    {
+      "show_id": "s2750",
+      "title": "Historia de un clan",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Alejandro Awada, Cecilia Roth, Chino Darín, Nazareno Casero, Tristán, Gustavo Garzón, Pablo Cedrón, María Soldi, Rita Pauls, Victoria Almeida, Benjamín Alfonso",
+      "director": "",
+      "description": "This drama based on a true story follows the Puccios, a criminal family who kidnaps wealthy people and holds them hostage in their home."
+    },
+    {
+      "show_id": "s6946",
+      "title": "The Trip to Spain",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies",
+      "cast": "Steve Coogan, Rob Brydon, Marta Barrio, Claire Keelan, Margo Stilley",
+      "director": "Michael Winterbottom",
+      "description": "Comedians Steve Coogan and Rob Brydon gorge on local delicacies and celebrity impressions as they reunite for a hilarious road trip through Spain."
+    },
+    {
+      "show_id": "s940",
+      "title": "Bitcoin Heist",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure, Comedies, International Movies",
+      "cast": "Kate Nhung, Thanh Pham, Petey Majik Nguyen, Suboi, Jayvee Mai The Hiep, Lam Thanh My",
+      "director": "Ham Tran",
+      "description": "A unconventional, efficient Interpol special agent goes rogue and assembles a team of thieves to catch a shadowy hacker called \"The Ghost.\""
+    },
+    {
+      "show_id": "s7097",
+      "title": "Time to Hunt",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "International Movies, Thrillers",
+      "cast": "Lee Je-hoon, Ahn Jae-hong, Choi Woo-shik, Park Jeong-min, Park Hae-soo",
+      "director": "Yoon Sung-hyun",
+      "description": "Wanting to leave their dystopian world behind for a faraway paradise, three outlaws plot a money heist — and draw the attention of a vicious killer."
+    },
+    {
+      "show_id": "s717",
+      "title": "Band of Robbers",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Action & Adventure, Comedies, Independent Movies",
+      "cast": "Kyle Gallner, Adam Nee, Matthew Gray Gubler, Melissa Benoist, Hannibal Buress, Eric Christian Olsen, Stephen Lang, Daniel Edward Mora, Johnny Pemberton, Cooper Huckabee, Lee Garlington, Beth Grant, Creed Bratton",
+      "director": "Aaron Nee, Adam Nee",
+      "description": "Recast as modern-day men, Tom Sawyer and Huck Finn draft their misfit cronies to help find the buried treasure the two have sought since boyhood."
+    },
+    {
+      "show_id": "s6978",
+      "title": "The Vault",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Taryn Manning, Francesca Eastwood, James Franco, Scott Haze, Q'Orianka Kilcher, Keith Loneker, Clifton Collins Jr., Jeff Gum",
+      "director": "Dan Bush",
+      "description": "A bank heist takes an unnerving turn when the three sibling robbers attempt to gain entrance into an subterranean vault with sinister secrets."
+    },
+    {
+      "show_id": "s105",
+      "title": "30 Minutes or Less",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Action & Adventure, Comedies",
+      "cast": "Jesse Eisenberg, Danny McBride, Aziz Ansari, Nick Swardson, Dilshad Vadsaria, Michael Peña, Bianca Kajlich, Fred Ward",
+      "director": "Ruben Fleischer",
+      "description": "Two crooks planning a bank heist wind up abducting a pizza delivery driver and force him to commit the robbery — with a strict time limit."
+    },
+    {
+      "show_id": "s3400",
+      "title": "King's Ransom",
+      "type": "Movie",
+      "release_year": 2005,
+      "listed_in": "Action & Adventure, Comedies",
+      "cast": "Anthony Anderson, Jay Mohr, Kellita Smith, Nicole Ari Parker, Regina Hall, Loretta Devine, Donald Faison, Leila Arcieri, Charlie Murphy, Brooke D'Orsay",
+      "director": "Jeffrey W. Byrd",
+      "description": "A wealthy, despicable businessman comes to the realization that he may lose half his fortune to the obnoxious wife he's trying to divorce. So, he decides to arrange his own kidnapping in order to wipe himself out and claim poverty."
+    }
+  ]
+}

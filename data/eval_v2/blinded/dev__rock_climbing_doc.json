@@ -1,0 +1,547 @@
+{
+  "split": "dev",
+  "query_id": "rock_climbing_doc",
+  "query": "rock climbing documentary on a big wall",
+  "candidates": [
+    {
+      "show_id": "s14",
+      "title": "2,215",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries, International Movies, Sports Movies",
+      "cast": "Artiwara Kongmalai",
+      "director": "Nottapon Boonprakob",
+      "description": "This intimate documentary follows rock star Artiwara Kongmalai on his historic, 2,215-kilometer charity run across Thailand in 2017."
+    },
+    {
+      "show_id": "s4056",
+      "title": "Metallica: Some Kind of Monster",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "TV Shows",
+      "cast": "James Hetfield, Lars Ulrich, Kirk Hammett, Robert Trujillo",
+      "director": "Joe Berlinger, Bruce Sinofsky",
+      "description": "This collection includes the acclaimed rock documentary about Metallica, plus a film checking in with the still-thriving group 10 years later."
+    },
+    {
+      "show_id": "s2612",
+      "title": "Happy Hunting",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Horror Movies, Independent Movies",
+      "cast": "Martin Dingle-Wall, Ken Lally, Kenny Wormald, Connor Williams, Gary Sturm, C.J. Baker, Jeremy Lawson, Liesel Hanson, Kenneth Billings, Michael Tipps",
+      "director": "Joe Dietsch, Louie Gibson",
+      "description": "On the run from his meth-dealing employers, a drifter with a drinking problem becomes prey in a desert town's twisted hunting contest."
+    },
+    {
+      "show_id": "s6131",
+      "title": "The Big Show Show",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Paul Wight, Allison Munn, Reylynn Caster, Lily Brooks O'Briant, Juliet Donenfeld",
+      "director": "",
+      "description": "Former WWE wrestler the Big Show is out of the ring and ready for an even tougher challenge: raising three daughters with his wife in Florida."
+    },
+    {
+      "show_id": "s1186",
+      "title": "Camarón: The Film",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries, International Movies, Music & Musicals",
+      "cast": "Juan Diego",
+      "director": "Alexis Morante",
+      "description": "This documentary looks back on the life of legendary flamenco singer Camarón, who went from humble roots to rock star status to a tragic early death."
+    },
+    {
+      "show_id": "s3799",
+      "title": "Lu Over the Wall",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Anime Features, Music & Musicals, Sci-Fi & Fantasy",
+      "cast": "Kanon Tani, Shota Shimoda, Shinichi Shinohara, Akira Emoto, Soma Saito, Minako Kotobuki, Daigo, Nobu",
+      "director": "Masaaki Yuasa",
+      "description": "Middle schooler Kai's depressing life in a boring fishing village changes drastically when a local mermaid named Lu joins his band."
+    },
+    {
+      "show_id": "s6273",
+      "title": "The Dawn Wall",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Tommy Caldwell, Kevin Jorgeson",
+      "director": "Peter Mortimer, Josh Lowell",
+      "description": "Cameras follow Tommy Caldwell and Kevin Jorgeson as they take on the staggering challenge of free-climbing Yosemite’s most formidable rock formation."
+    },
+    {
+      "show_id": "s3109",
+      "title": "Jag älskar dig: En skilsmässokomedi",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Björn Kjellman, Christine Meltzer, Rodolfo Corsato, Martina Haag, Sven-Bertil Taube, Anita Wall, Nour El-Refai",
+      "director": "Johan Brisinger",
+      "description": "Tired of her passionless marriage, Marianne wants a separation from her husband, Gustav, who, in response, decides to make a big change of his own."
+    },
+    {
+      "show_id": "s7772",
+      "title": "Zion",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Zion Clark",
+      "director": "Floyd Russ",
+      "description": "Born without legs and stuck in foster care for years, teen Zion Clark finds his calling when he pursues competitive wrestling. A documentary short."
+    },
+    {
+      "show_id": "s1086",
+      "title": "BREAK IT ALL: The History of Rock in Latin America",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries, Spanish-Language TV Shows",
+      "cast": "",
+      "director": "Picky Talarico",
+      "description": "Soda Stereo, Café Tacvba, Aterciopelados and others figure in this 50-year history of Latin American rock through dictatorships, disasters and dissent."
+    },
+    {
+      "show_id": "s4243",
+      "title": "Mountain",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure, Documentaries, International Movies",
+      "cast": "",
+      "director": "Jennifer Peedom",
+      "description": "Featuring breathtaking imagery and thought-provoking narration, this film takes viewers to the summits of some of the world’s most amazing mountains."
+    },
+    {
+      "show_id": "s1918",
+      "title": "Eddie - Strongman",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Eddie Hall",
+      "director": "Matt Bell",
+      "description": "British strongman Eddie Hall wants to be the strongest man in the world. This documentary reveals the grueling life choices that fuel his obsession."
+    },
+    {
+      "show_id": "s1959",
+      "title": "El límite infinito",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, International Movies, Sports Movies",
+      "cast": "Jean Maggi",
+      "director": "Pablo Aulita",
+      "description": "From early struggles to his climb up the Himalayas, Jean Maggi gets profiled in this documentary that highlights his advancement of adaptive sports."
+    },
+    {
+      "show_id": "s5242",
+      "title": "Rock My Heart",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Children & Family Movies, Dramas, International Movies",
+      "cast": "Lena Klenke, Dieter Hallervorden, Emilio Sakraya, Annette Frier, Milan Peschel, Vedat Erincin, Johann von Bülow, Michael Lott, Hans Martin Stier, Anneke Kim Sarnau",
+      "director": "Hanno Olderdissen",
+      "description": "After an adventurous teen with a heart defect bonds with an unruly stallion, she trains to compete as an amateur jockey in a life-threatening race."
+    },
+    {
+      "show_id": "s4177",
+      "title": "Money Heist: The Phenomenon",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Pablo Lejarreta, Luis Alfaro",
+      "description": "A documentary on why and how \"Money Heist\" sparked a wave of enthusiasm around the world for a lovable group of thieves and their professor."
+    },
+    {
+      "show_id": "s5247",
+      "title": "Rocky II",
+      "type": "Movie",
+      "release_year": 1979,
+      "listed_in": "Dramas, Sports Movies",
+      "cast": "Sylvester Stallone, Talia Shire, Burt Young, Carl Weathers, Burgess Meredith, Tony Burton, Joe Spinell, Leonard Gaines, John Pleshette, Sylvia Meals",
+      "director": "Sylvester Stallone",
+      "description": "Featuring a rousing climax, this engaging sequel finds boxer Rocky Balboa returning to the ring for a rematch against reigning champ Apollo Creed."
+    },
+    {
+      "show_id": "s4629",
+      "title": "Once in a Lifetime Sessions with Snow Patrol",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries, Music & Musicals",
+      "cast": "Gary Lightbody, Nathan Connolly, Jonny Quinn, Paul Wilson, Johnny McDaid, Edith Bowman",
+      "director": "Matt Askem",
+      "description": "In addition to concert scenes and studio recording sessions, this documentary presents exclusive interviews of the five men from the Irish rock band."
+    },
+    {
+      "show_id": "s2397",
+      "title": "Ghost of the Mountains",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "Antoine Fuqua",
+      "director": "Ben Wallis",
+      "description": "An international group of filmmakers sets out on a mission to get up close and personal with a family of elusive snow leopards."
+    },
+    {
+      "show_id": "s1863",
+      "title": "Dream Big: Engineering Our World",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "Jeff Bridges",
+      "director": "Greg MacGillivray",
+      "description": "Narrated by Jeff Bridges, this compelling documentary examines some incredible achievements of engineering from across the globe."
+    },
+    {
+      "show_id": "s4431",
+      "title": "Nature: Raising the Dinosaur Giant",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "David Attenborough",
+      "director": "",
+      "description": "Sir David Attenborough examines a recently discovered collection of dinosaur fossils. CGI and 3-D scans reveal what the beast may have looked like."
+    },
+    {
+      "show_id": "s612",
+      "title": "Athlete A",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Bonni Cohen, Jon Shenk",
+      "description": "This documentary focuses on the gymnasts who survived USA Gymnastics doctor Larry Nassar's abuse and the reporters who exposed USAG's toxic culture."
+    },
+    {
+      "show_id": "s6002",
+      "title": "Teach Us All",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Sonia Lowman",
+      "description": "It's been decades since Brown v. Board of Education, yet American schools remain largely segregated. Some leaders are working to change that."
+    },
+    {
+      "show_id": "s3882",
+      "title": "Maktub",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Guy Amir, Hanan Savyon, Itzik Cohen, Igal Naor",
+      "director": "Oded Raz",
+      "description": "After surviving a bomb attack, two low-level mobsters in Jerusalem change their ways and set about making strangers' Wailing Wall prayers come true."
+    },
+    {
+      "show_id": "s1795",
+      "title": "Documentary Now!",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Comedies",
+      "cast": "Fred Armisen, Bill Hader, Helen Mirren",
+      "director": "",
+      "description": "Elevating the art of parody, this sharply comic series spoofs high-profile documentaries such as \"Grey Gardens\" and \"The Thin Blue Line.\""
+    },
+    {
+      "show_id": "s1357",
+      "title": "Chris Rock: Tamborine",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Chris Rock",
+      "director": "Bo Burnham",
+      "description": "Chris Rock takes the stage in Brooklyn for a comedy special filled with searing observations on fatherhood, infidelity and American politics."
+    },
+    {
+      "show_id": "s2014",
+      "title": "Enter the Dragon",
+      "type": "Movie",
+      "release_year": 1973,
+      "listed_in": "Action & Adventure, Classic Movies",
+      "cast": "Bruce Lee, John Saxon, Jim Kelly, Ahna Capri, Kien Shih, Robert Wall, Angela Mao, Betty Chung, Geoffrey Weeks, Bolo Yeung, Peter Archer",
+      "director": "Robert Clouse",
+      "description": "Recruited by a British agent, Shaolin master Lee infiltrates a remote island and a brutal martial arts tournament to spy on a sinister crime lord."
+    },
+    {
+      "show_id": "s2770",
+      "title": "Hole in the Wall",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies",
+      "cast": "André Odendaal, Nicholas Campbell, Tinarie van Wyk Loots, Bheki Mkwane, Susan Coetzer, Botho Molohloane, Anna Davel, Nomboniso Paile, Dania Gelderblom, Hamish Kyd",
+      "director": "André Odendaal, Johan Vorster",
+      "description": "Diagnosed with colon cancer, a free-spirited man embarks on an illuminating road trip with his son through South Africa."
+    },
+    {
+      "show_id": "s5245",
+      "title": "Rocky",
+      "type": "Movie",
+      "release_year": 1976,
+      "listed_in": "Action & Adventure, Classic Movies, Dramas",
+      "cast": "Sylvester Stallone, Talia Shire, Burt Young, Carl Weathers, Burgess Meredith, Thayer David, Joe Spinell, Jimmy Gambina, Bill Baldwin",
+      "director": "John G. Avildsen",
+      "description": "Sylvester Stallone shot to fame as Rocky Balboa, an unknown fighter who's given a shot at fighting world champ Apollo Creed as a publicity stunt."
+    },
+    {
+      "show_id": "s7787",
+      "title": "ZZ TOP: THAT LITTLE OL' BAND FROM TEXAS",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, Music & Musicals",
+      "cast": "",
+      "director": "Sam Dunn",
+      "description": "This documentary delves into the mystique behind the blues-rock trio and explores how the enigmatic band created their iconic look and sound."
+    },
+    {
+      "show_id": "s6892",
+      "title": "The Speed Cubers",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Sue Kim",
+      "description": "This documentary captures the extraordinary twists and turns in the journeys of Rubik's Cube-solving champions Max Park and Feliks Zemdegs."
+    },
+    {
+      "show_id": "s2141",
+      "title": "Feel Rich",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "Quincy Jones, Common, Russell Simmons, Fat Joe, Paul Wall, Quincy Jones III",
+      "director": "Peter Spirer",
+      "description": "Talking squarely to the hip-hop generation, musicians, athletes and others outline the benefits of exercise, a healthy diet and spiritual wellness."
+    },
+    {
+      "show_id": "s1356",
+      "title": "Chris Rock Total Blackout: The Tamborine Extended Cut",
+      "type": "Movie",
+      "release_year": 2021,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Chris Rock",
+      "director": "Chris Rock",
+      "description": "In this extended cut of his 2018 special, Chris Rock takes the stage for a special filled with searing observations on fatherhood, infidelity and politics."
+    },
+    {
+      "show_id": "s5583",
+      "title": "Shorts",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Jimmy Bennett, Jake Short, Kat Dennings, Trevor Gagnon, Devon Gearhart, Jolie Vanier, Rebel Rodriguez, Leo Howard, Leslie Mann, Jon Cryer, William H. Macy, James Spader",
+      "director": "Robert Rodriguez",
+      "description": "Chaos erupts when locals learn that an 11-year-old boy has discovered a mysterious rock that grants the wishes of whoever possesses it."
+    },
+    {
+      "show_id": "s909",
+      "title": "Big Time",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "Bjarke Ingels",
+      "director": "Kaspar Astrup Schröder",
+      "description": "In this documentary, architect Bjarke Ingels offers his vision for 2 World Trade Center as he aims to restore Manhattan's skyline to its former glory."
+    },
+    {
+      "show_id": "s3714",
+      "title": "Long Time Running",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, International Movies, Music & Musicals",
+      "cast": "Gord Downie, Paul Langlois, Gord Sinclair, Rob Baker, Johnny Fay, Justin Trudeau",
+      "director": "Jennifer Baichwal, Nicholas de Pencier",
+      "description": "This documentary follows the 2016 tour of beloved rock band The Tragically Hip as they make their way across Canada one last time."
+    },
+    {
+      "show_id": "s6228",
+      "title": "The Climb",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure, Comedies, Dramas",
+      "cast": "Ahmed Sylla, Alice Belaïdi, Kevin Razy, Nicolas Wanczycki, Waly Dia, Umesh Tamang",
+      "director": "Ludovic Bernard",
+      "description": "A young Senegalese-French man from humble roots sets out to climb Mount Everest to impress the woman he loves – and slowly becomes a media sensation."
+    },
+    {
+      "show_id": "s5000",
+      "title": "Puffin Rock",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Kids' TV",
+      "cast": "Chris O'Dowd, Kate McCafferty, Sally McDaid, Geraldine Cole, Brian McMonagle, Darragh Gargan",
+      "director": "",
+      "description": "Life is sweet on beautiful Puffin Rock, where puffling Oona, her baby brother Baba and their pals learn about nature, friendship and family."
+    },
+    {
+      "show_id": "s7203",
+      "title": "Tread",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Paul Solet",
+      "description": "This documentary reconstructs the pivotal moments that drove a man on a rampage to destroy a small town with a bulldozer he fortified in secret."
+    },
+    {
+      "show_id": "s7325",
+      "title": "Unchained: The Untold Story of Freestyle Motocross",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Josh Brolin",
+      "director": "Paul Taublieb, Jon Freeman",
+      "description": "This adrenaline-rush documentary traces the rise of freestyle motocross, arguably the world's most extreme sport, and spotlights its pioneers."
+    },
+    {
+      "show_id": "s5653",
+      "title": "Sky Ladder: The Art of Cai Guo-Qiang",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "Cai Guo-Qiang",
+      "director": "Kevin MacDonald",
+      "description": "Known for his spectacular pyrotechnic displays, Chinese artist Cai Guo-Qiang creates his most ambitious project yet in this breathtaking documentary."
+    },
+    {
+      "show_id": "s6362",
+      "title": "The Flintstones in Viva Rock Vegas",
+      "type": "Movie",
+      "release_year": 2000,
+      "listed_in": "Children & Family Movies, Comedies, Romantic Movies",
+      "cast": "Mark Addy, Stephen Baldwin, Kristen Johnston, Jane Krakowski, Joan Collins, Thomas Gibson, Alan Cumming",
+      "director": "Brian Levant",
+      "description": "Yabba-dabba-doo! Digital dinosaurs rule the day when Fred, Barney, Betty and Wilma take Vegas by storm in this prequel that posits their lives before marriage."
+    },
+    {
+      "show_id": "s5243",
+      "title": "Rock On!!",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Dramas, International Movies, Music & Musicals",
+      "cast": "Farhan Akhtar, Arjun Rampal, Purab Kohli, Luke Kenny, Prachi Desai, Shahana Goswami, Koel Purie",
+      "director": "Abhishek Kapoor",
+      "description": "Four friends hoped that their rock band would be a hit. After breaking up, the band members reunite and take another shot at fulfilling their dream."
+    },
+    {
+      "show_id": "s3333",
+      "title": "Keith Richards: Under the Influence",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries, Music & Musicals",
+      "cast": "Keith Richards",
+      "director": "Morgan Neville",
+      "description": "In a documentary with unparalleled access, discover the people and sounds that inspired rock 'n' roll legend Keith Richards from childhood to today."
+    },
+    {
+      "show_id": "s910",
+      "title": "Big Time Movie",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Children & Family Movies, Comedies, Music & Musicals",
+      "cast": "Kendall Schmidt, James Maslow, Carlos PenaVega, Logan Henderson, Ciara Bravo, Challen Cates, Tanya Chisholm, Stephen Kramer Glickman, Trevor Devall, Christopher Shyer",
+      "director": "Savage Steve Holland",
+      "description": "Big Time Rush heads to London for their first world tour, but when the boys' bags are switched, they get mixed up in a mission to save the world."
+    },
+    {
+      "show_id": "s740",
+      "title": "Barbie in Rock 'N Royals",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Children & Family Movies",
+      "cast": "Kelly Sheridan, Chiara Zanni, Bethany Brown, Devyn Dalton, Michael Dobson, Brynna Drummond, Rachel Harrison, Alessandro Juliani, Peter Kelamis, Omari Newton, Ingrid Nilson, Nicole Oliver, Shaun Smyth, Kira Tozer",
+      "director": "Karen J. Lloyd",
+      "description": "When royal Princess Courtney trades places with famous rock star Erika, two worlds collide while both learn to appreciate new friends and experiences."
+    },
+    {
+      "show_id": "s4289",
+      "title": "Murder Mountain",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "In Humboldt County, California, the big business of legal marijuana brings in visitors from around the world. Some are never seen again."
+    },
+    {
+      "show_id": "s3704",
+      "title": "Loev",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Shiv Pandit, Dhruv Ganesh, Siddharth Menon, Rishabh Chaddha",
+      "director": "Sudhanshu Saria",
+      "description": "Lives are upended when a hiking trip leads a Wall Street hotshot to explore his true feelings for an old pal who’s disenchanted with his boyfriend."
+    },
+    {
+      "show_id": "s7542",
+      "title": "Westside vs. the World",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Ron Perlman, Louie Simmons",
+      "director": "Michael Fahey",
+      "description": "A look into the journey of influential strength coach Louie Simmons and the Westside Barbell gym he founded, evolving the sport of powerlifting."
+    },
+    {
+      "show_id": "s6867",
+      "title": "The Show Must Go On: The Queen + Adam Lambert Story",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, Music & Musicals",
+      "cast": "Adam Lambert, Brian May, Roger Taylor",
+      "director": "",
+      "description": "With rare footage and candid interviews, this documentary details the serendipitous pairing of legendary rock band Queen and powerhouse Adam Lambert."
+    },
+    {
+      "show_id": "s5250",
+      "title": "Rocky V",
+      "type": "Movie",
+      "release_year": 1990,
+      "listed_in": "Dramas, Sports Movies",
+      "cast": "Sylvester Stallone, Talia Shire, Burt Young, Richard Gant, Tommy Morrison, Sage Stallone, Burgess Meredith, Tony Burton",
+      "director": "John G. Avildsen",
+      "description": "Inspired by the memory of his trainer, a broke and seemingly careerless Rocky finds glory in training and takes on an up-and-coming boxer."
+    },
+    {
+      "show_id": "s6110",
+      "title": "The Bad Kids",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Keith Fulton, Louis Pepe",
+      "description": "In this documentary, teachers at a Mojave Desert high school adhere to a belief that compassion and life skills can profoundly help at-risk students."
+    },
+    {
+      "show_id": "s7236",
+      "title": "Trophy",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Shaul Schwarz, Christina Clusiau",
+      "description": "This documentary explores the tensions between the lucrative big-game hunting business and wildlife conservation from a variety of perspectives."
+    },
+    {
+      "show_id": "s3537",
+      "title": "Last",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Crime TV Shows, International TV Shows, Korean TV Shows",
+      "cast": "Kye-sang Yoon, Beom-su Lee, Ye-ji Seo, Won-sang Park, Ye-jin Park, Hyung-jin Gong, Jong-jun Jeong, Se-ha Ahn, Jae-yee Goo, Yong-woo Lee",
+      "director": "",
+      "description": "When his big stock plan fails, a hotshot fund manager winds up homeless and must learn the secret ranking system of the street in order to survive."
+    },
+    {
+      "show_id": "s5586",
+      "title": "SHOT! The Psycho-Spiritual Mantra of Rock",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Music & Musicals",
+      "cast": "Mick Rock",
+      "director": "Barney Clay",
+      "description": "Aptly named iconic rock photographer Mick Rock reconstructs his journey through the thrilling and murky universe of rock 'n' roll history."
+    }
+  ]
+}

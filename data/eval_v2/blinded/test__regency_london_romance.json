@@ -1,0 +1,767 @@
+{
+  "split": "test",
+  "query_id": "regency_london_romance",
+  "query": "Regency-era romantic series about a London family",
+  "candidates": [
+    {
+      "show_id": "s6839",
+      "title": "The Royal House of Windsor",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "British TV Shows, Docuseries, International TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "Drawing on newly available info, this show traces how the British royal family has survived the last 100 years of power struggles, politics and more."
+    },
+    {
+      "show_id": "s2206",
+      "title": "Flimflam",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Ahmed Helmy, Donia Samir Ghanim, Sabrine, Bayyumi Fuad, Jamila Adel Awad, Bea, Yasser El Tobgy, Enaam Salousa",
+      "director": "Khaled Marei",
+      "description": "Nosy family in tow, a fun-loving bachelor goes on a romantic getaway, but he ends up pretending to be married to a complete stranger to avoid trouble."
+    },
+    {
+      "show_id": "s1157",
+      "title": "Bye Bye London",
+      "type": "Movie",
+      "release_year": 1981,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Abdulhussain Abdulredah, Ghanem Al-Saleh, Mariam Al-Ghadban, Dawood Hussain, Entesar Alsharah, Mohamed Gaber",
+      "director": "Almunsif Alsuwaisi",
+      "description": "In this satirical play, a wealthy Kuwaiti businessman travels to London for pleasure and encounters a host of eccentric characters."
+    },
+    {
+      "show_id": "s1101",
+      "title": "Bridgerton",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Romantic TV Shows, TV Dramas",
+      "cast": "Adjoa Andoh, Julie Andrews, Lorraine Ashbourne, Jonathan Bailey, Ruby Barker, Sabrina Bartlett, Harriet Cains, Bessie Carter, Nicola Coughlan, Phoebe Dynevor, Ruth Gemmell, Florence Hunt, Claudia Jessie, Ben Miller, Luke Newton, Regé-Jean Page, Golda Rosheuvel, Luke Thompson, Will Tilston, Polly Walker",
+      "director": "",
+      "description": "The eight close-knit siblings of the Bridgerton family look for love and happiness in London high society. Inspired by Julia Quinn's bestselling novels."
+    },
+    {
+      "show_id": "s5477",
+      "title": "Secrets of the Tower of London",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Documentaries",
+      "cast": "Samuel West",
+      "director": "Vicky Matthews",
+      "description": "Explore the storied history of the iconic Tower of London as it evolved from a royal castle into a dungeon prison and, finally, an armory and mint."
+    },
+    {
+      "show_id": "s5166",
+      "title": "Requiem",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "British TV Shows, International TV Shows, TV Dramas",
+      "cast": "Lydia Wilson, Joel Fry, Brendan Coyle, James Frecheville, Claire Rushbrook, Joanna Scanlan, Pippa Haywood, Tara Fitzgerald, Richard Harrington, Sian Reese-Williams",
+      "director": "",
+      "description": "In the wake of a sudden tragedy, a London cellist unearths secrets that link her mother to the disappearance of a young girl in a small Welsh town."
+    },
+    {
+      "show_id": "s2413",
+      "title": "Gilmore Girls: A Year in the Life",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "TV Comedies, TV Dramas, Teen TV Shows",
+      "cast": "Lauren Graham, Alexis Bledel, Kelly Bishop, Scott Patterson, Yanic Truesdale, Matt Czuchry, Liza Weil, Milo Ventimiglia, Sean Gunn, Keiko Agena, Rose Abdoo, Melissa McCarthy",
+      "director": "",
+      "description": "Set nearly a decade after the finale of the original series, this revival follows Lorelai, Rory and Emily Gilmore through four seasons of change."
+    },
+    {
+      "show_id": "s6681",
+      "title": "The Mitfords: A Tale of Two Sisters",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "Rachael Stirling",
+      "director": "Edward Cotterill",
+      "description": "Jessica and Diana were sisters who were separated by just a few years in age. But their political ideologies couldn't have been any farther apart."
+    },
+    {
+      "show_id": "s3949",
+      "title": "Marriage Palace",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Sharry Mann, Payal Rajput, Jaswinder Bhalla, B.N. Sharma, Harby Sangha, Nirmal Rishi, Anita Devgan, Rupinder Roopi",
+      "director": "Sunil Thakur",
+      "description": "After a young man charms the girl he loves into accepting his proposal, an accidental swap on their wedding day leads him to marry the wrong bride."
+    },
+    {
+      "show_id": "s1445",
+      "title": "Cocomelon",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV",
+      "cast": "",
+      "director": "",
+      "description": "Learn letters, numbers, animal sounds and more with J.J. in this edutaining series that brings fun times with nursery rhymes for the whole family!"
+    },
+    {
+      "show_id": "s4848",
+      "title": "Phir Se",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "International Movies, Romantic Movies",
+      "cast": "Kunal Kohli, Jennifer Winget, Sumona Chakravarti, Sushmita Mukherjee, Kanwaljit Singh, Dalip Tahil, Rajit Kapoor",
+      "director": "Ajay Bhuyan, Kunal Kohli",
+      "description": "The paths of a man and a woman, who have both been recently divorced from their spouses, intersect at an art exhibition in London."
+    },
+    {
+      "show_id": "s2745",
+      "title": "Hinterland",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Crime TV Shows, International TV Shows",
+      "cast": "Richard Harrington, Mali Harries, Hannah Daniel, Alex Harries, Aneirin Hughes, Daniel Rochford",
+      "director": "",
+      "description": "Forsaking London for the rustic landscapes of Wales, a police detective with a troubled soul finds himself in a place with secrets as dark as his own."
+    },
+    {
+      "show_id": "s3905",
+      "title": "Manhattan Romance",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Comedies, Independent Movies, Romantic Movies",
+      "cast": "Tom O'Brien, Katherine Waterston, Caitlin Fitzgerald, Gaby Hoffmann, Louis Cancelmi, Zach Grenier",
+      "director": "Tom O'Brien",
+      "description": "A filmmaker working on a documentary about love in modern Manhattan becomes personally entangled in the romantic lives of his subjects."
+    },
+    {
+      "show_id": "s1931",
+      "title": "Effie Gray",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Dakota Fanning, Emma Thompson, Julie Walters, David Suchet, Derek Jacobi, James Fox, Robbie Coltrane, Claudia Cardinale, Greg Wise, Tom Sturridge",
+      "director": "Richard Laxton",
+      "description": "Trapped in a loveless marriage, the young wife of Victorian-era art critic John Ruskin finds herself falling for an artist — and looking for a way out."
+    },
+    {
+      "show_id": "s6939",
+      "title": "The Tree of Blood",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Úrsula Corberó, Álvaro Cervantes, Najwa Nimri, Patricia López Arnaiz, Daniel Grao, Joaquín Furriel, Maria Molins, Emilio Gutiérrez Caba, Luisa Gavasa, José María Pou, Ángela Molina",
+      "director": "Julio Medem",
+      "description": "As a young couple write the story of their families' shared history, both reveal their relatives' dark secrets and one must make a painful confession."
+    },
+    {
+      "show_id": "s6255",
+      "title": "The Crown",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "British TV Shows, International TV Shows, TV Dramas",
+      "cast": "Claire Foy, John Lithgow, Matt Smith, Vanessa Kirby, Jared Harris, Victoria Hamilton, Eileen Atkins, Jeremy Northam, Alex Jennings, Ben Miles, Pip Torrens, Will Keen, Harry Hadden-Paton, Daniel Ings, Greg Wise, Harriet Walter, Lia Williams, Matthew Goode, Anton Lesser",
+      "director": "",
+      "description": "This drama follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the 20th century."
+    },
+    {
+      "show_id": "s4513",
+      "title": "North & South",
+      "type": "TV Show",
+      "release_year": 2004,
+      "listed_in": "British TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Daniela Denby-Ashe, Richard Armitage, Tim Pigott-Smith, Sinéad Cusack, Lesley Manville, Brendan Coyle, Anna Maxwell Martin, Jo Joyner, Pauline Quirke, Kay Lyon",
+      "director": "",
+      "description": "When her father moves his family to an industrial mill town, the parson's daughter, Margaret Hale, struggles to adapt to her harsh new surroundings."
+    },
+    {
+      "show_id": "s170",
+      "title": "A Family Affair",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Tom Fassaert",
+      "director": "Tom Fassaert",
+      "description": "The filmmaker hunts for the missing puzzle pieces of his family history during a visit with a complex and controversial figure: his grandmother."
+    },
+    {
+      "show_id": "s4399",
+      "title": "Nang Nak",
+      "type": "Movie",
+      "release_year": 1999,
+      "listed_in": "Horror Movies, International Movies, Romantic Movies",
+      "cast": "Inthira Charoenpura, Winai Kraibutr",
+      "director": "Nonzee Nimibutr",
+      "description": "In this adaptation of a Thai folk tale, a man returns from war to his family, unaware of a sad secret about what happened to them while he was away."
+    },
+    {
+      "show_id": "s7474",
+      "title": "Wanderlust",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "British TV Shows, International TV Shows, Romantic TV Shows",
+      "cast": "Toni Collette, Steven Mackintosh, Zawe Ashton, Joe Hurst, Emma D'Arcy, Celeste Dring, William Ash, Royce Pierreson, Jeremy Swift, Anastasia Hille, Isis Hainsworth, Sophie Okonedo",
+      "director": "",
+      "description": "Unable to revive their fading sex life after many years of marriage, a therapist and her husband decide to start dating other people."
+    },
+    {
+      "show_id": "s3754",
+      "title": "Love Family",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Comedies",
+      "cast": "Chris Wang, Serena Fang, Jack Lee, Amanda Chou, Yin Fu, Rabbit Yang, Meng-sheng Shen",
+      "director": "",
+      "description": "A wealthy heir's search for a nameless childhood sweetheart leads him to an inn run by a family with three sisters. But which one is his true love?"
+    },
+    {
+      "show_id": "s1529",
+      "title": "Creating The Queen's Gambit",
+      "type": "Movie",
+      "release_year": 2021,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "",
+      "description": "A fascinating character. Exquisite sets. A wig for every era. The stars, creators and crew reveal how the hit series about a chess prodigy came to life."
+    },
+    {
+      "show_id": "s1182",
+      "title": "Call the Midwife",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "British TV Shows, International TV Shows, TV Dramas",
+      "cast": "Vanessa Redgrave, Bryony Hannah, Helen George, Jenny Agutter, Pam Ferris, Laura Main, Judy Parfitt, Cliff Parisi, Stephen McGann, Ben Caplan, Miranda Hart, Jessica Raine, Max Macmillan, Victoria Yeates, Jack Ashton, Emerald Fennell, Linda Bassett",
+      "director": "Philippa Lowthorpe",
+      "description": "This period drama set in impoverished East London in the 1950s follows a newly qualified midwife and her colleagues at a nursing convent."
+    },
+    {
+      "show_id": "s2473",
+      "title": "Gomorrah",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Marco D'Amore, Fortunato Cerlino, Salvatore Esposito, Fabio de Caro, Christian Giroso, Giovanni Buselli, Carmine Monaco, Lino Musella, Marco Palvetti, Vincenzo Fabricino, Maria Pia Calzone, Domenico Balsamo, Emanuele Vicorito, Carmine Battaglia, Alessio Gallo",
+      "director": "",
+      "description": "Mafia activity in Naples is at the center of this series, which focuses on internal struggles that follow after the head of a family is imprisoned."
+    },
+    {
+      "show_id": "s3328",
+      "title": "Kavin Jay: Everybody Calm Down!",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Kavin Jay",
+      "director": "Michael McKay",
+      "description": "On a mission to defy stereotypes, Malaysian stand-up comedian Kavin Jay shares stories about growing up in the VHS era with his Singapore audience."
+    },
+    {
+      "show_id": "s7547",
+      "title": "What a Wonderful Family!",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Huang Lei, Sun Li, Lee Li-Chun, Zhang Weixin, Hai Qing, Wang Xun, Wei Daxun, Lorene Ren, Lei Huang",
+      "director": "Huang Lei",
+      "description": "In a large family living under one roof, a storm brews when the matriarch requests a divorce from her husband on their 50th anniversary."
+    },
+    {
+      "show_id": "s5266",
+      "title": "Romantik Komedi",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Sedef Avcı, Cemal Hünal, Begüm Kütük, Engin Altan Düzyatan, Sinem Kobal, Gürgen Öz, Burcu Kara, Kubilay Penbeklioğlu",
+      "director": "Ketche",
+      "description": "Bored with her life and inspired by a friend's wedding, Esra quits her job and dumps her boyfriend, leading to a series of romantic misadventures."
+    },
+    {
+      "show_id": "s4016",
+      "title": "Meet the Adebanjos",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, International TV Shows, TV Comedies",
+      "cast": "Wale Ojo, Yetunde Oduwole, Andrea Aboagye, Daniel Davids, Moji Bamtefa, Jordan Coulson",
+      "director": "",
+      "description": "In South London, tradition clashes with culture as a Nigerian father tries to instill his old-fashioned African values into his modern British family."
+    },
+    {
+      "show_id": "s6951",
+      "title": "The Tudors",
+      "type": "TV Show",
+      "release_year": 2010,
+      "listed_in": "TV Dramas",
+      "cast": "Jonathan Rhys Meyers, Henry Cavill, James Frain, Anthony Brophy, Guy Carleton, Sarah Bolger, Natalie Dormer, Max Brown, Nick Dunning, Rod Hallett, Maria Doyle Kennedy, Simon Ward",
+      "director": "",
+      "description": "All the splendor and scandal of England's 16th-century royal court comes to life in this series that follows notorious Tudor monarch Henry VIII."
+    },
+    {
+      "show_id": "s3671",
+      "title": "Little Singham in London",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "",
+      "director": "Prakash Satam",
+      "description": "Little Singham is in London to meet the queen, but when the famed Kohinoor Diamond gets stolen, the kid cop goes on a wild, citywide hunt for the thief."
+    },
+    {
+      "show_id": "s295",
+      "title": "Accidentally in Love",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Comedies",
+      "cast": "Junchen Guo, Yi Ning Sun, Yi Qin Zhao, Mu Xuan Cheng, Li Ma, Mo Zhou",
+      "director": "",
+      "description": "Rejecting the demands of her wealthy family, a young woman poses as an ordinary college student and crosses paths with a stoic pop star at school."
+    },
+    {
+      "show_id": "s3839",
+      "title": "Mad Men",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "TV Dramas",
+      "cast": "Jon Hamm, Elisabeth Moss, Vincent Kartheiser, January Jones, Christina Hendricks, Aaron Staton, Rich Sommer, John Slattery, Kiernan Shipka, Robert Morse, Michael Gladis, Christopher Stanley, Bryan Batt, Jared Harris, Jessica Paré, Alison Brie, Jay R. Ferguson, Ben Feldman, Mark Moses, Alexa Alemanni, Julie McNiven",
+      "director": "",
+      "description": "Set in 1960s New York City, this award-winning series takes a peek inside an ad agency during an era when the cutthroat business had a glamorous lure."
+    },
+    {
+      "show_id": "s4265",
+      "title": "Mubarakan",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Anil Kapoor, Arjun Kapoor, Ileana D'Cruz, Athiya Shetty, Neha Sharma, Vineet Kumar Singh, Pavan Malhotra, Ratna Pathak Shah, Karan Kundra, Anil Mange, Rahul Dev, Sanjay Kapoor",
+      "director": "Anees Bazmee",
+      "description": "Chaos ensues after two orphaned twin brothers raised apart team up with their eccentric, unmarried uncle to find a solution to their romantic woes."
+    },
+    {
+      "show_id": "s7507",
+      "title": "We Have Always Lived in the Castle",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Taissa Farmiga, Alexandra Daddario, Crispin Glover, Sebastian Stan, Paula Malcomson, Peter Coonan, Ian Toner, Joanne Crawford",
+      "director": "Stacie Passon",
+      "description": "The fragile and secretive world of two sisters and their uncle crumbles when their charming cousin arrives with eyes toward the family fortune."
+    },
+    {
+      "show_id": "s6125",
+      "title": "The Beginning of Life: The Series",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Docuseries, International TV Shows, Science & Nature TV",
+      "cast": "",
+      "director": "Estela Renner",
+      "description": "Using breakthroughs in technology and neuroscience, this series examines how environment affects infants – and how infants can affect our future."
+    },
+    {
+      "show_id": "s5147",
+      "title": "Reign",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "TV Dramas",
+      "cast": "Adelaide Kane, Megan Follows, Torrance Coombs, Toby Regbo, Jenessa Grant, Celina Sinden, Caitlin Stasey, Anna Popplewell, Alan Van Sprang, Rossif Sutherland, Jonathan Keltz, Sean Teale, Craig Parker",
+      "director": "",
+      "description": "This vivid historical drama series tells of the rise to power of Mary, Queen of Scots, amid a court full of sexual and political intrigue."
+    },
+    {
+      "show_id": "s7155",
+      "title": "Top Grier",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Reality TV",
+      "cast": "",
+      "director": "",
+      "description": "Social media star Hayes Grier returns to North Carolina for a reality series packed with action sports, pranks and romantic escapades."
+    },
+    {
+      "show_id": "s1520",
+      "title": "Crashing",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, International TV Shows, Romantic TV Shows",
+      "cast": "Phoebe Waller-Bridge, Jonathan Bailey, Adrian Scarborough, Damien Molony, Louise Ford, Julie Dray, Amit Shah",
+      "director": "",
+      "description": "In exchange for low rent, a hodgepodge group of 20-something tenants set up residence as property guards in a disused hospital, where hilarity ensues."
+    },
+    {
+      "show_id": "s5539",
+      "title": "Shameless (U.S.)",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Comedies, TV Dramas",
+      "cast": "William H. Macy, Emmy Rossum, Justin Chatwin, Cameron Monaghan, Jeremy Allen White, Shanola Hampton, Steve Howey, Ethan Cutkosky, Emma Kenney, Laura Wiggins, Joan Cusack",
+      "director": "",
+      "description": "This dramedy based on a British series centers on siblings in a dysfunctional Chicago family who struggle while coping with their alcoholic father."
+    },
+    {
+      "show_id": "s4257",
+      "title": "Mr. Romantic",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Mohamed Emam, Hassan Hosny, Lebleba, Medhat Tekha, Bassem Samra, Dominique Hourani, Saeed Tarabeek, Diaa El Merghany, Nahla Zaki, Saad El Soghayar",
+      "director": "Ahmed Al-Badry",
+      "description": "When a carefree man is left with his uncle's fortune, he can only receive the riches on one condition: he must settle down with a good woman."
+    },
+    {
+      "show_id": "s3403",
+      "title": "Kingdom of Us",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Lucy Cohen",
+      "description": "A father's suicide sends a family of eight on a journey through childhood memories and treacherous emotional waters in this poignant documentary."
+    },
+    {
+      "show_id": "s2964",
+      "title": "In Family I Trust",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Clara Lago, Álex García, Carmen Maura, Alexandra Jiménez, Paula Malia, Fernando Guallar, Carlos Cuevas",
+      "director": "Patricia Font",
+      "description": "After her partner cheats on her, an architect returns to her hometown to reassess her life with the help of her eccentric family. Based on the novel."
+    },
+    {
+      "show_id": "s3087",
+      "title": "Iyore",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Rita Dominic, Joseph Benjamin, Okawa Shaznay, Paul Obazele, Yemi Blaq, Bukky Wright",
+      "director": "Frank Rajah Arase",
+      "description": "A tragic romance unfolds during a teacher's lessons on the Benin empire after they begin to mirror her love life when her childhood love reappears."
+    },
+    {
+      "show_id": "s3510",
+      "title": "Laddaland",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Horror Movies, International Movies",
+      "cast": "Saharat Sangkapreecha, Pok Piyatida Woramusik, Sutatta Udomsilp, Athipich Chutiwatkajornchai, Deuntem Salitul, Sahajak Boonthanakit",
+      "director": "Sopon Sukdapisit",
+      "description": "When a family moves into an upscale housing development, they encounter a series of paranormal events that drive them to the edge of insanity."
+    },
+    {
+      "show_id": "s5478",
+      "title": "Secrets of Underground London",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Samuel West",
+      "director": "Vicky Matthews, Gareth Sacala",
+      "description": "Experts examine the ruins and relics hidden beneath London's surface, unearthing a Roman amphitheater, plague pits, air raid shelters and more."
+    },
+    {
+      "show_id": "s5982",
+      "title": "Tango Feroz",
+      "type": "Movie",
+      "release_year": 1993,
+      "listed_in": "Classic Movies, Dramas, International Movies",
+      "cast": "",
+      "director": "",
+      "description": "One of the first rock stars in Argentina, Tango leads a full life during an era of social unrest – one of both glory and despair."
+    },
+    {
+      "show_id": "s5265",
+      "title": "Romance is a bonus book",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Lee Jong-suk, Lee Na-young, Jung Eugene, Wi Ha-jun, Kim Tae-woo, Kim Yu-mi, Cho Han-cheul, Kim Sun-young",
+      "director": "",
+      "description": "A gifted writer who's the youngest editor-in-chief ever at his publishing company gets enmeshed in the life of a former copywriter desperate for a job."
+    },
+    {
+      "show_id": "s4582",
+      "title": "Offspring",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "TV Comedies, TV Dramas",
+      "cast": "Asher Keddie, Kat Stewart, Richard Davies, Linda Cropper, Jane Harber, Alicia Gardiner, Lachy Hulme, Eddie Perfect, Deborah Mailman, John Waters",
+      "director": "",
+      "description": "A Melbourne obstetrician in her thirties struggles with the increasingly chaotic family, romantic and professional aspects of her life in this drama."
+    },
+    {
+      "show_id": "s4633",
+      "title": "Once Upon a Time in London",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Leo Gregory, Terry Stone, Doug Allen, Andy Beckwith, Kate Braithwaite, Holly Earl, Joe Egan, Nadia Forde",
+      "director": "Simon Rumley",
+      "description": "Organized crime came to London in the 1930s, ushering in three decades ruled by two legendary gangsters whose legacy outlived their reign."
+    },
+    {
+      "show_id": "s2775",
+      "title": "Holiday Secrets",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Corinna Harfouch, Christiane Paul, Svenja Jung, Leonie Benesch, Anita Vulesica, Barbara Nüsse, Hans-Uwe Bauer, Lorna zu Solms, Tilda Jenkins, Emilie Neumeister, Golo Euler, Dennis Herrmann, Maik Solbach, Merlin Rose",
+      "director": "",
+      "description": "A Christmas reunion becomes a gateway to the past in this three-part series that explores the intimate complexities of one family's history."
+    },
+    {
+      "show_id": "s703",
+      "title": "Baewatch: Parental Guidance",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "British TV Shows, Reality TV, Romantic TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "Couples go on a romantic getaway to test their relationships, not knowing their families are calling the shots and cringing over their every move."
+    },
+    {
+      "show_id": "s3711",
+      "title": "London Hughes: To Catch a D*ck",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "London Hughes",
+      "director": "Kristian Mercado",
+      "description": "Bawdy comedian and television presenter London Hughes revisits her past in this acclaimed breakout special filled with unfiltered tales and wild stories."
+    },
+    {
+      "show_id": "s6541",
+      "title": "The L Word",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "Romantic TV Shows, TV Dramas",
+      "cast": "Jennifer Beals, Leisha Hailey, Laurel Holloman, Mia Kirshner, Katherine Moennig, Pam Grier, Rachel Shelley, Daniela Sea, Erin Daniels, Marlee Matlin",
+      "director": "",
+      "description": "This trailblazing series follows the tangled lives and ever-changing relationships among a close-knit group of lesbians who call Los Angeles home."
+    },
+    {
+      "show_id": "s805",
+      "title": "Been So Long",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, International Movies, Music & Musicals",
+      "cast": "Michaela Coel, Arinzé Kene, George MacKay, Ashley Thomas, Joe Dempsie, Ronke Adekoluejo, Luke Norris, Mya Lewis",
+      "director": "Tinge Krishnan",
+      "description": "A single mother in London's Camden Town hears music when she meets a handsome stranger with a past. But she's not sure she's ready to open her heart."
+    },
+    {
+      "show_id": "s6705",
+      "title": "The New Romantic",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Independent Movies, Romantic Movies",
+      "cast": "Timm Sharp, Hayley Law, Camila Mendes, Brett Dier, Jessica Barden, Avan Jogia",
+      "director": "Carly Stone",
+      "description": "Fed up with dating and debt, a naïve college senior documents her experience of being with a wealthy, older man for a gonzo journalism grant."
+    },
+    {
+      "show_id": "s1828",
+      "title": "Door Ke Darshan",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Dolly Ahluwalia, Manu Rishi Chadha, Mahie Gill, Shardul Rana, Archita Sharma, Rajesh Sharma, Supriya Shukla, Mehak Manwani",
+      "director": "Gagan Puri",
+      "description": "When a matriarch wakes from a 30-year coma, her wacky family frantically recreates a bygone era to keep her from noticing how much time has passed."
+    },
+    {
+      "show_id": "s2990",
+      "title": "Indian Matchmaking",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Reality TV, Romantic TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "Matchmaker Sima Taparia guides clients in the U.S. and India in the arranged marriage process, offering an inside look at the custom in a modern era."
+    },
+    {
+      "show_id": "s4707",
+      "title": "Outlander",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Romantic TV Shows, TV Action & Adventure, TV Dramas",
+      "cast": "Caitriona Balfe, Sam Heughan, Tobias Menzies, Gary Lewis, Graham McTavish, Lotte Verbeek, Duncan Lacroix, Laura Donnelly, Bill Paterson, Stephen Walters, Grant O'Rourke, Simon Callow, Richard Rankin, Sophie Skelton, David Berry, Romann Berrux, Ed Speleers, Maria Doyle Kennedy, Tim Downie",
+      "director": "",
+      "description": "This epic tale adapted from Diana Gabaldon's popular series of fantasy-romance novels focuses on the drama of two time-crossed lovers."
+    },
+    {
+      "show_id": "s1721",
+      "title": "Detention",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Dramas, TV Horror",
+      "cast": "Li Lingwei, Han Ning, Huang Guanzhi, Jack Yao, Hsia Teng-hung, David Chao, Luo Guanxu, Wu Kunda, Serena Fang, Carol Cheng, Chang Han",
+      "director": "Su I-Hsuan, Chuang Shiang-an, Liu Yi",
+      "description": "A tormented student uncovers unsettling secrets at her remote high school as betrayal and a paranormal encounter upend her life."
+    },
+    {
+      "show_id": "s1550",
+      "title": "Cuckoo",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "British TV Shows, International TV Shows, TV Comedies",
+      "cast": "Andy Samberg, Taylor Lautner, Greg Davies, Helen Baxendale, Tamla Kari, Tyger Drew-Honey, Esther Smith",
+      "director": "",
+      "description": "Rachel shocks her proper British parents when she marries an American hippie, but it's just the first in a series of surprises for the family."
+    },
+    {
+      "show_id": "s5308",
+      "title": "Rurouni Kenshin",
+      "type": "TV Show",
+      "release_year": 1998,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Mayo Suzukaze, Miki Fujitani, Miina Tominaga, Yuji Ueda, Mika Doi, Yoshito Yasuhara, Hirotaka Suzuoki, Tomo Sakurai, Shuichi Ikeda",
+      "director": "",
+      "description": "A nomadic swordsman arrives at a martial arts school in Meiji-era Japan, where he lands in the middle of a conflict involving the opium trade."
+    },
+    {
+      "show_id": "s6608",
+      "title": "The Lizzie Borden Chronicles",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Crime TV Shows, TV Dramas, TV Thrillers",
+      "cast": "Christina Ricci, Clea DuVall, Cole Hauser, Dylan Taylor, John Ralston, Bradley Stryker, Olivia Llewellyn, Jeff Wincott, Jessy Schram, Martha Irving, Gabrielle Trudel",
+      "director": "",
+      "description": "Exonerated in the murder of her father and stepmother, Lizzie Borden takes on crime lords, detectives and other foes as she savors her new infamy."
+    },
+    {
+      "show_id": "s6429",
+      "title": "The Guernsey Literary and Potato Peel Pie Society",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Romantic Movies",
+      "cast": "Lily James, Michiel Huisman, Penelope Wilton, Tom Courtenay, Jessica Brown Findlay, Katherine Parkinson, Matthew Goode",
+      "director": "Mike Newell",
+      "description": "A London writer bonds with the colorful residents of Guernsey as she learns about the book club they formed during the WWII German occupation."
+    },
+    {
+      "show_id": "s5469",
+      "title": "Secrets of Chatsworth",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Samuel West",
+      "director": "Susannah Ward",
+      "description": "Tales of tragedy and scandal unfold through the history of Chatsworth, a grand estate that has been home to some of England's most noted aristocrats."
+    },
+    {
+      "show_id": "s4822",
+      "title": "Penny Dreadful",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "TV Dramas, TV Horror, TV Mysteries",
+      "cast": "Josh Hartnett, Eva Green, Timothy Dalton, Reeve Carney, Rory Kinnear, Billie Piper, Danny Sapani, Harry Treadaway",
+      "director": "",
+      "description": "The classic tales of Dracula, Frankenstein, Dorian Gray and more are woven together in this horror series set on the dark streets of Victorian London."
+    },
+    {
+      "show_id": "s7002",
+      "title": "The Windsors",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "British TV Shows, International TV Shows, TV Comedies",
+      "cast": "Harry Enfield, Haydn Gwynne, Hugh Skinner, Louise Ford, Richard Goulding, Matthew Cottle, Morgana Robinson, Celeste Dring, Katy Wix, Ellie White",
+      "director": "",
+      "description": "The all-too-public trials and tribulations of England's royal family are reimagined as an over-the-top comedic soap opera."
+    },
+    {
+      "show_id": "s6129",
+      "title": "The Big Family Cooking Showdown",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "British TV Shows, International TV Shows, Reality TV",
+      "cast": "Zoe Ball, Nadiya Hussain, Giorgio Locatelli, Rosemary Shrager",
+      "director": "",
+      "description": "In this unscripted series, families passionate about food serve up their most delicious dishes for the chance to be crowned Britain's best home cooks."
+    },
+    {
+      "show_id": "s4797",
+      "title": "Patton Oswalt: Annihilation",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Patton Oswalt",
+      "director": "Bobcat Goldthwait",
+      "description": "By turns scathing and candid, Patton Oswalt reflects on the glut of comic material in the Trump era and the dark days following a personal tragedy."
+    },
+    {
+      "show_id": "s2729",
+      "title": "High End Yaariyan",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Ninja, Ranjit Bawa, Jassi Gill, Musskan Sethi, Navneet Kaur Dhillon, Neet Mahal, Aarushi Sharma",
+      "director": "Pankaj Batra",
+      "description": "From romantic pursuits to their friendship, a trio of young men navigate the complexities of relationships while sharing a London apartment."
+    },
+    {
+      "show_id": "s3733",
+      "title": "Lost in London",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Ime Bishop Umoh, Alexx Ekubo, Stanley Chibunna, Ella Betts, Adi Lev, Kemi Olofinmakin",
+      "director": "Sunkanmi Adebayo",
+      "description": "Nigerian students Okon and Bona experience culture shock – several shocks, really – after being selected for an exchange program in London."
+    },
+    {
+      "show_id": "s4397",
+      "title": "Namastey London",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Akshay Kumar, Katrina Kaif, Rishi Kapoor, Upen Patel, Javed Sheikh, Nina Wadia, Clive Standen, Tiffany Mulheron",
+      "director": "Vipul Amrutlal Shah",
+      "description": "To her Indian parents' dismay, London-born Jasmeet \"Jazz\" Malhotra longs for everything Western, including her British boyfriend. On a family trip to India, her father arranges Jazz's nuptials to Arjun Ballu Singh, who's smitten with his new bride."
+    },
+    {
+      "show_id": "s4920",
+      "title": "Postcards from London",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Independent Movies, LGBTQ Movies",
+      "cast": "Harris Dickinson, Jonah Hauer-King, Alessandro Cimadamore, Leonardo Salerni, Raphael Desprez, Jerome Holder, Leemore Marrett Jr., Silas Carson, Stephen Boxer, Leo Hatton, Ben Cura",
+      "director": "Steve McLean",
+      "description": "After being recruited to be a raconteur in London, a handsome teenager discovers he suffers from a rare condition where he faints upon seeing fine art."
+    },
+    {
+      "show_id": "s2212",
+      "title": "Flowers",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "British TV Shows, International TV Shows, TV Comedies",
+      "cast": "Olivia Colman, Julian Barratt, Daniel Rigby, Sophia Di Martino, Leila Hoffman, Will Sharpe, Harriet Walter",
+      "director": "",
+      "description": "Between a troubled marriage, a senile granny and twin siblings constantly in rivalry, a crumbling household struggles to barely keep it together."
+    },
+    {
+      "show_id": "s3214",
+      "title": "JoJo's Bizarre Adventure",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Kazuyuki Okitsu, Takehito Koyasu, Yoku Shioya, Yoji Ueda, Ayako Kawasumi, Tomokazu Sugita, Takuya Sato, Atsuko Tanaka, Atsushi Imaruoka, Daisuke Ono, Unsho Ishizuka, Kenta Miyake, Daisuke Hirakawa, Fuminori Komatsu, Yuki Ono, Yuki Kaji, Wataru Takagi, Takahiro Sakurai, Kensho Ono, Yuichi Nakamura, Junichi Suwabe, Kohsuke Toriumi, Daiki Yamashita, Junya Enoki",
+      "director": "",
+      "description": "Multiple generations of the Joestar family – all with the same nickname – confront supernatural villains through a series of time periods."
+    },
+    {
+      "show_id": "s30",
+      "title": "#blackAF",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Comedies",
+      "cast": "Kenya Barris, Rashida Jones, Iman Benson, Genneya Walton, Scarlet Spencer, Justin Claiborne, Ravi Cabot-Conyers",
+      "director": "",
+      "description": "Kenya Barris and his family navigate relationships, race and culture while grappling with their newfound success in this comedy series."
+    },
+    {
+      "show_id": "s3283",
+      "title": "Kabhi Khushi Kabhie Gham",
+      "type": "Movie",
+      "release_year": 2001,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Amitabh Bachchan, Jaya Bhaduri, Shah Rukh Khan, Kajol, Hrithik Roshan, Kareena Kapoor, Rani Mukerji, Farida Jalal, Himani Shivpuri, Alok Nath",
+      "director": "Karan Johar",
+      "description": "Years after his father disowns his adopted brother for marrying a woman of lower social standing, a young man goes on a mission to reunite his family."
+    }
+  ]
+}

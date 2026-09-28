@@ -1,0 +1,457 @@
+{
+  "split": "dev",
+  "query_id": "mickey_mouse",
+  "query": "Mickey Mouse",
+  "candidates": [
+    {
+      "show_id": "s1383",
+      "title": "Chuck Chicken",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Kids' TV",
+      "cast": "",
+      "director": "",
+      "description": "On the island of Rocky Perch, security company owner Chuck Adoodledoo and his friends provide kung fu-style protection for their fellow bird citizens."
+    },
+    {
+      "show_id": "s7511",
+      "title": "We the Animals",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Evan Rosado, Josiah Gabriel, Isaiah Kristian, Raúl Castillo, Sheila Vand, Giovanni Pacciarelli, Terry Holland, Moe Isaac, Mickey Anthony, Tom Malley",
+      "director": "Jeremiah Zagar",
+      "description": "A trio of brothers cope with their parents' volatile relationship by running wild and unchecked, and one of them experiences a visceral awakening."
+    },
+    {
+      "show_id": "s6772",
+      "title": "The Polka King",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Independent Movies",
+      "cast": "Jack Black, Jenny Slate, Jason Schwartzman, Jacki Weaver, J.B. Smoove, Vanessa Bayer, Robert Capron, Willie Garson, Lew Schneider",
+      "director": "Maya Forbes",
+      "description": "Determined to make it big in America, Polish-born bandleader Jan Lewan draws his fans into a Ponzi scheme in this comedy based on a true story."
+    },
+    {
+      "show_id": "s5975",
+      "title": "Talking Tom and Friends",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Colin Hanks, Tom Kenny, James Adomian, Lisa Schwartz, Maria Bamford",
+      "director": "",
+      "description": "Full of funny one-liners and always ready for an adventure, a talking cat and his equally chatty animal cohorts set out to become famous."
+    },
+    {
+      "show_id": "s5091",
+      "title": "Raman Raghav 2.0",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "International Movies, Thrillers",
+      "cast": "Nawazuddin Siddiqui, Vicky Kaushal, Sobhita Dhulipala, Mukesh Chhabra, Anuschka Sawhney, Vipin Sharma, Deepali Suryakant Badekar, Ashok Lokhande, Harssh Singh, Rajesh Jais, Hitesh Dave",
+      "director": "Anurag Kashyap",
+      "description": "A corrupt cop and a serial killer obsessed with a psychopath from the '60s get caught up in a ruthless cat-and-mouse game in this Indian thriller."
+    },
+    {
+      "show_id": "s2766",
+      "title": "Hogie the Globehopper",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Kids' TV",
+      "cast": "Mae Elliessa",
+      "director": "",
+      "description": "Hogie and his friends travel the world, exploring far-flung locales like Buenos Aires, Cairo, Hawaii and the Galapagos Islands."
+    },
+    {
+      "show_id": "s5859",
+      "title": "Stuart Little 2",
+      "type": "Movie",
+      "release_year": 2002,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Michael J. Fox, Geena Davis, Hugh Laurie, Jonathan Lipnicki, Nathan Lane, Melanie Griffith, James Woods, Steve Zahn",
+      "director": "Rob Minkoff",
+      "description": "Zany misadventures are in store as lovable city mouse Stuart and his human brother, George, raise the roof in this sequel to the 1999 blockbuster."
+    },
+    {
+      "show_id": "s2381",
+      "title": "Geronimo Stilton",
+      "type": "TV Show",
+      "release_year": 2011,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Brian Drummond, Erin Mathews, Richard Ian Cox, Sarah Edmondson, Moneca Stori",
+      "director": "Guy Vasilovich",
+      "description": "With the help of brainy and adventurous sidekicks, New Mouse City's favorite journalist investigates mysteries that take him around the world,"
+    },
+    {
+      "show_id": "s7716",
+      "title": "Yoko",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Kids' TV",
+      "cast": "Eileen Stevens, Alyson Leigh Rosenfeld, Sarah Natochenny, H.D. Quinn",
+      "director": "",
+      "description": "Friends Mai, Oto and Vik's games at the park become magical adventures, thanks to Yoko, who can turn playgrounds into spaceships and camping sites."
+    },
+    {
+      "show_id": "s2270",
+      "title": "Fred Claus",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Vince Vaughn, Paul Giamatti, John Michael Higgins, Miranda Richardson, Rachel Weisz, Kathy Bates, Trevor Peacock, Ludacris, Elizabeth Banks",
+      "director": "David Dobkin",
+      "description": "The holiday season is ruined for Santa Claus when his cranky older brother – a repo man with a sizable rap sheet – visits him at the North Pole."
+    },
+    {
+      "show_id": "s847",
+      "title": "Bert Kreischer: Hey Big Boy",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Bert Kreischer",
+      "director": "Jeff Tomsic",
+      "description": "Ever the stand-up party animal, comic Bert Kreischer riffs on parenting and family life, being a gun and pet owner, his dad discovering pot, and more."
+    },
+    {
+      "show_id": "s4166",
+      "title": "Mojave",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, Independent Movies, Thrillers",
+      "cast": "Garrett Hedlund, Oscar Isaac, Louise Bourgoin, Walton Goggins, Mark Wahlberg, Fran Kranz",
+      "director": "William Monahan",
+      "description": "A lethal game of cat and mouse stretches from the desert to Tinseltown after Hollywood bad boy Thomas runs afoul of a cunning and dangerous drifter."
+    },
+    {
+      "show_id": "s1787",
+      "title": "DJ Cinderella",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Maísa Silva, Filipe Bragança, Fernanda Paes Leme, Miriam Freeland, Marcelo Valle, Elisa Pinheiro, Sérgio Malheiros, Giovanna Grigio, Bárbara Maia, Letícia Pedro, Kiria Malheiros, Leo Cidade, Matheus Costa, Isabel Fillardis, Selma Lopes",
+      "director": "Bruno Garotti",
+      "description": "Fiercely independent and disillusioned with love, a teen DJ is determined to chart her own path, till a pop heartthrob falls for her awesome mix."
+    },
+    {
+      "show_id": "s5105",
+      "title": "Rats",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Morgan Spurlock",
+      "description": "Explore the icky world of rats and witness how their talent for surviving in almost any environment has led to catastrophic events throughout history."
+    },
+    {
+      "show_id": "s2124",
+      "title": "Fatal Affair",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Thrillers",
+      "cast": "Nia Long, Omar Epps, Stephen Bishop, Maya Stojan, Aubrey Cleland, Carolyn Hennesy",
+      "director": "Peter Sullivan",
+      "description": "A lawyer is caught in a terrifying game of cat and mouse when a drink with an old friend escalates into an obsession that jeopardizes everyone she loves."
+    },
+    {
+      "show_id": "s1598",
+      "title": "Danger Mouse: Classic Collection",
+      "type": "TV Show",
+      "release_year": 1992,
+      "listed_in": "British TV Shows, Kids' TV, TV Comedies",
+      "cast": "David Jason, Terry Scott, Edward Kelsey, Brian Trueman",
+      "director": "",
+      "description": "Follow the adventures of superspy Danger Mouse and his bumbling sidekick, Penfold, as they jet around the world foiling their enemies' evil plots."
+    },
+    {
+      "show_id": "s487",
+      "title": "An American Tail: Fievel Goes West",
+      "type": "Movie",
+      "release_year": 1991,
+      "listed_in": "Children & Family Movies",
+      "cast": "Philip Glasser, James Stewart, Erica Yohn, Cathy Cavadini, Nehemiah Persoff, Dom DeLuise, Amy Irving, John Cleese, Jon Lovitz",
+      "director": "Phil Nibbelink, Simon Wells",
+      "description": "Fievel and his family head west for what turns out to be a wild adventure. Deep in cowboy country, the intrepid mouse faces down a nasty feline."
+    },
+    {
+      "show_id": "s7347",
+      "title": "Unfriended",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Shelley Hennig, Moses Storm, Renee Olstead, Will Peltz, Jacob Wysocki, Courtney Halverson, Heather Sossaman, Matthew Bohrer, Mickey River, Cal Barnes",
+      "director": "Levan Gabriadze",
+      "description": "Six teens whose cyberbullying drove their classmate to kill herself become the target of an online stalker with a lethal agenda."
+    },
+    {
+      "show_id": "s4447",
+      "title": "Neruda",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Luis Gnecco, Gael García Bernal, Mercedes Morán, Emilio Gutiérrez Caba, Diego Muñoz, Alejandro Goic, Pablo Derqui, Marcelo Alonso",
+      "director": "Pablo Larraín",
+      "description": "When a Chilean policeman vows to find and capture leftist poet Pablo Neruda, a game of cat and mouse ensues that tests both their wills."
+    },
+    {
+      "show_id": "s4754",
+      "title": "Panic Room",
+      "type": "Movie",
+      "release_year": 2002,
+      "listed_in": "Thrillers",
+      "cast": "Jodie Foster, Forest Whitaker, Dwight Yoakam, Jared Leto, Kristen Stewart, Ann Magnuson, Ian Buchanan, Patrick Bauchau, Paul Schulze",
+      "director": "David Fincher",
+      "description": "A woman and her daughter are caught in a game of cat-and-mouse with burglars in their New York City home and are forced to retreat inside a vault."
+    },
+    {
+      "show_id": "s5417",
+      "title": "Saving Mr. Banks",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Comedies, Dramas",
+      "cast": "Emma Thompson, Tom Hanks, Paul Giamatti, Jason Schwartzman, Colin Farrell, Bradley Whitford, Annie Buckley, Ruth Wilson, B.J. Novak, Rachel Griffiths, Kathy Baker, Melanie Paxson, Andy McPhee, Jerry Hauck, Mia Serafino, Michelle Arthur, Demetrius Grosse, Steven Cabral, David Ross Paterson, Ronan Vibert, Luke Baines, Dendrie Taylor, Laura Waddell, Paul Tassone",
+      "director": "John Lee Hancock",
+      "description": "When Walt Disney sets his sights on obtaining the rights to the children's classic \"Mary Poppins,\" the book's author proves a tough nut to crack."
+    },
+    {
+      "show_id": "s1770",
+      "title": "Dinosaur King",
+      "type": "TV Show",
+      "release_year": 2008,
+      "listed_in": "Anime Series, Kids' TV",
+      "cast": "Megumi Matsumoto, Matsuri Mizuguchi, Tomoko Kobashi, Asuka Tanii, Seiko Tamura, Veronica Taylor, Sebastian Arcelus, Kether Donohue, Rachael Lillis, Madeleine Blaustein",
+      "director": "",
+      "description": "Aided by tablets found near a downed meteorite, Max, Rex and Zoe race the evil Alpha Gang as they travel the globe in search of living dinosaurs."
+    },
+    {
+      "show_id": "s5314",
+      "title": "Russell Peters: Almost Famous",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Russell Peters",
+      "director": "Dave Higby",
+      "description": "The comic comes home to Toronto to sound off on cultural quirks, kids' furniture and bathroom visits, reveling in all things ridiculously human."
+    },
+    {
+      "show_id": "s4837",
+      "title": "Peter Rabbit",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "James Corden, Domhnall Gleeson, Rose Byrne, Margot Robbie, Daisy Ridley, Elizabeth Debicki, Vauxhall Jermaine, Marianne Jean-Baptiste, Sia, Colin Moody",
+      "director": "Will Gluck",
+      "description": "In this mix of live action and CGI, rascally Peter Rabbit faces a tough new foe in his ongoing battle for the veggies in Mr. McGregor's garden."
+    },
+    {
+      "show_id": "s6500",
+      "title": "The Interview",
+      "type": "Movie",
+      "release_year": 1998,
+      "listed_in": "Cult Movies, Dramas, Thrillers",
+      "cast": "Hugo Weaving, Tony Martin, Aaron Jeffery, Paul Sonkkila, Michael Caton, Peter McCauley",
+      "director": "Craig Monahan",
+      "description": "When a man who's seemingly lost everything is grabbed by police for questioning, it starts a twisted cat-and-mouse game between him and a detective."
+    },
+    {
+      "show_id": "s7109",
+      "title": "Tip the Mouse",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Kids' TV",
+      "cast": "Alyson Leigh Rosenfeld, Dave Wills, Serra Hirsch, Erica Schroeder, Jason Griffith",
+      "director": "",
+      "description": "In his tiny meadow village, curious little mouse Tip enjoys fun and adventure while learning about the world with his furry friends and family."
+    },
+    {
+      "show_id": "s1500",
+      "title": "Cop Car",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Thrillers",
+      "cast": "Kevin Bacon, James Freedson-Jackson, Hays Wellford, Camryn Manheim, Shea Whigham, Sean Hartley, Kyra Sedgwick, Loi Nguyen",
+      "director": "Jon Watts",
+      "description": "Two mischievous boys get thrust into a game of cat and mouse with a murderous psychopath after they decide to steal a police officer’s cruiser."
+    },
+    {
+      "show_id": "s3740",
+      "title": "Love",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Romantic TV Shows, TV Comedies, TV Dramas",
+      "cast": "Gillian Jacobs, Paul Rust, Claudia O'Doherty",
+      "director": "",
+      "description": "Rebellious Mickey and good-natured Gus navigate the thrills and agonies of modern relationships in this bold comedy co-created by Judd Apatow."
+    },
+    {
+      "show_id": "s7471",
+      "title": "Walt Disney Animation Studios Short Films Collection",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Children & Family Movies",
+      "cast": "Kristen Bell, Josh Gad, Jonathan Groff, Idina Menzel, Geoffrey Jones, Alfre Woodard, Carrie Harrington, Tim Hodge, David Murray, Sarah Chalke, Dave Foley, Derek Richardson, Betty White, Zachary Levi, Mandy Moore",
+      "director": "Chris Buck, Jennifer Lee, Patrick Osborne, Lauren MacMullan, John Kahrs, Nathan Greno, Byron Howard, Stevie Wermers, Dean Wellins, Kevin Deters, Roger Allers, Mike Gabriel, Mark Henn",
+      "description": "This collection of 12 short films from Disney includes \"Frozen Fever,\" the Mickey Mouse short \"Get a Horse!\" and Oscar winners \"Paperman\" and \"Feast.\""
+    },
+    {
+      "show_id": "s1342",
+      "title": "Chip and Potato",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Kids' TV",
+      "cast": "Abigail Oliver, Andrea Libman, Briana Buckmaster, Brian Dobson, Chance Hurstfield, Dominic Good, Emma Jayne Maas, Evan Byarushengo, Scotia Anderson, Alessandro Juliani",
+      "director": "",
+      "description": "Lovable pug Chip starts kindergarten, makes new friends and tries new things – with a little help from Potato, her secret mouse pal."
+    },
+    {
+      "show_id": "s5858",
+      "title": "Stuart Little",
+      "type": "Movie",
+      "release_year": 1999,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Michael J. Fox, Jonathan Lipnicki, Geena Davis, Hugh Laurie, Nathan Lane",
+      "director": "Rob Minkoff",
+      "description": "Mr. and Mrs. Little want to adopt a brother for their only child but get more than they bargained for when they take in a mouse with an attitude."
+    },
+    {
+      "show_id": "s2384",
+      "title": "Get In",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "International Movies, Thrillers",
+      "cast": "Adama Niane, Stéphane Caillard, Paul Hamy, Eddy Leduc, Hubert Delattre, Matthieu Kacou, Charlotte Geiger, Christopher Fataki",
+      "director": "Olivier Abbou",
+      "description": "When he returns from vacation and finds his home occupied by squatters, a family man is caught in a conflict that escalates to terrifying heights."
+    },
+    {
+      "show_id": "s1217",
+      "title": "Caregiver",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Sharon Cuneta, John Estrada, John Manalo, Rica Peralejo, Jhong Hilario, Saul Reichlin, Matthew Rutherford, Claire Jeater, Makisig Morales, Mickey Ferriols",
+      "director": "Chito S. Roño",
+      "description": "Sarah leaves her son in the Philippines to reunite with her husband in London, where she struggles personally and professionally as a care-home worker."
+    },
+    {
+      "show_id": "s1889",
+      "title": "Duck Duck Goose",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Jim Gaffigan, Zendaya, Lance Lim, Greg Proops, Reggie Watts, Carl Reiner, Jennifer Grey, Stephen Fry, Diedrich Bader, Natasha Leggero, Craig Ferguson, Rick Overton",
+      "director": "Chris Jenkins",
+      "description": "As his flock's annual migration nears, a carefree goose is grounded with an injury and takes a pair of lost ducklings under his wing."
+    },
+    {
+      "show_id": "s5443",
+      "title": "Scream 2",
+      "type": "Movie",
+      "release_year": 1997,
+      "listed_in": "Horror Movies",
+      "cast": "Neve Campbell, David Arquette, Courteney Cox, Sarah Michelle Gellar, Jamie Kennedy, Laurie Metcalf, Elise Neal, Jerry O'Connell, Timothy Olyphant, Jada Pinkett Smith, Liev Schreiber, Lewis Arquette, Duane Martin, Rebecca Gayheart, Portia de Rossi, Omar Epps, Tori Spelling, Heather Graham, Joshua Jackson, Luke Wilson",
+      "director": "Wes Craven",
+      "description": "Gale has written a best-seller which has been turned into a film. As the movie premiere looms closer, the mysterious deaths begin again."
+    },
+    {
+      "show_id": "s1597",
+      "title": "Danger Mouse",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Kids' TV",
+      "cast": "Alexander Armstrong, Kevin Eldon, Stephen Fry, Ed Gaughan, Shauna Macdonald, Dave Lamb, Morwenna Banks",
+      "director": "",
+      "description": "The world's greatest super-spy returns to save the world with the help of hapless hamster Penfold and a collection of state-of-the-art gadgetry."
+    },
+    {
+      "show_id": "s5248",
+      "title": "Rocky III",
+      "type": "Movie",
+      "release_year": 1982,
+      "listed_in": "Dramas, Sports Movies",
+      "cast": "Sylvester Stallone, Talia Shire, Burt Young, Carl Weathers, Burgess Meredith, Tony Burton, Mr. T, Hulk Hogan, Ian Fried",
+      "director": "Sylvester Stallone",
+      "description": "After taking a pounding from a powerful young fighter, humbled world champ Rocky Balboa turns to ex-rival Apollo Creed for help in regaining his form."
+    },
+    {
+      "show_id": "s486",
+      "title": "An American Tail",
+      "type": "Movie",
+      "release_year": 1986,
+      "listed_in": "Children & Family Movies",
+      "cast": "Erica Yohn, Nehemiah Persoff, Amy Green, Phillip Glasser, Christopher Plummer, John Finnegan, Will Ryan, Hal Smith, Dom DeLuise, Madeline Kahn",
+      "director": "Don Bluth",
+      "description": "Fievel, a young Russian mouse, immigrates to America and must make his own way in the strange and sometimes perilous new world."
+    },
+    {
+      "show_id": "s6507",
+      "title": "The Irish Mob",
+      "type": "TV Show",
+      "release_year": 2008,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "Mickey Spillane",
+      "director": "",
+      "description": "This documentary crime series charts the rise of the Irish Mob in America, from urban immigrant poverty to political power and wealth."
+    },
+    {
+      "show_id": "s7135",
+      "title": "Tom and Jerry: The Magic Ring",
+      "type": "Movie",
+      "release_year": 2001,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Richard Kind, Dana Hill, Anndi McAfee, Tony Jay, Rip Taylor, Henry Gibson",
+      "director": "Phil Roman",
+      "description": "When a young wizard leaves Tom to guard his priceless magic ring, Jerry gets the ring stuck on his head, igniting a series of slapstick antics."
+    },
+    {
+      "show_id": "s6332",
+      "title": "The End of the Tour",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Jason Segel, Jesse Eisenberg, Becky Ann Baker, Anna Chlumsky, Joan Cusack, Mamie Gummer, Ron Livingston, Mickey Sumner",
+      "director": "James Ponsoldt",
+      "description": "\"Rolling Stone\" reporter David Lipsky shadows famed writer David Foster Wallace in this fictionalized account of their revealing five-day encounter."
+    },
+    {
+      "show_id": "s5722",
+      "title": "Sons of the Caliphate",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Yakubu Mohammed, Paul Sambo, Mofe Duncan, Nita Byack George, Yvonne Hays, Mickey Odey, Rahama Sadau, Sani Muazu",
+      "director": "",
+      "description": "Three wealthy, power-hungry men tussle for sovereignty amid corrupt politics, passionate desires and family obligations."
+    },
+    {
+      "show_id": "s5241",
+      "title": "Rocco",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Rocco Siffredi",
+      "director": "Thierry Demaizière, Alban Teurlai",
+      "description": "Italian porn star Rocco Siffredi is showcased in this documentary that shadows the legendary performer during his final year in front of the camera."
+    },
+    {
+      "show_id": "s3466",
+      "title": "Kung Fu Magoo",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Dylan Sprouse, Cole Sprouse, Alyson Stoner, Tom Kenny, Chris Parnell, Rodger Bumpass, Maile Flanagan, Wally Wingert, Candi Milo, Jim Ward",
+      "director": "Andrés Couturier",
+      "description": "Shortsighted curmudgeon Mr. Magoo and his young nephew, Justin, fight such nefarious foes as kung fu villains, robot spiders and teenage mutants."
+    },
+    {
+      "show_id": "s2636",
+      "title": "Harry & Bunnie",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "",
+      "director": "Ah Loong",
+      "description": "A young wannabe magician and his mischievous stage rabbit battle and sabotage each other while putting on shows."
+    }
+  ]
+}

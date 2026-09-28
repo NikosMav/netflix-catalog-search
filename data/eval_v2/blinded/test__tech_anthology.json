@@ -1,0 +1,557 @@
+{
+  "split": "test",
+  "query_id": "tech_anthology",
+  "query": "sci-fi anthology series about technology going wrong",
+  "candidates": [
+    {
+      "show_id": "s542",
+      "title": "Anon",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Sci-Fi & Fantasy, Thrillers",
+      "cast": "Clive Owen, Amanda Seyfried, Colm Feore, Sonya Walger, Mark O'Brien, Joe Pingue, Iddo Goldberg, Sebastian Pigott, Rachel Roberts, Ethan Tavares",
+      "director": "Andrew Niccol",
+      "description": "In a future where technology has rendered privacy obsolete, a detective investigates a serial assassin who has been deleted from all visual records."
+    },
+    {
+      "show_id": "s7187",
+      "title": "Transcendence",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Sci-Fi & Fantasy, Thrillers",
+      "cast": "Johnny Depp, Rebecca Hall, Morgan Freeman, Paul Bettany, Cillian Murphy, Kate Mara, Cole Hauser, Clifton Collins Jr.",
+      "director": "Wally Pfister",
+      "description": "Two computer scientists work to achieve technological singularity to create a world where computers can transcend the abilities of the human brain."
+    },
+    {
+      "show_id": "s957",
+      "title": "Black Mirror",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "British TV Shows, International TV Shows, TV Dramas",
+      "cast": "Jesse Plemons, Cristin Milioti, Jimmi Simpson, Rosemarie DeWitt, Douglas Hodge, Andrea Riseborough, Brenna Harding, Owen Teague, Andrew Gower, Kiran Sonia Sawar, Georgina Campbell, Joe Cole, Maxine Peake, Jake Davies, Clint Dyer, Letitia Wright, Babs Olusanmokun, Bryce Dallas Howard, Alice Eve, Michael Kelly, Cherry Jones, Gugu Mbatha-Raw, Mackenzie Davis, Wyatt Russell, Benedict Wong, Kelly Macdonald, Faye Marsay, Madeline Brewer, Hannah John-Kamen, Malachi Kirby, Alex Lawther, Jerome Flynn, James Norton, Rory Kinnear, Lindsay Duncan, Daniel Kaluuya, Jessica Brown Findlay, Rupert Everett, Toby Kebbell, Jodie Whittaker, Hayley Atwell, Domhnall Gleeson, Lenora Crichlow, Michael Smiley, Daniel Rigby, Chloe Pirrie, Jason Flemyng, Jon Hamm, Oona Chaplin, Rafe Spall",
+      "director": "",
+      "description": "This sci-fi anthology series explores a twisted, high-tech near-future where humanity's greatest innovations and darkest instincts collide."
+    },
+    {
+      "show_id": "s2438",
+      "title": "Glitch Techs",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV",
+      "cast": "Ricardo Hurtado, Monica Ray, Luke Youngblood, Scott  Kreamer, Dan Milano, Gunnar Sizemore, Zehra Fazal, Sandeep Parikh",
+      "director": "",
+      "description": "Two teens work at a game store as a front for their actual job: Hunting video game monsters who've broken out into the real world."
+    },
+    {
+      "show_id": "s6125",
+      "title": "The Beginning of Life: The Series",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Docuseries, International TV Shows, Science & Nature TV",
+      "cast": "",
+      "director": "Estela Renner",
+      "description": "Using breakthroughs in technology and neuroscience, this series examines how environment affects infants – and how infants can affect our future."
+    },
+    {
+      "show_id": "s2462",
+      "title": "Goedam",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Horror, TV Mysteries",
+      "cast": "SEOLA, Lee Hyun-joo, Song Chae-yun, Han Ga-rim, Shim So-young",
+      "director": "Hong Won-ki",
+      "description": "When night falls on the city, shadows and spirits come alive in this horror anthology series centered on urban legends."
+    },
+    {
+      "show_id": "s259",
+      "title": "A Young Doctor's Notebook and Other Stories",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "British TV Shows, TV Comedies, TV Dramas",
+      "cast": "Daniel Radcliffe, Jon Hamm, Adam Godley, Christopher Godwin, Rosie Cavaliero, Vicki Pepperdine, Margaret Clunie, Tim Steed, Shaun Pye",
+      "director": "",
+      "description": "Set during the Russian Revolution, this comic miniseries is based on a doctor's memories of his early career working in an out-of-the-way village."
+    },
+    {
+      "show_id": "s6931",
+      "title": "The Time Machine",
+      "type": "Movie",
+      "release_year": 2002,
+      "listed_in": "Action & Adventure, Sci-Fi & Fantasy",
+      "cast": "Guy Pearce, Samantha Mumba, Jeremy Irons, Mark Addy, Sienna Guillory, Phyllida Law, Alan Young, Omero Mumba, Yancey Arias, Orlando Jones",
+      "director": "Simon Wells",
+      "description": "Based on the H.G. Wells classic, this adventure follows a scientist and inventor who's determined to prove to doubters that time travel is possible."
+    },
+    {
+      "show_id": "s5661",
+      "title": "Slasher",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Horror, TV Mysteries, TV Thrillers",
+      "cast": "Katie McGrath, Brandon Jay McLaren, Steve Byers, Patrick Garrow, Dean McDermott, Christopher Jacot, Wendy Crewson, Leslie Hope, Lovell Adams-Gray, Jim Watson, Paulino Nunes, Ty Olsson, Joanne Vannicola, Sebastian Pigott, Madison Cheeatow, Melinda Shankar, Kaitlyn Leeb, Rebecca Liddiard, Paula Brancati, Salvatore Antonio, Lisa Berry, Gabriel Darku, Erin Karpluk, Mercedes Morris, Ilan Muallem, Baraka Rahmani, Rosie Simon, Robert Cormier",
+      "director": "",
+      "description": "Rampaging serial killers leave carnage in their wake as their next victims fight to stay alive in this horror anthology series."
+    },
+    {
+      "show_id": "s6954",
+      "title": "The Twilight Zone (Original Series)",
+      "type": "TV Show",
+      "release_year": 1963,
+      "listed_in": "Classic & Cult TV, TV Sci-Fi & Fantasy",
+      "cast": "Rod Serling",
+      "director": "",
+      "description": "Hosted by creator Rod Serling, this groundbreaking anthology series presents tales of the supernatural that are often tinged with social commentary."
+    },
+    {
+      "show_id": "s6451",
+      "title": "The Heyday of the Insensitive Bastards",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "James Franco, Rico Rodriguez, Abigail Spencer, Natalie Portman, Kristen Wiig, Amber Tamblyn, Jim Parrack, Kate Mara, Thomas Mann, Matthew Modine, Jacob Loeb",
+      "director": "Mark Columbus, Lauren Hoekstra, Sarah Kruchowski, Ryan Moody, Simon Savelyev, Vanita Shastry, Shadae Lamar Smith, Jeremy David White",
+      "description": "An all-star cast brings to life the short stories of author Robert Boswell in this anthology series of vignettes set in modern-day America."
+    },
+    {
+      "show_id": "s7153",
+      "title": "Top 10 Secrets and Mysteries",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "British TV Shows, Docuseries, Science & Nature TV",
+      "cast": "",
+      "director": "",
+      "description": "This series investigates mysteries that persistently elude scientific explanation, such as mythical creatures, UFOs, sacred sites and more."
+    },
+    {
+      "show_id": "s3427",
+      "title": "Knowing",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Sci-Fi & Fantasy, Thrillers",
+      "cast": "Nicolas Cage, Chandler Canterbury, Rose Byrne, Lara Robinson, D.G. Maloney, Nadia Townsend, Alan Hopgood, Adrienne Pickering",
+      "director": "Alex Proyas",
+      "description": "An MIT astrophysics professor and his son unearth a string of numbers from a time capsule that seem to reveal a cataclysm that will wipe out humanity."
+    },
+    {
+      "show_id": "s7195",
+      "title": "Transformers: War For Cybertron Trilogy",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Anime Series",
+      "cast": "Jake Foushee, Jason Marnocha, Linsay Rousseau, Joe Zieja, Frank Todaro, Bill Rogers, Keith Silverstein, Edward Bosco",
+      "director": "",
+      "description": "As the Autobots and Decepticons ravage their planet in a brutal civil war, two iconic leaders emerge in the Transformers universe's origin story."
+    },
+    {
+      "show_id": "s2944",
+      "title": "III Smoking Barrels",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Subrat Dutta, Indraneil Sengupta, Mandakini Goswami, Amrita Chattopadhyay, Nalneesh Neel, Niloy Sankar Gupta, Shiny Gogoi, Siddharth Boro",
+      "director": "Sanjib Dey",
+      "description": "In three stories set in Northeast India, a child goes on the run, a young adult falls in with the wrong crowd and a desperate man turns to crime."
+    },
+    {
+      "show_id": "s452",
+      "title": "America's Book of Secrets",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Docuseries",
+      "cast": "Jonathan Adams",
+      "director": "",
+      "description": "This engaging documentary series shares the surprising backstories of familiar institutions like the Pentagon, West Point and the Playboy Mansion."
+    },
+    {
+      "show_id": "s6069",
+      "title": "The Adventures of Sonic the Hedgehog",
+      "type": "TV Show",
+      "release_year": 1993,
+      "listed_in": "Kids' TV",
+      "cast": "Jaleel White, Long John Baldry, Garry Chalk",
+      "director": "",
+      "description": "Hyper hedgehog Sonic and his cohort Miles \"Tails\" Prower defend the planet Mobius against Dr. Robotnik and his evil schemes in this animated series."
+    },
+    {
+      "show_id": "s993",
+      "title": "Bloodride",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Horror, TV Mysteries",
+      "cast": "Ine Marie Wilmann, Bjørnar Teigen, Emma Spetalen Magnusson, Erlend Rødal Vikhagen, Benjamin Helstad, Harald Rosenstrøm, Dagny Backer Johnsen, Stig Amdam, Numa Edema Norderhaug, Ellen Bendu, Torfinn Nag",
+      "director": "",
+      "description": "The doomed passengers aboard a spectral bus head toward a gruesome, unknown destination in this deliciously macabre horror anthology series."
+    },
+    {
+      "show_id": "s2822",
+      "title": "Hot Girls Wanted: Turned On",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "Jill Bauer, Ronna Gradus, Rashida Jones",
+      "description": "Personal stories reveal how the intersection of sex, technology and intimate relationships is rewiring us in fundamental ways."
+    },
+    {
+      "show_id": "s1912",
+      "title": "Easy",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Comedies, TV Dramas",
+      "cast": "Aubrey Plaza, Judy Greer, Jane Adams, Zazie Beetz, Kate Berlant, Aya Cash, Michael Chernus, Kiersey Clemons, Orlando Bloom, Malin Akerman, Marc Maron, Dave Franco, Hannibal Buress, Jake Johnson, Emily Ratajkowski, Andrew Bachelor",
+      "director": "",
+      "description": "This eclectic, star-studded anthology follows diverse Chicagoans fumbling through the modern maze of love, sex, technology and culture."
+    },
+    {
+      "show_id": "s2586",
+      "title": "HALO Legends",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Action & Adventure, Anime Features, Sci-Fi & Fantasy",
+      "cast": "Andy McAvin, James Faulkner, Luci Christian, John Swasey",
+      "director": "Shinji Aramaki, Mamoru Oshii, Hideki Futamura, Toshiyuki Kanno, Tomoki Kyoda, Koichi Mashimo, Yasushi Muraki, Daisuke Nishio, Frank O'Connor, Koji Sawai, Joseph Chou, Hiroshi Yamazaki",
+      "description": "This anthology features seven independent anime shorts from renowned directors, delving into the futuristic universe of the video game franchise Halo."
+    },
+    {
+      "show_id": "s603",
+      "title": "Assimilate",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Horror Movies, Sci-Fi & Fantasy, Thrillers",
+      "cast": "Joel Courtney, Calum Worthy, Andi Matichak, Katherine McNamara, Cam Gigandet, Mason McNulty, Terry Dale Parks, Vito Viscuso, Jennifer Pierce Mathus, Kevin Remington",
+      "director": "John Murlowski",
+      "description": "A group of friends making a web series about their hometown realize it isn’t as boring as they thought when their neighbors start behaving strangely."
+    },
+    {
+      "show_id": "s278",
+      "title": "Abby Sen",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Abir Chatterjee, Raima Sen, Arunima Ghosh, Priyanka Sarkar, Sujan Mukherjee, Kanchan Mullick, Biswanath Basu, Bhaswar Chatterjee, Swagata Basu, Tuhin Mitra, Paran Banerjee, Kharaj Mukherjee, Chiranjit",
+      "director": "Atanu Ghosh",
+      "description": "After losing his seventh job in a row, a TV producer and sci-fi buff travels back in time to 1980, where his employment prospects improve."
+    },
+    {
+      "show_id": "s6375",
+      "title": "The Frankenstein Chronicles",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "British TV Shows, Crime TV Shows, International TV Shows",
+      "cast": "Sean Bean, Tom Ward, Richie Campbell, Vanessa Kirby, Ed Stoppard, Ryan Sampson, Robbie Gee, Anna Maxwell Martin, Elliot Cowan, Charlie Creed-Miles, Eloise Smyth, Samuel West",
+      "director": "",
+      "description": "A detective tracks what seems to be a killer with a taste for dismemberment in 1827 London, but the case leads in a far more terrifying direction."
+    },
+    {
+      "show_id": "s458",
+      "title": "American Crime",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, TV Dramas",
+      "cast": "Felicity Huffman, Timothy Hutton, Elvis Nolasco, Regina King, Lili Taylor, Richard Cabral, Brent Anderson, Benito Martinez, Shane Jacobsen, W. Earl Brown, Caitlin Gerard, Penelope Ann Miller, Johnny Ortiz",
+      "director": "",
+      "description": "This anthology series unfolds a different story arc for each season, with dramas focusing on aspects of American life and the criminal justice system."
+    },
+    {
+      "show_id": "s5606",
+      "title": "Silent",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Children & Family Movies, Sci-Fi & Fantasy",
+      "cast": "",
+      "director": "Limbert Fabian, Brandon Oldenburg",
+      "description": "\"Silent\" is an animated short film created by Academy Award® winning Moonbot Studios. It celebrates how storytellers, inventors, and technology work together to create cinema magic."
+    },
+    {
+      "show_id": "s7089",
+      "title": "Til Death Do Us Part",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, TV Dramas, TV Thrillers",
+      "cast": "Wen Chen-ling, River Huang, Lin He-xuan, Phoebe Lin, Janel Tsai, Dara Hanfman, Hsia Teng-hung, Nikki Hsin-Ying Hsieh",
+      "director": "Cho Li, Chen Hung-yi, Weica Wang, Liu Bang-yao, Lin Guan-fu, Shen Chi, YC Tom Lee",
+      "description": "Based on the speculative short stories of MirrorFiction, this sci-fi thriller anthology plunges headlong into our deepest desires – and darkest fears."
+    },
+    {
+      "show_id": "s563",
+      "title": "Apollo 18",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Horror Movies, Sci-Fi & Fantasy, Thrillers",
+      "cast": "Warren Christie, Lloyd Owen, Ryan Robbins, Michael Kopsa, Andrew Airlie",
+      "director": "Gonzalo López-Gallego",
+      "description": "This sci-fi thriller suggests that Apollo 17, despite official statements to the contrary, wasn't NASA's last manned mission to the moon."
+    },
+    {
+      "show_id": "s4989",
+      "title": "Project S The Series",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, TV Dramas, Teen TV Shows",
+      "cast": "Wiwattanawarang Oabnithi, Mahayotaruk Thiti, Lerkcharoempoj Papangkorn, Imanothai Kawin, Sakuljaroensuk Apinya, Oat Pasakorn Sanrattana, Leeratanakajorn Thanapob, Skye Nateeton Wongrawee, Supapunpinyo Teeradon, Chansangavej Chayanit, Ketprapakorn Narikun, Pibunsonggram Kritsanapoom, Santinatornkul Chanon",
+      "director": "",
+      "description": "Sports and friendship intertwine in tales of a volleyball team, an autistic badminton player, a skateboarder with depression and an archery-club crush."
+    },
+    {
+      "show_id": "s7678",
+      "title": "Wu Assassins",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Action & Adventure, TV Sci-Fi & Fantasy",
+      "cast": "Iko Uwais, Katheryn Winnick, Byron Mann, Tommy Flanagan, Li Jun Li, Celia Au, Lewis Tan, Lawrence Kao, Juju Chan, Tzi Ma, Cranston Johnson, Mark Dacascos, Kevin Durand, Jeff Fahey, Summer Glau",
+      "director": "",
+      "description": "An unassuming San Francisco chef becomes the latest in a long line of assassins chosen to keep the mystical Wu powers out of the wrong hands."
+    },
+    {
+      "show_id": "s1623",
+      "title": "Darr Sabko Lagta Hai",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "International TV Shows, TV Horror, TV Thrillers",
+      "cast": "Bipasha Basu",
+      "director": "",
+      "description": "In this chilling horror anthology series, actress and model Bipasha Basu meets people who have had disconcerting paranormal experiences."
+    },
+    {
+      "show_id": "s7290",
+      "title": "Two Sentence Horror Stories",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Horror, Teen TV Shows",
+      "cast": "Nicole Kang, Jim Parrack, Tara Pacheco, Christopher Shyer, Kimberley Wong, Wai Ching Ho, Greta Quispe, Zaria Degenhardt, Uly Schlesinger, Kate Jennings Grant, Aleyse Shannon, Guillermo Arribas, Jaiden Smith, Pepper Binkley, Mikelle Wright-Matos, Melinda Mo",
+      "director": "",
+      "description": "This anthology series of terror features diverse characters facing primal fears in spine-chilling situations that stretch past daily routine."
+    },
+    {
+      "show_id": "s2069",
+      "title": "Explained",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Docuseries, Science & Nature TV",
+      "cast": "",
+      "director": "",
+      "description": "This enlightening series from Vox digs into a wide range of topics such as the rise of cryptocurrency, why diets fail, and the wild world of K-pop."
+    },
+    {
+      "show_id": "s7362",
+      "title": "Unsolved Mysteries",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Real cases of perplexing disappearances, shocking murders and paranormal encounters fuel this gripping revival of the iconic documentary series."
+    },
+    {
+      "show_id": "s6966",
+      "title": "The Universe: Ancient Mysteries Solved",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Docuseries, Science & Nature TV",
+      "cast": "Erik Thompson",
+      "director": "",
+      "description": "From astronomical events to shapes and patterns in space, strange and wonderful phenomena are explored with modern science in this series."
+    },
+    {
+      "show_id": "s4467",
+      "title": "Night on Earth",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries, Science & Nature TV",
+      "cast": "Samira Wiley",
+      "director": "",
+      "description": "This nature series’ new technology lifts night’s veil to reveal the hidden lives of the world’s creatures, from lions on the hunt to bats on the wing."
+    },
+    {
+      "show_id": "s5689",
+      "title": "Social Distance",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Comedies, TV Dramas",
+      "cast": "Danielle Brooks, Oscar Nuñez, Mike Colter, Heather Burns, Okieriete Onaodowan, Ajay Naidu, Shakira Barrera, Steven Weber, Helena Howard, Daphne Rubin-Vega, Guillermo Díaz, Miguel Sandoval, Camila Perez, Gianna Aragon, Tom Costanzo, Luca Costanzo, Olli Haaskivi, Marsha Stephanie Blake, Isabella Ferreira, Rocco Luna, Larita Brooks, Misha Brooks, Liam Foley, Zoë Verbil, Anthony Norman, Brian Jordan Alvarez, Max Jenkins, Peter Vack, Rana Roy, Peter Scanavino, Ali Ahn, Tami Sagher, Barbara Rosenblat, Michael Mulheren, Leo Bai-Scanavino, Becky Ann Baker, Dylan Baker, Marcia DeBonis, Raymond Anthony Thomas, Sunita Mani, Kylie Liya Page, David Iacono, Lachlan Riley Watson, Niles Fitch, Will Meyers, Ava DeMary, Lydia Look, Asante Blackk, Ayize Ma'at, Lovie Simone",
+      "director": "",
+      "description": "Filmed in isolation, this narrative anthology series features both dark and funny takes on how people strive to stay connected while staying apart."
+    },
+    {
+      "show_id": "s5971",
+      "title": "Tales by Light",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries, International TV Shows, Science & Nature TV",
+      "cast": "Darren Jew, Art Wolfe, Krystle Wright, Peter Eastway, Richard l’Anson, Jack Thompson, Jonathan Scott, Angela Scott, Eric Cheng, Stephen Dupont",
+      "director": "",
+      "description": "Follow renowned photographers as they explore far-flung locales, capturing extraordinary images that present nature and culture in a new light."
+    },
+    {
+      "show_id": "s7192",
+      "title": "Transformers: Cyberverse",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV",
+      "cast": "Sophia Isabella, Jeremy Levy, Jacob Tillman, Ryan Andes, Deanna McGovern, Dick Terhune",
+      "director": "",
+      "description": "Optimus Prime and the AllSpark are missing – and only a memory-scrambled Bumblebee holds the key to finding them in this animated sci-fi series."
+    },
+    {
+      "show_id": "s5993",
+      "title": "TAU",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Sci-Fi & Fantasy, Thrillers",
+      "cast": "Maika Monroe, Ed Skrein, Gary Oldman",
+      "director": "Federico D'Alessandro",
+      "description": "Kidnapped by an inventor who uses her as a test subject to perfect his robotic AI, a street-smart young woman tries to escape her high-tech prison."
+    },
+    {
+      "show_id": "s1429",
+      "title": "Cloverfield",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Action & Adventure, Horror Movies, Sci-Fi & Fantasy",
+      "cast": "Lizzy Caplan, Jessica Lucas, T.J. Miller, Michael Stahl-David, Mike Vogel, Odette Annable, Anjul Nigam, Margot Farley, Theo Rossi, Brian Klugman",
+      "director": "Matt Reeves",
+      "description": "A going-away party in Manhattan is interrupted when a mysterious monster of epic proportions launches an attack on New York City."
+    },
+    {
+      "show_id": "s6227",
+      "title": "The Claudia Kishi Club",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Sue Ding",
+      "description": "Asian American creatives pay passionate tribute to the iconic, stereotype-busting \"Baby-Sitters Club\" character in this heartfelt documentary short."
+    },
+    {
+      "show_id": "s6395",
+      "title": "The Girl Allergic to Wi-Fi",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "International Movies, Romantic Movies",
+      "cast": "Sue Ramirez, Jameson Blake, Markus Paterson, Angellie Saño",
+      "director": "Jun Lana",
+      "description": "When an internet-obsessed teen develops a rare illness that forces her to move to a remote town, she must navigate her relationships without technology."
+    },
+    {
+      "show_id": "s4522",
+      "title": "NOVA: Black Hole Apocalypse",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries",
+      "cast": "Janna Levin",
+      "director": "Rushmore DeNooyer",
+      "description": "Astrophysicists show how black holes might hold answers to how the universe evolved, leading to life on Earth and, ultimately, the human race."
+    },
+    {
+      "show_id": "s4371",
+      "title": "Mystery Science Theater 3000",
+      "type": "TV Show",
+      "release_year": 1999,
+      "listed_in": "TV Comedies, TV Sci-Fi & Fantasy",
+      "cast": "Joel Hodgson, Michael J. Nelson, Kevin Murphy, Trace Beaulieu, Jim Mallon, Frank Conniff, Mary Jo Pehl, Bill Corbett, Patrick Brantseg, J. Elvis Weinstein",
+      "director": "",
+      "description": "Hosts Joel and Mike and their robot companions offer hilarious running commentary on B movies they're forced to watch in these classic MST3K episodes."
+    },
+    {
+      "show_id": "s2234",
+      "title": "Forbidden Planet",
+      "type": "Movie",
+      "release_year": 1956,
+      "listed_in": "Action & Adventure, Classic Movies, Sci-Fi & Fantasy",
+      "cast": "Leslie Nielsen, Walter Pidgeon, Anne Francis, Jack Kelly, Warren Stevens, James Drury, Earl Holliman",
+      "director": "Fred M. Wilcox",
+      "description": "A pulp-fiction sci-fi classic, Forbidden Planet stars Leslie Nielsen as a heroic starship captain who finds the paradise planet Altair-IV."
+    },
+    {
+      "show_id": "s1533",
+      "title": "Creeped Out",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "British TV Shows, Kids' TV, TV Thrillers",
+      "cast": "Victoria Diamond, William Romain, Sydney Wade, Jennifer James, Daniel Ryan, Robert Styles, Rhys Gannon, Maeve Larkin, Margaret Jackman, Katie Proctor, Jonathan Blake, Maximus Evans, Anya Lawrence, Tiffany Elefano, Diya Kittur, Berkley Silverman, Malen Clarkson, Jason Done, Rosina Carbone, Boris Burnell Anderson, Macey Howarth, Rebecca Hanssen, William Haresceugh, Chris Jack, Zita Sattar, Acushla-Tara Kupe, Tillie Amartey, Isabella Pinto, Bella Band, Lola Ogunyemi, Elizabeth Bower, Gianluca Gallucci, Jacob Henshaw, Amelia Curtis, Romy Weltman, Justin Paul Kelly, Jordan Poole, Thamela Mpumlwana, Jake Sim, Leah Choudhry, Daniel Ogbeide-John, Emma Gregory, Rachel Leskovac, Andonis Anthony, Kyle Breitkopf, Julian Richings, Kathryn Emily Douglas",
+      "director": "",
+      "description": "A masked figure known as \"The Curious\" collects tales of dark magic, otherworldly encounters and twisted technology in this kids anthology series."
+    },
+    {
+      "show_id": "s4684",
+      "title": "Origins Collection",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "Peter McDonnell",
+      "description": "This documentary series explores the stories behind history's most fascinating innovations, including games, technology, sports, medicine and more."
+    },
+    {
+      "show_id": "s4438",
+      "title": "Nazi Mega Weapons",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "This documentary series examines Nazi Germany's military hardware, defenses and technology, including fortifications, U-boats and ballistic missiles."
+    },
+    {
+      "show_id": "s459",
+      "title": "American Crime Story: The People v. O.J. Simpson",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Crime TV Shows, TV Dramas",
+      "cast": "Cuba Gooding Jr., Sarah Paulson, John Travolta, Courtney B. Vance, Sterling K. Brown, Kenneth Choi, Christian Clemenson, Bruce Greenwood, Nathan Lane, David Schwimmer, Chris Bauer, Jordana Brewster, Selma Blair, Connie Britton",
+      "director": "",
+      "description": "This anthology series dramatizes historic criminal cases in the U.S., including the O.J. Simpson trial and Andrew Cunanan's 1997 murder spree."
+    },
+    {
+      "show_id": "s2954",
+      "title": "Immoral Tales",
+      "type": "Movie",
+      "release_year": 1974,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Lise Danvers, Fabrice Luchini, Charlotte Alexandra, Paloma Picasso, Pascale Christophe, Florence Bellamy, Jacopo Berinizi, Lorenzo Berinizi",
+      "director": "Walerian Borowczyk",
+      "description": "This anthology illustrates the timeless nature of desire in four stories of incest, bloodlust and other forbidden subjects."
+    },
+    {
+      "show_id": "s2138",
+      "title": "Fear Files... Har Mod Pe Darr",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "International TV Shows, TV Horror, TV Thrillers",
+      "cast": "",
+      "director": "",
+      "description": "Possessed lovers, witches, haunted houses and more bring tales of horror to the screen in this anthology series."
+    },
+    {
+      "show_id": "s6327",
+      "title": "The Eighties",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "This nostalgic documentary series relives the 1980s from a variety of angles, exploring its impact on the politics, technology and culture of today."
+    },
+    {
+      "show_id": "s2755",
+      "title": "History's Greatest Hoaxes",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Using previously unseen footage, this documentary series offers new insights into some of the biggest scams and forgeries in human history."
+    },
+    {
+      "show_id": "s2980",
+      "title": "Inception",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Action & Adventure, Sci-Fi & Fantasy, Thrillers",
+      "cast": "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Tom Hardy, Ken Watanabe, Dileep Rao, Cillian Murphy, Tom Berenger, Marion Cotillard, Pete Postlethwaite, Michael Caine, Lukas Haas",
+      "director": "Christopher Nolan",
+      "description": "In this mind-bending sci-fi thriller, a man runs an espionage business built around entering the subconscious of his targets to mold their thoughts."
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "split": "test",
+  "query_id": "doping_scandal_doc",
+  "query": "documentary about a sports doping conspiracy",
+  "candidates": [
+    {
+      "show_id": "s1515",
+      "title": "Crack: Cocaine, Corruption & Conspiracy",
+      "type": "Movie",
+      "release_year": 2021,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Stanley Nelson",
+      "description": "A cheap, powerful drug emerges during a recession, igniting a moral panic fueled by racism. Explore the complex history of crack in the 1980s."
+    },
+    {
+      "show_id": "s2233",
+      "title": "Forbidden Games: The Justin Fashanu Story",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, International Movies, LGBTQ Movies",
+      "cast": "Justin Fashanu, John Fashanu",
+      "director": "Jon Carey, Adam Darke",
+      "description": "This documentary chronicles the tragic, true story of Justin Fashanu, the first – and only – openly gay man to have played professional soccer."
+    },
+    {
+      "show_id": "s2787",
+      "title": "Home Game",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "This docuseries profiles unique and dangerous traditional sports from around the world, as well as the communities and cultures where they thrive."
+    },
+    {
+      "show_id": "s7772",
+      "title": "Zion",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Zion Clark",
+      "director": "Floyd Russ",
+      "description": "Born without legs and stuck in foster care for years, teen Zion Clark finds his calling when he pursues competitive wrestling. A documentary short."
+    },
+    {
+      "show_id": "s6376",
+      "title": "The Free Man",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Jossi Wells",
+      "director": "Toa Fraser",
+      "description": "Olympic freestyle skier Jossi Wells learns the dangerous extreme sport of highlining with help from death-defying daredevils the Flying Frenchies."
+    },
+    {
+      "show_id": "s183",
+      "title": "A Gray State",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Erik Nelson",
+      "description": "This documentary dissects the case of a filmmaker whose death, along with the deaths of his wife and daughter, sparked alt-right conspiracy theories."
+    },
+    {
+      "show_id": "s1745",
+      "title": "Diamond City",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Noxee Maqashalala, Angela Sithole, Nambitha Ben-Mazwi, Thabang Molaba, Lehlohonolo Makoko, Ilse Klink, Makgano Mamabolo, Tshepo Maseko",
+      "director": "",
+      "description": "A prominent prosecuting attorney must defend her innocence — and her life — when she's set up and sent to prison as she investigates a conspiracy."
+    },
+    {
+      "show_id": "s5928",
+      "title": "Survivors Guide to Prison",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "Susan Sarandon",
+      "director": "Matthew Cooke",
+      "description": "Former inmates, officers and celebrities critique the U.S. prison system in this documentary packaged as a how-to handbook for the incarcerated."
+    },
+    {
+      "show_id": "s5425",
+      "title": "Scandal",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, TV Dramas",
+      "cast": "Kerry Washington, Columbus Short, Darby Stanchfield, Katie Lowes, Guillermo Díaz, Joshua Malina, Jeff Perry, Bellamy Young, Tony Goldwyn, Scott Foley",
+      "director": "",
+      "description": "A powerful team of Washington, D.C. lawyers makes scandals disappear while handling government crises and coping with problems of their own."
+    },
+    {
+      "show_id": "s1640",
+      "title": "Dawn of the Croods",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Kids' TV",
+      "cast": "Stephanie Lemelin, A.J. LoCascio, Dan Milano, Grey DeLisle, Cree Summer, Laraine Newman, Chris Parnell, Ana Gasteyer, Dee Bradley Baker, Thomas Lennon, Dominic Catrambone",
+      "director": "",
+      "description": "The world's first family is back for more laughs as they discover sports, sleepovers and other wonders in a world of exotic creatures and adventures."
+    },
+    {
+      "show_id": "s5608",
+      "title": "Silicon Cowboys",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Jason Cohen",
+      "description": "This documentary tells the story of Compaq Computer and its three founders, who in 1982, took on Goliath IBM at the height of its PC dominance."
+    },
+    {
+      "show_id": "s562",
+      "title": "APEX: The Story of the Hypercar",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "Zachary Levi",
+      "director": "J.F. Musial, Josh Vietze",
+      "description": "A visionary carmaker introduces his fuel-efficient, high-performance hypercar to a market filled with big-name competitors like Ferrari and Porsche."
+    },
+    {
+      "show_id": "s629",
+      "title": "Autohead",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Deepak Sampat, Ronjini Chakroborty, Vikrant Singh, Jhanvi Dwivedi, Ajay Mishra, Rohit Mittal, Sunny Banerjee, Ravidev Singh",
+      "director": "Rohit Mittal",
+      "description": "A production crew that thinks it's making a documentary about a humble Mumbai rickshaw driver unmasks a horrifying truth about their film's subject."
+    },
+    {
+      "show_id": "s3971",
+      "title": "Marvel's The Punisher",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, TV Action & Adventure, TV Thrillers",
+      "cast": "Jon Bernthal, Ebon Moss-Bachrach, Ben Barnes, Amber Rose Revah, Jason R. Moore, Daniel Webber, Jaime Ray Newman, Michael Nathanson, Deborah Ann Woll, Paul Schulze",
+      "director": "",
+      "description": "A former Marine out to punish the criminals responsible for his family's murder finds himself ensnared in a military conspiracy."
+    },
+    {
+      "show_id": "s5749",
+      "title": "Speed Is My Need",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Mark Sloper",
+      "description": "This daredevil documentary trails behind and into the minds of the biggest names in one of the world's most dangerous sports, superbike racing."
+    },
+    {
+      "show_id": "s2933",
+      "title": "Icarus",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Bryan Fogel, Grigory Rodchenkov",
+      "director": "Bryan Fogel",
+      "description": "An American filmmaker and cyclist unwittingly wades into a global scandal when a Russian scientist leaks shocking details of a vast doping conspiracy."
+    },
+    {
+      "show_id": "s1238",
+      "title": "Casting JonBenet",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Kitty Green",
+      "description": "Local actors from JonBenet Ramsey's hometown offer multiple perspectives on her 1996 murder as they vie to play roles in a dramatization of the case."
+    },
+    {
+      "show_id": "s6236",
+      "title": "The Competition",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Romantic Movies",
+      "cast": "Thora Birch, Chris Klein, Claire Coffee, David Blue, Kelsey Tucker, Michael Draper, Jason Tobias, Gabrielle Stone, Catherine Johnson, Tiffany Fallon",
+      "director": "Harvey Lowry",
+      "description": "After developing an \"infidelity formula\" said to repel cheating, a popular blogger crosses paths with a charming lawyer willing to put it to the test."
+    },
+    {
+      "show_id": "s6584",
+      "title": "The Legend of Cocaine Island",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Theo Love",
+      "description": "An urban legend about a duffel bag of cocaine buried in the Caribbean leads a misfit band to hatch a nutball plan to find it in this comic documentary."
+    },
+    {
+      "show_id": "s36",
+      "title": "#Rucker50",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Robert McCullough Jr.",
+      "description": "This documentary celebrates the 50th anniversary of the Harlem sports program that has inspired countless city kids to become pro basketball players."
+    },
+    {
+      "show_id": "s7294",
+      "title": "Tyson",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Mike Tyson, Trevor Berbick",
+      "director": "James Toback",
+      "description": "In this surprisingly emotional documentary, heavyweight champ Mike Tyson analyzes the controversies surrounding his career and turbulent private life."
+    },
+    {
+      "show_id": "s6810",
+      "title": "The Redeemed and the Dominant: Fittest on Earth",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Heber Cannon, Mariah Moore, Marston Sawyers",
+      "description": "Questions about endurance, doping and overall toughness surround a group of elite athletes as they compete fiercely at the Reebok Crossfit Games."
+    },
+    {
+      "show_id": "s472",
+      "title": "American Odyssey",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "TV Dramas, TV Thrillers",
+      "cast": "Anna Friel, Peter Facinelli, Jake Robinson, Jim True-Frost, Treat Williams, Sadie Sink, Omar Ghazaoui, Nate Mooney, Elena Kampouris, Daniella Pineda, Adewale Akinnuoye-Agbaje",
+      "director": "",
+      "description": "An elite soldier, a corporate lawyer and a political activist uncover a deadly conspiracy linking terrorists to a powerful American corporation."
+    },
+    {
+      "show_id": "s4773",
+      "title": "Parchís: the Documentary",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, International Movies, Music & Musicals",
+      "cast": "",
+      "director": "Daniel Arasanz",
+      "description": "The spotlight's on Parchís, a record company-created Spanish boy/girl band that had unprecedented success with Top 10 songs and hit films in the '80s."
+    },
+    {
+      "show_id": "s4748",
+      "title": "Palio",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries, International Movies, Sports Movies",
+      "cast": "",
+      "director": "Cosima Spender",
+      "description": "In this documentary, a centuries-old horse race in the city of Siena, Italy, is the forum for a showdown between a young jockey and his former mentor."
+    },
+    {
+      "show_id": "s4117",
+      "title": "Minimalism: A Documentary About the Important Things",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "Joshua Fields Millburn, Ryan Nicodemus",
+      "director": "Matt D'Avella",
+      "description": "People dedicated to rejecting the American ideal that things bring happiness are interviewed in this documentary showing the virtues of less is more."
+    },
+    {
+      "show_id": "s1959",
+      "title": "El límite infinito",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, International Movies, Sports Movies",
+      "cast": "Jean Maggi",
+      "director": "Pablo Aulita",
+      "description": "From early struggles to his climb up the Himalayas, Jean Maggi gets profiled in this documentary that highlights his advancement of adaptive sports."
+    },
+    {
+      "show_id": "s612",
+      "title": "Athlete A",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Bonni Cohen, Jon Shenk",
+      "description": "This documentary focuses on the gymnasts who survived USA Gymnastics doctor Larry Nassar's abuse and the reporters who exposed USAG's toxic culture."
+    },
+    {
+      "show_id": "s7387",
+      "title": "Valor",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "TV Action & Adventure, TV Dramas",
+      "cast": "Christina Ochoa, Matt Barr, Corbin Reid, Charlie Barnett, W. Tré Davis",
+      "director": "",
+      "description": "Following an unsuccessful mission in Somalia, the two surviving members of a U.S. Army helicopter crew are embroiled in an unseemly conspiracy."
+    },
+    {
+      "show_id": "s3201",
+      "title": "John & Jane",
+      "type": "Movie",
+      "release_year": 2005,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Ashim Ahluwalia",
+      "description": "Truth and fiction blend in this quasi-documentary about six exhausted workers at a Mumbai call center servicing U.S. customers."
+    },
+    {
+      "show_id": "s4536",
+      "title": "NOVA: Prediction by the Numbers",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries",
+      "cast": "Jay O. Sanders",
+      "director": "Daniel McCabe",
+      "description": "With the science of forecasting flourishing, this documentary explores how predictions inform our lives and statistics and algorithms' reliability."
+    },
+    {
+      "show_id": "s2760",
+      "title": "Hitler's Olympics",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Daniel Kontur",
+      "description": "Hitler, Nazi propaganda and 1936 Berlin Olympics are put under the microscope to uncover hidden truths and the historical legacy of those games."
+    },
+    {
+      "show_id": "s5445",
+      "title": "Screwball",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Billy Corben",
+      "description": "A steroid peddler explains how he went from an unlicensed anti-aging expert to the point man for the biggest scandal in baseball history."
+    },
+    {
+      "show_id": "s7325",
+      "title": "Unchained: The Untold Story of Freestyle Motocross",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Josh Brolin",
+      "director": "Paul Taublieb, Jon Freeman",
+      "description": "This adrenaline-rush documentary traces the rise of freestyle motocross, arguably the world's most extreme sport, and spotlights its pioneers."
+    },
+    {
+      "show_id": "s7070",
+      "title": "Through My Father's Eyes: The Ronda Rousey Story",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Ronda Rousey",
+      "director": "Gary Stretch",
+      "description": "This documentary chronicles former Olympian and UFC champion Ronda Rousey's ascent to iconic status in the world of mixed martial arts."
+    },
+    {
+      "show_id": "s5826",
+      "title": "Stop at Nothing: The Lance Armstrong Story",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Documentaries, International Movies, Sports Movies",
+      "cast": "",
+      "director": "Alex Holmes",
+      "description": "An athlete dupes the world with his tale of miraculous recovery from cancer, becoming a sports hero and beacon of hope, but can he outpace the truth?"
+    },
+    {
+      "show_id": "s6767",
+      "title": "The Playbook",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Coaches with championship résumés share their personal rules for success in sports and life in this reflective and inspiring documentary series."
+    },
+    {
+      "show_id": "s7328",
+      "title": "Uncovered",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Nqobile Khumalo, Robert Hobbs, S'Thandiwe Kgoroge, Dumisani Mbebe, Thandeka Nodada, Fezile Makhanya",
+      "director": "Zuko Nodada",
+      "description": "To solve her sister's murder, a corporate protégé assumes her sibling's investigation into a mining conspiracy that could implicate her own boss."
+    },
+    {
+      "show_id": "s608",
+      "title": "At All Costs",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Parker Jackson Cartwright, Gabe York",
+      "director": "Mike Nicoll",
+      "description": "This revealing documentary explores how the high-stakes world of Amateur Athletic Union basketball has professionalized youth sports in America."
+    },
+    {
+      "show_id": "s3905",
+      "title": "Manhattan Romance",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Comedies, Independent Movies, Romantic Movies",
+      "cast": "Tom O'Brien, Katherine Waterston, Caitlin Fitzgerald, Gaby Hoffmann, Louis Cancelmi, Zach Grenier",
+      "director": "Tom O'Brien",
+      "description": "A filmmaker working on a documentary about love in modern Manhattan becomes personally entangled in the romantic lives of his subjects."
+    },
+    {
+      "show_id": "s2844",
+      "title": "How to Fix a Drug Scandal",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Two drug lab chemists' shocking crimes cripple a state's judicial system and blur the lines of justice for lawyers, officials and thousands of inmates."
+    },
+    {
+      "show_id": "s7478",
+      "title": "War Chhod Na Yaar",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Sharman Joshi, Soha Ali Khan, Javed Jaffrey, Dalip Tahil, Mukul Dev, Sanjay Mishra, Vivek Rana, Manoj Pahwa",
+      "director": "Faraz Haider",
+      "description": "Set in an India-Pakistan border post, this satirical but thought-provoking comedy about war deals with serious events in a humorous manner."
+    },
+    {
+      "show_id": "s2231",
+      "title": "For the Win",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Reality TV",
+      "cast": "Brodie Smith",
+      "director": "",
+      "description": "Frisbee national champion Brodie Smith challenges inventive athletes across the US to an exhibition match in the unconventional sports they've created."
+    },
+    {
+      "show_id": "s2371",
+      "title": "Generation Iron 2",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Vlad Yudin",
+      "description": "New-generation bodybuilding stars – including Rich Piana, Kai Greene and Calum von Moger – share their experiences competing in the demanding sport."
+    },
+    {
+      "show_id": "s3086",
+      "title": "Iverson",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Allen Iverson",
+      "director": "Zatella Beatty",
+      "description": "This unfiltered documentary follows the rocky life and stratospheric career of Allen Iverson, an NBA icon who left an indelible mark on the sport."
+    },
+    {
+      "show_id": "s2317",
+      "title": "Functional Fitness",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Bob Rose",
+      "description": "This documentary explores the challenging, transformative world of high-intensity fitness programs through the eyes of the people who've embraced them."
+    },
+    {
+      "show_id": "s932",
+      "title": "Biohackers",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Dramas, TV Sci-Fi & Fantasy",
+      "cast": "Luna Wedler, Jessica Schwarz, Adrian Julius Tillmann, Thomas Prenn, Jing Xiang, Caro Cult, Sebastian Jakob Doppelbauer",
+      "director": "",
+      "description": "A medical student enters a top German university on a secret mission to uncover a conspiracy linking a family tragedy to a visionary biology professor."
+    },
+    {
+      "show_id": "s4684",
+      "title": "Origins Collection",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "Peter McDonnell",
+      "description": "This documentary series explores the stories behind history's most fascinating innovations, including games, technology, sports, medicine and more."
+    },
+    {
+      "show_id": "s1795",
+      "title": "Documentary Now!",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Comedies",
+      "cast": "Fred Armisen, Bill Hader, Helen Mirren",
+      "director": "",
+      "description": "Elevating the art of parody, this sharply comic series spoofs high-profile documentaries such as \"Grey Gardens\" and \"The Thin Blue Line.\""
+    },
+    {
+      "show_id": "s6476",
+      "title": "The Hurt Business",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Kevin Costner",
+      "director": "Vlad Yudin",
+      "description": "Featuring legendary and up-and-coming MMA fighters, this documentary details the history of the brutal sport and the fighters' struggles and triumphs."
+    },
+    {
+      "show_id": "s1488",
+      "title": "Conspiracy",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "British TV Shows, Docuseries",
+      "cast": "Mark Bazeley",
+      "director": "",
+      "description": "Skeptics and others discuss widely held conspiracy theories involving aliens, government cover-ups, secret assassinations and other intrigues."
+    },
+    {
+      "show_id": "s4989",
+      "title": "Project S The Series",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, TV Dramas, Teen TV Shows",
+      "cast": "Wiwattanawarang Oabnithi, Mahayotaruk Thiti, Lerkcharoempoj Papangkorn, Imanothai Kawin, Sakuljaroensuk Apinya, Oat Pasakorn Sanrattana, Leeratanakajorn Thanapob, Skye Nateeton Wongrawee, Supapunpinyo Teeradon, Chansangavej Chayanit, Ketprapakorn Narikun, Pibunsonggram Kritsanapoom, Santinatornkul Chanon",
+      "director": "",
+      "description": "Sports and friendship intertwine in tales of a volleyball team, an autistic badminton player, a skateboarder with depression and an archery-club crush."
+    }
+  ]
+}

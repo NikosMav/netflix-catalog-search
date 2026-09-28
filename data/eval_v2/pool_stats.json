@@ -1,0 +1,320 @@
+{
+  "pool_depth": 10,
+  "shuffle_seed": 20260928,
+  "n_systems": 15,
+  "systems": [
+    "boolean",
+    "tf-idf",
+    "tf-idf(desc+meta)",
+    "tf-idf(desc+plot)",
+    "bm25",
+    "bm25(desc+meta)",
+    "bm25(desc+plot)",
+    "dense(title+desc)",
+    "dense(title+desc+meta)",
+    "dense(title+desc+plot)",
+    "dense(title-only)",
+    "hybrid(tfidf+dense)",
+    "hybrid(bm25+dense,meta)",
+    "dense+rerank",
+    "hybrid+rerank"
+  ],
+  "n_queries": 58,
+  "n_dev_queries": 28,
+  "n_test_queries": 30,
+  "n_candidate_slots": 3032,
+  "candidates_min": 21,
+  "candidates_max": 76,
+  "per_query": [
+    {
+      "split": "dev",
+      "query_id": "vietnam_war",
+      "n_candidates": 55
+    },
+    {
+      "split": "dev",
+      "query_id": "mickey_mouse",
+      "n_candidates": 45
+    },
+    {
+      "split": "dev",
+      "query_id": "semantic_cooking_show",
+      "n_candidates": 44
+    },
+    {
+      "split": "dev",
+      "query_id": "semantic_scandi_crime",
+      "n_candidates": 49
+    },
+    {
+      "split": "dev",
+      "query_id": "chess_drama",
+      "n_candidates": 49
+    },
+    {
+      "split": "dev",
+      "query_id": "zombie_apocalypse",
+      "n_candidates": 37
+    },
+    {
+      "split": "dev",
+      "query_id": "standup_kevin_hart",
+      "n_candidates": 21
+    },
+    {
+      "split": "dev",
+      "query_id": "dave_chappelle_comedy",
+      "n_candidates": 38
+    },
+    {
+      "split": "dev",
+      "query_id": "anime_death_note",
+      "n_candidates": 61
+    },
+    {
+      "split": "dev",
+      "query_id": "naruto_anime",
+      "n_candidates": 21
+    },
+    {
+      "split": "dev",
+      "query_id": "heist_spain",
+      "n_candidates": 40
+    },
+    {
+      "split": "dev",
+      "query_id": "oceans_heist",
+      "n_candidates": 47
+    },
+    {
+      "split": "dev",
+      "query_id": "space_documentary",
+      "n_candidates": 48
+    },
+    {
+      "split": "dev",
+      "query_id": "boxing_biopic",
+      "n_candidates": 47
+    },
+    {
+      "split": "dev",
+      "query_id": "ww2_holocaust_docs",
+      "n_candidates": 43
+    },
+    {
+      "split": "dev",
+      "query_id": "christmas_family_movie",
+      "n_candidates": 54
+    },
+    {
+      "split": "dev",
+      "query_id": "nature_planet_docs",
+      "n_candidates": 37
+    },
+    {
+      "split": "dev",
+      "query_id": "time_travel_romance",
+      "n_candidates": 65
+    },
+    {
+      "split": "dev",
+      "query_id": "rock_climbing_doc",
+      "n_candidates": 54
+    },
+    {
+      "split": "dev",
+      "query_id": "spy_thriller",
+      "n_candidates": 31
+    },
+    {
+      "split": "dev",
+      "query_id": "preschool_kids_show",
+      "n_candidates": 45
+    },
+    {
+      "split": "dev",
+      "query_id": "formula1_docuseries",
+      "n_candidates": 45
+    },
+    {
+      "split": "dev",
+      "query_id": "exact_title_stranger_things",
+      "n_candidates": 51
+    },
+    {
+      "split": "dev",
+      "query_id": "true_crime_serial_killer",
+      "n_candidates": 46
+    },
+    {
+      "split": "dev",
+      "query_id": "social_media_doc",
+      "n_candidates": 47
+    },
+    {
+      "split": "dev",
+      "query_id": "dark_german_series",
+      "n_candidates": 58
+    },
+    {
+      "split": "dev",
+      "query_id": "breaking_bad_universe",
+      "n_candidates": 51
+    },
+    {
+      "split": "dev",
+      "query_id": "witcher_fantasy",
+      "n_candidates": 47
+    },
+    {
+      "split": "test",
+      "query_id": "tech_anthology",
+      "n_candidates": 55
+    },
+    {
+      "split": "test",
+      "query_id": "adult_cartoon_hasbeen",
+      "n_candidates": 65
+    },
+    {
+      "split": "test",
+      "query_id": "hidden_camera_horror",
+      "n_candidates": 48
+    },
+    {
+      "split": "test",
+      "query_id": "makeover_reality",
+      "n_candidates": 64
+    },
+    {
+      "split": "test",
+      "query_id": "cat_transformation_anime",
+      "n_candidates": 56
+    },
+    {
+      "split": "test",
+      "query_id": "dystopian_therapy_film",
+      "n_candidates": 74
+    },
+    {
+      "split": "test",
+      "query_id": "divorce_drama",
+      "n_candidates": 63
+    },
+    {
+      "split": "test",
+      "query_id": "bully_redemption_anime",
+      "n_candidates": 59
+    },
+    {
+      "split": "test",
+      "query_id": "gymnastics_abuse_doc",
+      "n_candidates": 64
+    },
+    {
+      "split": "test",
+      "query_id": "trans_teen_drama",
+      "n_candidates": 63
+    },
+    {
+      "split": "test",
+      "query_id": "wrongful_conviction_series",
+      "n_candidates": 62
+    },
+    {
+      "split": "test",
+      "query_id": "doping_scandal_doc",
+      "n_candidates": 52
+    },
+    {
+      "split": "test",
+      "query_id": "adam_sandler_comedy",
+      "n_candidates": 59
+    },
+    {
+      "split": "test",
+      "query_id": "john_mulaney_standup",
+      "n_candidates": 38
+    },
+    {
+      "split": "test",
+      "query_id": "shah_rukh_romance",
+      "n_candidates": 65
+    },
+    {
+      "split": "test",
+      "query_id": "scorsese_deniro_crime",
+      "n_candidates": 67
+    },
+    {
+      "split": "test",
+      "query_id": "jerry_seinfeld_standup",
+      "n_candidates": 32
+    },
+    {
+      "split": "test",
+      "query_id": "marie_kondo_tidying",
+      "n_candidates": 72
+    },
+    {
+      "split": "test",
+      "query_id": "birmingham_gangsters",
+      "n_candidates": 52
+    },
+    {
+      "split": "test",
+      "query_id": "queen_elizabeth_drama",
+      "n_candidates": 46
+    },
+    {
+      "split": "test",
+      "query_id": "mumbai_crime_series",
+      "n_candidates": 51
+    },
+    {
+      "split": "test",
+      "query_id": "mexican_cartel_1980s",
+      "n_candidates": 37
+    },
+    {
+      "split": "test",
+      "query_id": "lagos_trafficking_drama",
+      "n_candidates": 63
+    },
+    {
+      "split": "test",
+      "query_id": "southern_classic_drama",
+      "n_candidates": 67
+    },
+    {
+      "split": "test",
+      "query_id": "office_mockumentary",
+      "n_candidates": 54
+    },
+    {
+      "split": "test",
+      "query_id": "karate_sequel_series",
+      "n_candidates": 57
+    },
+    {
+      "split": "test",
+      "query_id": "jordan_bulls_docuseries",
+      "n_candidates": 75
+    },
+    {
+      "split": "test",
+      "query_id": "regency_london_romance",
+      "n_candidates": 76
+    },
+    {
+      "split": "test",
+      "query_id": "korea_border_romance",
+      "n_candidates": 64
+    },
+    {
+      "split": "test",
+      "query_id": "delhi_police_investigation",
+      "n_candidates": 56
+    }
+  ]
+}

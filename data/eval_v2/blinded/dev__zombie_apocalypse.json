@@ -1,0 +1,377 @@
+{
+  "split": "dev",
+  "query_id": "zombie_apocalypse",
+  "query": "zombie apocalypse survival horror",
+  "candidates": [
+    {
+      "show_id": "s6338",
+      "title": "The Evil Dead",
+      "type": "Movie",
+      "release_year": 1981,
+      "listed_in": "Classic Movies, Cult Movies, Horror Movies",
+      "cast": "Bruce Campbell, Ellen Sandweiss, Richard DeManincor, Betsy Baker, Theresa Tilly, Bill Vincent, Scott Spiegel, Ivan Raimi, David Horton, John Cameron, Ted Raimi",
+      "director": "Sam Raimi",
+      "description": "During a stop at a remote cabin deep within the woods, a group of teens begins turning into flesh-eating zombies in director Sam Raimi's cult classic."
+    },
+    {
+      "show_id": "s3088",
+      "title": "IZombie",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Comedies, TV Dramas, TV Horror",
+      "cast": "Rose McIver, Malcolm Goodwin, Rahul Kohli, Robert Buckley, David Anders, Aly Michalka",
+      "director": "",
+      "description": "A medical student-turned-zombie tries to retain her humanity by eating brains at the morgue and finds she has an uncanny new gift for solving crimes."
+    },
+    {
+      "show_id": "s5107",
+      "title": "Ravenous",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Horror Movies, International Movies",
+      "cast": "Marc-André Grondin, Monia Chokri, Charlotte St-Martin, Brigitte Poupart, Marie-Ginette Guay, Micheline Lanctôt, Édouard Tremblay-Grenier, Luc Proulx, Didier Lucien, Robert Brouillette, Patrick Hivon",
+      "director": "Robin Aubert",
+      "description": "As a zombie plague ravages their rural Quebec town, a scrappy band of survivors join forces to flee the infected hordes in this quiet thriller."
+    },
+    {
+      "show_id": "s5429",
+      "title": "Scary Movie",
+      "type": "Movie",
+      "release_year": 2000,
+      "listed_in": "Comedies, Horror Movies",
+      "cast": "Anna Faris, Jon Abrahams, Shannon Elizabeth, Shawn Wayans, Regina Hall, Marlon Wayans, Lochlyn Munro, Cheri Oteri, Carmen Electra, Dave Sheridan, Kurt Fuller, Rick Ducommun, James Van Der Beek, Keenen Ivory Wayans, Marissa Jaret Winokur, Dan Joffre",
+      "director": "Keenen Ivory Wayans",
+      "description": "The Wayans brothers spoof some of Hollywood's biggest blockbusters, including Scream, I Know What You Did Last Summer, The Matrix and American Pie."
+    },
+    {
+      "show_id": "s6562",
+      "title": "The Last Kids on Earth",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Nick Wolfhard, Charles Demers, Garland Whitt, Montse Hernandez, Brian Drummond, Giles Panton, Keith David",
+      "director": "",
+      "description": "When zombies and monsters invade his hometown, a scrappy 13-year-old orphan teams up with his friends in hopes of surviving the chaos."
+    },
+    {
+      "show_id": "s3578",
+      "title": "Legion",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Action & Adventure, Horror Movies, Sci-Fi & Fantasy",
+      "cast": "Paul Bettany, Lucas Black, Tyrese Gibson, Adrianne Palicki, Charles S. Dutton, Jon Tenney, Kevin Durand, Willa Holland, Kate Walsh, Dennis Quaid, Jeanette Miller, Cameron Harlow, Doug Jones, Josh Stamberg, Yancey Arias",
+      "director": "Scott Stewart",
+      "description": "A motley crew of apocalypse survivors living at an abandoned truck stop never suspects that the pregnant woman among them is carrying the Messiah."
+    },
+    {
+      "show_id": "s3126",
+      "title": "Japan Sinks: 2020",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Reina Ueda, Tomo Muranaka, Yuko Sasaki, Masaki Terasoma, Hiroyuki Yoshino, Kensho Ono",
+      "director": "",
+      "description": "After catastrophic earthquakes devastate Japan, one family's resolve is tested on a journey of survival through the sinking archipelago."
+    },
+    {
+      "show_id": "s2811",
+      "title": "Horror Homes",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Docuseries, International TV Shows",
+      "cast": "Jill Halfpenny",
+      "director": "",
+      "description": "Dream homes turn into property nightmares when mold, maggots, natural disasters and other inconveniences move in."
+    },
+    {
+      "show_id": "s1874",
+      "title": "DreamWorks Spooky Stories: Volume 2",
+      "type": "TV Show",
+      "release_year": 2011,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Seth Rogen, Will Arnett, Hugh Laurie, Will Ferrell, David Cross, Sean Bishop, Kiefer Sutherland, Cody Cameron, Aron Warner",
+      "director": "",
+      "description": "The Shrek characters parody the music video \"Thriller\"; B.O.B. and pals battle zombie carrots; and Megamind faces the effects of the Button of Doom."
+    },
+    {
+      "show_id": "s6048",
+      "title": "The 100",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Action & Adventure, TV Dramas, TV Sci-Fi & Fantasy",
+      "cast": "Eliza Taylor, Paige Turco, Bob Morley, Marie Avgeropoulos, Christopher Larkin, Henry Ian Cusick, Isaiah Washington, Lindsey Morgan, Devon Bostick, Richard Harmon, Ricky Whittle, Jarod Joseph, Chelsey Reist, Sachin Sahel, Adina Porter",
+      "director": "",
+      "description": "A century after Earth was devastated by a nuclear apocalypse, 100 space station residents are sent to the planet to determine whether it's habitable."
+    },
+    {
+      "show_id": "s3420",
+      "title": "KL Zombi",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Comedies, Horror Movies, International Movies",
+      "cast": "Zizan Razak, Siti Saleha, Zain Hamid, Izara Aishah, Fadzli Daniel Ali, Usop Wilcha",
+      "director": "Woo Ming Jin",
+      "description": "A field hockey-playing pizza delivery boy finds himself transformed from slacker to zombie slayer during an outbreak of the undead in Kuala Lumpur."
+    },
+    {
+      "show_id": "s1643",
+      "title": "Day of the Dead: Bloodline",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Horror Movies, Independent Movies",
+      "cast": "Johnathon Schaech, Sophie Skelton, Marcus Vanco, Jeff Gum, Lillian Blankenship, Ulyana Chan, Shari Watson, Atanas Srebrev",
+      "director": "Hèctor Hernández Vicens",
+      "description": "A former medical student battles for survival against an evil human-zombie hybrid determined to destroy her, in this reimagining of the 1985 classic."
+    },
+    {
+      "show_id": "s7778",
+      "title": "Zombie Dumb",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Kids' TV, Korean TV Shows, TV Comedies",
+      "cast": "",
+      "director": "",
+      "description": "While living alone in a spooky town, a young girl befriends a motley crew of zombie children with diverse personalities."
+    },
+    {
+      "show_id": "s5922",
+      "title": "Surviving Death",
+      "type": "TV Show",
+      "release_year": 2021,
+      "listed_in": "Docuseries, Reality TV",
+      "cast": "",
+      "director": "",
+      "description": "What happens after we die? This docuseries explores personal stories and research on near-death experiences, reincarnation and paranormal phenomena."
+    },
+    {
+      "show_id": "s2654",
+      "title": "Haunters: The Art of the Scare",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, Horror Movies",
+      "cast": "",
+      "director": "Jon Schnitzer",
+      "description": "This documentary takes us into the world of those who create horror simulations for willing audiences, and examines the culture they have spawned."
+    },
+    {
+      "show_id": "s6082",
+      "title": "The Amityville Horror",
+      "type": "Movie",
+      "release_year": 2005,
+      "listed_in": "Horror Movies",
+      "cast": "Ryan Reynolds, Melissa George, Chloë Grace Moretz, Jesse James, Jimmy Bennett, Rachel Nichols, Philip Baker Hall, Isabel Conner, Brendan Donaldson, Annabel Armour",
+      "director": "Andrew Douglas",
+      "description": "This hair-raising remake of the 1979 horror hit depicts the ordeal of the Lutz family, whose new home has a gory past and a legacy of demons."
+    },
+    {
+      "show_id": "s7779",
+      "title": "Zombieland",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Comedies, Horror Movies",
+      "cast": "Jesse Eisenberg, Woody Harrelson, Emma Stone, Abigail Breslin, Amber Heard, Bill Murray, Derek Graf",
+      "director": "Ruben Fleischer",
+      "description": "Looking to survive in a world taken over by zombies, a dorky college student teams with an urban roughneck and a pair of grifter sisters."
+    },
+    {
+      "show_id": "s142",
+      "title": "7SEEDS",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Nao Toyama, Jun Fukuyama, Katsuyuki Konishi, Yoko Soumi, Kana Asumi, Akira Ishida, Aoi Yuki, Kazuhiko Inoue, Yoko Hikasa, Hirofumi Nojima, Ryotaro Okiayu, Eri Kitamura, Mamiko Noto, Ryo Hirohashi, Shizuka Ito, Hisao Egawa, Mayumi Asano, Kenta Miyake, Ai Kakuma, Kaito Ishikawa, Mikako Komatsu, Daisuke Sakaguchi, Takanori Hoshino, Kenjiro Tsuda, Nozomu Sasaki, Kenji Nojima, Houko Kuwashima, Kensho Ono, Takahiro Sakurai, Haruka Chisuga, Yu Shimamura, Takuma Terashima, Takuya Sato, Junko Minagawa, Masashi Sugawara, Sho Hayami, Kazuyuki Okitsu, Minako Kotobuki",
+      "director": "",
+      "description": "Shy Natsu awakens as part of a group chosen to ensure the survival of humanity. Together, they have to survive on a changed Earth."
+    },
+    {
+      "show_id": "s7562",
+      "title": "What Still Remains",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Lulu Antariksa, Colin O'Donoghue, Mimi Rogers, Peter O'Brien, Dohn Norwood, Jeff Kober, Roshon Fegan, Siena Goines, Chris Ellis, Tobias Jelinek",
+      "director": "Josh Mendoza",
+      "description": "Struggling to survive alone post-apocalypse, a young woman is offered protection by an unknown man, but his village may not be the haven she imagines."
+    },
+    {
+      "show_id": "s5661",
+      "title": "Slasher",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Horror, TV Mysteries, TV Thrillers",
+      "cast": "Katie McGrath, Brandon Jay McLaren, Steve Byers, Patrick Garrow, Dean McDermott, Christopher Jacot, Wendy Crewson, Leslie Hope, Lovell Adams-Gray, Jim Watson, Paulino Nunes, Ty Olsson, Joanne Vannicola, Sebastian Pigott, Madison Cheeatow, Melinda Shankar, Kaitlyn Leeb, Rebecca Liddiard, Paula Brancati, Salvatore Antonio, Lisa Berry, Gabriel Darku, Erin Karpluk, Mercedes Morris, Ilan Muallem, Baraka Rahmani, Rosie Simon, Robert Cormier",
+      "director": "",
+      "description": "Rampaging serial killers leave carnage in their wake as their next victims fight to stay alive in this horror anthology series."
+    },
+    {
+      "show_id": "s2705",
+      "title": "Here Alone",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Horror Movies",
+      "cast": "Lucy Walters, Gina Piersanti, Adam David Thompson, Shane West, Ryken A. Whitfield, Abel McSurely Bradshaw, Rebecca Spiro",
+      "director": "Rod Blackhurst",
+      "description": "When she finally encounters two other survivors, a woman alone in a world decimated by a zombie epidemic struggles to trust her new companions."
+    },
+    {
+      "show_id": "s1081",
+      "title": "Brave New Jersey",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, Independent Movies",
+      "cast": "Tony Hale, Anna Camp, Sam Jaeger, Heather Burns, Dan Bakkedahl, Raymond J. Barry, Erika Alexander, Mel Rodriguez, Evan Jonigkeit, Grace Kaufman",
+      "director": "Jody Lambert",
+      "description": "Small-town residents mistake an Orson Welles radio broadcast for news about an alien invasion and are emboldened to act as they await an apocalypse."
+    },
+    {
+      "show_id": "s6377",
+      "title": "The Frozen Dead",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Charles Berling, Julia Piaton, Pascal Greggory, Nina Meurisse, Lubna Azabal, Anne Le Ny, Robinson Stévenin, Robert Plagnol, Sophie Guillemin",
+      "director": "",
+      "description": "A grisly find atop a mountain in the French Pyrenees leads investigator Martin Servaz into a twisted dance with a serial killer in this icy thriller."
+    },
+    {
+      "show_id": "s3032",
+      "title": "Into the Forest",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies, Sci-Fi & Fantasy",
+      "cast": "Ellen Page, Evan Rachel Wood, Max Minghella, Callum Keith Rennie, Michael Eklund, Wendy Crewson",
+      "director": "Patricia Rozema",
+      "description": "In the near future, two frightened sisters fight for survival after losing their father during a deadly, quietly looming apocalypse."
+    },
+    {
+      "show_id": "s7756",
+      "title": "Z Nation",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "TV Action & Adventure, TV Comedies, TV Horror",
+      "cast": "Nat Zang, Russell Hodgkinson, Michael Welch, Anastasia Baranova, Kellita Smith, DJ Qualls, Keith Allan, Pisay Pao",
+      "director": "",
+      "description": "A team embarks on a perilous cross-country mission to transport the one man who survived a deadly zombie virus, hoping he holds the key to a vaccine."
+    },
+    {
+      "show_id": "s6819",
+      "title": "The Rezort",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Horror Movies, International Movies",
+      "cast": "Dougray Scott, Jessica De Gouw, Martin McCann, Jassa Ahluwalia, Elen Rhys, Claire Goose",
+      "director": "Steve Barker",
+      "description": "After a global zombie war, the living dead are confined to a luxury island resort and hunted by tourists on safari – until the security system fails."
+    },
+    {
+      "show_id": "s6115",
+      "title": "The Barrier",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, Spanish-Language TV Shows, TV Dramas",
+      "cast": "Unax Ugalde, Olivia Molina, Eleonora Wexler, Abel Folk, Ángela Molina, Manu Fullola, Daniel Ibáñez, Laura Quirós, Nicolás Illoro, Belén Écija, Juan Blanco, Yaima Ramos",
+      "director": "",
+      "description": "One family’s fight for survival in a future dystopian Madrid illustrates the disparity between two worlds separated by a fence — and so much more."
+    },
+    {
+      "show_id": "s469",
+      "title": "American Horror Story",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Horror, TV Mysteries, TV Thrillers",
+      "cast": "Evan Peters, Sarah Paulson, Jessica Lange, Denis O'Hare, Kathy Bates, Angela Bassett, Lily Rabe, Frances Conroy, Cheyenne Jackson, Emma Roberts, Taissa Farmiga, Wes Bentley, Finn Wittrock, Chloë Sevigny, Zachary Quinto, Jamie Brewer, Naomi Grossman, Dylan McDermott, Gabourey Sidibe, Lady Gaga, Mare Winningham, Joseph Fiennes, Michael Chiklis, Matt Bomer, Lizzie Brocheré, Erika Ervin, Mat Fraser, Rose Siggins, Connie Britton, James Cromwell, Adina Porter, Jyoti Amge, Billie Lourde, Alison Pill, Billy Eichner, Leslie Grossman, Colton Haynes, Cuba Gooding Jr., André Holland, Danny Huston",
+      "director": "",
+      "description": "This twisted Emmy-winning drama plays upon the power of supernatural fears and everyday horrors, exploring humankind's unsettling capacity for evil."
+    },
+    {
+      "show_id": "s967",
+      "title": "Black Summer",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Action & Adventure, TV Dramas, TV Horror",
+      "cast": "Jaime King, Justin Chu Cary, Christine Lee, Sal Velez Jr., Kelsey Flower, Erika Hau, Edsson Morales, Gwynyth Walsh, Stafford Perry, Mustafa Alabssi",
+      "director": "",
+      "description": "In the dark, early days of a zombie apocalypse, complete strangers band together to find the strength they need to survive and get back to loved ones."
+    },
+    {
+      "show_id": "s6984",
+      "title": "The Walking Dead",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Classic & Cult TV, TV Action & Adventure, TV Dramas",
+      "cast": "Andrew Lincoln, Steven Yeun, Norman Reedus, Chandler Riggs, Melissa McBride, Lauren Cohan, Danai Gurira, Alanna Masterson, Sonequa Martin-Green, Josh McDermitt, Christian Serratos, Seth Gilliam, Ross Marquand, Lennie James, Emily Kinney, Jon Bernthal",
+      "director": "",
+      "description": "In the wake of a zombie apocalypse, survivors hold on to the hope of humanity by banding together to wage a fight for their own survival."
+    },
+    {
+      "show_id": "s1827",
+      "title": "Doomsday Preppers",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "Reality TV, Science & Nature TV",
+      "cast": "Michael Izquierdo",
+      "director": "",
+      "description": "This series highlights a diverse group of survivalists as they prepare for various catastrophic scenarios that could cause civilization to collapse."
+    },
+    {
+      "show_id": "s4771",
+      "title": "ParaNorman",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Kodi Smit-McPhee, Tucker Albrizzi, Anna Kendrick, Casey Affleck, Christopher Mintz-Plasse, Leslie Mann, Jeff Garlin, Elaine Stritch, Bernard Hill, Jodelle Ferland, Tempestt Bledsoe, Alex Borstein, John Goodman",
+      "director": "Sam Fell, Chris Butler",
+      "description": "When an army of zombies invades a small town, it's up to an odd local boy with a knack for communicating with the dead to save the day."
+    },
+    {
+      "show_id": "s4522",
+      "title": "NOVA: Black Hole Apocalypse",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries",
+      "cast": "Janna Levin",
+      "director": "Rushmore DeNooyer",
+      "description": "Astrophysicists show how black holes might hold answers to how the universe evolved, leading to life on Earth and, ultimately, the human race."
+    },
+    {
+      "show_id": "s915",
+      "title": "Bill Burr: I'm Sorry You Feel That Way",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Bill Burr",
+      "director": "Jay Karas",
+      "description": "Bill Burr escapes the zombie apocalypse, explores how rom-coms ruin great sex and explains how too many childhood hugs may be the downfall of man."
+    },
+    {
+      "show_id": "s5167",
+      "title": "Resident Evil: Afterlife",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Action & Adventure, Horror Movies, Sci-Fi & Fantasy",
+      "cast": "Milla Jovovich, Ali Larter, Kim Coates, Shawn Roberts, Sergio Peris-Mencheta, Spencer Locke, Boris Kodjoe, Wentworth Miller",
+      "director": "Paul W.S. Anderson",
+      "description": "The Undead Apocalypse continues as super-soldier Alice finds her way to a supposed sanctuary in Los Angeles, which may just be a deadly trap."
+    },
+    {
+      "show_id": "s5218",
+      "title": "Rise of the Zombie",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Horror Movies, International Movies",
+      "cast": "Luke Kenny, Kirti Kulhari, Ashwin Mushran, Benjamin Gilani",
+      "director": "Devaki Singh, Luke Kenny",
+      "description": "A heartbroken wildlife photographer throws himself into his work, only to find himself experiencing strange transformations."
+    },
+    {
+      "show_id": "s1028",
+      "title": "Bokeh",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Independent Movies, Sci-Fi & Fantasy",
+      "cast": "Maika Monroe, Matt O'Leary, Arnar Jónsson, Gunnar Helgason, Berglind Rós Sigurðardóttir",
+      "director": "Geoffrey Orthwein, Andrew Sullivan",
+      "description": "After learning they are the sole survivors of an eerie apocalypse, a young American couple on vacation in Iceland ponder their love and the future."
+    }
+  ]
+}

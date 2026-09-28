@@ -1,0 +1,487 @@
+{
+  "split": "test",
+  "query_id": "hidden_camera_horror",
+  "query": "horror movie about hidden cameras in a rental house",
+  "candidates": [
+    {
+      "show_id": "s6405",
+      "title": "The Good Neighbor",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, Independent Movies, Thrillers",
+      "cast": "James Caan, Logan Miller, Keir Gilchrist, Laura Innes, Edwin Hodge, Anne Dudek, Bailey Noble, Lili Reinhart, Mindy Sterling",
+      "director": "Kasra Farahani",
+      "description": "Two tech-savvy teens plot to fool a cranky old neighbor into believing his house is haunted, but their cruel prank soon takes some unexpected turns."
+    },
+    {
+      "show_id": "s6273",
+      "title": "The Dawn Wall",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Tommy Caldwell, Kevin Jorgeson",
+      "director": "Peter Mortimer, Josh Lowell",
+      "description": "Cameras follow Tommy Caldwell and Kevin Jorgeson as they take on the staggering challenge of free-climbing Yosemite’s most formidable rock formation."
+    },
+    {
+      "show_id": "s1701",
+      "title": "Demonic",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Horror Movies, Independent Movies",
+      "cast": "Maria Bello, Frank Grillo, Cody Horn, Dustin Milligan, Megan Park, Scott Mechlowicz, Aaron Yoo, Alex Goode, Terence Rosemore, Jesse Steccato",
+      "director": "Will Canon",
+      "description": "When amateur ghost hunters visit an abandoned house, their investigation turns into a massacre, leaving questions for a detective and a psychologist."
+    },
+    {
+      "show_id": "s4768",
+      "title": "Paranormal Activity",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Katie Featherston, Randy McDowell, Amber Armstrong, Mark Fredrichs, Micah Sloat, Ashley Palmer, James Piper",
+      "director": "Oren Peli",
+      "description": "When Katie and Micah fear their home may be haunted by a demonic presence, Micah sets up a video camera to document all the action."
+    },
+    {
+      "show_id": "s6371",
+      "title": "The Forgotten",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Horror Movies",
+      "cast": "Clem Tibber, Elarica Johnson, James Doherty, Shaun Dingwall, Lyndsey Marshal",
+      "director": "Oliver Frampton",
+      "description": "After a teenager goes to live with his father in abandoned public housing, he hears strange noises and decides to investigate with his new friend."
+    },
+    {
+      "show_id": "s70",
+      "title": "14 Cameras",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Neville Archambault, Amber Midthunder, Brytnee Ratledge, Hank Rogerson, Chelsea Edmundson, John-Paul Howard, Lora Martinez-Cunningham, Brianne Moncrief",
+      "director": "Scott Hussion, Seth Fuller",
+      "description": "Upping the “13 Cameras” ante, this sequel finds a family renting a vacation house that’s been customized to violate their privacy."
+    },
+    {
+      "show_id": "s993",
+      "title": "Bloodride",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Horror, TV Mysteries",
+      "cast": "Ine Marie Wilmann, Bjørnar Teigen, Emma Spetalen Magnusson, Erlend Rødal Vikhagen, Benjamin Helstad, Harald Rosenstrøm, Dagny Backer Johnsen, Stig Amdam, Numa Edema Norderhaug, Ellen Bendu, Torfinn Nag",
+      "director": "",
+      "description": "The doomed passengers aboard a spectral bus head toward a gruesome, unknown destination in this deliciously macabre horror anthology series."
+    },
+    {
+      "show_id": "s1674",
+      "title": "Death of Me",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Horror Movies",
+      "cast": "Maggie Q, Luke Hemsworth, Alex Essoe, Ingkarat Jaraswongkosol, Kelly B. Jones, Caledonia Burr",
+      "director": "Darren Lynn Bousman",
+      "description": "With no memory of the previous night, a vacationing couple uncovers a disturbing personal video that inexplicably shows one of them killing the other."
+    },
+    {
+      "show_id": "s5430",
+      "title": "Scary Movie 5",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Comedies, Horror Movies",
+      "cast": "Simon Rex, Ashley Tisdale, Charlie Sheen, Lindsay Lohan, Gracie Whitton, Ava Kolker, Erica Ash, Lidia Porto, Katrina Bowden, Terry Crews",
+      "director": "Malcolm D. Lee",
+      "description": "Taking aim at not only the horror genre but also films like \"Black Swan\" and \"Inception,\" \"Scary Movie 5\" widens the franchise's scope of mockery."
+    },
+    {
+      "show_id": "s7069",
+      "title": "Thriller",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Horror Movies",
+      "cast": "Jessica Allain, Luke Tennie, Tequan Richmond, Paige Hurd, Chelsea Rendon, Mitchell Edwards, Pepi Sonuga, Jason Woods, Maestro Harrell, RZA, Mykelti Williamson",
+      "director": "Dallas Jackson",
+      "description": "When a prank goes wrong, a shy kid from Compton is sent away for murder. Four years later, he’s back and out for revenge on homecoming weekend."
+    },
+    {
+      "show_id": "s1641",
+      "title": "Dawson's Creek",
+      "type": "TV Show",
+      "release_year": 2002,
+      "listed_in": "Romantic TV Shows, TV Dramas, Teen TV Shows",
+      "cast": "James Van Der Beek, Katie Holmes, Michelle Williams, Joshua Jackson, Kerr Smith, Meredith Monroe, Busy Philipps, Mary Beth Peil",
+      "director": "",
+      "description": "This nighttime soap about a group of close-knit teens frankly depicts the issues of adolescence that obsess young adults, including sex, sex and sex."
+    },
+    {
+      "show_id": "s3138",
+      "title": "Jeff Dunham: Minding the Monsters",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Jeff Dunham",
+      "director": "Manny Rodriguez",
+      "description": "Jeff Dunham returns with a haunted house full of his hysterical entourage, and each character stars in its own horror movie trailer."
+    },
+    {
+      "show_id": "s5444",
+      "title": "Scream 3",
+      "type": "Movie",
+      "release_year": 2000,
+      "listed_in": "Horror Movies",
+      "cast": "David Arquette, Neve Campbell, Courteney Cox, Patrick Dempsey, Scott Foley, Lance Henriksen, Matt Keeslar, Jenny McCarthy, Emily Mortimer, Parker Posey, Deon Richmond, Kelly Rutherford, Liev Schreiber, Patrick Warburton, Jamie Kennedy",
+      "director": "Wes Craven",
+      "description": "This installment of the tongue-in-cheek horror franchise finds Sidney Prescott once again battling a crazed killer – this time, on a movie set."
+    },
+    {
+      "show_id": "s2395",
+      "title": "Ghost House",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Horror Movies",
+      "cast": "Scout Taylor-Compton, James Landry Hébert, Mark Boone Junior, Michael S. New, Russell Geoffrey Banks, Rich Lee Gray, Elana Krausz, Kevin Ragsdale, Wen-Chu Yang, Katrina Grey",
+      "director": "Rich Ragsdale",
+      "description": "While visiting the site of a supernatural shrine in the Thai countryside, a vacationing couple unwittingly upsets a vengeful demon."
+    },
+    {
+      "show_id": "s2811",
+      "title": "Horror Homes",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Docuseries, International TV Shows",
+      "cast": "Jill Halfpenny",
+      "director": "",
+      "description": "Dream homes turn into property nightmares when mold, maggots, natural disasters and other inconveniences move in."
+    },
+    {
+      "show_id": "s4903",
+      "title": "Polaroid",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Horror Movies",
+      "cast": "Kathryn Prescott, Mitch Pileggi, Grace Zabriskie, Tyler Young, Samantha Logan, Javier Botet, Katie Stevens, Madelaine Petsch, Priscilla Quintana, Davi Santos, Keenan Tracey",
+      "director": "Lars Klevberg",
+      "description": "A teen's discovery of a vintage Polaroid camera develops into a darker tale when she finds that whoever takes their photo with it dies soon afterward."
+    },
+    {
+      "show_id": "s2834",
+      "title": "House of the Witch",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Horror Movies",
+      "cast": "Emily Bader, Darren Mann, Michelle Randolph, Coy Stewart, Jesse Pepe, Arden Belle, Joel Nagle, Nolan Bateman",
+      "director": "Alex Merkin",
+      "description": "A group of daring teens finds themselves in a fight for their lives inside a haunted house when a sinister spirit crashes their Halloween party."
+    },
+    {
+      "show_id": "s7332",
+      "title": "Under Arrest",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Crime TV Shows, Docuseries, International TV Shows",
+      "cast": "",
+      "director": "Dan Forrer",
+      "description": "Cameras follow police officers as they solve crimes, assist the public and arrest lawbreakers in this reality series."
+    },
+    {
+      "show_id": "s2655",
+      "title": "Haunting on Fraternity Row",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Horror Movies, Independent Movies",
+      "cast": "Jacob Artist, Jayson Blair, Shanley Caswell, Claudia Lee, Ashton Moio, Cameron Moulene, Molly Tarlov, Chester Rushing",
+      "director": "Brant Sersen",
+      "description": "When a fraternity's last big luau serves up horrible deaths to its partygoers, the brothers learn firsthand about their house’s frightening history."
+    },
+    {
+      "show_id": "s2903",
+      "title": "I Am the Pretty Thing That Lives in the House",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Horror Movies, International Movies, Thrillers",
+      "cast": "Ruth Wilson, Bob Balaban, Lucy Boynton, Paula Prentiss",
+      "director": "Osgood Perkins",
+      "description": "A nervous nurse who scares easily finds herself caring for an ailing horror novelist while living in a house with hidden secrets."
+    },
+    {
+      "show_id": "s6276",
+      "title": "The Day of the Lord",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Horror Movies, International Movies",
+      "cast": "Juli Fàbregas, Ximena Romo, Héctor Illanes, Dolores Heredia",
+      "director": "Santiago Alvarado Ilarri",
+      "description": "In this horror movie, a retired priest haunted by his sins is pulled back into the darkness when a friend begs him to help his possessed daughter."
+    },
+    {
+      "show_id": "s6725",
+      "title": "The Open House",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Dylan Minnette, Piercey Dalton, Patricia Bethune, Sharif Atkins, Aaron Abrams, Edward Olson, Katie Walder, Paul Rae",
+      "director": "Matt Angel, Suzanne Coote",
+      "description": "Following a tragedy, a mother and her teen son move to a relative's vacant vacation home, where eerie and unexplained forces conspire against them."
+    },
+    {
+      "show_id": "s184",
+      "title": "A Haunted House",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Comedies, Horror Movies",
+      "cast": "Marlon Wayans, Essence Atkins, Cedric the Entertainer, Nick Swardson, David Koechner, Dave Sheridan, Affion Crockett, J.B. Smoove, Andrew Daly, Alanna Ubach",
+      "director": "Michael Tiddes",
+      "description": "This spoof on scary movies follows a young couple settling into a new home, where an evil spirit — and horrifyingly hilarious antics — await."
+    },
+    {
+      "show_id": "s2660",
+      "title": "Havenhurst",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Julie Benz, Belle Shouse, Josh Stamberg, Danielle Harris, Douglas Tait, Matt Lasky, Dendrie Taylor, Toby Huss, Jennifer Blanc, Fionnula Flanagan",
+      "director": "Andrew C. Erin",
+      "description": "An alcoholic with a tragic past rents an apartment in a building for those in recovery, but soon learns the truth about residents who get \"evicted.\""
+    },
+    {
+      "show_id": "s5065",
+      "title": "Ragini MMS",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Horror Movies, International Movies",
+      "cast": "Kainaz Motivala, Rajkummar Rao, Rajat Kaul, Janice, Shernaza, Mangala Ahire, Vinod Rawat",
+      "director": "Pawan Kripalani",
+      "description": "A couple out to have a sensuous weekend at a house outside of Mumbai finds it rigged with surveillance cameras and occupied by an evil entity."
+    },
+    {
+      "show_id": "s4501",
+      "title": "Nobody Sleeps in the Woods Tonight",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Horror Movies, International Movies",
+      "cast": "Julia Wieniawa-Narkiewicz, Michał Lupa, Wiktoria Gąsiewska, Stanisław Cywka, Sebastian Dela, Gabriela Muskała, Michał Zbroja, Mirosław Zbrojewicz, Piotr Cyrwus, Olaf Lubaszenko, Wojciech Mecwaldowski",
+      "director": "Bartosz M. Kowalski",
+      "description": "Addicted to technology, a group of teens attends a rehabilitation camp in the forest, but a sinister force there intends to take them offline forever."
+    },
+    {
+      "show_id": "s4960",
+      "title": "Prank Encounters",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Reality TV, TV Comedies, TV Horror",
+      "cast": "Gaten Matarazzo",
+      "director": "",
+      "description": "Monstrous frights meet hilarious reveals on this hidden-camera prank show as real people become the stars of their own full-blown horror movie."
+    },
+    {
+      "show_id": "s5429",
+      "title": "Scary Movie",
+      "type": "Movie",
+      "release_year": 2000,
+      "listed_in": "Comedies, Horror Movies",
+      "cast": "Anna Faris, Jon Abrahams, Shannon Elizabeth, Shawn Wayans, Regina Hall, Marlon Wayans, Lochlyn Munro, Cheri Oteri, Carmen Electra, Dave Sheridan, Kurt Fuller, Rick Ducommun, James Van Der Beek, Keenen Ivory Wayans, Marissa Jaret Winokur, Dan Joffre",
+      "director": "Keenen Ivory Wayans",
+      "description": "The Wayans brothers spoof some of Hollywood's biggest blockbusters, including Scream, I Know What You Did Last Summer, The Matrix and American Pie."
+    },
+    {
+      "show_id": "s469",
+      "title": "American Horror Story",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Horror, TV Mysteries, TV Thrillers",
+      "cast": "Evan Peters, Sarah Paulson, Jessica Lange, Denis O'Hare, Kathy Bates, Angela Bassett, Lily Rabe, Frances Conroy, Cheyenne Jackson, Emma Roberts, Taissa Farmiga, Wes Bentley, Finn Wittrock, Chloë Sevigny, Zachary Quinto, Jamie Brewer, Naomi Grossman, Dylan McDermott, Gabourey Sidibe, Lady Gaga, Mare Winningham, Joseph Fiennes, Michael Chiklis, Matt Bomer, Lizzie Brocheré, Erika Ervin, Mat Fraser, Rose Siggins, Connie Britton, James Cromwell, Adina Porter, Jyoti Amge, Billie Lourde, Alison Pill, Billy Eichner, Leslie Grossman, Colton Haynes, Cuba Gooding Jr., André Holland, Danny Huston",
+      "director": "",
+      "description": "This twisted Emmy-winning drama plays upon the power of supernatural fears and everyday horrors, exploring humankind's unsettling capacity for evil."
+    },
+    {
+      "show_id": "s4305",
+      "title": "My Babysitter's a Vampire: The Movie",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Matthew Knight, Vanessa Morgan, Atticus Mitchell, Cameron Kennedy, Kate Todd, Joe Dinicol, Ella Jonas Farlinger, Ari Cohen, Laura de Carteret, Hrant Alianak",
+      "director": "Bruce McDonald",
+      "description": "When their parents head out for the evening, Ethan and his little sister get the babysitter of their nightmares: a fledgling vampire named Sarah."
+    },
+    {
+      "show_id": "s2267",
+      "title": "Freaks",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Independent Movies, Sci-Fi & Fantasy, Thrillers",
+      "cast": "Emile Hirsch, Bruce Dern, Lexy Kolker, Grace Park, Amanda Crew, Aleks Paunovic, Michelle Harrison",
+      "director": "Adam B. Stein, Zach Lipovsky",
+      "description": "Hidden away by her eccentric father, a mysterious young girl uncovers frightening truths when she starts to make contact with the outside world."
+    },
+    {
+      "show_id": "s63",
+      "title": "13 Cameras",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Horror Movies, Independent Movies, Thrillers",
+      "cast": "PJ McCabe, Brianne Moncrief, Sarah Baldwin, Jim Cummings, Heidi Niedermeyer, Neville Archambault",
+      "director": "Victor Zarcoff",
+      "description": "Young parents-to-be Claire and Ryan move into a suburban rental home, unaware that someone is secretly watching their every move via hidden cameras."
+    },
+    {
+      "show_id": "s2670",
+      "title": "Head Count",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Horror Movies, Independent Movies",
+      "cast": "Isaac Jay, Ashleigh Morghan, Bevin Bru, Billy Meade, Hunter Peterson, Chelcie May, Tory Freeth, Michael Herman, Amaka Obiechie, Sam Marra, Cooper Rowe",
+      "director": "Elle Callahan",
+      "description": "A group of college students on a weekend getaway accidentally summon a supernatural entity intent on using them for its deadly ritual."
+    },
+    {
+      "show_id": "s6464",
+      "title": "The House Next Door",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Horror Movies, International Movies, Thrillers",
+      "cast": "Siddharth, Andrea Jeremiah, Anisha Victor, Atul Kulkarni, Suresh, Prakash Belawadi",
+      "director": "Milind Rau",
+      "description": "In this Hindi version of \"Aval,\" a young couple's relationship is shaken to its core when a mysterious and troubled family moves into the neighborhood."
+    },
+    {
+      "show_id": "s1672",
+      "title": "Death House",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Horror Movies",
+      "cast": "Cody Longo, Cortney Palm, Adrienne Barbeau, Michael Berryman, Barbara Crampton, Sid Haig, Gunnar Hansen, Lindsay Hartley, Kane Hodder, Lloyd Kaufman, Camille Keaton, Bill Moseley, Tony Todd, Dee Wallace, Vincent Ward, Vernon Wells",
+      "director": "Harrison Smith",
+      "description": "Two federal agents battle through an army of rioting prisoners – and their sense of reality – inside a high-tech prison modeled after Dante’s Inferno."
+    },
+    {
+      "show_id": "s5410",
+      "title": "Saudi Arabia Uncovered",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "",
+      "description": "Undercover cameras expose public floggings, executions and other brutality in Saudi Arabia, and introduce those risking their own lives for change."
+    },
+    {
+      "show_id": "s5427",
+      "title": "Scare Tactics",
+      "type": "TV Show",
+      "release_year": 2011,
+      "listed_in": "Reality TV, TV Comedies, TV Horror",
+      "cast": "Tracy Morgan, Lauren Ash",
+      "director": "",
+      "description": "This ghoulish but hilarious hidden-camera show from Syfy finds mischievous friends and family members setting up unsuspecting victims for elaborate pranks that use high-quality makeup and special effects to unleash their worst fears upon them."
+    },
+    {
+      "show_id": "s2654",
+      "title": "Haunters: The Art of the Scare",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, Horror Movies",
+      "cast": "",
+      "director": "Jon Schnitzer",
+      "description": "This documentary takes us into the world of those who create horror simulations for willing audiences, and examines the culture they have spawned."
+    },
+    {
+      "show_id": "s1188",
+      "title": "Camera Store",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, Dramas",
+      "cast": "John Larroquette, John Rhys-Davies, Paul Ben-Victor, David James Elliott, Laura Silverman, Cheryl Ladd, Justin Lieberman, Maddie McCormick",
+      "director": "Scott Marshall Smith",
+      "description": "With the digital revolution just around the corner, the employees of Bibideaux camera store strive to stay relevant amid unstoppable change."
+    },
+    {
+      "show_id": "s6709",
+      "title": "The Night Clerk",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Tye Sheridan, Ana de Armas, Helen Hunt, John Leguizamo, Johnathon Schaech, Jacque Gray",
+      "director": "Michael Cristofer",
+      "description": "After a charming guest checks in, a voyeuristic hotel clerk on the autism spectrum becomes a suspect in a murder that takes place during his shift."
+    },
+    {
+      "show_id": "s5661",
+      "title": "Slasher",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Horror, TV Mysteries, TV Thrillers",
+      "cast": "Katie McGrath, Brandon Jay McLaren, Steve Byers, Patrick Garrow, Dean McDermott, Christopher Jacot, Wendy Crewson, Leslie Hope, Lovell Adams-Gray, Jim Watson, Paulino Nunes, Ty Olsson, Joanne Vannicola, Sebastian Pigott, Madison Cheeatow, Melinda Shankar, Kaitlyn Leeb, Rebecca Liddiard, Paula Brancati, Salvatore Antonio, Lisa Berry, Gabriel Darku, Erin Karpluk, Mercedes Morris, Ilan Muallem, Baraka Rahmani, Rosie Simon, Robert Cormier",
+      "director": "",
+      "description": "Rampaging serial killers leave carnage in their wake as their next victims fight to stay alive in this horror anthology series."
+    },
+    {
+      "show_id": "s4429",
+      "title": "Nature: Animals With Cameras",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries, Science & Nature TV",
+      "cast": "Gordon Buchanan",
+      "director": "",
+      "description": "With custom-built cameras attached to their bodies, animals from nine species offer a rare and intimate glimpse into their lives."
+    },
+    {
+      "show_id": "s2832",
+      "title": "House at the End of the Street",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Gil Bellows, Max Thieriot, Jennifer Lawrence, Elisabeth Shue, Jordan Hayes, James Thomas, Eva Link, Nolan Gerard Funk, Allie MacDonald, Krista Bridges",
+      "director": "Mark Tonderai",
+      "description": "Moving to a new town proves even more stressful for a teenager when she learns that the house next door was the site of a double murder."
+    },
+    {
+      "show_id": "s2653",
+      "title": "Haunted House",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Kids' TV, Korean TV Shows",
+      "cast": "Jo Hyun-jung, Gim Young-eun, Gim Chae-ha, I So Eun, Choe Jae-ho",
+      "director": "",
+      "description": "With help from a 102-year-old goblin dwelling beneath their haunted apartment building, two siblings deal with ghosts and take on spooky mysteries."
+    },
+    {
+      "show_id": "s5066",
+      "title": "Ragini MMS 2",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Horror Movies, International Movies",
+      "cast": "Sunny Leone, Saahil Prem, Parvin Dabas, Sandhya Mridul, Divya Dutta, Soniya Mehra, Kainaz Motivala, Karan Mehra",
+      "director": "Bhushan Patel",
+      "description": "The horror continues when Ragini's video goes viral and a sleazy director decides to make a movie about the incident in the original house."
+    },
+    {
+      "show_id": "s6441",
+      "title": "The Haunting of Hill House",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "TV Dramas, TV Horror, TV Mysteries",
+      "cast": "Michiel Huisman, Carla Gugino, Timothy Hutton, Henry Thomas, Elizabeth Reaser, Oliver Jackson-Cohen, Kate Siegel, Victoria Pedretti, Lulu Wilson, Mckenna Grace, Paxton Singleton, Julian Hilliard, Violet McGraw",
+      "director": "",
+      "description": "Flashing between past and present, a fractured family confronts haunting memories of their old home and the terrifying events that drove them from it."
+    },
+    {
+      "show_id": "s6474",
+      "title": "The Hunt",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "British TV Shows, Docuseries, Science & Nature TV",
+      "cast": "David Attenborough",
+      "director": "",
+      "description": "Witness some of the most riveting showdowns in the animal kingdom as cameras capture leopards, polar bears and other predators targeting their prey."
+    },
+    {
+      "show_id": "s5813",
+      "title": "Stephanie",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Horror Movies",
+      "cast": "Shree Cooks, Frank Grillo, Anna Torv",
+      "director": "Akiva Goldsman",
+      "description": "A menacing, unseen force stalks a young girl living by herself in a suburban house, where she's surrounded by reminders of her once-happy family."
+    }
+  ]
+}
