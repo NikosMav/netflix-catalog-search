@@ -1,0 +1,487 @@
+{
+  "split": "dev",
+  "query_id": "space_documentary",
+  "query": "documentary about astronauts living in space",
+  "candidates": [
+    {
+      "show_id": "s2847",
+      "title": "How to Live Mortgage Free with Sarah Beeny",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "British TV Shows, International TV Shows, Reality TV",
+      "cast": "",
+      "director": "",
+      "description": "Real estate expert and TV presenter Sarah Beeny meets with clever property owners who share their colorful stories about living mortgage free."
+    },
+    {
+      "show_id": "s346",
+      "title": "Agyaat",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Horror Movies, International Movies",
+      "cast": "Adesh Bhardwaj, Rasika Dugal, Joy Fernandes, Ravi Kale, Ishtiyak Khan, Priyanka Kothari, Kali Prasad Mukherjee, Nitin Reddy, Gautam Rode, Howard Rosemeyer",
+      "director": "Ram Gopal Varma",
+      "description": "A film crew shooting in a remote forested location begins losing members one by one to a mysterious entity that they cannot see or hear."
+    },
+    {
+      "show_id": "s5928",
+      "title": "Survivors Guide to Prison",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "Susan Sarandon",
+      "director": "Matthew Cooke",
+      "description": "Former inmates, officers and celebrities critique the U.S. prison system in this documentary packaged as a how-to handbook for the incarcerated."
+    },
+    {
+      "show_id": "s3734",
+      "title": "Lost in Space",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Action & Adventure, TV Dramas, TV Sci-Fi & Fantasy",
+      "cast": "Molly Parker, Toby Stephens, Max Jenkins, Taylor Russell, Mina Sundwall, Parker Posey, Ignacio Serricchio",
+      "director": "",
+      "description": "After crash-landing on an alien planet, the Robinson family fights against all odds to survive and escape. But they're surrounded by hidden dangers."
+    },
+    {
+      "show_id": "s3952",
+      "title": "Mars",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries, Science & Nature TV, TV Dramas",
+      "cast": "Jihae, Alberto Ammann, Clémentine Poidatz, Anamaria Marinca, Sammi Rotibi, Nicholas Wittman, Cosima Shaw",
+      "director": "Everardo Gout",
+      "description": "Fact meets fiction in this docudrama chronicling the journey of a spacecraft crew as it embarks in 2033 on a mission to colonize the red planet."
+    },
+    {
+      "show_id": "s6855",
+      "title": "The Search for Life in Space",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Stephen Amezdroz",
+      "description": "To determine whether we're alone in the universe, astrobiologists look to Jupiter, Mars and, closer to home, extreme environments on Earth."
+    },
+    {
+      "show_id": "s4149",
+      "title": "Mission Control: The Unsung Heroes of Apollo",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "David Fairhead",
+      "description": "Combining archive footage with present-day interviews, this documentary explores how Apollo's mission control helped change the course of history."
+    },
+    {
+      "show_id": "s6637",
+      "title": "The Making of Frozen Planet",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "British TV Shows, Docuseries, Science & Nature TV",
+      "cast": "David Attenborough",
+      "director": "",
+      "description": "Documentary crew members brave Earth's most frigid regions to capture the majesty and mystery found in the chillier side of the animal kingdom."
+    },
+    {
+      "show_id": "s15",
+      "title": "3022",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Independent Movies, Sci-Fi & Fantasy, Thrillers",
+      "cast": "Omar Epps, Kate Walsh, Miranda Cosgrove, Angus Macfadyen, Jorja Fox, Enver Gjokaj, Haaz Sleiman",
+      "director": "John Suits",
+      "description": "Stranded when the Earth is suddenly destroyed in a mysterious cataclysm, the astronauts aboard a marooned space station slowly lose their minds."
+    },
+    {
+      "show_id": "s4932",
+      "title": "Power Rangers in Space",
+      "type": "TV Show",
+      "release_year": 1998,
+      "listed_in": "Kids' TV",
+      "cast": "Tracy Lynn Cruz, Patricia Ja Lee, Christopher Khayman Lee, Justin Nimmo, Roger Velasco, Selwyn Ward, Melody Perkins, Paul Schrier, Jason Narvy, Mioko Fujiwara, Soichiro Hoshi, Yuji Kishimoto, Sanae Kobayashi, Tsuyoshi Takishita, Lex Lang",
+      "director": "",
+      "description": "With the Power Chamber destroyed, former Turbo Power Rangers T.J., Cassie, Carlos and Ashley search for Zordon, who's been abducted by Dark Specter."
+    },
+    {
+      "show_id": "s7614",
+      "title": "Why Are We Getting So Fat?",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "Giles Yeo",
+      "director": "Milla Harrison-Hansley, Alicky Sussman",
+      "description": "A Cambridge geneticist dispels misconceptions about living with obesity and explores why the epidemic continues to expand across the UK and America."
+    },
+    {
+      "show_id": "s4892",
+      "title": "Pocoyo Halloween: Space Halloween",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Movies",
+      "cast": "Stephen Fry, Montana Smedley",
+      "director": "",
+      "description": "Pocoyo and his friends have a costume contest to celebrate Halloween and learn new things about planets and stars in space."
+    },
+    {
+      "show_id": "s257",
+      "title": "A Year In Space",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Docuseries, International TV Shows, Science & Nature TV",
+      "cast": "Scott Kelly",
+      "director": "",
+      "description": "Two astronauts attempt to brave a life in Earth's orbit on a record-setting mission to see if humans have the endurance to survive a flight to Mars."
+    },
+    {
+      "show_id": "s4697",
+      "title": "Our Planet",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Docuseries, Science & Nature TV",
+      "cast": "David Attenborough",
+      "director": "",
+      "description": "Experience our planet's natural beauty and examine how climate change impacts all living creatures in this ambitious documentary of spectacular scope."
+    },
+    {
+      "show_id": "s396",
+      "title": "Alien Contact: Outer Space",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "J. Michael Long",
+      "director": "J. Michael Long",
+      "description": "This fact-based account delves into humankind's efforts to gather signals from possible intelligent beings beyond the solar system."
+    },
+    {
+      "show_id": "s319",
+      "title": "Aerials",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "International Movies, Sci-Fi & Fantasy",
+      "cast": "Saga Alyasery, Ana Druzhynina, Mansour Al Felei, Mohammad Abu Diak, Pascale Matar, Luke Coutts, Abeer Mohammed",
+      "director": "S.A. Zaidi",
+      "description": "Dubai residents struggle to figure out why a fleet of alien spaceships are hovering over their city when all contact with the outside world is cut off."
+    },
+    {
+      "show_id": "s3629",
+      "title": "Life on Location",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "British TV Shows, Docuseries, Science & Nature TV",
+      "cast": "David Attenborough",
+      "director": "",
+      "description": "Members of the BBC's \"Life\" production crew go behind the scenes to explain just what it took to capture key sequences of the program."
+    },
+    {
+      "show_id": "s71",
+      "title": "14 Minutes from Earth",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Adam Davis, Jerry Kolber, Trey Nelson, Erich Sturm",
+      "description": "A Google executive boldly attempts a death-defying mission to travel to space and free-fall back to Earth without a rocket."
+    },
+    {
+      "show_id": "s1795",
+      "title": "Documentary Now!",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Comedies",
+      "cast": "Fred Armisen, Bill Hader, Helen Mirren",
+      "director": "",
+      "description": "Elevating the art of parody, this sharply comic series spoofs high-profile documentaries such as \"Grey Gardens\" and \"The Thin Blue Line.\""
+    },
+    {
+      "show_id": "s4784",
+      "title": "Party Monster: Scratching the Surface",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies",
+      "cast": "Ellie Kemper, Jane Krakowski, Tituss Burgess, Carol Kane, Jon Hamm, Bobby Moynihan, Lauren Adams, Sara Chase, Sol Miranda, Derek Klena, Aidy Bryant",
+      "director": "",
+      "description": "In the probing documentary \"Party Monster,\" DJ Fingablast investigates what became of his childhood hero, DJ Slizzard."
+    },
+    {
+      "show_id": "s5733",
+      "title": "Space Cowboys",
+      "type": "Movie",
+      "release_year": 2000,
+      "listed_in": "Action & Adventure, Dramas, Sci-Fi & Fantasy",
+      "cast": "Clint Eastwood, Tommy Lee Jones, Donald Sutherland, James Garner, James Cromwell, Marcia Gay Harden, William Devane, Loren Dean, Courtney B. Vance, Rade Serbedzija, Barbara Babcock, Blair Brown",
+      "director": "Clint Eastwood",
+      "description": "A retired engineer agrees to help NASA prevent a Russian satellite from falling to Earth if he and his over-the-hill pals can man the mission."
+    },
+    {
+      "show_id": "s641",
+      "title": "Away",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Romantic TV Shows, TV Dramas, TV Sci-Fi & Fantasy",
+      "cast": "Hilary Swank, Josh Charles, Vivian Wu, Mark Ivanir, Ato Essandoh, Ray Panthaki, Talitha Eliana Bateman",
+      "director": "",
+      "description": "Commander Emma Green leaves behind her husband and daughter to lead an international crew of astronauts on a perilous three-year mission to Mars."
+    },
+    {
+      "show_id": "s5734",
+      "title": "Space Force",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Comedies",
+      "cast": "Steve Carell, John Malkovich, Ben Schwartz, Diana Silvers, Tawny Newsome, Jimmy O. Yang, Don Lake, Lisa Kudrow, Fred Willard, Spencer House, Owen Daniels, Hector Duran, Chris Gethard, Aparna Nancherla",
+      "director": "",
+      "description": "A four-star general begrudgingly teams up with an eccentric scientist to get the U.S. military's newest agency — Space Force — ready for lift-off."
+    },
+    {
+      "show_id": "s6665",
+      "title": "The Midnight Gospel",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Comedies",
+      "cast": "Duncan Trussell, Phil Hendrie, Drew Pinsky, Joey Diaz, Natasha Leggero, Johnny Pemberton, Christina Pazsitzky, Anne Lamott, Damien Echols, Trudy Goodman, Maria Bamford, Pauly Shore, Doug Lussenhop, David Nichtern, Steve Little, Caitlin Doughty, Stephen Root",
+      "director": "",
+      "description": "Traversing trippy worlds inside his universe simulator, a space caster explores existential questions about life, death and everything in between."
+    },
+    {
+      "show_id": "s6633",
+      "title": "The Magic School Bus Rides Again Kids In Space",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Children & Family Movies",
+      "cast": "Kate McKinnon, Matthew Mucci, Mikaela Blake, Gabby Clarke, Roman Lutterotti, Leke Maceda-Rustecki, Birva Pandya, Lynsey Pham, Kaden Stephen",
+      "director": "Richard Weston",
+      "description": "The Magic School Bus kids blast into orbit — and onto the International Space Station — only to find themselves on the run from a giant tardigrade!"
+    },
+    {
+      "show_id": "s1634",
+      "title": "David Attenborough: A Life on Our Planet",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries",
+      "cast": "David Attenborough",
+      "director": "Alastair Fothergill, Jonnie Hughes, Keith Scholey",
+      "description": "A broadcaster recounts his life, and the evolutionary history of life on Earth, to grieve the loss of wild places and offer a vision for the future."
+    },
+    {
+      "show_id": "s6028",
+      "title": "Terra",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Vanessa Paradis",
+      "director": "Yann Arthus-Bertrand, Michael Pitiot",
+      "description": "This visually arresting documentary essay reflects on our relationship to other living creatures as humanity becomes more isolated from nature."
+    },
+    {
+      "show_id": "s5787",
+      "title": "Star Trek: Deep Space Nine",
+      "type": "TV Show",
+      "release_year": 1999,
+      "listed_in": "TV Action & Adventure, TV Sci-Fi & Fantasy",
+      "cast": "Avery Brooks, Nana Visitor, Rene Auberjonois, Cirroc Lofton, Alexander Siddig, Colm Meaney, Armin Shimerman, Terry Farrell, Michael Dorn",
+      "director": "",
+      "description": "In this \"Star Trek\" spin-off, Commander Sisko leads the multi-species crew of Deep Space Nine, a Federation space station with a complex mission."
+    },
+    {
+      "show_id": "s6400",
+      "title": "The Golem",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Horror Movies, Independent Movies, International Movies",
+      "cast": "Hani Furstenberg, Ishai Golan, Kirill Cernyakov, Brynie Furstenberg, Lenny Ravitz, Alexey Tritenko, Adi Kvetner, Mariya Khomutova, Veronika Shostak, Konstantin Anikienko",
+      "director": "Doron Paz, Yoav Paz",
+      "description": "As sickness spreads throughout the countryside, an infertile woman conjures a living child out of clay and sets it loose on her enemies."
+    },
+    {
+      "show_id": "s6644",
+      "title": "The Mars Generation",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Children & Family Movies, Documentaries",
+      "cast": "Neil deGrasse Tyson, Bill Nye, Michio Kaku",
+      "director": "Michael Barnett",
+      "description": "Self-professed teenage \"space nerds\" at Space Camp chase their dreams of traveling to Mars, while experts reflect on NASA's history and future."
+    },
+    {
+      "show_id": "s6666",
+      "title": "The Midnight Sky",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas",
+      "cast": "George Clooney, Felicity Jones, Kyle Chandler, Demián Bichir, David Oyelowo, Tiffany Boone, Caoilinn Springall, Sophie Rundle, Ethan Peck",
+      "director": "George Clooney",
+      "description": "In the aftermath of a global catastrophe, a lone scientist in the Arctic races to contact a crew of astronauts with a warning not to return to Earth."
+    },
+    {
+      "show_id": "s5608",
+      "title": "Silicon Cowboys",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Jason Cohen",
+      "description": "This documentary tells the story of Compaq Computer and its three founders, who in 1982, took on Goliath IBM at the height of its PC dominance."
+    },
+    {
+      "show_id": "s4773",
+      "title": "Parchís: the Documentary",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, International Movies, Music & Musicals",
+      "cast": "",
+      "director": "Daniel Arasanz",
+      "description": "The spotlight's on Parchís, a record company-created Spanish boy/girl band that had unprecedented success with Top 10 songs and hit films in the '80s."
+    },
+    {
+      "show_id": "s2308",
+      "title": "Fukrey Boyzzz: Space Mein Fukrapanti",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Viraaj Modgill, Jasleen Singh, Pooja Punjabi, Amit Deondi, Ketan Kava, Zeel Thakkar, Manish Bhavan, Viswanathan Sridhar",
+      "director": "Avinash Walzade",
+      "description": "After a foreboding dream about aliens comes true, a fun-loving trio must prevent human intelligence from being stolen from planet Earth."
+    },
+    {
+      "show_id": "s4864",
+      "title": "Pinkfong & Baby Shark's Space Adventure",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Children & Family Movies",
+      "cast": "Jo Kyoung-i, Kim Seo-yeong, Kim Eun-ah, Jeong Jae-heon",
+      "director": "Byeon Hee-sun",
+      "description": "Joined by new friends from other planets, Pinkfong and Baby Shark explore outer space and search for missing star pieces to return home."
+    },
+    {
+      "show_id": "s4222",
+      "title": "Moon",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Dramas, Independent Movies, Sci-Fi & Fantasy",
+      "cast": "Sam Rockwell, Kevin Spacey, Dominique McElligott, Rosie Shaw, Adrienne Shaw, Kaya Scodelario, Benedict Wong, Matt Berry, Malcolm Stewart, Robin Chalk",
+      "director": "Duncan Jones",
+      "description": "As he nears the end of a lonely three-year stint on the moon base Sarang, astronaut Sam Bell begins to hear and see strange things."
+    },
+    {
+      "show_id": "s6890",
+      "title": "The Space Between Us",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure, Romantic Movies, Sci-Fi & Fantasy",
+      "cast": "Gary Oldman, Asa Butterfield, Carla Gugino, Britt Robertson, BD Wong, Janet Montgomery, Trey Tucker",
+      "director": "Peter Chelsom",
+      "description": "After years of limited contact with Earth, an inquisitive teen who lives on Mars makes an interplanetary trek to discover his own origins."
+    },
+    {
+      "show_id": "s2836",
+      "title": "Houston, We Have a Problem!",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, Independent Movies, International Movies",
+      "cast": "Slavoj Zizek",
+      "director": "Ziga Virc",
+      "description": "Blending fact with myth, this conspiracy-minded docufiction argues that the U.S. purchased Yugoslavia's secret space program in the 1960s."
+    },
+    {
+      "show_id": "s6337",
+      "title": "The Epic Tales of Captain Underpants in Space",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV, TV Action & Adventure, TV Comedies",
+      "cast": "Nat Faxon, Jay Gragnani, Ramone Hamilton, Sean Astin, Dayci Brookshire, Jorge Diaz, Peter Hastings, Evan Kishiyama, David Koechner, Erica Luttrell, Brennan Murray, Nolan North, Gary Anthony Williams, Secunda Wood",
+      "director": "",
+      "description": "Best friends George and Harold — along with their classmates and tyrannical principal — are recruited for a mysterious mission in outer space."
+    },
+    {
+      "show_id": "s5736",
+      "title": "Space Racers",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Kids' TV",
+      "cast": "Yuri Lowenthal, Meyer DeLeeuw, Johnny Yong Bosch, Phil Lollar, Alicyn Packard, Melissa Hutchison, Joseph J. Terry, Danny Katiana, Katie Leigh",
+      "director": "",
+      "description": "Spaceships Eagle, Robyn, Hawk and their pals at the Stardust Space Academy rocket through the galaxy, teaching kids about the wonders of science."
+    },
+    {
+      "show_id": "s4536",
+      "title": "NOVA: Prediction by the Numbers",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries",
+      "cast": "Jay O. Sanders",
+      "director": "Daniel McCabe",
+      "description": "With the science of forecasting flourishing, this documentary explores how predictions inform our lives and statistics and algorithms' reliability."
+    },
+    {
+      "show_id": "s4116",
+      "title": "Miniforce X",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Kids' TV, Korean TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "Zenos wants to use the Earth’s negative energy for his own good – and it's up to Miniforce X to stop this space alien’s evil plans."
+    },
+    {
+      "show_id": "s4656",
+      "title": "One Strange Rock",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries, Science & Nature TV",
+      "cast": "Will Smith",
+      "director": "",
+      "description": "Hosted by Will Smith, this series follows eight astronauts who share their unique perspectives on Earth, the fragile and beautiful planet we call home."
+    },
+    {
+      "show_id": "s4875",
+      "title": "Planet 51",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Children & Family Movies, Comedies, Sci-Fi & Fantasy",
+      "cast": "Dwayne Johnson, Jessica Biel, Justin Long, Gary Oldman, Seann William Scott, John Cleese, Freddie Benedict, Alan Marriott, Mathew Horne, James Corden",
+      "director": "Jorge Blanco",
+      "description": "After landing on a planet reminiscent of 1950s suburbia, a human astronaut tries to avoid capture, recover his spaceship and make it home safely."
+    },
+    {
+      "show_id": "s6565",
+      "title": "The Last Man on the Moon",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Documentaries",
+      "cast": "Eugene Cernan",
+      "director": "Mark Craig",
+      "description": "Astronaut Gene Cernan looks back on the exciting history of NASA's lunar landings and how being the last man to stand on the moon changed his life."
+    },
+    {
+      "show_id": "s3140",
+      "title": "Jeff Dunham: Unhinged in Hollywood",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Jeff Dunham",
+      "director": "Michael Simon",
+      "description": "Unfiltered ventriloquist Jeff Dunham brings his ragtag crew of puppet pals to Hollywood for big laughs about celebrity culture and California living."
+    },
+    {
+      "show_id": "s2337",
+      "title": "Gagarin: First in Space",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Yaroslav Zhalnin, Mikhail Filippov, Olga Ivanova, Vadim Michman, Vladimir Steklov, Viktor Proskurin, Nadezhda Markina, Daniil Vorobyov",
+      "director": "Pavel Parkhomenko",
+      "description": "This biopic of Russian cosmonaut Yuri Gagarin follows his rise from childhood poverty to his selection and training for the 1961 Vostok mission."
+    },
+    {
+      "show_id": "s3493",
+      "title": "La Familia P. Luche",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "International TV Shows, Spanish-Language TV Shows, TV Comedies",
+      "cast": "Eugenio Derbez, Consuelo Duval, Luis Manuel Ávila, Regina Blandón, Miguel Perez, Barbara Torres, Dalilah Polanco, Pierre Angelo",
+      "director": "",
+      "description": "This irreverent sitcom featues Ludovico, Federica and their three children Bibi, Junior and Ludoviquito, living in Ciudad P. Luche."
+    }
+  ]
+}

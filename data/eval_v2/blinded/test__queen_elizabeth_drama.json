@@ -1,0 +1,467 @@
+{
+  "split": "test",
+  "query_id": "queen_elizabeth_drama",
+  "query": "drama series about Queen Elizabeth II",
+  "candidates": [
+    {
+      "show_id": "s1949",
+      "title": "El Chapo",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, Spanish-Language TV Shows, TV Action & Adventure",
+      "cast": "Marco de la O, Humberto Busto, Alejandro Aguilar, Rodrigo Abed, Luis Fernando Peña, Juan Carlos Olivas, Rolf Petersen, Carlos Hernan Romo, Héctor Holten, Diego Vásquez, Teté Espinoza, Luis Rábago, Dolores Heredia, Cristina Michaus, Valentina Acosta, Juliette Pardau, Abril Schreiber",
+      "director": "",
+      "description": "This drama series chronicles the true story of the rise, capture and escape of notorious Mexican drug lord Joaquín \"El Chapo\" Guzmán."
+    },
+    {
+      "show_id": "s4402",
+      "title": "Narcos",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, TV Action & Adventure, TV Dramas",
+      "cast": "Wagner Moura, Pedro Pascal, Boyd Holbrook, Damián Alcázar, Alberto Ammann, Francisco Denis, Pêpê Rapazote, Matias Varela, Michael Stahl-David, Matt Whelan, Arturo Castro, Javier Cámara, José María Yazpik, Eric Lange, Brett Cullen, Miguel Ángel Silvestre, Kerry Bishé, Paulina Gaitán, Cristina Umaña, Paulina García, Juan Sebastián Calero, Joanna Christie, Taliana Vargas, Andrea Londo, Manolo Cardona, Diego Cataño, Raúl Méndez, Bruno Bichir, Stephanie Sigman, Florencia Lozano, Juan Pablo Raba, Leynar Gomez, Konstantin Melikhov, Martina García, Maurice Compte, Mauricio Cujar, Jorge Monterrosa, Germán Jaramillo, Juan Pablo Shuk, Julián Díaz, Alejandro Buitrago, Federico Rivera",
+      "director": "",
+      "description": "The true story of Colombia's infamously violent and powerful drug cartels fuels this gritty gangster drama series."
+    },
+    {
+      "show_id": "s5037",
+      "title": "Queens vs. Kings",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy & Talk Shows, TV Comedies",
+      "cast": "Varun Thakur, Anu Menon, Rahul Subramanian, Siddharth Dudeja, Supriya Joshi, Utsav Chakraborty, Saadiya Ali, Kavya Bector, Kumar Varun",
+      "director": "",
+      "description": "No \"ism\" is left unturned in this celebrity game show that battles stereotypes and sexism by pitting male and female comedians against each other."
+    },
+    {
+      "show_id": "s1686",
+      "title": "Defiance",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Action & Adventure, Dramas",
+      "cast": "Daniel Craig, Liev Schreiber, Jamie Bell, Alexa Davalos, Allan Corduner, Mark Feuerstein, Tomas Arana, Jodhi May, Kate Fahy, Iddo Goldberg, George MacKay, Iben Hjejle, Martin Hancock, Jacek Koman, Ravil Isyanov",
+      "director": "Edward Zwick",
+      "description": "In this action-packed drama based on an extraordinary true story, four brothers protect more than 1,000 Jewish refugees during World War II."
+    },
+    {
+      "show_id": "s6797",
+      "title": "The Queen's Gambit",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Dramas",
+      "cast": "Anya Taylor-Joy, Bill Camp, Marielle Heller, Thomas Brodie-Sangster, Moses Ingram, Harry Melling, Isla Johnston, Christiane Seidel, Rebecca Root, Chloe Pirrie, Jacob Fortune-Lloyd",
+      "director": "",
+      "description": "In a 1950s orphanage, a young girl reveals an astonishing talent for chess and begins an unlikely journey to stardom while grappling with addiction."
+    },
+    {
+      "show_id": "s5147",
+      "title": "Reign",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "TV Dramas",
+      "cast": "Adelaide Kane, Megan Follows, Torrance Coombs, Toby Regbo, Jenessa Grant, Celina Sinden, Caitlin Stasey, Anna Popplewell, Alan Van Sprang, Rossif Sutherland, Jonathan Keltz, Sean Teale, Craig Parker",
+      "director": "",
+      "description": "This vivid historical drama series tells of the rise to power of Mary, Queen of Scots, amid a court full of sexual and political intrigue."
+    },
+    {
+      "show_id": "s1980",
+      "title": "Elizabeth at 90: A Family Tribute",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "John Bridcut",
+      "description": "A blend of the royal family's intimate recollections and rarely seen home movies pays tribute to Queen Elizabeth II on the eve of her 90th birthday."
+    },
+    {
+      "show_id": "s1529",
+      "title": "Creating The Queen's Gambit",
+      "type": "Movie",
+      "release_year": 2021,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "",
+      "description": "A fascinating character. Exquisite sets. A wig for every era. The stars, creators and crew reveal how the hit series about a chess prodigy came to life."
+    },
+    {
+      "show_id": "s6608",
+      "title": "The Lizzie Borden Chronicles",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Crime TV Shows, TV Dramas, TV Thrillers",
+      "cast": "Christina Ricci, Clea DuVall, Cole Hauser, Dylan Taylor, John Ralston, Bradley Stryker, Olivia Llewellyn, Jeff Wincott, Jessy Schram, Martha Irving, Gabrielle Trudel",
+      "director": "",
+      "description": "Exonerated in the murder of her father and stepmother, Lizzie Borden takes on crime lords, detectives and other foes as she savors her new infamy."
+    },
+    {
+      "show_id": "s1001",
+      "title": "Blue Planet II",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "British TV Shows, Docuseries, Science & Nature TV",
+      "cast": "David Attenborough",
+      "director": "",
+      "description": "This sequel to the award-winning nature series \"Blue Planet\" dives beneath Earth's oceans to reveal the dazzling vistas and amazing creatures there."
+    },
+    {
+      "show_id": "s5715",
+      "title": "Sommore: The Reign Continues",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Sommore",
+      "director": "Kevin Layne",
+      "description": "Self-proclaimed \"Queen of Comedy\" Sommore storms the stage to deliver a riotous stand-up performance in Charlotte, North Carolina."
+    },
+    {
+      "show_id": "s5034",
+      "title": "Queen of the South",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, TV Action & Adventure, TV Dramas",
+      "cast": "Alice Braga, Veronica Falcón, Justina Machado, Peter Gadiot, Hemky Madera, Gerardo Taracena",
+      "director": "",
+      "description": "Forced to work for a cartel that recently killed her boyfriend, Teresa relies on her street smarts, a loyal pal and a mysterious notebook to survive."
+    },
+    {
+      "show_id": "s6708",
+      "title": "The Next Step",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Kids' TV, Reality TV, TV Dramas",
+      "cast": "Shamier Anderson, Victoria Baldesarra, Alexandra Beaton, Jordan Clark, Brennan Clost, Samantha Grecchi, Lamar Johnson, Isaac Lupien, Trevor Tordjman, Brittany Raymond, Bree Wasylenko, Jennifer Pappas, Tamina Pollack-Paris, Logan Fabbro, Megan Mackenzie, Alex Beaton, Natalie Krill",
+      "director": "",
+      "description": "This drama series follows young dancers at the Next Step Dance Studio as they attempt to win the coveted regional dance championships."
+    },
+    {
+      "show_id": "s4708",
+      "title": "Outlaw King",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure, Dramas",
+      "cast": "Chris Pine, Aaron Taylor-Johnson, Florence Pugh, Billy Howle, Sam Spruell, Tony Curran, Callan Mulvey, James Cosmo, Stephen Dillane",
+      "director": "David Mackenzie",
+      "description": "In 14th-century Scotland, Robert the Bruce claims the crown and leads a fierce uprising to win back the country's independence from English rule."
+    },
+    {
+      "show_id": "s5166",
+      "title": "Requiem",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "British TV Shows, International TV Shows, TV Dramas",
+      "cast": "Lydia Wilson, Joel Fry, Brendan Coyle, James Frecheville, Claire Rushbrook, Joanna Scanlan, Pippa Haywood, Tara Fitzgerald, Richard Harrington, Sian Reese-Williams",
+      "director": "",
+      "description": "In the wake of a sudden tragedy, a London cellist unearths secrets that link her mother to the disappearance of a young girl in a small Welsh town."
+    },
+    {
+      "show_id": "s226",
+      "title": "A Series of Unfortunate Events",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Kids' TV, TV Action & Adventure, TV Comedies",
+      "cast": "Neil Patrick Harris, Patrick Warburton, Malina Weissman, Louis Hynes, K. Todd Freeman, Joan Cusack, Aasif Mandvi",
+      "director": "",
+      "description": "The extraordinary Baudelaire orphans face trials, tribulations and the evil Count Olaf in their fateful quest to unlock long-held family secrets."
+    },
+    {
+      "show_id": "s6794",
+      "title": "The Queen",
+      "type": "Movie",
+      "release_year": 1968,
+      "listed_in": "Cult Movies, Documentaries, LGBTQ Movies",
+      "cast": "",
+      "director": "Frank Simon",
+      "description": "From wartime drafts to evening gowns, this candid time capsule documents a 1967 beauty pageant that offers an inside look at competitive drag."
+    },
+    {
+      "show_id": "s1895",
+      "title": "Dumplin'",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Danielle Macdonald, Jennifer Aniston, Odeya Rush, Maddie Baillio, Bex Taylor-Klaus, Luke Benward, Georgie Flores, Dove Cameron, Harold Perrineau, Kathy Najimy, Ginger Minj, Hilliary Begley",
+      "director": "Anne Fletcher",
+      "description": "To prove a point about measuring up and fitting in, Texas teen Willowdean Dickson enters a local pageant run by her ex-beauty queen mom."
+    },
+    {
+      "show_id": "s1413",
+      "title": "Classic Legends",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "Docuseries, International TV Shows",
+      "cast": "Javed Akhtar",
+      "director": "",
+      "description": "This documentary series explores the glamour of Bollywood through the stories of the men and women who have illuminated its screens."
+    },
+    {
+      "show_id": "s1125",
+      "title": "Buddha",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Himanshu Soni, Kajal Jain, Sanket Choukse, Kabir Bedi, Sameer Dharmadhikari, Jagat Singh, Reshmi Ghosh, Siddharth Vasudev, Amit Behl, Hemant Choudhary",
+      "director": "",
+      "description": "In this historical drama series, young Prince Siddhartha undergoes an intense spiritual journey that eventually transforms him into the Buddha."
+    },
+    {
+      "show_id": "s6698",
+      "title": "The Naked Gun: From the Files of Police Squad!",
+      "type": "Movie",
+      "release_year": 1988,
+      "listed_in": "Comedies, Cult Movies",
+      "cast": "Leslie Nielsen, Priscilla Presley, George Kennedy, Ricardo Montalban, O.J. Simpson, Raye Birk, Susan Beaubian, Nancy Marchand",
+      "director": "David Zucker",
+      "description": "Hapless cop Frank Drebin causes more problems than he solves while trying to stop a deadly plot involving Queen Elizabeth II."
+    },
+    {
+      "show_id": "s7486",
+      "title": "Wartime Portraits",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Docuseries, International TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "Part live-action and part animation, this visually inventive series offers striking portrayals of some of the unsung heroes of World War II."
+    },
+    {
+      "show_id": "s4876",
+      "title": "Planet Earth II",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Docuseries, Science & Nature TV",
+      "cast": "David Attenborough",
+      "director": "",
+      "description": "In this sequel to the Emmy-winning \"Planet Earth\" series, viewers are treated to rich and intimate views of the natural diversity of our planet."
+    },
+    {
+      "show_id": "s1182",
+      "title": "Call the Midwife",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "British TV Shows, International TV Shows, TV Dramas",
+      "cast": "Vanessa Redgrave, Bryony Hannah, Helen George, Jenny Agutter, Pam Ferris, Laura Main, Judy Parfitt, Cliff Parisi, Stephen McGann, Ben Caplan, Miranda Hart, Jessica Raine, Max Macmillan, Victoria Yeates, Jack Ashton, Emerald Fennell, Linda Bassett",
+      "director": "Philippa Lowthorpe",
+      "description": "This period drama set in impoverished East London in the 1950s follows a newly qualified midwife and her colleagues at a nursing convent."
+    },
+    {
+      "show_id": "s1707",
+      "title": "Derek",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "British TV Shows, International TV Shows, TV Comedies",
+      "cast": "Ricky Gervais, Kerry Godliman, Karl Pilkington, David Earl, Kay Noone, Tim Barlow, Arthur Nightingale, Sheila Collings, Margaret Towner, Barry Martin, Prem Modgil, Blanche Williams, Ninette Finch, Brett Goldstein, Ruth Bratt, Holli Dempsey",
+      "director": "",
+      "description": "Ricky Gervais created and stars in this heartwarming comedy-drama series as a loyal English nursing home caretaker who sees only the good in everyone."
+    },
+    {
+      "show_id": "s6255",
+      "title": "The Crown",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "British TV Shows, International TV Shows, TV Dramas",
+      "cast": "Claire Foy, John Lithgow, Matt Smith, Vanessa Kirby, Jared Harris, Victoria Hamilton, Eileen Atkins, Jeremy Northam, Alex Jennings, Ben Miles, Pip Torrens, Will Keen, Harry Hadden-Paton, Daniel Ings, Greg Wise, Harriet Walter, Lia Williams, Matthew Goode, Anton Lesser",
+      "director": "",
+      "description": "This drama follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the 20th century."
+    },
+    {
+      "show_id": "s7002",
+      "title": "The Windsors",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "British TV Shows, International TV Shows, TV Comedies",
+      "cast": "Harry Enfield, Haydn Gwynne, Hugh Skinner, Louise Ford, Richard Goulding, Matthew Cottle, Morgana Robinson, Celeste Dring, Katy Wix, Ellie White",
+      "director": "",
+      "description": "The all-too-public trials and tribulations of England's royal family are reimagined as an over-the-top comedic soap opera."
+    },
+    {
+      "show_id": "s7669",
+      "title": "World War II in Colour",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "British TV Shows, Docuseries, International TV Shows",
+      "cast": "Robert Powell",
+      "director": "",
+      "description": "Footage of the most dramatic moments from World War II is restored in color and high definition for this historical documentary series."
+    },
+    {
+      "show_id": "s5892",
+      "title": "Super Drags",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, TV Comedies",
+      "cast": "Fernando Mendonça, Sérgio Cantú, Wagner Follare, Pabllo Vittar, Silvetty Montilla, Rapha Vélez, Sylvia Salustti, Guilherme Briggs",
+      "director": "",
+      "description": "In this adult animated series, three gay co-workers lead double lives as drag queen superheroes, saving the LGBTQ community from evil nemeses."
+    },
+    {
+      "show_id": "s5033",
+      "title": "Queen of the Desert",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas",
+      "cast": "Nicole Kidman, James Franco, Damian Lewis, Jay Abdo, Robert Pattinson, Jenny Agutter, David Calder, Christopher Fulford, Nick Waring, Holly Earl, Sophie Linfield",
+      "director": "Werner Herzog",
+      "description": "Driven beyond the bounds of convention, adventurer Gertrude Bell leaves turn-of-the-century Britain behind for the deserts of the Middle East."
+    },
+    {
+      "show_id": "s6867",
+      "title": "The Show Must Go On: The Queen + Adam Lambert Story",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, Music & Musicals",
+      "cast": "Adam Lambert, Brian May, Roger Taylor",
+      "director": "",
+      "description": "With rare footage and candid interviews, this documentary details the serendipitous pairing of legendary rock band Queen and powerhouse Adam Lambert."
+    },
+    {
+      "show_id": "s4066",
+      "title": "Mia and Me",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Kids' TV",
+      "cast": "Rosabell Laurenti Sellers, Adrian Moore, Saphia Stoney, Josephine Benini, Andrew Craig, Tajja Isen, Rod Wilson, Linda Ballantyne, Jonathan Wilson, Elizabeth Hanna, Norma Dell'Agnese",
+      "director": "",
+      "description": "A mysterious gift from her late parents sends 12-year-old Mia into an enchanted world of elves, unicorns and an evil queen named Panthea."
+    },
+    {
+      "show_id": "s2778",
+      "title": "Hollywood",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Dramas",
+      "cast": "David Corenswet, Darren Criss, Patti LuPone, Jeremy Pope, Jim Parsons, Laura Harrier, Joe Mantello, Dylan McDermott, Jake Picking, Holland Taylor, Samara Weaving",
+      "director": "",
+      "description": "In post-World War II Hollywood, an ambitious group of aspiring actors and filmmakers will do almost anything to make their showbiz dreams come true."
+    },
+    {
+      "show_id": "s458",
+      "title": "American Crime",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, TV Dramas",
+      "cast": "Felicity Huffman, Timothy Hutton, Elvis Nolasco, Regina King, Lili Taylor, Richard Cabral, Brent Anderson, Benito Martinez, Shane Jacobsen, W. Earl Brown, Caitlin Gerard, Penelope Ann Miller, Johnny Ortiz",
+      "director": "",
+      "description": "This anthology series unfolds a different story arc for each season, with dramas focusing on aspects of American life and the criminal justice system."
+    },
+    {
+      "show_id": "s6951",
+      "title": "The Tudors",
+      "type": "TV Show",
+      "release_year": 2010,
+      "listed_in": "TV Dramas",
+      "cast": "Jonathan Rhys Meyers, Henry Cavill, James Frain, Anthony Brophy, Guy Carleton, Sarah Bolger, Natalie Dormer, Max Brown, Nick Dunning, Rod Hallett, Maria Doyle Kennedy, Simon Ward",
+      "director": "",
+      "description": "All the splendor and scandal of England's 16th-century royal court comes to life in this series that follows notorious Tudor monarch Henry VIII."
+    },
+    {
+      "show_id": "s6987",
+      "title": "The War: A Film by Ken Burns and Lynn Novick",
+      "type": "TV Show",
+      "release_year": 2007,
+      "listed_in": "Docuseries",
+      "cast": "Keith David",
+      "director": "",
+      "description": "A seven-part series brings World War II to life through the harrowing personal accounts of soldiers and others from \"typical\" American towns."
+    },
+    {
+      "show_id": "s5036",
+      "title": "Queens of Comedy",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Stand-Up Comedy & Talk Shows, TV Comedies",
+      "cast": "",
+      "director": "",
+      "description": "Eight women perform in front of celebrity judges and compete for the title of India’s top female stand-up comedian."
+    },
+    {
+      "show_id": "s5031",
+      "title": "Queen",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Kangana Ranaut, Rajkummar Rao, Lisa Haydon, Mish Boyko, Jeffrey Chee Eng Ho, Marco Canadea, Sabeeka Imam, Yogendra Tikku",
+      "director": "Vikas Bahl",
+      "description": "Dumped by her fiancé, a sheltered young woman decides to go on her honeymoon to Europe alone, embarking on an exhilarating journey of self-discovery."
+    },
+    {
+      "show_id": "s7680",
+      "title": "WWII: Report from the Aleutians",
+      "type": "Movie",
+      "release_year": 1943,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "John Huston",
+      "description": "Filmmaker John Huston narrates this Oscar-nominated World War II-era film about life among the U.S. soldiers protecting Alaska’s Aleutian Islands."
+    },
+    {
+      "show_id": "s154",
+      "title": "A Bridge Too Far",
+      "type": "Movie",
+      "release_year": 1977,
+      "listed_in": "Action & Adventure, Classic Movies, Dramas",
+      "cast": "Dirk Bogarde, James Caan, Michael Caine, Sean Connery, Edward Fox, Elliott Gould, Gene Hackman, Anthony Hopkins, Hardy Krüger, Laurence Olivier, Ryan O'Neal, Robert Redford, Maximilian Schell, Liv Ullmann",
+      "director": "Richard Attenborough",
+      "description": "This wartime drama details a pivotal day in 1944 when an Allied task force tried to win World War II by seizing control of key bridges in Holland."
+    },
+    {
+      "show_id": "s5035",
+      "title": "Queen Sono",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Action & Adventure, TV Dramas",
+      "cast": "Pearl Thusi, Vuyo Dabula, Loyiso Madinga, Kate Liquorish, Sechaba Morojele, Rob van Vuuren, Chi Mhende, Otto Nobela, Khathu Ramabulana, Enhle Mlotshwa",
+      "director": "",
+      "description": "South African spy Queen Sono finds herself in a nefarious web of business and politics as she seeks to uncover the truth behind her mother's death."
+    },
+    {
+      "show_id": "s358",
+      "title": "AJ and the Queen",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Comedies, TV Dramas",
+      "cast": "RuPaul Charles, Izzy G., Michael-Leon Wooley, Josh Segarra, Katerina Tannenbaum, Tia Carrere",
+      "director": "",
+      "description": "While traveling across the country in a run-down RV, drag queen Ruby Red discovers an unlikely sidekick in AJ: a tough-talking 10-year-old stowaway."
+    },
+    {
+      "show_id": "s219",
+      "title": "A Queen Is Born",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, Reality TV",
+      "cast": "Gloria Groove, Alexia Twister",
+      "director": "Carla Barros",
+      "description": "Gloria Groove and Alexia Twister make drag dreams come true as they help six artists find the confidence to own the stage in this makeover show."
+    },
+    {
+      "show_id": "s2601",
+      "title": "Hannibal",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "TV Horror, TV Mysteries, TV Thrillers",
+      "cast": "Hugh Dancy, Mads Mikkelsen, Caroline Dhavernas, Hettienne Park, Laurence Fishburne, Scott Thompson, Aaron Abrams, Gillian Anderson, Lara Jean Chorostecki",
+      "director": "",
+      "description": "This drama series focuses on the early years of the relationship between FBI criminal profiler Will Graham and homicidal cannibal Dr. Hannibal Lecter."
+    },
+    {
+      "show_id": "s532",
+      "title": "Anitta: Made In Honório",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries, International TV Shows",
+      "cast": "Anitta",
+      "director": "Andrucha Waddington, Pedro Waddington",
+      "description": "In this intimate documentary, Brazilian pop queen Anitta opens up about fame, family and her fierce work ethic, revealing the woman behind the hits."
+    },
+    {
+      "show_id": "s1981",
+      "title": "Elizabeth Harvest",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Sci-Fi & Fantasy",
+      "cast": "Abbey Lee, Ciarán Hinds, Carla Gugino, Matthew Beard, Dylan Baker",
+      "director": "Sebastian Gutierrez",
+      "description": "When a young newlywed enters the one chamber in her husband’s mansion that’s off-limits, she faces the horrifying consequences of defying the rules."
+    }
+  ]
+}

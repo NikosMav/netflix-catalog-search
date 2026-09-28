@@ -1,0 +1,677 @@
+{
+  "split": "test",
+  "query_id": "southern_classic_drama",
+  "query": "1950s classic drama about a Southern family and a dying patriarch",
+  "candidates": [
+    {
+      "show_id": "s3087",
+      "title": "Iyore",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Rita Dominic, Joseph Benjamin, Okawa Shaznay, Paul Obazele, Yemi Blaq, Bukky Wright",
+      "director": "Frank Rajah Arase",
+      "description": "A tragic romance unfolds during a teacher's lessons on the Benin empire after they begin to mirror her love life when her childhood love reappears."
+    },
+    {
+      "show_id": "s11",
+      "title": "1922",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Thomas Jane, Molly Parker, Dylan Schmid, Kaitlyn Bernard, Bob Frazer, Brian d'Arcy James, Neal McDonough",
+      "director": "Zak Hilditch",
+      "description": "A farmer pens a confession admitting to his wife's murder, but her death is just the beginning of a macabre tale. Based on Stephen King's novella."
+    },
+    {
+      "show_id": "s1567",
+      "title": "Dérè: An African Tale",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Weruche Opia, Gbenro Ajibade, Ireti Doyle, Keppy Ekpenyong, Carol King, Shaffy Bello, Tosan Edremoda Ugbeye, Nina Iphechukwude Anyianuka, Pearl Nkiru Waturuocha, Emmanuel Ikubese, Omowunmi Dada, Paul Adams, Charles Ukpong, Monica Friday, Kevin Ushi",
+      "director": "",
+      "description": "After experiencing a tragic loss, a woman must resist a new family dynamic that could control the future of her father's company and her life."
+    },
+    {
+      "show_id": "s6158",
+      "title": "The Borgias",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "TV Dramas",
+      "cast": "Jeremy Irons, François Arnaud, Holliday Grainger, Peter Sullivan, Sean Harris, Joanne Whalley, Lotte Verbeek, Colm Feore, Vernon Dobtcheff, David Oakes",
+      "director": "",
+      "description": "Follow the lives of the notorious Borgia family, a clan headed by plotting patriarch Rodrigo and his beautiful but treacherous daughter, Lucrezia."
+    },
+    {
+      "show_id": "s2713",
+      "title": "Herrens veje",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Lars Mikkelsen, Ann Eleonora Jorgensen, Simon Sears, Morten Hee Andersen, Fanny Bernth, Joen Højerslev, Camilla Lau, Maj-Britt Mathiesen, Solbjørg Højfeldt, Johanne Dal-Lewkovitch",
+      "director": "",
+      "description": "A family with a storied history of service to the Church of Denmark fractures under the tyrannical rule and ambition of its hard-driving patriarch."
+    },
+    {
+      "show_id": "s171",
+      "title": "A Family Man",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas",
+      "cast": "Gerard Butler, Gretchen Mol, Alison Brie, Willem Dafoe, Alfred Molina, Maxwell Jenkins, Anupam Kher, Dustin Milligan",
+      "director": "Mark Williams",
+      "description": "A ruthless corporate headhunter battles his rival for a promotion while dealing with a family crisis that threatens to derail his career."
+    },
+    {
+      "show_id": "s461",
+      "title": "American Experience: The Circus",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "Sharon Grimberg",
+      "description": "An exploration of the American circus, as the spectacle evolved from a one-ring show to a cultural event and eventually, a dying breed."
+    },
+    {
+      "show_id": "s5781",
+      "title": "St. Agatha",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Horror Movies, Independent Movies",
+      "cast": "Sabrina Kern, Carolyn Hennesy, Courtney Halverson, Shaun Fletcher, Lindsay Seim, Hannah Fierman, Trin Miller, Seth Michaels, Justin Miles",
+      "director": "Darren Lynn Bousman",
+      "description": "Unwed and pregnant, a young woman flees her abusive home in 1950s Georgia and takes refuge at a mysterious convent with a terrible secret."
+    },
+    {
+      "show_id": "s6587",
+      "title": "The Legend of White Snake",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Yu Menglong, Ju Jingyi, Pei Zitian, Xiao Yan, Nie Zihao, Yu Lang",
+      "director": "",
+      "description": "In this new take on a classic tale, an ancient snake spirit transforms into a beautiful woman and falls in love with a doctor unaware of her true form."
+    },
+    {
+      "show_id": "s1244",
+      "title": "Catching Feelings",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Kagiso Lediga, Pearl Thusi, Akin Omotoso, Andrew Buckland",
+      "director": "Kagiso Lediga",
+      "description": "Amid growing tensions in their marriage, a Johannesburg professor and his journalist wife find their lives upended by a famous, hard-partying author."
+    },
+    {
+      "show_id": "s335",
+      "title": "Agatha and the Truth of Murder",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas",
+      "cast": "Ruth Bradley, Pippa Haywood, Dean Andrews, Bebe Cave, Blake Harrison, Tim McInnerny, Ralph Ineson, Michael McElhatton",
+      "director": "Terry Loane",
+      "description": "In a dramatized depiction of her 11-day disappearance, novelist Agatha Christie solving a real murder amid a crisis in her writing and marriage."
+    },
+    {
+      "show_id": "s4349",
+      "title": "My Pride",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Khaled Amin, Elham Al Fadalah, Fatima Al Safi, Fahad Basim, Farah ElSaraf, Hala",
+      "director": "",
+      "description": "After their mother's death, Amal and her brothers struggle to live with their authoritarian father, whose cruelty and neglect break the family apart."
+    },
+    {
+      "show_id": "s4582",
+      "title": "Offspring",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "TV Comedies, TV Dramas",
+      "cast": "Asher Keddie, Kat Stewart, Richard Davies, Linda Cropper, Jane Harber, Alicia Gardiner, Lachy Hulme, Eddie Perfect, Deborah Mailman, John Waters",
+      "director": "",
+      "description": "A Melbourne obstetrician in her thirties struggles with the increasingly chaotic family, romantic and professional aspects of her life in this drama."
+    },
+    {
+      "show_id": "s4161",
+      "title": "Moesha",
+      "type": "TV Show",
+      "release_year": 2000,
+      "listed_in": "TV Comedies, Teen TV Shows",
+      "cast": "Brandy Norwood, William Allen Young, Sheryl Lee Ralph, Countess Vaughn, Lamont Bentley, Shar Jackson, Marcus T. Paulk, Yvette Wilson",
+      "director": "",
+      "description": "Navigating the twists and firsts of high school, Moesha juggles friendships, romance and the occasional drama while trying to keep her family together."
+    },
+    {
+      "show_id": "s6620",
+      "title": "The Lost Husband",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, Romantic Movies",
+      "cast": "Leslie Bibb, Josh Duhamel, Nora Dunn, Sharon Lawrence, Callie Hope Haverda, Roxton Garcia",
+      "director": "Vicky Wight",
+      "description": "Looking to start anew, a widow retreats with her children to her aunt's goat farm, where the ranch's manager helps her navigate country life and loss."
+    },
+    {
+      "show_id": "s1330",
+      "title": "Chief Daddy",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Taiwo Obileye, Joke Silva, Falz The Bahd Guy, Dakore Akande, Funke Akindele, Zainab Balogun, Shaffy Bello, Ini Edo, Linda Ihuoma-Suleiman, Mawuli Gavor, Richard Mofe-Damijo, Rachael Oniga, Nkem Owoh, Patience Ozokwor",
+      "director": "Niyi Akinmolayan",
+      "description": "When a wealthy patriarch unexpectedly drops dead, his money-crazed family, friends and staff scramble for his billionaire fortune."
+    },
+    {
+      "show_id": "s478",
+      "title": "Amit Tandon: Family Tandoncies",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Amit Tandon",
+      "director": "",
+      "description": "From the death of romance in marriage to the injustices of modern-day parenting, Amit Tandon shares wisdom and wisecracks as a battle-scarred family guy."
+    },
+    {
+      "show_id": "s2633",
+      "title": "Harold and Lillian: A Hollywood Love Story",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries",
+      "cast": "Harold Michelson, Lillian Michelson, Mel Brooks, Francis Ford Coppola, Danny DeVito",
+      "director": "Daniel Raim",
+      "description": "Storyboard artist Harold Michelson and his film researcher wife, Lillian, recall the influence they had on 60 years of Hollywood's biggest hits."
+    },
+    {
+      "show_id": "s170",
+      "title": "A Family Affair",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Tom Fassaert",
+      "director": "Tom Fassaert",
+      "description": "The filmmaker hunts for the missing puzzle pieces of his family history during a visit with a complex and controversial figure: his grandmother."
+    },
+    {
+      "show_id": "s5373",
+      "title": "Sanai Choughade",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Shreyas Talpade, Subodh Bhave, Sai Tamhankar, Santosh Juvekar, Tushar Dalvi, Bharti Aacharekar",
+      "director": "Rajeev Patil",
+      "description": "In an effort to honor the family matriarch's dying wish, Urmila and her husband, Shrikant, embark on a quest to find a husband for charismatic yet choosey Sai. But some things are easier said than done."
+    },
+    {
+      "show_id": "s5034",
+      "title": "Queen of the South",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, TV Action & Adventure, TV Dramas",
+      "cast": "Alice Braga, Veronica Falcón, Justina Machado, Peter Gadiot, Hemky Madera, Gerardo Taracena",
+      "director": "",
+      "description": "Forced to work for a cartel that recently killed her boyfriend, Teresa relies on her street smarts, a loyal pal and a mysterious notebook to survive."
+    },
+    {
+      "show_id": "s7401",
+      "title": "Velvet",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "International TV Shows, Romantic TV Shows, Spanish-Language TV Shows",
+      "cast": "Paula Echevarría, Miguel Ángel Silvestre, Aitana Sánchez-Gijón, Manuela Velasco, Manuela Vellés, Marta Hazas, Javier Rey, Maxi Iglesias, Cecilia Freire, Adrián Lastra, Miriam Giovanelli, Natalia Millán, José Sacristán, Ingrid Rubio, Peter Vives, Llorenç González, Ángela Molina, Pastora Vega",
+      "director": "Carlos Sedes",
+      "description": "In 1950s Spain, the heir to a fashion house romances a beautiful seamstress who works for the company, despite the objections of his family."
+    },
+    {
+      "show_id": "s3238",
+      "title": "Julie & Julia",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Comedies, Dramas",
+      "cast": "Meryl Streep, Amy Adams, Stanley Tucci, Chris Messina, Linda Emond, Helen Carey, Mary Lynn Rajskub, Jane Lynch, Joan Juliet Buck",
+      "director": "Nora Ephron",
+      "description": "In this heartwarming tale, Julie Powell decides to spice up her uneventful life by cooking all 524 recipes outlined in Julia Child's classic cookbook."
+    },
+    {
+      "show_id": "s1225",
+      "title": "Carol",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, LGBTQ Movies, Romantic Movies",
+      "cast": "Cate Blanchett, Rooney Mara, Sarah Paulson, Kyle Chandler, Jake Lacy, John Magaro, Cory Michael Smith, Carrie Brownstein, Kevin Crowley, Nik Pajic",
+      "director": "Todd Haynes",
+      "description": "In the 1950s, a glamorous married woman and an aspiring photographer embark on a passionate, forbidden romance that will forever change their lives."
+    },
+    {
+      "show_id": "s3449",
+      "title": "Krish Trish and Baltiboy: Face Your Fears",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Children & Family Movies",
+      "cast": "Tarun Ratnani, Smita Malhotra, Deepak Chachra",
+      "director": "Tilak Shetty",
+      "description": "In three tales about fear, a baby elephant gets captured by a circus, two boys enter a haunted house and a parrot faces his fear of flying."
+    },
+    {
+      "show_id": "s6133",
+      "title": "The Binding",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Horror Movies, International Movies, Thrillers",
+      "cast": "Riccardo Scamarcio, Mía Maestro",
+      "director": "Domenico de Feudis",
+      "description": "While visiting her fiancé's mother in southern Italy, a woman must fight the mysterious and malevolent curse intent on claiming her daughter."
+    },
+    {
+      "show_id": "s5706",
+      "title": "Someone Has to Die",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Carmen Maura, Cecilia Suárez, Ester Expósito, Ernesto Alterio, Alejandro Speitzer, Isaac Hernández, Carlos Cuevas, Mariola Fuentes, Pilar Castro, Juan Carlos Vellido, Eduardo Casanova, Manuel Morón, Javier Pereira",
+      "director": "Manolo Caro",
+      "description": "In conservative 1950s Spain, the alleged relationship between a young man and a Mexican ballerino creates an uproar of harrowing consequences."
+    },
+    {
+      "show_id": "s6848",
+      "title": "The Salvation",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Mads Mikkelsen, Eva Green, Jeffrey Dean Morgan, Eric Cantona, Mikael Persbrandt, Douglas Henshall, Michael Raymond-James, Jonathan Pryce, Alexander Arnold, Nanna Øland Fabricius",
+      "director": "Kristian Levring",
+      "description": "In the Old West, a Danish homesteader avenges the murder of his wife and son, only to unleash a gang leader's brutal fury."
+    },
+    {
+      "show_id": "s991",
+      "title": "Blood Will Tell",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Oscar Martínez, Dolores Fonzi, Diego Velázquez, Paulina Garcia, Luis Gnecco, Malena Sánchez, Emilio Vodanovich, Norman Briski",
+      "director": "Miguel Cohan, Miguel Cohan",
+      "description": "Family patriarch Elías begins to unravel after the death of his wife – which casts a suspicious light on her tragic accident."
+    },
+    {
+      "show_id": "s1231",
+      "title": "Casablancas: The Man Who Loved Women",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Hubert Woroniecki",
+      "description": "The rise and smash success of Elite modeling agency founder John Casablancas is chronicled in this biography of the man who invented the supermodel."
+    },
+    {
+      "show_id": "s4604",
+      "title": "Old Money",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "International TV Shows, TV Comedies, TV Dramas",
+      "cast": "Udo Kier, Sunnyi Melles, Nicholas Ofczarek, Manuel Rubey, Nora von Waldstätten, Thomas Stipsits, Ursula Strauss, Robert Palfrader, Simon Schwarz, Johannes Krisch, Lukas Miko",
+      "director": "David Schalko",
+      "description": "Backstabbing, blackmail and revenge consume the dysfunctional family of a wealthy patriarch as they compete to find him a new liver at all costs."
+    },
+    {
+      "show_id": "s2681",
+      "title": "Heaven Without People",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Farah Shaer, Jean Paul Hage, Samira Sarkis, Jenny Gebara, Laeticia Semaan, Nadim Abou Samra, Hussein Hijazi, Ghassan Chemali",
+      "director": "Lucien Bourjeily",
+      "description": "From long resentments to deep secrets, an overdue family reunion erupts with drama when the matriarch makes a disturbing discovery."
+    },
+    {
+      "show_id": "s153",
+      "title": "A Boy Name Flora A",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, TV Comedies, TV Dramas",
+      "cast": "Crowd Lu, Tsai Chen-nan, Lotus Wang, Fan Chu-Mei, Hsieh Ying-shiuan, Vera Yen, Cammy Chiang",
+      "director": "",
+      "description": "A 28-year-old layabout begins to re-examine his life when his dysfunctional family assembles to pay respects to a dying grandmother who won’t pass on."
+    },
+    {
+      "show_id": "s2157",
+      "title": "Fifty: The Series",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Ireti Doyle, Keira Hewatch, Dakore Akande, Omoni Oboli, Uzor Osimkpa, Wale Ojo, Timini Egbuson, Chris Attoh, Kachi Nnochiri",
+      "director": "",
+      "description": "Juggling careers and families, four ambitious women faced with unique crises weigh the consequences of their choices as they approach turning 50."
+    },
+    {
+      "show_id": "s4053",
+      "title": "Message from the King",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Independent Movies, Thrillers",
+      "cast": "Chadwick Boseman, Luke Evans, Teresa Palmer, Alfred Molina, Natalie Martinez, Tom Felton, Dale Dickey, Sibongile Mlambo",
+      "director": "Fabrice Du Welz",
+      "description": "On a relentless quest to avenge his sister's murder, a man from Cape Town infiltrates a sprawling network of lowlifes and elites in Los Angeles."
+    },
+    {
+      "show_id": "s4688",
+      "title": "Other People",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Jesse Plemons, Molly Shannon, Bradley Whitford, Maude Apatow, Madisen Beaty, John Early, Zach Woods, Paul Dooley, June Squibb",
+      "director": "Chris Kelly",
+      "description": "After a bad breakup, a struggling New York comedy writer tries to don a brave face and care for his dying mother in Sacramento."
+    },
+    {
+      "show_id": "s6441",
+      "title": "The Haunting of Hill House",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "TV Dramas, TV Horror, TV Mysteries",
+      "cast": "Michiel Huisman, Carla Gugino, Timothy Hutton, Henry Thomas, Elizabeth Reaser, Oliver Jackson-Cohen, Kate Siegel, Victoria Pedretti, Lulu Wilson, Mckenna Grace, Paxton Singleton, Julian Hilliard, Violet McGraw",
+      "director": "",
+      "description": "Flashing between past and present, a fractured family confronts haunting memories of their old home and the terrifying events that drove them from it."
+    },
+    {
+      "show_id": "s7561",
+      "title": "What She Put on the Table",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Amber An, Sun Ke-fang, Chang Yao-jen, Wang Man-chiao, Hans Chung, Chris Lee, Yan Yu-lin, Kiki Chen, Steven Chiang",
+      "director": "",
+      "description": "Based on the life of TV chef Fu Pei-mei, this drama follows two women – one rich, the other poor – who fortuitously cross paths in 1950s Taiwan."
+    },
+    {
+      "show_id": "s631",
+      "title": "Autumn's Concerto",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Ady An, Vanness Wu, Ann Hsu, Chris Wu, Xiao Xiao Bin",
+      "director": "",
+      "description": "After losing all memories of his past, a wealthy lawyer travels to a rural village where a woman he once loved now lives with her son."
+    },
+    {
+      "show_id": "s2803",
+      "title": "Hope Aur Hum",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Children & Family Movies, Comedies, Dramas",
+      "cast": "Naseeruddin Shah, Kabir Sajid, Sonali Kulkarni, Amir Bashir, Naveen Kasturia, Neha Chauhan, Virti Vaghani",
+      "director": "Sudip Bandyopadhyay",
+      "description": "A multigenerational household navigates daily life, evolving relationships and clashes between old and new mindsets in this light family drama."
+    },
+    {
+      "show_id": "s4002",
+      "title": "Maynard",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Samuel D. Pollard",
+      "description": "Friends, family and political titans recall the impact of Atlanta's Maynard Jackson, the first African-American mayor of a major Southern city."
+    },
+    {
+      "show_id": "s4867",
+      "title": "Pioneers of African-American Cinema",
+      "type": "TV Show",
+      "release_year": 1946,
+      "listed_in": "TV Shows",
+      "cast": "",
+      "director": "Oscar Micheaux, Spencer Williams, Richard E. Norman, Richard Maurice",
+      "description": "This newly preserved collection features more than 20 films made by groundbreaking African American directors for black audiences from 1915 to 1946."
+    },
+    {
+      "show_id": "s3177",
+      "title": "Jimi Hendrix",
+      "type": "Movie",
+      "release_year": 1973,
+      "listed_in": "Documentaries, Music & Musicals",
+      "cast": "Jimi Hendrix, Eric Clapton, Billy Cox",
+      "director": "Joe Boyd",
+      "description": "Jimi Hendrix's family, friends, and fellow musicians discuss his life and influence. Hendrix also appears in classic performance footage."
+    },
+    {
+      "show_id": "s471",
+      "title": "American Murder: The Family Next Door",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Jenny Popplewell",
+      "description": "Using raw, firsthand footage, this documentary examines the disappearance of Shanann Watts and her children, and the terrible events that followed."
+    },
+    {
+      "show_id": "s7065",
+      "title": "Three Days of Christmas",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, Spanish-Language TV Shows, TV Dramas",
+      "cast": "Victoria Abril, Elena Anaya, Mar Ayala, Nerea Barros, Berta Castañé, Verónica Echegui, Verónica Forqué, Ángela Molina, Anna Moliner, Charo López, Mariona Pagès, Carla Tous, Carles Arquimbau, Manel Barceló, Nausicaa Bonnín, Alicia Borrachero, Antonio Dechent, Miquel Fernández, Francesc Garrido, Iván Morales, Susi Sánchez, David Solans",
+      "director": "",
+      "description": "Four sisters deal with family drama and secrets throughout three different time periods, all occurring on Christmas Day."
+    },
+    {
+      "show_id": "s6433",
+      "title": "The Happytime Murders",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure, Comedies",
+      "cast": "Melissa McCarthy, Elizabeth Banks, Maya Rudolph, Bill Barretta, Leslie David Baker, Joel McHale, Dorien Davies, Cynthy Wu, Michael McDonald, Mitch Silpa",
+      "director": "Brian Henson",
+      "description": "In an LA where puppets and humans coexist, a down-on-his-luck detective teams with his ex-partner to nab a killer targeting the cast of an old TV show."
+    },
+    {
+      "show_id": "s84",
+      "title": "20th Century Women",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Annette Bening, Elle Fanning, Greta Gerwig, Lucas Jade Zumann, Billy Crudup",
+      "director": "Mike Mills",
+      "description": "In 1979, single bohemian mom Dorothea, hoping to help her teen son find his place as a man, asks two young women to share their lives with him."
+    },
+    {
+      "show_id": "s3451",
+      "title": "Krish Trish and Baltiboy: Part II",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Children & Family Movies",
+      "cast": "Damandeep Singh Baggan, Smita Malhotra, Baba Sehgal",
+      "director": "",
+      "description": "Animal minstrels narrate stories about a monkey's friendship with a crocodile, two monkeys' foolishness and a villager's encounter with a demon."
+    },
+    {
+      "show_id": "s7032",
+      "title": "Theater of Life",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "Massimo Bottura",
+      "director": "Peter Svatek",
+      "description": "This documentary follows chef Massimo Bottura as he opens a soup kitchen to cook gourmet meals for the needy from food waste at the 2015 Milan Expo."
+    },
+    {
+      "show_id": "s1090",
+      "title": "Breaking Bad",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "Crime TV Shows, TV Dramas, TV Thrillers",
+      "cast": "Bryan Cranston, Aaron Paul, Anna Gunn, Dean Norris, Betsy Brandt, R.J. Mitte, Bob Odenkirk, Steven Michael Quezada, Jonathan Banks, Giancarlo Esposito",
+      "director": "",
+      "description": "A high school chemistry teacher dying of cancer teams with a former student to secure his family's future by manufacturing and selling crystal meth."
+    },
+    {
+      "show_id": "s7696",
+      "title": "Yaara O Dildaara",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Dramas, International Movies, Music & Musicals",
+      "cast": "Harbhajan Mann, Tulip Joshi, Kabir Bedi, Gulzar Chahal, Jonita, Gurpreet Ghuggi, Gurpreet Grewal, Neena Cheema, Sunita Dhir",
+      "director": "Ksshitij Chaudhary",
+      "description": "The patriarch of a wealthy family with one industrious son and one who's a playboy arranges for the marriage of one to the woman the other loves."
+    },
+    {
+      "show_id": "s1678",
+      "title": "Dedemin Fisi",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Onur Buldu, Alper Kul, Erdem Yener, Onur Atilla, Özge Borak, Doğa Rutkay, Meltem Yılmazkaya, İrem Sak",
+      "director": "Meltem Bozoflu",
+      "description": "When a brain-dead family patriarch is about to be taken off life support, his extended family gathers round and plots to see who'll get his money."
+    },
+    {
+      "show_id": "s3620",
+      "title": "License to Drill: Louisiana",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Reality TV",
+      "cast": "",
+      "director": "",
+      "description": "A crew of oil riggers work an off-season job and swap the blistering cold of their native Canada for sunny, Southern comfort in the Big Easy."
+    },
+    {
+      "show_id": "s4046",
+      "title": "Merku Thodarchi Malai",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Antony, Gayathri Krishna, Abu Valayamkulam, Anthony Vaathiyaar, Aarubala, Sornam",
+      "director": "Lenin Bharathi",
+      "description": "In southern India, a laborer's dreams of owning a piece of land to farm is complicated by political corruption."
+    },
+    {
+      "show_id": "s1993",
+      "title": "Emma' (Mother)",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Cut Mini Theo, Christoffer Nelwan, Arman Dewarti, Jajang C. Noer, Indah Permatasari, Dimi Cindyastira, Irmawati Jabbar, Andreuw Parinussa, Fanesa Kayla",
+      "director": "Riri Riza",
+      "description": "In 1950s Makassar, the life of a devoted mother is upended when another woman enters her husband's life."
+    },
+    {
+      "show_id": "s1182",
+      "title": "Call the Midwife",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "British TV Shows, International TV Shows, TV Dramas",
+      "cast": "Vanessa Redgrave, Bryony Hannah, Helen George, Jenny Agutter, Pam Ferris, Laura Main, Judy Parfitt, Cliff Parisi, Stephen McGann, Ben Caplan, Miranda Hart, Jessica Raine, Max Macmillan, Victoria Yeates, Jack Ashton, Emerald Fennell, Linda Bassett",
+      "director": "Philippa Lowthorpe",
+      "description": "This period drama set in impoverished East London in the 1950s follows a newly qualified midwife and her colleagues at a nursing convent."
+    },
+    {
+      "show_id": "s4855",
+      "title": "Pieces of a Woman",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas",
+      "cast": "Vanessa Kirby, Shia LaBeouf, Ellen Burstyn, Molly Parker, Sarah Snook, Iliza Shlesinger, Benny Safdie, Jimmie Fails",
+      "director": "Kornél Mundruczó",
+      "description": "A heartbreaking home birth leaves a woman grappling with the profound emotional fallout, isolated from her partner and family by a chasm of grief."
+    },
+    {
+      "show_id": "s1715",
+      "title": "Desolate",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Will Brittain, Callan Mulvey, Tyson Ritter, Bill Tangradi, Natasha Bassett, James Russo, Jonathan Rosenthal, Juston Street, Mark Kassen, Takuya Iba, Michael Rhys Kan, Jack Conley, Trieu Tran",
+      "director": "Frederick Cipoletti",
+      "description": "In a severe, drought-ravaged dystopia, the youngest of a farm family starts a quest for revenge after his brothers betray him and leave him for dead."
+    },
+    {
+      "show_id": "s3945",
+      "title": "Marlon",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "TV Comedies",
+      "cast": "Marlon Wayans, Essence Atkins, Bresha Webb, Diallo Riddle, Notlim Taylor, Amir O'Neil",
+      "director": "",
+      "description": "After the friendliest divorce ever, a carefree but devoted father navigates post-split parenting life with his levelheaded ex-wife and two kids."
+    },
+    {
+      "show_id": "s1669",
+      "title": "Death at a Funeral",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Comedies",
+      "cast": "Chris Rock, Martin Lawrence, Tracy Morgan, Danny Glover, James Marsden, Luke Wilson, Zoe Saldana, Regina Hall, Columbus Short, Peter Dinklage, Kevin Hart, Loretta Devine, Regine Nehy, Keith David, Ron Glass",
+      "director": "Neil LaBute",
+      "description": "When a Los Angeles family's patriarch dies, his dutiful eldest son plans the funeral – which becomes a fiasco thanks to a colorful cast of attendees."
+    },
+    {
+      "show_id": "s6107",
+      "title": "The Bachelors",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas",
+      "cast": "J.K. Simmons, Josh Wiggins, Julie Delpy, Odeya Rush, Kevin Dunn, Kimberly Crandall, Jean Louisa Kelly, Charlie DePew, Tyrel Jackson Williams, Tom Amandes, Spencer List, Jacqueline Mazarella, Vanessa Howard, Harold Perrineau",
+      "director": "Kurt Voelker",
+      "description": "After the death of his wife, a teacher and his son move to a new city, where emotional connections with two women help them begin to heal."
+    },
+    {
+      "show_id": "s5518",
+      "title": "Seven Sundays",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Ronaldo Valdez, Aga Muhlach, Dingdong Dantes, Enrique Gil, Cristine Reyes, Donita Rose, Ketchup Eusebio, Kean Cipriano",
+      "director": "Cathy Garcia-Molina",
+      "description": "A dying father asks his busy and grown children to spend their Sundays with him, forcing his family to confront their issues before it's too late."
+    },
+    {
+      "show_id": "s6481",
+      "title": "The Impossible",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Dramas",
+      "cast": "Naomi Watts, Ewan McGregor, Tom Holland, Samuel Joslin, Oaklee Pendergast, Marta Etura, Sönke Möhring, Geraldine Chaplin, Ploy Jindachote, Jomjaoi Sae-Limh",
+      "director": "J.A. Bayona",
+      "description": "Tracking one family's harrowing experiences, this gripping drama depicts the chaos generated by the massive 2004 tsunami in Southeast Asia."
+    },
+    {
+      "show_id": "s2804",
+      "title": "Hope Frozen: A Quest to Live Twice",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Pailin Wedel",
+      "description": "A Thai scientist and his family decide to cryonically freeze their cherished, dying toddler. This heartfelt documentary follows their journey."
+    },
+    {
+      "show_id": "s5732",
+      "title": "Southern Survival",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Reality TV",
+      "cast": "",
+      "director": "",
+      "description": "The BattlBox crew tests out products designed to help people survive dangerous situations, including explosions, natural disasters and intruders."
+    },
+    {
+      "show_id": "s205",
+      "title": "A Mission in an Old Movie",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Edward, Fifi Abdo, Lotfy Labib, Madeleine Matar, Nahla Zaki, Ahmed Fathy, Said Tarabeek, Badriya Tolba, Eman El-Sayed",
+      "director": "Ahmad El-Badri",
+      "description": "A young man struggles with his overbearing mother while looking for romance and a way to kick-start his show business career."
+    },
+    {
+      "show_id": "s1242",
+      "title": "Cat on a Hot Tin Roof",
+      "type": "Movie",
+      "release_year": 1958,
+      "listed_in": "Classic Movies, Dramas",
+      "cast": "Elizabeth Taylor, Paul Newman, Burl Ives, Jack Carson, Judith Anderson, Madeleine Sherwood, Larry Gates, Vaughn Taylor",
+      "director": "Richard Brooks",
+      "description": "Members of a Southern clan scramble to curry favor with a dying, wealthy patriarch in this adaptation of Tennessee Williams's sizzling stage drama."
+    }
+  ]
+}

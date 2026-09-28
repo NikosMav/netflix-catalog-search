@@ -1,0 +1,377 @@
+{
+  "split": "dev",
+  "query_id": "nature_planet_docs",
+  "query": "nature documentary about wildlife on earth",
+  "candidates": [
+    {
+      "show_id": "s5000",
+      "title": "Puffin Rock",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Kids' TV",
+      "cast": "Chris O'Dowd, Kate McCafferty, Sally McDaid, Geraldine Cole, Brian McMonagle, Darragh Gargan",
+      "director": "",
+      "description": "Life is sweet on beautiful Puffin Rock, where puffling Oona, her baby brother Baba and their pals learn about nature, friendship and family."
+    },
+    {
+      "show_id": "s4434",
+      "title": "Nature's Great Race",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Docuseries, Science & Nature TV",
+      "cast": "Liz Bonnin",
+      "director": "",
+      "description": "Epic footage captures three of the world's most significant land migrations, following elephants, caribou and zebras on their treacherous journeys."
+    },
+    {
+      "show_id": "s4876",
+      "title": "Planet Earth II",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Docuseries, Science & Nature TV",
+      "cast": "David Attenborough",
+      "director": "",
+      "description": "In this sequel to the Emmy-winning \"Planet Earth\" series, viewers are treated to rich and intimate views of the natural diversity of our planet."
+    },
+    {
+      "show_id": "s6930",
+      "title": "The Tigers of Scotland",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "Iain Glen",
+      "director": "Leanne Gater",
+      "description": "This documentary highlights the endangered existence of the Scottish wildcats, and the conservation efforts required to prevent their extinction."
+    },
+    {
+      "show_id": "s4656",
+      "title": "One Strange Rock",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries, Science & Nature TV",
+      "cast": "Will Smith",
+      "director": "",
+      "description": "Hosted by Will Smith, this series follows eight astronauts who share their unique perspectives on Earth, the fragile and beautiful planet we call home."
+    },
+    {
+      "show_id": "s322",
+      "title": "Africa",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "British TV Shows, Docuseries, International TV Shows",
+      "cast": "David Attenborough",
+      "director": "",
+      "description": "This five-part nature series chronicles fascinating stories of survival on the African continent, home to the most diverse animal life on the planet."
+    },
+    {
+      "show_id": "s4877",
+      "title": "Planet Earth: The Complete Collection",
+      "type": "TV Show",
+      "release_year": 2006,
+      "listed_in": "British TV Shows, Docuseries, International TV Shows",
+      "cast": "David Attenborough",
+      "director": "Alastair Fothergill",
+      "description": "This landmark series transports nature lovers from the Himalayan Mountains to the depths of the ocean and everywhere in between."
+    },
+    {
+      "show_id": "s2988",
+      "title": "India: Nature's Wonderland",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "British TV Shows, Docuseries, Science & Nature TV",
+      "cast": "Liz Bonnin, Jon Gupta, Freida Pinto",
+      "director": "",
+      "description": "Wildlife biologist Liz Bonnin explores the natural wonders of India in this series that reveals the species and cultures unique to this ancient land."
+    },
+    {
+      "show_id": "s6028",
+      "title": "Terra",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Vanessa Paradis",
+      "director": "Yann Arthus-Bertrand, Michael Pitiot",
+      "description": "This visually arresting documentary essay reflects on our relationship to other living creatures as humanity becomes more isolated from nature."
+    },
+    {
+      "show_id": "s1634",
+      "title": "David Attenborough: A Life on Our Planet",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries",
+      "cast": "David Attenborough",
+      "director": "Alastair Fothergill, Jonnie Hughes, Keith Scholey",
+      "description": "A broadcaster recounts his life, and the evolutionary history of life on Earth, to grieve the loss of wild places and offer a vision for the future."
+    },
+    {
+      "show_id": "s4467",
+      "title": "Night on Earth",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries, Science & Nature TV",
+      "cast": "Samira Wiley",
+      "director": "",
+      "description": "This nature series’ new technology lifts night’s veil to reveal the hidden lives of the world’s creatures, from lions on the hunt to bats on the wing."
+    },
+    {
+      "show_id": "s290",
+      "title": "Absurd Planet",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries, Science & Nature TV, TV Comedies",
+      "cast": "Afi Ekulona",
+      "director": "",
+      "description": "A cast of quirky critters and Mother Nature herself narrate this funny science series, which peeks into the lives of Earth’s most incredible animals."
+    },
+    {
+      "show_id": "s4697",
+      "title": "Our Planet",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Docuseries, Science & Nature TV",
+      "cast": "David Attenborough",
+      "director": "",
+      "description": "Experience our planet's natural beauty and examine how climate change impacts all living creatures in this ambitious documentary of spectacular scope."
+    },
+    {
+      "show_id": "s4429",
+      "title": "Nature: Animals With Cameras",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries, Science & Nature TV",
+      "cast": "Gordon Buchanan",
+      "director": "",
+      "description": "With custom-built cameras attached to their bodies, animals from nine species offer a rare and intimate glimpse into their lives."
+    },
+    {
+      "show_id": "s5218",
+      "title": "Rise of the Zombie",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Horror Movies, International Movies",
+      "cast": "Luke Kenny, Kirti Kulhari, Ashwin Mushran, Benjamin Gilani",
+      "director": "Devaki Singh, Luke Kenny",
+      "description": "A heartbroken wildlife photographer throws himself into his work, only to find himself experiencing strange transformations."
+    },
+    {
+      "show_id": "s6124",
+      "title": "The Beginning of Life 2: Outside",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Renata Terra",
+      "description": "As urbanization expands throughout society, this documentary discusses the value of finding ways for children to forge real connections with nature."
+    },
+    {
+      "show_id": "s6231",
+      "title": "The Code",
+      "type": "TV Show",
+      "release_year": 2011,
+      "listed_in": "British TV Shows, Docuseries, International TV Shows",
+      "cast": "Marcus du Sautoy",
+      "director": "",
+      "description": "In this three-part documentary series, host Marcus du Sautoy examines the mathematical code underlying all of life on Earth and the universe itself."
+    },
+    {
+      "show_id": "s1907",
+      "title": "Earth's Natural Wonders",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "British TV Shows, Docuseries, Science & Nature TV",
+      "cast": "Olivia Colman",
+      "director": "",
+      "description": "Earth's most sublime landscapes can also be the most forbidding. Discover how inhabitants survive and flourish in our planet's harshest environments."
+    },
+    {
+      "show_id": "s783",
+      "title": "Beary Tales",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Children & Family Movies, Documentaries, International Movies",
+      "cast": "",
+      "director": "",
+      "description": "A well-known wildlife photographer living alone in the Bohemian Forest finds himself playing mama bear to a pair of abandoned cubs."
+    },
+    {
+      "show_id": "s4432",
+      "title": "Nature's Great Events (2009)",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "British TV Shows, Docuseries, Science & Nature TV",
+      "cast": "David Attenborough",
+      "director": "",
+      "description": "This series looks at how seasonal changes cause shifting weather patterns and ocean currents, creating the conditions for spectacular wildlife events."
+    },
+    {
+      "show_id": "s7781",
+      "title": "Zoo",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Shashank Arora, Shweta Tripathi, Rahul Kumar, Gopal K. Singh, Yogesh Kurme, Prince Daniel",
+      "director": "Shlok Sharma",
+      "description": "A drug dealer starts having doubts about his trade as his brother, his client, and two rappers from the slums each battle their own secret addictions."
+    },
+    {
+      "show_id": "s4433",
+      "title": "Nature's Great Events: Diaries",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "British TV Shows, Docuseries, Science & Nature TV",
+      "cast": "David Attenborough",
+      "director": "",
+      "description": "Look behind the scenes of this wildlife documentary series that examines how animals around the world adapt to chaotic natural phenomena."
+    },
+    {
+      "show_id": "s6637",
+      "title": "The Making of Frozen Planet",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "British TV Shows, Docuseries, Science & Nature TV",
+      "cast": "David Attenborough",
+      "director": "",
+      "description": "Documentary crew members brave Earth's most frigid regions to capture the majesty and mystery found in the chillier side of the animal kingdom."
+    },
+    {
+      "show_id": "s3633",
+      "title": "Life Story",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "British TV Shows, Docuseries, Science & Nature TV",
+      "cast": "David Attenborough",
+      "director": "",
+      "description": "This documentary series follows wild creatures in their native habitats as they navigate the perilous journey from birth to adulthood and beyond."
+    },
+    {
+      "show_id": "s2862",
+      "title": "Human Nature",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Adam Bolt",
+      "description": "From breakthrough science to the boundaries of morality, this documentary spotlights a revelation in genetic modification research known as CRISPR."
+    },
+    {
+      "show_id": "s814",
+      "title": "Behind the Curve",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Daniel J. Clark",
+      "description": "Meet the growing, worldwide community of theorists who defend the belief that the Earth is flat while living in a society who vehemently rejects it."
+    },
+    {
+      "show_id": "s7236",
+      "title": "Trophy",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Shaul Schwarz, Christina Clusiau",
+      "description": "This documentary explores the tensions between the lucrative big-game hunting business and wildlife conservation from a variety of perspectives."
+    },
+    {
+      "show_id": "s5798",
+      "title": "Stars in the Sky: A Hunting Story",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries",
+      "cast": "Steven Rinella",
+      "director": "Steven Rinella",
+      "description": "This documentary follows a group of hunters as they grapple with the complexities, controversies, and contradictions of pursuing animals in the wild."
+    },
+    {
+      "show_id": "s7625",
+      "title": "Wildlife",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Carey Mulligan, Ed Oxenbould, Bill Camp, Jake Gyllenhaal, Mollie Milligan, Darryl Cox",
+      "director": "Paul Dano",
+      "description": "A teen’s life in 1960 Montana grows complicated when his father is fired, his mother returns to work, and the strain on the family begins to show."
+    },
+    {
+      "show_id": "s4424",
+      "title": "National Parks Adventure",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "Robert Redford",
+      "director": "Greg MacGillivray",
+      "description": "Narrated by Robert Redford, this documentary tours the awe-inspiring landscapes, historic sites and untamed wilderness of America's great parks."
+    },
+    {
+      "show_id": "s7619",
+      "title": "Wild Arabia",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "British TV Shows, Docuseries, Science & Nature TV",
+      "cast": "Alexander Siddig",
+      "director": "",
+      "description": "The widely varied geology and dramatic landscapes in the continental crossroads of Arabia harbors a rich history and an abundance of wildlife."
+    },
+    {
+      "show_id": "s1906",
+      "title": "Earth to Luna!",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Kids' TV",
+      "cast": "Angelina Carballo, Raul-Gomez Pina, Eric Anderson",
+      "director": "",
+      "description": "Curious about everything and excited about science, 6-year-old Luna, her brother Jupiter and pet Clyde explore nature to learn about the world."
+    },
+    {
+      "show_id": "s1780",
+      "title": "Discovering Bigfoot",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "Todd Standing",
+      "director": "Todd Standing",
+      "description": "Follow Todd Standing, Dr. Jeff Meldrum and other researchers into the wilderness, where they try to capture definitive proof of Sasquatch's existence."
+    },
+    {
+      "show_id": "s4468",
+      "title": "Night on Earth: Shot in the Dark",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Movies",
+      "cast": "Samira Wiley",
+      "director": "",
+      "description": "This look behind the scenes shows how worldwide camera crews climbed, dived and froze to capture the documentary's groundbreaking night footage."
+    },
+    {
+      "show_id": "s530",
+      "title": "Animal World",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure, International Movies, Sci-Fi & Fantasy",
+      "cast": "Li Yi Feng, Zhou Dongyu, Michael Douglas, Bingkun Cao, Ge Wang, Keanu Chi, Zhang Jungyi, Yijuan Li, Su Ke",
+      "director": "Han Yan",
+      "description": "An unlucky, debt-ridden teen resorts to his math skills when he's forced into a deadly tournament of rock-paper-scissors run by a diabolical host."
+    },
+    {
+      "show_id": "s1001",
+      "title": "Blue Planet II",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "British TV Shows, Docuseries, Science & Nature TV",
+      "cast": "David Attenborough",
+      "director": "",
+      "description": "This sequel to the award-winning nature series \"Blue Planet\" dives beneath Earth's oceans to reveal the dazzling vistas and amazing creatures there."
+    },
+    {
+      "show_id": "s1795",
+      "title": "Documentary Now!",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Comedies",
+      "cast": "Fred Armisen, Bill Hader, Helen Mirren",
+      "director": "",
+      "description": "Elevating the art of parody, this sharply comic series spoofs high-profile documentaries such as \"Grey Gardens\" and \"The Thin Blue Line.\""
+    }
+  ]
+}

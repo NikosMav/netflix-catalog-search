@@ -1,0 +1,387 @@
+{
+  "split": "dev",
+  "query_id": "dave_chappelle_comedy",
+  "query": "Dave Chappelle comedy special",
+  "candidates": [
+    {
+      "show_id": "s2145",
+      "title": "Felipe Neto: My Life Makes No Sense",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Felipe Neto",
+      "director": "Diego Pignataro",
+      "description": "YouTube sensation Felipe Neto brings the stories from his autobiographical book \"Não Faz Sentido!\" to the stage in this comedy special."
+    },
+    {
+      "show_id": "s1631",
+      "title": "Dave Chappelle: Equanimity & The Bird Revelation",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Stand-Up Comedy & Talk Shows, TV Comedies",
+      "cast": "Dave Chappelle",
+      "director": "Stan Lathan",
+      "description": "Comedy titan Dave Chappelle caps a wild year with two stand-up specials packed with scorching new material, self-reflection and tough love."
+    },
+    {
+      "show_id": "s5315",
+      "title": "Russell Peters: Notorious",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Russell Peters",
+      "director": "Dave Higby",
+      "description": "Global comedy star Russell Peters leaves no ethnic or cultural stereotype unsatirized in this outrageous standup appearance in Sydney, Australia."
+    },
+    {
+      "show_id": "s1472",
+      "title": "COMEDIANS of the world",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Stand-Up Comedy & Talk Shows, TV Comedies",
+      "cast": "Neal Brennan, Chris D'Elia, Nicole Byer, Nick Swardson, DeAnne Smith, Ivan Decker, Dave Merheje, K. Trevor Wilson, Joel Dommett, Mae Martin, Nish Kumar, Ellie Taylor, Urzila Carlson, Joel Creasey, Nazeem Hussain, Cal Wilson, Riaad Moosa, Tumi Morake, Loyiso Gola, Loyiso Madinga, Atul Khatri, Aditi Mittal, Amit Tandon, Franco Escamilla, Hugo El Cojo Feliz, Gaby Llanas, Enissa Amani, Ilka Bessin, Kaya Yanar, Thiago Ventura, Mhel Merrer, Afonso Padilha, Shirley Souagnon, Jason Brokerss, Tania Dutel, Donel Jack'sman, Ibraheem Alkhairallah, Rawsan Hallak, Adi Khalefa, Moayad Alnefaie, Louis-José Houde, François Bellefeuille, Katherine Levac, Adib Alkhalidey, Martijn Koning, Soundos El Ahmadi, Rayen Panday",
+      "director": "",
+      "description": "This global stand-up comedy series features a diverse set of comics from 13 regions bringing their perspectives on what's funny around the world."
+    },
+    {
+      "show_id": "s3940",
+      "title": "Maria Bamford: The Special Special Special",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Maria Bamford, Wayne Federman, Jackie Kashian",
+      "director": "Jordan Brady",
+      "description": "Spend an evening with gleeful, oh-so-awkward Maria Bamford via her cozy, shot-at-home comedy special, which has a two-person audience: her parents."
+    },
+    {
+      "show_id": "s3168",
+      "title": "Jim Gaffigan: Cinco",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Jim Gaffigan",
+      "director": "Jeannie Gaffigan",
+      "description": "America's king of clean comedy delivers wickedly funny jokes in his fifth hour-long special."
+    },
+    {
+      "show_id": "s4441",
+      "title": "Neal Brennan: 3 Mics",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Neal Brennan",
+      "director": "Neal Brennan",
+      "description": "Wicked one-liners and soul-baring confessions converge in this uniquely intimate stand-up special from \"Chappelle's Show\" co-creator Neal Brennan."
+    },
+    {
+      "show_id": "s7139",
+      "title": "Tom Segura: Completely Normal",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Tom Segura",
+      "director": "Jay Chapman",
+      "description": "Levelheaded stand-up Tom Segura shares offhand appraisals on hotels and opens up about his hobbies and digestive ailments in this comedy special."
+    },
+    {
+      "show_id": "s3102",
+      "title": "Jack Whitehall: I'm Only Joking",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Jack Whitehall",
+      "director": "Dave Skinner, Freddie Waters",
+      "description": "Jack Whitehall hits the stage with hilarious tales about happy couples, life in hotels, human stupidity and his well-traveled father."
+    },
+    {
+      "show_id": "s4076",
+      "title": "Middleditch & Schwartz",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Comedies",
+      "cast": "Thomas Middleditch, Ben Schwartz",
+      "director": "Ryan Polito",
+      "description": "Comedy duo Thomas Middleditch and Ben Schwartz turn small ideas into epically funny stories in this series of completely improvised comedy specials."
+    },
+    {
+      "show_id": "s1003",
+      "title": "Blue Streak",
+      "type": "Movie",
+      "release_year": 1999,
+      "listed_in": "Action & Adventure, Comedies",
+      "cast": "Martin Lawrence, Luke Wilson, Peter Greene, Dave Chappelle, Nicole Ari Parker, Graham Beckel, Robert Miranda, Olek Krupa, Saverio Guerra, Richard C. Sarafian, William Forsythe",
+      "director": "Les Mayfield",
+      "description": "A jewel thief returns to his hiding place after a stint in jail — only to find that his diamond is buried under a newly constructed police station."
+    },
+    {
+      "show_id": "s3198",
+      "title": "Joe Mande’s Award-Winning Comedy Special",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Joe Mande",
+      "director": "Daniel Gray Longino",
+      "description": "Stand-up comic Joe Mande aims for critical adulation with this special that covers dating shows, \"Shark Tank,\" Jewish summer camp and much more."
+    },
+    {
+      "show_id": "s3173",
+      "title": "Jim Jefferies: Freedumb",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Jim Jefferies",
+      "director": "Ryan Polito",
+      "description": "Returning for a second Netflix comedy special, Jim Jefferies unleashes his famously ferocious black humor to a packed house in Nashville, Tennessee."
+    },
+    {
+      "show_id": "s6233",
+      "title": "The Comedy Lineup",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy & Talk Shows, TV Comedies",
+      "cast": "Michelle Buteau, Ian Karmel, Taylor Tomlinson, Sam Jay, Phil Wang, Sabrina Jalees, Jak Knight, Tim Dillon",
+      "director": "",
+      "description": "A diverse group of up-and-coming comedians perform 15-minute sets in this stand-up comedy showcase series."
+    },
+    {
+      "show_id": "s4449",
+      "title": "Netflix Presents: The Characters",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "TV Comedies",
+      "cast": "Lauren Lapkus, John Early, Henry Zebrowski, Kate Berlant, Natasha Rothwell, Paul W. Downs, Tim Robinson, Dr. Brown",
+      "director": "",
+      "description": "We asked eight up-and-coming comedians for their wildest sketch and improv routines – and got a new comedy series unlike anything else."
+    },
+    {
+      "show_id": "s1601",
+      "title": "Daniel Sloss: Live Shows",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy & Talk Shows, TV Comedies",
+      "cast": "Daniel Sloss",
+      "director": "",
+      "description": "Comedian Daniel Sloss is ready to find the funny in some very dark topics, from the deeply personal to the truly irreverent."
+    },
+    {
+      "show_id": "s5508",
+      "title": "Seth Rogen's Hilarity for Charity",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Seth Rogen, Ike Barinholtz, Michael Che, Sacha Baron Cohen, Jeff Goldblum, Tiffany Haddish, Chris Hardwick, Nick Kroll, John Mulaney, Kumail Nanjiani, Chelsea Peretti, Craig Robinson & The Nasty Delicious, Lauren Miller Rogen, Justin Roiland, Sarah Silverman, Michelle Wolf",
+      "director": "Ryan Polito",
+      "description": "Seth Rogen and friends combine stand-up, sketches and music for an outrageous comedy special that could only come from the mind of Seth."
+    },
+    {
+      "show_id": "s1635",
+      "title": "David Batra: Elefanten i rummet",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "David Batra",
+      "director": "David Batra, Jon Rudberg",
+      "description": "Swedish comedian David Batra gets personal as he playfully details the perks and pitfalls of being married to a recently resigned political leader."
+    },
+    {
+      "show_id": "s5203",
+      "title": "Ricky Gervais: Humanity",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Ricky Gervais",
+      "director": "John L. Spencer",
+      "description": "In his first special in seven years, Ricky Gervais slings his trademark snark at celebrity, mortality and a society that takes everything personally."
+    },
+    {
+      "show_id": "s6287",
+      "title": "The Degenerates",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Stand-Up Comedy & Talk Shows, TV Comedies",
+      "cast": "Big Jay Oakerson, Brad Williams, Yamaneika Saunders, Liza  Treyger, Joey Diaz, Christina Pazsitzky",
+      "director": "",
+      "description": "Six stand-ups explore the coarse and salacious side of comedy in this series of half-hour specials. For mature audiences."
+    },
+    {
+      "show_id": "s1630",
+      "title": "Dave Chappelle",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Stand-Up Comedy & Talk Shows, TV Comedies",
+      "cast": "Dave Chappelle",
+      "director": "Stan Lathan",
+      "description": "Comedy icon Dave Chappelle makes his triumphant return to the screen with a pair of blistering, fresh stand-up specials."
+    },
+    {
+      "show_id": "s1632",
+      "title": "Dave Chappelle: Sticks & Stones",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Dave Chappelle",
+      "director": "Stan Lathan",
+      "description": "Dave Chappelle takes on gun culture, the opioid crisis and the tidal wave of celebrity scandals in a defiant stand-up special filmed in Atlanta."
+    },
+    {
+      "show_id": "s3346",
+      "title": "Kevin Hart: Seriously Funny",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Kevin Hart",
+      "director": "Shannon Hartman",
+      "description": "With his unique hip-hop style delivery, African American stand-up comedian Kevin Hart expounds on life at a sold-out concert performance."
+    },
+    {
+      "show_id": "s5454",
+      "title": "Sebastian Maniscalco: Stay Hungry",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Sebastian Maniscalco",
+      "director": "Rik Reinholdtsen",
+      "description": "Sebastian Maniscalco brings an acerbically unique approach to peacocks on planes, life hacks, rich in-laws and life's annoyances in this comedy special."
+    },
+    {
+      "show_id": "s2537",
+      "title": "Greg Davies: You Magnificent Beast",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Greg Davies",
+      "director": "Peter Orton",
+      "description": "British comedian Greg Davies revisits terrifying dates, manscaping disasters, his father's pranks and more in a savagely funny stand-up special."
+    },
+    {
+      "show_id": "s6727",
+      "title": "The Original Kings of Comedy",
+      "type": "Movie",
+      "release_year": 2000,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Steve Harvey, D.L. Hughley, Cedric the Entertainer, Bernie Mac",
+      "director": "Spike Lee",
+      "description": "Director Spike Lee documents the last night of the hit comedy tour featuring comics Steve Harvey, Cedric the Entertainer, D.L. Hughley and Bernie Mac."
+    },
+    {
+      "show_id": "s2341",
+      "title": "GAME ON: A Comedy Crossover Event",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Loretta Devine, Tia Mowry-Hardrict, Anthony Alabi, Paul Wight, Allison Munn, Gabriel Iglesias, Sherri Shepherd, Paulina Chávez, Jencarlos Canela",
+      "director": "",
+      "description": "Worlds collide in this special event featuring familiar faces, surprise cameos and stories of spirited competition from four different comedy series."
+    },
+    {
+      "show_id": "s4093",
+      "title": "Mike Birbiglia: The New One",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Mike Birbiglia",
+      "director": "Seth Barrish",
+      "description": "Comedian Mike Birbiglia hits Broadway with a hilarious yet profound one-man show that recounts his emotional and physical journey to parenthood."
+    },
+    {
+      "show_id": "s2627",
+      "title": "Hari Kondabolu: Warn Your Relatives",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Hari Kondabolu",
+      "director": "Bobcat Goldthwait",
+      "description": "Hari Kondabolu breaks down identity politics, celebrity encounters, his mango obsession and more in an unpredictable stand-up comedy special."
+    },
+    {
+      "show_id": "s1311",
+      "title": "Chelsea Peretti: One of the Greats",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Chelsea Peretti",
+      "director": "Lance Bangs",
+      "description": "\"Brooklyn Nine-Nine\" star Chelsea Peretti showcases her diverse talents in this dark yet silly reimagining of the comedy special."
+    },
+    {
+      "show_id": "s1139",
+      "title": "Bumping Mics with Jeff Ross & Dave Attell",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy & Talk Shows, TV Comedies",
+      "cast": "Jeff Ross, Dave Attell",
+      "director": "",
+      "description": "When Jeff Ross and Dave Attell take the stage, no one is safe. With the help of special guests, they're packing a lot of laughs into one epic weekend."
+    },
+    {
+      "show_id": "s1633",
+      "title": "Dave Chappelle: The Kennedy Center Mark Twain Prize for American Humor",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "",
+      "director": "",
+      "description": "Dave Chappelle is awarded the prestigious Mark Twain Prize for American Humor in a star-studded ceremony from the Kennedy Center in Washington, D.C."
+    },
+    {
+      "show_id": "s1685",
+      "title": "Def Comedy Jam 25",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Dave Chappelle, Steve Harvey, Cedric the Entertainer, Martin Lawrence, Tiffany Haddish, Katt Williams, Craig Robinson, D.L. Hughley, Eddie Griffin, J.B. Smoove, Joe Torry, Kid Capri, Mike Epps, Sheryl Underwood, Tracy Morgan, Deon Cole",
+      "director": "Louis J. Horvitz",
+      "description": "In this special live event, giants of stand-up come together to commemorate the 25th anniversary of Russell Simmons's groundbreaking \"Def Comedy Jam.\""
+    },
+    {
+      "show_id": "s5108",
+      "title": "Ray Romano: Right Here, Around the Corner",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Ray Romano",
+      "director": "Michael Showalter",
+      "description": "Ray Romano cut his stand-up teeth at the Comedy Cellar in New York. Now, in his first comedy special in 23 years, he returns to where it all began."
+    },
+    {
+      "show_id": "s4375",
+      "title": "Mystic River",
+      "type": "Movie",
+      "release_year": 2003,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Sean Penn, Tim Robbins, Kevin Bacon, Laurence Fishburne, Marcia Gay Harden, Laura Linney, Kevin Chapman, Tom Guiry, Emmy Rossum, Spencer Treat Clark",
+      "director": "Clint Eastwood",
+      "description": "Tragedy reunites childhood friends Sean, Dave and Jimmy when they're linked together in a murder investigation about Jimmy's teenage daughter."
+    },
+    {
+      "show_id": "s2359",
+      "title": "Garfunkel and Oates: Trying to be Special",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Music & Musicals, Stand-Up Comedy",
+      "cast": "Riki Lindhome, Kate Micucci, Anthony Jeselnik, Steve Agee",
+      "director": "Riki Lindhome, Jeremy Konner",
+      "description": "Garfunkel and Oates put on a surprise-filled show in Seattle in hopes of raising enough money to make their own comedy special."
+    },
+    {
+      "show_id": "s919",
+      "title": "Bill Burr: You People Are All the Same",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Bill Burr",
+      "director": "Jay Karas",
+      "description": "Funnyman Bill Burr takes the stage to uncork a profanity-laced, incisive routine that pokes fun at plastic surgery, reality TV, gold diggers and more."
+    },
+    {
+      "show_id": "s4096",
+      "title": "Mike Epps: Only One Mike",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Mike Epps",
+      "director": "Kevin Bray",
+      "description": "In a raw stand-up comedy special, Mike Epps mixes it up as he tackles sexual misconduct, special ed, aging body parts and much more."
+    }
+  ]
+}

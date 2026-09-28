@@ -1,0 +1,657 @@
+{
+  "split": "dev",
+  "query_id": "time_travel_romance",
+  "query": "time travel romantic comedy movie",
+  "candidates": [
+    {
+      "show_id": "s6705",
+      "title": "The New Romantic",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Independent Movies, Romantic Movies",
+      "cast": "Timm Sharp, Hayley Law, Camila Mendes, Brett Dier, Jessica Barden, Avan Jogia",
+      "director": "Carly Stone",
+      "description": "Fed up with dating and debt, a naïve college senior documents her experience of being with a wealthy, older man for a gonzo journalism grant."
+    },
+    {
+      "show_id": "s2607",
+      "title": "Happy 300 Days",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Comedies",
+      "cast": "Tammy Chen, Kingone Wang, Hsieh Kun Da, Chuang Kai-Hsun, Jenna Wang",
+      "director": "",
+      "description": "An unexpected pregnancy sends a woman back to her hometown to share a house with three nice guys. Each has problems, but each would make a great dad."
+    },
+    {
+      "show_id": "s671",
+      "title": "Baby Dolls",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Nirmal Rishi, Sonam Bajwa, Sukhwinder Chahal, Tania, Gurnam Bhullar",
+      "director": "Vijay Kumar Arora",
+      "description": "When two sisters travel from Canada to Punjab to visit their maternal family, they discover an opportunity to mend a broken bond with their grandmother."
+    },
+    {
+      "show_id": "s3910",
+      "title": "Manje Bistre",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Gippy Grewal, Sonam Bajwa, Karamjit Anmol, Jaggi Singh, B.N. Sharma, Hobby Dhaliwal, Rana Ranbir, Sardar Sohi, Anita Devgan, Harby Sangha",
+      "director": "Baljit Singh Deo",
+      "description": "While prepping for a family wedding, a young man falls for his sister’s friend, who has already been promised to someone else."
+    },
+    {
+      "show_id": "s7144",
+      "title": "Tomorrow with You",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Shin Mina, Lee Je-hoon, Kim Ye-won, Cho Han-cheul, Baek Hyeon-jin, Kang Ki-doong, Park Joo-hee, Oh Gwang-rok",
+      "director": "",
+      "description": "The head of a real estate firm with the ability to travel through time by taking the subway marries a photographer to try and change his future."
+    },
+    {
+      "show_id": "s3605",
+      "title": "Leslie Jones: Time Machine",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Leslie Jones",
+      "director": "David Benioff, D.B. Weiss",
+      "description": "From trying to seduce Prince to battling sleep apnea, Leslie Jones traces her evolution as an adult in a joyfully raw and outrageous stand-up special."
+    },
+    {
+      "show_id": "s5710",
+      "title": "Something's Gotta Give",
+      "type": "Movie",
+      "release_year": 2003,
+      "listed_in": "Comedies, Romantic Movies",
+      "cast": "Jack Nicholson, Diane Keaton, Keanu Reeves, Frances McDormand, Amanda Peet, Jon Favreau, Paul Michael Glaser, Rachel Ticotin",
+      "director": "Nancy Meyers",
+      "description": "Still sexy at 60, Harry Sanborn wines and dines women half his age. But a getaway with his girlfriend goes awry when her mother drops in unannounced."
+    },
+    {
+      "show_id": "s4348",
+      "title": "My Perfect Romance",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Kimberly-Sue Murray, Christopher Russell, Lauren Holly, Jodie Sweetin, Morgan Fairchild",
+      "director": "Justin G. Dyck",
+      "description": "Just in time for Valentine's Day, a program developer pitches a revolutionary dating algorithm to her new CEO, who volunteers them as guinea pigs."
+    },
+    {
+      "show_id": "s4076",
+      "title": "Middleditch & Schwartz",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Comedies",
+      "cast": "Thomas Middleditch, Ben Schwartz",
+      "director": "Ryan Polito",
+      "description": "Comedy duo Thomas Middleditch and Ben Schwartz turn small ideas into epically funny stories in this series of completely improvised comedy specials."
+    },
+    {
+      "show_id": "s288",
+      "title": "About Time",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Domhnall Gleeson, Rachel McAdams, Bill Nighy, Lydia Wilson, Lindsay Duncan, Richard Cordery, Tom Hollander, Margot Robbie, Joshua McGuire, Vanessa Kirby",
+      "director": "Richard Curtis",
+      "description": "When Tim learns that the men in his family can travel in time and change their own lives, he decides to go back and win the woman of his dreams."
+    },
+    {
+      "show_id": "s5593",
+      "title": "Si Doel the Movie",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Rano Karno, Mandra Naih, Cornelia Agatha, Maudy Koesnaedi, Aminah Tjendrakasih, Suty Karno, Salman Alfarizi, Adam Jagwani",
+      "director": "Rano Karno",
+      "description": "Fourteen years after the woman he loved left him, a married man ventures to Amsterdam to find her but must decide where his heart lies."
+    },
+    {
+      "show_id": "s3249",
+      "title": "Just Another Love Story",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Anders W. Berthelsen, Rebecka Hemse, Nikolaj Lie Kaas, Charlotte Fich, Dejan Cukic, Karsten Jansfort, Flemming Enevold, Bent Mejding, Ewa Fröling, Josephine Raahauge, Timm Vladimir, Ditte Hansen",
+      "director": "Ole Bornedal",
+      "description": "When he causes a car accident that leaves a young woman with amnesia, a man finds himself telling incredible lies to make her and her family happy."
+    },
+    {
+      "show_id": "s6931",
+      "title": "The Time Machine",
+      "type": "Movie",
+      "release_year": 2002,
+      "listed_in": "Action & Adventure, Sci-Fi & Fantasy",
+      "cast": "Guy Pearce, Samantha Mumba, Jeremy Irons, Mark Addy, Sienna Guillory, Phyllida Law, Alan Young, Omero Mumba, Yancey Arias, Orlando Jones",
+      "director": "Simon Wells",
+      "description": "Based on the H.G. Wells classic, this adventure follows a scientist and inventor who's determined to prove to doubters that time travel is possible."
+    },
+    {
+      "show_id": "s5806",
+      "title": "Steal a Pencil for Me",
+      "type": "Movie",
+      "release_year": 2006,
+      "listed_in": "Documentaries",
+      "cast": "Jack Polak, Ina Soep",
+      "director": "Michèle Ohayon",
+      "description": "This moving documentary chronicles the unshakeable romance between a couple who met and fell in love while imprisoned in a Nazi concentration camp."
+    },
+    {
+      "show_id": "s656",
+      "title": "Baaghi",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure, International Movies",
+      "cast": "Tiger Shroff, Shraddha Kapoor, Sudheer Babu, Paras Arora, Sunil Grover, Sourav Chakraborty, Shaurya Bhardawaj",
+      "director": "Sabir Khan",
+      "description": "A martial artist faces his biggest test when he has to travel to Bangkok to rescue the woman he loves from the clutches of his romantic rival."
+    },
+    {
+      "show_id": "s4394",
+      "title": "Naked",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Romantic Movies",
+      "cast": "Marlon Wayans, Regina Hall, Dennis Haysbert, Loretta Devine, Eliza Coupe, Scott Foley, J.T. Jackson, Brian McKnight, Cory Hardrict, Neil Brown Jr., David Sheridan, Minka Kelly",
+      "director": "Michael Tiddes",
+      "description": "Rob's madly in love and about to be married. Unfortunately, he's also naked, stuck in an elevator and caught in a time loop."
+    },
+    {
+      "show_id": "s6456",
+      "title": "The Holiday Movies That Made Us",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Unwrap the real stories behind these iconic Christmas blockbusters, thanks to insider interviews and behind-the-scenes peeks."
+    },
+    {
+      "show_id": "s1941",
+      "title": "Ek Main Aur Ekk Tu",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Kareena Kapoor, Imran Khan, Boman Irani, Ram Kapoor, Ratna Pathak Shah, Zenobia Shroff, Soniya Mehra, Akshat Verma, Dana Lewis, Rajesh Khattar",
+      "director": "Shakun Batra",
+      "description": "Bollywood stars Imran Khan and Kareena Kapoor pair up to play exceptionally dissimilar lovers in this lighthearted romantic comedy."
+    },
+    {
+      "show_id": "s3764",
+      "title": "Love Jones",
+      "type": "Movie",
+      "release_year": 1997,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Larenz Tate, Nia Long, Isaiah Washington, Lisa Nicole Carson, Bill Bellamy, Leonard Roberts, Bernadette L. Clarke, Khalil Kain",
+      "director": "Theodore Witcher",
+      "description": "In this urban romantic comedy set in Chicago, the ups and downs of courtship play out between a young black poet and a pretty shutterbug."
+    },
+    {
+      "show_id": "s5341",
+      "title": "Safety Not Guaranteed",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Comedies, Independent Movies, Romantic Movies",
+      "cast": "Aubrey Plaza, Mark Duplass, Jake Johnson, Mary Lynn Rajskub, Jeff Garlin, Kristen Bell, Jenica Bergere, Karan Soni",
+      "director": "Colin Trevorrow",
+      "description": "A team of journalists are sent to find out who's behind a classified ad seeking a companion for time travel, then must decide how to approach him."
+    },
+    {
+      "show_id": "s910",
+      "title": "Big Time Movie",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Children & Family Movies, Comedies, Music & Musicals",
+      "cast": "Kendall Schmidt, James Maslow, Carlos PenaVega, Logan Henderson, Ciara Bravo, Challen Cates, Tanya Chisholm, Stephen Kramer Glickman, Trevor Devall, Christopher Shyer",
+      "director": "Savage Steve Holland",
+      "description": "Big Time Rush heads to London for their first world tour, but when the boys' bags are switched, they get mixed up in a mission to save the world."
+    },
+    {
+      "show_id": "s2796",
+      "title": "Honeymoon Travels Pvt. Ltd.",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Shabana Azmi, Boman Irani, Abhay Deol, Minissha Lamba, Kay Kay Menon, Raima Sen, Sandhya Mridul, Vikram Chatwal, Ameesha Patel, Karan Khanna, Diya Mirza, Ranvir Shorey",
+      "director": "Reema Kagti",
+      "description": "This offbeat comedy-drama follows six quirky newlywed couples as they set off on a bus from Mumbai to Goa on their honeymoons."
+    },
+    {
+      "show_id": "s5114",
+      "title": "Ready",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Salman Khan, Asin, Paresh Rawal, Mahesh Manjrekar, Anuradha Patel, Manoj Pahwa, Manoj Joshi, Puneet Issar, Sharat Saxena, Akhilendra Mishra, Zarine Khan, Arya Babbar",
+      "director": "Anees Bazmee",
+      "description": "Bollywood superstar Salman Khan plays Prem, an heir to a perfume fortune who falls in love with the wrong woman in this romantic comedy."
+    },
+    {
+      "show_id": "s3076",
+      "title": "It Takes a Man and a Woman",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "John Lloyd Cruz, Sarah Geronimo, Rowell Santiago, Al Tantay, Irma Adlawan, Joross Gamboa, Gio Alvarez, Matet De Leon, Miles Ocampo, Andre Garcia, Dante Rivero, Isabelle Daza",
+      "director": "Cathy Garcia-Molina",
+      "description": "Laida and Miggy used to be in love, but now they're forced to work together in a professional capacity – and neither is completely over their past."
+    },
+    {
+      "show_id": "s7279",
+      "title": "Twice Upon A Time",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Gaspard Ulliel, Freya Mavor",
+      "director": "",
+      "description": "Months after a crushing breakup, a man receives a mysterious package that opens a portal to the past – and gives him a chance to win back his ex."
+    },
+    {
+      "show_id": "s4344",
+      "title": "My Only Love Song",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Seung-yeon Gong, Jong-hyun Lee, Yeon-seo Kim, Bo-hyun Ahn, Jai-jin Lee, Joo-hyung Park",
+      "director": "",
+      "description": "When things don't go her way during a shooting for her new show, a top actress runs away in an old van that guides her on a time-traveling journey."
+    },
+    {
+      "show_id": "s5708",
+      "title": "Something Huge",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Independent Movies, International Movies",
+      "cast": "Berto Romero, Carolina Bang, Javier Botet, Carlos Areces, Miguel Noguera, Toni Sevilla",
+      "director": "Carlo Padial",
+      "description": "A director and a comedian want to shoot the \"comedy of the future\" and make cinema history, but soon run out of resources and run into mission creep."
+    },
+    {
+      "show_id": "s6932",
+      "title": "The Time Traveler's Wife",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Dramas, Romantic Movies, Sci-Fi & Fantasy",
+      "cast": "Rachel McAdams, Eric Bana, Arliss Howard, Ron Livingston, Stephen Tobolowsky, Michelle Nolden, Jane McLean, Hailey McCann, Tatum McCann, Brooklynn Proulx, Alex Ferris",
+      "director": "Robert Schwentke",
+      "description": "Due to a genetic disorder, handsome librarian Henry involuntarily zips through time, appearing at various moments in the life of his true love."
+    },
+    {
+      "show_id": "s295",
+      "title": "Accidentally in Love",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Comedies",
+      "cast": "Junchen Guo, Yi Ning Sun, Yi Qin Zhao, Mu Xuan Cheng, Li Ma, Mo Zhou",
+      "director": "",
+      "description": "Rejecting the demands of her wealthy family, a young woman poses as an ordinary college student and crosses paths with a stoic pop star at school."
+    },
+    {
+      "show_id": "s3315",
+      "title": "Kate & Leopold",
+      "type": "Movie",
+      "release_year": 2001,
+      "listed_in": "Comedies, Romantic Movies",
+      "cast": "Meg Ryan, Hugh Jackman, Liev Schreiber, Breckin Meyer, Natasha Lyonne, Bradley Whitford, Paxton Whitehead, Spalding Gray, Josh Stamberg, Matthew Sussman",
+      "director": "James Mangold",
+      "description": "A present-day woman takes responsibility for guiding a charming time-traveling 19th-century nobleman through the 21st century."
+    },
+    {
+      "show_id": "s3027",
+      "title": "Internet Famous",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies",
+      "cast": "Shane Dawson, Steve Greene, Amanda Cerny, Christian Delgrosso, Wendy McColm, Richard Ryan, Roger Bart, John Michael Higgins, Missi Pyle, Jimmy Tatro, Tay Zonday, Adam Busch",
+      "director": "Michael Gallagher",
+      "description": "Five viral Internet celebrities travel to a competition that will award one of them their own television series in this ensemble comedy."
+    },
+    {
+      "show_id": "s6994",
+      "title": "The Wedding Party 2: Destination Dubai",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Enyinna Nwigwe, Daniella Down, Banky Wellington, Adesua Etomi, Somkele Iyamah, Iretiola Doyle, Sola Sobowale, Michael De Pinna, Lynita Crofford, Patience Ozokwor",
+      "director": "Niyi Akinmolayan",
+      "description": "In this sequel to the 2016 hit \"The Wedding Party,\" a couple's date night ends in an accidental proposal, sparking a series of chaotic family events."
+    },
+    {
+      "show_id": "s7701",
+      "title": "يوم الدين",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Rady Gamal, Ahmed Abdelhafiz, Shahira Fahmy, Shehab Ibrahim, Mohamed Abd El Azim, Osama Abdullah, Khaled Raafat, Mohamed Qishta, Shoq Emara, Mahmoud Fares",
+      "director": "Abu Bakr Shawky",
+      "description": "A man cured of leprosy and a young orphan leave their colony for the first time to travel across Egypt, hoping to find the families they lost."
+    },
+    {
+      "show_id": "s3905",
+      "title": "Manhattan Romance",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Comedies, Independent Movies, Romantic Movies",
+      "cast": "Tom O'Brien, Katherine Waterston, Caitlin Fitzgerald, Gaby Hoffmann, Louis Cancelmi, Zach Grenier",
+      "director": "Tom O'Brien",
+      "description": "A filmmaker working on a documentary about love in modern Manhattan becomes personally entangled in the romantic lives of his subjects."
+    },
+    {
+      "show_id": "s5205",
+      "title": "RIDE ON TIME",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Docuseries, International TV Shows",
+      "cast": "King & Prince, Hey! Say! JUMP, KAT-TUN, NEWS, Kansai Johnny's Jr., Snow Man, Tomoyuki Yara, Travis Japan, Bi shonen, SixTONES, HiHi Jets, Kis-My-Ft2, Koichi Domoto",
+      "director": "",
+      "description": "Take a deep dive into the beautiful world of Japan's top male idol groups from number one producer Johnny's in this revealing docuseries."
+    },
+    {
+      "show_id": "s1932",
+      "title": "Eggnoid: Love & Time Portal",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Morgan Oey, Sheila Dara, Luna Maya, Kevin Julio, Anggika Bolsterli, Reza Nangin, Martin Anugrah, Fatih Unru",
+      "director": "Naya Anindita",
+      "description": "Sent from the future to look after a lonely girl, Eggy finds himself falling for her. But dating is forbidden and would risk both their fates."
+    },
+    {
+      "show_id": "s363",
+      "title": "AK vs AK",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Anil Kapoor, Anurag Kashyap",
+      "director": "Vikramaditya Motwane",
+      "description": "After a public spat with a movie star, a disgraced director retaliates by kidnapping the actor’s daughter, filming the search for her in real time."
+    },
+    {
+      "show_id": "s5482",
+      "title": "See You Yesterday",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Sci-Fi & Fantasy, Thrillers",
+      "cast": "Eden Duncan-Smith, Dante Crichlow, Astro, Johnathan Nieves, Marsha Stephanie Blake, Wavyy Jonez, Myra Lucretia Taylor",
+      "director": "Stefon Bristol",
+      "description": "As two teen prodigies try to master the art of time travel, a tragic police shooting sends them on a series of dangerous trips to the past."
+    },
+    {
+      "show_id": "s7096",
+      "title": "Time Share",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Luis Gerardo Méndez, Miguel Rodarte, R.J. Mitte, Cassandra Ciangherotti, Montserrat Marañon, Andrés Almeida, Emiliano Rodríguez",
+      "director": "Sebastián Hofmann",
+      "description": "Husband and father Pedro becomes increasingly suspicious that a series of mishaps at a resort during a family vacation are part of a sinister plan."
+    },
+    {
+      "show_id": "s2595",
+      "title": "Handsome: A Netflix Mystery Movie",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies",
+      "cast": "Jeff Garlin, Natasha Lyonne, Amy Sedaris, Steven Weber, Christine Woods, Eddie Pepitone, Timm Sharp, Brad Morris, Leah Remini, Ava Acres",
+      "director": "Jeff Garlin",
+      "description": "Homicide detective Gene Handsome sets out to solve a woman's murder while searching for clues about what's missing from his personal life."
+    },
+    {
+      "show_id": "s1685",
+      "title": "Def Comedy Jam 25",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Dave Chappelle, Steve Harvey, Cedric the Entertainer, Martin Lawrence, Tiffany Haddish, Katt Williams, Craig Robinson, D.L. Hughley, Eddie Griffin, J.B. Smoove, Joe Torry, Kid Capri, Mike Epps, Sheryl Underwood, Tracy Morgan, Deon Cole",
+      "director": "Louis J. Horvitz",
+      "description": "In this special live event, giants of stand-up come together to commemorate the 25th anniversary of Russell Simmons's groundbreaking \"Def Comedy Jam.\""
+    },
+    {
+      "show_id": "s301",
+      "title": "Action Replayy",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Children & Family Movies, Comedies, International Movies",
+      "cast": "Akshay Kumar, Aishwarya Rai Bachchan, Om Puri, Kiron Kher, Neha Dhupia, Rannvijay Singh, Aditya Roy Kapur, Sudeepa Singh, Randhir Kapoor, Rajpal Yadav",
+      "director": "Vipul Amrutlal Shah",
+      "description": "Sick of his parents’ constant squabbling, a young man travels back in time to the onset of their romance, with plans to set them up for marital bliss."
+    },
+    {
+      "show_id": "s3259",
+      "title": "Justin Time",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "Kids' TV",
+      "cast": "Gage Munroe, Scott McCord, Jenna Warren",
+      "director": "",
+      "description": "In Justin's dreams, he and his imaginary friends Olive and Squidgy travel around the world learning about nature and other cultures."
+    },
+    {
+      "show_id": "s4364",
+      "title": "My Travel Buddy",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Oguzhan Koç, İbrahim Büyükak, Emre Kınay, Aslı Bekiroğlu, Eda Ece, Bahar Sahin, Muharrem Bayrak, Toygan Avanoglu",
+      "director": "Bedran Güzel",
+      "description": "Days before Eid, a salesman fired from his job drives to Ayvalık to meet his girlfriend's family, but the trip goes astray due to his zany travel buddy."
+    },
+    {
+      "show_id": "s1705",
+      "title": "Deon Cole: Cole Hearted",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Deon Cole",
+      "director": "Ryan Polito",
+      "description": "Embracing his belief that comedy is the last raw form of expression, Deon Cole explains the right time to thank Jesus and the wrong time to say \"welp.\""
+    },
+    {
+      "show_id": "s6433",
+      "title": "The Happytime Murders",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure, Comedies",
+      "cast": "Melissa McCarthy, Elizabeth Banks, Maya Rudolph, Bill Barretta, Leslie David Baker, Joel McHale, Dorien Davies, Cynthy Wu, Michael McDonald, Mitch Silpa",
+      "director": "Brian Henson",
+      "description": "In an LA where puppets and humans coexist, a down-on-his-luck detective teams with his ex-partner to nab a killer targeting the cast of an old TV show."
+    },
+    {
+      "show_id": "s3781",
+      "title": "Love You to the Stars and Back",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Julia Barretto, Joshua Garcia, Carmina Villaroel, Cherry Pie Picache, Ariel Rivera, Maricar Reyes, Edgar Allan Guzman, Jelson Bay, Odette Khan",
+      "director": "Antoinette Jadaone",
+      "description": "In search of aliens, a young woman's road trip becomes an emotional journey when she finds — and falls for — a charming companion with cancer."
+    },
+    {
+      "show_id": "s2341",
+      "title": "GAME ON: A Comedy Crossover Event",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Loretta Devine, Tia Mowry-Hardrict, Anthony Alabi, Paul Wight, Allison Munn, Gabriel Iglesias, Sherri Shepherd, Paulina Chávez, Jencarlos Canela",
+      "director": "",
+      "description": "Worlds collide in this special event featuring familiar faces, surprise cameos and stories of spirited competition from four different comedy series."
+    },
+    {
+      "show_id": "s4649",
+      "title": "One More Time",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "L, So-hui Yoon, Gi-du Kim, Chang-hwan Kim, Ji Su, Tae-im Lee, Nam-gil Kang",
+      "director": "",
+      "description": "This fantasy drama follows an indie band singer who repeatedly undergoes unwanted time slips and the girlfriend he must save from an unlucky fate."
+    },
+    {
+      "show_id": "s3096",
+      "title": "Jab We Met",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Comedies, International Movies, Music & Musicals",
+      "cast": "Shahid Kapoor, Kareena Kapoor, Tarun Arora, Dara Singh, Pavan Malhotra, Kamal Tiwari, Kiran Juneja, Divya Seth, Saumya Tandon",
+      "director": "Imtiaz Ali",
+      "description": "Changing fortunes await a wealthy but dejected industrialist when he meets a spirited chatterbox on a train in this breezy Bollywood romantic comedy."
+    },
+    {
+      "show_id": "s3898",
+      "title": "Man Up",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Lake Bell, Simon Pegg, Ophelia Lovibond, Olivia Williams, Rory Kinnear, Henry Lloyd-Hughes, Ken Stott, Sharon Horgan, Harriet Walter, Stephen Campbell Moore, Dean-Charles Chapman, Phoebe Waller-Bridge",
+      "director": "Ben Palmer",
+      "description": "A single woman seizes an opportunity when, while standing under a train station clock, she meets a stranger who mistakes her for his blind date."
+    },
+    {
+      "show_id": "s250",
+      "title": "A Very Special Love",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "International Movies, Romantic Movies",
+      "cast": "John Lloyd Cruz, Sarah Geronimo, Dante Rivero, Rowell Santiago, Johnny Revilla, Bing Pimental, Daphne Oseña-Paez, Al Tantay, Irma Adlawan, Arno Morales, Miles Ocampo",
+      "director": "Cathy Garcia-Molina",
+      "description": "After landing a job working for her longtime crush, an optimistic woman realizes that the man of her dreams isn't exactly who she envisioned."
+    },
+    {
+      "show_id": "s1510",
+      "title": "Couple of Days",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Lilian Esoro, Ademola Adedoyin, Enyima Nwigwe, Kiki Omeili, Okey Uzoeshi, Adesua Etomi, Olayode Juliana, Falz",
+      "director": "Tolu Awobiyi",
+      "description": "Three couples, each in different phases of romance, head to Ibadan for a fun and frisky holiday. But secrets soon spill, causing trouble in paradise."
+    },
+    {
+      "show_id": "s982",
+      "title": "Blinky Bill: The Movie",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Children & Family Movies",
+      "cast": "Ryan Kwanten, Rufus Sewell, Toni Collette, Robin McLeavy, David Wenham, Barry Humphries, Richard Roxburgh, Deborah Mailman, Barry Otto",
+      "director": "Deane Taylor",
+      "description": "Happy koala Blinky Bill and some spunky pals travel the Outback following clues to help him find his long-lost father and finally bring him home."
+    },
+    {
+      "show_id": "s4245",
+      "title": "Movie 43",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Comedies",
+      "cast": "Greg Kinnear, Dennis Quaid, Common, Seth MacFarlane, Will Sasso, Hugh Jackman, Kate Winslet, Liev Schreiber, Naomi Watts, Anna Faris, Chris Pratt, J.B. Smoove, Kieran Culkin, Emma Stone, Cathy Cliften, Kristen Bell, Leslie Bibb, Bobby Cannavale, John Hodgman, Justin Long, Jason Sudeikis, Uma Thurman, Phil Crowley, Kate Bosworth, Richard Gere, Jack McBrayer, Aasif Mandvi, Christopher Mintz-Plasse, Chloë Grace Moretz, Matt Walsh, Patrick Warburton, Gerard Butler, Johnny Knoxville, Seann William Scott, Halle Berry, Stephen Merchant, Terrence Howard, Elizabeth Banks, Josh Duhamel",
+      "director": "Peter Farrelly, Will Graham, Steve Carr, Griffin Dunne, Steve Brill, James Duffy, Jonathan van Tulleken, Elizabeth Banks, Patrik Forsberg, Brett Ratner, Rusty Cundieff, James Gunn",
+      "description": "An eye-popping cast stars in this sketch-comedy collage, the new millennium's homage to classic anthology films like The Kentucky Fried Movie."
+    },
+    {
+      "show_id": "s7566",
+      "title": "What the Jatt!!",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Harish Verma, Isha Rikhi, Vipul Roy, Binnu Dhillon, Poonam Rajput, B.N. Sharma, Satti Sembi",
+      "director": "Saket Behl",
+      "description": "A peasant from Punjab and his best friend pose as detectives, filmmakers and more while trying to retrieve stolen money in this romantic comedy."
+    },
+    {
+      "show_id": "s5426",
+      "title": "Scandal in Sorrento",
+      "type": "Movie",
+      "release_year": 1955,
+      "listed_in": "Classic Movies, Comedies, Independent Movies",
+      "cast": "Vittorio De Sica, Sophia Loren, Lea Padovani, Antonio Cifariello, Tina Pica, Mario Carotenuto, Yoka Berretty, Virgilio Riento, Clara Crispo, Pasquale Misiano",
+      "director": "Dino Risi",
+      "description": "When a marshal moves back to his hometown, he finds a woman renting his property who refuses to leave but soon captures his affection."
+    },
+    {
+      "show_id": "s7587",
+      "title": "When We First Met",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Romantic Movies",
+      "cast": "Adam DeVine, Alexandra Daddario, Shelley Hennig, Robbie Amell, Andrew Bachelor",
+      "director": "Ari Sandel",
+      "description": "Using a magical photo booth that sends him back in time, Noah relives the night he met Avery over and over, trying to persuade her to fall for him."
+    },
+    {
+      "show_id": "s2427",
+      "title": "Girlfriend's Day",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Independent Movies",
+      "cast": "Bob Odenkirk, Amber Tamblyn, Natasha Lyonne, Alex Karpovsky, Stacy Keach, Andy Richter, Ed Begley Jr., David Sullivan, Larry Fessenden, June Diane Raphael, Rich Sommer, Steven Michael Quezada, Echo Kellum, Stephanie Courtney, Toby Huss, Tucker Smallwood, Kevin O'Grady, Nate Mooney",
+      "director": "Michael Paul Stephenson",
+      "description": "When he's caught up in a deadly conspiracy, an unemployed greeting card writer must create the perfect card for a new holiday to save his skin."
+    },
+    {
+      "show_id": "s4220",
+      "title": "Monty Python's Personal Best",
+      "type": "TV Show",
+      "release_year": 2005,
+      "listed_in": "British TV Shows, TV Comedies",
+      "cast": "John Cleese, Terry Gilliam, Terry Jones, Graham Chapman, Michael Palin, Eric Idle",
+      "director": "",
+      "description": "Original members of the iconic Monty Python comedy troupe pick their all-time favorite sketches from their groundbreaking television series."
+    },
+    {
+      "show_id": "s1927",
+      "title": "Edoardo Ferrario: Temi Caldi",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Edoardo Ferrario",
+      "director": "Francesco Imperato",
+      "description": "Italian comedian Edoardo Ferrario riffs on life at 30 and unpacks the peculiarities of global travel, social media and people who like craft beer."
+    },
+    {
+      "show_id": "s6233",
+      "title": "The Comedy Lineup",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy & Talk Shows, TV Comedies",
+      "cast": "Michelle Buteau, Ian Karmel, Taylor Tomlinson, Sam Jay, Phil Wang, Sabrina Jalees, Jak Knight, Tim Dillon",
+      "director": "",
+      "description": "A diverse group of up-and-coming comedians perform 15-minute sets in this stand-up comedy showcase series."
+    },
+    {
+      "show_id": "s3087",
+      "title": "Iyore",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Rita Dominic, Joseph Benjamin, Okawa Shaznay, Paul Obazele, Yemi Blaq, Bukky Wright",
+      "director": "Frank Rajah Arase",
+      "description": "A tragic romance unfolds during a teacher's lessons on the Benin empire after they begin to mirror her love life when her childhood love reappears."
+    },
+    {
+      "show_id": "s2193",
+      "title": "Fishtronaut: The Movie",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Children & Family Movies",
+      "cast": "Fábio Lucindo, Celso Alves, Fernanda Bullara",
+      "director": "Célia Catunda, Kiko Mistrorigo, Rodrigo Eba",
+      "description": "Fishtronaut, Marina and Zeek travel to the big city in search of Grandpa, only to find that everyone else has mysteriously vanished too."
+    },
+    {
+      "show_id": "s3102",
+      "title": "Jack Whitehall: I'm Only Joking",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Jack Whitehall",
+      "director": "Dave Skinner, Freddie Waters",
+      "description": "Jack Whitehall hits the stage with hilarious tales about happy couples, life in hotels, human stupidity and his well-traveled father."
+    }
+  ]
+}

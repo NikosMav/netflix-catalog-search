@@ -1,0 +1,567 @@
+{
+  "split": "test",
+  "query_id": "delhi_police_investigation",
+  "query": "Indian police series about investigating a gang rape in Delhi",
+  "candidates": [
+    {
+      "show_id": "s4302",
+      "title": "Muzaffarnagar Baaqi Hai",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Nakul Singh Sawhney",
+      "description": "Through interviews with locals, this documentary investigates the triggers and outcomes of the 2013 communal riots in the heart of Uttar Pradesh."
+    },
+    {
+      "show_id": "s3643",
+      "title": "Lilli",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Samyuktha Menon, Aaryan Menon, Dhanesh Anand, Kannan Nayar, Sajin Cherukayil, Kevin Jose, Athulya",
+      "director": "Prasobh Vijayan",
+      "description": "A woman who's about to give birth finds her maternal instincts kicking in when she's abducted, imprisoned and brutalized by a vicious gang."
+    },
+    {
+      "show_id": "s1690",
+      "title": "Delhi 6",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Abhishek Bachchan, Sonam Kapoor, Waheeda Rehman, Om Puri, Prem Chopra, Atul Kulkarni, Pavan Malhotra, Divya Dutta, Deepak Dobriyal, Sheeba Chaddha",
+      "director": "Rakeysh Omprakash Mehra",
+      "description": "In the ancient walled city of Delhi, an American-born Indian finds himself on an unexpected inner journey as he learns about himself and his roots."
+    },
+    {
+      "show_id": "s5113",
+      "title": "Reaction",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Mahmoud Abdel Moghny, Amr Youssef, Horeya Farghaly, Mahmoud El Gendy, Entessar, Donia El Masry, Sabry Abdel Moniem, Raouf Mustafa, Alaa Zenhom",
+      "director": "Husam El-Gohari",
+      "description": "When a series of seemingly random people are murdered, baffled police search for a killer who may have a connection to them all."
+    },
+    {
+      "show_id": "s7062",
+      "title": "Thorne: Sleepyhead",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Dramas, International Movies",
+      "cast": "David Morrissey, Eddie Marsan, Aidan Gillen, O. T. Fagbenle, Lorraine Ashbourne, Natascha McElhone, Sara Lloyd-Gregory, Aisling Loftus, Sarah Niles, Joshua Close, Brian McCardie",
+      "director": "Stephen Hopkins",
+      "description": "Investigating a series of attacks on young women, detective Tom Thorne is dragged back into the nightmares of his past as he races to find a killer."
+    },
+    {
+      "show_id": "s2032",
+      "title": "Ethirmarai",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "International Movies, Music & Musicals, Thrillers",
+      "cast": "Ramanathan, Rakesh",
+      "director": "",
+      "description": "While investigating a brutal string of deaths, a detective begins to suspect that mind control may have played a part in the murders."
+    },
+    {
+      "show_id": "s2175",
+      "title": "Firebrand",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Usha Jadhav, Girish Kulkarni, Sachin Khedekar, Rajeshwari Sachdev, Rushad Rana, Mrunal Oak",
+      "director": "Aruna Raje",
+      "description": "While she successfully advocates for her female clients in difficult divorce cases, a lawyer’s trauma from sexual assault impacts her own marriage."
+    },
+    {
+      "show_id": "s4278",
+      "title": "Mumbai Delhi Mumbai",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Shiv Pandit, Piaa Bajpai",
+      "director": "Satish Rajwade",
+      "description": "In Delhi for the first time, a Mumbai girl loses her phone but gets a surprise chance at true love with a local boy who begrudgingly helps her."
+    },
+    {
+      "show_id": "s5719",
+      "title": "Soni",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Geetika Vidya Ohlyan, Saloni Batra, Mohinder Gujral, Mohit Chauhan, Vikas Shukla, Gauri Chakraborty, Simrat Kaur, Dimple Kaur",
+      "director": "Ivan Ayr",
+      "description": "While fighting crimes against women in Delhi, a short-fused policewoman and her level-headed female boss grapple with gender issues in their own lives."
+    },
+    {
+      "show_id": "s1534",
+      "title": "Cricket Fever: Mumbai Indians",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Docuseries, International TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "Follow Indian Premier League champions Mumbai Indians through the 2018 season in this series featuring insider insights and intense cricket action."
+    },
+    {
+      "show_id": "s4715",
+      "title": "Oversize Cops",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure, Comedies, International Movies",
+      "cast": "Sarun Cinsuvapala, Pramote Pathan, Suphachai Subprasert, Somyos Matures, Supavitch Nepremwattana, Nachjaree Horvejkul, Jatupone Chompoonich, Chertsak Pratumseesakhon",
+      "director": "Chanon Yingyong, Phuwanit Pholdee",
+      "description": "While investigating a bank robbery, a squad of overweight police officers undergoes rigorous training to shed pounds."
+    },
+    {
+      "show_id": "s1535",
+      "title": "Crime Diaries: Night Out",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Sebastián Osorio, Fabiana Medina, Laura Osma, Enrique Carriazo, Julián Román, Juliana Velásquez, Juan Pablo Urrego, Carlos Vergara, Ernesto Campos, Fabio Rubiano, Ernesto Benjumea, Jairo Camargo, Marcela Agudelo",
+      "director": "Felipe Cano",
+      "description": "After going to a Halloween party, college student Luis Andrés Colmenares is found dead. Was it an accident or murder? Inspired by true events."
+    },
+    {
+      "show_id": "s4683",
+      "title": "Organize Isler",
+      "type": "Movie",
+      "release_year": 2005,
+      "listed_in": "Action & Adventure, Comedies, International Movies",
+      "cast": "Yılmaz Erdoğan, Tolga Çevik, Demet Akbağ, Altan Erkekli, Özgü Namal, Erdal Tosun, Tuncer Salman, Öner Erkan, Ebru Akel, Başak Köklükaya, Cem Yılmaz",
+      "director": "Yılmaz Erdoğan",
+      "description": "A gang leader recruits a suicidal Superman impersonator, while a woman driving a hot car linked to the gang plots revenge against them and their hero."
+    },
+    {
+      "show_id": "s4272",
+      "title": "Mugamoodi",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Action & Adventure, International Movies",
+      "cast": "Jiiva, Pooja Hegde, Narain, Nasser, Girish Karnad, Anupama Kumar, Selvaah",
+      "director": "Mysskin",
+      "description": "A martial arts specialist accidentally becomes a superhero when he steps in – in costume – to help the cops catch a criminal."
+    },
+    {
+      "show_id": "s6489",
+      "title": "The Indian Detective",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Comedies",
+      "cast": "Russell Peters, Anupam Kher, Christina Cole, Mishqah Parthiephal, Hamza Haq, Meren Reddy, William Shatner",
+      "director": "",
+      "description": "In this crime dramedy, a suspended Canadian cop visits his father in Mumbai and assists in investigating a huge criminal operation with links to home."
+    },
+    {
+      "show_id": "s3534",
+      "title": "Larva",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Kids' TV, Korean TV Shows, TV Comedies",
+      "cast": "",
+      "director": "",
+      "description": "Two curious worms spend their days investigating the otherworldly objects that fall through the grate into their subterranean world."
+    },
+    {
+      "show_id": "s590",
+      "title": "Article 15",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Ayushmann Khurrana, Nassar, Manoj Pahwa, Kumud Mishra, Isha Talwar, Sayani Gupta, Mohammed Zeeshan Ayyub, Subhrajyoti Barat, Sushil Pandey, Aakash Dabhade",
+      "director": "Anubhav Sinha",
+      "description": "The grim realities of caste discrimination come to light as an entitled but upright city cop ventures into India’s heartland to investigate a murder."
+    },
+    {
+      "show_id": "s2235",
+      "title": "Force 2",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure, International Movies",
+      "cast": "John Abraham, Sonakshi Sinha, Tahir Raj Bhasin, Narendra Jha, Adil Hussain, Vikram Kapadia, Patricia Hittler, Genelia D'souza, Raj Babbar, Freddy Daruwala, Boman Irani",
+      "director": "Abhinay Deo",
+      "description": "An ex-cop investigates the death of his best friend and two other spies, killings that lead to a mole operating from India's embassy in Budapest."
+    },
+    {
+      "show_id": "s3993",
+      "title": "Mauli",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Riteish Deshmukh, Saiyami Kher, Jitendra Joshi, Siddarth Jadhav, Shrikant Yadav, Vijay Nikam, Umesh Jagtap, Usha Naik, Girija Oak, Genelia D'Souza",
+      "director": "Aditya Sarpotdar",
+      "description": "An unconventional police officer faces off against a gang of thugs as he tries to bring order to the far-flung village he’s been stationed in."
+    },
+    {
+      "show_id": "s2000",
+      "title": "Encounter: The Killing",
+      "type": "Movie",
+      "release_year": 2002,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Naseeruddin Shah, Tara Deshpande, Akash Khurana, Ratna Pathak Shah, Dilip Prabhavalkar, Avtar Gill",
+      "director": "Ajay Phansekar",
+      "description": "After accidentally killing a young mobster, a guilt-stricken police officer searches for the parents who never came forward to claim their son's body."
+    },
+    {
+      "show_id": "s1691",
+      "title": "Delhi Belly",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Action & Adventure, Comedies, International Movies",
+      "cast": "Imran Khan, Vir Das, Kunaal Roy Kapur, Poorna Jagannathan, Shenaz Treasury, Vijay Raaz, Paresh Ganatra, Rahul Singh",
+      "director": "Abhinay Deo",
+      "description": "Three flatmates get involved in the shady business belonging to one roomie's fiancé, and discover that a global crime syndicate is gunning for them."
+    },
+    {
+      "show_id": "s1829",
+      "title": "Dope",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Filmed from the perspectives of dealers, users and the police, this vivid series offers a bracing look at the war on drugs."
+    },
+    {
+      "show_id": "s3279",
+      "title": "Kabali (Hindi Version)",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Rajnikanth, Winston Chao, Radhika Apte, Nassar, Dhansika, Kalaiyarasan, Dinesh, John Vijay, Kishore Kumar G., Riythvika",
+      "director": "Pa. Ranjith",
+      "description": "In this Hindi version of the Tamil blockbuster, a Tamil gang leader in Kuala Lumpur seeks justice for crimes committed against him and his family."
+    },
+    {
+      "show_id": "s4722",
+      "title": "Paan Singh Tomar",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Irrfan Khan, Mahie Gill, Rajendra Gupta, Brijendra Kala, Jahangir Khan, Vipin Sharma, Zakir Hussain",
+      "director": "Tigmanshu Dhulia",
+      "description": "Paan Singh Tomar goes from celebrated runner to star brigand and rebel when life after sports fails to unfold as planned."
+    },
+    {
+      "show_id": "s1692",
+      "title": "Delhi Crime",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Shefali Shah, Rajesh Tailang, Rasika Dugal, Adil Hussain, Vinod Sharawat, Mridul Sharma, Gopal Dutt Tiwari, Anurag Arora, Gaurav Rana, Yashaswini Dayama",
+      "director": "",
+      "description": "As Delhi reels in the aftermath of a gang rape, DCP Vartika Chaturvedi leads a painstaking search for the culprits. Based on the 2012 Nirbhaya case."
+    },
+    {
+      "show_id": "s1322",
+      "title": "Chhota Bheem Kung Fu Dhamaka Series",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Kids' TV",
+      "cast": "Pinky Pal Rajput, Sonal Kaushal, Julie Tejwani, Jigna Bharadhwaj, Shaily Dubey, Rajesh Kava, Ghanshyam Shukla, Anamaya Verma, Mohit Sinha, Vaibhav Thakkar",
+      "director": "",
+      "description": "From kung fu battles to run-ins with bandits, life in an empire far away from home is an endless adventure for Chhota Bheem and his buddies."
+    },
+    {
+      "show_id": "s1413",
+      "title": "Classic Legends",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "Docuseries, International TV Shows",
+      "cast": "Javed Akhtar",
+      "director": "",
+      "description": "This documentary series explores the glamour of Bollywood through the stories of the men and women who have illuminated its screens."
+    },
+    {
+      "show_id": "s7413",
+      "title": "Viceroy's House",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas",
+      "cast": "Hugh Bonneville, Gillian Anderson, Manish Dayal, Huma Qureshi, Michael Gambon, David Hayman, Simon Callow, Denzil Smith, Neeraj Kabi, Tanveer Ghani, Om Puri, Lily Travers",
+      "director": "Gurinder Chadha",
+      "description": "As viceroy Lord Mountbatten arrives in Delhi to oversee a transfer of power from Britain to India in 1947, war looms between religious factions."
+    },
+    {
+      "show_id": "s7332",
+      "title": "Under Arrest",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Crime TV Shows, Docuseries, International TV Shows",
+      "cast": "",
+      "director": "Dan Forrer",
+      "description": "Cameras follow police officers as they solve crimes, assist the public and arrest lawbreakers in this reality series."
+    },
+    {
+      "show_id": "s2990",
+      "title": "Indian Matchmaking",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Reality TV, Romantic TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "Matchmaker Sima Taparia guides clients in the U.S. and India in the arranged marriage process, offering an inside look at the custom in a modern era."
+    },
+    {
+      "show_id": "s3085",
+      "title": "Ittefaq",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Sidharth Malhotra, Sonakshi Sinha, Akshaye Khanna",
+      "director": "Abhay Chopra",
+      "description": "A homemaker and a writer are prime suspects – and the only witnesses – in a double murder, and it’s up to one detective to uncover the elusive truth."
+    },
+    {
+      "show_id": "s2365",
+      "title": "Gbomo Gbomo Express",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Ramsey Nouah, Gideon Okeke, Osas Ighodaro Ajibade, Blossom Chukwujekwu, Kiki Omeili, Gbenro Ajibade, Ikechukwu, Alexx Ekubo, Shaffy Bello",
+      "director": "Walter Taylaur",
+      "description": "The night spins sinisterly out of control when incompetent kidnappers hold a club-hopping record exec and a socialite for ransom in this dark comedy."
+    },
+    {
+      "show_id": "s6092",
+      "title": "The Arbitration",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Adesua Etomi, O.C. Ukeje, Ireti Doyle, Sola Fosudo, Somkele Iyamah, Lota Chukwu, Gregory Ojefua, Beverly Naya, Bimbo Ademoye, Pius Fatoke",
+      "director": "Niyi Akinmolayan",
+      "description": "An arbitration panel is formed after a company CEO in Nigeria is sued for wrongful dismissal and rape by an employee with whom he had an affair."
+    },
+    {
+      "show_id": "s3036",
+      "title": "Intuition",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Luisana Lopilato, Joaquín Furriel, Rafael Ferro, Maite Lanata, Juan Manuel Guilera, Abel Ayala, Sebastián Mogordoy, Delfina Chaves, Marita Ballesteros, Miriam Odorico",
+      "director": "Alejandro Montiel",
+      "description": "Police officer Pipa works on her first big case while simultaneously investigating her boss, who is suspected of murder. The prequel to \"Perdida\"."
+    },
+    {
+      "show_id": "s2550",
+      "title": "Guilty",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Kiara Advani, Akansha Ranjan Kapoor, Gurfateh Pirzada, Taher Shabbir, Niki Walia, Manu Rishi Chadha, Dalip Tahil, Kunal Vijaykar",
+      "director": "Ruchi Narain",
+      "description": "When a college heartthrob is accused of rape by a less popular student, his girlfriend navigates various versions of the story in search of the truth."
+    },
+    {
+      "show_id": "s3958",
+      "title": "Martyrs of Marriage",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Deepika Narayan Bhardwaj",
+      "description": "This documentary reveals the cracks in India's anti-dowry act and gives voice to both women and men who've been victimized by the law's abusers."
+    },
+    {
+      "show_id": "s5723",
+      "title": "Soorma",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, International Movies, Sports Movies",
+      "cast": "Diljit Dosanjh, Tapsee Pannu, Angad Bedi, Kulbhushan Kharbanda, Satish Kaushik, Vijay Raaz, Seema Kaushal, Mahabir Bhullar, Alka Badola Kaushal, Jimmy Moses",
+      "director": "Shaad Ali",
+      "description": "This biopic on former Indian field hockey player Sandeep Singh follows the athlete’s hard-fought comeback after an accidental gunshot left him paralyzed."
+    },
+    {
+      "show_id": "s5574",
+      "title": "Shootout at Lokhandwala",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Sanjay Dutt, Sunil Shetty, Amitabh Bachchan, Arbaaz Khan, Abhishek Bachchan, Diya Mirza, Aarti Chhabria, Tusshar Kapoor, Vivek Oberoi, Neha Dhupia, Rohit Roy, Aditya Lakhia, Ravi Gossain, Shabbir Ahluwalia, Akhilendra Mishra, Amrita Singh",
+      "director": "Apoorva Lakhia",
+      "description": "Based on a true story, this action film follows an incident that stunned a nation in the early 1990s. In Mumbai, India, the notorious gangster Maya holds off veteran cop Khan and a force of more than 200 policemen in a six-hour bloody gunfight."
+    },
+    {
+      "show_id": "s7703",
+      "title": "Yeh Hai Bakrapur",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Amit Sial, Yoshika Verma, Anshuman Jha, Asif Basra, Suruchi Aulakh",
+      "director": "",
+      "description": "A poor family’s goat suddenly acquires divine status, sparking a widespread frenzy as everyone clamors to benefit from its unexpected celebrity."
+    },
+    {
+      "show_id": "s7164",
+      "title": "Tottaa Pataaka Item Maal",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Shalini Vatsa, Chitrangada Chakraborty, Vinay Sharma, Sonal Joshi, Kritika Pande",
+      "director": "Aditya Kripalani",
+      "description": "Exasperated with living in perpetual fear for their safety, four women kidnap a man to show him the realities of being female in Delhi."
+    },
+    {
+      "show_id": "s3028",
+      "title": "Interrogation",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Dinesh Ravi, Samuthirakani, Kishore Kumar, Anandhi, Murugadoss, Ajay Ghosh",
+      "director": "Vetrimaaran",
+      "description": "In this fact-based drama, politically motivated cops in Andhra Pradesh set out to frame four Tamil laborers for a crime, torturing them to no avail."
+    },
+    {
+      "show_id": "s4738",
+      "title": "Paharganj",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Lorena Franco, Bijesh Jayarajan, Neet Chowdhary, Rajeev Gaursingh, Karran Jeet, Rajesh Sharma, Gautam Kurup, Poonam Mathur, Salman Khan, Manish Devkush",
+      "director": "Rakesh Ranjan Kumar",
+      "description": "In the underbelly of a Delhi neighborhood, a woman’s search for her missing lover collides with drugs, death and a coach grappling with his demons."
+    },
+    {
+      "show_id": "s5180",
+      "title": "Revenge",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Lalita Panyopas, Saksit Tangtong, Tao Somchai Khemklad, Tack Parunyu Rojanawuttitum, Pongsatorn Jongwilas, Chaleumpol Tikumpornteerawong, Akarin Akaranitimaytharatt, Kanthi Pitithan, Plerng Pollapakk Vacharaponghiran, Kritteera Inpornwijit",
+      "director": "",
+      "description": "After a mother and her daughter are gang-raped by seven men, the daughter suffers a mental breakdown, and the single mom sets out to get revenge."
+    },
+    {
+      "show_id": "s2349",
+      "title": "Gang of the Caribbean",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Djédjé Apali, Eriq Ebouaney, Adama Niane, Vincent Vermignon, Djibril Pavadé, Zita Hanrot, Karim Belkhadra, Lise Lomi, Zoé Charron, Jocelyne Béroard, Julien Courbey, Lucien Jean-Baptiste, Romane Bohringer, Mathieu Kassovitz",
+      "director": "Jean-Claude Flamand-Barny",
+      "description": "Disillusioned by life in 1970s France, a West Indian expatriate named Jimmy joins a gang of idealistic robbers, but betrayal and violence soon follow."
+    },
+    {
+      "show_id": "s1512",
+      "title": "Court Justice",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, Docuseries, International TV Shows",
+      "cast": "Chris Bourke",
+      "director": "",
+      "description": "In a bustling local court in Sydney, 12 magistrates preside over different levels of criminal offenses and deliver life-changing verdicts."
+    },
+    {
+      "show_id": "s4443",
+      "title": "Needhi Singh",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Kulraj Randhawa, Nirmal Rishi, Ashish Duggal, Aman Sutdhar, Dally Daljit, Seema Kaushal, Shubh Ghumman, Karan Tiwana",
+      "director": "Jaivi Dhanda",
+      "description": "When her friend’s rapist evades punishment from the law, a determined young woman takes revenge into her own hands in this story based on real events."
+    },
+    {
+      "show_id": "s2237",
+      "title": "Forensic",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "International Movies, Thrillers",
+      "cast": "Tovino Thomas, Mamtha Mohandas, Renji Panicker, Saiju Kurup, Reba Monica John, Pratap Pothen, Giju John, Sreekanth Murali",
+      "director": "Akhil Paul, Anas Khan",
+      "description": "A pair of officers with history navigates clues from the past, false leads and a ticking clock to nab an elusive serial killer who targets young girls."
+    },
+    {
+      "show_id": "s4280",
+      "title": "Mumbai Meri Jaan",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Madhavan, Irrfan Khan, Soha Ali Khan, Paresh Rawal, Kay Kay Menon, Anand Goradia, Vijay Maurya, Vibhavari Deshpande, Santosh Juvekar, Kamlesh Sawant",
+      "director": "Nishikant Kamat",
+      "description": "A moving portrayal of the 2006 train bombings in Mumbai, this Indian drama follows the interconnected stories of several strangers."
+    },
+    {
+      "show_id": "s5090",
+      "title": "Ram Teri Ganga Maili",
+      "type": "Movie",
+      "release_year": 1985,
+      "listed_in": "Classic Movies, Dramas, International Movies",
+      "cast": "Mandakini, Rajiv Kapoor, Divya Rana, Saeed Jaffrey, Kulbhushan Kharbanda, Raza Murad, Sushma Seth, Trilok Kapoor",
+      "director": "Raj Kapoor",
+      "description": "Abandoned by her new husband and father of her son, a mountain woman journeys to Calcutta to find him, constantly tested by social evils along the way."
+    },
+    {
+      "show_id": "s7318",
+      "title": "Unbelievable",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, TV Dramas",
+      "cast": "Toni Collette, Merritt Wever, Kaitlyn Dever, Dale Dickey, Scott Lawrence, Danielle Macdonald, Austin Hébert, Eric Lange, Elizabeth Marvel",
+      "director": "",
+      "description": "After a young woman is accused of lying about a rape, two female detectives investigate a spate of eerily similar attacks. Inspired by true events."
+    },
+    {
+      "show_id": "s2351",
+      "title": "Gangs of Hassepur",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "International TV Shows, Stand-Up Comedy & Talk Shows, TV Comedies",
+      "cast": "Ragini Khanna, Mandira Bedi, Tanishaa Mukerji",
+      "director": "",
+      "description": "Training a keen eye on hot-button political topics, this variety show features stand-up comedy, sketches and sarcastic celebrity impersonations."
+    },
+    {
+      "show_id": "s1501",
+      "title": "Cop Watchers",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Ben Steele",
+      "description": "Explore the stories of the citizens who seek to deter police brutality by observing and videotaping arrests made by the New York Police Department."
+    },
+    {
+      "show_id": "s5887",
+      "title": "Sunrise",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Adil Hussain, Tannishtha Chatterjee, Gulnaaz Ansari, Komal Gupta, Esha Amlani, Ashalata Wabgaonkar, Hridaynath Jadhav, Chinmay Kambli, Nandini Bora, Komal Gawade",
+      "director": "Partho Sen-Gupta",
+      "description": "While investigating a child kidnapping, a Mumbai police inspector is haunted by a shadowy dream figure and memories of his own abducted daughter."
+    },
+    {
+      "show_id": "s5696",
+      "title": "Soldier",
+      "type": "Movie",
+      "release_year": 1998,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Rakhee Gulzar, Bobby Deol, Preity Zinta",
+      "director": "Abbas Mustan",
+      "description": "On the run from Indian police, a mysterious man escapes to Australia and falls in love with the daughter of an Indian criminal who lives there."
+    },
+    {
+      "show_id": "s253",
+      "title": "A Week in Watts",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Gregory Caruso",
+      "description": "Los Angeles police officers embark on an innovative program mentoring promising students from the harsh, gang-infested Watts neighborhood."
+    },
+    {
+      "show_id": "s4863",
+      "title": "Pink",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Tapsee Pannu, Kirti Kulhari, Andrea Tariang, Amitabh Bachchan, Piyush Mishra, Angad Bedi, Vijay Varma, Raashul Tandon, Tushar Pandey, Dhritiman Chatterjee, Mamata Shankar",
+      "director": "Aniruddha Roy Chowdhury",
+      "description": "A sexual assault victim, unjustly tried for the attempted murder of her attacker, is defended by a retired lawyer who challenges India's rape culture."
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "split": "dev",
+  "query_id": "spy_thriller",
+  "query": "espionage spy thriller about undercover agents",
+  "candidates": [
+    {
+      "show_id": "s2982",
+      "title": "Incoming",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Action & Adventure, Sci-Fi & Fantasy",
+      "cast": "Scott Adkins, Aaron McCusker, Vahldin Prelic, Lukas Loughran, Michelle Lehane, Alaa Seif, Milan Kovacevic, Arkie Reece, Vladimir Alenikov, Dominic Power",
+      "director": "Eric Zaragosa",
+      "description": "When an imprisoned terrorist cell hijacks a high-security prison in outer space, a CIA agent becomes the one chance of stopping them."
+    },
+    {
+      "show_id": "s6896",
+      "title": "The Spy",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, TV Dramas, TV Thrillers",
+      "cast": "Sacha Baron Cohen, Noah Emmerich, Hadar Ratzon Rotem, Alexander Siddig, Waleed Zuaiter, Nassim Lyes",
+      "director": "",
+      "description": "In the 1960s, Israeli clerk-turned-secret agent Eli Cohen goes deep undercover inside Syria on a perilous, years-long mission to spy for Mossad."
+    },
+    {
+      "show_id": "s2980",
+      "title": "Inception",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Action & Adventure, Sci-Fi & Fantasy, Thrillers",
+      "cast": "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Tom Hardy, Ken Watanabe, Dileep Rao, Cillian Murphy, Tom Berenger, Marion Cotillard, Pete Postlethwaite, Michael Caine, Lukas Haas",
+      "director": "Christopher Nolan",
+      "description": "In this mind-bending sci-fi thriller, a man runs an espionage business built around entering the subconscious of his targets to mold their thoughts."
+    },
+    {
+      "show_id": "s6809",
+      "title": "The Red Sea Diving Resort",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Chris Evans, Michael Kenneth Williams, Haley Bennett, Alessandro Nivola, Michiel Huisman, Alex Hassell, Mark Ivanir, Chris Chalk, Greg Kinnear, Ben Kingsley",
+      "director": "Gideon Raff",
+      "description": "Undercover agents open up a fake hotel to real tourists as a cover to help smuggle thousands of Ethiopian refugees to safety. Inspired by true events."
+    },
+    {
+      "show_id": "s6898",
+      "title": "The Spy Who Fell to Earth",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Thomas Meadmore",
+      "description": "Based on Dr. Ahron Bregman's book, this documentary examines the life and mysterious death of Ashraf Marwan, an Egyptian billionaire and Israeli spy."
+    },
+    {
+      "show_id": "s5778",
+      "title": "Spy Kids: Mission Critical",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Kids' TV",
+      "cast": "Ashley Bornancin, Carter Hastings, Caitlyn Bairstow, Nicholas Coombe, Nesta Cooper, Richard Ian Cox, Tom Kenny, Travis Turner, Candi Milo, Mira Sorvino",
+      "director": "",
+      "description": "In this animated spinoff series, Juni and Carmen Cortez must battle the evil organization S.W.A.M.P. – without the help of their super-spy parents."
+    },
+    {
+      "show_id": "s6897",
+      "title": "The Spy Next Door",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Action & Adventure, Children & Family Movies, Comedies",
+      "cast": "Jackie Chan, Amber Valletta, George Lopez, Billy Ray Cyrus, Magnús Scheving, Madeline Carroll, Will Shadley, Alina Foley, Katherine Boecher, Mia Stallard, Lucas Till",
+      "director": "Brian Levant",
+      "description": "While babysitting, an undercover agent is thrust back into the world of top-secret adventure when one his young charges downloads a classified file."
+    },
+    {
+      "show_id": "s5775",
+      "title": "Spy Kids 2: The Island of Lost Dreams",
+      "type": "Movie",
+      "release_year": 2002,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Antonio Banderas, Carla Gugino, Alexa PenaVega, Daryl Sabara, Steve Buscemi, Mike Judge, Danny Trejo, Cheech Marin, Matt O'Leary, Emily Osment, Ricardo Montalban, Holland Taylor, Alan Cumming",
+      "director": "Robert Rodriguez",
+      "description": "Spy kids Carmen and Juni Cortez team up with two other pint-size secret agents, Gary and Gerti Giggles, in order to take on an evil scientist."
+    },
+    {
+      "show_id": "s3648",
+      "title": "Line Walker",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Nick Cheung, Louis Koo, Francis Chun-Yu Ng, Charmaine Sheh, Hui Shiu Hung, Li Guangjie, Zhang Huiwen, Xing Yu, Cheng Taishen, Moses Chan, Louis Cheung",
+      "director": "Jazz Boon",
+      "description": "A Hong Kong intelligence officer tasked with finding undercover agents whose identities have been erased finds herself in the paths of rival triads."
+    },
+    {
+      "show_id": "s746",
+      "title": "Barbie: Spy Squad",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Children & Family Movies",
+      "cast": "Erica Lindbeck, Stephanie Sheh, Jenny Pellicer, Alyssya Swales, Elizabeth Irving, Brian Dobson, Rebecca Husain, Cathy Weseluck",
+      "director": "Conrad Helten",
+      "description": "A high-tech spy agency transforms Barbie and her best friends into secret agents, using their gymnastics skills to bring down a cunning cat burglar."
+    },
+    {
+      "show_id": "s4986",
+      "title": "Project Mc²",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Kids' TV",
+      "cast": "Mika Abdalla, Genneya Walton, Victoria Vida, Ysa Penarejo, Belle Shouse, Alyssa Lynch, Danica McKellar, Maddie Phillips, Sarah Desjardins",
+      "director": "",
+      "description": "Teenage spy McKeyla teams up with three other super-smart girls to become secret agents who use their science and tech skills to save the day."
+    },
+    {
+      "show_id": "s3712",
+      "title": "London Spy",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "British TV Shows, Crime TV Shows, International TV Shows",
+      "cast": "Ben Whishaw, Jim Broadbent, Edward Holcroft, Samantha Spiro, Charlotte Rampling, Lorraine Ashbourne, David Hayman, Clarke Peters, Adrian Lester, Harriet Walter",
+      "director": "Jakob Verbruggen",
+      "description": "When his reclusive-banker lover disappears, a hard-partying young British hedonist plunges into the dangerous world of espionage to find the truth."
+    },
+    {
+      "show_id": "s7339",
+      "title": "Undercover",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Action & Adventure",
+      "cast": "Tom Waes, Anna Drijver, Frank Lammers, Elise Schaap, Raymond Thiry, Kris Cuppens, Kevin Janssens, Huub Smit",
+      "director": "",
+      "description": "Undercover agents infiltrate a drug kingpin's operation by posing as a couple at the campground where he spends his weekends. Inspired by real events."
+    },
+    {
+      "show_id": "s7342",
+      "title": "Undercover Law",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Viña Machado, Juana del Río, Luna Baxter, Valeria Gálviz, Tommy Vasquez, Luis Mesa, Katherine Vélez, Juan Manuel Mendoza, Patrick Delmas, Ricardo Vesga, Toto Vega",
+      "director": "",
+      "description": "Female intelligence agents infiltrate the disparate aspects of a Colombian cartel in an attempt to take down the drug lords and their associates."
+    },
+    {
+      "show_id": "s5779",
+      "title": "Spy Time",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Action & Adventure, Comedies, International Movies",
+      "cast": "Imanol Arias, Quim Gutiérrez, Alexandra Jiménez, Berto Romero, Carlos Areces, Eduardo Gómez, Dani El Rojo, Emilio Gutiérrez Caba, Rossy de Palma, Sílvia Abril",
+      "director": "Javier Ruiz Caldera",
+      "description": "When his girlfriend dumps him for being a bore, a working stiff discovers that his father is a secret agent and a dangerous thug is targeting them."
+    },
+    {
+      "show_id": "s7343",
+      "title": "Undercover: How to Operate Behind Enemy Lines",
+      "type": "Movie",
+      "release_year": 1943,
+      "listed_in": "Classic Movies, Documentaries",
+      "cast": "",
+      "director": "John Ford",
+      "description": "This World War II-era training film dramatizes how secret agents should act while undercover and how to avoid capture by enemies."
+    },
+    {
+      "show_id": "s5774",
+      "title": "Spy Kids",
+      "type": "Movie",
+      "release_year": 2001,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Antonio Banderas, Carla Gugino, Alan Cumming, Teri Hatcher, Cheech Marin, Danny Trejo, Robert Patrick, Tony Shalhoub, Alexa PenaVega, Daryl Sabara",
+      "director": "Robert Rodriguez",
+      "description": "The tables are turned when pint-sized kids Carmen and Juni must rescue their secret-agent parents from the diabolical clutches of Alexander Minion."
+    },
+    {
+      "show_id": "s2296",
+      "title": "From Paris with Love",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Action & Adventure, International Movies",
+      "cast": "John Travolta, Jonathan Rhys Meyers, Kasia Smutniak, Richard Durden, Bing Yin, Amber Rose Revah, Eric Godon, François Bredon, Chems Dahmani, Sami Darr, Didier Constant",
+      "director": "Pierre Morel",
+      "description": "A low-level intelligence agent gets pulled into action and espionage above his pay grade when he's ordered to assist a trigger-happy senior agent."
+    },
+    {
+      "show_id": "s3017",
+      "title": "Inside the Mossad",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Docuseries, International TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "In this documentary, dozens of former agents from the Mossad, Israel's foreign intelligence agency, reveal their top-secret operations."
+    },
+    {
+      "show_id": "s2121",
+      "title": "Fast & Furious Spy Racers",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV",
+      "cast": "Tyler Posey, Charlet Chung, Jorge Diaz, Camille Ramsey, Luke Youngblood, Renée Elise Goldsberry",
+      "director": "",
+      "description": "A government agency recruits teen driver Tony Toretto and his thrill-seeking friends to infiltrate a criminal street racing circuit as undercover spies."
+    },
+    {
+      "show_id": "s7488",
+      "title": "Wasp Network",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Penélope Cruz, Edgar Ramírez, Wagner Moura, Gael García Bernal, Ana de Armas, Leonardo Sbaraglia",
+      "director": "Olivier Assayas",
+      "description": "Based on a true and gripping story: Cuban spies infiltrate exile groups in the 1990s to stop terrorism against the island, but at a high personal cost."
+    },
+    {
+      "show_id": "s4671",
+      "title": "Operation Odessa",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Tiller Russell",
+      "description": "A Russian mobster, a Cuban spy and a smooth operator from Miami scheme to sell a Soviet submarine to a Colombian drug cartel for $35 million."
+    },
+    {
+      "show_id": "s5777",
+      "title": "Spy Kids: All the Time in the World",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Jessica Alba, Joel McHale, Rowan Blanchard, Mason Cook, Jeremy Piven, Alexa PenaVega, Daryl Sabara, Ricky Gervais, Danny Trejo",
+      "director": "Robert Rodriguez",
+      "description": "Former Spy Kids Carmen and Juni return to help twin siblings Rebecca and Cecil Wilson save the world with their retired secret-agent stepmother."
+    },
+    {
+      "show_id": "s1681",
+      "title": "Deep Undercover Collection",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "Dave B. Mitchell",
+      "director": "",
+      "description": "Former FBI agent Joe Pistone, the real-life \"Donnie Brasco,\" hosts this series that reveals the true stories of undercover crime-fighting operations."
+    },
+    {
+      "show_id": "s1450",
+      "title": "Code Name: The Cleaner",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Action & Adventure, Comedies",
+      "cast": "Cedric the Entertainer, Lucy Liu, Nicollette Sheridan, Mark Dacascos, Callum Keith Rennie, DeRay Davis, Niecy Nash, Will Patton",
+      "director": "Les Mayfield",
+      "description": "A mild-mannered janitor duped into believing he's an undercover agent stumbles into an international arms ring plot involving the CIA and the FBI."
+    },
+    {
+      "show_id": "s6061",
+      "title": "The Accidental Spy",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure, Comedies, International Movies",
+      "cast": "Ramsey Nouah, Christine Allado, Ayo Makun, Emmanuel Edunjobi, Thenjiwe Moseley, Miguel A. Núñez Jr., Bucci Franklin",
+      "director": "Roger Russell",
+      "description": "Nursing a broken heart, an IT specialist moves to London to audition for a reality TV show that unexpectedly turns into a real-life cartel drama."
+    },
+    {
+      "show_id": "s7396",
+      "title": "Veerappan",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Sandeep Bharadwaj, Sachiin Joshi, Lisa Ray, Usha Jadhav, Nissar Khan, Krishna Shrikanth Iyengar",
+      "director": "Ram Gopal Varma",
+      "description": "A police official assembles an elaborate network of spies and undercover operatives to bring down a ruthless bandit with a private army."
+    },
+    {
+      "show_id": "s5684",
+      "title": "Snowden",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Joseph Gordon-Levitt, Shailene Woodley, Zachary Quinto, Melissa Leo, Tom Wilkinson, Timothy Olyphant, Nicolas Cage, Rhys Ifans, Joely Richardson, Scott Eastwood, Ben Schnetzer, Logan Marshall-Green",
+      "director": "Oliver Stone",
+      "description": "This thriller traces Edward Snowden's journey from Army recruit to disillusioned government analyst bent on exposing vast U.S. surveillance programs."
+    },
+    {
+      "show_id": "s7184",
+      "title": "Traitor",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Don Cheadle, Guy Pearce, Saïd Taghmaoui, Neal McDonough, Alyy Khan, Archie Panjabi, Raad Rawi, Jeff Daniels, Lorena Gale, Simon Reynolds, Jonathan Walker, Mozhan Marnò, Tom Barnett, Scali Delpeyrat",
+      "director": "Jeffrey Nachmanoff",
+      "description": "An FBI agent assigned to pursue an ex-Special Ops soldier who joined a terrorist organization begins to question his target's true intentions."
+    },
+    {
+      "show_id": "s6053",
+      "title": "The 2nd",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Action & Adventure",
+      "cast": "Ryan Phillippe, Casper Van Dien, Jack Griffo, Lexi Simonsen, Richard Burgi, William Katt, Samaire Armstrong, William McNamara, Jacob Grodnik",
+      "director": "Brian Skiba",
+      "description": "A Secret Service agent is drawn into a terrorist plot when his son's classmate, the daughter of a Supreme Court Justice, is targeted for kidnapping."
+    },
+    {
+      "show_id": "s7340",
+      "title": "Undercover Brother 2",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies",
+      "cast": "Michael Jai White, Vince Swann, Barry Bostwick, Laila Odom, Gary Owen, Affion Crockett, Steven Lee Johnson, Lindsay Lamb, Zac Zedalis, Cj Sykes",
+      "director": "Leslie Small",
+      "description": "When a beloved secret agent falls deep into a coma, his bumbling brother must defend their community from a divisive political threat."
+    }
+  ]
+}

@@ -1,0 +1,657 @@
+{
+  "split": "test",
+  "query_id": "adult_cartoon_hasbeen",
+  "query": "adult cartoon about a washed-up sitcom star",
+  "candidates": [
+    {
+      "show_id": "s1271",
+      "title": "Champions",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "TV Comedies",
+      "cast": "Anders Holm, Fortune Feimster, Andy Favreau, J.J. Totah, Mouzam Makkar, Yassir Lester, Robert Costanzo, Ginger Gonzaga, Mindy Kaling",
+      "director": "",
+      "description": "Years after getting his girlfriend pregnant, washed-up jock Vince meets his eccentric son Michael and learns about fatherhood, one show tune at a time."
+    },
+    {
+      "show_id": "s3605",
+      "title": "Leslie Jones: Time Machine",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Leslie Jones",
+      "director": "David Benioff, D.B. Weiss",
+      "description": "From trying to seduce Prince to battling sleep apnea, Leslie Jones traces her evolution as an adult in a joyfully raw and outrageous stand-up special."
+    },
+    {
+      "show_id": "s3501",
+      "title": "LA Originals",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, Music & Musicals",
+      "cast": "",
+      "director": "",
+      "description": "Photographer Estevan Oriol and artist Mister Cartoon turned their Chicano roots into gritty art, impacting street culture, hip hop and beyond."
+    },
+    {
+      "show_id": "s853",
+      "title": "Best of Stand-Up 2020",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Jerry Seinfeld, Leslie Jones, Taylor Tomlinson, Tom Segura, Jack Whitehall, Michelle Buteau, Bert Kreischer, Jo Koy, Donnell Rawlings, Jim Jefferies, Nikki Glaser, George Lopez, Sam Jay, Marc Maron, Kevin Hart, Michael McIntyre, Fortune Feimster, Eric André, Jim Norton, Felipe Esparza, Hannah Gadsby, Patton Oswalt, Vir Das, Robert Kelly, Urzila Carlson, Tom Papa, Kanan Gill, Ms. Pat, Rob Schneider, Adrienne Iapalucci, Kenny Sebastian, Thomas Middleditch, Ben Schwartz",
+      "director": "",
+      "description": "From Jerry Seinfeld to Leslie Jones, Kevin Hart to Hannah Gadsby, laugh along with the funniest bits from Netflix's 2020 stand-up comedy specials."
+    },
+    {
+      "show_id": "s7759",
+      "title": "Zack and Miri Make a Porno",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Comedies, Independent Movies, Romantic Movies",
+      "cast": "Seth Rogen, Elizabeth Banks, Craig Robinson, Jason Mewes, Jeff Anderson, Traci Lords, Katie Morgan, Ricky Mabe, Justin Long, Brandon Routh, Tyler Labine, Tom Savini, Tisha Campbell-Martin, Jennifer Schwalbach, Gerry Bednob",
+      "director": "Kevin Smith",
+      "description": "Zack and Miri make and star in an adult film to bring in easy money. But their unspoken feelings for each other might threaten the whole enterprise."
+    },
+    {
+      "show_id": "s3493",
+      "title": "La Familia P. Luche",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "International TV Shows, Spanish-Language TV Shows, TV Comedies",
+      "cast": "Eugenio Derbez, Consuelo Duval, Luis Manuel Ávila, Regina Blandón, Miguel Perez, Barbara Torres, Dalilah Polanco, Pierre Angelo",
+      "director": "",
+      "description": "This irreverent sitcom featues Ludovico, Federica and their three children Bibi, Junior and Ludoviquito, living in Ciudad P. Luche."
+    },
+    {
+      "show_id": "s1607",
+      "title": "Dany Boon: Des Hauts De France",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Dany Boon",
+      "director": "Isabelle Nanty",
+      "description": "In an eclectic one-man show, French superstar Dany Boon reflects on his homeland, his first comedy gig and the challenges of parenting hostile teens."
+    },
+    {
+      "show_id": "s1516",
+      "title": "Cracked Up: The Darrell Hammond Story",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries",
+      "cast": "Darrell Hammond",
+      "director": "Michelle Esrick",
+      "description": "\"Saturday Night Live\" star Darrell Hammond reveals the extreme abuse he suffered during childhood, a trauma that nearly destroyed his life as an adult."
+    },
+    {
+      "show_id": "s6866",
+      "title": "The Show",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas",
+      "cast": "Josh Duhamel, Giancarlo Esposito, Famke Janssen, Sarah Wayne Callies, Caitlin Fitzgerald, Chris Ellis, Lucia Walters, James Franco",
+      "director": "Giancarlo Esposito",
+      "description": "A disillusioned reality TV host and an idealistic producer are lured by their network into producing a show in which participants kill themselves."
+    },
+    {
+      "show_id": "s4235",
+      "title": "Mostly Sunny",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Sunny Leone",
+      "director": "Dilip Mehta",
+      "description": "Explore the unconventional career of Sunny Leone, who transitioned from adult film star to Bollywood actress and reality TV star."
+    },
+    {
+      "show_id": "s3154",
+      "title": "Jerry Before Seinfeld",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Jerry Seinfeld",
+      "director": "Michael Bonfiglio",
+      "description": "Jerry Seinfeld returns to the club that gave him his start in the 1970s, mixing iconic jokes with stories from his childhood and early days in comedy."
+    },
+    {
+      "show_id": "s2051",
+      "title": "Everything Sucks!",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "TV Comedies, TV Dramas, Teen TV Shows",
+      "cast": "Jahi Di'Allo Winston, Peyton Kennedy, Patch Darragh, Claudine Mboligikpelani Nako, Rio Mangini, Quinn Liebling, Sydney Sweeney, Elijah Stevenson, Zachary Ray Sherman, Abi Brittle",
+      "director": "",
+      "description": "It's 1996 in a town called Boring, where high school misfits in the AV and drama clubs brave the ups and downs of teenage life in the VHS era."
+    },
+    {
+      "show_id": "s5314",
+      "title": "Russell Peters: Almost Famous",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Russell Peters",
+      "director": "Dave Higby",
+      "description": "The comic comes home to Toronto to sound off on cultural quirks, kids' furniture and bathroom visits, reveling in all things ridiculously human."
+    },
+    {
+      "show_id": "s7091",
+      "title": "Tim Allen: ReWires America",
+      "type": "Movie",
+      "release_year": 1991,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Tim Allen",
+      "director": "",
+      "description": "Standup star Tim Allen storms the stage for a set chock-full of observations about powerful cars, beautiful lawns and more of the things he loves."
+    },
+    {
+      "show_id": "s3821",
+      "title": "Lunatics",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, TV Comedies",
+      "cast": "Chris Lilley",
+      "director": "",
+      "description": "This mockumentary series follows the peculiar lives of six eccentric – and sometimes obscene – misfits who march to their own beat."
+    },
+    {
+      "show_id": "s6479",
+      "title": "The Iliza Shlesinger Sketch Show",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Comedies",
+      "cast": "Ilana Becker, Kerry Coddett, Tarik Davis, Matthew Dellapina, David Ebert, Stink Fisher, Iliana Inocencio, Iliza Shlesinger",
+      "director": "",
+      "description": "From the mind of comedian Iliza Shlesinger comes a fun, irreverent mix of kooky characters, sly social commentary and pop culture gags."
+    },
+    {
+      "show_id": "s1026",
+      "title": "BoJack Horseman",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Comedies",
+      "cast": "Will Arnett, Aaron Paul, Amy Sedaris, Alison Brie, Paul F. Tompkins",
+      "director": "",
+      "description": "Meet the most beloved sitcom horse of the '90s, 20 years later. He’s a curmudgeon with a heart of...not quite gold...but something like gold. Copper?"
+    },
+    {
+      "show_id": "s907",
+      "title": "Big Mouth",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Comedies",
+      "cast": "Nick Kroll, John Mulaney, Jessi Klein, Jason Mantzoukas, Jenny Slate, Fred Armisen, Maya Rudolph, Jordan Peele",
+      "director": "",
+      "description": "Teenage friends find their lives upended by the wonders and horrors of puberty in this edgy comedy from real-life pals Nick Kroll and Andrew Goldberg."
+    },
+    {
+      "show_id": "s3156",
+      "title": "Jerry Seinfeld: Comedian",
+      "type": "Movie",
+      "release_year": 2002,
+      "listed_in": "Documentaries",
+      "cast": "Jerry Seinfeld, Orny Adams, Colin Quinn, Bill Cosby, Robert Klein, Chris Rock, Garry Shandling, Jay Leno, Kevin Nealon, Ray Romano",
+      "director": "Christian Charles",
+      "description": "Christian Charles's documentary follows established comedian Jerry Seinfeld and up-and-comer Orny Adams as they navigate the stand-up circuit."
+    },
+    {
+      "show_id": "s2618",
+      "title": "Happy!",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, TV Action & Adventure, TV Comedies",
+      "cast": "Christopher Meloni, Lili Mirojnick, Glenn Wein, Patrick Fischler, Toby Jaffe, Ritchie Coster, Grant Morrison, Pavun Shetty, Medina Senghore, Patton Oswalt",
+      "director": "",
+      "description": "A boozy ex-cop turned hit man thinks he's losing his marbles when a cartoon unicorn only he can see urges him to rescue a girl kidnapped by Santa."
+    },
+    {
+      "show_id": "s4837",
+      "title": "Peter Rabbit",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "James Corden, Domhnall Gleeson, Rose Byrne, Margot Robbie, Daisy Ridley, Elizabeth Debicki, Vauxhall Jermaine, Marianne Jean-Baptiste, Sia, Colin Moody",
+      "director": "Will Gluck",
+      "description": "In this mix of live action and CGI, rascally Peter Rabbit faces a tough new foe in his ongoing battle for the veggies in Mr. McGregor's garden."
+    },
+    {
+      "show_id": "s3342",
+      "title": "Kevin Hart: I'm a Grown Little Man",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Kevin Hart",
+      "director": "Shannon Hartman",
+      "description": "Stand-up comedy star Kevin Hart delivers his unique perspective on work, race, family and friends with this laugh-riot comedy show."
+    },
+    {
+      "show_id": "s1525",
+      "title": "Crazy people",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, International Movies, Thrillers",
+      "cast": "Ramsey Nouah, Chigul, Sola Sobowale, Ireti Doyle, Ben Touitou, Francis Onwochei, Ememobong Nkana, Emem Inwang, Patrick Onyeke",
+      "director": "Moses Inwang",
+      "description": "Nollywood star Ramsey Nouah learns that someone is impersonating him and breaks out of a mental institution to expose the imposter."
+    },
+    {
+      "show_id": "s2074",
+      "title": "Extras",
+      "type": "TV Show",
+      "release_year": 2006,
+      "listed_in": "British TV Shows, TV Comedies",
+      "cast": "Ricky Gervais, Stephen Merchant, Ashley Jensen, Shaun Williamson, Shaun Pye",
+      "director": "",
+      "description": "Grasping hungrily for stardom, bit actor Andy Millman and his pal Maggie spend their days chasing after work as film and TV extras."
+    },
+    {
+      "show_id": "s5003",
+      "title": "Pulp Fiction",
+      "type": "Movie",
+      "release_year": 1994,
+      "listed_in": "Classic Movies, Cult Movies, Dramas",
+      "cast": "John Travolta, Samuel L. Jackson, Uma Thurman, Harvey Keitel, Tim Roth, Amanda Plummer, Maria de Medeiros, Ving Rhames, Eric Stoltz, Rosanna Arquette, Christopher Walken, Bruce Willis",
+      "director": "Quentin Tarantino",
+      "description": "This stylized crime caper weaves together stories featuring a burger-loving hit man, his philosophical partner and a washed-up boxer."
+    },
+    {
+      "show_id": "s7712",
+      "title": "YG Future Strategy Office",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, Korean TV Shows, TV Comedies",
+      "cast": "Seungri, Yoo Byung Jae, Lee Jai-jin, Jinu, Son Se-bin, Kim Ga-eun, Park Choong-hwan, Baek Yeong-gwang, Choi Sin-deuk",
+      "director": "",
+      "description": "K-pop star Seungri, BIGBANG's youngest member, tries to lead a team of bumbling staff at YG's Future Strategy Office in this mockumentary sitcom."
+    },
+    {
+      "show_id": "s5363",
+      "title": "Samantha!",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, TV Comedies",
+      "cast": "Emmanuelle Araújo, Douglas Silva, Sabrina Nonata, Cauã Gonçalves, Daniel Furlan, Alice Braga, Alessandra Negrini, Lorena Comparato, Rodrigo Pandolfo, Luciana Vendramini, Maria Eduarda, Sidney Alexandre, Enzo Ovideo, Mauricio Xavier, Paulo Tiefenthaler, Ary França",
+      "director": "",
+      "description": "A child star in the '80s, Samantha clings to the fringes of celebrity with hilarious harebrained schemes to launch herself back into the spotlight."
+    },
+    {
+      "show_id": "s5223",
+      "title": "Rita",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Comedies, TV Dramas",
+      "cast": "Mille Dinesen, Carsten Bjørnlund, Lise Baastrup, Nikolaj Groth, Ellen Hillingsø, Morten Vang Simonsen, Lykke Sand Michelsen, Carsten Norgaard, Sara Hjort Ditlevsen, Alexandre Willaume",
+      "director": "",
+      "description": "Independent, outspoken and adored by her students, schoolteacher Rita fares less well with adults in this comedy-drama from Denmark."
+    },
+    {
+      "show_id": "s4587",
+      "title": "Oh My Ghost 3",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Comedies, Horror Movies, International Movies",
+      "cast": "Kohtee Aramboy, Yingsak Chonglertjetsadawong, Jaturong Mokjok, Waraphat Phatsathit, Wiradit Srimalai, Ekkachai Srivichai, Varuth Waratham, Butsarin Yokpraipan",
+      "director": "Poj Arnon",
+      "description": "After a body is discovered in their building, a vengeful, paranormal presence begins to affect Taew, Mod Dum and Cartoon's business."
+    },
+    {
+      "show_id": "s4793",
+      "title": "PATRICK (2019)",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies",
+      "cast": "Beattie Edmondson, Ed Skrein, Tom Bennett, Jennifer Saunders",
+      "director": "Mandie Fletcher",
+      "description": "When a schoolteacher inherits an adorable pug, she has to find a way to take care of it while dealing with her flatlining love life."
+    },
+    {
+      "show_id": "s6083",
+      "title": "The Andy Griffith Show",
+      "type": "TV Show",
+      "release_year": 1967,
+      "listed_in": "Classic & Cult TV, TV Comedies",
+      "cast": "Andy Griffith, Ron Howard, Don Knotts, Frances Bavier, Howard McNear, Hope Summers",
+      "director": "",
+      "description": "Homespun humor and easygoing Sheriff Andy Taylor are at the center of this nostalgic look at Mayberry, a small town filled with lovable characters."
+    },
+    {
+      "show_id": "s327",
+      "title": "After Porn Ends",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Bryce Wagoner",
+      "description": "This documentary explores the careers of some of porn's top stars and examines their adjustment to \"normal\" society after leaving adult entertainment."
+    },
+    {
+      "show_id": "s6614",
+      "title": "The Longest Yard",
+      "type": "Movie",
+      "release_year": 1974,
+      "listed_in": "Classic Movies, Comedies, Sports Movies",
+      "cast": "Burt Reynolds, Eddie Albert, Ed Lauter, James Hampton, Charles Tyner, Bernadette Peters, Richard Kiel, Joe Dorsey, Joe Jackson, Harry Caesar, John Steadman, Jim Nicholson, Tony Cacciotti",
+      "director": "Robert Aldrich",
+      "description": "Washed-up professional quarterback Paul Crewe is sent to jail and forced to put together an inmate gridiron team to take on a group of prison guards."
+    },
+    {
+      "show_id": "s3680",
+      "title": "Liv and Maddie",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Dove Cameron, Joey Bragg, Tenzing Norgay Trainor, Kali Rocha, Benjamin King",
+      "director": "",
+      "description": "After four years in Hollywood as a television star, Liv returns to Wisconsin to discover that either she – or her family – has changed."
+    },
+    {
+      "show_id": "s4882",
+      "title": "Playing for Keeps",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Comedies, Romantic Movies, Sports Movies",
+      "cast": "Gerard Butler, Jessica Biel, Catherine Zeta-Jones, Dennis Quaid, Uma Thurman, Judy Greer, Noah Lomax, James Tupper, Abella Wyss, Grant Goodman",
+      "director": "Gabriele Muccino",
+      "description": "A washed-up, former soccer star attempts to rebuild his relationship with his son and ex-wife by coaching his son's soccer team."
+    },
+    {
+      "show_id": "s5241",
+      "title": "Rocco",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Rocco Siffredi",
+      "director": "Thierry Demaizière, Alban Teurlai",
+      "description": "Italian porn star Rocco Siffredi is showcased in this documentary that shadows the legendary performer during his final year in front of the camera."
+    },
+    {
+      "show_id": "s198",
+      "title": "A Little Help with Carol Burnett",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy & Talk Shows, TV Comedies",
+      "cast": "Carol Burnett, Russell Peters, Mark Cuban, Taraji P. Henson, Brittany Snow, Wanda Sykes, Derek Hough, Billy Eichner, Lisa Kudrow, Candace Cameron Bure, DJ Khaled, Tony Hale, Julie Bowen",
+      "director": "",
+      "description": "Comedy icon Carol Burnett returns to TV with a panel of clever kids, who help adults and celebrity guests solve their problems with brutal honesty."
+    },
+    {
+      "show_id": "s1919",
+      "title": "Eddie Murphy: Delirious",
+      "type": "Movie",
+      "release_year": 1983,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Eddie Murphy",
+      "director": "Bruce Gowers",
+      "description": "Flashing the wild stand-up comedy that made him a household name, Eddie Murphy unleashes uncensored observations and parodies in this 1983 live show."
+    },
+    {
+      "show_id": "s2266",
+      "title": "Freak Show",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Alex Lawther, Abigail Breslin, AnnaSophia Robb, Ian Nelson, Celia Weston, Laverne Cox, Bette Midler, Willa Fitzgerald, Larry Pine, John McEnroe, Mickey Sumner, Daniel Bellomy, Wally Dunn, Marceline Hugot",
+      "director": "Trudie Styler",
+      "description": "Forced to attend a new high school, a glamorous teen navigates hostile territory before taking a stand by running for homecoming queen."
+    },
+    {
+      "show_id": "s2570",
+      "title": "Ha Unlimited",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "International TV Shows, TV Comedies",
+      "cast": "Tuck Boriboon, Ball Chernyim, Na’Kom Chuanchuen",
+      "director": "",
+      "description": "Three comedians launch a company designed to spread happiness far and wide in this Thai sitcom packed with gags, sound effects and special guests."
+    },
+    {
+      "show_id": "s5892",
+      "title": "Super Drags",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, TV Comedies",
+      "cast": "Fernando Mendonça, Sérgio Cantú, Wagner Follare, Pabllo Vittar, Silvetty Montilla, Rapha Vélez, Sylvia Salustti, Guilherme Briggs",
+      "director": "",
+      "description": "In this adult animated series, three gay co-workers lead double lives as drag queen superheroes, saving the LGBTQ community from evil nemeses."
+    },
+    {
+      "show_id": "s2289",
+      "title": "Friends",
+      "type": "TV Show",
+      "release_year": 2003,
+      "listed_in": "Classic & Cult TV, TV Comedies",
+      "cast": "Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc, Matthew Perry, David Schwimmer",
+      "director": "",
+      "description": "This hit sitcom follows the merry misadventures of six 20-something pals as they navigate the pitfalls of work, life and love in 1990s Manhattan."
+    },
+    {
+      "show_id": "s5943",
+      "title": "Swiss Army Man",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Paul Dano, Daniel Radcliffe, Mary Elizabeth Winstead, Antonia Ribero, Timothy Eulich, Richard Gross, Marika Casteel, Andy Hull, Aaron Marshall, Shane Carruth",
+      "director": "Dan Kwan, Daniel Scheinert",
+      "description": "A washed-up corpse with surprising abilities gives a hopeless man stranded in the wilderness someone to talk to – and a newfound reason to live."
+    },
+    {
+      "show_id": "s4449",
+      "title": "Netflix Presents: The Characters",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "TV Comedies",
+      "cast": "Lauren Lapkus, John Early, Henry Zebrowski, Kate Berlant, Natasha Rothwell, Paul W. Downs, Tim Robinson, Dr. Brown",
+      "director": "",
+      "description": "We asked eight up-and-coming comedians for their wildest sketch and improv routines – and got a new comedy series unlike anything else."
+    },
+    {
+      "show_id": "s4109",
+      "title": "Mindhorn",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Cult Movies, Independent Movies",
+      "cast": "Julian Barratt, Andrea Riseborough, Essie Davis, Russell Tovey, Simon Farnaby, Steve Coogan, Richard McCabe, David Schofield, Nicholas Farrell, Jessica Barden",
+      "director": "Sean Foley",
+      "description": "When a twisted killer tells the police he'll only speak to a fictional 1980s TV detective, the washed-up actor who played him takes the gig."
+    },
+    {
+      "show_id": "s6361",
+      "title": "The Flintstones",
+      "type": "Movie",
+      "release_year": 1994,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "John Goodman, Elizabeth Perkins, Rick Moranis, Rosie O'Donnell, Kyle MacLachlan, Halle Berry, Elizabeth Taylor, Dann Florek, Sam Raimi, Harvey Korman",
+      "director": "Brian Levant",
+      "description": "The Flintstones hit the big screen in this live-action comedy that finds Fred and Barney struggling to cope with the pressures of work and family."
+    },
+    {
+      "show_id": "s3157",
+      "title": "Jerry Seinfeld: I'm Telling You for the Last Time",
+      "type": "Movie",
+      "release_year": 1998,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Jerry Seinfeld",
+      "director": "Marty Callner",
+      "description": "Months after his classic TV sitcom ends, the legendary comic returns to his stand-up roots to deliver his best jokes on a sold-out international tour."
+    },
+    {
+      "show_id": "s2223",
+      "title": "For Grace",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Mark Helenowski, Kevin Pang",
+      "description": "As chef Curtis Duffy oversees every aspect of opening his own restaurant, Grace, he recalls his turbulent childhood and difficult adult relationships."
+    },
+    {
+      "show_id": "s2016",
+      "title": "Episodes",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Classic & Cult TV, TV Comedies",
+      "cast": "Matt LeBlanc, Tamsin Greig, Stephen Mangan, Kathleen Rose Perkins, John Pankow, Mircea Monroe",
+      "director": "",
+      "description": "Hoping to create an American version of their hit British sitcom, two screenwriters run into cultural obstacles, starting with the lead character."
+    },
+    {
+      "show_id": "s5793",
+      "title": "StarBeam",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV",
+      "cast": "Nahanni Mitchell, Dean Petriw, Terry Klassen, Sam Vincent, Rhona Rees, Diana Kaarina",
+      "director": "",
+      "description": "When colorful villains come out to play, 8-year-old Zoey has the power to transform into StarBeam, a kid-sized superhero. She saves the day, every day!"
+    },
+    {
+      "show_id": "s6303",
+      "title": "The Disaster Artist",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Dramas",
+      "cast": "James Franco, Dave Franco, Seth Rogen, Josh Hutcherson, Ari Graynor, Alison Brie, Jacki Weaver, Zac Efron, Hannibal Buress, Jason Mantzoukas, Nathan Fielder, Paul Scheer, Megan Mullally, Sharon Stone, Tommy Wiseau",
+      "director": "James Franco",
+      "description": "Aspiring actor Greg moves to Los Angeles with his strange friend Tommy, then agrees to star in his movie. Things start weird and get a lot weirder."
+    },
+    {
+      "show_id": "s3707",
+      "title": "LoliRock",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Kids' TV",
+      "cast": "Kazumi Evans, Kelly Sheridan, Vincent Tong, Ashleigh Ball, Tabitha St. Germain, Mackenzie Gray, Matt Ellis, James Kirk, Chiara Zanni",
+      "director": "",
+      "description": "A teenager with a beautiful voice becomes a pop star but discovers she has powers that come from a magical realm where she's a lost princess."
+    },
+    {
+      "show_id": "s1823",
+      "title": "Donald Glover: Weirdo",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Donald Glover",
+      "director": "Shannon Hartman, Michelle Caputo",
+      "description": "Fearlessly funny stand-up comic and sitcom star Donald Glover puts on a live show in New York, confessing his love for Cocoa Puffs and Toys \"R\" Us."
+    },
+    {
+      "show_id": "s6044",
+      "title": "That '70s Show",
+      "type": "TV Show",
+      "release_year": 2005,
+      "listed_in": "TV Comedies",
+      "cast": "Topher Grace, Mila Kunis, Ashton Kutcher, Danny Masterson, Laura Prepon, Wilmer Valderrama, Debra Jo Rupp, Kurtwood Smith, Don Stark, Tanya Roberts, Tommy Chong, Lisa Robin Kelly",
+      "director": "",
+      "description": "Feel groovy in 1970s suburbia, where a teen and his pals hang in the basement, listening to rock and indulging other hazy benefits of '70s culture."
+    },
+    {
+      "show_id": "s6386",
+      "title": "The Garfield Show",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Frank Welker, Wally Wingert, Gregg Berger",
+      "director": "",
+      "description": "Lazy, lasagna-loving fat cat Garfield lives life on his own terms, which includes teasing his geeky owner, Jon, and tormenting dimwitted dog Odie."
+    },
+    {
+      "show_id": "s3191",
+      "title": "Jo Koy: Live from Seattle",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Jo Koy",
+      "director": "Shannon Hartman",
+      "description": "Between raising a teenage boy and growing up with a Filipino mother, stand-up comic Jo Koy has been through a lot. He's here to tell you all about it."
+    },
+    {
+      "show_id": "s1474",
+      "title": "Comedy High School",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, TV Comedies",
+      "cast": "Ram Kapoor, Gopal Dutt, Paritosh Tripathi, Krishna Bhatt, Jasmeet Bhatia, Deepak Dutta, Parvati Sehgal, Surleen Kaur",
+      "director": "",
+      "description": "Featuring goofy sketches and celebrity appearances, this offbeat stage show follows an assortment of oddball characters at an eccentric high school."
+    },
+    {
+      "show_id": "s6131",
+      "title": "The Big Show Show",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Paul Wight, Allison Munn, Reylynn Caster, Lily Brooks O'Briant, Juliet Donenfeld",
+      "director": "",
+      "description": "Former WWE wrestler the Big Show is out of the ring and ready for an even tougher challenge: raising three daughters with his wife in Florida."
+    },
+    {
+      "show_id": "s2600",
+      "title": "Hannah Gadsby: Nanette",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Hannah Gadsby",
+      "director": "Madeleine Parry, Jon Olb",
+      "description": "Australian comic Hannah Gadsby reshapes standard stand-up by pairing punchlines with personal revelations on gender, sexuality and childhood turmoil."
+    },
+    {
+      "show_id": "s468",
+      "title": "American Honey",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Sasha Lane, Shia LaBeouf, Riley Keough, McCaul Lombardi, Arielle Holmes",
+      "director": "Andrea Arnold",
+      "description": "A teenage girl leaves her dull life in Oklahoma to join a raucous band of travelling magazine sellers on an alcohol-, drug- and sex-filled road trip."
+    },
+    {
+      "show_id": "s5915",
+      "title": "Superstar",
+      "type": "Movie",
+      "release_year": 1999,
+      "listed_in": "Comedies",
+      "cast": "Molly Shannon, Will Ferrell, Elaine Hendrix, Harland Williams, Mark McKinney, Glynis Johns, Jason Blicker, Gerry Bamman, Emmy Laybourne, Jennifer Irwin, Tom Green",
+      "director": "Bruce McCulloch",
+      "description": "A socially awkward Catholic schoolgirl vows to win a dreamy classmate’s affections by taking first prize at an upcoming talent show."
+    },
+    {
+      "show_id": "s5766",
+      "title": "Splatter",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Horror Movies",
+      "cast": "Corey Feldman, Tony Todd, Tara Leigh, Erin Way, Mark Alan, Stuart Pankin",
+      "director": "Joe Dante",
+      "description": "After committing suicide, a washed-up rocker returns from the grave to torment the five people who betrayed him in life."
+    },
+    {
+      "show_id": "s7591",
+      "title": "Whindersson Nunes: Adult",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Whindersson Nunes",
+      "director": "Diego Pignataro",
+      "description": "Brazilian YouTube sensation Whindersson Nunes revisits his humble beginnings and much more in a series of playful stories and peculiar songs."
+    },
+    {
+      "show_id": "s5820",
+      "title": "Still LAUGH-IN: The Stars Celebrate",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies",
+      "cast": "Lily Tomlin, Tiffany Haddish, Neil Patrick Harris, Michael Douglas, Snoop Dogg, Billy Crystal, Chelsea Handler, Jay Leno, Rita Wilson, Bill Maher, Tony Hale, Rita Moreno, Bobby Moynihan, Michael Rapaport, Mary McCormack, Rob Riggle, Jon Lovitz, Kenya Barris, Ruth Buzzi, Jo Anne Worley, Loni Anderson, Maria Bamford, Margaret Cho, Deon Cole, Taye Diggs, Ron Funches, Nikki Glaser, Jameela Jamil, Natasha Leggero, Loni Love, Cheri Oteri, Russell Peters, Jeff Ross, Lisa Ann Walter",
+      "director": "",
+      "description": "This celebration of the groundbreaking comedy show \"Laugh-In\" stars Lily Tomlin, Snoop Dogg, Billy Crystal, Tiffany Haddish, Neil Patrick Harris and more."
+    },
+    {
+      "show_id": "s5439",
+      "title": "Scooby-Doo!: Mystery Incorporated",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Frank Welker, Mindy Cohn, Grey DeLisle, Matthew Lillard, Patrick Warburton, Gary Cole, Frances Conroy, Vivica A. Fox",
+      "director": "",
+      "description": "In this animated update of the cartoon classic, Scooby-Doo, Shaggy and their pals solve spooky mysteries in a hamlet bedeviled by supernatural bedlam."
+    }
+  ]
+}

@@ -1,0 +1,657 @@
+{
+  "split": "test",
+  "query_id": "shah_rukh_romance",
+  "query": "Shah Rukh Khan romantic Bollywood movie",
+  "candidates": [
+    {
+      "show_id": "s137",
+      "title": "7 Khoon Maaf",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Priyanka Chopra, Neil Nitin Mukesh, John Abraham, Irrfan Khan, Aleksandr Dyachenko, Annu Kapoor, Naseeruddin Shah, Vivaan Shah, Usha Uthup, Konkona Sen Sharma",
+      "director": "Vishal Bhardwaj",
+      "description": "Spiced liberally with black comedy, this Bollywood drama follows the lethal love life of a woman who marries numerous men – only to find them flawed."
+    },
+    {
+      "show_id": "s2576",
+      "title": "Haider",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Shahid Kapoor, Tabu, Shraddha Kapoor, Kay Kay Menon, Irrfan Khan, Narendra Jha",
+      "director": "Vishal Bhardwaj",
+      "description": "Shahid Kapoor delivers a searing performance in this Bollywood take on Hamlet that unfolds amid Kashmiri culture and history."
+    },
+    {
+      "show_id": "s6705",
+      "title": "The New Romantic",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Independent Movies, Romantic Movies",
+      "cast": "Timm Sharp, Hayley Law, Camila Mendes, Brett Dier, Jessica Barden, Avan Jogia",
+      "director": "Carly Stone",
+      "description": "Fed up with dating and debt, a naïve college senior documents her experience of being with a wealthy, older man for a gonzo journalism grant."
+    },
+    {
+      "show_id": "s927",
+      "title": "Billu",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Irrfan Khan, Shah Rukh Khan, Lara Dutta, Rajpal Yadav, Om Puri, Asrani, Manoj Joshi",
+      "director": "Priyadarshan",
+      "description": "An Indian village is abuzz with news that a major movie star is coming to town – even more so because the town barber went to school with him. But as the day of the actor's visit approaches, the humble barber begins to worry he won't be recognized."
+    },
+    {
+      "show_id": "s7322",
+      "title": "Unbroken",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Svati Chakravarty Bhatkal",
+      "description": "After the brutal murders of their loved ones, three individuals share how they healed through forgiveness in this documentary presented by Aamir Khan."
+    },
+    {
+      "show_id": "s975",
+      "title": "Bleach The Movie: Fade to Black",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Action & Adventure, Anime Features, Sci-Fi & Fantasy",
+      "cast": "Masakazu Morita, Fumiko Orikasa, Aya Hirano, Hiroshi Kamiya, Mitsuaki Madono, Ryotaro Okiayu, Kentaro Ito, Shinichiro Miki, Satsuki Yukino, Masaaki Tsukada",
+      "director": "Noriyuki Abe",
+      "description": "When his mind is fogged by a scimitar-weilding stranger, Mayuri destroys his laboratory, unleashing a cloud of reishi that lays waste to the Seiretei."
+    },
+    {
+      "show_id": "s2088",
+      "title": "Fabulous Lives of Bollywood Wives",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, Reality TV",
+      "cast": "",
+      "director": "",
+      "description": "Cameras follow the banter and bonding between four fun-loving women from Bollywood’s inner circle as they juggle professions, family and friendship."
+    },
+    {
+      "show_id": "s727",
+      "title": "Bangkok Love Stories: Plead",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Chanon Santinatornkul, Sutatta Udomsilp, Morakot Liu, Varot Makaduangkeo, Sutthatip Wutichaipradit, Cholsawas Tiewwanichkul, Surapol Poonpiriya, Hattaya Wongkrachang",
+      "director": "",
+      "description": "In Bangkok's Chinatown, a spirited digital marketing expert falls for a blind fortune-teller, but their love is predestined to end in disaster."
+    },
+    {
+      "show_id": "s7666",
+      "title": "World Famous Lover",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Vijay Deverakonda, Raashi Khanna, Aishwarya Rajesh, Catherine Tresa, Izabelle Leite",
+      "director": "Kranthi Madhav",
+      "description": "When his frustrated girlfriend decides to leave him, a struggling writer gets down to work on stories of romance he hopes will win her back."
+    },
+    {
+      "show_id": "s885",
+      "title": "Bhai: Vyakti Ki Valli - Uttarardh",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Sagar Deshmukh, Iravati Harshe, Vijay Kenkre, Shubhangi Damle, Ashwini Giri, Nina Kulkarni, Dalip Tahil, Girish Kulkarni",
+      "director": "Mahesh Manjrekar",
+      "description": "The second installment of P.L. Deshpande’s biopic explores the Marathi humorist’s political journey, philanthropic endeavors and personal life."
+    },
+    {
+      "show_id": "s5114",
+      "title": "Ready",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Salman Khan, Asin, Paresh Rawal, Mahesh Manjrekar, Anuradha Patel, Manoj Pahwa, Manoj Joshi, Puneet Issar, Sharat Saxena, Akhilendra Mishra, Zarine Khan, Arya Babbar",
+      "director": "Anees Bazmee",
+      "description": "Bollywood superstar Salman Khan plays Prem, an heir to a perfume fortune who falls in love with the wrong woman in this romantic comedy."
+    },
+    {
+      "show_id": "s1413",
+      "title": "Classic Legends",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "Docuseries, International TV Shows",
+      "cast": "Javed Akhtar",
+      "director": "",
+      "description": "This documentary series explores the glamour of Bollywood through the stories of the men and women who have illuminated its screens."
+    },
+    {
+      "show_id": "s5078",
+      "title": "Raja Hindustani",
+      "type": "Movie",
+      "release_year": 1996,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Aamir Khan, Karisma Kapoor, Suresh Oberoi, Johnny Lever, Navneet Nishan, Veeru Krishnan, Kunal Khemu, Pramod Moutho, Mohnish Bahl",
+      "director": "Dharmesh Darshan",
+      "description": "When a poor taxi driver falls in love with a wealthy young woman, he must stand up to her family and contend with his own insecurities."
+    },
+    {
+      "show_id": "s1765",
+      "title": "Dilwale",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Shah Rukh Khan, Kajol, Kriti Sanon, Kabir Bedi, Varun Dhawan, Boman Irani, Johnny Lever, Varun Sharma, Sanjay Mishra, Vinod Khanna, Mukesh Tiwari, Pankaj Tripathi, Shawar Ali",
+      "director": "Rohit Shetty",
+      "description": "A young couple falls in love, but conflicting loyalties drive them apart. Years later, fate intervenes and hands them a second chance."
+    },
+    {
+      "show_id": "s1941",
+      "title": "Ek Main Aur Ekk Tu",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Kareena Kapoor, Imran Khan, Boman Irani, Ram Kapoor, Ratna Pathak Shah, Zenobia Shroff, Soniya Mehra, Akshat Verma, Dana Lewis, Rajesh Khattar",
+      "director": "Shakun Batra",
+      "description": "Bollywood stars Imran Khan and Kareena Kapoor pair up to play exceptionally dissimilar lovers in this lighthearted romantic comedy."
+    },
+    {
+      "show_id": "s3744",
+      "title": "Love Aaj Kal",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Kartik Aaryan, Sara Ali Khan, Randeep Hooda, Arushi Sharma, Simone Singh, Monika Pawar, Amrit Arora, Siddharth Kak",
+      "director": "Imtiaz Ali",
+      "description": "When professional ambitions clash with personal feelings for a modern-day couple, a love story from a bygone decade may offer some wisdom."
+    },
+    {
+      "show_id": "s537",
+      "title": "Ankhon Dekhi",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Sanjay Mishra, Seema Pahwa, Rajat Kapoor, Taranjit Kaur, Maya Sarao, Chandrachoor Rai, Namit Das, Brijendra Kala, Alka Chawla, Manu Rishi Chadha",
+      "director": "Rajat Kapoor",
+      "description": "After a distressing incident, a Delhi man vows to believe only what he can see, but his new ideals soon take his life in extreme directions."
+    },
+    {
+      "show_id": "s1018",
+      "title": "Bobby Jasoos",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Vidya Balan, Ali Fazal, Supriya Pathak, Tanvi Azmi, Zarina Wahab, Kiran Kumar, Rajendra Gupta, Arjan Bajwa, Prasad Barve, Aakash Dahiya",
+      "director": "Samar Shaikh",
+      "description": "With unlimited determination and zero field experience, a small-town detective accepts a lucrative case from a mysterious – and suspicious – stranger."
+    },
+    {
+      "show_id": "s4873",
+      "title": "PK",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Aamir Khan, Anuskha Sharma, Sanjay Dutt, Saurabh Shukla, Parikshat Sahni, Sushant Singh Rajput, Boman Irani, Rukhsar",
+      "director": "Rajkumar Hirani",
+      "description": "Aamir Khan teams with director Rajkumar Hirani to play a social crusader in a political satire on the state of corruption in India."
+    },
+    {
+      "show_id": "s359",
+      "title": "Ajab Prem Ki Ghazab Kahani",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Comedies, International Movies, Music & Musicals",
+      "cast": "Ranbir Kapoor, Katrina Kaif, Govind Namdeo, Darshan Jariwala, Zakir Hussain, Smita Jaykar, Navneet Nishan, Dolly Bindra, Upen Patel",
+      "director": "Rajkumar Santoshi",
+      "description": "A young man's obsession with making others happy drives him to help the girl he loves marry someone else, then try to win her heart."
+    },
+    {
+      "show_id": "s4739",
+      "title": "Paheli",
+      "type": "Movie",
+      "release_year": 2005,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Shah Rukh Khan, Rani Mukerji, Anupam Kher, Dilip Prabhavalkar, Amitabh Bachchan, Juhi Chawla, Nina Kulkarni, Rajpal Yadav",
+      "director": "Amol Palekar",
+      "description": "Traditional Indian folklore comes alive in this charming film based on a story by Statwart Vijaydan Detha."
+    },
+    {
+      "show_id": "s3281",
+      "title": "Kabhi Alvida Naa Kehna",
+      "type": "Movie",
+      "release_year": 2006,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Amitabh Bachchan, Shah Rukh Khan, Abhishek Bachchan, Rani Mukerji, Preity Zinta, Kiron Kher, Arjun Rampal",
+      "director": "Karan Johar",
+      "description": "Unhappy in their respective marriages, an ex-footballer and a teacher find true love in each other, but guilt, jealousy and tragedy cloud their affair."
+    },
+    {
+      "show_id": "s594",
+      "title": "Ascharyachakit!",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Priyanka Bose, Vaibhav Raj Gupta, Santosh Juvekar, Anangsha Biswas, Ankit Raaj, Kashmira Irani, Kailash Waghmare, Vipin Sharma",
+      "director": "Samit Kakkad",
+      "description": "Entangling the lives of a movie star, a chauffeur, a prostitute and a pimp, this bold drama reveals ugly truths beneath Mumbai’s glitzy veneer."
+    },
+    {
+      "show_id": "s1030",
+      "title": "Bollywood Calling",
+      "type": "Movie",
+      "release_year": 2001,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Om Puri, Pat Cusick, Navin Nischol, Perizaad Zorabian",
+      "director": "Nagesh Kukunoor",
+      "description": "A down-and-out Hollywood actor is utterly unprepared for the eccentricities that await when an Indian producer offers him a role in a Bollywood film."
+    },
+    {
+      "show_id": "s4274",
+      "title": "Mujhse Shaadi Karogi",
+      "type": "Movie",
+      "release_year": 2004,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Rajpal Yadav, Amrish Puri, Kader Khan, Shashi Kala, Priyanka Chopra, Salman Khan, Akshay Kumar, Satish Shah",
+      "director": "David Dhawan",
+      "description": "Samir must overcome a hostile horoscope, a hot temper and a determined rival to win the heart of Rani, the love of his life."
+    },
+    {
+      "show_id": "s4584",
+      "title": "Oh Darling Yeh Hai India",
+      "type": "Movie",
+      "release_year": 1995,
+      "listed_in": "Action & Adventure, Comedies, International Movies",
+      "cast": "Shah Rukh Khan, Deepa Sahi, Javed Jaffrey, Anupam Kher, Amrish Puri, Tom Alter, Tinnu Anand, Sadashiv Amrapurkar, Tiku Talsania, Kader Khan",
+      "director": "Ketan Mehta",
+      "description": "A penniless actor new to Mumbai and a beautiful woman he meets one fateful night try to stop a gangster from replacing India's president with a twin."
+    },
+    {
+      "show_id": "s1735",
+      "title": "Dhanak",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Krrish Chhabria, Hetal Gada, Vipin Sharma, Gulfam Khan, Suresh Menon, Vijay Maurya, Rajiv Laxman, Ninad Kamat",
+      "director": "Nagesh Kukunoor",
+      "description": "A movie-loving 10-year-old and her blind little brother trek to meet Indian superstar Shah Rukh Khan for help in getting the boy an eye operation."
+    },
+    {
+      "show_id": "s6622",
+      "title": "The Love Affair",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Richard Gomez, Dawn Zulueta, Bea Alonzo, Tom Rodriguez, Tetchie Agbayani, Al Tantay, Ana Capri, Ina Feleo",
+      "director": "Nuel Naval",
+      "description": "Feeling betrayed by their romantic partners' infidelity, Adrianne and Vince struggle to forgive while finding comfort with each other."
+    },
+    {
+      "show_id": "s6470",
+      "title": "The Human Factor: The Untold Story of the Bombay Film Orchestras",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Documentaries, International Movies, Music & Musicals",
+      "cast": "",
+      "director": "Rudradeep Bhattacharjee",
+      "description": "A family of Parsi musicians collectively works for over 60 years scoring the orchestral soundtracks for some of Bollywood's most memorable films."
+    },
+    {
+      "show_id": "s4282",
+      "title": "Mundeyan Ton Bachke Rahin",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Comedies, International Movies, Music & Musicals",
+      "cast": "Roshan Prince, Jassi Gill, Simran Kaur Mundi, Bharti Singh, Anshu Sawhney, Hobby Dhaliwal, Sunita Dhir, Minto, Manoj Sabarwal, Sunny Gill",
+      "director": "Navinder Pal Singh",
+      "description": "When they both fall for the same girl, best pals and shameless womanizers Prince and Jassi go head-to-head to compete for her love."
+    },
+    {
+      "show_id": "s3461",
+      "title": "Kuch Kuch Hota Hai",
+      "type": "Movie",
+      "release_year": 1998,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Shah Rukh Khan, Kajol, Rani Mukerji, Farida Jalal, Reema Lagoo, Salman Khan, Archana Puran Singh, Himani Shivpuri, Johny Lever, Anupam Kher, Sana Saeed",
+      "director": "Karan Johar",
+      "description": "Per her mother’s last wish, a girl sets out to reunite her father with the college best friend who loved him – only to discover the woman is engaged."
+    },
+    {
+      "show_id": "s4276",
+      "title": "Mukhsin",
+      "type": "Movie",
+      "release_year": 2006,
+      "listed_in": "Children & Family Movies, Comedies, Dramas",
+      "cast": "Mohd Syafie Naswip, Sharifah Aryana, Sharifah Aleya, Adibah Noor, Irwan Iskandar, Sallehuddin Abu Bakar",
+      "director": "Yasmin Ahmad",
+      "description": "When young Mukhsin arrives in a new town, 10-year-old tomboy Orked adopts him as her new best friend, and the two develop a touching friendship that begins to spill over into the inklings of first love."
+    },
+    {
+      "show_id": "s2864",
+      "title": "Humpty Sharma Ki Dulhania",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Varun Dhawan, Alia Bhatt, Ashutosh Rana, Sidharth Shukla, Sahil Vaid, Gaurav Pandey, Jaswant Daman, Kenneth Desai, Deepika Amin, Mahnaz Damania",
+      "director": "Shashank Khaitan",
+      "description": "A small-town girl heads to Delhi to find a designer outfit for the wedding her orthodox father has arranged for her but ends up finding love instead."
+    },
+    {
+      "show_id": "s3456",
+      "title": "Krishna Cottage",
+      "type": "Movie",
+      "release_year": 2004,
+      "listed_in": "Action & Adventure, Horror Movies, International Movies",
+      "cast": "Sohail Khan, Isha Koppikar, Natasha, Rati Agnihotri",
+      "director": "Santram Varma",
+      "description": "True love is put to the test when another woman comes between a pair of star-crossed young lovers in this thriller."
+    },
+    {
+      "show_id": "s6017",
+      "title": "Tees Maar Khan",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Comedies, International Movies, Music & Musicals",
+      "cast": "Katrina Kaif, Akshay Kumar, Akshaye Khanna, Arya Babbar, Rajiv Lakshman, Raghu Ram, Vijay Maurya, Dharampal, Ali Asghar, Murli Sharma",
+      "director": "Farah Khan",
+      "description": "A flamboyant con artist and his band of gleeful robbers gamble with fate when smugglers hire them to swipe antiques from a speeding train."
+    },
+    {
+      "show_id": "s1940",
+      "title": "Ek Ladki Ko Dekha Toh Aisa Laga",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Anil Kapoor, Sonam Kapoor, Rajkummar Rao, Juhi Chawla, Abhishek Duhan, Regina Cassandra, Madhumalti Kapoor, Seema Pahwa, Brijendra Kala, Alka Badola Kaushal",
+      "director": "Shelly Chopra Dhar",
+      "description": "As her family seeks to marry her off and a hopeful writer pursues her, a small-town woman struggles to reveal the long-hidden truth about who she loves."
+    },
+    {
+      "show_id": "s3483",
+      "title": "Kyun! Ho Gaya Na",
+      "type": "Movie",
+      "release_year": 2004,
+      "listed_in": "International Movies, Romantic Movies",
+      "cast": "Aishwarya Rai Bachchan, Vivek Oberoi, Amitabh Bachchan, Om Puri, Rati Agnihotri, Sunil Shetty, Tinnu Anand, Rahul Singh",
+      "director": "Samir Karnik",
+      "description": "Cinematic lovebirds Aishwarya Rai and Vivek Oberoi star in this love story about a sweet young girl, Diya, brought up by her widowed father on a coffee plantation in the village of Coorg."
+    },
+    {
+      "show_id": "s2614",
+      "title": "Happy New Year",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Action & Adventure, Comedies, Dramas",
+      "cast": "Shah Rukh Khan, Deepika Padukone, Abhishek Bachchan, Sonu Sood, Boman Irani, Vivaan Shah",
+      "director": "Farah Khan",
+      "description": "A revenge-seeking diamond thief gathers a ragtag crew to infiltrate a Dubai hotel hosting a dance contest. But first they have to learn how to dance."
+    },
+    {
+      "show_id": "s5655",
+      "title": "Sky Tour: The Movie",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, International Movies, Music & Musicals",
+      "cast": "Son Tung M-TP",
+      "director": "Nguyen Thanh Tung",
+      "description": "From the preparations to the performances, this documentary showcases Vietnamese pop idol Sơn Tùng M-TP and the passion behind his Sky Tour concerts."
+    },
+    {
+      "show_id": "s725",
+      "title": "Bangkok Love Stories: Innocence",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Nida Patcharaveerapong, Nicole Theriault, Nattapol Diloknawarit, Tosatid Darnkhuntod, Narupornkamol Chaisang, Pavadee Komchokpaisan, Kawin Manonukul, Ponlawit Ketprapakorn, Rudklao Amratisha, Paramej Noiam, Tachakorn Boonlupyanun, Teera Pratumtree, Nawarat Techarathanaprasert, Naphon Phromsuwan",
+      "director": "",
+      "description": "From a teenage parkour enthusiast to a bawdy restaurateur, an eclectic group of characters find romance in Bangkok's glittering Silom district."
+    },
+    {
+      "show_id": "s7224",
+      "title": "Trimurti",
+      "type": "Movie",
+      "release_year": 1995,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Anil Kapoor, Shah Rukh Khan, Jackie Shroff, Satyendra Kapoor, Gautami, Tinnu Anand, Saeed Jaffrey, Anirudh Agarwal, Mohan Agashe, Himani Shivpuri, Priya Tendulkar, Anjali Jathar, Anang Desai, Pramod Moutho, Subhash Ghai",
+      "director": "Mukul Anand",
+      "description": "After being framed, a policewoman languishing in prison hopes that her three sons will deliver justice and restore her honor."
+    },
+    {
+      "show_id": "s1758",
+      "title": "Dil Chahta Hai",
+      "type": "Movie",
+      "release_year": 2001,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Aamir Khan, Saif Ali Khan, Akshaye Khanna, Preity Zinta, Sonali Kulkarni, Dimple Kapadia, Ayub Khan, Rajat Kapoor, Suhasini Mulay, Ahmed Khan",
+      "director": "Farhan Akhtar",
+      "description": "Inseparable childhood friends Akash, Sameer and Siddharth are just out of college. Nothing comes between them – until they each fall in love."
+    },
+    {
+      "show_id": "s726",
+      "title": "Bangkok Love Stories: Objects of Affection",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Apinya Sakuljaroensuk, Kanokchat Munyadon, Gyeon Seo, Nalin Hohler, Thongpoom Siripipat, Chinawut Indracusin, Preeyada Sitthachai, Akarin Akaranitimaytharatt, Adul Charoenrasameekiat, Kanlaya Lertkasemsup",
+      "director": "",
+      "description": "A kind computer repairman falls for a street-smart graffiti artist whose multiple personality disorder worsens after she witnesses a double murder."
+    },
+    {
+      "show_id": "s3873",
+      "title": "Main Hoon Na",
+      "type": "Movie",
+      "release_year": 2004,
+      "listed_in": "Action & Adventure, Comedies, Dramas",
+      "cast": "Shah Rukh Khan, Sunil Shetty, Sushmita Sen, Zayed Khan, Amrita Rao, Kiron Kher, Boman Irani, Bindu, Naseeruddin Shah, Kabir Bedi",
+      "director": "Farah Khan",
+      "description": "Major Ram Prasad Sharma yearns to see project Mission Milaap come to fruition and usher in an era of peace between two warring countries. But the evil Raghavan will do anything to stop the peace process."
+    },
+    {
+      "show_id": "s2193",
+      "title": "Fishtronaut: The Movie",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Children & Family Movies",
+      "cast": "Fábio Lucindo, Celso Alves, Fernanda Bullara",
+      "director": "Célia Catunda, Kiko Mistrorigo, Rodrigo Eba",
+      "description": "Fishtronaut, Marina and Zeek travel to the big city in search of Grandpa, only to find that everyone else has mysteriously vanished too."
+    },
+    {
+      "show_id": "s1216",
+      "title": "Care of Kancharapalem",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Subba Rao Vepada, Radha Bessy, Kesava Karri, Nithyasri Goru, Karthik Rathnam, Praneetha Patnaik, Mohan Bhagath, Praveena Paruchuri",
+      "director": "Maha Venkatesh",
+      "description": "From a schoolboy’s crush to a middle-aged bachelor’s office romance, four love stories spanning age, religion and status unfold in a small Indian town."
+    },
+    {
+      "show_id": "s6150",
+      "title": "The Blue Umbrella",
+      "type": "Movie",
+      "release_year": 2005,
+      "listed_in": "Children & Family Movies, Dramas, Independent Movies",
+      "cast": "Pankaj Kapur, Shreya Sharma, Dolly Ahluwalia, Deepak Dobriyal, Rahul Kumar, Paramjit Singh Kakran, Piu Dutt, Samrat Mukherjee",
+      "director": "Vishal Bhardwaj",
+      "description": "A charming allegory based on a novella by Ruskin Bond, this visually stunning film from India explores themes of greed, loneliness, longing and loss."
+    },
+    {
+      "show_id": "s3813",
+      "title": "Lucky: No Time for Love",
+      "type": "Movie",
+      "release_year": 2005,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Salman Khan, Sneha Ullal, Mithun Chakraborty, Kader Khan, Navni Parihar, Ravi Baswani, Vikram Gokhale, Mumait Khan",
+      "director": "Radhika Rao, Vinay Sapru",
+      "description": "During an uprising in Russia's St. Petersburg, teen girl Lucky meets handsome Aditya, the Indian ambassador's son, and together they flee the chaos."
+    },
+    {
+      "show_id": "s4846",
+      "title": "Phir Bhi Dil Hai Hindustani",
+      "type": "Movie",
+      "release_year": 2000,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Shah Rukh Khan, Juhi Chawla, Paresh Rawal, Satish Shah, Dilip Tahil, Govind Namdeo, Smita Jaykar, Shakti Kapoor, Johnny Lever",
+      "director": "Aziz Mirza",
+      "description": "In this Bollywood entertainment, two journalists, Ajay and Ria, work for rival TV stations and compete heavily to mask their feelings for each other."
+    },
+    {
+      "show_id": "s1761",
+      "title": "Dil Se",
+      "type": "Movie",
+      "release_year": 1998,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Shah Rukh Khan, Manisha Koirala, Preity Zinta, Raghuvir Yadav, Zohra Sehgal, Sabyasachi Chakraborty, Piyush Mishra, Krishnakant, Aditya Srivastava",
+      "director": "Mani Ratnam",
+      "description": "A radio broadcaster's intense attraction to a mysterious woman opens the door to a tidal wave of powerful emotions and desires."
+    },
+    {
+      "show_id": "s1809",
+      "title": "Don 2",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Action & Adventure, International Movies, Music & Musicals",
+      "cast": "Shah Rukh Khan, Priyanka Chopra, Boman Irani, Lara Dutta, Kunal Kapoor, Om Puri, Alyy Khan, Nawab Shah",
+      "director": "Farhan Akhtar",
+      "description": "With Asia under his complete control, criminal mastermind Don turns to Europe, battling the mob bosses of each nation along the way."
+    },
+    {
+      "show_id": "s2007",
+      "title": "English Babu Desi Mem",
+      "type": "Movie",
+      "release_year": 1996,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Shah Rukh Khan, Sonali Bendre, Rajeshwari, Saeed Jaffrey, Kiran Kumar, Baba Brahmbhatt, Ishita Haria, Sunny Singh, Gulshan Bawra",
+      "director": "Praveen Nischol",
+      "description": "After his brother dies, wealthy Vikram reluctantly returns to India and forms a surprise bond with his orphaned nephew and the showgirl raising him."
+    },
+    {
+      "show_id": "s1258",
+      "title": "Chaahat",
+      "type": "Movie",
+      "release_year": 1996,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Naseeruddin Shah, Shah Rukh Khan, Pooja Bhatt, Anupam Kher, Ramya Krishnan, Avtar Gill, Mushtaq Khan",
+      "director": "Mahesh Bhatt",
+      "description": "A vulnerable singer is forced to choose between the girl he loves and another who has developed an unhealthy obsession with him."
+    },
+    {
+      "show_id": "s3096",
+      "title": "Jab We Met",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Comedies, International Movies, Music & Musicals",
+      "cast": "Shahid Kapoor, Kareena Kapoor, Tarun Arora, Dara Singh, Pavan Malhotra, Kamal Tiwari, Kiran Juneja, Divya Seth, Saumya Tandon",
+      "director": "Imtiaz Ali",
+      "description": "Changing fortunes await a wealthy but dejected industrialist when he meets a spirited chatterbox on a train in this breezy Bollywood romantic comedy."
+    },
+    {
+      "show_id": "s3809",
+      "title": "Luck by Chance",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Farhan Akhtar, Konkona Sen Sharma, Rishi Kapoor, Dimple Kapadia, Isha Sharvani, Sanjay Kapoor, Juhi Chawla, Hrithik Roshan, Alyy Khan, Sheeba Chaddha",
+      "director": "Zoya Akhtar",
+      "description": "When Vikram gets tapped to play the male lead in a Bollywood film, he can't believe his luck. But it may ruin his relationship with his girlfriend."
+    },
+    {
+      "show_id": "s7703",
+      "title": "Yeh Hai Bakrapur",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Amit Sial, Yoshika Verma, Anshuman Jha, Asif Basra, Suruchi Aulakh",
+      "director": "",
+      "description": "A poor family’s goat suddenly acquires divine status, sparking a widespread frenzy as everyone clamors to benefit from its unexpected celebrity."
+    },
+    {
+      "show_id": "s3282",
+      "title": "Kabhi Haan Kabhi Naa",
+      "type": "Movie",
+      "release_year": 1994,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Shah Rukh Khan, Suchitra Krishnamoorthi, Deepak Tijori, Rita Bhaduri, Satish Shah, Anjan Srivastav, Goga Kapoor, Tiku Talsania, Ravi Baswani, Naseeruddin Shah",
+      "director": "Kundan Shah",
+      "description": "A dreamer falls for a girl who is in love with someone else and tries to create a rift between her and the man she loves."
+    },
+    {
+      "show_id": "s5297",
+      "title": "Rukh",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Adarsh Gourav, Manoj Bajpayee, Smita Tambe, Kumud Mishra",
+      "director": "Atanu Mukherjee",
+      "description": "Following the untimely death of his father, a young man begins to reconnect with his family while uncovering some difficult truths."
+    },
+    {
+      "show_id": "s894",
+      "title": "Bhouri",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Raghuvir Yadav, Masha Paur, Mohan Joshi, Manoj Joshi, Mukesh Tiwari, Shakti Kapoor, Sitaram Panchal, Kunika Lall",
+      "director": "Jasbir Bijendra Bhati",
+      "description": "A 23-year-old girl who's married to a man more than twice her age is forced to contend with the predatory nature of a male-dominated society."
+    },
+    {
+      "show_id": "s4342",
+      "title": "My Next Guest with David Letterman and Shah Rukh Khan",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "International Movies",
+      "cast": "Shah Rukh Khan, David Letterman",
+      "director": "Michael Steed",
+      "description": "\"King of Bollywood\" Shah Rukh Khan opens up about his rise to fame, his family and his billions of fans as he and Dave meet up in Mumbai and New York."
+    },
+    {
+      "show_id": "s3095",
+      "title": "Jab Harry Met Sejal",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Shah Rukh Khan, Anushka Sharma, Aru Krishansh Verma, Chandan Roy Sanyal, Evelyn Sharma, Kavi Shastri, Barbora Mudrochova, Paula Donner, Denis Dorokhov, Martavious Gayles",
+      "director": "Imtiaz Ali",
+      "description": "A philandering tour guide in Europe begins to develop feelings for one of his clients while helping her search for her lost engagement ring."
+    },
+    {
+      "show_id": "s1892",
+      "title": "Dukhtar",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Samiya Mumtaz, Mohib Mirza, Saleha Aref, Asif Khan, Adnan Shah, Ajab Gul, Abdullah Jan, Samina Ahmad, Omair Rana, Zeeshan Shafa",
+      "director": "Afia Nathaniel",
+      "description": "A young mother embarks on a desperate quest for freedom when she kidnaps her 10-year-old daughter to save her from a tribal marriage."
+    },
+    {
+      "show_id": "s600",
+      "title": "Asoka",
+      "type": "Movie",
+      "release_year": 2001,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Shah Rukh Khan, Kareena Kapoor, Danny Denzongpa, Rahul Dev, Hrishitaa Bhatt, Gerson Da Cunha, Subhashini Ali, Umesh Mehra, Sooraj Balaji",
+      "director": "Santosh Sivan",
+      "description": "This elaborate Bollywood epic dramatizes one man's transformation from a vengeful and cunning warrior into a legendary leader and teacher of Buddhism."
+    },
+    {
+      "show_id": "s7438",
+      "title": "Vivah",
+      "type": "Movie",
+      "release_year": 2006,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Shahid Kapoor, Amrita Rao, Anupam Kher, Alok Nath, Seema Biswas, Samir Soni, Lata Sabharwal, Manoj Joshi, Dinesh Lamba, Amrita Prakash",
+      "director": "Sooraj R. Barjatya",
+      "description": "Set up for an arranged marriage, a young couple enjoys an old-fashioned courtship, until an accident days before their wedding tests their nascent love."
+    },
+    {
+      "show_id": "s4635",
+      "title": "Once Upon a Time in Mumbai Dobaara!",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Dramas, International Movies, Music & Musicals",
+      "cast": "Akshay Kumar, Imran Khan, Sonakshi Sinha, Sonali Bendre, Sarfaraz Khan, Mahesh Manjrekar, Abhimanyu Singh, Kurush Deboo, Pitobash, Chetan Hansraj",
+      "director": "Milan Luthria",
+      "description": "This turbulent sequel to Once Upon a Time in Mumbai carries on the saga of the gangland don Shoaib Khan, who continues pressing for more control."
+    }
+  ]
+}

@@ -1,0 +1,597 @@
+{
+  "split": "test",
+  "query_id": "bully_redemption_anime",
+  "query": "anime about a former bully making amends to a deaf classmate",
+  "candidates": [
+    {
+      "show_id": "s395",
+      "title": "Alice Junior",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies, International Movies, LGBTQ Movies",
+      "cast": "Anne Celestino Mota, Emmanuel Rosset, Matheus Moura, Surya Amitrano, Thaís Schier, Cida Rolim, Katia Horn, Igor Augustho, Marcel Szymanski",
+      "director": "Gil Baroni",
+      "description": "In a small town, a trans teen with a vibrant personality shakes up her high school's conservative ways while trying to secure her first kiss."
+    },
+    {
+      "show_id": "s4479",
+      "title": "Ninja Hattori",
+      "type": "TV Show",
+      "release_year": 1981,
+      "listed_in": "Anime Series, Kids' TV",
+      "cast": "Junko Hori, Masako Sugaya, Yuko Mita, Kaneta Kimotsuki, Kenichi Ogata, Eiko Yamada, Yuzuru Fujimoto, Yuri Nashiwa, Runa Akiyama, Issei Futamata",
+      "director": "",
+      "description": "Elementary school student Kenichi Mitsuba's household gains a surprising new member: Kanzo Hattori, a mischievous but helpful young ninja."
+    },
+    {
+      "show_id": "s3443",
+      "title": "Koshish",
+      "type": "Movie",
+      "release_year": 1972,
+      "listed_in": "International Movies, Romantic Movies",
+      "cast": "Sanjeev Kumar, Jaya Bhaduri, Asrani, Seema, Om Shivpuri, Dina Pathak",
+      "director": "Gulzar",
+      "description": "A speech and hearing-impaired couple persists through unforgiving obstacles to be accepted by society and live a life of dignity."
+    },
+    {
+      "show_id": "s2013",
+      "title": "Enter the Anime",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Kozo Morishita, Yoko Takahashi, Shinji Aramaki, Kenji Kamiyama",
+      "director": "Alex Burunova",
+      "description": "What is anime? Through deep-dives with notable masterminds of this electrifying genre, this fast-paced peek behind the curtain seeks to find the answers."
+    },
+    {
+      "show_id": "s5498",
+      "title": "Septiembre, un llanto en silencio",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Saúl Lisazo, Mario Zaragoza, Juan Pablo Olyslager, Costanza Andrade",
+      "director": "Kenneth Müller",
+      "description": "After a terrorist attack in Guatemala, a baby is rendered deaf and motherless and her father is left to raise her alone."
+    },
+    {
+      "show_id": "s2716",
+      "title": "Hi Score Girl",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Anime Series, International TV Shows, Romantic TV Shows",
+      "cast": "Kohei Amasaki, Sayumi Suzushiro, Yuuki Hirose, Kazuyuki Okitsu, Daiki Yamashita, Daria Midou, Satomi Arai, Shizuka Ito, Cho, Chinatsu Akasaki, Tomokazu Sugita, Yuichi Nakamura, Kana Ueda, Taketora, Hochu Otsuka, Hiroki Yasumoto",
+      "director": "",
+      "description": "A chronic gamer abysmally inept in academics and sports finally meets his match at his usual shady arcade – and it’s his rich classmate, Akira."
+    },
+    {
+      "show_id": "s4261",
+      "title": "Mr. Woodcock",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Comedies",
+      "cast": "Billy Bob Thornton, Seann William Scott, Ethan Suplee, Melissa Sagemiller, Susan Sarandon, Melissa Leo, Bill Macy, Kurt Fuller, Amy Poehler",
+      "director": "Craig Gillespie",
+      "description": "When a self-help author learns that his mother has fallen for his sadistic high school gym teacher, he tries to put a stop to their budding romance."
+    },
+    {
+      "show_id": "s2762",
+      "title": "Hjørdis",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "International TV Shows, TV Comedies, TV Dramas",
+      "cast": "Lise Baastrup, Martin Brygmann, Ellen Hillingsø, Nicky Andersen, Nicoline Sharma Rubow, Jasmin Bart-Williams, William Rützou, Marius Due, Robert Hansen",
+      "director": "Lars Kaalund",
+      "description": "This miniseries spinoff of \"Rita\" follows teacher Hjørdis as she plans a school play on bullying featuring a cast of socially awkward students."
+    },
+    {
+      "show_id": "s3880",
+      "title": "Making Unorthodox",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Marlene Melchior",
+      "description": "A look at the making of one of the first series to authentically portray and explore issues in a Hasidic community as they pertain to women's lives."
+    },
+    {
+      "show_id": "s7451",
+      "title": "W/ Bob & David",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "TV Comedies",
+      "cast": "David Cross, Bob Odenkirk, John Ennis, Jay Johnston, Brian Posehn, Jill Talley, Paul F. Tompkins, Tom Kenny, Brett Paesel",
+      "director": "",
+      "description": "After being dishonorably discharged from the Navy Seals, Bob and David are back serving our country the way they do best – making sketch comedy."
+    },
+    {
+      "show_id": "s4365",
+      "title": "My True Friend",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Mario Maurer, Natcha Juntapan, Monchanok Saengchaipiangpen, Nawapaiboon Wuthinanon, Kamolned Ruengsri, Sirapop Daongern, Rakchawan Maroukasonti, Poom Rungsrithananon, Patsomtat Sudprasert, Ranee Campen",
+      "director": "Atsajun Sattakovit",
+      "description": "A bullied student forms a bond with the leader of a youth gang and discovers the power and meaning of true friendship."
+    },
+    {
+      "show_id": "s6063",
+      "title": "The Adderall Diaries",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "James Franco, Ed Harris, Amber Heard, Jim Parrack, Timothée Chalamet, Wilmer Valderrama, Cynthia Nixon, Christian Slater, Michael Cristofer, Danny Flaherty, Adam LeFevre",
+      "director": "Pamela Romanowsky",
+      "description": "Author Stephen Elliott has a problem separating his own life from incidents in the life of a convicted murderer about whom he's writing a book."
+    },
+    {
+      "show_id": "s2432",
+      "title": "Girls und Panzer",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Mai Fuchigami, Ai Kayano, Mami Ozaki, Ikumi Nakagami, Yuka Iguchi, Misato Fukuen, Mikako Takahashi, Kana Ueda",
+      "director": "Tsutomu Mizushima",
+      "description": "Miho Nishizumi tries to escape her family's tradition of tankery by enrolling at a new high school. Instead she gets back into the sport with friends."
+    },
+    {
+      "show_id": "s2878",
+      "title": "Hush",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "John Gallagher Jr., Kate Siegel, Michael Trucco, Samantha Sloyan, Emma Graves",
+      "director": "Mike Flanagan",
+      "description": "A deaf writer who retreated into the woods to live a solitary life must fight for her life in silence when a masked killer appears in her window."
+    },
+    {
+      "show_id": "s6109",
+      "title": "The Bad Education Movie",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Comedies",
+      "cast": "Jack Whitehall, Joanna Scanlan, Iain Glen, Ethan Lawrence, Layton Williams, Kae Alexander, Weruche Opia, Nikki Runeckles, Charlie Wernham, Jack Binstead",
+      "director": "Elliot Hegarty",
+      "description": "Britain's most ineffective but caring teacher takes his class to Cornwall for one last school trip, where anything could happen –\n and probably will."
+    },
+    {
+      "show_id": "s3064",
+      "title": "Isa Pa with Feelings",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "International Movies, Romantic Movies",
+      "cast": "Maine Mendoza, Carlo Aquino, Lotlot De Leon, Cris Villanueva, Nikki Valdez, Vangie Labalan, Geleen Eugenio",
+      "director": "Prime Cruz",
+      "description": "When an aspiring architect falls for her Deaf neighbor, they develop a connection and set out to form their own love language despite their differences."
+    },
+    {
+      "show_id": "s1407",
+      "title": "CLANNAD",
+      "type": "TV Show",
+      "release_year": 2008,
+      "listed_in": "Anime Series, Teen TV Shows",
+      "cast": "Yuichi Nakamura, David Matranga, Mai Nakahara, Luci Christian, Ryo Hirohashi, Shelley Calene-Black, Ai Nonaka, Hilary Haag, Akemi Kanda, Brittney Karbowski, Houko Kuwashima, Kaytha Coker, Mamiko Noto, Emily Neves, Daisuke Sakaguchi, Greg Ayres",
+      "director": "",
+      "description": "Maladjusted high school student Tomoya's life begins to change when he befriends his classmate Nagisa and several other eccentric girls."
+    },
+    {
+      "show_id": "s807",
+      "title": "Before I Fall",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Romantic Movies",
+      "cast": "Zoey Deutch, Halston Sage, Erica Tremblay, Logan Miller, Cynthy Wu, Kian Lawley, Jennifer Beals, Medalion Rahimi, Diego Boneta, Elena Kampouris, Liv Hewson, G. Hannelius, Nicholas Lea, Claire Margaret Corlett, Roan Curtis",
+      "director": "Ry Russo-Young",
+      "description": "Forced to continually relive the day she dies in a car crash, a privileged high schooler must unravel the cosmic mystery of her suddenly looping life."
+    },
+    {
+      "show_id": "s2425",
+      "title": "Girl's Revenge",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Wang Yu-ping, Yuri Chen, Shiny Yao, Pii Liu, Mike Lin, Edison Song, Xia Teng-hong, Moon Lee",
+      "director": "Weica Wang",
+      "description": "After a sex video subjects her friend to mockery and bullying, a transfer student sets out to reveal the truth as campus secrets come to light."
+    },
+    {
+      "show_id": "s6524",
+      "title": "The Karate Kid",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Children & Family Movies, Dramas",
+      "cast": "Jaden Smith, Jackie Chan, Taraji P. Henson, Wenwen Han, Yu Rongguang, Zhensu Wu, Zhiheng Wang, Zhenwei Wang, Shijia Lü, Yi Zhao",
+      "director": "Harald Zwart",
+      "description": "After moving to Beijing with his mother, Dre falls prey to a bully, so he takes lessons from a martial arts master in this remake of the 1984 classic."
+    },
+    {
+      "show_id": "s222",
+      "title": "A Scandall",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "International Movies, Thrillers",
+      "cast": "Johnny Baweja, Reeth Mazumder, Manav Kaul, Tanvi Vyas, Puru Chibber, Vasundhara Kaul, Aayam Mehta, Niraj Sah",
+      "director": "Ishaan Trivedi",
+      "description": "A film school graduate is interested in making a movie about his girlfriend's uncle, who claims that he can see his long-dead daughter."
+    },
+    {
+      "show_id": "s5335",
+      "title": "Sadece Sen",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Belçim Bilgin, İbrahim Çelikkol, Kerem Can, Necmi Yapıcı, Levent Sülün, Barış Arduç, Erol Gedik, Cezmi Baskın",
+      "director": "Hakan Yonat",
+      "description": "An ex-boxer falls in love with a blind woman and starts to build a new life, but his violent past returns to endanger them both."
+    },
+    {
+      "show_id": "s6100",
+      "title": "The Awakening of Motti Wolkenbruch",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Inge Maux, Noémie Schmidt, Joel Basman, Sunnyi Melles, Udo Samel, Rachel Braunschweig, Oriana Schrage, Meytal Gal",
+      "director": "Michael Steiner",
+      "description": "Pressured to marry a nice Orthodox Jewish woman, Motti is thrown for a loop when he falls for classmate Laura, who his mother will never approve of."
+    },
+    {
+      "show_id": "s3011",
+      "title": "Insatiable",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Comedies, TV Dramas, Teen TV Shows",
+      "cast": "Dallas Roberts, Debby Ryan, Alyssa Milano, Christopher Gorham, Kimmy Shields, Michael Provost, Erinn Westbrook, Daniel Kang, Arden Myrin",
+      "director": "",
+      "description": "A bullied teenager turns to beauty pageants as a way to exact her revenge, with the help of a disgraced coach who soon realizes he's in over his head."
+    },
+    {
+      "show_id": "s4817",
+      "title": "Pekak",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Zahiril Adzim, Sharifah Amani, Amerul Affendi, Sharifah Sakinah, Iedil Putra, Zaidi Omar, Joe Flizzow, Chew Kin-Wah",
+      "director": "Mohd Khairul Azri Bin Md Noor",
+      "description": "Desperate to escape her tyrannical father, a rebellious teen befriends a deaf drug pusher who's saving up his money for cochlear implants."
+    },
+    {
+      "show_id": "s1273",
+      "title": "Chandani: The Daughter of the Elephant Whisperer",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "K.G. Chandani Renuka Ratnayake",
+      "director": "Arne Birkenstock",
+      "description": "A girl who wants to be an elephant driver like her father is given the chance to raise a calf and becomes even more determined when it's taken away."
+    },
+    {
+      "show_id": "s5327",
+      "title": "Saath Saath",
+      "type": "Movie",
+      "release_year": 1982,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Deepti Naval, Farooq Shaikh, Satish Shah, Iftekhar, A.K. Hangal, Neena Gupta, Avtar Gill, Javed Khan",
+      "director": "Raman Kumar",
+      "description": "A young woman falls for her classmate’s idealistic, non-materialistic ways, but is troubled upon seeing his principles change after they marry."
+    },
+    {
+      "show_id": "s152",
+      "title": "A Boy Called Po",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, Sci-Fi & Fantasy",
+      "cast": "Christopher Gorham, Julian Feder, Kaitlin Doubleday, Andrew Bowen, Caitlin Carmichael, Sean Gunn, Bryan Batt, Fay Masterson, Brian George",
+      "director": "John Asher",
+      "description": "After his wife's death, an overworked engineer struggles to care for his son with autism, who regresses into a fantasy world to escape real-life bullying."
+    },
+    {
+      "show_id": "s5950",
+      "title": "SWORDGAI The Animation",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Yuto Uemura, Yuuka Aisaka, Nobunaga Shimazaki, Yuuichirou Umehara, Toshihiko Seki, Jouji Nakata, Rina Satou, Tomokazu Sugita, Hiro Shimono, Ayane Sakura, Urara Takano, Kohei Murakami, Maaya Uchida, Takaya Kuroda, Michiko Neya, Takaya Hashi",
+      "director": "",
+      "description": "A young man becomes host to a legendary infernal sword and, with the fate of humanity now in his arm, wields its demonic power against his enemies."
+    },
+    {
+      "show_id": "s3039",
+      "title": "Inuyasha the Movie - La spada del dominatore del mondo",
+      "type": "Movie",
+      "release_year": 2003,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Kappei Yamaguchi, Satsuki Yukino, Koji Tsujitani, Houko Kuwashima, Kumiko Watanabe, Ken Narita, Akio Otsuka, Kikuko Inoue",
+      "director": "Toshiya Shinohara",
+      "description": "The Great Dog Demon beaqueathed one of the Three Swords of the Fang to each of his two sons. Now the evil power of the third sword has been awakened."
+    },
+    {
+      "show_id": "s1660",
+      "title": "Deaf U",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "In this reality series, a tight-knit group of Deaf and hard of hearing students share their stories and explore life at Gallaudet University."
+    },
+    {
+      "show_id": "s5413",
+      "title": "Save Me",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Korean TV Shows, TV Dramas",
+      "cast": "Taecyeon, Seo Ye-ji, Cho Seong-ha, Woo Do‑hwan, Son Byung-ho, Kim Kwang-gyoo, Yun Yoo-sun, Park Ji-young, Jeong Hae-gyoon, Jang Hyeok-jin",
+      "director": "",
+      "description": "Four young men come to the rescue of a former classmate whose family has been sucked into the clutches of a religious cult and its charismatic leader."
+    },
+    {
+      "show_id": "s5725",
+      "title": "Sotus The Series",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Sangpotirat Perawat, Ruangroj Prachaya",
+      "director": "",
+      "description": "When freshman engineering student Kongpob stands up to older bully Arthit, their confrontation soon leads to a deep attraction between the two boys."
+    },
+    {
+      "show_id": "s5864",
+      "title": "Sturgill Simpson Presents Sound & Fury",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Anime Features, Music & Musicals, Sci-Fi & Fantasy",
+      "cast": "",
+      "director": "Jumpei Mizusaki, Koji Morimoto, Michael Arias, Masaru Matsumoto, Arthell Isom, Henry Thurlow, Takanobu Mizuno, Elsa Nakamichi, Hajime Sasaki, Shinji Takagi",
+      "description": "In this anime visual album, a mysterious driver heads deep into a postapocalyptic hellscape toward a ferocious showdown with two monstrous opponents."
+    },
+    {
+      "show_id": "s7132",
+      "title": "Tokyo Idols",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, International Movies, Music & Musicals",
+      "cast": "",
+      "director": "Kyoko Miyake",
+      "description": "This documentary follows J-Pop idol Rio and her predominantly middle-aged fans, and their seemingly transactional interactions."
+    },
+    {
+      "show_id": "s3784",
+      "title": "Love, Chunibyo & Other Delusions!",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Anime Series, Romantic TV Shows, Teen TV Shows",
+      "cast": "Jun Fukuyama, Maaya Uchida, Chinatsu Akasaki, Azumi Asakura, Sumire Uesaka, Yuri Amano, Kaori Fukuhara, Mami Shitara, Soichiro Hoshi, Kikuko Inoue, Eri Sendai, Juri Nagatsuma",
+      "director": "",
+      "description": "High schooler Yuta wants to leave his past as a delusional weirdo behind. But his classmate Rikka has her own delusions, and she's interested in his."
+    },
+    {
+      "show_id": "s5944",
+      "title": "Switched",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, TV Dramas, TV Mysteries",
+      "cast": "Daiki Shigeoka, Tomohiro Kamiyama, Kaya Kiyohara, Miu Tomita, Reika Kirishima, Shinji Rokkaku, Miu Suzuki, Riko Hisada, Megumi Seki, Shoko Nakajima",
+      "director": "",
+      "description": "High schooler Ayumi's perfect world evaporates when her envious classmate Zenko somehow steals her body, her boyfriend and her life."
+    },
+    {
+      "show_id": "s7424",
+      "title": "Violet Evergarden",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Anime Series, International TV Shows, Romantic TV Shows",
+      "cast": "Yui Ishikawa, Takehito Koyasu, Daisuke Namikawa, Aya Endo, Koki Uchiyama, Minori Chihara, Haruka Tomatsu",
+      "director": "",
+      "description": "The war is over, and Violet Evergarden needs a job. Scarred and emotionless, she takes a job as a letter writer to understand herself and her past."
+    },
+    {
+      "show_id": "s1138",
+      "title": "Bully",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Lee Hirsch",
+      "description": "This eye-opening documentary tracks the stories of five different families whose children are struggling to defend themselves from school bullies."
+    },
+    {
+      "show_id": "s4405",
+      "title": "Naruto",
+      "type": "TV Show",
+      "release_year": 2006,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Junko Takeuchi, Chie Nakamura, Noriaki Sugiyama, Kazuhiko Inoue, Toshihiko Seki, Hidekatsu Shibata, Masako Katsuki, Nana Mizuki",
+      "director": "Hayato Date",
+      "description": "Guided by the spirit demon within him, orphaned Naruto learns to harness his powers as a ninja in this anime adventure series."
+    },
+    {
+      "show_id": "s5915",
+      "title": "Superstar",
+      "type": "Movie",
+      "release_year": 1999,
+      "listed_in": "Comedies",
+      "cast": "Molly Shannon, Will Ferrell, Elaine Hendrix, Harland Williams, Mark McKinney, Glynis Johns, Jason Blicker, Gerry Bamman, Emmy Laybourne, Jennifer Irwin, Tom Green",
+      "director": "Bruce McCulloch",
+      "description": "A socially awkward Catholic schoolgirl vows to win a dreamy classmate’s affections by taking first prize at an upcoming talent show."
+    },
+    {
+      "show_id": "s753",
+      "title": "Barely Lethal",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Action & Adventure, Comedies",
+      "cast": "Hailee Steinfeld, Jessica Alba, Samuel L. Jackson, Sophie Turner, Dove Cameron, Toby Sebastian, Gabriel Basso, Thomas Mann, Rachael Harris, Dan Fogler, Steve-O, Rob Huebel, Finesse Mitchell, Jaime King",
+      "director": "Kyle Newman",
+      "description": "A girl raised to be a government assassin just wants to be a normal teen – so she runs away and pretends to be a high school exchange student."
+    },
+    {
+      "show_id": "s2996",
+      "title": "Inequality for All",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Documentaries",
+      "cast": "Robert Reich",
+      "director": "Jacob Kornbluth",
+      "description": "Former U.S. Labor Secretary Robert Reich makes a compelling case about the serious crisis the U.S. faces due to the widening economic gap."
+    },
+    {
+      "show_id": "s517",
+      "title": "Angel Beats!",
+      "type": "TV Show",
+      "release_year": 2010,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Hiroshi Kamiya, Harumi Sakurai, Kana Hanazawa, Eri Kitamura, Ryohei Kimura, Takahiro Mizushima, Shun Takagi, Fuko Saito, Yui Makino, Hiro Masuda, Michael Rivas, Eiichiro Tokumoto, Yumiko Kobayashi, Hiroki Touchi, Miyuki Sawashiro, Chie Matsuura, Kana Asumi, Emiri Kato",
+      "director": "",
+      "description": "In a high school that's a way station to the afterlife, a teenager gets caught up in the battle for the rights of those in this purgatorial world."
+    },
+    {
+      "show_id": "s6874",
+      "title": "The Silent War",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Asier Etxeandia, Marian Álvarez, Hugo Silva, Aitor Luna, Imanol Arias, Olimpia Melinte, Ruth Díaz, Jorge Basanta, Stephanie Gil, Roberto Bonacini",
+      "director": "Alfonso Cortés-Cavanillas",
+      "description": "Alluding to \"For Whom the Bell Tolls,\" this drama follows a fugitive guerrilla, deaf after an explosion, as he tries to survive in 1944 northern Spain."
+    },
+    {
+      "show_id": "s3423",
+      "title": "Knights of Sidonia",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Ryota Osaka, Aya Suzaki, Aki Toyosaki, Takahiro Sakurai, Hisako Kanemoto, Eri Kitamura, Sayaka Ohara, Tomohiro Tsuboi, Takehito Koyasu, Satomi Arai, Atsuko Tanaka, Nanako Mori, Takako Honda, Kohsuke Toriumi, Ayane Sakura, Osamu Saka",
+      "director": "",
+      "description": "A hero rises to save a world that's also a spaceship under siege by an alien threat in this original anime series based on the popular manga comic."
+    },
+    {
+      "show_id": "s6006",
+      "title": "Teasing Master Takagi-san",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Anime Series, International TV Shows, Romantic TV Shows",
+      "cast": "Rie Takahashi, Yuki Kaji, Konomi Kohara, M・A・O, Yui Ogura, Yuma Uchida, Kotori Koiwai, Nobuhiko Okamoto, Fukushi Ochiai",
+      "director": "",
+      "description": "Teased constantly by classmate Takagi-san, middle-schooler Nishikata swears payback by trying (and failing) to give her a dose of her own medicine."
+    },
+    {
+      "show_id": "s7347",
+      "title": "Unfriended",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Shelley Hennig, Moses Storm, Renee Olstead, Will Peltz, Jacob Wysocki, Courtney Halverson, Heather Sossaman, Matthew Bohrer, Mickey River, Cal Barnes",
+      "director": "Levan Gabriadze",
+      "description": "Six teens whose cyberbullying drove their classmate to kill herself become the target of an online stalker with a lethal agenda."
+    },
+    {
+      "show_id": "s873",
+      "title": "Beyblade: Metal Fusion",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "Anime Series, Kids' TV",
+      "cast": "Aki Kanada, Satoshi Hino, Emiri Kato, Kei Shindo, Robert Tinkler, Peter Cugno, Lisette St. Louis, Barbara Mamabolo",
+      "director": "",
+      "description": "In this anime adventure series for kids, the forces of good and evil \"blade it out,\" battling each other with enchanted spinning tops."
+    },
+    {
+      "show_id": "s6760",
+      "title": "The Pirates of Somalia",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas",
+      "cast": "Evan Peters, Barkhad Abdi, Melanie Griffith, Al Pacino, Philip Ettinger, Sabrina Hassan Abdulle, Kiana Madani, Abdi Sidow Farah, Mohamed Barre, Armaan Haggio",
+      "director": "Bryan Buckley",
+      "description": "An aspiring journalist travels to Somalia in hopes of making a name for himself by covering dangerous pirates and hijackers."
+    },
+    {
+      "show_id": "s629",
+      "title": "Autohead",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Deepak Sampat, Ronjini Chakroborty, Vikrant Singh, Jhanvi Dwivedi, Ajay Mishra, Rohit Mittal, Sunny Banerjee, Ravidev Singh",
+      "director": "Rohit Mittal",
+      "description": "A production crew that thinks it's making a documentary about a humble Mumbai rickshaw driver unmasks a horrifying truth about their film's subject."
+    },
+    {
+      "show_id": "s3429",
+      "title": "KO One Return",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "International TV Shows, TV Comedies, TV Dramas",
+      "cast": "Jiro Wang, Pets Tseng, Sam Lin, Xu Ming-jie, Sylvia Wang, Monkey Shao, Zhang Hao Ming, Na Wei-hsun",
+      "director": "",
+      "description": "A time quake propels Wang Dadong into the future, where he encounters a classmate named King who presides over the KO One."
+    },
+    {
+      "show_id": "s5346",
+      "title": "Saint Seiya: The Lost Canvas",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Tetsuya Kakihara, Hiro Shimono, Aya Hirano, Atsushi Abe, Sanae Kobayashi, Kenta Miyake, Tomohiro Tsuboi, Nana Mizuki, Shigeru Chiba",
+      "director": "",
+      "description": "This anime adventure follows the battle between a saint of Athena and an avatar of Hades who's working on a painting that could destroy the world."
+    },
+    {
+      "show_id": "s3961",
+      "title": "Marvel Anime: X-Men",
+      "type": "TV Show",
+      "release_year": 2011,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Toshiyuki Morikawa, Rikiya Koyama, Katsunosuke Hori, Aya Hisakawa, Kaori Yamagata, Yoshiko Sakakibara, Yurika Hino, Yukari Tamura, Hideyuki Tanaka",
+      "director": "",
+      "description": "A year after their dissolution, the X-Men are re-assembled by Professor Charles Xavier to investigate the kidnapping of young mutants in Japan."
+    },
+    {
+      "show_id": "s5510",
+      "title": "Settai",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Comedies, International Movies, Music & Musicals",
+      "cast": "Arya, Anjali, Hansika Motwani, Santhanam, Premgi Amaren, Nasser",
+      "director": "R. Kannan",
+      "description": "Asked to deliver a package for a friend, Madhu gets her fiancé, Jayaganthan, to take care of it, and he then passes the task to one of his roommates."
+    },
+    {
+      "show_id": "s3037",
+      "title": "InuYasha",
+      "type": "TV Show",
+      "release_year": 2001,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Kappei Yamaguchi, Satsuki Yukino, Kumiko Watanabe, Noriko Hidaka, Koji Tsujitani, Houko Kuwashima, Toshiyuki Morikawa, Richard Ian Cox, Moneca Stori, Paul Dobson, Kirby Morrow, Kelly Sheridan, Jillian Michaels",
+      "director": "",
+      "description": "Yanked down a well, schoolgirl Kagome Higurashi emerges in feudal Japan, where she must reassemble a sacred jewel while eluding half-demon Inuyasha."
+    },
+    {
+      "show_id": "s1569",
+      "title": "Dügün Dernek 2: Sünnet",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Ahmet Kural, Murat Cemcir, Rasim Öztekin, Devrim Yakut, Barış Yıldız, Ulaş Torun, Şinasi Yurtsever, Erdal Tosun",
+      "director": "Selçuk Aydemir",
+      "description": "Ismail and his old screwball crew land themselves in hot water when his grandson's circumcision evolves into a buzz-making citywide event."
+    },
+    {
+      "show_id": "s229",
+      "title": "A Silent Voice",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Anime Features, International Movies",
+      "cast": "Miyu Irino, Saori Hayami, Aoi Yuki, Kensho Ono, Yuki Kaneko, Yui Ishikawa, Megumi Han, Toshiyuki Toyonaga, Mayu Matsuoka",
+      "director": "Naoko Yamada",
+      "description": "A former class bully reaches out to the deaf girl he'd tormented in grade school. He feels unworthy of redemption but tries to make things right."
+    },
+    {
+      "show_id": "s2314",
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "type": "TV Show",
+      "release_year": 2010,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Romi Park, Rie Kugimiya, Megumi Takamoto, Shinichiro Miki, Fumiko Orikasa, Kenji Utsumi, Keiji Fujiwara, Yuji Ueda, Biichi Sato, Tetsuya Kakihara, Kenji Hamada, Kaori Nazuka, Hidekatsu Shibata, Kenta Miyake, Kikuko Inoue, Tetsu Shiratori, Minami Takayama, Hiroyuki Yoshino, Yoko Soumi, Kazuya Nakai, Ryuzaburo Otomo",
+      "director": "Yasuhiro Irie",
+      "description": "After both suffer physical damage – brothers Edward and Alphonse battle nefarious forces to try to reclaim their bodies in this supernatural anime."
+    }
+  ]
+}

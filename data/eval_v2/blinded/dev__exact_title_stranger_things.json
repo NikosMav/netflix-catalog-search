@@ -1,0 +1,517 @@
+{
+  "split": "dev",
+  "query_id": "exact_title_stranger_things",
+  "query": "Stranger Things",
+  "candidates": [
+    {
+      "show_id": "s5836",
+      "title": "Stranger than Fiction",
+      "type": "Movie",
+      "release_year": 2006,
+      "listed_in": "Comedies, Romantic Movies",
+      "cast": "Will Ferrell, Maggie Gyllenhaal, Dustin Hoffman, Queen Latifah, Emma Thompson, Kristin Chenoweth, Tony Hale, Tom Hulce, Linda Hunt",
+      "director": "Marc Forster",
+      "description": "As a writer ponders how to kill off her main character, the man begins hearing her voice in his head and realizes that his days are numbered."
+    },
+    {
+      "show_id": "s2767",
+      "title": "Hokkabaz",
+      "type": "Movie",
+      "release_year": 2006,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Cem Yılmaz, Mazhar Alanson, Özlem Tekin, Tuna Orhan, Tuncer Salman, Kemal İnci, Gürgen Öz, Caner Alkaya, Ayçe Abana, Bahtiyar Engin",
+      "director": "Ali Taner Baltacı, Cem Yılmaz",
+      "description": "Trying to resurrect his career, not-so-talented magician Iskender goes on tour, but things get iffy when one of his illusions works a little too well."
+    },
+    {
+      "show_id": "s877",
+      "title": "Beyond Stranger Things",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Stand-Up Comedy & Talk Shows, TV Mysteries, TV Sci-Fi & Fantasy",
+      "cast": "Jim Rash, Matt Duffer, Ross Duffer, Shawn Levy, David Harbour, Finn Wolfhard, Millie Bobby Brown, Gaten Matarazzo, Caleb McLaughlin, Natalia Dyer, Charlie Heaton, Noah Schnapp, Joe Keery, Dacre Montgomery, Sadie Sink, Paul Reiser, Sean Astin, Randy Havens, Brett Gelman, Linnea Berthelsen",
+      "director": "",
+      "description": "Secrets from the \"Stranger Things 2\" universe are revealed as cast and guests discuss the latest episodes with host Jim Rash. Caution: spoilers ahead!"
+    },
+    {
+      "show_id": "s2897",
+      "title": "I Am Mother",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "International Movies, Sci-Fi & Fantasy, Thrillers",
+      "cast": "Clara Rugaard, Rose Byrne, Hilary Swank, Luke Hawker",
+      "director": "Grant Sputore",
+      "description": "Following humanity's mass extinction, a teen raised alone by a maternal droid finds her entire world shaken when she encounters another human."
+    },
+    {
+      "show_id": "s6309",
+      "title": "The Doll",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Horror Movies, International Movies",
+      "cast": "Shandy Aulia, Denny Sumargo, Sara Wijayanto, Vitta Mariana Barrazza, Demian Aditya, Faiza Mahnur, Hans Gunawan, Aslam Abad, Annette Edoarda, Wenty Mamenda",
+      "director": "Rocky Soraya",
+      "description": "Eerie things begin to happen after a man gives his wife a doll, unaware it once belonged to a girl who was murdered. The first of the \"Doll\" films."
+    },
+    {
+      "show_id": "s6877",
+      "title": "The Sinner",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, TV Dramas, TV Mysteries",
+      "cast": "Jessica Biel, Bill Pullman, Christopher Abbott, Abby Miller, Dohn Norwood",
+      "director": "",
+      "description": "When a young mother inexplicably stabs a stranger to death, a sympathetic detective struggles to unlock the mystery buried in her missing memories."
+    },
+    {
+      "show_id": "s1018",
+      "title": "Bobby Jasoos",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Vidya Balan, Ali Fazal, Supriya Pathak, Tanvi Azmi, Zarina Wahab, Kiran Kumar, Rajendra Gupta, Arjan Bajwa, Prasad Barve, Aakash Dahiya",
+      "director": "Samar Shaikh",
+      "description": "With unlimited determination and zero field experience, a small-town detective accepts a lucrative case from a mysterious – and suspicious – stranger."
+    },
+    {
+      "show_id": "s6875",
+      "title": "The Similars",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Horror Movies, Independent Movies, International Movies",
+      "cast": "Gustavo Sánchez Parra, Cassandra Ciangherotti, Fernando Becerril, Humberto Busto, Carmen Beato, Santiago Torres, María Elena Olivares, Catalina Salas, Luis Alberti, Alberto Estrella, Pablo Guisa Koestinger",
+      "director": "Isaac Ezban",
+      "description": "Stranded in a transit station one stormy night in 1968, eight strangers begin to fall victim to seizures, only to wake up disturbingly altered."
+    },
+    {
+      "show_id": "s7523",
+      "title": "Weird Wonders of the World",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Docuseries, Science & Nature TV",
+      "cast": "Chris Packham",
+      "director": "",
+      "description": "From animal oddities and bizarre science to medical marvels, scientists and experts examine some of the world's strangest mysteries and phenomena."
+    },
+    {
+      "show_id": "s5837",
+      "title": "Stranger Things",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Horror, TV Mysteries, TV Sci-Fi & Fantasy",
+      "cast": "Winona Ryder, David Harbour, Finn Wolfhard, Millie Bobby Brown, Gaten Matarazzo, Caleb McLaughlin, Natalia Dyer, Charlie Heaton, Cara Buono, Noah Schnapp, Matthew Modine, Joe Keery, Dacre Montgomery, Sadie Sink, Paul Reiser, Sean Astin",
+      "director": "",
+      "description": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl."
+    },
+    {
+      "show_id": "s4035",
+      "title": "Menahi",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Fayez Al-Malki, Mona Wasef, Abdel Imam Abdullah, Reem Abdel Aziz, Dana Jabr, Emad Al Youssef, Remas Mansoor, Khalid Mengah",
+      "director": "Ayman Makram",
+      "description": "A stranger to civilian life, a young Saudi farmer travels to Dubai, where he experiences a series of hilarious misadventures."
+    },
+    {
+      "show_id": "s5106",
+      "title": "Rattlesnake",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Horror Movies, Independent Movies, Thrillers",
+      "cast": "Carmen Ejogo, Theo Rossi, Emma Greenwell, Apollonia Pratt, Debrianna Mansini, Bruce Davis",
+      "director": "Zak Hilditch",
+      "description": "After a mysterious woman saves her daughter from a deadly snakebite, a single mother must repay the debt by killing a stranger before sundown."
+    },
+    {
+      "show_id": "s3600",
+      "title": "Lens",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Jayaprakash Radhakrishnan, Anand Sami, Aswathy Lal, Misha Ghoshal",
+      "director": "Jayaprakash Radhakrishnan",
+      "description": "Addicted to webcams and voyeurism, a married man gets more than he bargained for when an online stranger tries to force him to watch a suicide."
+    },
+    {
+      "show_id": "s7096",
+      "title": "Time Share",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Luis Gerardo Méndez, Miguel Rodarte, R.J. Mitte, Cassandra Ciangherotti, Montserrat Marañon, Andrés Almeida, Emiliano Rodríguez",
+      "director": "Sebastián Hofmann",
+      "description": "Husband and father Pedro becomes increasingly suspicious that a series of mishaps at a resort during a family vacation are part of a sinister plan."
+    },
+    {
+      "show_id": "s4305",
+      "title": "My Babysitter's a Vampire: The Movie",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Matthew Knight, Vanessa Morgan, Atticus Mitchell, Cameron Kennedy, Kate Todd, Joe Dinicol, Ella Jonas Farlinger, Ari Cohen, Laura de Carteret, Hrant Alianak",
+      "director": "Bruce McDonald",
+      "description": "When their parents head out for the evening, Ethan and his little sister get the babysitter of their nightmares: a fledgling vampire named Sarah."
+    },
+    {
+      "show_id": "s3825",
+      "title": "Lupt",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Horror Movies, International Movies, Thrillers",
+      "cast": "Javed Jaffrey, Vijay Raaz, Karan Aanand, Niki Walia, Meenakshi Dixit, Rishabh Chaddha, Rishina Kandhari, Kiearra Soni",
+      "director": "Prabhuraj",
+      "description": "Haunted by disturbing visions, a workaholic takes a vacation with his family, but a detour leads them to an unsettling stranger and chilling events."
+    },
+    {
+      "show_id": "s1585",
+      "title": "Damnation",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, TV Dramas",
+      "cast": "Logan Marshall-Green, Killian Scott, Sarah Jones, Chasten Harmon, Christopher Heyerdahl, Melinda Page Hamilton, Joe Adler",
+      "director": "",
+      "description": "During the Great Depression, a stranger with a violent past poses as a preacher and rallies farmers to mount a strike in a rural Iowa community."
+    },
+    {
+      "show_id": "s5838",
+      "title": "Strangers from Hell",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, Korean TV Shows, TV Horror",
+      "cast": "Lee Dong-wook, Im Si-wan, Lee Jung-eun, Lee Hyun-wook, Park Jong-hwan, Lee Joong-ok, Ahn Eun-jin",
+      "director": "",
+      "description": "Unpleasant events disturb the life of an aspiring crime fiction writer when he becomes a resident of an apartment building teeming with shady neighbors."
+    },
+    {
+      "show_id": "s2001",
+      "title": "Encounters with Evil",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Crime TV Shows, Docuseries",
+      "cast": "Richard Lintern",
+      "director": "",
+      "description": "This documentary series tries to get at the root of some of the most heinous crimes ever committed by deranged, cold-blooded criminals."
+    },
+    {
+      "show_id": "s4325",
+      "title": "My Horrible Grandma",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Shaimaa Abdelkader, Samiha Ayyoub, Fify El Sebaay, Emy Samir Ghanim, Mohamed Henedi, Bassem Samra",
+      "director": "Sameh Abdulaziz",
+      "description": "As a man fumbles to keep things in order, his assertive grandmother tries to straighten out his life when she returns to live with him."
+    },
+    {
+      "show_id": "s4811",
+      "title": "Pee-wee's Big Holiday",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Children & Family Movies, Comedies, Cult Movies",
+      "cast": "Paul Reubens, Joe Manganiello, Jessica Pohly, Alia Shawkat, Stephanie Beatriz, Brad William Henke, Hal Landon Jr., Diane Salinger, Patrick Egan, Tara Buck, Richard Riehle",
+      "director": "John Lee",
+      "description": "A chance encounter with a mysterious stranger (Joe Manganiello) points Pee-wee toward his destiny – and his first-ever holiday!"
+    },
+    {
+      "show_id": "s1709",
+      "title": "Derren Brown: Sacrifice",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Movies",
+      "cast": "Derren Brown",
+      "director": "",
+      "description": "Illusionist Derren Brown concocts a psychological experiment in which he tries to manipulate an ordinary person into taking a bullet for a stranger."
+    },
+    {
+      "show_id": "s6894",
+      "title": "The spiral",
+      "type": "Movie",
+      "release_year": 1978,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Jan Nowicki, Maja Komorowska, Zofia Kucówna, Aleksander Bardini, Jan Świderski, Seweryna Broniszówna, Piotr Garlicki, Marian Glinka",
+      "director": "Krzysztof Zanussi",
+      "description": "When an unbearable stranger arrives at a winter mountain resort and vanishes overnight, his dark past comes to light."
+    },
+    {
+      "show_id": "s5467",
+      "title": "Secrets in the Hot Spring",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Horror Movies, International Movies",
+      "cast": "Chang Ting-hu, Hong Yan-xiang, Lin He Xuan, Kuo Shu-yao, Law Kar-Ying, Mimi Chu",
+      "director": "",
+      "description": "When three teen outcasts arrive at a hot springs hotel to help run things, creepy incidents prompt comical efforts to find what lurks in their midst."
+    },
+    {
+      "show_id": "s7362",
+      "title": "Unsolved Mysteries",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Real cases of perplexing disappearances, shocking murders and paranormal encounters fuel this gripping revival of the iconic documentary series."
+    },
+    {
+      "show_id": "s5735",
+      "title": "Space Jungle",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Kids' TV, Korean TV Shows, TV Comedies",
+      "cast": "Kim Min-hee, Park Yoon-hee, Sun Sung-wook",
+      "director": "",
+      "description": "A broken spaceship strands four very tiny aliens on Earth, where they discover an adventure (and strange dangers!) that they never expected."
+    },
+    {
+      "show_id": "s6303",
+      "title": "The Disaster Artist",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Dramas",
+      "cast": "James Franco, Dave Franco, Seth Rogen, Josh Hutcherson, Ari Graynor, Alison Brie, Jacki Weaver, Zac Efron, Hannibal Buress, Jason Mantzoukas, Nathan Fielder, Paul Scheer, Megan Mullally, Sharon Stone, Tommy Wiseau",
+      "director": "James Franco",
+      "description": "Aspiring actor Greg moves to Los Angeles with his strange friend Tommy, then agrees to star in his movie. Things start weird and get a lot weirder."
+    },
+    {
+      "show_id": "s967",
+      "title": "Black Summer",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Action & Adventure, TV Dramas, TV Horror",
+      "cast": "Jaime King, Justin Chu Cary, Christine Lee, Sal Velez Jr., Kelsey Flower, Erika Hau, Edsson Morales, Gwynyth Walsh, Stafford Perry, Mustafa Alabssi",
+      "director": "",
+      "description": "In the dark, early days of a zombie apocalypse, complete strangers band together to find the strength they need to survive and get back to loved ones."
+    },
+    {
+      "show_id": "s5913",
+      "title": "Supernatural",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Classic & Cult TV, TV Action & Adventure, TV Horror",
+      "cast": "Jared Padalecki, Jensen Ackles, Mark Sheppard, Misha Collins, Jim Beaver, Andrea Menard, Samantha Smith, Mark Pellegrino, Alexander Calvert",
+      "director": "Phil Sgriccia",
+      "description": "Siblings Dean and Sam crisscross the country, investigating paranormal activity and picking fights with demons, ghosts and monsters."
+    },
+    {
+      "show_id": "s5835",
+      "title": "Stranger",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, International TV Shows, Korean TV Shows",
+      "cast": "Seung-woo Cho, Doona Bae, Joon-hyuk Lee, Kyeong-yeong Lee, Jae-myung Yoo, Hye-sun Shin",
+      "director": "",
+      "description": "With the help of a gutsy female detective, a prosecutor who has lost the ability to feel empathy tackles a murder case amid political corruption."
+    },
+    {
+      "show_id": "s6909",
+      "title": "THE STRANGER",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, TV Dramas, TV Mysteries",
+      "cast": "Richard Armitage, Siobhan Finneran, Jennifer Saunders, Shaun Dooley, Paul Kaye, Dervla Kirwan, Kadiff Kirwan, Hannah John-Kamen, Anthony Head, Stephen Rea, Jacob Dudman, Ella-Rae Smith, Brandon Fellows, Misha Handley",
+      "director": "",
+      "description": "When a stranger makes a shocking claim about his wife, family man Adam Price becomes entangled in a mystery as he desperately searches for answers."
+    },
+    {
+      "show_id": "s1566",
+      "title": "Déjà Vu",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Mandy Wei, Yao Yuan Hao, Wang Si Ping, Yang Zheng, Jenna Wang, Nylon Chen",
+      "director": "",
+      "description": "After losing everything, a prima ballerina accepts a stranger's offer to dial back time and reclaim what was taken from her – but at a great price."
+    },
+    {
+      "show_id": "s975",
+      "title": "Bleach The Movie: Fade to Black",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Action & Adventure, Anime Features, Sci-Fi & Fantasy",
+      "cast": "Masakazu Morita, Fumiko Orikasa, Aya Hirano, Hiroshi Kamiya, Mitsuaki Madono, Ryotaro Okiayu, Kentaro Ito, Shinichiro Miki, Satsuki Yukino, Masaaki Tsukada",
+      "director": "Noriyuki Abe",
+      "description": "When his mind is fogged by a scimitar-weilding stranger, Mayuri destroys his laboratory, unleashing a cloud of reishi that lays waste to the Seiretei."
+    },
+    {
+      "show_id": "s5429",
+      "title": "Scary Movie",
+      "type": "Movie",
+      "release_year": 2000,
+      "listed_in": "Comedies, Horror Movies",
+      "cast": "Anna Faris, Jon Abrahams, Shannon Elizabeth, Shawn Wayans, Regina Hall, Marlon Wayans, Lochlyn Munro, Cheri Oteri, Carmen Electra, Dave Sheridan, Kurt Fuller, Rick Ducommun, James Van Der Beek, Keenen Ivory Wayans, Marissa Jaret Winokur, Dan Joffre",
+      "director": "Keenen Ivory Wayans",
+      "description": "The Wayans brothers spoof some of Hollywood's biggest blockbusters, including Scream, I Know What You Did Last Summer, The Matrix and American Pie."
+    },
+    {
+      "show_id": "s2393",
+      "title": "Ghanchakkar",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Comedies, International Movies, Thrillers",
+      "cast": "Emraan Hashmi, Vidya Balan, Rajesh Sharma, Namit Das, Parvin Dabas",
+      "director": "Raj Kumar Gupta",
+      "description": "Former con artist Sanju surrounds himself with the finer things, a blissful life troubled by only one thing: his wife, who wants even more."
+    },
+    {
+      "show_id": "s3829",
+      "title": "Lynne Koplitz: Hormonal Beast",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Lynne Koplitz",
+      "director": "Marcus Raboy",
+      "description": "Unabashed comedian Lynne Koplitz offers a woman's take on being crazy, the benefits of childlessness and the three things all men really want."
+    },
+    {
+      "show_id": "s5134",
+      "title": "Red Christmas",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Horror Movies",
+      "cast": "Dee Wallace, Geoff Morrell, Sarah Bishop, Janis McGavin, David Collins, Bjorn Stewart, Gerard O'Dwyer, Deelia Meriel, Sam Campbell, Anthony Jensen, Robert Anderson",
+      "director": "Craig Anderson",
+      "description": "A family Christmas gathering at an isolated Australian estate turns into the holiday from hell after a mysterious stranger turns up at the door."
+    },
+    {
+      "show_id": "s6164",
+      "title": "The Box",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Sci-Fi & Fantasy, Thrillers",
+      "cast": "Cameron Diaz, James Marsden, Frank Langella, James Rebhorn, Holmes Osborne, Sam Oz Stone, Gillian Jacobs, Celia Weston, Deborah Rush",
+      "director": "Richard Kelly",
+      "description": "A couple must decide whether to push a button that will net them a million dollars but that will also cause the death of a complete stranger."
+    },
+    {
+      "show_id": "s7069",
+      "title": "Thriller",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Horror Movies",
+      "cast": "Jessica Allain, Luke Tennie, Tequan Richmond, Paige Hurd, Chelsea Rendon, Mitchell Edwards, Pepi Sonuga, Jason Woods, Maestro Harrell, RZA, Mykelti Williamson",
+      "director": "Dallas Jackson",
+      "description": "When a prank goes wrong, a shy kid from Compton is sent away for murder. Four years later, he’s back and out for revenge on homecoming weekend."
+    },
+    {
+      "show_id": "s6045",
+      "title": "That Thing Called Tadhana",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Angelica Panganiban, JM de Guzman",
+      "director": "Antoinette Jadaone",
+      "description": "A devastating breakup with her boyfriend may be the start of a new beginning for Mace, thanks to an adventurous and kind stranger named Anthony."
+    },
+    {
+      "show_id": "s2928",
+      "title": "I'm Thinking of Ending Things",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Jessie Buckley, Jesse Plemons, Toni Collette, David Thewlis, Guy Boyd",
+      "director": "Charlie Kaufman",
+      "description": "Nothing is as it seems when a woman experiencing misgivings about her new boyfriend joins him on a road trip to meet his parents at their remote farm."
+    },
+    {
+      "show_id": "s1196",
+      "title": "Can't Help Falling in Love",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Kathryn Bernardo, Daniel Padilla, Matteo Guidicelli, Zanjoe Marudo, Cherry Pie Picache, Lotlot De Leon, Dennis Padilla, Lito Pimentel, Joross Gamboa, Janus del Prado",
+      "director": "Mae Czarina Cruz",
+      "description": "Gab is eager to tie the knot with her handsome boyfriend, but there's a problem, and it's a doozy: She's already married to a total stranger."
+    },
+    {
+      "show_id": "s4117",
+      "title": "Minimalism: A Documentary About the Important Things",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "Joshua Fields Millburn, Ryan Nicodemus",
+      "director": "Matt D'Avella",
+      "description": "People dedicated to rejecting the American ideal that things bring happiness are interviewed in this documentary showing the virtues of less is more."
+    },
+    {
+      "show_id": "s4435",
+      "title": "Nature's Weirdest Events",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "British TV Shows, Docuseries, Science & Nature TV",
+      "cast": "Chris Packham",
+      "director": "",
+      "description": "Host Chris Packham examines bizarre natural phenomena from around the globe, from strange creatures to geographical oddities."
+    },
+    {
+      "show_id": "s1619",
+      "title": "Dark Skies",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Horror Movies, Sci-Fi & Fantasy",
+      "cast": "Keri Russell, Josh Hamilton, J.K. Simmons, Dakota Goyo, Kadan Rockett, L.J. Benet, Rich Hutchman, Myndy Crist, Annie Thurman, Jake Brennan",
+      "director": "Scott Stewart",
+      "description": "A couple has trouble convincing friends and neighbors that an alien is entering their house each night to terrorize their children."
+    },
+    {
+      "show_id": "s7281",
+      "title": "Twin Peaks",
+      "type": "TV Show",
+      "release_year": 1990,
+      "listed_in": "Classic & Cult TV, Crime TV Shows, TV Dramas",
+      "cast": "Kyle MacLachlan, Michael Ontkean, Mädchen Amick, Dana Ashbrook, Richard Beymer, Lara Flynn Boyle, Sherilyn Fenn, Warren Frost, Peggy Lipton, James Marshall, Everett McGill, Jack Nance, Joan Chen, Kimmy Robertson, Michael Horse, Piper Laurie, Harry Goaz, Eric DaRe, Wendy Robie, Ray Wise, Sheryl Lee, Russ Tamblyn, Don S. Davis, Chris Mulkey, Gary Hershberger, Grace Zabriskie",
+      "director": "",
+      "description": "\"Who killed Laura Palmer?\" is the question on everyone's lips in a secretive small town, but as an eccentric FBI agent learns, the answer isn't easy."
+    },
+    {
+      "show_id": "s6449",
+      "title": "The Heretics",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Horror Movies",
+      "cast": "Nina Kiri, Ry Barrett, Jorja Cadence, Will King, Nina Richmond",
+      "director": "Chad Archibald",
+      "description": "A withdrawn young woman hunted by a malicious cult is abducted by a brooding stranger and undergoes a bizarre transformation."
+    },
+    {
+      "show_id": "s1674",
+      "title": "Death of Me",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Horror Movies",
+      "cast": "Maggie Q, Luke Hemsworth, Alex Essoe, Ingkarat Jaraswongkosol, Kelly B. Jones, Caledonia Burr",
+      "director": "Darren Lynn Bousman",
+      "description": "With no memory of the previous night, a vacationing couple uncovers a disturbing personal video that inexplicably shows one of them killing the other."
+    },
+    {
+      "show_id": "s4829",
+      "title": "Perfect Stranger",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Thrillers",
+      "cast": "Halle Berry, Bruce Willis, Giovanni Ribisi, Richard Portnow, Gary Dourdan, Florencia Lozano, Nicki Aycox, Kathleen Chalfant, Gordon MacDonald, Daniella Van Graas",
+      "director": "James Foley",
+      "description": "Ro risks her life to discover the identity of a stranger lurking on the Internet who might hold the answers to her friend's murder."
+    },
+    {
+      "show_id": "s4960",
+      "title": "Prank Encounters",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Reality TV, TV Comedies, TV Horror",
+      "cast": "Gaten Matarazzo",
+      "director": "",
+      "description": "Monstrous frights meet hilarious reveals on this hidden-camera prank show as real people become the stars of their own full-blown horror movie."
+    },
+    {
+      "show_id": "s3305",
+      "title": "Kappela",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Anna Ben, Roshan Mathew, Sreenath Bhasi, Sudhi Koppa, Tanvi Ram, Musthafa, James Eliya, Vijilesh",
+      "director": "Musthafa",
+      "description": "Falling into an over-the-phone romance with a rickshaw driver, a young woman visits his city when an encounter with a stranger derails their meeting."
+    }
+  ]
+}

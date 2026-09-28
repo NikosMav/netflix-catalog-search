@@ -1,0 +1,217 @@
+{
+  "split": "dev",
+  "query_id": "naruto_anime",
+  "query": "Naruto ninja anime series",
+  "candidates": [
+    {
+      "show_id": "s4408",
+      "title": "Naruto Shippuden : Blood Prison",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Junko Takeuchi, Chie Nakamura, Rikiya Koyama, Kazuhiko Inoue, Masaki Terasoma, Mie Sonozaki, Yuichi Nakamura, Kengo Kawanishi, Kosei Hirota, Masako Katsuki",
+      "director": "Masahiko Murata",
+      "description": "Mistakenly accused of an attack on the Fourth Raikage, ninja Naruto is imprisoned in the impenetrable Hozuki Castle and his powers are sealed."
+    },
+    {
+      "show_id": "s4944",
+      "title": "Power Rangers Samurai: Clash of the Red Rangers",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Children & Family Movies",
+      "cast": "Alex Heartman, Erika Fong, Hector David Jr., Najee De-Tiege, Brittany Anne Pirtle, Rene Naufahu",
+      "director": "",
+      "description": "The Samurai Rangers team up with the RPM Ranger Red to fight off Master Xandred's Mooger army and a robotic villain from the RPM Ranger's dimension."
+    },
+    {
+      "show_id": "s4410",
+      "title": "Naruto Shippuden: The Movie: The Lost Tower",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Junko Takeuchi, Chie Nakamura, Rikiya Koyama, Satoshi Hino, Toshiyuki Morikawa, Mutsumi Tamura, Mayuki Makiguchi, Kenji Hamada, Nobuaki Fukuda, Saori Hayami",
+      "director": "Masahiko Murata",
+      "description": "When Naruto is sent to recover a missing nin, the rogue manages to send him 20 years into the past, where he unites with his father to battle evil."
+    },
+    {
+      "show_id": "s4406",
+      "title": "Naruto Shippûden the Movie: Bonds",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Junko Takeuchi, Noriaki Sugiyama, Chie Nakamura, Kazuhiko Inoue, Satoshi Hino, Shinji Kawada, Nana Mizuki, Showtaro Morikubo, Rikiya Koyama, Motoko Kumai, Unsho Ishizuka",
+      "director": "Hajime Kamegaki",
+      "description": "When strange ninjas ambush the village of Konohagakure, it's up to adolescent ninja Naruto and his long-missing pal, Sasuke, to save the planet."
+    },
+    {
+      "show_id": "s4405",
+      "title": "Naruto",
+      "type": "TV Show",
+      "release_year": 2006,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Junko Takeuchi, Chie Nakamura, Noriaki Sugiyama, Kazuhiko Inoue, Toshihiko Seki, Hidekatsu Shibata, Masako Katsuki, Nana Mizuki",
+      "director": "Hayato Date",
+      "description": "Guided by the spirit demon within him, orphaned Naruto learns to harness his powers as a ninja in this anime adventure series."
+    },
+    {
+      "show_id": "s4413",
+      "title": "Naruto the Movie: Ninja Clash in the Land of Snow",
+      "type": "Movie",
+      "release_year": 2004,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Yuri Lowenthal, Maile Flanagan, Sam Regal, Cam Clarke, Lex Lang, Kari Wahlgren, Crispin Freeman",
+      "director": "Tensai Okamura",
+      "description": "Naruto, Sasuke and Sakura learn they'll be protecting an actress from being hurt while making her next film, but it turns out she's a princess."
+    },
+    {
+      "show_id": "s4948",
+      "title": "Power Rangers Super Samurai",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "Kids' TV",
+      "cast": "Alex Heartman, Erika Fong, Hector David Jr., Najee De-Tiege, Brittany Anne Pirtle, Steven Skyler, Rene Naufahu, Felix Ryan, Paul Schrier, Jeff Szusterman, Kate Elliott, Ricardo Medina Jr., Derek Judge, Stig Alred",
+      "director": "",
+      "description": "The Samurai Power Rangers continue their battle against the evil Master Xandred, who has now joined forces with the malevolent Serrator."
+    },
+    {
+      "show_id": "s4942",
+      "title": "Power Rangers Samurai",
+      "type": "TV Show",
+      "release_year": 2011,
+      "listed_in": "Kids' TV",
+      "cast": "Alex Heartman, Erika Fong, Hector David Jr., Najee De-Tiege, Brittany Anne Pirtle, Rene Naufahu, Jeff Szusterman, Felix Ryan, Paul Schrier",
+      "director": "",
+      "description": "A new generation of Power Rangers must master the Symbols of Samurai Power, which give them control over the Earth's elements to battle dark forces."
+    },
+    {
+      "show_id": "s873",
+      "title": "Beyblade: Metal Fusion",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "Anime Series, Kids' TV",
+      "cast": "Aki Kanada, Satoshi Hino, Emiri Kato, Kei Shindo, Robert Tinkler, Peter Cugno, Lisette St. Louis, Barbara Mamabolo",
+      "director": "",
+      "description": "In this anime adventure series for kids, the forces of good and evil \"blade it out,\" battling each other with enchanted spinning tops."
+    },
+    {
+      "show_id": "s4938",
+      "title": "Power Rangers Ninja Storm",
+      "type": "TV Show",
+      "release_year": 2003,
+      "listed_in": "Kids' TV",
+      "cast": "Pua Magasiva, Sally Martin, Glenn McMillan, Adam Tuominen, Jorgito Vargas Jr., Jason Chan, Katrina Browne, Katrina Devine, Grant McFarland, Peter Rowley, Megan Nicol, Bruce Hopkins",
+      "director": "",
+      "description": "When the elite warriors from the Wind Ninja Academy are captured by the evil Lothor, Shane, Tori and Waldo become Wind Power Rangers to fight back."
+    },
+    {
+      "show_id": "s557",
+      "title": "忍者ハットリくん",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "Anime Series, Kids' TV",
+      "cast": "",
+      "director": "",
+      "description": "Hailing from the mountains of Iga, Kanzo Hattori moves in with elementary school student Kenichi Mitsuba and his family to hone his skills as a ninja."
+    },
+    {
+      "show_id": "s4409",
+      "title": "Naruto Shippuden: The Movie",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Junko Takeuchi, Chie Nakamura, Yoichi Masukawa, Kôichi Tôchika, Masako Katsuki, Keiko Nemoto, Kazuhiko Inoue, Masashi Ebara, Showtaro Morikubo, Romi Park, Ayumi Fujimura, Fumiko Orikasa",
+      "director": "Hajime Kamegaki",
+      "description": "The adventures of adolescent ninja Naruto Uzumaki continue as he's tasked with protecting a priestess from a demon – but to do so, he must die."
+    },
+    {
+      "show_id": "s2013",
+      "title": "Enter the Anime",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Kozo Morishita, Yoko Takahashi, Shinji Aramaki, Kenji Kamiyama",
+      "director": "Alex Burunova",
+      "description": "What is anime? Through deep-dives with notable masterminds of this electrifying genre, this fast-paced peek behind the curtain seeks to find the answers."
+    },
+    {
+      "show_id": "s4767",
+      "title": "Paranormal",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Dramas, TV Horror",
+      "cast": "Ahmed Amin, Razane Jammal, Ayah Samaha, Samaa Ibrahem, Roshdy El Shamy, Reem Abd El Kader",
+      "director": "",
+      "description": "After a skeptical hematologist is plunged into a series of inexplicable events, he unwillingly becomes the go-to-guy for paranormal investigations."
+    },
+    {
+      "show_id": "s4407",
+      "title": "Naruto Shippûden the Movie: The Will of Fire",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Junko Takeuchi, Kazuhiko Inoue, Chie Nakamura, Satoshi Hino, Showtaro Morikubo, Kentarô Itô, Ryoka Yuzuki, Kosuke Toriumi, Nana Mizuki, Shinji Kawada, Yoichi Masukawa, Koichi Tochika, Yukari Tamura",
+      "director": "Masahiko Murata",
+      "description": "When four out of five ninja villages are destroyed, the leader of the one spared tries to find the true culprit and protect his land."
+    },
+    {
+      "show_id": "s4412",
+      "title": "Naruto the Movie 3: Guardians of the Crescent Moon Kingdom",
+      "type": "Movie",
+      "release_year": 2006,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Junko Takeuchi, Chie Nakamura, Yoichi Masukawa, Kazuhiko Inoue, Akio Otsuka, Kyousuke Ikeda, Naya Rokurô, Marika Hayashi, Hisao Egawa, Kenji Hamada, Haruhi Nanao",
+      "director": "Toshiyuki Tsuru",
+      "description": "Exuberant ninja Naruto teams up with his pals Sakura and Kakashi to escort Prince Michiru and his son, Hikaru, to the Crescent Moon kingdom."
+    },
+    {
+      "show_id": "s3423",
+      "title": "Knights of Sidonia",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Ryota Osaka, Aya Suzaki, Aki Toyosaki, Takahiro Sakurai, Hisako Kanemoto, Eri Kitamura, Sayaka Ohara, Tomohiro Tsuboi, Takehito Koyasu, Satomi Arai, Atsuko Tanaka, Nanako Mori, Takako Honda, Kohsuke Toriumi, Ayane Sakura, Osamu Saka",
+      "director": "",
+      "description": "A hero rises to save a world that's also a spaceship under siege by an alien threat in this original anime series based on the popular manga comic."
+    },
+    {
+      "show_id": "s2198",
+      "title": "Five Elements Ninjas",
+      "type": "Movie",
+      "release_year": 1982,
+      "listed_in": "Action & Adventure, International Movies",
+      "cast": "Tien-chi Cheng, Tien Hsiang Lung, Meng Lo, Michael Chan Wai-Man, Pei Hsi Chen, Li Wang, Ke Chu",
+      "director": "Cheh Chang",
+      "description": "When five ninjas whose fighting styles are based on natural elements unleash their fury on a rival school, a lone survivor vows deadly revenge."
+    },
+    {
+      "show_id": "s4479",
+      "title": "Ninja Hattori",
+      "type": "TV Show",
+      "release_year": 1981,
+      "listed_in": "Anime Series, Kids' TV",
+      "cast": "Junko Hori, Masako Sugaya, Yuko Mita, Kaneta Kimotsuki, Kenichi Ogata, Eiko Yamada, Yuzuru Fujimoto, Yuri Nashiwa, Runa Akiyama, Issei Futamata",
+      "director": "",
+      "description": "Elementary school student Kenichi Mitsuba's household gains a surprising new member: Kanzo Hattori, a mischievous but helpful young ninja."
+    },
+    {
+      "show_id": "s4411",
+      "title": "Naruto the Movie 2: Legend of the Stone of Gelel",
+      "type": "Movie",
+      "release_year": 2005,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Junko Takeuchi, Showtaro Morikubo, Chie Nakamura, Gaamon Kai, Takako Honda, Akira Ishida, Yasuyuki Kase, Noriaki Sugiyama, Kazuhiko Inoue",
+      "director": "Hirotsugu Kawasaki",
+      "description": "While on a mission to return a missing pet, Naruto and two fellow ninjas are ambushed by brutal knights led by the enigmatic Temujin."
+    },
+    {
+      "show_id": "s4478",
+      "title": "Ninja Assassin",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Action & Adventure",
+      "cast": "Rain, Naomie Harris, Ben Miles, Rick Yune, Shô Kosugi, Sung Kang, Richard van Weyden, Thorston Manderlay, Wladimir Tarasjanz, Eleonore Weisgerber",
+      "director": "James McTeigue",
+      "description": "When his best friend is murdered by the shadowy Ozunu clan, Raizo, an orphan raised to be an assassin, vows revenge."
+    }
+  ]
+}

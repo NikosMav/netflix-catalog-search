@@ -1,0 +1,627 @@
+{
+  "split": "test",
+  "query_id": "wrongful_conviction_series",
+  "query": "series about teenagers falsely accused of an attack in Central Park",
+  "candidates": [
+    {
+      "show_id": "s7047",
+      "title": "ThirTEEN Terrors",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "International TV Shows, TV Horror, TV Mysteries",
+      "cast": "Thanapatpisal Sananthachat, Panisara Montharat, Sutatta Udomsilp, Teetatch Ratanasritai, Fame Chawin Likitjareonpong, Paladesh Kemisara, Thiti Mahayotaruk, Napat Chokejindachai, Um Apasiri Nitibhon, Skye Nateeton Wongrawee, Narikun Ketprapakorn, Sirinya Tantipongwatana, Chutavuth Pattarakampol, Thanyanan Pipatchaisiri, Sirachuch Chienthaworn, Jirayus Khawbaimai, Gunn Junhavat, Pavadee Komchokpaisan, Nichaphat Chatchaipholrat, Natthida Trichaiya, Kanyawee Songmuang, Claudine Craig, Sarit Trilertvichien, Teeradon Supapunpinyo, Narupornkamol Chaisang, Atthaphan Poonsawas, Oabnithi Wiwattanawarang",
+      "director": "",
+      "description": "A group of teens searches for the dark truth behind their school's mysterious and brutal history."
+    },
+    {
+      "show_id": "s861",
+      "title": "Betting on Zero",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "William Ackman",
+      "director": "Ted Braun",
+      "description": "This documentary dives into the complex world of Herbalife, the international nutritional products company accused of being a pyramid scheme."
+    },
+    {
+      "show_id": "s7318",
+      "title": "Unbelievable",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, TV Dramas",
+      "cast": "Toni Collette, Merritt Wever, Kaitlyn Dever, Dale Dickey, Scott Lawrence, Danielle Macdonald, Austin Hébert, Eric Lange, Elizabeth Marvel",
+      "director": "",
+      "description": "After a young woman is accused of lying about a rape, two female detectives investigate a spate of eerily similar attacks. Inspired by true events."
+    },
+    {
+      "show_id": "s4677",
+      "title": "Oprah Presents When They See Us Now",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries",
+      "cast": "Oprah Winfrey, Ava DuVernay",
+      "director": "Mark Ritchie",
+      "description": "Oprah Winfrey talks with the exonerated men once known as the Central Park Five, plus the cast and producers who tell their story in \"When They See Us.\""
+    },
+    {
+      "show_id": "s7175",
+      "title": "Trailer Park Boys: Out of the Park: Europe",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "International TV Shows, TV Comedies",
+      "cast": "Mike Smith, John Paul Tremblay, Robb Wells",
+      "director": "",
+      "description": "The Trailer Park Boys are thrilled to get a free trip to Europe, until they arrive and learn about their corporate sponsor's unusual requirements."
+    },
+    {
+      "show_id": "s621",
+      "title": "Audrie & Daisy",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Bonni Cohen, Jon Shenk",
+      "description": "In this wrenching documentary, two teens are sexually assaulted by boys they considered friends, humiliated online and harassed by their communities."
+    },
+    {
+      "show_id": "s3374",
+      "title": "Kids on the Block",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Selim Bayraktar, Berat Efe Parlar, Esat Polat Güler, Eda Döğer, Dora Dalgıç, Taha Sönmezisik, Zeynep Ilgin Çelik, Arda Taşarcan, Alperen Efe Esmer, İlknur Külahlıoglu, İkra Külahlıoğlu",
+      "director": "Tugçe Soysop",
+      "description": "When their fun in the park is threatened by a neighborhood nagger, a group of friends declares war to play freely on their turf."
+    },
+    {
+      "show_id": "s6694",
+      "title": "The Murder Detectives",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "British TV Shows, Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "This series tracks the ups and downs of an 18-month investigation into the 2014 stabbing murder of teenager Nicholas Robinson in Bristol, England."
+    },
+    {
+      "show_id": "s1866",
+      "title": "Dream/Killer",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries",
+      "cast": "Bill Ferguson, Ryan Ferguson",
+      "director": "Andrew Jenks",
+      "description": "This riveting crime doc follows Bill as he confronts America's broken judicial system after his son is falsely sentenced to 40 years in prison."
+    },
+    {
+      "show_id": "s7237",
+      "title": "Trotro",
+      "type": "TV Show",
+      "release_year": 2004,
+      "listed_in": "Kids' TV",
+      "cast": "",
+      "director": "",
+      "description": "Trotro the donkey may be opinionated, but he's as sweet as can be in this animated series that's full of lessons for children."
+    },
+    {
+      "show_id": "s7501",
+      "title": "We Are the Wave",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, TV Dramas, TV Mysteries",
+      "cast": "Ludwig Simon, Luise Befort, Michelle Barthel, Mohamed Issa, Daniel Friedl, Robert Schupp",
+      "director": "",
+      "description": "A mysterious classmate leads four idealistic teens in a revolt against a rising tide of nationalistic fervor, but their movement takes a dark turn."
+    },
+    {
+      "show_id": "s7434",
+      "title": "Virunga",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Orlando von Einsiedel",
+      "description": "The Oscar-nominated true story of the rangers risking their lives to save Africa's most precious national park and its endangered gorillas."
+    },
+    {
+      "show_id": "s4780",
+      "title": "Parks and Recreation",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "TV Comedies",
+      "cast": "Amy Poehler, Rashida Jones, Aziz Ansari, Nick Offerman, Aubrey Plaza, Chris Pratt, Jim O'Heir, Retta, Adam Scott, Rob Lowe, Paul Schneider",
+      "director": "",
+      "description": "In this Emmy-nominated comedy, an employee with a rural Parks and Recreation department is full of energy and ideas but bogged down by bureaucracy."
+    },
+    {
+      "show_id": "s4955",
+      "title": "Power Rangers: Megaforce",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "Kids' TV",
+      "cast": "Andrew M. Gray, Ciara Hanna, John Mark Loudermilk, Christina Masterson, Azim Rizk, Shailesh Prajapati, Ian Harcourt",
+      "director": "",
+      "description": "When Earth is threatened by a massive alien invasion, the planet's supernatural guardian calls upon five teenagers to form the ultimate defense team."
+    },
+    {
+      "show_id": "s7181",
+      "title": "Train of the Dead",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Horror Movies, International Movies",
+      "cast": "Kett Thantup, Savika Chaiyadej, Sura Theerakon, Chaleumpol Tikumpornteerawong, Yarichada Wattanawongsri, Phoomjai Tangsanga, Warot Pitakanonda, Saowaluck Siriaran",
+      "director": "Sukum Maetawanitch",
+      "description": "Five teenagers on the lam hide out in an empty train. Little do they realize that the train is inhabited by ghosts on their way to final judgment."
+    },
+    {
+      "show_id": "s5270",
+      "title": "Romina",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Horror Movies, Independent Movies, International Movies",
+      "cast": "Francisca Lozano, Oliver Nava, Arantza Ruiz, Claudia Zepeda, Walter Bercht, Roberto Beck, Victor Bonilla, Eduardo Negrete",
+      "director": "Diego Cohen",
+      "description": "A shocking assault inspires horrific violence when a group of teens encounters a girl from their school while camping in a remote spot."
+    },
+    {
+      "show_id": "s2527",
+      "title": "Great Yellowstone Thaw",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Docuseries, Science & Nature TV",
+      "cast": "",
+      "director": "",
+      "description": "This series explores the effects of the extreme temperature variations at Yellowstone National Park on the animals that live there."
+    },
+    {
+      "show_id": "s6012",
+      "title": "Teenage Bounty Hunters",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, TV Comedies, TV Dramas",
+      "cast": "Anjelica Bette Fellini, Maddie Phillips, Kadeem Hardison, Virginia Williams, Mackenzie Astin, Shirley Rumierk, Myles Evans, Devon Hales, Spencer House, Eric Graise, Charity Cervantes, Wynn Everett, Method Man",
+      "director": "",
+      "description": "Twin sisters Sterling and Blair balance teen life at an elite Southern high school with an unlikely new career as butt-kicking bounty hunters."
+    },
+    {
+      "show_id": "s3811",
+      "title": "Lucknow Central",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, International Movies, Music & Musicals",
+      "cast": "Farhan Akhtar, Diana Penty, Ronit Roy, Gippy Grewal, Deepak Dobriyal, Inaamulhaq, Rajesh Sharma",
+      "director": "Ranjit Tiwari",
+      "description": "After being arrested for a crime he didn't commit, an aspiring musician teams up with some of his inmates at Lucknow Central to form a band."
+    },
+    {
+      "show_id": "s6060",
+      "title": "The A List",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "British TV Shows, International TV Shows, TV Dramas",
+      "cast": "Lisa Ambalavanar, Ellie Duckles, Savannah Baker, Cian Barry, Eleanor Bennett, Jacob Dudman, Rosie Dwyer, Jack Kane, Max Lohan, Nneka Okoye, Micheal Ward, Georgina Sadler, Indianna Ryan",
+      "director": "",
+      "description": "Romance, rivalry and radical mystery collide as a group of teens attend a remote island sleepaway camp in this suspenseful, supernatural drama."
+    },
+    {
+      "show_id": "s4408",
+      "title": "Naruto Shippuden : Blood Prison",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Junko Takeuchi, Chie Nakamura, Rikiya Koyama, Kazuhiko Inoue, Masaki Terasoma, Mie Sonozaki, Yuichi Nakamura, Kengo Kawanishi, Kosei Hirota, Masako Katsuki",
+      "director": "Masahiko Murata",
+      "description": "Mistakenly accused of an attack on the Fourth Raikage, ninja Naruto is imprisoned in the impenetrable Hozuki Castle and his powers are sealed."
+    },
+    {
+      "show_id": "s7219",
+      "title": "Trial 4",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Charged as a teen in the 1993 killing of a Boston cop, Sean K. Ellis fights to prove his innocence while exposing police corruption and systemic racism."
+    },
+    {
+      "show_id": "s5135",
+      "title": "Red Dawn",
+      "type": "Movie",
+      "release_year": 1984,
+      "listed_in": "Action & Adventure, Cult Movies",
+      "cast": "Patrick Swayze, C. Thomas Howell, Lea Thompson, Charlie Sheen, Darren Dalton, Jennifer Grey, Brad Savage, Doug Toby, Ben Johnson, Harry Dean Stanton",
+      "director": "John Milius",
+      "description": "A group of teenagers witnesses Soviet and Cuban paratroopers descending on their small Colorado town and systematically setting off World War III."
+    },
+    {
+      "show_id": "s4266",
+      "title": "Much Ado About Nothing",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Agustín Silva, Paulina García, Daniel Alcaíno, Alejandro Goic, Luis Gnecco, Samuel Landea, Dindi Jane, Isabella Costa, Augusto Schuster, Pilar Ronderos",
+      "director": "Alejandro Fernández Almendras",
+      "description": "Carefree college student Vicente ends up in a desperate fight for freedom when a well-connected friend falsely accuses him of a hit-and-run accident."
+    },
+    {
+      "show_id": "s7179",
+      "title": "Trailer Park Boys: The Movie",
+      "type": "Movie",
+      "release_year": 2006,
+      "listed_in": "Comedies, Cult Movies",
+      "cast": "Robb Wells, John Paul Tremblay, Mike Smith, Lucy Decoutere, Lydia Lawson-Baird, Cory Bowles, Michael Jackson, Gord Downie, Alex Lifeson, Gerry Dee, Glen Grant, Eugene Clark, Barrie Dunn, John Dunsworth, Patrick Roach",
+      "director": "Mike Clattenburg",
+      "description": "In this feature-length adventure, Ricky, Julian and Bubbles – just out of jail – plan the lamest scheme yet: to get rich by stealing tons of change."
+    },
+    {
+      "show_id": "s7170",
+      "title": "Trailer Park Boys",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Classic & Cult TV, Crime TV Shows, International TV Shows",
+      "cast": "Mike Smith, John Paul Tremblay, Robb Wells, John Dunsworth, Patrick Roach, Cory Bowles, Lucy Decoutere, Barrie Dunn, Sarah Dunsworth, Jeanna Harrison, Michael Jackson, Garry James, Tyrone Parsons, Shelley Thompson, Jonathan Torrens",
+      "director": "",
+      "description": "Follow the booze-fueled misadventures of three longtime pals and petty serial criminals who run scams from their Nova Scotia trailer park."
+    },
+    {
+      "show_id": "s5228",
+      "title": "Rize",
+      "type": "Movie",
+      "release_year": 2005,
+      "listed_in": "Documentaries",
+      "cast": "Tommy the Clown, Tight Eyez",
+      "director": "David LaChapelle",
+      "description": "This documentary explores \"krumping,\" a fast-paced urban dance, and follows the man that originated the phenomenon in South Central Los Angeles."
+    },
+    {
+      "show_id": "s476",
+      "title": "American Vandal",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, TV Comedies, Teen TV Shows",
+      "cast": "Tyler Alvarez, Griffin Gluck, Jimmy Tatro, Camille Hyde, Lou Wilson, Eduardo Franco, Jessica Juarez, Camille Ramsey, Calum Worthy, G. Hannelius, Karly Rothenberg",
+      "director": "",
+      "description": "A high school is rocked by an act of vandalism, but the top suspect pleads innocence and finds an ally in a filmmaker. A satirical true crime mystery."
+    },
+    {
+      "show_id": "s5129",
+      "title": "Reckoning",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, TV Dramas, TV Mysteries",
+      "cast": "Aden Young, Sam Trammell, Simone Kessell, Laura Gordon, Gloria Garayua, Mitzi Ruhlmann, Milly Alcock, Ed Oxenbould, Finn Little, Anthony Phelan, Diana Glenn, Lauren Pegus",
+      "director": "",
+      "description": "When a local teen is murdered in their quiet, suburban community, two fathers intent on protecting their families must contend with their inner demons."
+    },
+    {
+      "show_id": "s1538",
+      "title": "Criminal Minds",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, TV Dramas, TV Mysteries",
+      "cast": "Mandy Patinkin, Joe Mantegna, Thomas Gibson, Shemar Moore, Matthew Gray Gubler, Kirsten Vangsness, A.J. Cook, Paget Brewster, Lola Glaudini, Jennifer Love Hewitt, Jeanne Tripplehorn",
+      "director": "",
+      "description": "This intense police procedural follows a group of extraordinary FBI profilers who spend their days getting into the minds of psychopathic criminals."
+    },
+    {
+      "show_id": "s7178",
+      "title": "Trailer Park Boys: The Animated Series",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Comedies",
+      "cast": "Mike Smith, John Paul Tremblay, Robb Wells, John Dunsworth, Pat Roach, Cory Bowles, Jacob Rolfe, Tyrone Parsons, Sarah Dunsworth, Jeanna Harrison, Marguerite McNeil",
+      "director": "Norm Hiscock, Gary Howsam, Mike Smith, John Paul Tremblay, Robb Wells",
+      "description": "Nova Scotia’s favorite miscreants have always been super sketchy. Now, carrying on from the Season 12 finale, the boys have become complete cartoons."
+    },
+    {
+      "show_id": "s7176",
+      "title": "Trailer Park Boys: Out of the Park: USA",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, TV Comedies",
+      "cast": "John Paul Tremblay, Robb Wells, Mike Smith, Tom Mayhue, Alex Lifeson, Sebastian Bach, Tommy Chong, Dennis Rodman, Tony Hawk, Verne Troyer, Tom Green, Riley Hawk",
+      "director": "",
+      "description": "The boys are back on the loose as Bubbles, Julian and Ricky head south of the Canadian border for some outrageous American adventures."
+    },
+    {
+      "show_id": "s1507",
+      "title": "Counterfeiting in Suburbia",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Sarah Butler, Larissa Albuquerque, Kayla Wallace, Matthew MacCaull, James Dean, Alison Wandzura, Bruce Blain, Natalie Grace, Phillip Mitchell",
+      "director": "Jason Bourque",
+      "description": "Two teenagers print counterfeit money in their high school art room, but things go terribly wrong when their debt-ridden teacher becomes suspicious."
+    },
+    {
+      "show_id": "s5698",
+      "title": "Solo Con Tu Pareja",
+      "type": "Movie",
+      "release_year": 1991,
+      "listed_in": "Comedies, Independent Movies, International Movies",
+      "cast": "Luis de Icaza, Dobrina Liubomirova, Isabel Benet, Claudia Fernandez, Luz María Jerez, Claudia Ramírez, Astrid Hadad, Toshiro Hisaki, Daniel Giménez Cacho, Carlos Nakasone, Ricardo Dalmacci, Nevil Wilton, John Keyser, Raúl Valerio, Monserrat Ontiveros, Daniel Gimenez Cacho",
+      "director": "Alfonso Cuarón",
+      "description": "A yuppie playboy looks for a quick death after being falsely diagnosed with AIDS by a nurse who was once cheated by the young Casanova."
+    },
+    {
+      "show_id": "s1138",
+      "title": "Bully",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Lee Hirsch",
+      "description": "This eye-opening documentary tracks the stories of five different families whose children are struggling to defend themselves from school bullies."
+    },
+    {
+      "show_id": "s7585",
+      "title": "When They See Us",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, TV Dramas",
+      "cast": "Asante Blackk, Caleel Harris, Ethan Herisse, Jharrel Jerome, Marquis Rodriguez, Jovan Adepo, Chris Chalk, Justin Cunningham, Freddy Miyares, Michael Kenneth Williams, Marsha Stephanie Blake, Kylie Bunbury, Aunjanue Ellis, Vera Farmiga, Felicity Huffman, John Leguizamo, Niecy Nash",
+      "director": "",
+      "description": "Five teens from Harlem become trapped in a nightmare when they're falsely accused of a brutal attack in Central Park. Based on the true story."
+    },
+    {
+      "show_id": "s7029",
+      "title": "The Young Offenders",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Alex Murphy, Chris Walley, Hilary Rose, Dominic MacHale, P.J. Gallagher, Shane Casey, Pascal Scott, Michael Sands, Ciaran Bermingham",
+      "director": "Peter Foott",
+      "description": "Never ones to think things through, two Irish teens steal bicycles and set off to the coast to find a bale of cocaine from a smuggler’s capsized ship."
+    },
+    {
+      "show_id": "s1938",
+      "title": "Ek Jaan Hain Hum",
+      "type": "Movie",
+      "release_year": 1983,
+      "listed_in": "Dramas, International Movies, Music & Musicals",
+      "cast": "Rajiv Kapoor, Divya Rana, Shammi Kapoor, Tanuja, Kiran Vairale, Rakesh Bedi, Gulshan Grover, Monty Sharma",
+      "director": "Rajiv Mehra",
+      "description": "While trying to win over his beloved’s parents, a young man is accused of arson, and his father soon realizes insanity may be his only defense."
+    },
+    {
+      "show_id": "s2001",
+      "title": "Encounters with Evil",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Crime TV Shows, Docuseries",
+      "cast": "Richard Lintern",
+      "director": "",
+      "description": "This documentary series tries to get at the root of some of the most heinous crimes ever committed by deranged, cold-blooded criminals."
+    },
+    {
+      "show_id": "s6940",
+      "title": "The Trial",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Vittoria Puccini, Francesco Scianna, Camilla Filippi, Simone Colombari, Maurizio Lastrico, Alessandro Averone, Euridice Axen, Marco Baliani, Pia Lanciotti, Giordano De Plano, Roberto Herlitzka, Tommaso Ragno, Margherita Caviezel, Michele Morrone",
+      "director": "Stefano Lodovichi",
+      "description": "The murder of a teen girl impacts a public prosecutor linked to the victim, a lawyer seeking a career-making case and a suspect who says she's innocent."
+    },
+    {
+      "show_id": "s2062",
+      "title": "Exhibit A",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, Docuseries, Science & Nature TV",
+      "cast": "",
+      "director": "",
+      "description": "This true crime series shows how innocent people have been convicted with dubious forensic techniques and tools such as touch DNA and cadaver dogs."
+    },
+    {
+      "show_id": "s5534",
+      "title": "Shadow of Truth",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Crime TV Shows, Docuseries, International TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "This documentary series explores the explosive 2006 murder case of a 13-year-old Israeli girl and the subsequent conviction of a Ukrainian immigrant."
+    },
+    {
+      "show_id": "s5924",
+      "title": "Surviving R. Kelly",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "R. Kelly",
+      "director": "",
+      "description": "In this documentary series on the tangled history of allegations against musician R. Kelly, women give detailed accounts of sexual and mental abuse."
+    },
+    {
+      "show_id": "s6494",
+      "title": "The Innocence Files",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "The Innocence Project unravels missteps and deceit in a series of wrongful convictions, exposing the injustice inflicted on victims and the accused."
+    },
+    {
+      "show_id": "s5937",
+      "title": "Swearnet: The Movie",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Mike Smith, John Paul Tremblay, Robb Wells, Patrick Roach, Mishael Morgan, Sarah Jurgens, Shannon Leroux, Dana Woods, Howard Jerome, Tom Green",
+      "director": "Warren P. Sonoda",
+      "description": "After losing a TV network deal, the Trailer Park Boys launch their own Internet series, but they soon confront personal and creative differences."
+    },
+    {
+      "show_id": "s6953",
+      "title": "The Twelve",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Maaike Neuville, Charlotte De Bruyne, Tom Vermeir, Mieke De Groote, Johan Heldenbergh, Zouzou Ben Chikha, Peter Gorissen, Piet De Praitere, Maaike Cafmeyer, Josse De Pauw, Greet Verstraete, Koen De Sutter, Isabelle Van Hecke, Lynn Van Royen",
+      "director": "Wouter Bouvijn",
+      "description": "Twelve jurors — ordinary people with struggles of their own — must decide the case of a woman accused of killing her best friend and her own daughter."
+    },
+    {
+      "show_id": "s6172",
+      "title": "The Brave One",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Jodie Foster, Terrence Howard, Naveen Andrews, Carmen Ejogo, Nicky Katt, Mary Steenburgen, Lenny Venito, Zoë Kravitz, Jane Adams, Gordon MacDonald",
+      "director": "Neil Jordan",
+      "description": "New York City radio host Erica Bain decides to take the law into her own hands after losing her fiancé in a brutal Central Park attack."
+    },
+    {
+      "show_id": "s6239",
+      "title": "The Confession Tapes",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "This true crime documentary series investigates cases where people convicted of murder claim their confessions were coerced, involuntary or false."
+    },
+    {
+      "show_id": "s4161",
+      "title": "Moesha",
+      "type": "TV Show",
+      "release_year": 2000,
+      "listed_in": "TV Comedies, Teen TV Shows",
+      "cast": "Brandy Norwood, William Allen Young, Sheryl Lee Ralph, Countess Vaughn, Lamont Bentley, Shar Jackson, Marcus T. Paulk, Yvette Wilson",
+      "director": "",
+      "description": "Navigating the twists and firsts of high school, Moesha juggles friendships, romance and the occasional drama while trying to keep her family together."
+    },
+    {
+      "show_id": "s4515",
+      "title": "Not Alone",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Kiki Goshay, Jacqueline Monetta",
+      "description": "An 18-year-old struggling to understand her best friend's suicide talks to teenagers who have grappled with mental illness and suicidal thoughts."
+    },
+    {
+      "show_id": "s951",
+      "title": "Black Friday",
+      "type": "Movie",
+      "release_year": 2004,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Pavan Malhotra, Kay Kay Menon, Aditya Srivastava, Dibyendu Bhattacharya, Kishore Kadam, Gajraj Rao, Zakir Hussain, Imtiaz Ali, Pratima Kazmi, Raj Arjun",
+      "director": "Anurag Kashyap",
+      "description": "This docudrama based on the same-titled book tracks the aftermath of a 1993 bombing in Bombay through the eyes of a journalist covering the story."
+    },
+    {
+      "show_id": "s1429",
+      "title": "Cloverfield",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Action & Adventure, Horror Movies, Sci-Fi & Fantasy",
+      "cast": "Lizzy Caplan, Jessica Lucas, T.J. Miller, Michael Stahl-David, Mike Vogel, Odette Annable, Anjul Nigam, Margot Farley, Theo Rossi, Brian Klugman",
+      "director": "Matt Reeves",
+      "description": "A going-away party in Manhattan is interrupted when a mysterious monster of epic proportions launches an attack on New York City."
+    },
+    {
+      "show_id": "s1234",
+      "title": "Case Closed",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Anime Series, Crime TV Shows, TV Thrillers",
+      "cast": "Minami Takayama, Alison Retzloff, Wakana Yamazaki, Colleen Clinkenbeard, Akira Kamiya, R. Bruce Elliott, Wataru Takagi, Chafurin, Mark Stoddard",
+      "director": "",
+      "description": "Turned into a young boy by a sinister potion, teen sleuth Conan helps solve baffling crimes while tracking down the nefarious agents who poisoned him."
+    },
+    {
+      "show_id": "s7180",
+      "title": "Trailer Park Boys: Xmas Special",
+      "type": "Movie",
+      "release_year": 2004,
+      "listed_in": "Movies",
+      "cast": "John Paul Tremblay, Robb Wells, John Dunsworth, Patrick Roach, Lucy Decoutere, Sarah Dunsworth, Cory Bowles, Barrie Dunn, Michael Jackson, Shelley Thompson",
+      "director": "Mike Clattenburg",
+      "description": "See what Sunnyvale Trailer Park was like back in the day, featuring Randy as a prostitute, J-Roc before he rapped and Barb and Lahey still together."
+    },
+    {
+      "show_id": "s1713",
+      "title": "Designated Survivor: 60 Days",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, Korean TV Shows, TV Dramas",
+      "cast": "Ji Jin-hee, Lee Jun-hyuk, Heo Jun-ho, Kang Han-na, Bae Jong-ok, Kim Gyu-ri, Son Suk-ku, Choi Yoon-young, Lee Moo-saeng",
+      "director": "",
+      "description": "When the National Assembly suffers a catastrophic attack, Minister of Environment Park Mu-jin must find a way to lead Korea through the ensuing chaos."
+    },
+    {
+      "show_id": "s2003",
+      "title": "End of Watch",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Action & Adventure",
+      "cast": "Jake Gyllenhaal, Michael Peña, Natalie Martinez, Anna Kendrick, David Harbour, Frank Grillo, America Ferrera, Cle Sloan, Jaime FitzSimons, Cody Horn, Shondrella Avery, America Ferrara",
+      "director": "David Ayer",
+      "description": "Officers Taylor and Zavala patrol the streets of South Central Los Angeles, an area of the city ruled by gangs and riddled with drug violence."
+    },
+    {
+      "show_id": "s7654",
+      "title": "Women Behind Bars",
+      "type": "TV Show",
+      "release_year": 2010,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "This reality series recounts true stories of women who have been convicted for murder, including an in-depth examination of each crime."
+    },
+    {
+      "show_id": "s6963",
+      "title": "The Underwear",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, TV Dramas, Teen TV Shows",
+      "cast": "Thanabordee Jaiyen, Emika Grant Emma, Tantimedh Chisanusha, Siribanchawan Jidapa, Supanut Sudjinda",
+      "director": "",
+      "description": "Virtual and real worlds collide as a group of teenagers who are grappling with matters of the heart cross paths in a cafe and on an anonymous website."
+    },
+    {
+      "show_id": "s4737",
+      "title": "Pagpag: Nine Lives",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Horror Movies, International Movies",
+      "cast": "Daniel Padilla, Kathryn Bernardo, Shaina Magdayao, Paulo Avelino, Matet De Leon, Janus del Prado, Miles Ocampo, Clarence Delgado, CJ Navato, Michelle Vito",
+      "director": "Frasco Mortiz",
+      "description": "After ignoring superstitions, a group of teenagers find themselves in a fight for their lives when they are haunted — and hunted — by an evil spirit."
+    },
+    {
+      "show_id": "s208",
+      "title": "A Murder in the Park",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Christopher S. Rech, Brandon Kimber",
+      "description": "This documentary excoriates a noted anti-death-penalty activist and his team, whose questionable methods got a convicted killer freed in 1999."
+    },
+    {
+      "show_id": "s4541",
+      "title": "November 13: Attack on Paris",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, Docuseries, International TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "Survivors and first responders share personal stories of anguish, kindness and bravery that unfolded amid the Paris terror attacks of Nov. 13, 2015."
+    },
+    {
+      "show_id": "s1209",
+      "title": "Captive",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "This documentary series reconstructs history's most complex, high-stakes hostage negotiations as kidnapping victims recount their terrifying ordeals."
+    }
+  ]
+}

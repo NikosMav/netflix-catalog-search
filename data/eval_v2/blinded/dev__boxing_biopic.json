@@ -1,0 +1,477 @@
+{
+  "split": "dev",
+  "query_id": "boxing_biopic",
+  "query": "boxing biopic about a fighter",
+  "candidates": [
+    {
+      "show_id": "s7145",
+      "title": "Tong: Memories",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "International TV Shows, Korean TV Shows, TV Action & Adventure",
+      "cast": "Lee Hak Joo, Ji-an Kim, Jae-yoon Lee, Heo Ji Won, Yang Hak Jin, Choi Yeong Min",
+      "director": "",
+      "description": "A tough young man with a short temper and no patience for bullies gains a legendary reputation as the best street fighter in Busan."
+    },
+    {
+      "show_id": "s5119",
+      "title": "Real Steel",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Action & Adventure, Sci-Fi & Fantasy, Sports Movies",
+      "cast": "Hugh Jackman, Dakota Goyo, Evangeline Lilly, Anthony Mackie, Kevin Durand, Hope Davis, James Rebhorn, Karl Yune, Olga Fonda, John Gatins",
+      "director": "Shawn Levy",
+      "description": "A struggling fighter-turned-promoter reconnects with his estranged son to convert an old-generation robot into a mighty World Robot Boxing contender."
+    },
+    {
+      "show_id": "s4221",
+      "title": "Monzón: A Knockout Blow",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Jorge Román, Mauricio Paniagua, Carla Quevedo, Paloma Ker, Soledad Silveyra, Diego Cremonesi, Florencia Raggi, Gustavo Garzón, Yayo Guridi, Fabián Arenillas, Nacho Gadano, Belén Chavanne",
+      "director": "",
+      "description": "This dramatization tells the story of Argentine boxing champion Carlos Monzón, as well as the investigation into the death of his wife Alicia Muñiz."
+    },
+    {
+      "show_id": "s6297",
+      "title": "The Devil Punisher",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Mysteries",
+      "cast": "Mike He, Ivy Shao, Anson Chen, Jane Chang, Roy Chang, Amanda Chou, Johnny Yang, Yin Chao-te, Tan Ai-Chen, Chen Bor-jeng, Dewi Chien",
+      "director": "Chang Chin-jung, Chen Rong-hui",
+      "description": "A baker by day and demon fighter by night, a reincarnated deity must jog his amnesiac lover's memory of their millennium-long romance."
+    },
+    {
+      "show_id": "s5064",
+      "title": "Raging Bull",
+      "type": "Movie",
+      "release_year": 1980,
+      "listed_in": "Classic Movies, Dramas, Sports Movies",
+      "cast": "Robert De Niro, Cathy Moriarty, Joe Pesci, Frank Vincent, Nicholas Colasanto, Theresa Saldana, Mario Gallo, Frank Adonis, Joseph Bono",
+      "director": "Martin Scorsese",
+      "description": "This gritty biopic of brutal boxer Jake LaMotta portrays a tormented soul rising to the top of his sport, only to be undone by his demons."
+    },
+    {
+      "show_id": "s7070",
+      "title": "Through My Father's Eyes: The Ronda Rousey Story",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Ronda Rousey",
+      "director": "Gary Stretch",
+      "description": "This documentary chronicles former Olympian and UFC champion Ronda Rousey's ascent to iconic status in the world of mixed martial arts."
+    },
+    {
+      "show_id": "s5411",
+      "title": "Savage Dog",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure, Independent Movies",
+      "cast": "Scott Adkins, Juju Chan, Marko Zaror, Vladimir Kulich, Charles Fathy, Matthew Marsden, Keith David, Luke Massy",
+      "director": "Jesse V. Johnson",
+      "description": "A former professional boxer serving time in a brutal labor camp must fight incredible odds to gain his freedom and avenge an act of violence."
+    },
+    {
+      "show_id": "s3973",
+      "title": "Mary Kom",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Dramas, International Movies, Sports Movies",
+      "cast": "Priyanka Chopra, Darshan Kumar, Sunil Thapa, Kenny Basumatary, Shishir Sharma, Robin Das, Rajni Basumatary, Lin Laishram, Shakti Singh",
+      "director": "Omung Kumar",
+      "description": "The daughter of a poor rice farmer overcomes the objections of her father and the demands of a male-dominated society to pursue a career in boxing."
+    },
+    {
+      "show_id": "s6173",
+      "title": "The Brawler",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Independent Movies, Sports Movies",
+      "cast": "Zach McGowan, Amy Smart, Joe Pantoliano, Burt Young, Tony Darrow, Nick Loeb, Taryn Manning, Jason James Richter",
+      "director": "Ken Kushner",
+      "description": "Newly famous after challenging Muhammad Ali for a championship title, boxer Chuck Wepner spirals down the slippery slope of being a celebrity."
+    },
+    {
+      "show_id": "s7380",
+      "title": "V for Vendetta",
+      "type": "Movie",
+      "release_year": 2005,
+      "listed_in": "Action & Adventure, Dramas, Sci-Fi & Fantasy",
+      "cast": "Natalie Portman, Hugo Weaving, Stephen Rea, Stephen Fry, John Hurt, Tim Pigott-Smith, Rupert Graves, Roger Allam, Ben Miles, Sinéad Cusack, Natasha Wightman",
+      "director": "James McTeigue",
+      "description": "A masked freedom fighter known as \"V\" takes up arms against a totalitarian government and finds an unlikely ally in a young woman."
+    },
+    {
+      "show_id": "s2507",
+      "title": "Gour Hari Dastaan: The Freedom File",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Vinay Pathak, Konkona Sen Sharma, Ranvir Shorey, Tannishtha Chatterjee, Rajit Kapoor, Vikram Gokhale, Vipin Sharma, Rahul Vohra, Saurabh Shukla, Asrani",
+      "director": "Ananth Narayan Mahadevan",
+      "description": "A former freedom fighter is forced to navigate the corridors of a disinterested bureaucracy to prove that he fought in India's freedom movement."
+    },
+    {
+      "show_id": "s4658",
+      "title": "One-Punch Man",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Anime Series, Crime TV Shows, International TV Shows",
+      "cast": "Makoto Furukawa, Kaito Ishikawa, Yuki Kaji, Aoi Yuki, Kazuhiro Yamaji, Kenjiro Tsuda, Minami Takayama, Tessho Genda",
+      "director": "",
+      "description": "The most powerful superhero in the world can kill anyone with one blow. But nothing can challenge him, so he struggles with ennui and depression."
+    },
+    {
+      "show_id": "s5245",
+      "title": "Rocky",
+      "type": "Movie",
+      "release_year": 1976,
+      "listed_in": "Action & Adventure, Classic Movies, Dramas",
+      "cast": "Sylvester Stallone, Talia Shire, Burt Young, Carl Weathers, Burgess Meredith, Thayer David, Joe Spinell, Jimmy Gambina, Bill Baldwin",
+      "director": "John G. Avildsen",
+      "description": "Sylvester Stallone shot to fame as Rocky Balboa, an unknown fighter who's given a shot at fighting world champ Apollo Creed as a publicity stunt."
+    },
+    {
+      "show_id": "s7498",
+      "title": "We Are Legends",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Action & Adventure, International Movies, Sports Movies",
+      "cast": "Lam Yiu-sing, Ma Chi Wai, Wiyona Yeung, Eric Kot, Yuen Qiu, Lisa Cheng, Jason Li",
+      "director": "Daniel Yee Heng Chan",
+      "description": "Raised in a boxing gym, two orphaned brothers become highly skilled martial artists and must combat threats in the streets and the ring."
+    },
+    {
+      "show_id": "s4520",
+      "title": "Nothing to Lose 2",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Faith & Spirituality, International Movies",
+      "cast": "Petrônio Gontijo, Day Mesquita, Beth Goulart, Dalton Vigh, Eduardo Galvão, César Mello, Leonardo Franco, Raphael Viana, Otávio Martins",
+      "director": "Alexandre Avancini",
+      "description": "As controversy surrounds the evangelical church he helped found, Edir Macedo must juggle betrayals, politics and personal loss in this biopic sequel."
+    },
+    {
+      "show_id": "s5294",
+      "title": "Rudy Habibie",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Reza Rahadian, Chelsea Islan, Dian Nitami, Indah Permatasari, Ernest Prakasa, Boris Bokir, Rey Bong, Cornelio Sunny, Pandji Pragiwaksono, Bastian Bintang Simbolon",
+      "director": "Hanung Bramantyo",
+      "description": "A biopic that explores the hardships and triumphs of the early life of B. J. Habibie, a transformative president of Indonesia."
+    },
+    {
+      "show_id": "s5740",
+      "title": "Sparring",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, International Movies, Sports Movies",
+      "cast": "Mathieu Kassovitz, Olivia Merilahti, Souleymane M'Baye, Billie Blain, Malik Bine, Zakariya Gouram, Jolente De Keersmaeker, Lyes Salem, Ali Labidi, David Saracino",
+      "director": "Samuel Jouy",
+      "description": "A middle-aged boxer with a mixed record becomes a champion's sparring partner while dreaming of one last chance to end his career with a victory."
+    },
+    {
+      "show_id": "s6039",
+      "title": "Thackeray",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "From controversial cartoonist to powerful Mumbai politician, this biopic maps the meteoric rise of far-right Shiv Sena party founder, Bal Thackeray."
+    },
+    {
+      "show_id": "s3500",
+      "title": "La Niña",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Ana María Estupiñán, Sebastian Eslava, Juan Sebastián Aragón, Diego Vásquez, Carlos Velazquez, Marcela Benjumea, Melisa Caceres, Michelle Orozco, Alberto Cardeño, Constanza Camelo, Fernando Arévalo",
+      "director": "",
+      "description": "A former Colombian guerrilla fighter faces challenges as she reintegrates into society and tries to overcome her traumatic memories."
+    },
+    {
+      "show_id": "s4020",
+      "title": "Megalobox",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Yoshimasa Hosoya, Shiro Saito, Hiroki Yasumoto, Nanako Mori, Michiyo Murase, Hiroyuki Kinoshita",
+      "director": "",
+      "description": "Created for the 50th anniversary of manga \"Ashita No Joe,\" mechanized human fighters known as Megalo Boxers battle each other for boxing supremacy."
+    },
+    {
+      "show_id": "s6476",
+      "title": "The Hurt Business",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Kevin Costner",
+      "director": "Vlad Yudin",
+      "description": "Featuring legendary and up-and-coming MMA fighters, this documentary details the history of the brutal sport and the fighters' struggles and triumphs."
+    },
+    {
+      "show_id": "s1508",
+      "title": "Counterpunch",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Jay Bulger",
+      "description": "As boxing's popularity wanes, three fighters at different stages of their career make sacrifices to pursue their dreams of becoming champions."
+    },
+    {
+      "show_id": "s373",
+      "title": "Alaska Is a Drag",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, LGBTQ Movies",
+      "cast": "Martin L. Washington Jr., Maya Washington, Matt Dallas, Christopher O'Shea, Jason Scott Lee, Margaret Cho, Kevin Daniels, John Fleck, Nia Peeples, Adam Tomei",
+      "director": "Shaz Bennett",
+      "description": "Tormented by bullies, an aspiring drag star working at an Alaskan cannery becomes a skilled fighter and is tapped for competition by a boxing coach."
+    },
+    {
+      "show_id": "s5215",
+      "title": "Riphagen - The Untouchable",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Jeroen van Koningsbrugge, Anna Raadsveld, Sigrid ten Napel, Peter Blok, Bob Stoop, Lisa Zweerman, Kay Greidanus, René Kortekaas, Sieger Sloot, Mark Rietman",
+      "director": "Pieter Kuijpers",
+      "description": "This biopic profiles Andries Riphagen, a Dutch criminal who blackmailed Jews in hiding during World War II and was responsible for hundreds of deaths."
+    },
+    {
+      "show_id": "s3367",
+      "title": "Kickboxer: Vengeance",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure",
+      "cast": "Alain Moussi, Jean-Claude Van Damme, Dave Bautista, Gina Carano, Georges St-Pierre, Sara Malakul Lane, Matthew Ziff, T.J. Storm, Fabricio Werdum, Cain Velasquez",
+      "director": "John Stockwell",
+      "description": "After a skilled fighter falls in the ring, his younger brother emerges from the shadows to train and get revenge against a brutal champion."
+    },
+    {
+      "show_id": "s6524",
+      "title": "The Karate Kid",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Children & Family Movies, Dramas",
+      "cast": "Jaden Smith, Jackie Chan, Taraji P. Henson, Wenwen Han, Yu Rongguang, Zhensu Wu, Zhiheng Wang, Zhenwei Wang, Shijia Lü, Yi Zhao",
+      "director": "Harald Zwart",
+      "description": "After moving to Beijing with his mother, Dre falls prey to a bully, so he takes lessons from a martial arts master in this remake of the 1984 classic."
+    },
+    {
+      "show_id": "s3370",
+      "title": "Kid Kulafu",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies, Sports Movies",
+      "cast": "Robert Villar, Alessandra de Rossi, Cesar Montano, Alex Medina, Jake Macapagal, Khalil Ramos, Jomari Angeles, Kokoy DeSantos",
+      "director": "Paul Soriano",
+      "description": "Growing up in poverty and political turmoil, he found his way out in the ring. The early years of world-famous boxer Manny Pacquiao unfolds in this biopic."
+    },
+    {
+      "show_id": "s5854",
+      "title": "Stronger Than the World",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "José Loreto, Cleo Pires, Milhem Cortaz, Jackson Antunes, Claudia Ohana, Rômulo Arantes Neto, Paloma Bernardi, Thaila Ayala, Rafinha Bastos, Felipe Titto",
+      "director": "Afonso Poyart",
+      "description": "After a tough upbringing, natural-born fighter José Aldo confronts his personal demons in his quest to become an MMA champion in this sports biopic."
+    },
+    {
+      "show_id": "s3613",
+      "title": "Levius",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Nobunaga Shimazaki, Junichi Suwabe, Takahiro Sakurai, Ayane Sakura, Hochu Otsuka, Daisuke Ono, Saori Hayami, Mamoru Miyano",
+      "director": "",
+      "description": "Young Levius rises through the ranks in the brutal world of metal boxing under his uncle's guidance. Forces outside the ring have their eye on him."
+    },
+    {
+      "show_id": "s5250",
+      "title": "Rocky V",
+      "type": "Movie",
+      "release_year": 1990,
+      "listed_in": "Dramas, Sports Movies",
+      "cast": "Sylvester Stallone, Talia Shire, Burt Young, Richard Gant, Tommy Morrison, Sage Stallone, Burgess Meredith, Tony Burton",
+      "director": "John G. Avildsen",
+      "description": "Inspired by the memory of his trainer, a broke and seemingly careerless Rocky finds glory in training and takes on an up-and-coming boxer."
+    },
+    {
+      "show_id": "s7655",
+      "title": "Women of Mafia 2",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Angie Cepeda, Agnieszka Dygant, Aleksandra Grabowska, Aleksandra Popławska, Katarzyna Warnke, Piotr Adamczyk, Enrique Arce, Amin Bensalem, Wojciech Bocianowski, Janusz Chabior",
+      "director": "Patryk Vega",
+      "description": "When a major drug deal goes sour, the queen of the Warsaw underworld must contend with a rival criminal, a crossed ally and a religious fighter."
+    },
+    {
+      "show_id": "s5815",
+      "title": "Steve Jobs",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas",
+      "cast": "Michael Fassbender, Kate Winslet, Seth Rogen, Jeff Daniels, Michael Stuhlbarg, Katherine Waterston, Perla Haney-Jardine, Sarah Snook, John Ortiz, Adam Shapiro",
+      "director": "Danny Boyle",
+      "description": "By keying in on three crucial points in his career, this biopic shows the human foibles and visionary fearlessness of the man who made the Mac."
+    },
+    {
+      "show_id": "s3197",
+      "title": "Joe Cocker: Mad Dog with Soul",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, International Movies, Music & Musicals",
+      "cast": "",
+      "director": "John Edginton",
+      "description": "From his star turn at Woodstock to his battles with addiction, this film chronicles the stormy life and unique talent of soulful singer Joe Cocker."
+    },
+    {
+      "show_id": "s5763",
+      "title": "Spitfire: The Plane that Saved the World",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries",
+      "cast": "Charles Dance",
+      "director": "David Fairhead, Anthony Palmer",
+      "description": "In this epic documentary, last-surviving veterans trace the history of a legendary fighter aircraft that dominated the air during the Battle of Britain."
+    },
+    {
+      "show_id": "s1559",
+      "title": "Cutie and the Boxer",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Documentaries",
+      "cast": "Noriko Shinohara, Ushio Shinohara",
+      "director": "Zachary Heinzerling",
+      "description": "A 2014 Oscar nominee for Best Documentary Feature, this film explores the symbiotic relationship of artists Ushio and Noriko Shinohara."
+    },
+    {
+      "show_id": "s558",
+      "title": "Apache Warrior",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "David Salzberg, Christian Tureaud",
+      "description": "Recovered cockpit footage and telling interviews reveal the true stories of US fighter pilots in one of the largest combat strikes in history."
+    },
+    {
+      "show_id": "s7058",
+      "title": "Thong Dee Fun Khao",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure, International Movies, Sports Movies",
+      "cast": "Buakaw Banchamek, Sornsin Maneewan, Phutharit Prombandal, Nantawut Boonrubsub, Vannapoom Songsuparp, Chutirada Junthit, Jaran Ngamdee, Kochakorn Nimakorn, Rapeepat Ekpankul, Manop Aswathep",
+      "director": "Bin Bunluerit",
+      "description": "After losing a boxing match, a talented Muay Thai fighter leaves home to train with the best. On his quest, he finds friends, foes and lots of action."
+    },
+    {
+      "show_id": "s4102",
+      "title": "Milk",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Dramas, Independent Movies, LGBTQ Movies",
+      "cast": "Sean Penn, Emile Hirsch, Josh Brolin, Diego Luna, James Franco, Alison Pill, Victor Garber, Denis O'Hare, Joseph Cross, Stephen Spinella, Lucas Grabeel, Brandon Boyce",
+      "director": "Gus Van Sant",
+      "description": "Sean Penn stars in this biopic about Harvey Milk, the openly gay San Francisco politician who was murdered by a disgruntled city supervisor in 1978."
+    },
+    {
+      "show_id": "s6143",
+      "title": "The Bleeder",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, Sports Movies",
+      "cast": "Liev Schreiber, Elisabeth Moss, Ron Perlman, Naomi Watts, Jim Gaffigan, Michael Rapaport, Pooch Hall, Morgan Spector, Jason Jones",
+      "director": "Philippe Falardeau",
+      "description": "Husband. Father. Fighter. Meet Chuck Wepner, the liquor salesman and self-proclaimed real-life inspiration behind Rocky Balboa."
+    },
+    {
+      "show_id": "s2394",
+      "title": "Ghayal",
+      "type": "Movie",
+      "release_year": 1990,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Sunny Deol, Meenakshi Sheshadri, Amrish Puri, Moushumi Chatterjee, Kulbhushan Kharbanda, Om Puri, Raj Babbar, Shabbir Khan",
+      "director": "Rajkumar Santoshi",
+      "description": "Framed for his older brother's murder, a boxer seeks violent revenge against the true killer who's torn his family apart."
+    },
+    {
+      "show_id": "s2337",
+      "title": "Gagarin: First in Space",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Yaroslav Zhalnin, Mikhail Filippov, Olga Ivanova, Vadim Michman, Vladimir Steklov, Viktor Proskurin, Nadezhda Markina, Daniil Vorobyov",
+      "director": "Pavel Parkhomenko",
+      "description": "This biopic of Russian cosmonaut Yuri Gagarin follows his rise from childhood poverty to his selection and training for the 1961 Vostok mission."
+    },
+    {
+      "show_id": "s7294",
+      "title": "Tyson",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Mike Tyson, Trevor Berbick",
+      "director": "James Toback",
+      "description": "In this surprisingly emotional documentary, heavyweight champ Mike Tyson analyzes the controversies surrounding his career and turbulent private life."
+    },
+    {
+      "show_id": "s1485",
+      "title": "Conor McGregor: Notorious",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Conor McGregor",
+      "director": "Gavin Fitzgerald",
+      "description": "From making ends meet to lavish rides and fur coats, the Irish MMA champion grants an all-access pass to the highs – and lows – of his ascent."
+    },
+    {
+      "show_id": "s6349",
+      "title": "The Fighter",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Dramas, Sports Movies",
+      "cast": "Mark Wahlberg, Christian Bale, Amy Adams, Melissa Leo, Jack McGee, Melissa McMeekin, Bianca Hunter, Erica McDermott, Dendrie Taylor, Jill Quigg, Kate B. O'Brien, Sugar Ray Leonard",
+      "director": "David O. Russell",
+      "description": "After a string of defeats, a boxer rediscovers his fighting will with help from his trainer and half-brother, a once-talented pugilist."
+    },
+    {
+      "show_id": "s6007",
+      "title": "Tee Shot: Ariya Jutanugarn",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Children & Family Movies, Dramas, International Movies",
+      "cast": "Krissiri Sukhsvasti, Atchareeya Potipipittanakorn, Thaneth Warakulnukroh, Hattaya Wongkrachang, Somlek Sakdikul, Marinda Halpin, Gulsara Panyam, Kongkid Visessiri",
+      "director": "Tanawat Aiemjinda",
+      "description": "This biopic follows pro golfer Ariya Jutanugarn's journey to the LPGA tour, from child prodigy to her number-one ranking in the world."
+    },
+    {
+      "show_id": "s1118",
+      "title": "Brothers",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Akshay Kumar, Sidharth Malhotra, Jackie Shroff, Jacqueline Fernandez, Shefali Shah, Kulbhushan Kharbanda, Rajendranath Zutshi, Ashutosh Rana",
+      "director": "Karan Malhotra",
+      "description": "After a troubled past with their alcoholic father, two estranged brothers prepare to face each other again as rivals in a street fighting tournament."
+    },
+    {
+      "show_id": "s2159",
+      "title": "FIGHTWORLD",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries",
+      "cast": "Frank Grillo",
+      "director": "Padraic McKinley",
+      "description": "Actor and fight enthusiast Frank Grillo travels the world, immersing himself in different fight cultures to understand their traditions and motivations."
+    }
+  ]
+}
