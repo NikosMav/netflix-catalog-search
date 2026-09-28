@@ -20,6 +20,7 @@ V2_PATH = ROOT / "results" / "eval_v2" / "metrics.json"
 V1_PATH = ROOT / "results" / "eval_metrics.json"
 SAMPLE_PATH = ROOT / "data" / "eval_v2" / "spotcheck_sample.json"
 AGREEMENT_PATH = ROOT / "results" / "eval_v2" / "spotcheck_agreement.json"
+OVERRIDES_PATH = ROOT / "data" / "eval_v2" / "label_overrides.json"
 
 METRIC_COLS = ["recall@5", "recall@10", "ndcg@10", "mrr"]
 
@@ -194,6 +195,28 @@ def stats_block(payload: dict, sample: dict, agreement: dict) -> str:
     return "\n\n".join(lines)
 
 
+def overrides_block(payload: dict) -> str:
+    rows_in = payload["overrides"]
+    intro = (
+        f"{num(len(rows_in))} committed labels differ from the blinded judge batches. "
+        "There are no other overrides."
+    )
+    headers = ["query_id", "show_id", "title", "batch", "raw label", "final label", "reason"]
+    rows = [
+        [
+            row["query_id"],
+            row["show_id"],
+            row["title"],
+            str(row["batch"]),
+            num(row["raw_label"]),
+            num(row["final_label"]),
+            row["reason"],
+        ]
+        for row in rows_in
+    ]
+    return intro + "\n\n" + _md_table(headers, rows)
+
+
 def v1_table(payload: dict) -> str:
     cols = ["method", "recall@5", "recall@10", "ndcg@5", "ndcg@10", "mrr"]
     rows: list[list[str]] = []
@@ -217,7 +240,15 @@ def replace_block(text: str, begin: str, end: str, body: str) -> str:
     return pattern.sub(f"{begin}\n{body}\n{end}", text, count=1)
 
 
-def render(readme: str, retrieval: str, v2: dict, v1: dict, sample: dict, agreement: dict) -> tuple[str, str]:
+def render(
+    readme: str,
+    retrieval: str,
+    v2: dict,
+    v1: dict,
+    sample: dict,
+    agreement: dict,
+    overrides: dict,
+) -> tuple[str, str]:
     readme = replace_block(
         readme,
         "<!-- METRICS_TABLE_BEGIN -->",
@@ -254,6 +285,12 @@ def render(readme: str, retrieval: str, v2: dict, v1: dict, sample: dict, agreem
         "<!-- V1_METRICS_TABLE_END -->",
         v1_table(v1),
     )
+    retrieval = replace_block(
+        retrieval,
+        "<!-- EVAL_V2_OVERRIDES_BEGIN -->",
+        "<!-- EVAL_V2_OVERRIDES_END -->",
+        overrides_block(overrides),
+    )
     return readme, retrieval
 
 
@@ -262,6 +299,7 @@ def main() -> None:
     v1 = json.loads(V1_PATH.read_text(encoding="utf-8"))
     sample = json.loads(SAMPLE_PATH.read_text(encoding="utf-8"))
     agreement = json.loads(AGREEMENT_PATH.read_text(encoding="utf-8"))
+    overrides = json.loads(OVERRIDES_PATH.read_text(encoding="utf-8"))
     readme_path = ROOT / "README.md"
     retrieval_path = ROOT / "RETRIEVAL.md"
     readme, retrieval = render(
@@ -271,6 +309,7 @@ def main() -> None:
         v1,
         sample,
         agreement,
+        overrides,
     )
     readme_path.write_text(readme, encoding="utf-8")
     retrieval_path.write_text(retrieval, encoding="utf-8")

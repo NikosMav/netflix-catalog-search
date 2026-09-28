@@ -53,6 +53,26 @@ def test_notes_say_spotcheck_pending_until_scored():
     assert "Cohen's kappa 1.0" in scored_notes
 
 
+def test_label_overrides_are_the_only_disclosed_edits_and_match_judgments():
+    sync = _sync()
+    overrides = json.loads((ROOT / "data" / "eval_v2" / "label_overrides.json").read_text(encoding="utf-8"))
+    judgments = json.loads((ROOT / "data" / "eval_v2" / "judgments.json").read_text(encoding="utf-8"))
+    by_query = {item["query_id"]: item for item in judgments["queries"]}
+    block = sync.overrides_block(overrides)
+    assert "There are no other overrides." in block
+    assert sync.num(len(overrides["overrides"])) in block
+    seen = set()
+    for row in overrides["overrides"]:
+        key = (row["query_id"], row["show_id"])
+        assert key not in seen
+        seen.add(key)
+        match = next(j for j in by_query[row["query_id"]]["judgments"] if j["show_id"] == row["show_id"])
+        assert int(match["relevant"]) == row["final_label"]
+        assert row["raw_label"] != row["final_label"]
+        assert row["reason"] in block
+        assert row["show_id"] in block
+
+
 def test_v1_legacy_table_comes_from_legacy_json():
     sync = _sync()
     payload = json.loads((ROOT / "results" / "eval_metrics.json").read_text(encoding="utf-8"))

@@ -3,6 +3,7 @@
   "judge": "LLM judge (grok-4.7 via Cursor cloud agent), blinded to system and rank",
   "rubric": "docs/eval_v2_rubric.md",
   "label_schema": "binary",
+  "label_overrides": "data/eval_v2/label_overrides.json",
   "queries": [
     {
       "split": "dev",

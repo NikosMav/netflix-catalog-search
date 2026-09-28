@@ -74,6 +74,19 @@ The reported systems were frozen before the test run. What was tuned on the dev 
 
 The judge is named in the metrics JSON: an LLM judge (grok-4.7 via Cursor cloud agent), blinded to system and rank. Each decision used the query and the candidate card only. Queries with an empty relevant set stay in the per-query file and are left out of the means.
 
+### Label corrections
+
+A few committed labels were changed after the blinded judge batches. The list is copied from [`data/eval_v2/label_overrides.json`](data/eval_v2/label_overrides.json). `judgments.json` points at that file.
+
+<!-- EVAL_V2_OVERRIDES_BEGIN -->
+2 committed labels differ from the blinded judge batches. There are no other overrides.
+
+| query_id | show_id | title | batch | raw label | final label | reason |
+| --- | --- | --- | --- | --- | --- | --- |
+| office_mockumentary | s6719 | The Office (U.S.) | F | 0 | 1 | The card is a TV comedy about office workers at the Dunder Mifflin paper company, so the pair was marked relevant even though the card never says mockumentary. |
+| vietnam_war | s1570 | Da 5 Bloods | C | 1 | 0 | The card is a decades-later return to recover remains and buried gold, so the pair was marked not relevant to a query about the war itself. |
+<!-- EVAL_V2_OVERRIDES_END -->
+
 - **Recall@k** — fraction of labeled relevant titles found in the top k.
 - **MRR** — how early the first relevant title appears (1 means rank 1).
 - **nDCG@k** — ranking quality with binary gains.
