@@ -249,3 +249,7 @@ def test_streamlit_app_parses():
 
     source = Path("app/streamlit_app.py").read_text(encoding="utf-8")
     compile(source, "app/streamlit_app.py", "exec")
+    assert "results/eval_v2/metrics.json" in source
+    assert "spotcheck_sample.json" in source
+    assert "judgments.json" not in source
+    assert "eval_metrics.json" not in source
