@@ -38,11 +38,12 @@ test were declared in [`configs/eval_v2.yaml`](configs/eval_v2.yaml) before that
 split was scored. `hybrid+rerank` is cross-encoder reranking over
 `hybrid(bm25+dense,meta)`.
 
-Judgments are binary. The judge saw a shuffled candidate card (title, type, year,
-genres, cast, director, description) and did not see system names, ranks, scores,
-or the older labels. Queries on both splits were written for this project. The
-dev split reuses the earlier query texts with new labels. The human spot-check of
-the judge is not filled in.
+Judgments are grades from 0 to 3. nDCG@10 uses gain `2^grade - 1`. Recall and
+MRR count a title only when the grade is 2 or 3. The judge saw a shuffled
+candidate card (title, type, year, genres, cast, director, description) and did
+not see system names, ranks, scores, or the older labels. Queries on both splits
+were written for this project. The dev split reuses the earlier query texts with
+new labels. The human spot-check of the judge is not filled in.
 
 Dev results, field ablations, pool and label counts, and the v1 table are in
 [`RETRIEVAL.md`](RETRIEVAL.md). The blocks below are written by
@@ -62,7 +63,7 @@ Dev results, field ablations, pool and label counts, and the v1 table are in
 <!-- EVAL_V2_NOTES_BEGIN -->
 Judge: LLM judge (grok-4.7 via Cursor cloud agent), blinded to system and rank.
 
-Test split: 30 queries, 29 scored. Unscored because the relevant set is empty: `regency_london_romance`.
+Test split: 30 queries, 29 scored for nDCG. Unscored for nDCG because the highest grade is 0: `regency_london_romance`.
 
 Each interval is the paired bootstrap of the per-query ndcg@10 difference against `bm25`.
 
@@ -155,13 +156,15 @@ Install the full exploratory-notebook stack with `pip install -r requirements.tx
 
 ## Evaluation boundaries
 
-- v2 labels are binary. An LLM judge applied the rubric in
-  [`docs/eval_v2_rubric.md`](docs/eval_v2_rubric.md) to the blinded card only.
-  The judge string in the metrics JSON names that setup.
+- v2 labels are grades from 0 to 3, defined in
+  [`docs/eval_v2_rubric.md`](docs/eval_v2_rubric.md). An LLM judge applied that
+  rubric to the blinded card only. The judge string in the metrics JSON names
+  that setup. nDCG uses gain `2^grade - 1`. Recall and MRR use grades 2 and 3.
 - Test queries were written by browsing the catalog, before pooling. Dev queries
   are the earlier query texts with new labels. Both were written for this project.
-- Means skip queries whose relevant set is empty. The metrics JSON records both
-  counts. Intervals are paired bootstrap differences against BM25 on the test split.
+- nDCG means skip queries whose highest grade is 0. Recall and MRR means skip
+  queries with no grade of 2 or 3. The metrics JSON records both counts.
+  Intervals are paired bootstrap differences against BM25 on the test split.
 - The human spot-check is pending until `data/eval_v2/spotcheck_human.json` exists.
   The sample does not include the model label.
 - Settings listed as tuned in `configs/eval_v2.yaml` were frozen from the earlier

@@ -4,7 +4,12 @@ from __future__ import annotations
 
 import math
 
-from retrieval.significance import cohens_kappa, paired_bootstrap_ci, two_sided_sign_test
+from retrieval.significance import (
+    cohens_kappa,
+    paired_bootstrap_ci,
+    quadratic_weighted_kappa,
+    two_sided_sign_test,
+)
 
 
 def test_sign_test_known_binomial_tail():
@@ -51,6 +56,17 @@ def test_bootstrap_seed_is_stable_and_interval_brackets_the_mean():
     assert first["ci_low"] <= first["mean_difference"] <= first["ci_high"]
     other = paired_bootstrap_ci(system, baseline, n_resamples=1000, seed=8, level=0.95)
     assert other["ci_low"] != first["ci_low"] or other["ci_high"] != first["ci_high"]
+
+
+def test_quadratic_weighted_kappa_perfect_and_one_step():
+    perfect = quadratic_weighted_kappa([0, 3], [0, 3])
+    assert perfect["agreement"] == 1.0
+    assert perfect["kappa"] == 1.0
+    # Weights (i-j)^2/9. Observed mass on (0,1) and (3,2).
+    # Expected weighted disagreement is 5/9, observed is 2/9, kappa = 1 - 2/5.
+    shifted = quadratic_weighted_kappa([0, 3], [1, 2])
+    assert shifted["agreement"] == 0.0
+    assert abs(shifted["kappa"] - 0.6) < 1e-12
 
 
 def test_cohens_kappa_perfect_and_chance():

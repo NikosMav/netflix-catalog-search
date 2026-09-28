@@ -59,7 +59,8 @@ def draw_sample(judgments: dict, fraction: float, minimum: int, seed: int) -> li
         cards = {c["show_id"]: c for c in blinded["candidates"]}
         for judgment in item["judgments"]:
             card = cards[judgment["show_id"]]
-            groups[1 if judgment["relevant"] else 0].append(
+            grade = int(judgment["grade"]) if "grade" in judgment else (1 if judgment["relevant"] else 0)
+            groups[1 if grade >= 2 else 0].append(
                 {
                     "sample_id": sample_id(item["split"], item["query_id"], judgment["show_id"]),
                     "split": item["split"],
@@ -117,14 +118,17 @@ def _load_human() -> dict:
     return json.loads(HUMAN_PATH.read_text(encoding="utf-8"))
 
 
-def label_pair(sample_id_value: str, relevant: bool) -> None:
+def label_pair(sample_id_value: str, grade: int) -> None:
+    grade = int(grade)
+    if grade not in (0, 1, 2, 3):
+        raise SystemExit("grade must be 0, 1, 2, or 3")
     sample = json.loads(SAMPLE_PATH.read_text(encoding="utf-8"))
     known = {pair["sample_id"] for pair in sample["pairs"]}
     if sample_id_value not in known:
         raise SystemExit(f"unknown sample_id {sample_id_value}")
     human = _load_human()
     labels = [row for row in human.get("labels", []) if row["sample_id"] != sample_id_value]
-    labels.append({"sample_id": sample_id_value, "relevant": bool(relevant)})
+    labels.append({"sample_id": sample_id_value, "grade": grade})
     labels.sort(key=lambda row: row["sample_id"])
     HUMAN_PATH.write_text(
         json.dumps({"judge": "human", "labels": labels}, indent=2) + "\n",
@@ -138,11 +142,9 @@ def main() -> None:
     sub.add_parser("draw", help="Write the seeded sample. Does not write human labels.")
     show = sub.add_parser("show", help="Print one unlabeled card")
     show.add_argument("--index", type=int, default=0)
-    mark = sub.add_parser("label", help="Record one human label")
+    mark = sub.add_parser("label", help="Record one human grade from 0 to 3")
     mark.add_argument("sample_id")
-    group = mark.add_mutually_exclusive_group(required=True)
-    group.add_argument("--relevant", action="store_true")
-    group.add_argument("--not-relevant", action="store_true")
+    mark.add_argument("--grade", type=int, required=True, choices=(0, 1, 2, 3))
     args = parser.parse_args()
 
     if args.command == "draw":
@@ -169,8 +171,8 @@ def main() -> None:
         print(card["description"])
         print("spot-check pending")
         return
-    label_pair(args.sample_id, relevant=args.relevant)
-    print(f"Recorded {args.sample_id}")
+    label_pair(args.sample_id, args.grade)
+    print(f"Recorded {args.sample_id} grade {args.grade}")
 
 
 if __name__ == "__main__":
