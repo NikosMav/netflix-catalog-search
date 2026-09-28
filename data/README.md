@@ -45,3 +45,10 @@ Optional plot/premise enrichment from **English Wikipedia** (MediaWiki API). Eac
 - **Regenerate:** `python scripts/enrich_wikipedia_plots.py` (polite User-Agent, rate limit, `.cache/wikipedia/`).
 
 Coverage summary (regenerated with the JSONL): [`wikipedia_plots_coverage.json`](wikipedia_plots_coverage.json).
+
+## Attribution note
+
+Wikipedia plot/premise excerpts shipped in `data/wikipedia_plots.jsonl` are
+**not** covered by the MIT license above. They remain available under
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); see
+`data/WIKIPEDIA_ATTRIBUTION.md`.

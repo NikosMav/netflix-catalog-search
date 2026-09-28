@@ -149,6 +149,6 @@ Full side-by-side dumps: [`results/qualitative_examples.json`](results/qualitati
 - **Hybrid is RRF, not learned fusion.** Rerank is greedy over a fixed top-50 pool.
 ## License
 
-MIT — see [LICENSE.md](LICENSE.md). Netflix catalog © Netflix (public dump). Labels are original to this repo.
+MIT — see [LICENSE](LICENSE). Netflix catalog © Netflix (public dump). Labels are original to this repo.
 Wikipedia plot excerpts in `data/wikipedia_plots.jsonl` are **CC BY-SA 4.0** — see
 [`data/WIKIPEDIA_ATTRIBUTION.md`](data/WIKIPEDIA_ATTRIBUTION.md).
