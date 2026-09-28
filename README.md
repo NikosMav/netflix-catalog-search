@@ -8,6 +8,8 @@ This is a catalog-search project, not a personalized recommender: it uses title,
 description, genre, cast, director, and country metadata (plus an optional
 Wikipedia plot ablation), but no viewing history or collaborative-filtering signals.
 
+How the work was done is in [`docs/HOW_THIS_WAS_BUILT.md`](docs/HOW_THIS_WAS_BUILT.md).
+
 ## What this project demonstrates
 
 - Lexical, semantic, hybrid, and two-stage retrieval in one package
@@ -126,6 +128,7 @@ Install the full exploratory-notebook stack with `pip install -r requirements.tx
 | `data/wikipedia_plots.jsonl` | Wikipedia plot enrichment (CC BY-SA) |
 | `results/` | Metrics and qualitative comparisons |
 | `RETRIEVAL.md` | Detailed retrieval case study |
+| `docs/HOW_THIS_WAS_BUILT.md` | How the catalog-search work was implemented |
 | `netflix_data_analysis.ipynb` | Original EDA and sparse-retrieval chapter |
 | `netflix_dense_retrieval.ipynb` | Short package walkthrough |
 
@@ -143,7 +146,8 @@ The catalog is the public Netflix Movies and TV Shows dataset distributed by
 by [TidyTuesday](https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-04-20).
 Provenance and IMDb-join caveats are documented in [`data/README.md`](data/README.md).
 
-Code is released under the [MIT License](LICENSE.md). Netflix catalog content remains
+Code is released under the [MIT License](LICENSE). Netflix catalog content remains
 the property of Netflix; IMDb-derived data is subject to IMDb's non-commercial terms.
 Wikipedia plot text in [`data/wikipedia_plots.jsonl`](data/wikipedia_plots.jsonl) is
 [CC BY-SA 4.0](data/WIKIPEDIA_ATTRIBUTION.md).
+The CC BY-SA attribution note for those excerpts is in [`data/README.md`](data/README.md).
