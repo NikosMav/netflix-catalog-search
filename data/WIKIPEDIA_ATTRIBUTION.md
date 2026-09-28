@@ -9,7 +9,7 @@ Wikipedia text is available under the
 [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 
 That is a **different** license from this repository’s MIT code license
-([`LICENSE.md`](../LICENSE.md)). Reuse or redistribution of the plot text must
+([`LICENSE`](../LICENSE)). Reuse or redistribution of the plot text must
 comply with CC BY-SA (attribution + share-alike).
 
 ## Attribution
