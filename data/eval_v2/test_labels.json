@@ -1,0 +1,268 @@
+{
+  "version": 2,
+  "split": "test",
+  "judge": "LLM judge (grok-4.7 via Cursor cloud agent), blinded to system and rank",
+  "description": "Binary relevance labels from the blinded eval v2 pool. Judged from the candidate card only.",
+  "queries": [
+    {
+      "id": "tech_anthology",
+      "query": "sci-fi anthology series about technology going wrong",
+      "relevant_show_ids": [
+        "s957"
+      ]
+    },
+    {
+      "id": "adult_cartoon_hasbeen",
+      "query": "adult cartoon about a washed-up sitcom star",
+      "relevant_show_ids": [
+        "s1026"
+      ]
+    },
+    {
+      "id": "hidden_camera_horror",
+      "query": "horror movie about hidden cameras in a rental house",
+      "relevant_show_ids": [
+        "s70",
+        "s5065",
+        "s63"
+      ]
+    },
+    {
+      "id": "makeover_reality",
+      "query": "makeover reality show that restyles someone's life",
+      "relevant_show_ids": [
+        "s219",
+        "s2194",
+        "s1108",
+        "s453",
+        "s5038"
+      ]
+    },
+    {
+      "id": "cat_transformation_anime",
+      "query": "anime movie about a girl who turns into a cat",
+      "relevant_show_ids": [
+        "s254"
+      ]
+    },
+    {
+      "id": "dystopian_therapy_film",
+      "query": "dystopian film about a violent young man forced into behavioral therapy",
+      "relevant_show_ids": [
+        "s166"
+      ]
+    },
+    {
+      "id": "divorce_drama",
+      "query": "drama about a marriage falling apart",
+      "relevant_show_ids": [
+        "s5179",
+        "s7569",
+        "s6970",
+        "s181",
+        "s3950",
+        "s1931",
+        "s7095",
+        "s6723",
+        "s5969",
+        "s6625",
+        "s6900",
+        "s2429"
+      ]
+    },
+    {
+      "id": "bully_redemption_anime",
+      "query": "anime about a former bully making amends to a deaf classmate",
+      "relevant_show_ids": [
+        "s229"
+      ]
+    },
+    {
+      "id": "gymnastics_abuse_doc",
+      "query": "documentary about gymnasts abused by a team doctor",
+      "relevant_show_ids": [
+        "s612"
+      ]
+    },
+    {
+      "id": "trans_teen_drama",
+      "query": "drama about a teenager transitioning and their family",
+      "relevant_show_ids": [
+        "s99"
+      ]
+    },
+    {
+      "id": "wrongful_conviction_series",
+      "query": "series about teenagers falsely accused of an attack in Central Park",
+      "relevant_show_ids": [
+        "s7585"
+      ]
+    },
+    {
+      "id": "doping_scandal_doc",
+      "query": "documentary about a sports doping conspiracy",
+      "relevant_show_ids": [
+        "s2933",
+        "s5445"
+      ]
+    },
+    {
+      "id": "adam_sandler_comedy",
+      "query": "Adam Sandler comedy movie",
+      "relevant_show_ids": [
+        "s1417",
+        "s4290",
+        "s4251",
+        "s902",
+        "s523",
+        "s803",
+        "s6308",
+        "s122",
+        "s2856",
+        "s6991",
+        "s7729",
+        "s5376",
+        "s2830",
+        "s6820",
+        "s3667",
+        "s6663",
+        "s6996"
+      ]
+    },
+    {
+      "id": "john_mulaney_standup",
+      "query": "John Mulaney stand-up comedy special",
+      "relevant_show_ids": [
+        "s3210",
+        "s3211",
+        "s3209"
+      ]
+    },
+    {
+      "id": "shah_rukh_romance",
+      "query": "Shah Rukh Khan romantic Bollywood movie",
+      "relevant_show_ids": [
+        "s1765",
+        "s4739",
+        "s3281",
+        "s3461",
+        "s4846",
+        "s1761",
+        "s1258",
+        "s3282",
+        "s3095"
+      ]
+    },
+    {
+      "id": "scorsese_deniro_crime",
+      "query": "Martin Scorsese crime film with Robert De Niro",
+      "relevant_show_ids": [
+        "s5995",
+        "s4009",
+        "s6508",
+        "s2494"
+      ]
+    },
+    {
+      "id": "jerry_seinfeld_standup",
+      "query": "Jerry Seinfeld stand-up comedy special",
+      "relevant_show_ids": [
+        "s3157",
+        "s3155",
+        "s3154"
+      ]
+    },
+    {
+      "id": "marie_kondo_tidying",
+      "query": "Marie Kondo home organization show",
+      "relevant_show_ids": [
+        "s7075"
+      ]
+    },
+    {
+      "id": "birmingham_gangsters",
+      "query": "British gangster series set after the First World War",
+      "relevant_show_ids": [
+        "s4807"
+      ]
+    },
+    {
+      "id": "queen_elizabeth_drama",
+      "query": "drama series about Queen Elizabeth II",
+      "relevant_show_ids": [
+        "s6255"
+      ]
+    },
+    {
+      "id": "mumbai_crime_series",
+      "query": "Indian crime series set in Mumbai",
+      "relevant_show_ids": [
+        "s4924",
+        "s5332",
+        "s5552",
+        "s3361"
+      ]
+    },
+    {
+      "id": "mexican_cartel_1980s",
+      "query": "series about Mexican drug cartels in the 1980s",
+      "relevant_show_ids": [
+        "s4403"
+      ]
+    },
+    {
+      "id": "lagos_trafficking_drama",
+      "query": "Nigerian drama about a journalist exposing trafficking in Lagos",
+      "relevant_show_ids": [
+        "s44"
+      ]
+    },
+    {
+      "id": "southern_classic_drama",
+      "query": "1950s classic drama about a Southern family and a dying patriarch",
+      "relevant_show_ids": [
+        "s1242"
+      ]
+    },
+    {
+      "id": "office_mockumentary",
+      "query": "mockumentary sitcom about office workers at a paper company",
+      "relevant_show_ids": [
+        "s6719"
+      ]
+    },
+    {
+      "id": "karate_sequel_series",
+      "query": "series about a karate rivalry decades after a teen tournament",
+      "relevant_show_ids": [
+        "s1441"
+      ]
+    },
+    {
+      "id": "jordan_bulls_docuseries",
+      "query": "documentary about Michael Jordan and the Chicago Bulls",
+      "relevant_show_ids": [
+        "s6555"
+      ]
+    },
+    {
+      "id": "regency_london_romance",
+      "query": "Regency-era romantic series about a London family",
+      "relevant_show_ids": []
+    },
+    {
+      "id": "korea_border_romance",
+      "query": "South Korean romance about a woman stranded in North Korea",
+      "relevant_show_ids": [
+        "s1519"
+      ]
+    },
+    {
+      "id": "delhi_police_investigation",
+      "query": "Indian police series about investigating a gang rape in Delhi",
+      "relevant_show_ids": [
+        "s1692"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "version": 2,
+  "split": "dev",
+  "judge": "LLM judge (grok-4.7 via Cursor cloud agent), blinded to system and rank",
+  "description": "Binary relevance labels from the blinded eval v2 pool. Judged from the candidate card only.",
+  "queries": [
+    {
+      "id": "vietnam_war",
+      "query": "war between vietnam and usa",
+      "relevant_show_ids": [
+        "s2590",
+        "s4880",
+        "s6981"
+      ]
+    },
+    {
+      "id": "mickey_mouse",
+      "query": "Mickey Mouse",
+      "relevant_show_ids": [
+        "s7471"
+      ]
+    },
+    {
+      "id": "semantic_cooking_show",
+      "query": "feel-good cooking competition show",
+      "relevant_show_ids": [
+        "s6129",
+        "s6419",
+        "s4392",
+        "s6077",
+        "s1523",
+        "s6416",
+        "s1497",
+        "s6213",
+        "s4389",
+        "s4388"
+      ]
+    },
+    {
+      "id": "semantic_scandi_crime",
+      "query": "dark crime thriller set in Scandinavia",
+      "relevant_show_ids": []
+    },
+    {
+      "id": "chess_drama",
+      "query": "drama about a chess prodigy",
+      "relevant_show_ids": [
+        "s6797",
+        "s5450"
+      ]
+    },
+    {
+      "id": "zombie_apocalypse",
+      "query": "zombie apocalypse survival horror",
+      "relevant_show_ids": [
+        "s5107",
+        "s3420",
+        "s7779",
+        "s2705",
+        "s7756",
+        "s6819",
+        "s967",
+        "s6984",
+        "s5167"
+      ]
+    },
+    {
+      "id": "standup_kevin_hart",
+      "query": "Kevin Hart stand-up comedy special",
+      "relevant_show_ids": [
+        "s3342",
+        "s3346",
+        "s3344",
+        "s3343",
+        "s3348",
+        "s3347",
+        "s3345"
+      ]
+    },
+    {
+      "id": "dave_chappelle_comedy",
+      "query": "Dave Chappelle comedy special",
+      "relevant_show_ids": [
+        "s1631",
+        "s1630",
+        "s1632",
+        "s1685"
+      ]
+    },
+    {
+      "id": "anime_death_note",
+      "query": "Death Note anime",
+      "relevant_show_ids": []
+    },
+    {
+      "id": "naruto_anime",
+      "query": "Naruto ninja anime series",
+      "relevant_show_ids": [
+        "s4405"
+      ]
+    },
+    {
+      "id": "heist_spain",
+      "query": "Spanish bank heist series with hostages",
+      "relevant_show_ids": [
+        "s3489"
+      ]
+    },
+    {
+      "id": "oceans_heist",
+      "query": "Ocean's Eleven casino heist movie",
+      "relevant_show_ids": [
+        "s4564",
+        "s4565",
+        "s4566"
+      ]
+    },
+    {
+      "id": "space_documentary",
+      "query": "documentary about astronauts living in space",
+      "relevant_show_ids": [
+        "s257"
+      ]
+    },
+    {
+      "id": "boxing_biopic",
+      "query": "boxing biopic about a fighter",
+      "relevant_show_ids": [
+        "s4221",
+        "s5064",
+        "s6173",
+        "s3370",
+        "s6143"
+      ]
+    },
+    {
+      "id": "ww2_holocaust_docs",
+      "query": "World War II Holocaust documentary",
+      "relevant_show_ids": [
+        "s4531",
+        "s4550",
+        "s1934",
+        "s29",
+        "s4437",
+        "s624",
+        "s6062"
+      ]
+    },
+    {
+      "id": "christmas_family_movie",
+      "query": "feel-good Christmas family movie",
+      "relevant_show_ids": [
+        "s1373",
+        "s589",
+        "s243",
+        "s2273",
+        "s286",
+        "s234",
+        "s3248",
+        "s172",
+        "s1869",
+        "s6770",
+        "s178",
+        "s5385",
+        "s4949",
+        "s6219",
+        "s6221",
+        "s5760",
+        "s6220",
+        "s3857",
+        "s1363",
+        "s5009",
+        "s160",
+        "s4975",
+        "s2840",
+        "s521",
+        "s520",
+        "s4957",
+        "s1843"
+      ]
+    },
+    {
+      "id": "nature_planet_docs",
+      "query": "nature documentary about wildlife on earth",
+      "relevant_show_ids": [
+        "s4434",
+        "s4876",
+        "s6930",
+        "s322",
+        "s2988",
+        "s1634",
+        "s4467",
+        "s290",
+        "s4697",
+        "s4429",
+        "s783",
+        "s4432",
+        "s3633",
+        "s7619",
+        "s1001"
+      ]
+    },
+    {
+      "id": "time_travel_romance",
+      "query": "time travel romantic comedy movie",
+      "relevant_show_ids": [
+        "s288",
+        "s4394",
+        "s5341",
+        "s3315",
+        "s301",
+        "s7587"
+      ]
+    },
+    {
+      "id": "rock_climbing_doc",
+      "query": "rock climbing documentary on a big wall",
+      "relevant_show_ids": [
+        "s6273"
+      ]
+    },
+    {
+      "id": "spy_thriller",
+      "query": "espionage spy thriller about undercover agents",
+      "relevant_show_ids": [
+        "s6896",
+        "s6809",
+        "s3712",
+        "s2296",
+        "s7488"
+      ]
+    },
+    {
+      "id": "preschool_kids_show",
+      "query": "preschool cartoon for toddlers",
+      "relevant_show_ids": [
+        "s4888",
+        "s7102",
+        "s3716"
+      ]
+    },
+    {
+      "id": "formula1_docuseries",
+      "query": "Formula 1 racing documentary series",
+      "relevant_show_ids": [
+        "s2247"
+      ]
+    },
+    {
+      "id": "exact_title_stranger_things",
+      "query": "Stranger Things",
+      "relevant_show_ids": [
+        "s5837"
+      ]
+    },
+    {
+      "id": "true_crime_serial_killer",
+      "query": "true crime documentary about a serial killer",
+      "relevant_show_ids": [
+        "s6825",
+        "s3030",
+        "s5500",
+        "s3016",
+        "s4469",
+        "s1492",
+        "s2634",
+        "s6238"
+      ]
+    },
+    {
+      "id": "social_media_doc",
+      "query": "documentary about social media harming society",
+      "relevant_show_ids": [
+        "s6421",
+        "s6884"
+      ]
+    },
+    {
+      "id": "dark_german_series",
+      "query": "German time-travel mystery series Dark",
+      "relevant_show_ids": []
+    },
+    {
+      "id": "breaking_bad_universe",
+      "query": "Breaking Bad and El Camino",
+      "relevant_show_ids": [
+        "s1090",
+        "s1946"
+      ]
+    },
+    {
+      "id": "witcher_fantasy",
+      "query": "The Witcher fantasy series with Geralt",
+      "relevant_show_ids": [
+        "s7007"
+      ]
+    }
+  ]
+}
