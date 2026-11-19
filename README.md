@@ -13,7 +13,7 @@ Hybrid + rerank beat BM25 on **27 of 30 queries**. The mean nDCG@10 gain was **+
 
 An LLM graded shuffled catalog cards with system names and ranks hidden. The intervals resample queries and treat their grades as fixed.
 
-Blinded human review of the LLM grades: **0 of 303 pairs graded** (spot-check pending). The sample was drawn from 3,032 pooled query–title pairs.
+A second LLM reviewed **303 of 3,032 pairs**. The judges agreed on the exact grade for 83.2% and on relevance (grade 2 or 3) for 98.0%. Substituting the second grades on the sampled test cards gave a reranking gain of **+0.2587** versus BM25 (paired 95% interval +0.1670 to +0.3559).
 <!-- EVAL_V2_NOTES_END -->
 
 <!-- METRICS_TABLE_BEGIN -->
@@ -49,11 +49,12 @@ The Streamlit app accepts your own queries. Open **Why this result?** to inspect
 python -m pytest
 python scripts/build_explorer.py
 python scripts/eval_v2_spotcheck.py draw
+python -m scripts.score_second_judge
 ```
 
 The explorer builds from committed rankings with Python’s standard library. Open the printed HTML file to use it offline. The sample command verifies the original blinded draw. A fresh model run with `python scripts/run_eval_v2.py` writes its rankings, metrics and counts of unjudged results to `.cache/eval_v2/`.
 
-To grade the sample, choose **Spot-check** in Streamlit. Each click saves a grade locally and the next visit opens the first unfinished card. After the last card, select **Calculate agreement** to inspect disagreements. The CLI equivalent is `python scripts/eval_v2_agreement.py`. Run `python scripts/sync_metrics_docs.py` to refresh the tables. [Grading rubric](docs/eval_v2_rubric.md) · [Human review protocol](RETRIEVAL.md#labels-pool-and-spot-check)
+The second-judge command recomputes agreement, the grade confusion matrix, per-system comparisons and the held-out sensitivity analysis. Each reviewed pair includes a written reason for its grade. [Audit findings](RETRIEVAL.md#second-judge-findings) · [303 grades and reasons](data/eval_v2/spotcheck_second_judge.json) · [Machine-readable results](results/eval_v2/second_judge_audit.json)
 
 The [original analysis notebook](netflix_data_analysis.ipynb) covers exploratory analysis and sparse search. The [retrieval walkthrough](netflix_dense_retrieval.ipynb) exercises the package.
 

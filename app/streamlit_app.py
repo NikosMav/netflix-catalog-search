@@ -438,16 +438,27 @@ def main() -> None:
     )
     st.title("Netflix catalog search")
     st.caption("Offline text search over the public Netflix titles catalog.")
-    pages = ["Search", "Evaluation", "Spot-check"]
+    pages = ["Search", "Evaluation", "Judge audit"]
     first = "Spot-check" if st.query_params.get("page") == "review" else "Search"
+    if first == "Spot-check":
+        pages.append(first)
     page = st.sidebar.radio("Page", pages, index=pages.index(first))
     if page == "Search":
         render_search()
     elif page == "Evaluation":
         render_eval()
+    elif page == "Judge audit":
+        report = json.loads((ROOT / "results/eval_v2/second_judge_audit.json").read_text(encoding="utf-8"))
+        stats = report["agreement"]
+        st.subheader("Second-judge audit")
+        st.write(f"Two LLM reviewers graded the same {stats['n']} sampled query–title pairs.")
+        st.metric("Exact grade agreement", f"{stats['raw_agreement']:.1%}")
+        st.metric("Agreement on relevance (grade 2 or 3)", f"{stats['binary_agreement']:.1%}")
+        st.subheader("Where the judges differed")
+        st.dataframe(report["disagreements"], hide_index=True)
     else:
         render_spotcheck()
-    if page != "Spot-check":
+    if page in ("Search", "Evaluation"):
         render_how()
 
 

@@ -33,25 +33,13 @@ def test_test_table_copies_json_intervals():
     assert "baseline" in table
 
 
-def test_notes_say_spotcheck_pending_until_scored():
+def test_notes_report_second_judge_sensitivity():
     sync = _sync()
-    payload = json.loads((ROOT / "results" / "eval_v2" / "metrics.json").read_text(encoding="utf-8"))
-    sample = json.loads((ROOT / "data" / "eval_v2" / "spotcheck_sample.json").read_text(encoding="utf-8"))
-    agreement = {"status": "spot-check pending", "n": 0}
-    notes = sync.test_notes(payload, sample, agreement)
-    assert "LLM" in notes
-    assert "spot-check pending" in notes
-    assert sync.num(sample["n_sample"]) in notes
-    scored = {
-        "status": "scored",
-        "n": 2,
-        "raw_agreement": 1.0,
-        "quadratic_weighted_kappa": 1.0,
-        "binary_kappa": 1.0,
-    }
-    scored_notes = sync.test_notes(payload, sample, scored)
-    assert "quadratic-weighted kappa 1.0" in scored_notes
-    assert "binary kappa 1.0" in scored_notes
+    read = lambda path: json.loads(path.read_text(encoding="utf-8"))
+    notes = sync.test_notes(read(sync.V2_PATH), read(sync.SAMPLE_PATH), read(sync.AGREEMENT_PATH))
+    assert "A second LLM reviewed **303 of 3,032 pairs**" in notes
+    assert "98.0%" in notes
+    assert "spot-check pending" not in notes
 
 
 def test_label_overrides_are_the_only_disclosed_edits_and_match_judgments():

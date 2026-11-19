@@ -15,6 +15,8 @@ def load(path):
 
 def explorer_data():
     metrics = load("results/eval_v2/metrics.json")["test"]
+    audit = load("results/eval_v2/second_judge_audit.json")
+    second = {r["sample_id"]: r for r in load("data/eval_v2/spotcheck_second_judge.json")["labels"]}
     judgments = {q["query_id"]: q for q in load("data/eval_v2/judgments.json")["queries"]
                  if q["split"] == "test"}
     scores = {method: {q["query_id"]: q["ndcg@10"] for q in rows}
@@ -36,13 +38,18 @@ def explorer_data():
                     "title", "description", "type", "release_year", "listed_in", "cast", "director"
                 )}
                 cards[sid].update(grade=grades[sid]["grade"], rationale=grades[sid]["rationale"])
+                reviewed = second.get(f"test:{key}:{sid}")
+                if reviewed:
+                    cards[sid]["second_review"] = {"grade": reviewed["grade"], "rationale": reviewed["rationale"]}
         queries[key] = {
             "query": judged["query"], "rankings": record["rankings"], "cards": cards,
             "scores": {method: values[key] for method, values in scores.items()},
         }
     return {"queries": queries, "systems": metrics["systems"],
             "comparisons": metrics["comparisons_vs_bm25"],
-            "review": load("results/eval_v2/spotcheck_agreement.json")["status"]}
+            "review": {k: audit["agreement"][k] for k in ("n", "raw_agreement", "binary_agreement")},
+            "sensitivity": next(c for c in audit["test_sensitivity"]["comparisons"]
+                                if c["method"] == "hybrid+rerank" and c["baseline"] == "bm25")}
 
 
 def main():

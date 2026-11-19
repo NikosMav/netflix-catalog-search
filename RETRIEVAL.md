@@ -161,23 +161,35 @@ Test labels: 86 pairs graded 2 or 3 out of 1756 judged pairs (29 of 30 queries h
 
 v2-relevant dev titles absent from that query's v1 relevant set: 87.
 
-Blinded human review of the LLM grades: **0 of 303 pairs graded** (spot-check pending). The sample was drawn from 3,032 pooled query–title pairs.
+A second LLM reviewed **303 of 3,032 pairs**. The judges agreed on the exact grade for 83.2% and on relevance (grade 2 or 3) for 98.0%. Substituting the second grades on the sampled test cards gave a reranking gain of **+0.2587** versus BM25 (paired 95% interval +0.1670 to +0.3559).
 
 Grade counts: 0=2096, 1=711, 2=40, 3=185. nDCG gain is 2^grade - 1. Recall and MRR count a title when its grade is at least 2.
 <!-- EVAL_V2_STATS_END -->
 
-Nikos can label the sample without seeing the model judgment. The CLI and the Streamlit spot-check page both write `data/eval_v2/spotcheck_human.json`. Neither shows the model label.
+### Second-judge findings
 
-```bash
-python scripts/eval_v2_spotcheck.py show
-python scripts/eval_v2_spotcheck.py label <sample_id> --grade 0
-python scripts/eval_v2_spotcheck.py label <sample_id> --grade 3
-python scripts/eval_v2_agreement.py
-```
+A second LLM scored all 303 original sample cards using the same 0–3 rubric, before comparing grades. The sample contains 116 development and 187 test pairs. Sampling used the original binary strata. The reviewer saw each query and catalog evidence with system, rank and original grade hidden from the review cards. The reviewer had previously seen project results and selected examples. Both judgments rely on language models and the same catalog evidence.
 
-The sampling strata come from the original binary judgments. The graded amendment kept the same 303 cards. The stored positive stratum and seed reproduce every ID in its original order.
+The judges agreed exactly on 252 of 303 cards (83.2%, quadratic-weighted kappa 0.867). At the operational relevance threshold of grade 2 they agreed on 297 (98.0%, binary kappa 0.864). Only 21 sampled cards met this threshold for the original judge; the second judge retained all 21 and added six. Every disagreement was one grade apart. Of the 51 disagreements, 44 were between 0 and 1, including 42 where the second judge gave partial credit. For example, the second judge gave another comic’s stand-up special a 1 for a John Mulaney query because it matched the format. Both judges treated that special as irrelevant for recall.
 
-Each grade is saved locally as it is entered. Running the agreement script during review reports the count completed. Once all 303 cards have grades, it reports raw exact agreement, quadratic-weighted kappa, binary kappa at grade 2, and a list of disagreements to inspect. A kappa is undefined when its denominator is zero. Per-system rows cover the sampled cards in each system’s top ten and can overlap. The human-only nDCG diagnostic combines both splits and drops ungraded titles from the saved rankings. Its scale differs from the full-pool test metric.
+| Original grade ↓ / second grade → | 0 | 1 | 2 | 3 |
+| --- | ---: | ---: | ---: | ---: |
+| 0 | 168 | 42 | 0 | 0 |
+| 1 | 2 | 64 | 6 | 0 |
+| 2 | 0 | 0 | 4 | 0 |
+| 3 | 0 | 0 | 1 | 16 |
+
+The table below substitutes second grades for the 187 sampled held-out pairs. The remaining 1,569 held-out pairs keep their original grades. All six frozen rankings are scored again against each query’s full judged pool. Intervals resample the 30 queries in pairs and condition on these labels. The direct comparison with the hybrid first stage is exploratory.
+
+| Difference in mean nDCG@10 | Original grades | Sample substituted | Paired 95% interval after substitution | Wins / losses / ties |
+| --- | ---: | ---: | --- | --- |
+| Hybrid fusion minus BM25 | +0.0763 | +0.0645 | −0.0216 to +0.1517 | 17 / 10 / 3 |
+| Hybrid + rerank minus BM25 | +0.2655 | +0.2587 | +0.1670 to +0.3559 | 27 / 3 / 0 |
+| Hybrid + rerank minus its own first stage | +0.1892 | +0.1942 | +0.1109 to +0.2845 | 26 / 4 / 0 |
+
+People-focused queries showed the largest descriptive mean gain over BM25 after substitution (+0.420, six wins in six queries). The other four intent groups each contain only six queries as well. These figures describe where to look in the explorer; the sample is too small to establish that one intent benefits more in general. The three queries where BM25 won concerned the Central Park case, the Lagos trafficking drama and the karate rivalry. In each original ranking BM25 already put the intended title first.
+
+Recompute from the repository root with `python -m scripts.score_second_judge`. The report includes split-specific and per-system agreement, every disagreement, all six metric rows, and paired test results. Per-system sample counts overlap because methods can retrieve the same title. [Reviewed cards and reasons](data/eval_v2/spotcheck_second_judge.json) · [Audit results](results/eval_v2/second_judge_audit.json)
 
 ### Limits
 

@@ -6,7 +6,7 @@ Every evaluation number in those blocks is copied from:
 - results/eval_v2/metrics.json
 - results/eval_metrics.json (v1 legacy table only)
 - data/eval_v2/spotcheck_sample.json
-- results/eval_v2/spotcheck_agreement.json
+- results/eval_v2/second_judge_audit.json
 """
 
 from __future__ import annotations
@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 V2_PATH = ROOT / "results" / "eval_v2" / "metrics.json"
 V1_PATH = ROOT / "results" / "eval_metrics.json"
 SAMPLE_PATH = ROOT / "data" / "eval_v2" / "spotcheck_sample.json"
-AGREEMENT_PATH = ROOT / "results" / "eval_v2" / "spotcheck_agreement.json"
+AGREEMENT_PATH = ROOT / "results" / "eval_v2" / "second_judge_audit.json"
 OVERRIDES_PATH = ROOT / "data" / "eval_v2" / "label_overrides.json"
 
 METRIC_COLS = ["recall@5", "recall@10", "ndcg@10", "mrr"]
@@ -136,21 +136,17 @@ def ablation_block(payload: dict) -> str:
 
 
 def _spotcheck_sentence(sample: dict, agreement: dict) -> str:
-    status = agreement.get("status", sample.get("status", ""))
-    base = (
-        f"Blinded human review of the LLM grades: **{agreement.get('n', 0)} of "
-        f"{num(sample['n_sample'])} pairs graded** ({status}). "
-        f"The sample was drawn from {sample['n_judged_pairs']:,} pooled query–title pairs."
+    stats = agreement["agreement"]
+    paired = next(c for c in agreement["test_sensitivity"]["comparisons"]
+                  if c["method"] == "hybrid+rerank" and c["baseline"] == "bm25")
+    return (
+        f"A second LLM reviewed **{stats['n']} of {sample['n_judged_pairs']:,} pairs**. "
+        f"The judges agreed on the exact grade for {stats['raw_agreement']:.1%} "
+        f"and on relevance (grade 2 or 3) for {stats['binary_agreement']:.1%}. "
+        f"Substituting the second grades on the sampled test cards gave a reranking gain "
+        f"of **{paired['mean_difference']:+.4f}** versus BM25 "
+        f"(paired 95% interval {paired['ci_low']:+.4f} to {paired['ci_high']:+.4f})."
     )
-    if status == "scored":
-        return (
-            base
-            + f" Raw agreement {num(agreement['raw_agreement'])}, "
-            + f"quadratic-weighted kappa {num(agreement['quadratic_weighted_kappa'])}, "
-            + f"binary kappa {num(agreement['binary_kappa'])}, "
-            + f"n={num(agreement['n'])}."
-        )
-    return base
 
 
 def stats_block(payload: dict, sample: dict, agreement: dict) -> str:

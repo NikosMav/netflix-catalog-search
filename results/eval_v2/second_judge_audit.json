@@ -1,0 +1,1473 @@
+{
+  "judge": "Second LLM reviewer (OpenAI GPT-6 family)",
+  "status": "second-judge audit complete",
+  "compared_to": "LLM judge (grok-4.7 via Cursor cloud agent), blinded to system and rank",
+  "n_pooled": 3032,
+  "agreement": {
+    "status": "scored",
+    "n": 303,
+    "raw_agreement": 0.8316831683168316,
+    "quadratic_weighted_kappa": 0.8667764434060676,
+    "binary_agreement": 0.9801980198019802,
+    "binary_kappa": 0.8644295302013423,
+    "by_system": [
+      {
+        "method": "boolean",
+        "n": 64,
+        "raw_agreement": 0.796875,
+        "quadratic_weighted_kappa": 0.8598382749326146,
+        "binary_agreement": 0.96875,
+        "binary_kappa": 0.84
+      },
+      {
+        "method": "tf-idf",
+        "n": 50,
+        "raw_agreement": 0.78,
+        "quadratic_weighted_kappa": 0.8822269807280514,
+        "binary_agreement": 0.96,
+        "binary_kappa": 0.8516320474777447
+      },
+      {
+        "method": "bm25",
+        "n": 56,
+        "raw_agreement": 0.7857142857142857,
+        "quadratic_weighted_kappa": 0.8481012658227848,
+        "binary_agreement": 0.9642857142857143,
+        "binary_kappa": 0.8372093023255814
+      },
+      {
+        "method": "dense(title+desc)",
+        "n": 56,
+        "raw_agreement": 0.7857142857142857,
+        "quadratic_weighted_kappa": 0.8850496065685939,
+        "binary_agreement": 0.9464285714285714,
+        "binary_kappa": 0.8108108108108107
+      },
+      {
+        "method": "hybrid(bm25+dense,meta)",
+        "n": 49,
+        "raw_agreement": 0.8163265306122449,
+        "quadratic_weighted_kappa": 0.9147166892283891,
+        "binary_agreement": 0.9387755102040817,
+        "binary_kappa": 0.8396946564885497
+      },
+      {
+        "method": "hybrid+rerank",
+        "n": 60,
+        "raw_agreement": 0.8,
+        "quadratic_weighted_kappa": 0.9116781157998037,
+        "binary_agreement": 0.9833333333333333,
+        "binary_kappa": 0.9565217391304346
+      }
+    ],
+    "sample_only_condensed_ndcg@10": [
+      {
+        "method": "boolean",
+        "n_scored": 50,
+        "ndcg@10": 0.28119343899213173
+      },
+      {
+        "method": "tf-idf",
+        "n_scored": 50,
+        "ndcg@10": 0.2896461236082017
+      },
+      {
+        "method": "bm25",
+        "n_scored": 50,
+        "ndcg@10": 0.32007501835453506
+      },
+      {
+        "method": "dense(title+desc)",
+        "n_scored": 50,
+        "ndcg@10": 0.35148113685963156
+      },
+      {
+        "method": "hybrid(bm25+dense,meta)",
+        "n_scored": 50,
+        "ndcg@10": 0.4266655605594677
+      },
+      {
+        "method": "hybrid+rerank",
+        "n_scored": 50,
+        "ndcg@10": 0.5316480252569116
+      }
+    ]
+  },
+  "by_split": {
+    "dev": {
+      "n": 116,
+      "raw_agreement": 0.8362068965517241,
+      "quadratic_weighted_kappa": 0.8906529073228815,
+      "binary_agreement": 0.9568965517241379,
+      "binary_kappa": 0.8037889039242219
+    },
+    "test": {
+      "n": 187,
+      "raw_agreement": 0.8288770053475936,
+      "quadratic_weighted_kappa": 0.8333333333333334,
+      "binary_agreement": 0.9946524064171123,
+      "binary_kappa": 0.9445597391046544
+    }
+  },
+  "matrix_original_rows_second_columns": [
+    [
+      168,
+      42,
+      0,
+      0
+    ],
+    [
+      2,
+      64,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      16
+    ]
+  ],
+  "disagreements": [
+    {
+      "sample_id": "dev:breaking_bad_universe:s1964",
+      "query": "Breaking Bad and El Camino",
+      "title": "El señor de los Cielos",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "dev:breaking_bad_universe:s5923",
+      "query": "Breaking Bad and El Camino",
+      "title": "Surviving Escobar - Alias JJ",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:birmingham_gangsters:s5125",
+      "query": "British gangster series set after the First World War",
+      "title": "Rebellion",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "dev:dave_chappelle_comedy:s1139",
+      "query": "Dave Chappelle comedy special",
+      "title": "Bumping Mics with Jeff Ross & Dave Attell",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "dev:dave_chappelle_comedy:s1635",
+      "query": "Dave Chappelle comedy special",
+      "title": "David Batra: Elefanten i rummet",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "dev:anime_death_note:s3380",
+      "query": "Death Note anime",
+      "title": "Kill la Kill",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:delhi_police_investigation:s3036",
+      "query": "Indian police series about investigating a gang rape in Delhi",
+      "title": "Intuition",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:delhi_police_investigation:s4738",
+      "query": "Indian police series about investigating a gang rape in Delhi",
+      "title": "Paharganj",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:jerry_seinfeld_standup:s3175",
+      "query": "Jerry Seinfeld stand-up comedy special",
+      "title": "Jim Jefferies: This Is Me Now",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:jerry_seinfeld_standup:s4096",
+      "query": "Jerry Seinfeld stand-up comedy special",
+      "title": "Mike Epps: Only One Mike",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:john_mulaney_standup:s3174",
+      "query": "John Mulaney stand-up comedy special",
+      "title": "Jim Jefferies: Intolerant",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:john_mulaney_standup:s4076",
+      "query": "John Mulaney stand-up comedy special",
+      "title": "Middleditch & Schwartz",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:john_mulaney_standup:s4093",
+      "query": "John Mulaney stand-up comedy special",
+      "title": "Mike Birbiglia: The New One",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:john_mulaney_standup:s6233",
+      "query": "John Mulaney stand-up comedy special",
+      "title": "The Comedy Lineup",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:john_mulaney_standup:s853",
+      "query": "John Mulaney stand-up comedy special",
+      "title": "Best of Stand-Up 2020",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "dev:standup_kevin_hart:s7139",
+      "query": "Kevin Hart stand-up comedy special",
+      "title": "Tom Segura: Completely Normal",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:scorsese_deniro_crime:s3099",
+      "query": "Martin Scorsese crime film with Robert De Niro",
+      "title": "Jack Taylor",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:scorsese_deniro_crime:s4966",
+      "query": "Martin Scorsese crime film with Robert De Niro",
+      "title": "Pretend It’s a City",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "dev:oceans_heist:s3710",
+      "query": "Ocean's Eleven casino heist movie",
+      "title": "London Heist",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "dev:oceans_heist:s6250",
+      "query": "Ocean's Eleven casino heist movie",
+      "title": "The Crew",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "dev:oceans_heist:s6668",
+      "query": "Ocean's Eleven casino heist movie",
+      "title": "The Millions",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:regency_london_romance:s1550",
+      "query": "Regency-era romantic series about a London family",
+      "title": "Cuckoo",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:regency_london_romance:s2729",
+      "query": "Regency-era romantic series about a London family",
+      "title": "High End Yaariyan",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:regency_london_romance:s295",
+      "query": "Regency-era romantic series about a London family",
+      "title": "Accidentally in Love",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:regency_london_romance:s3087",
+      "query": "Regency-era romantic series about a London family",
+      "title": "Iyore",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:regency_london_romance:s4707",
+      "query": "Regency-era romantic series about a London family",
+      "title": "Outlander",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:regency_london_romance:s5147",
+      "query": "Regency-era romantic series about a London family",
+      "title": "Reign",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "dev:witcher_fantasy:s441",
+      "query": "The Witcher fantasy series with Geralt",
+      "title": "Always a Witch",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "dev:ww2_holocaust_docs:s5100",
+      "query": "World War II Holocaust documentary",
+      "title": "Rangoon",
+      "original_grade": 1,
+      "second_grade": 0
+    },
+    {
+      "sample_id": "test:bully_redemption_anime:s3784",
+      "query": "anime about a former bully making amends to a deaf classmate",
+      "title": "Love, Chunibyo & Other Delusions!",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:cat_transformation_anime:s4600",
+      "query": "anime movie about a girl who turns into a cat",
+      "title": "Okko's Inn",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "dev:space_documentary:s6890",
+      "query": "documentary about astronauts living in space",
+      "title": "The Space Between Us",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "dev:social_media_doc:s5311",
+      "query": "documentary about social media harming society",
+      "title": "Russell Howard: Recalibrate",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:divorce_drama:s3053",
+      "query": "drama about a marriage falling apart",
+      "title": "Irada Pakka",
+      "original_grade": 1,
+      "second_grade": 2
+    },
+    {
+      "sample_id": "test:divorce_drama:s4349",
+      "query": "drama about a marriage falling apart",
+      "title": "My Pride",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:divorce_drama:s5303",
+      "query": "drama about a marriage falling apart",
+      "title": "Runaway Bride",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:dystopian_therapy_film:s2672",
+      "query": "dystopian film about a violent young man forced into behavioral therapy",
+      "title": "Headshot",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:dystopian_therapy_film:s474",
+      "query": "dystopian film about a violent young man forced into behavioral therapy",
+      "title": "American Psycho",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:dystopian_therapy_film:s4994",
+      "query": "dystopian film about a violent young man forced into behavioral therapy",
+      "title": "Psycho",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:dystopian_therapy_film:s5173",
+      "query": "dystopian film about a violent young man forced into behavioral therapy",
+      "title": "Resurface",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "dev:spy_thriller:s3712",
+      "query": "espionage spy thriller about undercover agents",
+      "title": "London Spy",
+      "original_grade": 1,
+      "second_grade": 2
+    },
+    {
+      "sample_id": "dev:christmas_family_movie:s5385",
+      "query": "feel-good Christmas family movie",
+      "title": "Santa's Apprentice",
+      "original_grade": 3,
+      "second_grade": 2
+    },
+    {
+      "sample_id": "dev:semantic_cooking_show:s6352",
+      "query": "feel-good cooking competition show",
+      "title": "The Final Table",
+      "original_grade": 1,
+      "second_grade": 2
+    },
+    {
+      "sample_id": "test:makeover_reality:s2764",
+      "query": "makeover reality show that restyles someone's life",
+      "title": "Hoarders",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "dev:preschool_kids_show:s1445",
+      "query": "preschool cartoon for toddlers",
+      "title": "Cocomelon",
+      "original_grade": 1,
+      "second_grade": 2
+    },
+    {
+      "sample_id": "dev:preschool_kids_show:s5893",
+      "query": "preschool cartoon for toddlers",
+      "title": "Super Monsters",
+      "original_grade": 1,
+      "second_grade": 2
+    },
+    {
+      "sample_id": "test:tech_anthology:s278",
+      "query": "sci-fi anthology series about technology going wrong",
+      "title": "Abby Sen",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:karate_sequel_series:s3465",
+      "query": "series about a karate rivalry decades after a teen tournament",
+      "title": "Kung Fu Hustle",
+      "original_grade": 1,
+      "second_grade": 0
+    },
+    {
+      "sample_id": "test:karate_sequel_series:s4581",
+      "query": "series about a karate rivalry decades after a teen tournament",
+      "title": "Offline - Das leben ist kein bonuslevel",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "test:wrongful_conviction_series:s4408",
+      "query": "series about teenagers falsely accused of an attack in Central Park",
+      "title": "Naruto Shippuden : Blood Prison",
+      "original_grade": 0,
+      "second_grade": 1
+    },
+    {
+      "sample_id": "dev:zombie_apocalypse:s6562",
+      "query": "zombie apocalypse survival horror",
+      "title": "The Last Kids on Earth",
+      "original_grade": 1,
+      "second_grade": 2
+    }
+  ],
+  "test_sensitivity": {
+    "systems": {
+      "boolean": {
+        "recall@5": 0.5356,
+        "recall@10": 0.5694,
+        "ndcg@10": 0.4283,
+        "mrr": 0.5299
+      },
+      "tf-idf": {
+        "recall@5": 0.595,
+        "recall@10": 0.6431,
+        "ndcg@10": 0.5044,
+        "mrr": 0.5986
+      },
+      "bm25": {
+        "recall@5": 0.6589,
+        "recall@10": 0.6931,
+        "ndcg@10": 0.5502,
+        "mrr": 0.6897
+      },
+      "dense(title+desc)": {
+        "recall@5": 0.5917,
+        "recall@10": 0.651,
+        "ndcg@10": 0.5396,
+        "mrr": 0.6003
+      },
+      "hybrid(bm25+dense,meta)": {
+        "recall@5": 0.6428,
+        "recall@10": 0.7387,
+        "ndcg@10": 0.6147,
+        "mrr": 0.6764
+      },
+      "hybrid+rerank": {
+        "recall@5": 0.8489,
+        "recall@10": 0.8994,
+        "ndcg@10": 0.8089,
+        "mrr": 0.8908
+      }
+    },
+    "comparisons": [
+      {
+        "method": "boolean",
+        "baseline": "bm25",
+        "n": 30,
+        "n_resamples": 10000,
+        "seed": 20260928,
+        "level": 0.95,
+        "mean_difference": -0.12189362231899604,
+        "ci_low": -0.2144945446565402,
+        "ci_high": -0.045281574095405876,
+        "sign_test": {
+          "n": 30,
+          "n_nonzero": 22,
+          "n_positive": 4,
+          "n_negative": 18,
+          "n_ties": 8,
+          "p_value": 0.004343509674072266
+        }
+      },
+      {
+        "method": "tf-idf",
+        "baseline": "bm25",
+        "n": 30,
+        "n_resamples": 10000,
+        "seed": 20260928,
+        "level": 0.95,
+        "mean_difference": -0.04579741773687813,
+        "ci_low": -0.12890053579668095,
+        "ci_high": 0.02373076145333335,
+        "sign_test": {
+          "n": 30,
+          "n_nonzero": 26,
+          "n_positive": 13,
+          "n_negative": 13,
+          "n_ties": 4,
+          "p_value": 1.0
+        }
+      },
+      {
+        "method": "dense(title+desc)",
+        "baseline": "bm25",
+        "n": 30,
+        "n_resamples": 10000,
+        "seed": 20260928,
+        "level": 0.95,
+        "mean_difference": -0.010549468261085913,
+        "ci_low": -0.10328244043412002,
+        "ci_high": 0.07006996409884042,
+        "sign_test": {
+          "n": 30,
+          "n_nonzero": 30,
+          "n_positive": 16,
+          "n_negative": 14,
+          "n_ties": 0,
+          "p_value": 0.855535551905632
+        }
+      },
+      {
+        "method": "hybrid(bm25+dense,meta)",
+        "baseline": "bm25",
+        "n": 30,
+        "n_resamples": 10000,
+        "seed": 20260928,
+        "level": 0.95,
+        "mean_difference": 0.06449339818273095,
+        "ci_low": -0.021552307910778296,
+        "ci_high": 0.1517479168958383,
+        "sign_test": {
+          "n": 30,
+          "n_nonzero": 27,
+          "n_positive": 17,
+          "n_negative": 10,
+          "n_ties": 3,
+          "p_value": 0.24778856337070465
+        }
+      },
+      {
+        "method": "hybrid+rerank",
+        "baseline": "bm25",
+        "n": 30,
+        "n_resamples": 10000,
+        "seed": 20260928,
+        "level": 0.95,
+        "mean_difference": 0.25872083728549994,
+        "ci_low": 0.16702342010184,
+        "ci_high": 0.3558814203829414,
+        "sign_test": {
+          "n": 30,
+          "n_nonzero": 30,
+          "n_positive": 27,
+          "n_negative": 3,
+          "n_ties": 0,
+          "p_value": 8.430331945419312e-06
+        }
+      },
+      {
+        "method": "hybrid+rerank",
+        "baseline": "hybrid(bm25+dense,meta)",
+        "n": 30,
+        "n_resamples": 10000,
+        "seed": 20260928,
+        "level": 0.95,
+        "mean_difference": 0.19422743910276896,
+        "ci_low": 0.11091462157461744,
+        "ci_high": 0.28446820568165515,
+        "sign_test": {
+          "n": 30,
+          "n_nonzero": 30,
+          "n_positive": 26,
+          "n_negative": 4,
+          "n_ties": 0,
+          "p_value": 5.947612226009369e-05
+        }
+      }
+    ],
+    "per_query": [
+      {
+        "query_id": "tech_anthology",
+        "ndcg@10": {
+          "boolean": 0.7521820956063691,
+          "tf-idf": 0.8269354982354252,
+          "bm25": 0.7945202298211212,
+          "dense(title+desc)": 0.7006033323632676,
+          "hybrid(bm25+dense,meta)": 0.31803696992098296,
+          "hybrid+rerank": 0.914112524079389
+        }
+      },
+      {
+        "query_id": "adult_cartoon_hasbeen",
+        "ndcg@10": {
+          "boolean": 0.03376291969004972,
+          "tf-idf": 0.0,
+          "bm25": 0.03376291969004972,
+          "dense(title+desc)": 0.0,
+          "hybrid(bm25+dense,meta)": 0.0,
+          "hybrid+rerank": 0.050303242452017366
+        }
+      },
+      {
+        "query_id": "hidden_camera_horror",
+        "ndcg@10": {
+          "boolean": 0.45972275846799354,
+          "tf-idf": 0.8075049290464518,
+          "bm25": 0.7829450656118846,
+          "dense(title+desc)": 0.7711112250630638,
+          "hybrid(bm25+dense,meta)": 0.8202513130877612,
+          "hybrid+rerank": 0.9561833111523137
+        }
+      },
+      {
+        "query_id": "makeover_reality",
+        "ndcg@10": {
+          "boolean": 0.0,
+          "tf-idf": 0.35509216582430103,
+          "bm25": 0.20119306708573717,
+          "dense(title+desc)": 0.2925066461607725,
+          "hybrid(bm25+dense,meta)": 0.18342561650238884,
+          "hybrid+rerank": 0.5121568393844247
+        }
+      },
+      {
+        "query_id": "cat_transformation_anime",
+        "ndcg@10": {
+          "boolean": 0.5129378427077017,
+          "tf-idf": 0.2910335052960742,
+          "bm25": 0.3761553488218919,
+          "dense(title+desc)": 0.7523106976437838,
+          "hybrid(bm25+dense,meta)": 0.7833773492368536,
+          "hybrid+rerank": 0.8574843078064098
+        }
+      },
+      {
+        "query_id": "dystopian_therapy_film",
+        "ndcg@10": {
+          "boolean": 0.0,
+          "tf-idf": 0.7346799298483937,
+          "bm25": 0.7730655689674434,
+          "dense(title+desc)": 0.5100028361187932,
+          "hybrid(bm25+dense,meta)": 0.8049593755326923,
+          "hybrid+rerank": 0.8786246728780163
+        }
+      },
+      {
+        "query_id": "divorce_drama",
+        "ndcg@10": {
+          "boolean": 0.5163496248041345,
+          "tf-idf": 0.4522624641030223,
+          "bm25": 0.5210463328312859,
+          "dense(title+desc)": 0.44948607828877546,
+          "hybrid(bm25+dense,meta)": 0.4043965060386934,
+          "hybrid+rerank": 0.6788028252081285
+        }
+      },
+      {
+        "query_id": "bully_redemption_anime",
+        "ndcg@10": {
+          "boolean": 0.7837969727692617,
+          "tf-idf": 0.8843140778859191,
+          "bm25": 0.8029857189538071,
+          "dense(title+desc)": 0.9683851228371075,
+          "hybrid(bm25+dense,meta)": 0.9714489209942117,
+          "hybrid+rerank": 0.86281723429657
+        }
+      },
+      {
+        "query_id": "gymnastics_abuse_doc",
+        "ndcg@10": {
+          "boolean": 0.7032727136036657,
+          "tf-idf": 0.22185783994374553,
+          "bm25": 0.7032727136036657,
+          "dense(title+desc)": 0.7693037103192794,
+          "hybrid(bm25+dense,meta)": 0.7032727136036657,
+          "hybrid+rerank": 0.8325627455416917
+        }
+      },
+      {
+        "query_id": "trans_teen_drama",
+        "ndcg@10": {
+          "boolean": 0.0,
+          "tf-idf": 0.0,
+          "bm25": 0.0,
+          "dense(title+desc)": 0.0355512635182856,
+          "hybrid(bm25+dense,meta)": 0.34221364842708685,
+          "hybrid+rerank": 0.8609101556836468
+        }
+      },
+      {
+        "query_id": "wrongful_conviction_series",
+        "ndcg@10": {
+          "boolean": 0.8458067349739756,
+          "tf-idf": 0.8394386425075554,
+          "bm25": 0.9001215164673654,
+          "dense(title+desc)": 0.7363746570249227,
+          "hybrid(bm25+dense,meta)": 0.8313409923064947,
+          "hybrid+rerank": 0.8597622207694307
+        }
+      },
+      {
+        "query_id": "doping_scandal_doc",
+        "ndcg@10": {
+          "boolean": 0.0,
+          "tf-idf": 0.0,
+          "bm25": 0.5992545309758331,
+          "dense(title+desc)": 0.26471910864716147,
+          "hybrid(bm25+dense,meta)": 0.5992545309758331,
+          "hybrid+rerank": 0.8360008004364282
+        }
+      },
+      {
+        "query_id": "adam_sandler_comedy",
+        "ndcg@10": {
+          "boolean": 0.061197918872630284,
+          "tf-idf": 0.03200079450216794,
+          "bm25": 0.05127917288166211,
+          "dense(title+desc)": 0.05490162180062975,
+          "hybrid(bm25+dense,meta)": 0.6318728095158281,
+          "hybrid+rerank": 0.8113499146016455
+        }
+      },
+      {
+        "query_id": "john_mulaney_standup",
+        "ndcg@10": {
+          "boolean": 0.4548142985050358,
+          "tf-idf": 0.7959652662915614,
+          "bm25": 0.5060651256545936,
+          "dense(title+desc)": 0.876926002575642,
+          "hybrid(bm25+dense,meta)": 0.8649594813772701,
+          "hybrid+rerank": 0.9420302375505366
+        }
+      },
+      {
+        "query_id": "shah_rukh_romance",
+        "ndcg@10": {
+          "boolean": 0.09805146337661907,
+          "tf-idf": 0.09805146337661907,
+          "bm25": 0.09805146337661907,
+          "dense(title+desc)": 0.10383297656555547,
+          "hybrid(bm25+dense,meta)": 0.42060137533775654,
+          "hybrid+rerank": 0.730791383886227
+        }
+      },
+      {
+        "query_id": "scorsese_deniro_crime",
+        "ndcg@10": {
+          "boolean": 0.4048373662680034,
+          "tf-idf": 0.39826234206650857,
+          "bm25": 0.2936336526982729,
+          "dense(title+desc)": 0.27200595757851126,
+          "hybrid(bm25+dense,meta)": 0.7697786644965092,
+          "hybrid+rerank": 0.9264577323908444
+        }
+      },
+      {
+        "query_id": "jerry_seinfeld_standup",
+        "ndcg@10": {
+          "boolean": 0.13378627892315495,
+          "tf-idf": 0.7468762911293538,
+          "bm25": 0.6666228535686375,
+          "dense(title+desc)": 0.6777321183407711,
+          "hybrid(bm25+dense,meta)": 0.8948424856711489,
+          "hybrid+rerank": 0.6774135186321543
+        }
+      },
+      {
+        "query_id": "marie_kondo_tidying",
+        "ndcg@10": {
+          "boolean": 0.0,
+          "tf-idf": 0.0,
+          "bm25": 0.8176035833928884,
+          "dense(title+desc)": 0.9302300055624377,
+          "hybrid(bm25+dense,meta)": 0.9364811075114278,
+          "hybrid+rerank": 0.8679068258449057
+        }
+      },
+      {
+        "query_id": "birmingham_gangsters",
+        "ndcg@10": {
+          "boolean": 0.047422315744339055,
+          "tf-idf": 0.047422315744339055,
+          "bm25": 0.03378433939487898,
+          "dense(title+desc)": 0.33867978832434514,
+          "hybrid(bm25+dense,meta)": 0.0,
+          "hybrid+rerank": 0.8230713088269098
+        }
+      },
+      {
+        "query_id": "queen_elizabeth_drama",
+        "ndcg@10": {
+          "boolean": 0.9201411453235658,
+          "tf-idf": 0.9201411453235658,
+          "bm25": 0.9201411453235658,
+          "dense(title+desc)": 0.9121377018344156,
+          "hybrid(bm25+dense,meta)": 0.9062076459216596,
+          "hybrid+rerank": 0.9361329289325399
+        }
+      },
+      {
+        "query_id": "mumbai_crime_series",
+        "ndcg@10": {
+          "boolean": 0.17261439806540163,
+          "tf-idf": 0.17632873290382856,
+          "bm25": 0.24743001757666985,
+          "dense(title+desc)": 0.2009342126530196,
+          "hybrid(bm25+dense,meta)": 0.30513329715954646,
+          "hybrid+rerank": 0.931206521181262
+        }
+      },
+      {
+        "query_id": "mexican_cartel_1980s",
+        "ndcg@10": {
+          "boolean": 0.6278839024368256,
+          "tf-idf": 0.6295786296133545,
+          "bm25": 0.6960237153407353,
+          "dense(title+desc)": 0.9440326740657528,
+          "hybrid(bm25+dense,meta)": 0.9048378590653272,
+          "hybrid+rerank": 1.0000000000000004
+        }
+      },
+      {
+        "query_id": "lagos_trafficking_drama",
+        "ndcg@10": {
+          "boolean": 0.7412548861514495,
+          "tf-idf": 0.6639124204207468,
+          "bm25": 0.7412548861514495,
+          "dense(title+desc)": 0.8411333696840844,
+          "hybrid(bm25+dense,meta)": 0.6976967598156257,
+          "hybrid+rerank": 0.7223836494128991
+        }
+      },
+      {
+        "query_id": "southern_classic_drama",
+        "ndcg@10": {
+          "boolean": 0.8113349234906143,
+          "tf-idf": 1.0000000000000004,
+          "bm25": 0.9384649728507439,
+          "dense(title+desc)": 0.17802134051474877,
+          "hybrid(bm25+dense,meta)": 0.5110598595740733,
+          "hybrid+rerank": 0.9591526405587171
+        }
+      },
+      {
+        "query_id": "office_mockumentary",
+        "ndcg@10": {
+          "boolean": 0.7236825116127861,
+          "tf-idf": 0.7453239034667913,
+          "bm25": 0.7515502259034418,
+          "dense(title+desc)": 0.6822377327457679,
+          "hybrid(bm25+dense,meta)": 0.7848840188402675,
+          "hybrid+rerank": 0.8616105315196619
+        }
+      },
+      {
+        "query_id": "karate_sequel_series",
+        "ndcg@10": {
+          "boolean": 0.6938325704071104,
+          "tf-idf": 0.8570625120584245,
+          "bm25": 0.8350753311721573,
+          "dense(title+desc)": 0.9725837530715414,
+          "hybrid(bm25+dense,meta)": 0.9077444316129689,
+          "hybrid+rerank": 0.8177030159570345
+        }
+      },
+      {
+        "query_id": "jordan_bulls_docuseries",
+        "ndcg@10": {
+          "boolean": 0.7032727136036657,
+          "tf-idf": 0.7032727136036657,
+          "bm25": 0.7032727136036657,
+          "dense(title+desc)": 0.8959506998113336,
+          "hybrid(bm25+dense,meta)": 0.7032727136036657,
+          "hybrid+rerank": 0.8549034311737669
+        }
+      },
+      {
+        "query_id": "regency_london_romance",
+        "ndcg@10": {
+          "boolean": 0.09478836436955078,
+          "tf-idf": 0.2984900352767555,
+          "bm25": 0.13886244387355454,
+          "dense(title+desc)": 0.15457433957839825,
+          "hybrid(bm25+dense,meta)": 0.2489083270225946,
+          "hybrid+rerank": 0.424926013816671
+        }
+      },
+      {
+        "query_id": "korea_border_romance",
+        "ndcg@10": {
+          "boolean": 0.8120223955790965,
+          "tf-idf": 0.8394386425075554,
+          "bm25": 0.8120223955790965,
+          "dense(title+desc)": 0.1546849314614055,
+          "hybrid(bm25+dense,meta)": 0.35358974533722864,
+          "hybrid+rerank": 1.0000000000000004
+        }
+      },
+      {
+        "query_id": "delhi_police_investigation",
+        "ndcg@10": {
+          "boolean": 0.7398858151708745,
+          "tf-idf": 0.7662948070112864,
+          "bm25": 0.7660025489210391,
+          "dense(title+desc)": 0.7480256481076065,
+          "hybrid(bm25+dense,meta)": 0.8364170270861226,
+          "hybrid+rerank": 0.88032818468451
+        }
+      }
+    ]
+  },
+  "test_original": {
+    "systems": {
+      "boolean": {
+        "recall@5": 0.5362,
+        "recall@10": 0.5701,
+        "ndcg@10": 0.419,
+        "mrr": 0.5299
+      },
+      "tf-idf": {
+        "recall@5": 0.5954,
+        "recall@10": 0.6437,
+        "ndcg@10": 0.4973,
+        "mrr": 0.5986
+      },
+      "bm25": {
+        "recall@5": 0.6592,
+        "recall@10": 0.6937,
+        "ndcg@10": 0.544,
+        "mrr": 0.6897
+      },
+      "dense(title+desc)": {
+        "recall@5": 0.592,
+        "recall@10": 0.6517,
+        "ndcg@10": 0.5391,
+        "mrr": 0.6003
+      },
+      "hybrid(bm25+dense,meta)": {
+        "recall@5": 0.6431,
+        "recall@10": 0.7393,
+        "ndcg@10": 0.6202,
+        "mrr": 0.6764
+      },
+      "hybrid+rerank": {
+        "recall@5": 0.8493,
+        "recall@10": 0.9002,
+        "ndcg@10": 0.8094,
+        "mrr": 0.8908
+      }
+    },
+    "comparisons": [
+      {
+        "method": "boolean",
+        "baseline": "bm25",
+        "n": 30,
+        "n_resamples": 10000,
+        "seed": 20260928,
+        "level": 0.95,
+        "mean_difference": -0.1249841587897091,
+        "ci_low": -0.221002187446259,
+        "ci_high": -0.045654658049042236,
+        "sign_test": {
+          "n": 30,
+          "n_nonzero": 20,
+          "n_positive": 3,
+          "n_negative": 17,
+          "n_ties": 10,
+          "p_value": 0.0025768280029296875
+        }
+      },
+      {
+        "method": "tf-idf",
+        "baseline": "bm25",
+        "n": 30,
+        "n_resamples": 10000,
+        "seed": 20260928,
+        "level": 0.95,
+        "mean_difference": -0.04668227135912565,
+        "ci_low": -0.12957669082888817,
+        "ci_high": 0.02268530035707881,
+        "sign_test": {
+          "n": 30,
+          "n_nonzero": 25,
+          "n_positive": 11,
+          "n_negative": 14,
+          "n_ties": 5,
+          "p_value": 0.6900379657745361
+        }
+      },
+      {
+        "method": "dense(title+desc)",
+        "baseline": "bm25",
+        "n": 30,
+        "n_resamples": 10000,
+        "seed": 20260928,
+        "level": 0.95,
+        "mean_difference": -0.004915077445808365,
+        "ci_low": -0.10004704346928392,
+        "ci_high": 0.07832924037316852,
+        "sign_test": {
+          "n": 30,
+          "n_nonzero": 29,
+          "n_positive": 16,
+          "n_negative": 13,
+          "n_ties": 1,
+          "p_value": 0.711071103811264
+        }
+      },
+      {
+        "method": "hybrid(bm25+dense,meta)",
+        "baseline": "bm25",
+        "n": 30,
+        "n_resamples": 10000,
+        "seed": 20260928,
+        "level": 0.95,
+        "mean_difference": 0.07626197209353698,
+        "ci_low": -0.01091401687429574,
+        "ci_high": 0.1656107991014603,
+        "sign_test": {
+          "n": 30,
+          "n_nonzero": 26,
+          "n_positive": 17,
+          "n_negative": 9,
+          "n_ties": 4,
+          "p_value": 0.16863754391670227
+        }
+      },
+      {
+        "method": "hybrid+rerank",
+        "baseline": "bm25",
+        "n": 30,
+        "n_resamples": 10000,
+        "seed": 20260928,
+        "level": 0.95,
+        "mean_difference": 0.26547182451461504,
+        "ci_low": 0.1727859233312737,
+        "ci_high": 0.36443651867785404,
+        "sign_test": {
+          "n": 30,
+          "n_nonzero": 30,
+          "n_positive": 27,
+          "n_negative": 3,
+          "n_ties": 0,
+          "p_value": 8.430331945419312e-06
+        }
+      },
+      {
+        "method": "hybrid+rerank",
+        "baseline": "hybrid(bm25+dense,meta)",
+        "n": 30,
+        "n_resamples": 10000,
+        "seed": 20260928,
+        "level": 0.95,
+        "mean_difference": 0.18920985242107813,
+        "ci_low": 0.10584727358497914,
+        "ci_high": 0.27754553059947173,
+        "sign_test": {
+          "n": 30,
+          "n_nonzero": 30,
+          "n_positive": 26,
+          "n_negative": 4,
+          "n_ties": 0,
+          "p_value": 5.947612226009369e-05
+        }
+      }
+    ],
+    "per_query": [
+      {
+        "query_id": "tech_anthology",
+        "ndcg@10": {
+          "boolean": 0.7521820956063691,
+          "tf-idf": 0.7931511588405462,
+          "bm25": 0.7646000798347575,
+          "dense(title+desc)": 0.7006033323632676,
+          "hybrid(bm25+dense,meta)": 0.31803696992098296,
+          "hybrid+rerank": 0.914112524079389
+        }
+      },
+      {
+        "query_id": "adult_cartoon_hasbeen",
+        "ndcg@10": {
+          "boolean": 0.03376291969004972,
+          "tf-idf": 0.0,
+          "bm25": 0.03376291969004972,
+          "dense(title+desc)": 0.0,
+          "hybrid(bm25+dense,meta)": 0.0,
+          "hybrid+rerank": 0.050303242452017366
+        }
+      },
+      {
+        "query_id": "hidden_camera_horror",
+        "ndcg@10": {
+          "boolean": 0.45972275846799354,
+          "tf-idf": 0.8075049290464518,
+          "bm25": 0.7829450656118846,
+          "dense(title+desc)": 0.7711112250630638,
+          "hybrid(bm25+dense,meta)": 0.8202513130877612,
+          "hybrid+rerank": 0.9561833111523137
+        }
+      },
+      {
+        "query_id": "makeover_reality",
+        "ndcg@10": {
+          "boolean": 0.0,
+          "tf-idf": 0.35509216582430103,
+          "bm25": 0.20119306708573717,
+          "dense(title+desc)": 0.2925066461607725,
+          "hybrid(bm25+dense,meta)": 0.18342561650238884,
+          "hybrid+rerank": 0.4969141780386607
+        }
+      },
+      {
+        "query_id": "cat_transformation_anime",
+        "ndcg@10": {
+          "boolean": 0.5333561229596261,
+          "tf-idf": 0.30261854188153325,
+          "bm25": 0.39112879139333906,
+          "dense(title+desc)": 0.7822575827866781,
+          "hybrid(bm25+dense,meta)": 0.8145608902586897,
+          "hybrid+rerank": 0.8518112513437697
+        }
+      },
+      {
+        "query_id": "dystopian_therapy_film",
+        "ndcg@10": {
+          "boolean": 0.0,
+          "tf-idf": 0.7782357009787383,
+          "bm25": 0.8188970468977632,
+          "dense(title+desc)": 0.4795029363278607,
+          "hybrid(bm25+dense,meta)": 0.8526816895710818,
+          "hybrid+rerank": 0.9307142612913623
+        }
+      },
+      {
+        "query_id": "divorce_drama",
+        "ndcg@10": {
+          "boolean": 0.5163496248041345,
+          "tf-idf": 0.4522624641030223,
+          "bm25": 0.5210463328312859,
+          "dense(title+desc)": 0.43816535880307883,
+          "hybrid(bm25+dense,meta)": 0.4043965060386934,
+          "hybrid+rerank": 0.6788028252081285
+        }
+      },
+      {
+        "query_id": "bully_redemption_anime",
+        "ndcg@10": {
+          "boolean": 0.7521820956063691,
+          "tf-idf": 0.8843140778859191,
+          "bm25": 0.8029857189538071,
+          "dense(title+desc)": 0.9683851228371075,
+          "hybrid(bm25+dense,meta)": 0.9440326740657528,
+          "hybrid+rerank": 0.8219698748552867
+        }
+      },
+      {
+        "query_id": "gymnastics_abuse_doc",
+        "ndcg@10": {
+          "boolean": 0.7032727136036657,
+          "tf-idf": 0.22185783994374553,
+          "bm25": 0.7032727136036657,
+          "dense(title+desc)": 0.7693037103192794,
+          "hybrid(bm25+dense,meta)": 0.7032727136036657,
+          "hybrid+rerank": 0.8325627455416917
+        }
+      },
+      {
+        "query_id": "trans_teen_drama",
+        "ndcg@10": {
+          "boolean": 0.0,
+          "tf-idf": 0.0,
+          "bm25": 0.0,
+          "dense(title+desc)": 0.0355512635182856,
+          "hybrid(bm25+dense,meta)": 0.34221364842708685,
+          "hybrid+rerank": 0.8609101556836468
+        }
+      },
+      {
+        "query_id": "wrongful_conviction_series",
+        "ndcg@10": {
+          "boolean": 0.8120223955790965,
+          "tf-idf": 0.8394386425075554,
+          "bm25": 0.8526992007230263,
+          "dense(title+desc)": 0.7363746570249227,
+          "hybrid(bm25+dense,meta)": 0.802789913300706,
+          "hybrid+rerank": 0.8230713088269098
+        }
+      },
+      {
+        "query_id": "doping_scandal_doc",
+        "ndcg@10": {
+          "boolean": 0.0,
+          "tf-idf": 0.0,
+          "bm25": 0.5992545309758331,
+          "dense(title+desc)": 0.26471910864716147,
+          "hybrid(bm25+dense,meta)": 0.5992545309758331,
+          "hybrid+rerank": 0.8360008004364282
+        }
+      },
+      {
+        "query_id": "adam_sandler_comedy",
+        "ndcg@10": {
+          "boolean": 0.061197918872630284,
+          "tf-idf": 0.03200079450216794,
+          "bm25": 0.05127917288166211,
+          "dense(title+desc)": 0.05490162180062975,
+          "hybrid(bm25+dense,meta)": 0.6318728095158281,
+          "hybrid+rerank": 0.8113499146016455
+        }
+      },
+      {
+        "query_id": "john_mulaney_standup",
+        "ndcg@10": {
+          "boolean": 0.4880540123770681,
+          "tf-idf": 0.834473877163702,
+          "bm25": 0.5259980979189093,
+          "dense(title+desc)": 0.9053532819837439,
+          "hybrid(bm25+dense,meta)": 0.9281743050237248,
+          "hybrid+rerank": 0.9912138818755256
+        }
+      },
+      {
+        "query_id": "shah_rukh_romance",
+        "ndcg@10": {
+          "boolean": 0.09805146337661907,
+          "tf-idf": 0.09805146337661907,
+          "bm25": 0.09805146337661907,
+          "dense(title+desc)": 0.10383297656555547,
+          "hybrid(bm25+dense,meta)": 0.42060137533775654,
+          "hybrid+rerank": 0.730791383886227
+        }
+      },
+      {
+        "query_id": "scorsese_deniro_crime",
+        "ndcg@10": {
+          "boolean": 0.38320967114824167,
+          "tf-idf": 0.3766346469467469,
+          "bm25": 0.27200595757851126,
+          "dense(title+desc)": 0.27200595757851126,
+          "hybrid(bm25+dense,meta)": 0.7697786644965092,
+          "hybrid+rerank": 0.9264577323908444
+        }
+      },
+      {
+        "query_id": "jerry_seinfeld_standup",
+        "ndcg@10": {
+          "boolean": 0.07792016764951536,
+          "tf-idf": 0.7749119237624372,
+          "bm25": 0.6713499743573987,
+          "dense(title+desc)": 0.7031722734496074,
+          "hybrid(bm25+dense,meta)": 0.9108317527588846,
+          "hybrid+rerank": 0.7028417144051624
+        }
+      },
+      {
+        "query_id": "marie_kondo_tidying",
+        "ndcg@10": {
+          "boolean": 0.0,
+          "tf-idf": 0.0,
+          "bm25": 0.8176035833928884,
+          "dense(title+desc)": 0.9302300055624377,
+          "hybrid(bm25+dense,meta)": 0.9364811075114278,
+          "hybrid+rerank": 0.8679068258449057
+        }
+      },
+      {
+        "query_id": "birmingham_gangsters",
+        "ndcg@10": {
+          "boolean": 0.0,
+          "tf-idf": 0.0,
+          "bm25": 0.0,
+          "dense(title+desc)": 0.33867978832434514,
+          "hybrid(bm25+dense,meta)": 0.0,
+          "hybrid+rerank": 0.7822239493856266
+        }
+      },
+      {
+        "query_id": "queen_elizabeth_drama",
+        "ndcg@10": {
+          "boolean": 0.9201411453235658,
+          "tf-idf": 0.9201411453235658,
+          "bm25": 0.9201411453235658,
+          "dense(title+desc)": 0.9121377018344156,
+          "hybrid(bm25+dense,meta)": 0.9062076459216596,
+          "hybrid+rerank": 0.9361329289325399
+        }
+      },
+      {
+        "query_id": "mumbai_crime_series",
+        "ndcg@10": {
+          "boolean": 0.17261439806540163,
+          "tf-idf": 0.17632873290382856,
+          "bm25": 0.24743001757666985,
+          "dense(title+desc)": 0.2009342126530196,
+          "hybrid(bm25+dense,meta)": 0.30513329715954646,
+          "hybrid+rerank": 0.931206521181262
+        }
+      },
+      {
+        "query_id": "mexican_cartel_1980s",
+        "ndcg@10": {
+          "boolean": 0.6278839024368256,
+          "tf-idf": 0.6295786296133545,
+          "bm25": 0.6960237153407353,
+          "dense(title+desc)": 0.9440326740657528,
+          "hybrid(bm25+dense,meta)": 0.9048378590653272,
+          "hybrid+rerank": 1.0000000000000004
+        }
+      },
+      {
+        "query_id": "lagos_trafficking_drama",
+        "ndcg@10": {
+          "boolean": 0.7412548861514495,
+          "tf-idf": 0.6639124204207468,
+          "bm25": 0.7412548861514495,
+          "dense(title+desc)": 0.8411333696840844,
+          "hybrid(bm25+dense,meta)": 0.6976967598156257,
+          "hybrid+rerank": 0.7223836494128991
+        }
+      },
+      {
+        "query_id": "southern_classic_drama",
+        "ndcg@10": {
+          "boolean": 0.8113349234906143,
+          "tf-idf": 1.0000000000000004,
+          "bm25": 0.9384649728507439,
+          "dense(title+desc)": 0.17802134051474877,
+          "hybrid(bm25+dense,meta)": 0.5110598595740733,
+          "hybrid+rerank": 0.9591526405587171
+        }
+      },
+      {
+        "query_id": "office_mockumentary",
+        "ndcg@10": {
+          "boolean": 0.7236825116127861,
+          "tf-idf": 0.7453239034667913,
+          "bm25": 0.7515502259034418,
+          "dense(title+desc)": 0.6822377327457679,
+          "hybrid(bm25+dense,meta)": 0.7848840188402675,
+          "hybrid+rerank": 0.8616105315196619
+        }
+      },
+      {
+        "query_id": "karate_sequel_series",
+        "ndcg@10": {
+          "boolean": 0.6938325704071104,
+          "tf-idf": 0.8570625120584245,
+          "bm25": 0.8350753311721573,
+          "dense(title+desc)": 0.9725837530715414,
+          "hybrid(bm25+dense,meta)": 0.9077444316129689,
+          "hybrid+rerank": 0.8177030159570345
+        }
+      },
+      {
+        "query_id": "jordan_bulls_docuseries",
+        "ndcg@10": {
+          "boolean": 0.7032727136036657,
+          "tf-idf": 0.7032727136036657,
+          "bm25": 0.7032727136036657,
+          "dense(title+desc)": 0.8959506998113336,
+          "hybrid(bm25+dense,meta)": 0.7032727136036657,
+          "hybrid+rerank": 0.8549034311737669
+        }
+      },
+      {
+        "query_id": "regency_london_romance",
+        "ndcg@10": {
+          "boolean": 0.0,
+          "tf-idf": 0.10778915452451095,
+          "bm25": 0.0,
+          "dense(title+desc)": 0.09546043308946735,
+          "hybrid(bm25+dense,meta)": 0.34222207292834145,
+          "hybrid+rerank": 0.45390362024822023
+        }
+      },
+      {
+        "query_id": "korea_border_romance",
+        "ndcg@10": {
+          "boolean": 0.8120223955790965,
+          "tf-idf": 0.8394386425075554,
+          "bm25": 0.8120223955790965,
+          "dense(title+desc)": 0.1546849314614055,
+          "hybrid(bm25+dense,meta)": 0.35358974533722864,
+          "hybrid+rerank": 1.0000000000000004
+        }
+      },
+      {
+        "query_id": "delhi_police_investigation",
+        "ndcg@10": {
+          "boolean": 0.6924634994265355,
+          "tf-idf": 0.7254474475700031,
+          "bm25": 0.7660025489210391,
+          "dense(title+desc)": 0.7480256481076065,
+          "hybrid(bm25+dense,meta)": 0.807865948080334,
+          "hybrid+rerank": 0.88032818468451
+        }
+      }
+    ]
+  }
+}

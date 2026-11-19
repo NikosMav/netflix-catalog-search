@@ -32,6 +32,9 @@ function panel(item, system) {
     if (card.cast) details.append(node("p", "Cast · " + card.cast));
     if (card.director) details.append(node("p", "Director · " + card.director));
     details.append(node("p", "Judge’s rationale · " + card.rationale));
+    if (card.second_review) {
+      details.append(node("p", "Second judge · Grade " + card.second_review.grade + ". " + card.second_review.rationale));
+    }
     group.append(details);
   });
   return group;
@@ -78,5 +81,10 @@ document.querySelector("#effect").textContent = "Hybrid + rerank beat BM25 on " 
   " nDCG@10 (paired 95% interval " + effect.ci_low + " to " + effect.ci_high + ").";
 document.querySelector("#fusion").textContent = "Hybrid fusion alone gained " + fusion.mean_difference +
   " on average. Its interval (" + fusion.ci_low + " to " + fusion.ci_high + ") includes zero.";
-document.querySelector("#review").textContent = "Human review · " + benchmark.review + ".";
+const review = benchmark.review;
+document.querySelector("#review").textContent = "A second LLM graded " + review.n +
+  " sampled pairs. Exact grades matched on " + (100 * review.raw_agreement).toFixed(1) +
+  "% and the relevance decision matched on " + (100 * review.binary_agreement).toFixed(1) +
+  "%. Substituting the audited test grades left a reranking gain of +" +
+  benchmark.sensitivity.mean_difference.toFixed(4) + " versus BM25.";
 render();

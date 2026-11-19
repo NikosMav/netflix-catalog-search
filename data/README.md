@@ -38,7 +38,7 @@ v1 (legacy) retrieval labels. The file stays byte-identical. `python -m retrieva
 
 ## `eval_v2/`
 
-Held-out test queries, dev labels, blinded candidate cards, 0–3 relevance judgments, the original binary sampling strata, and the spot-check sample. Counts and scores are in `results/eval_v2/metrics.json`, copied into the docs by `python scripts/sync_metrics_docs.py`. The spot-check sample has no model label. Human labels belong in `spotcheck_human.json` only after a person marks them. Agreement is calculated once every sampled card has a human grade.
+Held-out test queries, dev labels, blinded candidate cards, 0–3 relevance judgments, the original binary sampling strata, and the spot-check sample. Counts and scores are in `results/eval_v2/metrics.json`, copied into the docs by `python scripts/sync_metrics_docs.py`. The spot-check sample has no model label. The second LLM’s 303 grades and card-specific reasons are in `spotcheck_second_judge.json`. The separate audit report records agreement and sensitivity to these second grades.
 
 ## `wikipedia_plots.jsonl`
 
