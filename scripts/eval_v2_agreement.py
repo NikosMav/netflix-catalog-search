@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """Agreement for the graded eval v2 spot-check.
 
-Prints 'spot-check pending' until data/eval_v2/spotcheck_human.json exists
-and contains a grade. Does not invent a kappa or an nDCG.
+Reports progress until every sampled card has a human grade.
 """
 
 from __future__ import annotations
@@ -10,6 +9,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from retrieval.review import read_grades
 from retrieval.metrics import aggregate_mean, ndcg_at_k_graded
 from retrieval.significance import cohens_kappa, quadratic_weighted_kappa
 
@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 JUDGMENTS = ROOT / "data" / "eval_v2" / "judgments.json"
 HUMAN_PATH = ROOT / "data" / "eval_v2" / "spotcheck_human.json"
 TOP10_PATH = ROOT / "results" / "eval_v2" / "top10.json"
+SAMPLE_PATH = ROOT / "data" / "eval_v2" / "spotcheck_sample.json"
 OUT_PATH = ROOT / "results" / "eval_v2" / "spotcheck_agreement.json"
 RELEVANT_AT = 2
 REPORTED = (
@@ -149,26 +150,38 @@ def agreement_from_labels(
     return payload
 
 
-def main() -> None:
-    if not HUMAN_PATH.exists():
-        payload = {"status": "spot-check pending"}
-        print("spot-check pending")
+def write_report() -> dict:
+    cards = json.loads(SAMPLE_PATH.read_text(encoding="utf-8"))["pairs"]
+    known = {card["sample_id"] for card in cards}
+    grades = read_grades(HUMAN_PATH, known)
+    progress = {"n": len(grades), "n_sample": len(cards)}
+    if len(grades) < len(cards):
+        status = "spot-check in progress" if grades else "spot-check pending"
+        payload = {"status": status, **progress}
     else:
-        human = json.loads(HUMAN_PATH.read_text(encoding="utf-8"))
-        labels = human.get("labels") or []
-        if not labels:
-            payload = {"status": "spot-check pending"}
-            print("spot-check pending")
-        else:
-            judgments = json.loads(JUDGMENTS.read_text(encoding="utf-8"))
-            top10 = json.loads(TOP10_PATH.read_text(encoding="utf-8")) if TOP10_PATH.exists() else None
-            payload = agreement_from_labels(model_grade_map(judgments), labels, top10)
-            print(
-                f"n={payload['n']} raw_agreement={payload['raw_agreement']} "
-                f"quadratic_weighted_kappa={payload['quadratic_weighted_kappa']}"
-            )
+        judgments = json.loads(JUDGMENTS.read_text(encoding="utf-8"))
+        top10 = json.loads(TOP10_PATH.read_text(encoding="utf-8"))
+        model = model_grade_map(judgments)
+        labels = [{"sample_id": key, "grade": grade} for key, grade in grades.items()]
+        payload = agreement_from_labels(model, labels, top10)
+        payload.update(progress)
+        differences = []
+        for card in cards:
+            key = card["sample_id"]
+            if model[key] != grades[key]:
+                differences.append({
+                    "sample_id": key, "query": card["query"], "title": card["title"],
+                    "model_grade": model[key], "human_grade": grades[key],
+                })
+        payload["disagreements"] = differences
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+    return payload
+
+
+def main() -> None:
+    payload = write_report()
+    print(f"{payload['status']} ({payload['n']}/{payload['n_sample']})")
     print(f"Wrote {OUT_PATH}")
 
 

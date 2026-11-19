@@ -26,6 +26,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Netflix catalog search", layout="centered")
 
+from retrieval.review import read_grades, save_grade
 from retrieval.catalog import load_catalog, show_id_to_index
 from retrieval.cli import _build_retriever
 from retrieval.evaluate import RERANK_CANDIDATE_K
@@ -206,18 +207,6 @@ def _v2_queries(split: str) -> list[dict]:
     return payload["queries"]
 
 
-def _label_spotcheck(sample_id: str, grade: int) -> None:
-    import importlib.util
-
-    path = ROOT / "scripts" / "eval_v2_spotcheck.py"
-    spec = importlib.util.spec_from_file_location("eval_v2_spotcheck", path)
-    if spec is None or spec.loader is None:
-        raise RuntimeError(f"Could not load {path}")
-    module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(module)
-    module.label_pair(sample_id, grade)
-
-
 def render_chart(frame: pd.DataFrame) -> None:
     import altair as alt
 
@@ -344,7 +333,8 @@ def render_eval() -> None:
             f"Recall and MRR count grade {payload.get('relevant_if_grade_at_least', 2)} or higher."
         )
     st.caption(
-        f"{split} split: {int(block['n_queries'])} queries, {n_scored} scored. "
+        f"{split} split: {n_scored} queries scored for nDCG, "
+        f"{int(systems['n_scored_recall'].iloc[0])} for recall and MRR. "
         f"Judge: {payload['judge']}. "
         "Source: results/eval_v2/metrics.json. The app does not recompute these averages."
     )
@@ -388,23 +378,28 @@ def render_eval() -> None:
     render_labeled_query(split)
 
 
-def _human_labels() -> set[str]:
-    path = ROOT / "data" / "eval_v2" / "spotcheck_human.json"
-    if not path.exists():
-        return set()
-    payload = json.loads(path.read_text(encoding="utf-8"))
-    return {row["sample_id"] for row in payload.get("labels", [])}
-
-
 def render_spotcheck() -> None:
     st.subheader("Spot-check")
     sample = json.loads((ROOT / "data" / "eval_v2" / "spotcheck_sample.json").read_text(encoding="utf-8"))
-    labeled = _human_labels()
+    path = ROOT / "data" / "eval_v2" / "spotcheck_human.json"
+    known = {pair["sample_id"] for pair in sample["pairs"]}
+    labeled = read_grades(path, known)
     pending = [pair for pair in sample["pairs"] if pair["sample_id"] not in labeled]
-    st.caption(f"Status: {sample['status']}. {len(labeled)} labeled, {len(pending)} still open.")
+    st.progress(len(labeled) / len(known), text=f"{len(labeled)} of {len(known)} cards graded")
     st.caption("This page does not show the model judgment.")
     if not pending:
-        st.info("The sample is labeled. Run python scripts/eval_v2_agreement.py for agreement and kappa.")
+        from scripts.eval_v2_agreement import write_report
+
+        st.success("Every card has a human grade.")
+        if st.button("Calculate agreement"):
+            report = write_report()
+            st.metric("Exact agreement", f"{report['raw_agreement']:.1%}")
+            kappa = report["quadratic_weighted_kappa"]
+            st.metric("Quadratic-weighted kappa", "Undefined" if kappa is None else f"{kappa:.3f}")
+            st.write(f"{len(report['disagreements'])} disagreements")
+            if report["disagreements"]:
+                st.dataframe(report["disagreements"], hide_index=True)
+            st.caption("Saved to results/eval_v2/spotcheck_agreement.json.")
         return
     card = pending[0]
     st.markdown(f"**Query:** {card['query']}")
@@ -417,11 +412,13 @@ def render_spotcheck() -> None:
         st.caption(f"Cast: {card['cast']}")
     st.write(card.get("description") or "")
     st.caption(f"sample_id: {card['sample_id']}")
-    st.caption("Grade 0 not relevant, 1 marginal, 2 relevant, 3 highly relevant.")
+    st.caption("Use only the evidence on the card. Choose 0 for unrelated or too vague, "
+               "1 for a related subject missing a central constraint, "
+               "2 for a match in substance, and 3 for an exact match.")
     columns = st.columns(4)
     for grade, column in enumerate(columns):
-        if column.button(f"Grade {grade}", key=f"spot_grade_{grade}"):
-            _label_spotcheck(card["sample_id"], grade)
+        if column.button(f"Grade {grade}", key=f"spot_{card['sample_id']}_{grade}"):
+            save_grade(path, known, card["sample_id"], grade)
             st.rerun()
 
 
@@ -441,14 +438,17 @@ def main() -> None:
     )
     st.title("Netflix catalog search")
     st.caption("Offline text search over the public Netflix titles catalog.")
-    page = st.sidebar.radio("Page", ["Search", "Evaluation", "Spot-check"])
+    pages = ["Search", "Evaluation", "Spot-check"]
+    first = "Spot-check" if st.query_params.get("page") == "review" else "Search"
+    page = st.sidebar.radio("Page", pages, index=pages.index(first))
     if page == "Search":
         render_search()
     elif page == "Evaluation":
         render_eval()
     else:
         render_spotcheck()
-    render_how()
+    if page != "Spot-check":
+        render_how()
 
 
 main()

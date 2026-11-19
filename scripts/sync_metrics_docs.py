@@ -89,50 +89,27 @@ def test_table(payload: dict) -> str:
     return _md_table(headers, rows)
 
 
-def _ci_phrase(comp: dict) -> str:
-    low = comp["ci_low"]
-    high = comp["ci_high"]
-    if low > 0:
-        side = "entirely above 0"
-    elif high < 0:
-        side = "entirely below 0"
-    else:
-        side = "includes 0"
-    return (
-        f"`{comp['method']}` minus `{comp['baseline']}` mean {comp['metric']} "
-        f"difference {num(comp['mean_difference'])} "
-        f"({num(comp['ci_level'])} paired bootstrap interval "
-        f"[{num(low)}, {num(high)}], {side}; "
-        f"{num(comp['n_resamples'])} resamples, seed {num(comp['bootstrap_seed'])}). "
-        f"Two-sided sign test p {num(comp['sign_p_value'])} "
-        f"(+{num(comp['sign_n_positive'])} / −{num(comp['sign_n_negative'])} / "
-        f"ties {num(comp['sign_n_ties'])}, n={num(comp['n'])})."
-    )
-
-
 def test_notes(payload: dict, sample: dict, agreement: dict) -> str:
     test = payload["test"]
-    n_scored = test["systems"][0]["n_scored"]
-    lines = [
-        f"Judge: {payload['judge']}.",
-        (
-            f"Test split: {num(test['n_queries'])} queries, "
-            f"{num(n_scored)} scored for nDCG. "
-            f"Unscored for nDCG because the highest grade is 0: {_id_list(unscored_query_ids(test))}. "
-            f"Unscored for recall and MRR because no grade is 2 or 3: "
-            f"{_id_list(recall_unscored_query_ids(test))}."
-        ),
-        (
-            "Each interval is the paired bootstrap of the per-query "
-            f"{payload['headline_metric']} difference against `{payload['baseline']}`."
-        ),
-    ]
-    lines.extend(_ci_phrase(comp) for comp in test["comparisons_vs_bm25"])
-    lines.append(_spotcheck_sentence(sample, agreement))
-    grades = _grade_sentence(payload)
-    if grades:
-        lines.append(grades)
-    return "\n\n".join(lines)
+    comps = {row["method"]: row for row in test["comparisons_vs_bm25"]}
+    rerank = comps["hybrid+rerank"]
+    fusion = comps["hybrid(bm25+dense,meta)"]
+    return "\n\n".join([
+        f"Hybrid + rerank beat BM25 on **{rerank['sign_n_positive']} of {rerank['n']} queries**. "
+        f"The mean nDCG@10 gain was **{rerank['mean_difference']:+.4f}** "
+        f"(paired 95% bootstrap interval **{rerank['ci_low']:+.4f} to {rerank['ci_high']:+.4f}**). "
+        f"Fusion alone gained {fusion['mean_difference']:+.4f}, with an interval spanning zero "
+        f"({fusion['ci_low']:+.4f} to {fusion['ci_high']:+.4f}).",
+        "An LLM graded shuffled catalog cards with system names and ranks hidden. "
+        "The intervals resample queries and treat their grades as fixed.",
+        _spotcheck_sentence(sample, agreement),
+    ])
+
+
+def headline_table(payload: dict) -> str:
+    rows = [[row["method"], num(row["ndcg@10"]), num(row["recall@10"])]
+            for row in payload["test"]["systems"]]
+    return _md_table(["System", "nDCG@10", "Recall@10"], rows)
 
 
 def split_table(systems: list[dict]) -> str:
@@ -161,10 +138,9 @@ def ablation_block(payload: dict) -> str:
 def _spotcheck_sentence(sample: dict, agreement: dict) -> str:
     status = agreement.get("status", sample.get("status", ""))
     base = (
-        f"Spot-check sample: {num(sample['n_sample'])} pairs "
-        f"from {num(sample['n_judged_pairs'])} judged pairs "
-        f"(fraction {num(sample['fraction'])}, seed {num(sample['seed'])}). "
-        f"Status: {status}."
+        f"Blinded human review of the LLM grades: **{agreement.get('n', 0)} of "
+        f"{num(sample['n_sample'])} pairs graded** ({status}). "
+        f"The sample was drawn from {sample['n_judged_pairs']:,} pooled query–title pairs."
     )
     if status == "scored":
         return (
@@ -281,13 +257,16 @@ def render(
         readme,
         "<!-- METRICS_TABLE_BEGIN -->",
         "<!-- METRICS_TABLE_END -->",
-        test_table(v2),
+        headline_table(v2),
     )
     readme = replace_block(
         readme,
         "<!-- EVAL_V2_NOTES_BEGIN -->",
         "<!-- EVAL_V2_NOTES_END -->",
         test_notes(v2, sample, agreement),
+    )
+    retrieval = replace_block(
+        retrieval, "<!-- EVAL_V2_TEST_BEGIN -->", "<!-- EVAL_V2_TEST_END -->", test_table(v2)
     )
     retrieval = replace_block(
         retrieval,

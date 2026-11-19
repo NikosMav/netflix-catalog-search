@@ -37,9 +37,9 @@ def test_notes_say_spotcheck_pending_until_scored():
     sync = _sync()
     payload = json.loads((ROOT / "results" / "eval_v2" / "metrics.json").read_text(encoding="utf-8"))
     sample = json.loads((ROOT / "data" / "eval_v2" / "spotcheck_sample.json").read_text(encoding="utf-8"))
-    agreement = json.loads((ROOT / "results" / "eval_v2" / "spotcheck_agreement.json").read_text(encoding="utf-8"))
+    agreement = {"status": "spot-check pending", "n": 0}
     notes = sync.test_notes(payload, sample, agreement)
-    assert payload["judge"] in notes
+    assert "LLM" in notes
     assert "spot-check pending" in notes
     assert sync.num(sample["n_sample"]) in notes
     scored = {

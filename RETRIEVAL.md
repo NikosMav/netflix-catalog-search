@@ -47,9 +47,8 @@ python -m retrieval query "war between vietnam and usa" --method bm25 --top-k 10
 python -m retrieval query "feel-good cooking competition show" --method dense-rerank
 python -m retrieval query "dark crime thriller set in Scandinavia" --method hybrid-rerank
 
-# Regenerate v2 metrics (downloads MiniLM; not part of CI), then refresh the docs
+# Run all models again; inspect .cache/eval_v2/metrics.json and top10.json
 python scripts/run_eval_v2.py
-python scripts/sync_metrics_docs.py
 # Legacy v1 file, still produced by:
 # python -m retrieval eval --failures  → results/eval_metrics.json
 ```
@@ -73,6 +72,29 @@ The reported systems were frozen before the test run. What was tuned on the dev 
 - BM25 `k1` and `b`, RRF `k`, and the TF-IDF feature cap are library defaults. They were not grid-searched.
 
 The judge is named in the metrics JSON: an LLM judge (grok-4.7 via Cursor cloud agent), blinded to system and rank. Each decision used the query and the candidate card only. Grades are 0 (not relevant), 1 (marginal), 2 (relevant), and 3 (highly relevant). nDCG@10 uses gain `2^grade - 1`. Recall and MRR treat grade 2 or 3 as relevant. A query with no positive grade is left out of nDCG. A query with no grade of 2 or 3 is left out of recall and MRR.
+
+### Held-out comparison
+
+<!-- EVAL_V2_TEST_BEGIN -->
+| method | n_scored | recall@5 | recall@10 | ndcg@10 | mrr | nDCG@10 difference vs bm25 | 95% CI | sign-test p |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| boolean | 30 | 0.5362 | 0.5701 | 0.419 | 0.5299 | -0.125 | [-0.221, -0.0457] | 0.0025768280029296875 |
+| tf-idf | 30 | 0.5954 | 0.6437 | 0.4973 | 0.5986 | -0.0467 | [-0.1296, 0.0227] | 0.6900379657745361 |
+| bm25 | 30 | 0.6592 | 0.6937 | 0.544 | 0.6897 | baseline |  |  |
+| dense(title+desc) | 30 | 0.592 | 0.6517 | 0.5391 | 0.6003 | -0.0049 | [-0.1, 0.0783] | 0.711071103811264 |
+| hybrid(bm25+dense,meta) | 30 | 0.6431 | 0.7393 | 0.6202 | 0.6764 | 0.0763 | [-0.0109, 0.1656] | 0.16863754391670227 |
+| hybrid+rerank | 30 | 0.8493 | 0.9002 | 0.8094 | 0.8908 | 0.2655 | [0.1728, 0.3644] | 8.430331945419312e-06 |
+<!-- EVAL_V2_TEST_END -->
+
+All 30 queries contribute to nDCG. Recall and reciprocal rank use the 29 queries with a pooled grade of at least 2. Reciprocal rank uses the first such title in the saved top ten. A paired interval measures variation across queries conditional on the recorded judgments.
+
+### Fresh model run
+
+A Windows CPU rerun of all six systems on the 30 test queries reproduced every reranked top ten and the published mean nDCG@10 of 0.8094. BM25 reproduced 27 top tens exactly and the same mean of 0.5440. Standalone dense retrieval and hybrid fusion also reproduced their published means.
+
+Boolean scored 0.4196 versus the frozen 0.4190, and TF-IDF scored 0.4977 versus 0.4973. Live top tens included 12 Boolean slots and one TF-IDF slot outside the original judged pool. The live calculation assigns zero gain to unjudged slots. Sparse rankings can order equal-scoring titles differently across numerical library versions. The browser explorer replays the original rankings and CI recomputes their scores and intervals directly from the frozen judgments.
+
+Rerun environment: NumPy 2.5.5, scikit-learn 1.9.1, sentence-transformers 3.4.1 and PyTorch 2.15.0.
 
 ### Label corrections
 
@@ -139,7 +161,7 @@ Test labels: 86 pairs graded 2 or 3 out of 1756 judged pairs (29 of 30 queries h
 
 v2-relevant dev titles absent from that query's v1 relevant set: 87.
 
-Spot-check sample: 303 pairs from 3032 judged pairs (fraction 0.1, seed 20260930). Status: spot-check pending.
+Blinded human review of the LLM grades: **0 of 303 pairs graded** (spot-check pending). The sample was drawn from 3,032 pooled query–title pairs.
 
 Grade counts: 0=2096, 1=711, 2=40, 3=185. nDCG gain is 2^grade - 1. Recall and MRR count a title when its grade is at least 2.
 <!-- EVAL_V2_STATS_END -->
@@ -153,9 +175,9 @@ python scripts/eval_v2_spotcheck.py label <sample_id> --grade 3
 python scripts/eval_v2_agreement.py
 ```
 
-The agreement script reports quadratic-weighted kappa, kappa on grades binarised at 2, raw exact-grade agreement, those same figures split by which reported system retrieved the pair in its top 10, and nDCG@10 on the human grades alone. Until the human file has grades, the result stays spot-check pending.
+The sampling strata come from the original binary judgments. The graded amendment kept the same 303 cards. The stored positive stratum and seed reproduce every ID in its original order.
 
-Until that human file has labels, the agreement file says spot-check pending. Do not fill the human file in as the model.
+Each grade is saved locally as it is entered. Running the agreement script during review reports the count completed. Once all 303 cards have grades, it reports raw exact agreement, quadratic-weighted kappa, binary kappa at grade 2, and a list of disagreements to inspect. A kappa is undefined when its denominator is zero. Per-system rows cover the sampled cards in each system’s top ten and can overlap. The human-only nDCG diagnostic combines both splits and drops ungraded titles from the saved rankings. Its scale differs from the full-pool test metric.
 
 ### Limits
 
@@ -231,7 +253,7 @@ Full side-by-side dumps: [`results/qualitative_examples.json`](results/qualitati
 
 - **Catalog search ≠ recommender.** No watch history, no CF, no popularity re-rank.
 - **Not web RAG.** No chunking of long docs, no tool-using agent, no generation.
-- **Small labeled splits, an LLM judge, and queries written for this project.** Useful for honesty, not a public IR benchmark. The human spot-check is pending.
+- **Small labeled splits, an LLM judge, and queries written for this project.** Useful for honesty, not a public IR benchmark. The review count appears above.
 - **Grades are 0-3.** nDCG uses gain `2^grade - 1`. Recall and MRR use grades 2 and 3. Queries with no positive grade are omitted from nDCG. Queries with no grade of 2 or 3 are omitted from recall and MRR.
 - **Short marketing blurbs.** Bad descriptions limit every method; metadata helps unevenly.
   Wikipedia plot enrichment (`text_plot`) is an optional ablation — match errors and missing

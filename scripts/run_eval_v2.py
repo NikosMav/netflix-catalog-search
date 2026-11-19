@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Score the pre-registered eval v2 systems and write results/eval_v2/metrics.json.
+"""Score the pre-registered eval v2 systems and write a fresh run under .cache/eval_v2.
 
 Reads judgments produced from the blinded pools. Does not edit v1 files.
 """
@@ -20,8 +20,8 @@ CONFIG_PATH = ROOT / "configs" / "eval_v2.yaml"
 V1_LABELS = ROOT / "data" / "labeled_queries.json"
 JUDGMENTS = ROOT / "data" / "eval_v2" / "judgments.json"
 POOL_STATS = ROOT / "data" / "eval_v2" / "pool_stats.json"
-OUT_PATH = ROOT / "results" / "eval_v2" / "metrics.json"
-TOP10_PATH = ROOT / "results" / "eval_v2" / "top10.json"
+OUT_PATH = ROOT / ".cache" / "eval_v2" / "metrics.json"
+TOP10_PATH = ROOT / ".cache" / "eval_v2" / "top10.json"
 RELEVANT_AT = 2
 
 REPORTED = (
@@ -114,6 +114,7 @@ def main() -> None:
         n_scored_ndcg = 0
         n_scored_recall = 0
         top10_rows = []
+        unjudged_slots = dict.fromkeys(names, 0)
         for item in queries:
             grades = {j["show_id"]: int(j["grade"]) for j in item["judgments"]}
             relevant = {sid for sid, grade in grades.items() if grade >= RELEVANT_AT}
@@ -130,6 +131,7 @@ def main() -> None:
             for name in names:
                 hits = by_name[name].retriever.query(item["query"], top_k=10)
                 retrieved = hits["show_id"].astype(str).tolist()
+                unjudged_slots[name] += sum(sid not in grades for sid in retrieved)
                 if name in REPORTED:
                     rankings[name] = retrieved
                 if not has_ndcg and not has_recall:
@@ -170,6 +172,7 @@ def main() -> None:
                 {
                     "method": name,
                     "n_scored": len(finite),
+                    "unjudged_top10_slots": unjudged_slots[name],
                     "n_scored_recall": recall_n,
                     **summary,
                 }

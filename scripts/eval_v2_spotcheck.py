@@ -2,8 +2,7 @@
 """Draw a blinded spot-check sample and record human labels.
 
 The sample file does not contain the model judgment. Human labels go to
-data/eval_v2/spotcheck_human.json only when someone passes --relevant or
---not-relevant. This script never writes those labels by itself.
+data/eval_v2/spotcheck_human.json when a reviewer supplies a grade.
 
 Agreement is a separate command and stays pending until the human file exists.
 """
@@ -17,11 +16,14 @@ from pathlib import Path
 
 import numpy as np
 
+from retrieval.review import read_grades, save_grade
+
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "configs" / "eval_v2.yaml"
 JUDGMENTS = ROOT / "data" / "eval_v2" / "judgments.json"
 BLINDED = ROOT / "data" / "eval_v2" / "blinded"
 SAMPLE_PATH = ROOT / "data" / "eval_v2" / "spotcheck_sample.json"
+STRATA = ROOT / "data" / "eval_v2" / "spotcheck_strata.json"
 HUMAN_PATH = ROOT / "data" / "eval_v2" / "spotcheck_human.json"
 
 
@@ -53,16 +55,17 @@ def draw_sample(judgments: dict, fraction: float, minimum: int, seed: int) -> li
     shuffled with the same generator so the form is not blocked by class.
     """
     groups: dict[int, list[dict]] = {0: [], 1: []}
+    positive = set(json.loads(STRATA.read_text(encoding="utf-8"))["positive_sample_ids"])
     for item in judgments["queries"]:
         blinded_path = BLINDED / f"{item['split']}__{item['query_id']}.json"
         blinded = json.loads(blinded_path.read_text(encoding="utf-8"))
         cards = {c["show_id"]: c for c in blinded["candidates"]}
         for judgment in item["judgments"]:
             card = cards[judgment["show_id"]]
-            grade = int(judgment["grade"]) if "grade" in judgment else (1 if judgment["relevant"] else 0)
-            groups[1 if grade >= 2 else 0].append(
+            key = sample_id(item["split"], item["query_id"], judgment["show_id"])
+            groups[int(key in positive)].append(
                 {
-                    "sample_id": sample_id(item["split"], item["query_id"], judgment["show_id"]),
+                    "sample_id": key,
                     "split": item["split"],
                     "query_id": item["query_id"],
                     "query": item["query"],
@@ -105,35 +108,18 @@ def write_sample() -> Path:
         "n_judged_pairs": sum(len(item["judgments"]) for item in judgments["queries"]),
         "pairs": pairs,
     }
-    for pair in pairs:
-        if "relevant" in pair or "rationale" in pair:
-            raise SystemExit("sample card would leak a model label")
+    if SAMPLE_PATH.exists():
+        if json.loads(SAMPLE_PATH.read_text(encoding="utf-8")) != payload:
+            raise ValueError("Regenerated sample differs from the frozen review sample")
+        return SAMPLE_PATH
     SAMPLE_PATH.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     return SAMPLE_PATH
 
 
-def _load_human() -> dict:
-    if not HUMAN_PATH.exists():
-        return {"judge": "human", "labels": []}
-    return json.loads(HUMAN_PATH.read_text(encoding="utf-8"))
-
-
 def label_pair(sample_id_value: str, grade: int) -> None:
-    grade = int(grade)
-    if grade not in (0, 1, 2, 3):
-        raise SystemExit("grade must be 0, 1, 2, or 3")
     sample = json.loads(SAMPLE_PATH.read_text(encoding="utf-8"))
     known = {pair["sample_id"] for pair in sample["pairs"]}
-    if sample_id_value not in known:
-        raise SystemExit(f"unknown sample_id {sample_id_value}")
-    human = _load_human()
-    labels = [row for row in human.get("labels", []) if row["sample_id"] != sample_id_value]
-    labels.append({"sample_id": sample_id_value, "grade": grade})
-    labels.sort(key=lambda row: row["sample_id"])
-    HUMAN_PATH.write_text(
-        json.dumps({"judge": "human", "labels": labels}, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    save_grade(HUMAN_PATH, known, sample_id_value, grade)
 
 
 def main() -> None:
@@ -154,7 +140,7 @@ def main() -> None:
         return
     if args.command == "show":
         sample = json.loads(SAMPLE_PATH.read_text(encoding="utf-8"))
-        labeled = {row["sample_id"] for row in _load_human().get("labels", [])}
+        labeled = read_grades(HUMAN_PATH, {pair["sample_id"] for pair in sample["pairs"]})
         pending = [pair for pair in sample["pairs"] if pair["sample_id"] not in labeled]
         if not pending:
             print("No unlabeled pairs left in the sample.")

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Compare six search methods on the same 30 Netflix catalog queries. Inspect the titles, relevance grades and uncertainty behind each result.">
+  <title>Retrieval study · Netflix Catalog Search</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="results.js"></script>
+  <script defer src="explorer.js"></script>
+</head>
+<body>
+  <header><span>Netflix Catalog Search</span><a href="https://github.com/NikosMav/netflix-catalog-search">Source on GitHub ↗</a></header>
+  <main>
+    <section class="overview">
+      <div><h1>When does<br>reranking help?</h1>
+        <p>Six systems searched the same catalog of 7,787 titles. Compare their rankings on 30 held-out queries and inspect the evidence behind each grade.</p>
+        <a href="#rankings">Explore the rankings ↓</a>
+      </div>
+      <figure><figcaption>Mean nDCG@10 <small>Higher is better</small></figcaption><div id="bars"></div></figure>
+    </section>
+    <section id="rankings">
+      <h2>Compare rankings</h2>
+      <div class="controls">
+        <label>Held-out query<select id="query"></select></label>
+        <label>Compare with BM25<select id="method"></select></label>
+      </div>
+      <p id="delta" aria-live="polite"></p>
+      <p class="hint">Open a title for its catalog description and the judge’s rationale. Grades range from 0 (unrelated) to 3 (highly relevant).</p>
+      <div class="columns" id="lists"></div>
+    </section>
+    <section class="methodology">
+      <h2>How much confidence?</h2>
+      <p id="effect"></p><p id="fusion"></p>
+      <p>Each interval resamples the same 30 queries in pairs. It describes uncertainty across these authored queries. An LLM graded shuffled catalog cards with system names and ranks hidden. The intervals assume those grades are fixed.</p>
+      <p id="review"></p>
+      <a href="https://github.com/NikosMav/netflix-catalog-search/blob/main/RETRIEVAL.md">Read the evaluation protocol and limitations ↗</a>
+    </section>
+  </main>
+</body>
+</html>

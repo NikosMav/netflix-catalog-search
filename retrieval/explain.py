@@ -213,13 +213,11 @@ def how_it_works() -> str:
 def metric_notes(n_queries: int) -> str:
     """Definitions for the committed metrics. ``n_queries`` comes from the JSON."""
     return (
-        f"These means are over {n_queries} scored queries. "
-        "R@5 and R@10 are the fraction of labeled relevant titles that appear in "
-        "the top 5 and top 10. "
-        "nDCG@10 scores the top 10 with binary labels, giving more credit when a "
-        "relevant title is closer to rank 1. "
-        "MRR is 1 divided by the rank of the first relevant title, averaged over "
-        "the queries."
+        f"nDCG@10 covers {n_queries} queries with a positive grade. "
+        "It rewards highly relevant titles near the top. "
+        "R@5 and R@10 give the fraction of pooled titles graded 2 or 3 that appear "
+        "in the first five or ten results. MRR uses the reciprocal rank of the first "
+        "such title in the top ten. Recall and MRR omit queries with no grade of 2 or 3."
     )
 
 
