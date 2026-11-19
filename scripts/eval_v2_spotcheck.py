@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
-"""Draw a blinded spot-check sample and record human labels.
-
-The sample file does not contain the model judgment. Human labels go to
-data/eval_v2/spotcheck_human.json when a reviewer supplies a grade.
-
-Agreement is a separate command and stays pending until the human file exists.
-"""
+"""Reproduce the frozen stratified sample from its original binary strata."""
 
 from __future__ import annotations
 
@@ -16,15 +10,12 @@ from pathlib import Path
 
 import numpy as np
 
-from retrieval.review import read_grades, save_grade
-
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "configs" / "eval_v2.yaml"
 JUDGMENTS = ROOT / "data" / "eval_v2" / "judgments.json"
 BLINDED = ROOT / "data" / "eval_v2" / "blinded"
 SAMPLE_PATH = ROOT / "data" / "eval_v2" / "spotcheck_sample.json"
 STRATA = ROOT / "data" / "eval_v2" / "spotcheck_strata.json"
-HUMAN_PATH = ROOT / "data" / "eval_v2" / "spotcheck_human.json"
 
 
 def _config_numbers() -> tuple[float, int, int]:
@@ -100,7 +91,6 @@ def write_sample() -> Path:
     judgments = json.loads(JUDGMENTS.read_text(encoding="utf-8"))
     pairs = draw_sample(judgments, fraction, minimum, seed)
     payload = {
-        "status": "spot-check pending",
         "fraction": fraction,
         "minimum_per_present_label": minimum,
         "seed": seed,
@@ -116,50 +106,9 @@ def write_sample() -> Path:
     return SAMPLE_PATH
 
 
-def label_pair(sample_id_value: str, grade: int) -> None:
-    sample = json.loads(SAMPLE_PATH.read_text(encoding="utf-8"))
-    known = {pair["sample_id"] for pair in sample["pairs"]}
-    save_grade(HUMAN_PATH, known, sample_id_value, grade)
-
-
-def main() -> None:
-    parser = argparse.ArgumentParser(description="Blinded eval v2 spot-check for a human rater")
-    sub = parser.add_subparsers(dest="command", required=True)
-    sub.add_parser("draw", help="Write the seeded sample. Does not write human labels.")
-    show = sub.add_parser("show", help="Print one unlabeled card")
-    show.add_argument("--index", type=int, default=0)
-    mark = sub.add_parser("label", help="Record one human grade from 0 to 3")
-    mark.add_argument("sample_id")
-    mark.add_argument("--grade", type=int, required=True, choices=(0, 1, 2, 3))
-    args = parser.parse_args()
-
-    if args.command == "draw":
-        path = write_sample()
-        payload = json.loads(path.read_text(encoding="utf-8"))
-        print(f"Wrote {path} ({payload['n_sample']} pairs). spot-check pending")
-        return
-    if args.command == "show":
-        sample = json.loads(SAMPLE_PATH.read_text(encoding="utf-8"))
-        labeled = read_grades(HUMAN_PATH, {pair["sample_id"] for pair in sample["pairs"]})
-        pending = [pair for pair in sample["pairs"] if pair["sample_id"] not in labeled]
-        if not pending:
-            print("No unlabeled pairs left in the sample.")
-            return
-        card = pending[args.index]
-        print(f"sample_id: {card['sample_id']}")
-        print(f"query: {card['query']}")
-        print(f"{card['title']} ({card['type']}, {card['release_year']})")
-        print(card["listed_in"])
-        if card["director"]:
-            print(f"director: {card['director']}")
-        if card["cast"]:
-            print(f"cast: {card['cast']}")
-        print(card["description"])
-        print("spot-check pending")
-        return
-    label_pair(args.sample_id, args.grade)
-    print(f"Recorded {args.sample_id} grade {args.grade}")
-
-
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("command", choices=["draw"], nargs="?", default="draw")
+    parser.parse_args()
+    path = write_sample()
+    print(f"Reproduced the frozen sample at {path}")

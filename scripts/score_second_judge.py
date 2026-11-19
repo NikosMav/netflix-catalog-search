@@ -9,7 +9,7 @@ from pathlib import Path
 import numpy as np
 
 from retrieval.significance import paired_bootstrap_ci, two_sided_sign_test
-from scripts.eval_v2_agreement import agreement_from_labels, model_grade_map
+from retrieval.agreement import agreement_from_labels, model_grade_map
 from scripts.run_eval_v2 import _mean_row, _query_scores
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -68,8 +68,6 @@ def audit_report():
     original = model_grade_map(judgments)
     rankings = read(RESULTS / "top10.json")
     agreement = agreement_from_labels(original, labels, rankings)
-    # The existing condensed-ranking diagnostic here uses the second LLM's grades.
-    agreement["sample_only_condensed_ndcg@10"] = agreement.pop("human_ndcg@10")
     matrix = [[0] * 4 for _ in range(4)]
     disagreements = []
     for r in labels:

@@ -13,6 +13,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from filelock import FileLock
 from sklearn.neighbors import NearestNeighbors
 
 from retrieval.validation import bounded_top_k
@@ -30,6 +31,16 @@ def _cache_key(texts: list[str], model_name: str, text_field: str) -> str:
     h.update(str(len(texts)).encode())
     h.update("\n".join(texts).encode("utf-8"))
     return h.hexdigest()[:32]
+
+
+def _read_cached_embeddings(path: Path, n_rows: int) -> np.ndarray | None:
+    try:
+        cached = np.load(path, allow_pickle=False)
+    except (FileNotFoundError, EOFError, ValueError):
+        return None
+    if cached.ndim == 2 and cached.shape[0] == n_rows and cached.shape[1] > 0:
+        return cached
+    return None
 
 
 @dataclass
@@ -104,11 +115,23 @@ class DenseRetriever:
     def _load_or_encode(self, texts: list[str]) -> np.ndarray:
         key = _cache_key(texts, f"{self.backend}:{self.model_name}", self.text_field)
         path = self.cache_dir / f"{key}.npy"
-        if path.exists():
-            return np.load(path)
-        emb = self._encode(texts)
-        np.save(path, emb)
-        return emb
+        cached = _read_cached_embeddings(path, len(texts))
+        if cached is not None:
+            return cached
+        with FileLock(str(path) + ".lock"):
+            cached = _read_cached_embeddings(path, len(texts))
+            if cached is not None:
+                return cached
+            embeddings = self._encode(texts)
+            # Keep the old file usable until the entire array has been written.
+            temporary = path.with_suffix(".npy.tmp")
+            try:
+                with temporary.open("wb") as handle:
+                    np.save(handle, embeddings, allow_pickle=False)
+                temporary.replace(path)
+            finally:
+                temporary.unlink(missing_ok=True)
+            return embeddings
 
     def query(self, text: str, top_k: int = 10) -> pd.DataFrame:
         idxs, sims = self.rank_indices(text, top_k=top_k)

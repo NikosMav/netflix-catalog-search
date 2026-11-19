@@ -1,24 +1,10 @@
-#!/usr/bin/env python3
-"""Agreement for the graded eval v2 spot-check.
-
-Reports progress until every sampled card has a human grade.
-"""
+"""Agreement and condensed-ranking diagnostics for two sets of relevance grades."""
 
 from __future__ import annotations
 
-import json
-from pathlib import Path
-
-from retrieval.review import read_grades
 from retrieval.metrics import aggregate_mean, ndcg_at_k_graded
 from retrieval.significance import cohens_kappa, quadratic_weighted_kappa
 
-ROOT = Path(__file__).resolve().parents[1]
-JUDGMENTS = ROOT / "data" / "eval_v2" / "judgments.json"
-HUMAN_PATH = ROOT / "data" / "eval_v2" / "spotcheck_human.json"
-TOP10_PATH = ROOT / "results" / "eval_v2" / "top10.json"
-SAMPLE_PATH = ROOT / "data" / "eval_v2" / "spotcheck_sample.json"
-OUT_PATH = ROOT / "results" / "eval_v2" / "spotcheck_agreement.json"
 RELEVANT_AT = 2
 REPORTED = (
     "boolean",
@@ -39,12 +25,12 @@ def model_grade_map(judgments: dict) -> dict[str, int]:
     return mapping
 
 
-def _pair_grades(model: dict[str, int], human_labels: list[dict]) -> tuple[list[int], list[int], list[str]]:
+def _pair_grades(model: dict[str, int], second_labels: list[dict]) -> tuple[list[int], list[int], list[str]]:
     model_grades = []
-    human_grades = []
+    second_grades = []
     keys = []
     missing = []
-    for row in human_labels:
+    for row in second_labels:
         key = row["sample_id"]
         if key not in model:
             missing.append(key)
@@ -55,18 +41,18 @@ def _pair_grades(model: dict[str, int], human_labels: list[dict]) -> tuple[list[
         if grade not in (0, 1, 2, 3):
             raise SystemExit(f"{key} grade {grade} is outside 0-3")
         model_grades.append(model[key])
-        human_grades.append(grade)
+        second_grades.append(grade)
         keys.append(key)
     if missing:
-        raise SystemExit(f"human labels not in the model judgments: {missing}")
-    return model_grades, human_grades, keys
+        raise SystemExit(f"second-judge labels not in the model judgments: {missing}")
+    return model_grades, second_grades, keys
 
 
-def _stats(model_grades: list[int], human_grades: list[int]) -> dict:
-    weighted = quadratic_weighted_kappa(model_grades, human_grades, n_classes=4)
+def _stats(model_grades: list[int], second_grades: list[int]) -> dict:
+    weighted = quadratic_weighted_kappa(model_grades, second_grades, n_classes=4)
     binary = cohens_kappa(
         [1 if grade >= RELEVANT_AT else 0 for grade in model_grades],
-        [1 if grade >= RELEVANT_AT else 0 for grade in human_grades],
+        [1 if grade >= RELEVANT_AT else 0 for grade in second_grades],
     )
     return {
         "n": weighted["n"],
@@ -77,18 +63,18 @@ def _stats(model_grades: list[int], human_grades: list[int]) -> dict:
     }
 
 
-def human_ndcg_by_system(
-    human_labels: list[dict],
+def sample_ndcg_by_system(
+    second_labels: list[dict],
     top10: dict,
 ) -> list[dict]:
-    """nDCG@10 from human grades only.
+    """nDCG@10 from second-judge grades only.
 
-    For each query, documents without a human grade are dropped from the
-    system's top 10. Ideal gain uses every human grade on that query.
-    Queries whose human grades are all 0 are omitted.
+    For each query, documents without a second-judge grade are dropped from the
+    system's top 10. Ideal gain uses every second-judge grade on that query.
+    Queries whose second-judge grades are all 0 are omitted.
     """
     by_query: dict[tuple[str, str], dict[str, int]] = {}
-    for row in human_labels:
+    for row in second_labels:
         split, query_id, show_id = row["sample_id"].split(":", 2)
         by_query.setdefault((split, query_id), {})[show_id] = int(row["grade"])
     rankings = {
@@ -118,14 +104,14 @@ def human_ndcg_by_system(
 
 def agreement_from_labels(
     model: dict[str, int],
-    human_labels: list[dict],
+    second_labels: list[dict],
     top10: dict | None = None,
 ) -> dict:
-    model_grades, human_grades, keys = _pair_grades(model, human_labels)
-    payload = {"status": "scored", **_stats(model_grades, human_grades)}
+    model_grades, second_grades, keys = _pair_grades(model, second_labels)
+    payload = {"status": "scored", **_stats(model_grades, second_grades)}
     if not top10:
         payload["by_system"] = []
-        payload["human_ndcg@10"] = []
+        payload["sample_only_condensed_ndcg@10"] = []
         return payload
     retrieved: dict[str, set[str]] = {name: set() for name in top10.get("systems", REPORTED)}
     for item in top10["queries"]:
@@ -142,48 +128,9 @@ def agreement_from_labels(
             continue
         stats = _stats(
             [model_grades[i] for i in idxs],
-            [human_grades[i] for i in idxs],
+            [second_grades[i] for i in idxs],
         )
         by_system.append({"method": name, **stats})
     payload["by_system"] = by_system
-    payload["human_ndcg@10"] = human_ndcg_by_system(human_labels, top10)
+    payload["sample_only_condensed_ndcg@10"] = sample_ndcg_by_system(second_labels, top10)
     return payload
-
-
-def write_report() -> dict:
-    cards = json.loads(SAMPLE_PATH.read_text(encoding="utf-8"))["pairs"]
-    known = {card["sample_id"] for card in cards}
-    grades = read_grades(HUMAN_PATH, known)
-    progress = {"n": len(grades), "n_sample": len(cards)}
-    if len(grades) < len(cards):
-        status = "spot-check in progress" if grades else "spot-check pending"
-        payload = {"status": status, **progress}
-    else:
-        judgments = json.loads(JUDGMENTS.read_text(encoding="utf-8"))
-        top10 = json.loads(TOP10_PATH.read_text(encoding="utf-8"))
-        model = model_grade_map(judgments)
-        labels = [{"sample_id": key, "grade": grade} for key, grade in grades.items()]
-        payload = agreement_from_labels(model, labels, top10)
-        payload.update(progress)
-        differences = []
-        for card in cards:
-            key = card["sample_id"]
-            if model[key] != grades[key]:
-                differences.append({
-                    "sample_id": key, "query": card["query"], "title": card["title"],
-                    "model_grade": model[key], "human_grade": grades[key],
-                })
-        payload["disagreements"] = differences
-    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUT_PATH.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
-    return payload
-
-
-def main() -> None:
-    payload = write_report()
-    print(f"{payload['status']} ({payload['n']}/{payload['n_sample']})")
-    print(f"Wrote {OUT_PATH}")
-
-
-if __name__ == "__main__":
-    main()

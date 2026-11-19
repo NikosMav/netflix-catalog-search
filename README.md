@@ -69,4 +69,3 @@ Code is released under the [MIT License](LICENSE). Netflix catalog content remai
 the property of Netflix; IMDb-derived data is subject to IMDb's non-commercial terms.
 Wikipedia plot text in [`data/wikipedia_plots.jsonl`](data/wikipedia_plots.jsonl) is
 [CC BY-SA 4.0](data/WIKIPEDIA_ATTRIBUTION.md).
-The CC BY-SA attribution note for those excerpts is in [`data/README.md`](data/README.md).

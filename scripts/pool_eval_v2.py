@@ -24,8 +24,8 @@ ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "configs" / "eval_v2.yaml"
 DEV_QUERIES = ROOT / "data" / "labeled_queries.json"
 TEST_QUERIES = ROOT / "data" / "eval_v2" / "test_queries.json"
-OUT_DIR = ROOT / "data" / "eval_v2" / "blinded"
-STATS_PATH = ROOT / "data" / "eval_v2" / "pool_stats.json"
+OUT_DIR = ROOT / ".cache" / "eval_v2" / "blinded"
+STATS_PATH = OUT_DIR.parent / "pool_stats.json"
 
 CANDIDATE_FIELDS = (
     "show_id",

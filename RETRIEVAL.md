@@ -47,8 +47,10 @@ python -m retrieval query "war between vietnam and usa" --method bm25 --top-k 10
 python -m retrieval query "feel-good cooking competition show" --method dense-rerank
 python -m retrieval query "dark crime thriller set in Scandinavia" --method hybrid-rerank
 
-# Run all models again; inspect .cache/eval_v2/metrics.json and top10.json
+# Run all models again and inspect the metrics and top ten in .cache/eval_v2/
 python scripts/run_eval_v2.py
+# Optional: regenerate candidate cards and pool statistics under .cache/eval_v2/
+python scripts/pool_eval_v2.py
 # Legacy v1 file, still produced by:
 # python -m retrieval eval --failures  → results/eval_metrics.json
 ```

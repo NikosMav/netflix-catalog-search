@@ -16,4 +16,3 @@ htmlcov/
 # Local embedding / model caches
 .cache/
 *.npy
-data/eval_v2/spotcheck_human.json.lock

@@ -26,7 +26,6 @@ import streamlit as st
 
 st.set_page_config(page_title="Netflix catalog search", layout="centered")
 
-from retrieval.review import read_grades, save_grade
 from retrieval.catalog import load_catalog, show_id_to_index
 from retrieval.cli import _build_retriever
 from retrieval.evaluate import RERANK_CANDIDATE_K
@@ -245,8 +244,9 @@ def render_labeled_query(split: str) -> None:
         "This list is that method's ranking."
     )
     queries = _v2_queries(split)
-    labels = [f"{item['id']}: {item['query']}" for item in queries]
-    selected = st.selectbox("Labeled query", labels, key=f"eval_query_{split}")
+    by_id = {item["id"]: item for item in queries}
+    selected = st.selectbox("Labeled query", list(by_id), key=f"eval_query_{split}",
+                            format_func=lambda key: by_id[key]["query"])
     bm25_index = next(i for i, (method_id, _label) in enumerate(METHODS) if method_id == "bm25")
     method_label = st.selectbox(
         "Method",
@@ -254,9 +254,10 @@ def render_labeled_query(split: str) -> None:
         index=bm25_index,
         key="eval_method",
     )
+    method_id = METHOD_IDS[method_label]
     if st.button("Show ranking"):
-        item = next(query for query in queries if f"{query['id']}: {query['query']}" == selected)
-        method_id = METHOD_IDS[method_label]
+        item = by_id[selected]
+        st.session_state.pop("eval_run", None)
         try:
             hits, explanations = _search(method_id, item["query"], top_k=10)
         except Exception as exc:
@@ -264,6 +265,7 @@ def render_labeled_query(split: str) -> None:
         else:
             st.session_state["eval_run"] = {
                 "split": split,
+                "query_id": selected,
                 "query": item["query"],
                 "method_id": method_id,
                 "relevant": [str(sid) for sid in item["relevant_show_ids"]],
@@ -272,7 +274,7 @@ def render_labeled_query(split: str) -> None:
             }
 
     saved = st.session_state.get("eval_run")
-    if not saved or saved.get("split") != split:
+    if not saved or (saved["split"], saved.get("query_id"), saved["method_id"]) != (split, selected, method_id):
         return
     relevant = set(saved["relevant"])
     hits = saved["hits"]
@@ -378,48 +380,15 @@ def render_eval() -> None:
     render_labeled_query(split)
 
 
-def render_spotcheck() -> None:
-    st.subheader("Spot-check")
-    sample = json.loads((ROOT / "data" / "eval_v2" / "spotcheck_sample.json").read_text(encoding="utf-8"))
-    path = ROOT / "data" / "eval_v2" / "spotcheck_human.json"
-    known = {pair["sample_id"] for pair in sample["pairs"]}
-    labeled = read_grades(path, known)
-    pending = [pair for pair in sample["pairs"] if pair["sample_id"] not in labeled]
-    st.progress(len(labeled) / len(known), text=f"{len(labeled)} of {len(known)} cards graded")
-    st.caption("This page does not show the model judgment.")
-    if not pending:
-        from scripts.eval_v2_agreement import write_report
-
-        st.success("Every card has a human grade.")
-        if st.button("Calculate agreement"):
-            report = write_report()
-            st.metric("Exact agreement", f"{report['raw_agreement']:.1%}")
-            kappa = report["quadratic_weighted_kappa"]
-            st.metric("Quadratic-weighted kappa", "Undefined" if kappa is None else f"{kappa:.3f}")
-            st.write(f"{len(report['disagreements'])} disagreements")
-            if report["disagreements"]:
-                st.dataframe(report["disagreements"], hide_index=True)
-            st.caption("Saved to results/eval_v2/spotcheck_agreement.json.")
-        return
-    card = pending[0]
-    st.markdown(f"**Query:** {card['query']}")
-    year = card.get("release_year", "")
-    st.markdown(f"**{card['title']}**")
-    st.caption(f"{card.get('type', '')} · {year} · {card.get('listed_in', '')}")
-    if card.get("director"):
-        st.caption(f"Director: {card['director']}")
-    if card.get("cast"):
-        st.caption(f"Cast: {card['cast']}")
-    st.write(card.get("description") or "")
-    st.caption(f"sample_id: {card['sample_id']}")
-    st.caption("Use only the evidence on the card. Choose 0 for unrelated or too vague, "
-               "1 for a related subject missing a central constraint, "
-               "2 for a match in substance, and 3 for an exact match.")
-    columns = st.columns(4)
-    for grade, column in enumerate(columns):
-        if column.button(f"Grade {grade}", key=f"spot_{card['sample_id']}_{grade}"):
-            save_grade(path, known, card["sample_id"], grade)
-            st.rerun()
+def render_audit() -> None:
+    report = json.loads((ROOT / "results/eval_v2/second_judge_audit.json").read_text(encoding="utf-8"))
+    stats = report["agreement"]
+    st.subheader("Second-judge audit")
+    st.write(f"Two LLM reviewers graded the same {stats['n']} sampled query–title pairs.")
+    st.metric("Exact grade agreement", f"{stats['raw_agreement']:.1%}")
+    st.metric("Agreement on relevance (grade 2 or 3)", f"{stats['binary_agreement']:.1%}")
+    st.subheader("Where the judges differed")
+    st.dataframe(report["disagreements"], hide_index=True)
 
 
 def render_how() -> None:
@@ -439,25 +408,14 @@ def main() -> None:
     st.title("Netflix catalog search")
     st.caption("Offline text search over the public Netflix titles catalog.")
     pages = ["Search", "Evaluation", "Judge audit"]
-    first = "Spot-check" if st.query_params.get("page") == "review" else "Search"
-    if first == "Spot-check":
-        pages.append(first)
-    page = st.sidebar.radio("Page", pages, index=pages.index(first))
+    initial = "Judge audit" if st.query_params.get("page") == "review" else "Search"
+    page = st.sidebar.radio("Page", pages, index=pages.index(initial))
     if page == "Search":
         render_search()
     elif page == "Evaluation":
         render_eval()
-    elif page == "Judge audit":
-        report = json.loads((ROOT / "results/eval_v2/second_judge_audit.json").read_text(encoding="utf-8"))
-        stats = report["agreement"]
-        st.subheader("Second-judge audit")
-        st.write(f"Two LLM reviewers graded the same {stats['n']} sampled query–title pairs.")
-        st.metric("Exact grade agreement", f"{stats['raw_agreement']:.1%}")
-        st.metric("Agreement on relevance (grade 2 or 3)", f"{stats['binary_agreement']:.1%}")
-        st.subheader("Where the judges differed")
-        st.dataframe(report["disagreements"], hide_index=True)
     else:
-        render_spotcheck()
+        render_audit()
     if page in ("Search", "Evaluation"):
         render_how()
 

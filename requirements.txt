@@ -1,24 +1,2 @@
-# Core analysis stack (notebook-tested)
-pandas>=1.5,<3
-numpy>=1.23,<3
-scikit-learn>=1.2,<2
-matplotlib>=3.6,<4
-seaborn>=0.12,<1
-plotly>=5.14,<6
-country-list>=1.0,<2
-jupyter>=1.0,<2
-ipykernel>=6.0,<7
-nbconvert>=7.0,<8
-
-# Dense retrieval chapter (CPU-friendly local embeddings + CE rerank)
-sentence-transformers>=2.2,<4
-torch>=2.0,<3
-
-# Proper lexical baseline (BM25 Okapi)
-rank-bm25>=0.2.2,<1
-
-# Tests for IR metrics helpers
-pytest>=7.0,<9
-
-# Optional: OpenAI embedding backend for DenseRetriever(backend="openai")
-# openai>=1.0,<2
+# Install from the repository root. Dependency ranges live in pyproject.toml.
+-e .[notebook,dev]
