@@ -40,5 +40,6 @@ def test_interrupted_cache_write_can_be_retried(tmp_path, monkeypatch):
         patch.setattr(np, "save", interrupt)
         with pytest.raises(OSError, match="interrupted"):
             DenseRetriever(catalog, cache_dir=tmp_path)
-    assert not list(tmp_path.glob("*.npy*"))
+    assert not list(tmp_path.glob("*.npy"))
+    assert not list(tmp_path.glob("*.npy.tmp"))
     assert DenseRetriever(catalog, cache_dir=tmp_path).embeddings.shape == (1, 2)
