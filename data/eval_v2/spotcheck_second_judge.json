@@ -1,0 +1,1523 @@
+{
+  "judge": "Second LLM reviewer (OpenAI GPT-6 family)",
+  "rubric": "docs/eval_v2_rubric.md",
+  "sample": "data/eval_v2/spotcheck_sample.json",
+  "procedure": "Reviewed query and catalog card together, grouped by query. No first-judge grades, rationales, system identities, or ranks were displayed on the review cards. The reviewer had previously seen project results and selected examples. Grades were recorded before computing agreement.",
+  "labels": [
+    {
+      "sample_id": "test:southern_classic_drama:s1231",
+      "grade": 0,
+      "rationale": "This biography follows the founder of a modeling agency."
+    },
+    {
+      "sample_id": "test:southern_classic_drama:s2633",
+      "grade": 0,
+      "rationale": "The subjects are Hollywood artists reflecting on their careers."
+    },
+    {
+      "sample_id": "test:southern_classic_drama:s4582",
+      "grade": 0,
+      "rationale": "A contemporary Melbourne obstetrician's family troubles do not establish the Southern patriarch story."
+    },
+    {
+      "sample_id": "test:southern_classic_drama:s5732",
+      "grade": 0,
+      "rationale": "The BattlBox crew tests survival equipment."
+    },
+    {
+      "sample_id": "test:adam_sandler_comedy:s1417",
+      "grade": 3,
+      "rationale": "Sandler heads the cast of this feature comedy about a magical remote."
+    },
+    {
+      "sample_id": "test:adam_sandler_comedy:s4245",
+      "grade": 1,
+      "rationale": "This is a sketch-comedy film whose listed ensemble lacks Sandler."
+    },
+    {
+      "sample_id": "test:adam_sandler_comedy:s5680",
+      "grade": 1,
+      "rationale": "The comedy stars Ian Hecox and Anthony Padilla and lists no Sandler."
+    },
+    {
+      "sample_id": "test:adam_sandler_comedy:s7729",
+      "grade": 3,
+      "rationale": "The comedy lists Sandler first in its cast."
+    },
+    {
+      "sample_id": "dev:breaking_bad_universe:s1186",
+      "grade": 0,
+      "rationale": "This is a flamenco singer's biography."
+    },
+    {
+      "sample_id": "dev:breaking_bad_universe:s1957",
+      "grade": 0,
+      "rationale": "Fernández performs a stand-up set in Mexico City."
+    },
+    {
+      "sample_id": "dev:breaking_bad_universe:s1964",
+      "grade": 1,
+      "rationale": "The plot follows a different drug trafficker in Mexico."
+    },
+    {
+      "sample_id": "dev:breaking_bad_universe:s493",
+      "grade": 0,
+      "rationale": "This drama follows passengers before the El Ayyat train accident."
+    },
+    {
+      "sample_id": "dev:breaking_bad_universe:s5358",
+      "grade": 0,
+      "rationale": "Kinison performs stand-up about social topics."
+    },
+    {
+      "sample_id": "dev:breaking_bad_universe:s5923",
+      "grade": 1,
+      "rationale": "Escobar's imprisoned hit man anchors a different cartel series."
+    },
+    {
+      "sample_id": "dev:breaking_bad_universe:s7244",
+      "grade": 0,
+      "rationale": "The political plot concerns a novelist mistaken for an assassin."
+    },
+    {
+      "sample_id": "test:birmingham_gangsters:s1984",
+      "grade": 0,
+      "rationale": "This documentary follows women during World War II."
+    },
+    {
+      "sample_id": "test:birmingham_gangsters:s5125",
+      "grade": 1,
+      "rationale": "This historical series depicts the Dublin uprising during the war, a nearby period with a different conflict."
+    },
+    {
+      "sample_id": "test:birmingham_gangsters:s6259",
+      "grade": 0,
+      "rationale": "The series covers Cuba's political history."
+    },
+    {
+      "sample_id": "test:birmingham_gangsters:s6354",
+      "grade": 0,
+      "rationale": "The protagonists are lawyers seeking the return of antiquities."
+    },
+    {
+      "sample_id": "test:birmingham_gangsters:s6507",
+      "grade": 1,
+      "rationale": "The series covers organized crime in America through documentary accounts."
+    },
+    {
+      "sample_id": "test:birmingham_gangsters:s6700",
+      "grade": 0,
+      "rationale": "The film promotes American enlistment in World War II."
+    },
+    {
+      "sample_id": "dev:dave_chappelle_comedy:s1003",
+      "grade": 1,
+      "rationale": "Chappelle appears in the cast of a scripted jewel-heist comedy."
+    },
+    {
+      "sample_id": "dev:dave_chappelle_comedy:s1139",
+      "grade": 1,
+      "rationale": "The card names Ross and Attell as the performers of this stand-up series."
+    },
+    {
+      "sample_id": "dev:dave_chappelle_comedy:s1635",
+      "grade": 1,
+      "rationale": "This stand-up film features David Batra."
+    },
+    {
+      "sample_id": "dev:anime_death_note:s1653",
+      "grade": 0,
+      "rationale": "The undead attack a reality-TV studio."
+    },
+    {
+      "sample_id": "dev:anime_death_note:s3380",
+      "grade": 1,
+      "rationale": "This is another anime thriller about a daughter investigating her father's death."
+    },
+    {
+      "sample_id": "dev:anime_death_note:s3995",
+      "grade": 0,
+      "rationale": "The musician is investigating his wife's past."
+    },
+    {
+      "sample_id": "dev:anime_death_note:s5167",
+      "grade": 0,
+      "rationale": "The film follows Alice through an undead apocalypse."
+    },
+    {
+      "sample_id": "dev:formula1_docuseries:s1057",
+      "grade": 1,
+      "rationale": "This racing documentary is a feature about IndyCar."
+    },
+    {
+      "sample_id": "dev:formula1_docuseries:s2677",
+      "grade": 0,
+      "rationale": "This is a teen drama about Sydney students."
+    },
+    {
+      "sample_id": "dev:formula1_docuseries:s4379",
+      "grade": 0,
+      "rationale": "The documentary series explores European legends."
+    },
+    {
+      "sample_id": "dev:formula1_docuseries:s5054",
+      "grade": 0,
+      "rationale": "This fictional feature involves horse racing."
+    },
+    {
+      "sample_id": "dev:dark_german_series:s2021",
+      "grade": 1,
+      "rationale": "The anime series has time travel and a murder mystery but identifies a different protagonist and work."
+    },
+    {
+      "sample_id": "dev:dark_german_series:s3427",
+      "grade": 0,
+      "rationale": "A time capsule predicts disaster without establishing time travel."
+    },
+    {
+      "sample_id": "dev:dark_german_series:s5814",
+      "grade": 0,
+      "rationale": "Mysterious visitors threaten a family in a thriller feature."
+    },
+    {
+      "sample_id": "dev:dark_german_series:s6954",
+      "grade": 0,
+      "rationale": "The card describes a supernatural anthology without the requested time-travel mystery."
+    },
+    {
+      "sample_id": "dev:dark_german_series:s6966",
+      "grade": 0,
+      "rationale": "The series investigates astronomical phenomena."
+    },
+    {
+      "sample_id": "dev:dark_german_series:s7701",
+      "grade": 0,
+      "rationale": "The protagonists cross Egypt in search of family."
+    },
+    {
+      "sample_id": "test:mumbai_crime_series:s1149",
+      "grade": 0,
+      "rationale": "The Scottish sketch comedy includes cops among many comic characters."
+    },
+    {
+      "sample_id": "test:mumbai_crime_series:s2131",
+      "grade": 1,
+      "rationale": "The priest solves crimes in a British series."
+    },
+    {
+      "sample_id": "test:mumbai_crime_series:s3028",
+      "grade": 1,
+      "rationale": "This feature depicts a police frame-up in Andhra Pradesh."
+    },
+    {
+      "sample_id": "test:mumbai_crime_series:s5828",
+      "grade": 0,
+      "rationale": "The series adapts literary tales set in Bengal without a crime premise."
+    },
+    {
+      "sample_id": "test:mumbai_crime_series:s7260",
+      "grade": 0,
+      "rationale": "The Mumbai friends are looking for a place to play soccer."
+    },
+    {
+      "sample_id": "test:delhi_police_investigation:s1413",
+      "grade": 0,
+      "rationale": "The series recounts Bollywood careers."
+    },
+    {
+      "sample_id": "test:delhi_police_investigation:s1692",
+      "grade": 3,
+      "rationale": "The Delhi police search for the perpetrators of a gang rape is the series premise."
+    },
+    {
+      "sample_id": "test:delhi_police_investigation:s3036",
+      "grade": 1,
+      "rationale": "A police investigation drives this feature, which concerns a suspected murderer."
+    },
+    {
+      "sample_id": "test:delhi_police_investigation:s4272",
+      "grade": 0,
+      "rationale": "A costumed martial artist helps catch a criminal in this action film."
+    },
+    {
+      "sample_id": "test:delhi_police_investigation:s4278",
+      "grade": 0,
+      "rationale": "The Delhi encounter leads to romance after a lost phone."
+    },
+    {
+      "sample_id": "test:delhi_police_investigation:s4738",
+      "grade": 1,
+      "rationale": "The Delhi crime drama follows a woman's private search in a feature film."
+    },
+    {
+      "sample_id": "test:delhi_police_investigation:s7703",
+      "grade": 0,
+      "rationale": "The story concerns a goat that acquires divine status."
+    },
+    {
+      "sample_id": "test:jerry_seinfeld_standup:s3175",
+      "grade": 1,
+      "rationale": "The special is performed by Jim Jefferies."
+    },
+    {
+      "sample_id": "test:jerry_seinfeld_standup:s4096",
+      "grade": 1,
+      "rationale": "Mike Epps performs the stand-up special."
+    },
+    {
+      "sample_id": "test:john_mulaney_standup:s3174",
+      "grade": 1,
+      "rationale": "Jim Jefferies performs this stand-up film."
+    },
+    {
+      "sample_id": "test:john_mulaney_standup:s3716",
+      "grade": 0,
+      "rationale": "This is an animated preschool musical."
+    },
+    {
+      "sample_id": "test:john_mulaney_standup:s4076",
+      "grade": 1,
+      "rationale": "Two other comedians perform these improvised specials."
+    },
+    {
+      "sample_id": "test:john_mulaney_standup:s4093",
+      "grade": 1,
+      "rationale": "The solo comedy show features Mike Birbiglia."
+    },
+    {
+      "sample_id": "test:john_mulaney_standup:s6233",
+      "grade": 1,
+      "rationale": "This multi-comic showcase lists other performers."
+    },
+    {
+      "sample_id": "test:john_mulaney_standup:s853",
+      "grade": 1,
+      "rationale": "The stand-up compilation lists many comics but omits Mulaney."
+    },
+    {
+      "sample_id": "dev:standup_kevin_hart:s3345",
+      "grade": 3,
+      "rationale": "Hart performs his named tour show at Madison Square Garden."
+    },
+    {
+      "sample_id": "dev:standup_kevin_hart:s7139",
+      "grade": 1,
+      "rationale": "The solo stand-up performer is Tom Segura."
+    },
+    {
+      "sample_id": "test:marie_kondo_tidying:s2404",
+      "grade": 0,
+      "rationale": "Motoko's organization is a chain of command in an action anime."
+    },
+    {
+      "sample_id": "test:marie_kondo_tidying:s4389",
+      "grade": 0,
+      "rationale": "The contestants bake and decorate confections."
+    },
+    {
+      "sample_id": "test:marie_kondo_tidying:s5762",
+      "grade": 0,
+      "rationale": "Ehara conducts psychic consultations with celebrities."
+    },
+    {
+      "sample_id": "test:marie_kondo_tidying:s609",
+      "grade": 0,
+      "rationale": "The teenager flees authorities after acquiring powers."
+    },
+    {
+      "sample_id": "test:marie_kondo_tidying:s6713",
+      "grade": 0,
+      "rationale": "The organization in this documentary is a neo-Nazi group."
+    },
+    {
+      "sample_id": "test:marie_kondo_tidying:s6866",
+      "grade": 0,
+      "rationale": "The drama follows producers developing a deadly reality show."
+    },
+    {
+      "sample_id": "test:scorsese_deniro_crime:s2516",
+      "grade": 0,
+      "rationale": "The reunion comedy follows friends seeking extramarital adventures."
+    },
+    {
+      "sample_id": "test:scorsese_deniro_crime:s2561",
+      "grade": 0,
+      "rationale": "Guy Martin prepares a bomber for a farewell tour."
+    },
+    {
+      "sample_id": "test:scorsese_deniro_crime:s3099",
+      "grade": 1,
+      "rationale": "Irish detective mysteries supply a crime premise but neither requested filmmaker appears."
+    },
+    {
+      "sample_id": "test:scorsese_deniro_crime:s3104",
+      "grade": 1,
+      "rationale": "De Niro appears in this smuggling thriller directed by Tarantino."
+    },
+    {
+      "sample_id": "test:scorsese_deniro_crime:s3977",
+      "grade": 0,
+      "rationale": "The comic superheroes are a different cast and crew."
+    },
+    {
+      "sample_id": "test:scorsese_deniro_crime:s4966",
+      "grade": 1,
+      "rationale": "Scorsese interviews Lebowitz in a documentary series."
+    },
+    {
+      "sample_id": "test:scorsese_deniro_crime:s5987",
+      "grade": 0,
+      "rationale": "The Paris taxi thriller credits a different director and cast."
+    },
+    {
+      "sample_id": "test:scorsese_deniro_crime:s5995",
+      "grade": 3,
+      "rationale": "Scorsese directs De Niro in a thriller about a planned assassination."
+    },
+    {
+      "sample_id": "test:scorsese_deniro_crime:s6528",
+      "grade": 0,
+      "rationale": "The surgeon's family drama credits Lanthimos and a different cast."
+    },
+    {
+      "sample_id": "test:scorsese_deniro_crime:s7610",
+      "grade": 1,
+      "rationale": "Scorsese directs the drama about a former thug but the cast lacks De Niro."
+    },
+    {
+      "sample_id": "dev:mickey_mouse:s1500",
+      "grade": 0,
+      "rationale": "Cat and mouse describes a chase after boys steal a cruiser."
+    },
+    {
+      "sample_id": "dev:mickey_mouse:s1598",
+      "grade": 1,
+      "rationale": "The children's cartoon features a different mouse character named Danger Mouse."
+    },
+    {
+      "sample_id": "dev:mickey_mouse:s2124",
+      "grade": 0,
+      "rationale": "Cat and mouse describes a lawyer being pursued."
+    },
+    {
+      "sample_id": "dev:mickey_mouse:s5091",
+      "grade": 0,
+      "rationale": "Cat and mouse describes the cop's struggle with a killer."
+    },
+    {
+      "sample_id": "dev:mickey_mouse:s5105",
+      "grade": 0,
+      "rationale": "This documentary studies real rats."
+    },
+    {
+      "sample_id": "dev:mickey_mouse:s7471",
+      "grade": 2,
+      "rationale": "The collection explicitly includes a Mickey Mouse short among other Disney films."
+    },
+    {
+      "sample_id": "dev:naruto_anime:s4410",
+      "grade": 1,
+      "rationale": "Naruto is the protagonist of a feature film rather than a series."
+    },
+    {
+      "sample_id": "dev:naruto_anime:s4767",
+      "grade": 0,
+      "rationale": "A hematologist investigates paranormal events."
+    },
+    {
+      "sample_id": "test:lagos_trafficking_drama:s3028",
+      "grade": 0,
+      "rationale": "The drama concerns police framing laborers in Andhra Pradesh."
+    },
+    {
+      "sample_id": "test:lagos_trafficking_drama:s5399",
+      "grade": 1,
+      "rationale": "A police officer investigates trafficking, with no Lagos journalist on the card."
+    },
+    {
+      "sample_id": "test:lagos_trafficking_drama:s5569",
+      "grade": 0,
+      "rationale": "A Nigerian musician searches for his brother in Brazil."
+    },
+    {
+      "sample_id": "test:lagos_trafficking_drama:s5646",
+      "grade": 0,
+      "rationale": "The Nigerian documentary follows an actress exploring colorism."
+    },
+    {
+      "sample_id": "test:lagos_trafficking_drama:s7219",
+      "grade": 0,
+      "rationale": "The Boston case concerns a teenager seeking exoneration."
+    },
+    {
+      "sample_id": "dev:oceans_heist:s2193",
+      "grade": 0,
+      "rationale": "The characters search for their missing grandfather."
+    },
+    {
+      "sample_id": "dev:oceans_heist:s3710",
+      "grade": 1,
+      "rationale": "A botched heist leads to a father's murder mystery without the casino or named crew."
+    },
+    {
+      "sample_id": "dev:oceans_heist:s6250",
+      "grade": 1,
+      "rationale": "A Parisian crew carries out a robbery for a criminal organization."
+    },
+    {
+      "sample_id": "dev:oceans_heist:s6668",
+      "grade": 1,
+      "rationale": "The con artist's crew targets a fortified home."
+    },
+    {
+      "sample_id": "test:regency_london_romance:s1101",
+      "grade": 1,
+      "rationale": "The card specifies siblings, London and romance but gives no period evidence for the requested Regency setting."
+    },
+    {
+      "sample_id": "test:regency_london_romance:s1550",
+      "grade": 1,
+      "rationale": "The British family sitcom centers on a marriage to an American hippie."
+    },
+    {
+      "sample_id": "test:regency_london_romance:s170",
+      "grade": 0,
+      "rationale": "The filmmaker investigates his grandmother's history in a documentary."
+    },
+    {
+      "sample_id": "test:regency_london_romance:s1828",
+      "grade": 0,
+      "rationale": "The family stages a bygone era to conceal a coma's duration."
+    },
+    {
+      "sample_id": "test:regency_london_romance:s2206",
+      "grade": 0,
+      "rationale": "A bachelor fakes a marriage during a getaway in this comedy film."
+    },
+    {
+      "sample_id": "test:regency_london_romance:s2729",
+      "grade": 1,
+      "rationale": "The feature follows romances among London flatmates."
+    },
+    {
+      "sample_id": "test:regency_london_romance:s295",
+      "grade": 1,
+      "rationale": "This romantic series involves family expectations but takes place around a college and pop star."
+    },
+    {
+      "sample_id": "test:regency_london_romance:s3087",
+      "grade": 1,
+      "rationale": "Its romance echoes Benin history in a feature film."
+    },
+    {
+      "sample_id": "test:regency_london_romance:s3214",
+      "grade": 0,
+      "rationale": "The Joestar family battles supernatural villains across eras."
+    },
+    {
+      "sample_id": "test:regency_london_romance:s3733",
+      "grade": 0,
+      "rationale": "The London exchange students experience culture shock."
+    },
+    {
+      "sample_id": "test:regency_london_romance:s4707",
+      "grade": 1,
+      "rationale": "This series follows time-crossed lovers without specifying a Regency London family."
+    },
+    {
+      "sample_id": "test:regency_london_romance:s5147",
+      "grade": 1,
+      "rationale": "Mary, Queen of Scots anchors a historical court series in a different era."
+    },
+    {
+      "sample_id": "test:regency_london_romance:s5982",
+      "grade": 0,
+      "rationale": "An Argentine rock musician lives through social unrest."
+    },
+    {
+      "sample_id": "test:shah_rukh_romance:s1258",
+      "grade": 3,
+      "rationale": "The romantic film credits Shah Rukh Khan and centers a singer's romantic dilemma."
+    },
+    {
+      "sample_id": "test:shah_rukh_romance:s1809",
+      "grade": 1,
+      "rationale": "Khan plays a crime boss fighting European rivals in an action film."
+    },
+    {
+      "sample_id": "test:shah_rukh_romance:s2007",
+      "grade": 1,
+      "rationale": "Khan stars and his character bonds with a showgirl, but the card leaves the relationship's romantic nature unclear."
+    },
+    {
+      "sample_id": "test:shah_rukh_romance:s2864",
+      "grade": 1,
+      "rationale": "The Delhi romance lists a different cast."
+    },
+    {
+      "sample_id": "test:shah_rukh_romance:s4739",
+      "grade": 3,
+      "rationale": "The Indian folklore feature carries a romance genre and credits Shah Rukh Khan."
+    },
+    {
+      "sample_id": "test:shah_rukh_romance:s4873",
+      "grade": 0,
+      "rationale": "Aamir Khan stars in a political satire about corruption."
+    },
+    {
+      "sample_id": "test:shah_rukh_romance:s727",
+      "grade": 0,
+      "rationale": "The Thai romance is a Bangkok-set series with a different cast."
+    },
+    {
+      "sample_id": "test:shah_rukh_romance:s894",
+      "grade": 0,
+      "rationale": "This social drama concerns predation within a marriage and lists a different cast."
+    },
+    {
+      "sample_id": "test:korea_border_romance:s2687",
+      "grade": 0,
+      "rationale": "South Korea supplies agents in a multinational weapons thriller."
+    },
+    {
+      "sample_id": "test:korea_border_romance:s3747",
+      "grade": 0,
+      "rationale": "The Hong Kong kidnapping links strangers without the border-romance premise."
+    },
+    {
+      "sample_id": "test:korea_border_romance:s3884",
+      "grade": 0,
+      "rationale": "The Mumbai romance turns on class and regional differences in India."
+    },
+    {
+      "sample_id": "test:korea_border_romance:s4344",
+      "grade": 1,
+      "rationale": "This Korean romantic series sends its actress protagonist through time."
+    },
+    {
+      "sample_id": "test:korea_border_romance:s5941",
+      "grade": 0,
+      "rationale": "The stranded woman faces a deadly presence on an island."
+    },
+    {
+      "sample_id": "test:korea_border_romance:s7050",
+      "grade": 1,
+      "rationale": "The Korean romantic series follows an actor seeking a lost love."
+    },
+    {
+      "sample_id": "dev:heist_spain:s2816",
+      "grade": 1,
+      "rationale": "This documentary recounts hostages at a Peruvian ambassador's residence."
+    },
+    {
+      "sample_id": "dev:heist_spain:s3489",
+      "grade": 3,
+      "rationale": "The Spanish crime series explicitly puts eight thieves and their hostages inside the Royal Mint."
+    },
+    {
+      "sample_id": "dev:heist_spain:s4565",
+      "grade": 1,
+      "rationale": "Danny Ocean leads a caper film in Las Vegas."
+    },
+    {
+      "sample_id": "dev:heist_spain:s4767",
+      "grade": 0,
+      "rationale": "The investigator is a hematologist confronted with paranormal events."
+    },
+    {
+      "sample_id": "dev:heist_spain:s717",
+      "grade": 0,
+      "rationale": "Tom and Huck seek buried treasure."
+    },
+    {
+      "sample_id": "dev:exact_title_stranger_things:s1018",
+      "grade": 0,
+      "rationale": "The detective receives a case from a stranger."
+    },
+    {
+      "sample_id": "dev:exact_title_stranger_things:s1674",
+      "grade": 0,
+      "rationale": "The vacationing couple investigates a disturbing video."
+    },
+    {
+      "sample_id": "dev:exact_title_stranger_things:s6164",
+      "grade": 0,
+      "rationale": "A stranger is the potential victim in this button-pushing thriller."
+    },
+    {
+      "sample_id": "dev:exact_title_stranger_things:s6309",
+      "grade": 0,
+      "rationale": "The eerie events belong to a different horror film about a doll."
+    },
+    {
+      "sample_id": "dev:exact_title_stranger_things:s6877",
+      "grade": 0,
+      "rationale": "A detective investigates a stabbing in a different mystery series."
+    },
+    {
+      "sample_id": "dev:exact_title_stranger_things:s877",
+      "grade": 1,
+      "rationale": "The cast discusses Stranger Things episodes in a companion talk show."
+    },
+    {
+      "sample_id": "dev:witcher_fantasy:s441",
+      "grade": 1,
+      "rationale": "This fantasy series follows a time-traveling Cartagena witch rather than Geralt."
+    },
+    {
+      "sample_id": "dev:ww2_holocaust_docs:s2778",
+      "grade": 0,
+      "rationale": "The postwar drama concerns Hollywood careers."
+    },
+    {
+      "sample_id": "dev:ww2_holocaust_docs:s5100",
+      "grade": 0,
+      "rationale": "The wartime love story is set at the Indo-Burma border."
+    },
+    {
+      "sample_id": "dev:ww2_holocaust_docs:s7669",
+      "grade": 1,
+      "rationale": "This WWII documentary series gives no specific Holocaust focus on its card."
+    },
+    {
+      "sample_id": "test:adult_cartoon_hasbeen:s1607",
+      "grade": 0,
+      "rationale": "Dany Boon reflects on fatherhood in a stand-up show."
+    },
+    {
+      "sample_id": "test:adult_cartoon_hasbeen:s2289",
+      "grade": 0,
+      "rationale": "The sitcom follows Manhattan friends rather than a former sitcom star."
+    },
+    {
+      "sample_id": "test:adult_cartoon_hasbeen:s3707",
+      "grade": 0,
+      "rationale": "A teenage pop star discovers she is a magical princess in a children's series."
+    },
+    {
+      "sample_id": "test:adult_cartoon_hasbeen:s3821",
+      "grade": 0,
+      "rationale": "The mockumentary depicts six misfits without the former-star premise."
+    },
+    {
+      "sample_id": "test:adult_cartoon_hasbeen:s5820",
+      "grade": 0,
+      "rationale": "The film is a tribute to a comedy show."
+    },
+    {
+      "sample_id": "test:adult_cartoon_hasbeen:s5943",
+      "grade": 0,
+      "rationale": "Washed-up describes a corpse stranded in the wilderness."
+    },
+    {
+      "sample_id": "test:adult_cartoon_hasbeen:s6083",
+      "grade": 0,
+      "rationale": "This sitcom follows a small-town sheriff."
+    },
+    {
+      "sample_id": "test:adult_cartoon_hasbeen:s7759",
+      "grade": 0,
+      "rationale": "Two friends make an adult film to earn money."
+    },
+    {
+      "sample_id": "test:adult_cartoon_hasbeen:s907",
+      "grade": 0,
+      "rationale": "The edgy comedy follows teens through puberty without the requested former-star story."
+    },
+    {
+      "sample_id": "test:bully_redemption_anime:s3784",
+      "grade": 1,
+      "rationale": "The school anime follows classmates negotiating an embarrassing past but lacks bullying, deafness or amends."
+    },
+    {
+      "sample_id": "test:bully_redemption_anime:s5346",
+      "grade": 0,
+      "rationale": "The anime depicts a supernatural battle over a painting."
+    },
+    {
+      "sample_id": "test:bully_redemption_anime:s5413",
+      "grade": 0,
+      "rationale": "A religious cult endangers the former classmate in this rescue drama."
+    },
+    {
+      "sample_id": "test:bully_redemption_anime:s5510",
+      "grade": 0,
+      "rationale": "Madhu and her fiancé pass along a package."
+    },
+    {
+      "sample_id": "test:bully_redemption_anime:s5725",
+      "grade": 1,
+      "rationale": "A student confronts a bully and their relationship turns romantic."
+    },
+    {
+      "sample_id": "test:bully_redemption_anime:s5915",
+      "grade": 0,
+      "rationale": "A schoolgirl enters a talent contest to attract a classmate."
+    },
+    {
+      "sample_id": "test:bully_redemption_anime:s5950",
+      "grade": 0,
+      "rationale": "The anime hero acquires a demonic sword."
+    },
+    {
+      "sample_id": "test:bully_redemption_anime:s7132",
+      "grade": 0,
+      "rationale": "The documentary follows a singer's relationships with her fans."
+    },
+    {
+      "sample_id": "test:cat_transformation_anime:s254",
+      "grade": 3,
+      "rationale": "The anime feature explicitly describes a girl transforming into a cat."
+    },
+    {
+      "sample_id": "test:cat_transformation_anime:s4122",
+      "grade": 1,
+      "rationale": "In this superhero series the girl becomes Ladybug and a boy becomes Cat Noir."
+    },
+    {
+      "sample_id": "test:cat_transformation_anime:s4351",
+      "grade": 0,
+      "rationale": "A Joseon scholar rescues a princess."
+    },
+    {
+      "sample_id": "test:cat_transformation_anime:s4600",
+      "grade": 1,
+      "rationale": "The anime feature follows a girl encountering a ghost without a cat transformation."
+    },
+    {
+      "sample_id": "test:cat_transformation_anime:s5330",
+      "grade": 0,
+      "rationale": "These cats are pets having adventures while their human is away."
+    },
+    {
+      "sample_id": "test:cat_transformation_anime:s7741",
+      "grade": 0,
+      "rationale": "The anime series concerns musicians and bereavement."
+    },
+    {
+      "sample_id": "dev:boxing_biopic:s1485",
+      "grade": 1,
+      "rationale": "The documentary follows the life of an MMA champion."
+    },
+    {
+      "sample_id": "dev:boxing_biopic:s2507",
+      "grade": 0,
+      "rationale": "The fighter participated in India's independence movement."
+    },
+    {
+      "sample_id": "dev:boxing_biopic:s3500",
+      "grade": 0,
+      "rationale": "The former fighter served as a guerrilla."
+    },
+    {
+      "sample_id": "dev:boxing_biopic:s3973",
+      "grade": 2,
+      "rationale": "The named sports drama follows one woman's career in boxing, though the card leaves its basis in real life implicit."
+    },
+    {
+      "sample_id": "dev:boxing_biopic:s7070",
+      "grade": 1,
+      "rationale": "The biography documents a UFC fighter in mixed martial arts."
+    },
+    {
+      "sample_id": "dev:boxing_biopic:s7655",
+      "grade": 0,
+      "rationale": "The fighter appears in a Warsaw organized-crime story."
+    },
+    {
+      "sample_id": "dev:semantic_scandi_crime:s4994",
+      "grade": 1,
+      "rationale": "The serial-killer thriller fits the tone but supplies no Scandinavian setting."
+    },
+    {
+      "sample_id": "dev:semantic_scandi_crime:s5673",
+      "grade": 1,
+      "rationale": "The ex-cop crime thriller leaves the hometown's location unspecified."
+    },
+    {
+      "sample_id": "test:jordan_bulls_docuseries:s1144",
+      "grade": 0,
+      "rationale": "The Paris superbike racer becomes a drug courier."
+    },
+    {
+      "sample_id": "test:jordan_bulls_docuseries:s1255",
+      "grade": 0,
+      "rationale": "The documentary follows an archivist preserving Indian cinema."
+    },
+    {
+      "sample_id": "test:jordan_bulls_docuseries:s3086",
+      "grade": 1,
+      "rationale": "The NBA documentary follows Allen Iverson's career."
+    },
+    {
+      "sample_id": "test:jordan_bulls_docuseries:s4784",
+      "grade": 0,
+      "rationale": "The investigation concerns a childhood-favorite DJ."
+    },
+    {
+      "sample_id": "test:jordan_bulls_docuseries:s5608",
+      "grade": 0,
+      "rationale": "The documentary covers Compaq's early competition with IBM."
+    },
+    {
+      "sample_id": "test:jordan_bulls_docuseries:s5928",
+      "grade": 0,
+      "rationale": "The documentary critiques American prisons."
+    },
+    {
+      "sample_id": "test:jordan_bulls_docuseries:s608",
+      "grade": 1,
+      "rationale": "The basketball documentary concerns an amateur youth league."
+    },
+    {
+      "sample_id": "test:jordan_bulls_docuseries:s6586",
+      "grade": 0,
+      "rationale": "Michael Mishra is a kidnapper seeking romance."
+    },
+    {
+      "sample_id": "test:doping_scandal_doc:s4536",
+      "grade": 0,
+      "rationale": "The documentary examines forecasting and statistics."
+    },
+    {
+      "sample_id": "test:doping_scandal_doc:s472",
+      "grade": 0,
+      "rationale": "The fictional conspiracy links a corporation to terrorists."
+    },
+    {
+      "sample_id": "test:doping_scandal_doc:s5608",
+      "grade": 0,
+      "rationale": "The subject is competition in the computer industry."
+    },
+    {
+      "sample_id": "test:doping_scandal_doc:s608",
+      "grade": 0,
+      "rationale": "The documentary addresses the professionalization of youth basketball without doping allegations."
+    },
+    {
+      "sample_id": "test:doping_scandal_doc:s6810",
+      "grade": 1,
+      "rationale": "Doping questions surround CrossFit athletes, but the card offers no conspiracy evidence."
+    },
+    {
+      "sample_id": "dev:space_documentary:s2836",
+      "grade": 1,
+      "rationale": "This docufiction concerns the acquisition of a space program without showing astronauts' daily lives."
+    },
+    {
+      "sample_id": "dev:space_documentary:s3629",
+      "grade": 0,
+      "rationale": "The BBC crew explains how it captured footage for Life."
+    },
+    {
+      "sample_id": "dev:space_documentary:s4222",
+      "grade": 1,
+      "rationale": "It depicts life on a moon base through a fictional astronaut."
+    },
+    {
+      "sample_id": "dev:space_documentary:s4656",
+      "grade": 1,
+      "rationale": "Eight astronauts discuss Earth; the card leaves life aboard a spacecraft outside its stated focus."
+    },
+    {
+      "sample_id": "dev:space_documentary:s6400",
+      "grade": 0,
+      "rationale": "The woman animates a clay child in a horror story."
+    },
+    {
+      "sample_id": "dev:space_documentary:s6665",
+      "grade": 0,
+      "rationale": "The space caster visits worlds inside a simulator."
+    },
+    {
+      "sample_id": "dev:space_documentary:s6890",
+      "grade": 1,
+      "rationale": "The fictional teen lives on Mars in a romance and adventure film."
+    },
+    {
+      "sample_id": "test:gymnastics_abuse_doc:s1546",
+      "grade": 0,
+      "rationale": "The abuse survivor is a domestic worker in Kuala Lumpur."
+    },
+    {
+      "sample_id": "test:gymnastics_abuse_doc:s1903",
+      "grade": 0,
+      "rationale": "The investigators document dictators' attacks on civilians."
+    },
+    {
+      "sample_id": "test:gymnastics_abuse_doc:s259",
+      "grade": 0,
+      "rationale": "The comedy concerns a village doctor during the Russian Revolution."
+    },
+    {
+      "sample_id": "test:gymnastics_abuse_doc:s3149",
+      "grade": 0,
+      "rationale": "Slate's special combines stand-up with family conversations."
+    },
+    {
+      "sample_id": "test:gymnastics_abuse_doc:s4347",
+      "grade": 1,
+      "rationale": "A young gymnast joins a new club in a children's series without the abuse investigation."
+    },
+    {
+      "sample_id": "test:gymnastics_abuse_doc:s6476",
+      "grade": 0,
+      "rationale": "The documentary chronicles MMA fighters' careers and struggles."
+    },
+    {
+      "sample_id": "dev:social_media_doc:s2288",
+      "grade": 1,
+      "rationale": "A fictional horror account targets the social-media user's friends."
+    },
+    {
+      "sample_id": "dev:social_media_doc:s5085",
+      "grade": 0,
+      "rationale": "Video-game friends use the internet to save a broken game."
+    },
+    {
+      "sample_id": "dev:social_media_doc:s5311",
+      "grade": 1,
+      "rationale": "The comic covers social media among several stand-up topics."
+    },
+    {
+      "sample_id": "dev:social_media_doc:s6886",
+      "grade": 0,
+      "rationale": "Town residents build a society after others vanish."
+    },
+    {
+      "sample_id": "dev:social_media_doc:s7205",
+      "grade": 1,
+      "rationale": "The children's series addresses the dangers of social media among its life lessons."
+    },
+    {
+      "sample_id": "dev:chess_drama:s2518",
+      "grade": 0,
+      "rationale": "The police chief anticipates a killer's moves without a chess premise."
+    },
+    {
+      "sample_id": "dev:chess_drama:s5223",
+      "grade": 0,
+      "rationale": "The drama follows a schoolteacher's relationships."
+    },
+    {
+      "sample_id": "dev:chess_drama:s5458",
+      "grade": 1,
+      "rationale": "This drama features a prodigy in music."
+    },
+    {
+      "sample_id": "dev:chess_drama:s7161",
+      "grade": 0,
+      "rationale": "The cartoon spoofs reality competition."
+    },
+    {
+      "sample_id": "test:divorce_drama:s1740",
+      "grade": 0,
+      "rationale": "The drama brings people together across castes without a marital breakdown."
+    },
+    {
+      "sample_id": "test:divorce_drama:s3053",
+      "grade": 2,
+      "rationale": "A married couple's deliberate fighting puts their relationship on an uncertain course."
+    },
+    {
+      "sample_id": "test:divorce_drama:s3920",
+      "grade": 0,
+      "rationale": "The card links four stories to the partition of India without a marital premise."
+    },
+    {
+      "sample_id": "test:divorce_drama:s4265",
+      "grade": 0,
+      "rationale": "The unmarried uncle helps two brothers with romantic problems."
+    },
+    {
+      "sample_id": "test:divorce_drama:s4349",
+      "grade": 1,
+      "rationale": "A mother's death and a father's neglect tear a family apart rather than a marriage."
+    },
+    {
+      "sample_id": "test:divorce_drama:s5303",
+      "grade": 1,
+      "rationale": "The bride repeatedly abandons weddings before the marriages begin."
+    },
+    {
+      "sample_id": "test:divorce_drama:s5860",
+      "grade": 0,
+      "rationale": "The family and job figure in Aziz's midlife crisis without a stated marital split."
+    },
+    {
+      "sample_id": "test:divorce_drama:s700",
+      "grade": 0,
+      "rationale": "Witchcraft accusations force a woman away from her family."
+    },
+    {
+      "sample_id": "test:trans_teen_drama:s4322",
+      "grade": 0,
+      "rationale": "A middle-aged mother decides to live on her own."
+    },
+    {
+      "sample_id": "test:trans_teen_drama:s4339",
+      "grade": 0,
+      "rationale": "The teenager seeks his birth family after leaving an orphanage."
+    },
+    {
+      "sample_id": "test:trans_teen_drama:s4464",
+      "grade": 0,
+      "rationale": "The teen's family story concerns foster care and revenge for a murder."
+    },
+    {
+      "sample_id": "test:trans_teen_drama:s6811",
+      "grade": 0,
+      "rationale": "The family experiences a sex scandal affecting a drama student."
+    },
+    {
+      "sample_id": "test:queen_elizabeth_drama:s1981",
+      "grade": 0,
+      "rationale": "Elizabeth is a newlywed exploring a forbidden room."
+    },
+    {
+      "sample_id": "test:queen_elizabeth_drama:s4402",
+      "grade": 0,
+      "rationale": "The series dramatizes Colombian drug cartels."
+    },
+    {
+      "sample_id": "test:queen_elizabeth_drama:s6708",
+      "grade": 0,
+      "rationale": "The drama follows young competitive dancers."
+    },
+    {
+      "sample_id": "test:queen_elizabeth_drama:s7669",
+      "grade": 0,
+      "rationale": "This documentary series focuses on restored wartime footage."
+    },
+    {
+      "sample_id": "test:queen_elizabeth_drama:s7680",
+      "grade": 0,
+      "rationale": "The documentary concerns US soldiers in Alaska."
+    },
+    {
+      "sample_id": "test:dystopian_therapy_film:s2125",
+      "grade": 0,
+      "rationale": "The young man enters a life of crime and faces a cop without a treatment premise."
+    },
+    {
+      "sample_id": "test:dystopian_therapy_film:s2672",
+      "grade": 1,
+      "rationale": "A young man's violent past resurfaces under medical care, but the card describes a coma."
+    },
+    {
+      "sample_id": "test:dystopian_therapy_film:s474",
+      "grade": 1,
+      "rationale": "The protagonist has homicidal impulses without a compulsory treatment storyline."
+    },
+    {
+      "sample_id": "test:dystopian_therapy_film:s4994",
+      "grade": 1,
+      "rationale": "The thriller explores a killer's psyche without the dystopian therapy premise."
+    },
+    {
+      "sample_id": "test:dystopian_therapy_film:s5173",
+      "grade": 1,
+      "rationale": "The surf therapy documentary follows traumatized veterans voluntarily seeking healing."
+    },
+    {
+      "sample_id": "test:dystopian_therapy_film:s6089",
+      "grade": 0,
+      "rationale": "The man battles church bureaucracy to remove his baptismal records."
+    },
+    {
+      "sample_id": "test:dystopian_therapy_film:s6444",
+      "grade": 0,
+      "rationale": "The child finds support for social anxiety from a dog."
+    },
+    {
+      "sample_id": "test:dystopian_therapy_film:s7297",
+      "grade": 0,
+      "rationale": "The man struggles over his father's plans for his future."
+    },
+    {
+      "sample_id": "dev:spy_thriller:s3712",
+      "grade": 2,
+      "rationale": "The disappearance of a lover with an ostensibly ordinary job draws the protagonist into dangerous espionage."
+    },
+    {
+      "sample_id": "dev:spy_thriller:s5779",
+      "grade": 1,
+      "rationale": "A secret agent's hidden identity drives an action comedy."
+    },
+    {
+      "sample_id": "dev:spy_thriller:s6053",
+      "grade": 1,
+      "rationale": "A Secret Service agent tackles a kidnapping plot without a stated undercover role."
+    },
+    {
+      "sample_id": "dev:spy_thriller:s6061",
+      "grade": 1,
+      "rationale": "The spy-titled action comedy sends a TV hopeful into a cartel plot."
+    },
+    {
+      "sample_id": "dev:spy_thriller:s6809",
+      "grade": 3,
+      "rationale": "The thriller explicitly follows undercover agents using a hotel as their cover."
+    },
+    {
+      "sample_id": "dev:christmas_family_movie:s1370",
+      "grade": 1,
+      "rationale": "The Christmas romantic comedy lacks evidence that it targets family viewing."
+    },
+    {
+      "sample_id": "dev:christmas_family_movie:s1869",
+      "grade": 3,
+      "rationale": "The family comedy explicitly centers on spreading Christmas joy."
+    },
+    {
+      "sample_id": "dev:christmas_family_movie:s5385",
+      "grade": 2,
+      "rationale": "The family film's orphan learns to succeed Santa in an upbeat holiday premise."
+    },
+    {
+      "sample_id": "dev:christmas_family_movie:s6220",
+      "grade": 3,
+      "rationale": "This family comedy sends a teenager to the North Pole to confront a threat to Christmas."
+    },
+    {
+      "sample_id": "dev:christmas_family_movie:s6221",
+      "grade": 3,
+      "rationale": "The family comedy follows brothers learning kindness by delivering holiday gifts."
+    },
+    {
+      "sample_id": "dev:semantic_cooking_show:s4392",
+      "grade": 2,
+      "rationale": "Novice bakers compete to reproduce sweets in a playful-sounding reality contest."
+    },
+    {
+      "sample_id": "dev:semantic_cooking_show:s6352",
+      "grade": 2,
+      "rationale": "Teams of chefs compete over international dishes; the card emphasizes tough judging."
+    },
+    {
+      "sample_id": "test:hidden_camera_horror:s1672",
+      "grade": 0,
+      "rationale": "The horror takes place in a high-tech prison."
+    },
+    {
+      "sample_id": "test:hidden_camera_horror:s4429",
+      "grade": 0,
+      "rationale": "The cameras document animals' lives in a nature series."
+    },
+    {
+      "sample_id": "test:hidden_camera_horror:s5065",
+      "grade": 2,
+      "rationale": "The horror feature puts a couple in a camera-rigged weekend house, though its rental status is unstated."
+    },
+    {
+      "sample_id": "test:hidden_camera_horror:s5410",
+      "grade": 0,
+      "rationale": "The documentary uses undercover cameras to film public brutality."
+    },
+    {
+      "sample_id": "test:hidden_camera_horror:s7332",
+      "grade": 0,
+      "rationale": "The reality series films police at work."
+    },
+    {
+      "sample_id": "test:makeover_reality:s2764",
+      "grade": 1,
+      "rationale": "The reality series enters hoarders' homes but does not describe a makeover."
+    },
+    {
+      "sample_id": "test:makeover_reality:s4617",
+      "grade": 0,
+      "rationale": "This scripted drama is about the pressures of reality stardom."
+    },
+    {
+      "sample_id": "test:makeover_reality:s6044",
+      "grade": 0,
+      "rationale": "The sitcom follows suburban teens spending time together."
+    },
+    {
+      "sample_id": "test:office_mockumentary:s1026",
+      "grade": 0,
+      "rationale": "The series follows a former sitcom star without a paper-company workplace."
+    },
+    {
+      "sample_id": "test:office_mockumentary:s4003",
+      "grade": 0,
+      "rationale": "Jobrani performs a stand-up set about politics and parenting."
+    },
+    {
+      "sample_id": "test:office_mockumentary:s6160",
+      "grade": 0,
+      "rationale": "The interactive film matches viewers to jobs at Baby Corp."
+    },
+    {
+      "sample_id": "dev:nature_planet_docs:s1907",
+      "grade": 1,
+      "rationale": "The nature series emphasizes landscapes and inhabitants without specifying wildlife."
+    },
+    {
+      "sample_id": "dev:preschool_kids_show:s1445",
+      "grade": 2,
+      "rationale": "Nursery rhymes, letters and animal sounds fit toddlers, although the card leaves animation implicit."
+    },
+    {
+      "sample_id": "dev:preschool_kids_show:s2618",
+      "grade": 0,
+      "rationale": "The cartoon unicorn appears in an adult crime story about a hit man."
+    },
+    {
+      "sample_id": "dev:preschool_kids_show:s5893",
+      "grade": 2,
+      "rationale": "The children's series explicitly follows preschoolers preparing for kindergarten but leaves animation implicit."
+    },
+    {
+      "sample_id": "dev:rock_climbing_doc:s6362",
+      "grade": 0,
+      "rationale": "Fred and his friends visit Vegas in a prehistoric comedy."
+    },
+    {
+      "sample_id": "test:tech_anthology:s2755",
+      "grade": 0,
+      "rationale": "This documentary series examines historical scams and forgeries."
+    },
+    {
+      "sample_id": "test:tech_anthology:s278",
+      "grade": 1,
+      "rationale": "A TV producer travels through time in a single feature comedy."
+    },
+    {
+      "sample_id": "test:tech_anthology:s4989",
+      "grade": 0,
+      "rationale": "The series presents stories about sports and friendship."
+    },
+    {
+      "sample_id": "test:tech_anthology:s5971",
+      "grade": 0,
+      "rationale": "The photographers document real places and cultures."
+    },
+    {
+      "sample_id": "test:tech_anthology:s7089",
+      "grade": 1,
+      "rationale": "The sci-fi thriller anthology matches the format, but the card gives no technology premise."
+    },
+    {
+      "sample_id": "test:mexican_cartel_1980s:s1949",
+      "grade": 1,
+      "rationale": "The series follows a Mexican drug lord without specifying the requested decade."
+    },
+    {
+      "sample_id": "test:mexican_cartel_1980s:s3531",
+      "grade": 1,
+      "rationale": "Cartel money figures in a Mexican prison heist feature without the stated era."
+    },
+    {
+      "sample_id": "test:mexican_cartel_1980s:s4059",
+      "grade": 0,
+      "rationale": "The prisoners' story concerns penitentiary life and rap."
+    },
+    {
+      "sample_id": "test:mexican_cartel_1980s:s6274",
+      "grade": 1,
+      "rationale": "The documentary series covers an actress's encounter with a Mexican drug lord without an eighties cartel focus."
+    },
+    {
+      "sample_id": "test:karate_sequel_series:s1246",
+      "grade": 1,
+      "rationale": "Former friends rekindle a physical rivalry decades later but the card lacks karate and a tournament."
+    },
+    {
+      "sample_id": "test:karate_sequel_series:s156",
+      "grade": 0,
+      "rationale": "The teen learns from caring for an injured horse."
+    },
+    {
+      "sample_id": "test:karate_sequel_series:s3465",
+      "grade": 0,
+      "rationale": "The protagonist hopes to join an organized gang in 1940s Hong Kong."
+    },
+    {
+      "sample_id": "test:karate_sequel_series:s4512",
+      "grade": 0,
+      "rationale": "The rivals are political opponents in a Viking village."
+    },
+    {
+      "sample_id": "test:karate_sequel_series:s4581",
+      "grade": 1,
+      "rationale": "A competitive gamer faces his rival before a tournament in a different discipline and time frame."
+    },
+    {
+      "sample_id": "test:karate_sequel_series:s530",
+      "grade": 0,
+      "rationale": "The teen's tournament is a deadly rock-paper-scissors game."
+    },
+    {
+      "sample_id": "test:karate_sequel_series:s5482",
+      "grade": 0,
+      "rationale": "The teen protagonists use time travel after a police shooting."
+    },
+    {
+      "sample_id": "test:wrongful_conviction_series:s1713",
+      "grade": 0,
+      "rationale": "Park is the Korean minister's name in a political drama."
+    },
+    {
+      "sample_id": "test:wrongful_conviction_series:s2003",
+      "grade": 0,
+      "rationale": "The officers patrol South Central Los Angeles."
+    },
+    {
+      "sample_id": "test:wrongful_conviction_series:s2062",
+      "grade": 1,
+      "rationale": "This docuseries concerns wrongful convictions without identifying the Central Park teenagers."
+    },
+    {
+      "sample_id": "test:wrongful_conviction_series:s3374",
+      "grade": 0,
+      "rationale": "The children want to keep playing in their neighborhood park."
+    },
+    {
+      "sample_id": "test:wrongful_conviction_series:s4408",
+      "grade": 1,
+      "rationale": "Naruto is falsely accused of an attack in a fantasy anime feature."
+    },
+    {
+      "sample_id": "test:wrongful_conviction_series:s4515",
+      "grade": 0,
+      "rationale": "The teen interviews others about suicide and mental health."
+    },
+    {
+      "sample_id": "test:wrongful_conviction_series:s4737",
+      "grade": 0,
+      "rationale": "The teenagers are hunted by a spirit."
+    },
+    {
+      "sample_id": "test:wrongful_conviction_series:s7029",
+      "grade": 0,
+      "rationale": "The Irish teens actually steal bicycles and search for cocaine."
+    },
+    {
+      "sample_id": "test:wrongful_conviction_series:s7170",
+      "grade": 0,
+      "rationale": "The friends commit scams in a Nova Scotia trailer park."
+    },
+    {
+      "sample_id": "test:wrongful_conviction_series:s7318",
+      "grade": 1,
+      "rationale": "A young woman is accused of lying about a rape in a different investigation."
+    },
+    {
+      "sample_id": "test:wrongful_conviction_series:s7585",
+      "grade": 3,
+      "rationale": "The series explicitly follows five falsely accused Harlem teens in the Central Park attack."
+    },
+    {
+      "sample_id": "dev:time_travel_romance:s1932",
+      "grade": 1,
+      "rationale": "The feature combines time travel and romance but is classified as drama."
+    },
+    {
+      "sample_id": "dev:time_travel_romance:s2796",
+      "grade": 1,
+      "rationale": "This comedy follows newlyweds on honeymoon without time travel."
+    },
+    {
+      "sample_id": "dev:time_travel_romance:s3102",
+      "grade": 0,
+      "rationale": "Whitehall performs stand-up about relationships and travel."
+    },
+    {
+      "sample_id": "dev:time_travel_romance:s3315",
+      "grade": 3,
+      "rationale": "The romantic comedy features a nineteenth-century nobleman transported to the present."
+    },
+    {
+      "sample_id": "dev:time_travel_romance:s6456",
+      "grade": 0,
+      "rationale": "The docuseries looks behind the scenes of holiday films."
+    },
+    {
+      "sample_id": "dev:time_travel_romance:s7144",
+      "grade": 1,
+      "rationale": "The subway time traveler marries a photographer in a romantic TV series."
+    },
+    {
+      "sample_id": "dev:time_travel_romance:s7587",
+      "grade": 3,
+      "rationale": "The romantic comedy centers on a photo booth that repeatedly sends Noah back in time."
+    },
+    {
+      "sample_id": "dev:true_crime_serial_killer:s208",
+      "grade": 1,
+      "rationale": "The documentary concerns a convicted killer without identifying serial murders."
+    },
+    {
+      "sample_id": "dev:true_crime_serial_killer:s282",
+      "grade": 1,
+      "rationale": "The true-crime documentary follows repeated kidnappings rather than killings."
+    },
+    {
+      "sample_id": "dev:true_crime_serial_killer:s3732",
+      "grade": 1,
+      "rationale": "The true-story drama concerns a string of murders but is a dramatization."
+    },
+    {
+      "sample_id": "dev:true_crime_serial_killer:s4290",
+      "grade": 0,
+      "rationale": "A fictional comic couple investigates a single yacht murder."
+    },
+    {
+      "sample_id": "dev:true_crime_serial_killer:s5534",
+      "grade": 1,
+      "rationale": "The true-crime documentary concerns a single girl's murder."
+    },
+    {
+      "sample_id": "dev:true_crime_serial_killer:s5673",
+      "grade": 0,
+      "rationale": "The thriller follows an ex-cop after prison without a serial-killer premise."
+    },
+    {
+      "sample_id": "dev:true_crime_serial_killer:s6694",
+      "grade": 1,
+      "rationale": "The documentary series follows the investigation of one stabbing murder."
+    },
+    {
+      "sample_id": "dev:true_crime_serial_killer:s7220",
+      "grade": 1,
+      "rationale": "The true-crime series studies trials and media influence without identifying a serial killer."
+    },
+    {
+      "sample_id": "dev:true_crime_serial_killer:s7280",
+      "grade": 1,
+      "rationale": "The fictional thriller explicitly concerns copycat serial murders."
+    },
+    {
+      "sample_id": "dev:true_crime_serial_killer:s7442",
+      "grade": 1,
+      "rationale": "A serial murderer drives this scripted detective series."
+    },
+    {
+      "sample_id": "dev:true_crime_serial_killer:s7775",
+      "grade": 1,
+      "rationale": "This is a true-story thriller dramatizing the Zodiac Killer investigation."
+    },
+    {
+      "sample_id": "dev:vietnam_war:s1410",
+      "grade": 0,
+      "rationale": "The conflict is the American Civil War between North and South."
+    },
+    {
+      "sample_id": "dev:vietnam_war:s7478",
+      "grade": 0,
+      "rationale": "The war satire is set on the India-Pakistan border."
+    },
+    {
+      "sample_id": "dev:zombie_apocalypse:s1827",
+      "grade": 1,
+      "rationale": "The survivalists prepare for societal collapse without zombies or a horror story."
+    },
+    {
+      "sample_id": "dev:zombie_apocalypse:s6562",
+      "grade": 2,
+      "rationale": "The children defend themselves during a zombie invasion, while the listed tone is comic."
+    }
+  ]
+}
