@@ -1,0 +1,377 @@
+{
+  "split": "test",
+  "query_id": "mexican_cartel_1980s",
+  "query": "series about Mexican drug cartels in the 1980s",
+  "candidates": [
+    {
+      "show_id": "s1882",
+      "title": "Drug Lords",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Witness the stories of history's most notorious kingpins, their terrifying enforcers, and the men and women who've sworn to bring them down."
+    },
+    {
+      "show_id": "s4403",
+      "title": "Narcos: Mexico",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, TV Action & Adventure, TV Dramas",
+      "cast": "Michael Peña, Diego Luna, Tenoch Huerta, Joaquin Cosio, José María Yazpik, Matt Letscher, Alyssa Diaz",
+      "director": "",
+      "description": "Witness the birth of the Mexican drug war in the 1980s as a gritty new \"Narcos\" saga chronicles the true story of the Guadalajara cartel's ascent."
+    },
+    {
+      "show_id": "s1595",
+      "title": "Dandy",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Alfonso Herrera, Damián Alcázar, Gabriela Roel, Itahisa Machado, Dagoberto Gama, Hernán Mendoza, Daniel Martínez, Christian Vasquez, Aleyda Gallardo, Danny Perea, Pakey Vázquez, Fátima Molina, Héctor Holten, Carlos Valencia",
+      "director": "",
+      "description": "A law professor is enlisted by Mexico's attorney general to join a special operations unit infiltrating the capital's most notorious drug cartel."
+    },
+    {
+      "show_id": "s5485",
+      "title": "Seis Manos",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Anime Series, Crime TV Shows",
+      "cast": "Aislinn Derbez, Mike Colter, Jonny Cruz, Angélica Vale, Vic Chao, Danny Trejo",
+      "director": "",
+      "description": "Orphans raised by a martial arts master are plunged into a mystery involving demonic powers, drug cartels, ancient rituals and blood sacrifice."
+    },
+    {
+      "show_id": "s1947",
+      "title": "El Cartel",
+      "type": "TV Show",
+      "release_year": 2008,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Manolo Cardona, Karen Martínez, Robinson Díaz, Diego Cadavid, Fernando Solórzano, Julian Arango, Sandra Reyes, Juan Pablo Raba, Fernando Arévalo",
+      "director": "",
+      "description": "One man makes a fateful decision to get involved with a Colombian drug cartel in this series based on a novel by Andrés López López."
+    },
+    {
+      "show_id": "s7699",
+      "title": "Yankee",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Pablo Lyle, Ana Layevska, Leonardo Daniel, Javier Díaz Dueñas, Daniel Martínez, Pamela Almanza, Roberto Blandón, Sebastián Ferrat, Gabriela Zamora, Mauricio Pimentel, Julio Casado, Eivaut Rischen",
+      "director": "",
+      "description": "On the run from the police, an Arizona man crosses into Mexico and gets deeply involved in drug trafficking – with the help of modern technology."
+    },
+    {
+      "show_id": "s2349",
+      "title": "Gang of the Caribbean",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Djédjé Apali, Eriq Ebouaney, Adama Niane, Vincent Vermignon, Djibril Pavadé, Zita Hanrot, Karim Belkhadra, Lise Lomi, Zoé Charron, Jocelyne Béroard, Julien Courbey, Lucien Jean-Baptiste, Romane Bohringer, Mathieu Kassovitz",
+      "director": "Jean-Claude Flamand-Barny",
+      "description": "Disillusioned by life in 1970s France, a West Indian expatriate named Jimmy joins a gang of idealistic robbers, but betrayal and violence soon follow."
+    },
+    {
+      "show_id": "s2844",
+      "title": "How to Fix a Drug Scandal",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Two drug lab chemists' shocking crimes cripple a state's judicial system and blur the lines of justice for lawyers, officials and thousands of inmates."
+    },
+    {
+      "show_id": "s4548",
+      "title": "Nuestra Lucha Libre",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries, International TV Shows, Spanish-Language TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "This documentary series lifts the mask on Mexican wrestling, diving into the daily lives of its stars, examining the sport’s cultural impact and more."
+    },
+    {
+      "show_id": "s3497",
+      "title": "La Línea: Shadow of Narco",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, Docuseries, International TV Shows",
+      "cast": "",
+      "director": "Pepe Mora",
+      "description": "A stone's throw from Africa, the Spanish beach town of La Línea is a drug smuggling hot spot. But the police and mayor are determined to change that."
+    },
+    {
+      "show_id": "s1090",
+      "title": "Breaking Bad",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "Crime TV Shows, TV Dramas, TV Thrillers",
+      "cast": "Bryan Cranston, Aaron Paul, Anna Gunn, Dean Norris, Betsy Brandt, R.J. Mitte, Bob Odenkirk, Steven Michael Quezada, Jonathan Banks, Giancarlo Esposito",
+      "director": "",
+      "description": "A high school chemistry teacher dying of cancer teams with a former student to secure his family's future by manufacturing and selling crystal meth."
+    },
+    {
+      "show_id": "s1883",
+      "title": "Drug Squad: Costa del Sol",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Hugo Silva, Álvaro Cervantes, Miki Esparbé, Jesús Castro, Sara Sálamo, Jorge Usón, Cayetana Cabezas, Pablo Béjar, Marco Cáceres, Olivia Delcán, Jorge Suquet, Daniel Holguín, Joaquín Galletero, Carolina Yuste, Ana Fernández",
+      "director": "",
+      "description": "Four intrepid and impulsive police officers form a special narcotics unit to combat the birth of drug trafficking on Spain's Costa del Sol in the 1970s."
+    },
+    {
+      "show_id": "s1949",
+      "title": "El Chapo",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, Spanish-Language TV Shows, TV Action & Adventure",
+      "cast": "Marco de la O, Humberto Busto, Alejandro Aguilar, Rodrigo Abed, Luis Fernando Peña, Juan Carlos Olivas, Rolf Petersen, Carlos Hernan Romo, Héctor Holten, Diego Vásquez, Teté Espinoza, Luis Rábago, Dolores Heredia, Cristina Michaus, Valentina Acosta, Juliette Pardau, Abril Schreiber",
+      "director": "",
+      "description": "This drama series chronicles the true story of the rise, capture and escape of notorious Mexican drug lord Joaquín \"El Chapo\" Guzmán."
+    },
+    {
+      "show_id": "s4059",
+      "title": "Mexicanos de Bronce",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, International Movies, Music & Musicals",
+      "cast": "",
+      "director": "Julio Fernández Talamantes",
+      "description": "When street vices keep them coming back, three prisoners make sense of their lives in a penitentiary – and beyond it – through rap."
+    },
+    {
+      "show_id": "s5487",
+      "title": "Selena: The Series",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Dramas",
+      "cast": "Christian Serratos, Gabriel Chavarria, Ricardo Chavira, Noemi Gonzalez, Seidy Lopez, Hunter Reese Peña, Julio Macias, Carlos Alfredo Jr., Jesse Posey, Madison Taylor Baez, Juan Martinez, Daniela Estrada, Paul Rodriguez Jr.",
+      "director": "",
+      "description": "Iconic Mexican-American performer Selena rises to fame as she and her family make sacrifices in order to achieve their lifelong dreams."
+    },
+    {
+      "show_id": "s6684",
+      "title": "The Monster of Mangatiti",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas",
+      "cast": "Greta Gregory, Mark Mitchinson, Bruce Hopkins, John Sumner, Flynn Allen, Harriet Beattie, Carolyn Dando, Laurie Dee, Ruth Dudding",
+      "director": "John Banas",
+      "description": "Real events are dramatized in the unthinkable story of a resilient teenager held prisoner by a seasoned predator on a remote farm in the 1980s."
+    },
+    {
+      "show_id": "s1073",
+      "title": "Brahman Naman",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, Independent Movies, International Movies",
+      "cast": "Shashank Arora, Tanmay Dhanania, Chaitanya Varad, Vaishwath Shankar, Sindhu Sreenivasa Murthy, Sid Mallya, Denzil Smith",
+      "director": "Qaushiq Mukherjee",
+      "description": "This homage to 1980s teen sex comedies follows a college quiz bowl champion who knows almost everything – except how to talk to women."
+    },
+    {
+      "show_id": "s6696",
+      "title": "The Naked Director",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Takayuki Yamada, Shinnosuke Mitsushima, Tetsuji Tamayama, Misato Morita, Tokio Emoto, Sairi Ito, Ami Tomite, Takenori Goto, Koyuki, Lily Franky, Jun Kunimura, Ryo Ishibashi, Kotaro Yoshida, Itsuji Itao, Kimiko Yo",
+      "director": "",
+      "description": "In 1980s Japan, one determined man turned every crushing setback into opportunity. His name was Toru Muranishi, and he revolutionized his industry."
+    },
+    {
+      "show_id": "s6274",
+      "title": "The Day I Met El Chapo",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, Docuseries, International TV Shows",
+      "cast": "Kate del Castillo",
+      "director": "",
+      "description": "Mexican superstar actress Kate del Castillo reveals the untold story of her encounter with El Chapo Guzmán, the world’s most-wanted drug lord."
+    },
+    {
+      "show_id": "s1955",
+      "title": "El desconocido",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Guillermo Iván, César Manjarrez, Estrella Solís, Liliana Moreno, Marco Uriel, Mario Zaragoza, Fernando Sarfatti, José Ángel Bichir, Paty Blanco, Pía Sanz, Scarlet Gruber, Pakey Vázquez, Ivonne Montero",
+      "director": "",
+      "description": "Based on real events, the fictional story of Mexican drug lord El Chato's number one hitman, El Cholo."
+    },
+    {
+      "show_id": "s4135",
+      "title": "Miss Dynamite",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Camila Sodi, Iván Sánchez, José María de Tavira, Hugo Stiglitz, José Sefami, Mauricio Isaac, Paulina Gaitán, Mara Cuevas, Mario Zaragoza, Alejandro Durán, Emilio Savinni, Pakey Vázquez, Anilú Pardo, Claudette Maillé, Rodrigo Murray, Camila Selser, Saúl Lisazo, Eréndira Ibarra",
+      "director": "",
+      "description": "Wealthy, beautiful Valentina falls in love, only to realize that her man and her family are involved with one of Mexico's most powerful drug cartels."
+    },
+    {
+      "show_id": "s6861",
+      "title": "The Seven Five",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Tiller Russell",
+      "description": "This riveting film examines the case of Mike Dowd, a corrupt Brooklyn cop who became dirtier than the drug dealers he was supposed to be policing."
+    },
+    {
+      "show_id": "s1964",
+      "title": "El señor de los Cielos",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Rafael Amaya, Ximena Herrera, Robinson Díaz, Raúl Méndez, Gabriel Porras, Carmen Villalobos, Mauricio Ochmann, Fernanda Castillo, Marlene Favela, Carmen Aub, Maritza Rodríguez",
+      "director": "",
+      "description": "Only Aurelio Casillas can fill Pablo Escobar's shoes and become Mexico's biggest drug trafficker of the '90s."
+    },
+    {
+      "show_id": "s3725",
+      "title": "Los tiempos de Pablo Escobar",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "Crime TV Shows, Docuseries, International TV Shows",
+      "cast": "",
+      "director": "Alessandro Angulo",
+      "description": "Featuring never-before-seen images, personal testimonies and more, this is the story of one of the most notorious drug smugglers of all time."
+    },
+    {
+      "show_id": "s4732",
+      "title": "Pacific Heat",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Crime TV Shows, TV Comedies",
+      "cast": "Rob Sitch, Santo Cilauro, Tom Gleisner, Rebecca Massey, Lucia Mastrantone",
+      "director": "",
+      "description": "In this animated satire, a covert squad of operatives short on smarts but long on confidence tackles crime on the glitzy Gold Coast of Australia."
+    },
+    {
+      "show_id": "s1884",
+      "title": "Drugs, Inc.",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "Mike Secher",
+      "director": "",
+      "description": "This absorbing documentary series follows the entire supply chain of the illicit drug trade, tracing its production, export, sale and consumption."
+    },
+    {
+      "show_id": "s4402",
+      "title": "Narcos",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, TV Action & Adventure, TV Dramas",
+      "cast": "Wagner Moura, Pedro Pascal, Boyd Holbrook, Damián Alcázar, Alberto Ammann, Francisco Denis, Pêpê Rapazote, Matias Varela, Michael Stahl-David, Matt Whelan, Arturo Castro, Javier Cámara, José María Yazpik, Eric Lange, Brett Cullen, Miguel Ángel Silvestre, Kerry Bishé, Paulina Gaitán, Cristina Umaña, Paulina García, Juan Sebastián Calero, Joanna Christie, Taliana Vargas, Andrea Londo, Manolo Cardona, Diego Cataño, Raúl Méndez, Bruno Bichir, Stephanie Sigman, Florencia Lozano, Juan Pablo Raba, Leynar Gomez, Konstantin Melikhov, Martina García, Maurice Compte, Mauricio Cujar, Jorge Monterrosa, Germán Jaramillo, Juan Pablo Shuk, Julián Díaz, Alejandro Buitrago, Federico Rivera",
+      "director": "",
+      "description": "The true story of Colombia's infamously violent and powerful drug cartels fuels this gritty gangster drama series."
+    },
+    {
+      "show_id": "s3816",
+      "title": "Luis Miguel - The Series",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, Spanish-Language TV Shows, TV Dramas",
+      "cast": "Diego Boneta, Juan Pablo Zurita, Camila Sodi, Óscar Jaenada, Izan Llunas, Paulina Dávila, Martín Bello, Anna Favella, César Bordón, Vanessa Bauche",
+      "director": "",
+      "description": "This series dramatizes the life story of Mexican superstar singer Luis Miguel, who has captivated audiences in Latin America and beyond for decades."
+    },
+    {
+      "show_id": "s3531",
+      "title": "Larceny",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure",
+      "cast": "Dolph Lundgren, Corbin Bernsen, Louis Mandylor, Isaac C. Singleton Jr., Jocelyn Osorio, Eddie J. Fernandez, David Fernandez Jr., Mauricio Mendoza, Steven Dell, Luis Gatica",
+      "director": "R. Ellis Frazier",
+      "description": "An ex-CIA contractor turned thief is forced to head a CIA gambit to infiltrate a black ops Mexican prison and steal $50 million in drug cartel money."
+    },
+    {
+      "show_id": "s1829",
+      "title": "Dope",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Filmed from the perspectives of dealers, users and the police, this vivid series offers a bracing look at the war on drugs."
+    },
+    {
+      "show_id": "s1515",
+      "title": "Crack: Cocaine, Corruption & Conspiracy",
+      "type": "Movie",
+      "release_year": 2021,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Stanley Nelson",
+      "description": "A cheap, powerful drug emerges during a recession, igniting a moral panic fueled by racism. Explore the complex history of crack in the 1980s."
+    },
+    {
+      "show_id": "s6327",
+      "title": "The Eighties",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "This nostalgic documentary series relives the 1980s from a variety of angles, exploring its impact on the politics, technology and culture of today."
+    },
+    {
+      "show_id": "s1948",
+      "title": "El Cartel 2",
+      "type": "TV Show",
+      "release_year": 2010,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Diego Cadavid, Robinson Díaz, Patricia Manterola, Carolina Guerra, John Álex Toro, Luis Eduardo Arango, Alejandro Martínez, Juan Sebastián Aragón, Víctor Mallarino, Santiago Moure, Carlos Echavarría, John Gertz",
+      "director": "",
+      "description": "Drug trafficker Pepe Cadena navigates the treacherous waters of warring cartels in Mexico and Colombia while avoiding capture by the DEA and police."
+    },
+    {
+      "show_id": "s3502",
+      "title": "La Piloto",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Livia Brito, Juan Eduardo Colucho, Arap Bethke, María Fernanda Yépes, Alejandro Nones, María De La Fuente, Verónica Montes, Natasha Domínguez, María Fernanda García, Mauricio Aspe, Stephanie Salas, Tommy Vasquez, Macarena Achaga",
+      "director": "",
+      "description": "Dreaming her whole life of becoming a pilot, Yolanda finds work as a flight attendant, unaware she'll soon be thrust into a drug smuggling operation."
+    },
+    {
+      "show_id": "s13",
+      "title": "1994",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, Docuseries, International TV Shows",
+      "cast": "",
+      "director": "Diego Enrique Osorno",
+      "description": "Archival video and new interviews examine Mexican politics in 1994, a year marked by the rise of the EZLN and the assassination of Luis Donaldo Colosio."
+    },
+    {
+      "show_id": "s4404",
+      "title": "Narcoworld: Dope Stories",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Ride along as police officers and drug smugglers go toe-to-toe, trying to outwit each other in locales around the world."
+    },
+    {
+      "show_id": "s6495",
+      "title": "The Innocent Man",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "John Grisham",
+      "director": "",
+      "description": "This documentary adaptation of John Grisham's only nonfiction book raises troubling questions about two murder cases in Ada, Oklahoma, in the 1980s."
+    }
+  ]
+}

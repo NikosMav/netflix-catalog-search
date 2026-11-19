@@ -1,0 +1,587 @@
+{
+  "split": "dev",
+  "query_id": "dark_german_series",
+  "query": "German time-travel mystery series Dark",
+  "candidates": [
+    {
+      "show_id": "s7701",
+      "title": "يوم الدين",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Rady Gamal, Ahmed Abdelhafiz, Shahira Fahmy, Shehab Ibrahim, Mohamed Abd El Azim, Osama Abdullah, Khaled Raafat, Mohamed Qishta, Shoq Emara, Mahmoud Fares",
+      "director": "Abu Bakr Shawky",
+      "description": "A man cured of leprosy and a young orphan leave their colony for the first time to travel across Egypt, hoping to find the families they lost."
+    },
+    {
+      "show_id": "s5227",
+      "title": "Riverdale",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, TV Dramas, TV Mysteries",
+      "cast": "K.J. Apa, Lili Reinhart, Camila Mendes, Cole Sprouse, Marisol Nichols, Madelaine Petsch, Ashleigh Murray, Mädchen Amick, Luke Perry, Casey Cott, Charles Melton, Mark Consuelos, Lochlyn Munro, Peter Bryant, Colin Lawrence, Molly Ringwald, Asha Bromfield, Barclay Hope, Hayley Law, Martin Cummins, Sarah Habel, Nathalie Boltt, Skeet Ulrich",
+      "director": "Rob Seidenglanz",
+      "description": "While navigating the troubled waters of sex, romance, school and family, teen Archie and his gang become entangled in a dark Riverdale mystery."
+    },
+    {
+      "show_id": "s64",
+      "title": "13 Reasons Why",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, TV Dramas, TV Mysteries",
+      "cast": "Dylan Minnette, Katherine Langford, Kate Walsh, Derek Luke, Brian d'Arcy James, Alisha Boe, Christian Navarro, Miles Heizer, Ross Butler, Devin Druid, Michele Selene Ang, Steven Silver, Amy Hargreaves",
+      "director": "",
+      "description": "After a teenage girl's perplexing suicide, a classmate receives a series of tapes that unravel the mystery of her tragic choice."
+    },
+    {
+      "show_id": "s673",
+      "title": "Babylon Berlin",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Volker Bruch, Liv Lisa Fries, Peter Kurth, Leonie Benesch, Matthias Brandt, Severija Janusauskaite, Fritzi Haberlandt, Ivan Shvedoff, Lars Eidinger, Anton von Lucke, Misel Maticevic",
+      "director": "",
+      "description": "A Soviet freight train's hijacking leads a haunted cop and a poor typist to uncover a political conspiracy amid the vice and glamour of 1929 Berlin."
+    },
+    {
+      "show_id": "s1911",
+      "title": "Eastsiders",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "TV Comedies, TV Dramas",
+      "cast": "Kit Williamson, Van Hansis, Constance Wu, Matthew McKelligon, John Halbach, Stephen Guarino",
+      "director": "",
+      "description": "Cal turns to his friends for help through a hilariously dark time when he discovers that his partner Thom's been cheating on him."
+    },
+    {
+      "show_id": "s6652",
+      "title": "The Maus",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Horror Movies, Independent Movies, International Movies",
+      "cast": "Alma Terzic, August Wittgenstein, Aleksandar Seksan, Sanin Milavic, Diana Fernández Pérez, Ella Jazz",
+      "director": "Yayo Herrero",
+      "description": "While traveling with her German boyfriend, Selma is confronted by the violent remnants of the Bosnian War and the ethnic cleansing her family faced."
+    },
+    {
+      "show_id": "s1400",
+      "title": "City in the Sky",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Docuseries, Science & Nature TV",
+      "cast": "",
+      "director": "",
+      "description": "This series explores the magnitude and scale of modern air travel, and the challenges faced by those responsible for its smooth functioning."
+    },
+    {
+      "show_id": "s3027",
+      "title": "Internet Famous",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies",
+      "cast": "Shane Dawson, Steve Greene, Amanda Cerny, Christian Delgrosso, Wendy McColm, Richard Ryan, Roger Bart, John Michael Higgins, Missi Pyle, Jimmy Tatro, Tay Zonday, Adam Busch",
+      "director": "Michael Gallagher",
+      "description": "Five viral Internet celebrities travel to a competition that will award one of them their own television series in this ensemble comedy."
+    },
+    {
+      "show_id": "s848",
+      "title": "Bert Kreischer: Secret Time",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Bert Kreischer",
+      "director": "Todd Biermann",
+      "description": "Shirtless comic Bert Kreischer relays personal secrets and stories about being a cool – if not always responsible – dad in this stand-up special."
+    },
+    {
+      "show_id": "s3214",
+      "title": "JoJo's Bizarre Adventure",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Kazuyuki Okitsu, Takehito Koyasu, Yoku Shioya, Yoji Ueda, Ayako Kawasumi, Tomokazu Sugita, Takuya Sato, Atsuko Tanaka, Atsushi Imaruoka, Daisuke Ono, Unsho Ishizuka, Kenta Miyake, Daisuke Hirakawa, Fuminori Komatsu, Yuki Ono, Yuki Kaji, Wataru Takagi, Takahiro Sakurai, Kensho Ono, Yuichi Nakamura, Junichi Suwabe, Kohsuke Toriumi, Daiki Yamashita, Junya Enoki",
+      "director": "",
+      "description": "Multiple generations of the Joestar family – all with the same nickname – confront supernatural villains through a series of time periods."
+    },
+    {
+      "show_id": "s6271",
+      "title": "The Darkness",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Kevin Bacon, Radha Mitchell, David Mazouz, Lucy Fry, Matt Walsh, Jennifer Morrison, Parker Mack, Paul Reiser, Ming-Na Wen, Tara Lynne Barr",
+      "director": "Greg McLean",
+      "description": "After bringing home a set of mysterious stones from the Grand Canyon, a boy unleashes an ancient force that begins to terrorize his family."
+    },
+    {
+      "show_id": "s214",
+      "title": "A Perfect Crime",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, Docuseries, International TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "This docuseries investigates the 1991 killing of politician Detlev Rohwedder, an unsolved mystery at the heart of Germany's tumultuous reunification."
+    },
+    {
+      "show_id": "s2008",
+      "title": "Enissa Amani: Ehrenwort",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Enissa Amani",
+      "director": "Max Amini",
+      "description": "Live from Hamburg, Iranian-German comedian Enissa Amani shares her take on German engineering, tax deductions and online fan-mail etiquette."
+    },
+    {
+      "show_id": "s4899",
+      "title": "Pokémon the Series",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Anime Series, Kids' TV",
+      "cast": "Sarah Natochenny, Laurie Hymes, Jessica Paquet, Rosie Reyes, Alyson Leigh Rosenfeld, Marc Swint, Rodger Parsons",
+      "director": "",
+      "description": "Ash and his Pikachu travel to the Alola region with his mother and enroll in the Pokémon school, where they confront the nefarious Team Skull."
+    },
+    {
+      "show_id": "s6894",
+      "title": "The spiral",
+      "type": "Movie",
+      "release_year": 1978,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Jan Nowicki, Maja Komorowska, Zofia Kucówna, Aleksander Bardini, Jan Świderski, Seweryna Broniszówna, Piotr Garlicki, Marian Glinka",
+      "director": "Krzysztof Zanussi",
+      "description": "When an unbearable stranger arrives at a winter mountain resort and vanishes overnight, his dark past comes to light."
+    },
+    {
+      "show_id": "s2021",
+      "title": "Erased",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Anime Series, International TV Shows, TV Thrillers",
+      "cast": "Tao Tsuchiya, Shinnosuke Mitsushima, Aoi Yuki, Chinatsu Akasaki, Yo Taichi, Akari Kito, Ayaka Nanase, Yukitoshi Kikuchi, Takahiro Mizushima, Minami Takayama, Mitsuru Miyamoto",
+      "director": "",
+      "description": "Satoru Fujinuma can travel back in time to save others' lives. When he wakes up 18 years in the past, he has a chance to save his murdered classmates."
+    },
+    {
+      "show_id": "s5890",
+      "title": "Super Dark Times",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Independent Movies, Thrillers",
+      "cast": "Owen Campbell, Charlie Tahan, Elizabeth Cappuccino, Max Talisman, Amy Hargreaves, Sawyer Barth, Adea Lennox, Ethan Botwick",
+      "director": "Kevin Phillips",
+      "description": "A tragic accident drives a wedge between two teenage boys, threatening a friendship that had seemed firm and unshakeable."
+    },
+    {
+      "show_id": "s488",
+      "title": "An American Tail: The Mystery of the Night Monster",
+      "type": "Movie",
+      "release_year": 1999,
+      "listed_in": "Children & Family Movies",
+      "cast": "Thomas Dekker, Lacey Chabert, Jane Singer, Nehemiah Persoff, Susan Boyd, Robert Hays, Pat Musick, Dom DeLuise, Candi Milo, Jeff Bennett",
+      "director": "Larry Latham",
+      "description": "When a monster goes on a mouse-napping spree in New York, Fievel and his friends help a reporter get to the bottom of the mystery."
+    },
+    {
+      "show_id": "s4467",
+      "title": "Night on Earth",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries, Science & Nature TV",
+      "cast": "Samira Wiley",
+      "director": "",
+      "description": "This nature series’ new technology lifts night’s veil to reveal the hidden lives of the world’s creatures, from lions on the hunt to bats on the wing."
+    },
+    {
+      "show_id": "s2293",
+      "title": "From Dusk Till Dawn",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Classic & Cult TV, TV Action & Adventure, TV Horror",
+      "cast": "D.J. Cotrona, Zane Holtz, Eiza Gonzalez, Jesse Garcia, Madison Davenport, Brandon Soo Hoo, Wilmer Valderrama, Robert Patrick, Jake Busey, Samantha Esteban, Don Johnson",
+      "director": "",
+      "description": "Bank-robbing brothers encounter vengeful lawmen and demons south of the border in this original series based on Robert Rodriguez' cult horror film."
+    },
+    {
+      "show_id": "s1611",
+      "title": "Dark",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Louis Hofmann, Oliver Masucci, Jördis Triebel, Maja Schöne, Karoline Eichhorn, Sebastian Rudolph, Anatole Taubman, Mark Waschke, Stephan Kampwirth, Anne Ratte-Polle, Andreas Pietschmann, Lisa Vicari, Michael Mendl, Angela Winkler",
+      "director": "",
+      "description": "A missing child sets four families on a frantic hunt for answers as they unearth a mind-bending mystery that spans three generations."
+    },
+    {
+      "show_id": "s1618",
+      "title": "Dark Places",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Charlize Theron, Nicholas Hoult, Chloë Grace Moretz, Tye Sheridan, Sterling Jerins, Corey Stoll, Christina Hendricks, Drea de Matteo, Sean Bridgers, Andrea Roth",
+      "director": "Gilles Paquet-Brenner",
+      "description": "Years after surviving a brutal crime as a child, Libby Day comes to believe that the brother she testified against for committing it may be innocent."
+    },
+    {
+      "show_id": "s2665",
+      "title": "Hazel Brugger: Tropical",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Hazel Brugger",
+      "director": "",
+      "description": "In this stand-up special, comedian Hazel Brugger offers her breezy takes on unruly geese, chatty gynecologists, German bank loans and more."
+    },
+    {
+      "show_id": "s6713",
+      "title": "The NSU-Complex",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Stefan Aust, Dirk Laabs",
+      "description": "For 13 years, the underground neo-Nazi organization NSU eluded German police while planting bombs, robbing banks and killing immigrants at random."
+    },
+    {
+      "show_id": "s6972",
+      "title": "The Untamed",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, TV Action & Adventure, TV Mysteries",
+      "cast": "Sean Xiao, Wang Yibo, Zoey Meng, Xuan Lu, Yu Bin, Wang Zhuocheng, Liu Haikuan, Zhu Zanjin, Wang Haoxuan, Ji Li",
+      "director": "",
+      "description": "In a magical world of inter-clan rivalry, two soulmates face treacherous schemes and uncover a dark mystery linked to a tragic event in the past."
+    },
+    {
+      "show_id": "s5341",
+      "title": "Safety Not Guaranteed",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Comedies, Independent Movies, Romantic Movies",
+      "cast": "Aubrey Plaza, Mark Duplass, Jake Johnson, Mary Lynn Rajskub, Jeff Garlin, Kristen Bell, Jenica Bergere, Karan Soni",
+      "director": "Colin Trevorrow",
+      "description": "A team of journalists are sent to find out who's behind a classified ad seeking a companion for time travel, then must decide how to approach him."
+    },
+    {
+      "show_id": "s5482",
+      "title": "See You Yesterday",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Sci-Fi & Fantasy, Thrillers",
+      "cast": "Eden Duncan-Smith, Dante Crichlow, Astro, Johnathan Nieves, Marsha Stephanie Blake, Wavyy Jonez, Myra Lucretia Taylor",
+      "director": "Stefon Bristol",
+      "description": "As two teen prodigies try to master the art of time travel, a tragic police shooting sends them on a series of dangerous trips to the past."
+    },
+    {
+      "show_id": "s6954",
+      "title": "The Twilight Zone (Original Series)",
+      "type": "TV Show",
+      "release_year": 1963,
+      "listed_in": "Classic & Cult TV, TV Sci-Fi & Fantasy",
+      "cast": "Rod Serling",
+      "director": "",
+      "description": "Hosted by creator Rod Serling, this groundbreaking anthology series presents tales of the supernatural that are often tinged with social commentary."
+    },
+    {
+      "show_id": "s1617",
+      "title": "Dark Matter",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "TV Sci-Fi & Fantasy, TV Thrillers",
+      "cast": "Marc Bendavid, Melissa O'Neil, Anthony Lemke, Alex Mallari Jr., Jodelle Ferland, Roger Cross, Zoie Palmer",
+      "director": "",
+      "description": "After waking up aboard a derelict spaceship with no memories, the crew of the Raza investigates the mystery of their identities and destination."
+    },
+    {
+      "show_id": "s4254",
+      "title": "Mr. Peabody & Sherman",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Children & Family Movies, Comedies, Sci-Fi & Fantasy",
+      "cast": "Ty Burrell, Max Charles, Ariel Winter, Stephen Colbert, Leslie Mann, Stanley Tucci, Allison Janney, Mel Brooks, Patrick Warburton, Stephen Tobolowsky, Lake Bell",
+      "director": "Rob Minkoff",
+      "description": "Resurrected from the 1960s animated series \"Rocky and Bullwinkle,\" canine genius Mr. Peabody and young Sherman take a dizzying ride through time."
+    },
+    {
+      "show_id": "s1615",
+      "title": "Dark Forces",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Horror Movies, Independent Movies, International Movies",
+      "cast": "Tenoch Huerta, Eréndira Ibarra, Dale Carley, Ariane Pellicer, Johana Blendl, Dai Liparoti, Mauricio Aspe, Nick Zedd",
+      "director": "Bernardo Arellano",
+      "description": "In search of his sister, a renegade criminal seeks answers at a sordid hotel where he encounters a sinister guest and romances a mysterious waitress."
+    },
+    {
+      "show_id": "s4822",
+      "title": "Penny Dreadful",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "TV Dramas, TV Horror, TV Mysteries",
+      "cast": "Josh Hartnett, Eva Green, Timothy Dalton, Reeve Carney, Rory Kinnear, Billie Piper, Danny Sapani, Harry Treadaway",
+      "director": "",
+      "description": "The classic tales of Dracula, Frankenstein, Dorian Gray and more are woven together in this horror series set on the dark streets of Victorian London."
+    },
+    {
+      "show_id": "s5481",
+      "title": "See You in Time",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Hans Chung, Mini Tsai, Albee Huang, David Chiu, Johnny Yang, Kuan Lin, Ray Yang, Liu Yu Shan",
+      "director": "",
+      "description": "A series of mysterious text messages from the future sends ripples through the lives of a delivery woman and an accomplished cyclist."
+    },
+    {
+      "show_id": "s7362",
+      "title": "Unsolved Mysteries",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Real cases of perplexing disappearances, shocking murders and paranormal encounters fuel this gripping revival of the iconic documentary series."
+    },
+    {
+      "show_id": "s3034",
+      "title": "Into the Night",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Dramas, TV Mysteries",
+      "cast": "Pauline Etienne, Laurent Capelluto, Stefano Cassetti, Mehmet Kurtuluş, Babetida Sadjo, Jan Bijvoet, Ksawery Szlenkier, Vincent Londez, Regina Bikkinina, Alba Gaïa Kraghede Bellugi, Nabil Mallat",
+      "director": "",
+      "description": "Passengers and crew aboard a hijacked overnight flight scramble to outrace the sun as a mysterious cosmic event wreaks havoc on the world below."
+    },
+    {
+      "show_id": "s1620",
+      "title": "Dark Tourist",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries, International TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "From a nuclear lake to a haunted forest, journalist David Farrier visits unusual – and often macabre – tourism spots around the world."
+    },
+    {
+      "show_id": "s3427",
+      "title": "Knowing",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Sci-Fi & Fantasy, Thrillers",
+      "cast": "Nicolas Cage, Chandler Canterbury, Rose Byrne, Lara Robinson, D.G. Maloney, Nadia Townsend, Alan Hopgood, Adrienne Pickering",
+      "director": "Alex Proyas",
+      "description": "An MIT astrophysics professor and his son unearth a string of numbers from a time capsule that seem to reveal a cataclysm that will wipe out humanity."
+    },
+    {
+      "show_id": "s7153",
+      "title": "Top 10 Secrets and Mysteries",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "British TV Shows, Docuseries, Science & Nature TV",
+      "cast": "",
+      "director": "",
+      "description": "This series investigates mysteries that persistently elude scientific explanation, such as mythical creatures, UFOs, sacred sites and more."
+    },
+    {
+      "show_id": "s4766",
+      "title": "Paranoid",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "British TV Shows, Crime TV Shows, International TV Shows",
+      "cast": "Indira Varma, Robert Glenister, Dino Fetscher, Neil Stuke, Christiane Paul, Lesley Sharp, Kevin Doyle",
+      "director": "",
+      "description": "When a woman is brutally murdered on a playground, a group of detectives find themselves drawn into a dark conspiracy as they search for the killer."
+    },
+    {
+      "show_id": "s1533",
+      "title": "Creeped Out",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "British TV Shows, Kids' TV, TV Thrillers",
+      "cast": "Victoria Diamond, William Romain, Sydney Wade, Jennifer James, Daniel Ryan, Robert Styles, Rhys Gannon, Maeve Larkin, Margaret Jackman, Katie Proctor, Jonathan Blake, Maximus Evans, Anya Lawrence, Tiffany Elefano, Diya Kittur, Berkley Silverman, Malen Clarkson, Jason Done, Rosina Carbone, Boris Burnell Anderson, Macey Howarth, Rebecca Hanssen, William Haresceugh, Chris Jack, Zita Sattar, Acushla-Tara Kupe, Tillie Amartey, Isabella Pinto, Bella Band, Lola Ogunyemi, Elizabeth Bower, Gianluca Gallucci, Jacob Henshaw, Amelia Curtis, Romy Weltman, Justin Paul Kelly, Jordan Poole, Thamela Mpumlwana, Jake Sim, Leah Choudhry, Daniel Ogbeide-John, Emma Gregory, Rachel Leskovac, Andonis Anthony, Kyle Breitkopf, Julian Richings, Kathryn Emily Douglas",
+      "director": "",
+      "description": "A masked figure known as \"The Curious\" collects tales of dark magic, otherworldly encounters and twisted technology in this kids anthology series."
+    },
+    {
+      "show_id": "s2768",
+      "title": "Hold the Dark",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure, Dramas",
+      "cast": "Jeffrey Wright, Alexander Skarsgård, James Badge Dale, Riley Keough, Julian Black Antelope, Tantoo Cardinal, Macon Blair, Jonathan Whitesell, Peter McRobbie",
+      "director": "Jeremy Saulnier",
+      "description": "In the grim Alaskan winter, a naturalist hunts for wolves blamed for killing a local boy, but he soon finds himself swept into a chilling mystery."
+    },
+    {
+      "show_id": "s4364",
+      "title": "My Travel Buddy",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Oguzhan Koç, İbrahim Büyükak, Emre Kınay, Aslı Bekiroğlu, Eda Ece, Bahar Sahin, Muharrem Bayrak, Toygan Avanoglu",
+      "director": "Bedran Güzel",
+      "description": "Days before Eid, a salesman fired from his job drives to Ayvalık to meet his girlfriend's family, but the trip goes astray due to his zany travel buddy."
+    },
+    {
+      "show_id": "s2998",
+      "title": "Inglourious Basterds",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Action & Adventure",
+      "cast": "Brad Pitt, Mélanie Laurent, Christoph Waltz, Eli Roth, Michael Fassbender, Diane Kruger, Daniel Brühl, Til Schweiger, Gedeon Burkhard, Jacky Ido, B.J. Novak, Sylvester Groth, Martin Wuttke",
+      "director": "Quentin Tarantino",
+      "description": "A Jewish cinema owner in occupied Paris is forced to host a Nazi premiere, where a group of American soldiers called the Basterds plans a face-off."
+    },
+    {
+      "show_id": "s288",
+      "title": "About Time",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Domhnall Gleeson, Rachel McAdams, Bill Nighy, Lydia Wilson, Lindsay Duncan, Richard Cordery, Tom Hollander, Margot Robbie, Joshua McGuire, Vanessa Kirby",
+      "director": "Richard Curtis",
+      "description": "When Tim learns that the men in his family can travel in time and change their own lives, he decides to go back and win the woman of his dreams."
+    },
+    {
+      "show_id": "s1616",
+      "title": "Dark Light",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Horror Movies, Independent Movies, Sci-Fi & Fantasy",
+      "cast": "Jessica Madsen, Opal Littleton, Ed Brody, Kristina Clifford, Ben Sullivan, Gerald Tyler, Weston Meredith",
+      "director": "Padraig Reynolds",
+      "description": "Implicated in her daughter's disappearance, a mother searches for answers when she returns to an old family home that may have an unwanted visitor."
+    },
+    {
+      "show_id": "s6966",
+      "title": "The Universe: Ancient Mysteries Solved",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Docuseries, Science & Nature TV",
+      "cast": "Erik Thompson",
+      "director": "",
+      "description": "From astronomical events to shapes and patterns in space, strange and wonderful phenomena are explored with modern science in this series."
+    },
+    {
+      "show_id": "s5814",
+      "title": "Stereo",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "International Movies, Thrillers",
+      "cast": "Jürgen Vogel, Moritz Bleibtreu, Petra Schmidt-Schaller, Georg Friedrich, Rainer Bock, Mark Zak, Helena Schönfelder, Fabian Hinrichs",
+      "director": "Maximilian Erlenwein",
+      "description": "Erik's peaceful rural family life is shaken by the arrival of sinister figures who claim to know him and a mysterious \"friend\" who may not even exist."
+    },
+    {
+      "show_id": "s1754",
+      "title": "Dieter Nuhr: Nuhr in Berlin",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Dieter Nuhr",
+      "director": "Volker Weicker",
+      "description": "The cerebral and popular German cabaret comic expounds his theories on gender norms, primal instincts and a decidedly gastrointestinal Big Bang."
+    },
+    {
+      "show_id": "s841",
+      "title": "Berlin Syndrome",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "International Movies, Thrillers",
+      "cast": "Matthias Habich, Max Riemelt, Teresa Palmer, Lucie Aron, Emma Bading",
+      "director": "Cate Shortland",
+      "description": "What starts as a passionate one-night stand quickly turns sinister when Clare learns she's locked inside Andi's apartment with no way out."
+    },
+    {
+      "show_id": "s1619",
+      "title": "Dark Skies",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Horror Movies, Sci-Fi & Fantasy",
+      "cast": "Keri Russell, Josh Hamilton, J.K. Simmons, Dakota Goyo, Kadan Rockett, L.J. Benet, Rich Hutchman, Myndy Crist, Annie Thurman, Jake Brennan",
+      "director": "Scott Stewart",
+      "description": "A couple has trouble convincing friends and neighbors that an alien is entering their house each night to terrorize their children."
+    },
+    {
+      "show_id": "s1613",
+      "title": "Dark Crimes",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Jim Carrey, Marton Csokas, Charlotte Gainsbourg, Agata Kulesza, Kati Outinen, Zbigniew Zamachowski, Danuta Kowalska, Vlad Ivanov, Robert Więckiewicz, Piotr Głowacki",
+      "director": "Alexandros Avranas",
+      "description": "A detective on a cold murder case discovers that a famous writer’s latest novel contains details chillingly similar to the crime he’s investigating."
+    },
+    {
+      "show_id": "s5400",
+      "title": "Sat Shri Akaal England",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Ammy Virk, Monica Gill, Karamjit Anmol, Sardar Sohi, Jarnail Singh, Satwant Kaur, Harby Sangha, Baljinder Darapuri",
+      "director": "Vikram Pradhan",
+      "description": "After several failed attempts to obtain a visa, a man desperate to escape Punjab pays a British woman to marry him so he can move to England."
+    },
+    {
+      "show_id": "s5563",
+      "title": "Sherlock",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "British TV Shows, Crime TV Shows, International TV Shows",
+      "cast": "Benedict Cumberbatch, Martin Freeman, Una Stubbs, Rupert Graves, Mark Gatiss, Andrew Scott",
+      "director": "",
+      "description": "In this updated take on Sir Arthur Conan Doyle's beloved mystery tales, the eccentric sleuth prowls the streets of modern London in search of clues."
+    },
+    {
+      "show_id": "s4217",
+      "title": "Monty Python's Fliegender Zirkus",
+      "type": "TV Show",
+      "release_year": 1972,
+      "listed_in": "International TV Shows, TV Comedies",
+      "cast": "Graham Chapman, John Cleese, Eric Idle, Terry Jones, Michael Palin, Connie Booth",
+      "director": "",
+      "description": "The Pythons elevate the absurd to new heights and bring their sketches to German TV, working in phonetic German, at times with an Australian accent."
+    },
+    {
+      "show_id": "s4547",
+      "title": "NSU German History X",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Anna Maria Mühe, Albrecht Schuch, Sebastian Urzendowsky, Almila Bagriacik, Tom Schilling, André Hennicke, Florian Lukas, Liv Lisa Fries, Sylvester Groth, Florian Stetter, Nina Gummich, Jonas Leonhardi, Ben Münchow, Maximilian Jaenisch",
+      "director": "",
+      "description": "After German reunification, the neo-Nazi National Socialist Underground begins a killing spree while cops fight an uphill battle to catch them."
+    },
+    {
+      "show_id": "s6674",
+      "title": "The Ministry of Time",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Spanish-Language TV Shows, TV Action & Adventure",
+      "cast": "Rodolfo Sancho, Aura Garrido, Nacho Fresneda, Cayetana Guillén Cuervo, Juan Gea, Jaime Blanch, Natalia Millan, Julián Villagrán, Hugo Silva, Francesca Piñón, Mar Saura, Ramón Langa, Andrés Gertrúdix, Macarena García",
+      "director": "",
+      "description": "Three officers from different eras work for a secret agency guarding Spain's past from time-traveling intruders trying to manipulate history."
+    },
+    {
+      "show_id": "s6931",
+      "title": "The Time Machine",
+      "type": "Movie",
+      "release_year": 2002,
+      "listed_in": "Action & Adventure, Sci-Fi & Fantasy",
+      "cast": "Guy Pearce, Samantha Mumba, Jeremy Irons, Mark Addy, Sienna Guillory, Phyllida Law, Alan Young, Omero Mumba, Yancey Arias, Orlando Jones",
+      "director": "Simon Wells",
+      "description": "Based on the H.G. Wells classic, this adventure follows a scientist and inventor who's determined to prove to doubters that time travel is possible."
+    },
+    {
+      "show_id": "s3259",
+      "title": "Justin Time",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "Kids' TV",
+      "cast": "Gage Munroe, Scott McCord, Jenna Warren",
+      "director": "",
+      "description": "In Justin's dreams, he and his imaginary friends Olive and Squidgy travel around the world learning about nature and other cultures."
+    }
+  ]
+}

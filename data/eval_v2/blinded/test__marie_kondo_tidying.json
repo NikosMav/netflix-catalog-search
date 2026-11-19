@@ -1,0 +1,727 @@
+{
+  "split": "test",
+  "query_id": "marie_kondo_tidying",
+  "query": "Marie Kondo home organization show",
+  "candidates": [
+    {
+      "show_id": "s2386",
+      "title": "Get Organized with The Home Edit",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Reality TV",
+      "cast": "",
+      "director": "",
+      "description": "Expert home organizers Clea and Joanna help celebrities and everyday clients edit, categorize and contain their clutter to create stunning spaces."
+    },
+    {
+      "show_id": "s1201",
+      "title": "Candyman",
+      "type": "Movie",
+      "release_year": 1992,
+      "listed_in": "Cult Movies, Horror Movies",
+      "cast": "Virginia Madsen, Tony Todd, Xander Berkeley, Kasi Lemmons, Vanessa Williams, DeJuan Guy, Michael Culkin, Stanley DeSantis",
+      "director": "Bernard Rose",
+      "description": "Grad student Helen Lyle unintentionally summons the Candyman, a hook-handed creature made flesh by other people's belief in him."
+    },
+    {
+      "show_id": "s7754",
+      "title": "Yunus Emre",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Gökhan Atalay, Payidar Tüfekçioglu, Baran Akbulut, Mehmet Çepiç, Seda Tosun, Mehmet Ali Tuncer, Asuman Çakır, Müge Uyar, Rüzgar Aksoy, Ergun Taş, Sedat Erdiş, Ahmet Talay, Umut Tanyolu, Murat Ercanlı, Birand Tunca, Atilla Kiliç, Saygin Asan, Emrah Girgin",
+      "director": "",
+      "description": "During the Mongol invasions, Yunus Emre leaves his home to travel across the Ottoman Empire, defying hardships and temptations to become a dervish."
+    },
+    {
+      "show_id": "s1831",
+      "title": "Dorohedoro",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Wataru Takagi, Reina Kondo, Kenyu Horiuchi, Yoshimasa Hosoya, Yu Kobayashi, Kengo Takanashi, Miyu Tomita, Toru Nara, Mitsuhiro Ichiki, Hisao Egawa, Soungdok, Mayu Udono, Anri Katsu, Shinichiro Miki, Hozumi Goda, Tetsu Inada, Takuma Terashima, Ryohei Kimura, Yuki Kaji",
+      "director": "",
+      "description": "Amnesiac Caiman seeks to undo his lizard head curse by killing the sorcerer responsible, with his friend Nikaido's help. In the Hole, that's a threat."
+    },
+    {
+      "show_id": "s6250",
+      "title": "The Crew",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Action & Adventure, International Movies",
+      "cast": "Sami Bouajila, Guillaume Gouix, Youssef Hajdi, Redouane Behache, Kahina Carina, David Saracino, Alice de Lencquesaing, Baya Belal, Steve Tientcheu, Kaaris",
+      "director": "Julien Leclercq",
+      "description": "After an unexpected misstep, a crew of skilled Parisian robbers find themselves forced to carry out a daring heist for a powerful crime organization."
+    },
+    {
+      "show_id": "s5209",
+      "title": "Rilakkuma and Kaoru",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Mikako Tabe, Soki Matsumoto, Takayuki Yamada, Mai Kanazawa, Shigeru Sugimoto, Issei Takubo, Kanako Nishiyama, Yuzuha Kobayashi, Masako Matsuno, Kana Odaira, Hitoshi Honma, Ayano Kinashi",
+      "director": "",
+      "description": "Her life might be a little mundane, but Kaoru gets to go home to Rilakkuma, her endearingly lazy roommate who happens to be a fuzzy toy bear."
+    },
+    {
+      "show_id": "s3230",
+      "title": "Juanita",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Independent Movies, Romantic Movies",
+      "cast": "Alfre Woodard, Adam Beach, LaTanya Richardson Jackson, Marcus Henderson, Blair Underwood, Ashlie Atkinson, Tsulan Cooper",
+      "director": "Clark Johnson",
+      "description": "Burdened by troubles in life and love, a mother of three grown children searches for hope and healing on an impromptu trip to Paper Moon, Montana."
+    },
+    {
+      "show_id": "s6715",
+      "title": "The Nutcracker and the Four Realms",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Children & Family Movies",
+      "cast": "Mackenzie Foy, Keira Knightley, Helen Mirren, Morgan Freeman, Matthew Macfadyen, Eugenio Derbez, Miranda Hart, Jack Whitehall, Ellie Bamber, Richard E. Grant, Omid Djalili, Tom Sweet, Misty Copeland, Sergei Polunin, Meera Syal",
+      "director": "Lasse Hallström, Joe Johnston",
+      "description": "When her late mother gifts her a key, Clara embarks on a dreamlike journey full of fantasy and conflict in this retelling of the holiday classic."
+    },
+    {
+      "show_id": "s6479",
+      "title": "The Iliza Shlesinger Sketch Show",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Comedies",
+      "cast": "Ilana Becker, Kerry Coddett, Tarik Davis, Matthew Dellapina, David Ebert, Stink Fisher, Iliana Inocencio, Iliza Shlesinger",
+      "director": "",
+      "description": "From the mind of comedian Iliza Shlesinger comes a fun, irreverent mix of kooky characters, sly social commentary and pop culture gags."
+    },
+    {
+      "show_id": "s4583",
+      "title": "Oggy and the Cockroaches",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Don Michael Paul, Tony Sampson, Sam Vincent, Matt Hill, Greg Eagles, Peter Kelamis, Tara Strong, Rick Jones",
+      "director": "Olivier Jean-Marie",
+      "description": "Wimpy blue cat Oggy would like nothing more than to snooze, but he's constantly bothered by the three ugly cockroaches who have invaded his home."
+    },
+    {
+      "show_id": "s5353",
+      "title": "Salam - The First ****** Nobel Laureate",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Anand Kamalakar",
+      "description": "Shunned by his country due to religion, Abdus Salam strives for an achievement that would define modern physics and redefine his place back home."
+    },
+    {
+      "show_id": "s609",
+      "title": "At First Light",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Sci-Fi & Fantasy",
+      "cast": "Stefanie Scott, Theodore Pellerin, Percy Hynes White, Kate Burton, Saïd Taghmaoui, Kristin Booth, James Wotherspoon",
+      "director": "Jason Stone",
+      "description": "After mysterious lights imbue her with extraordinary powers, a teenager goes on the run from authorities with the friend who harbors a crush on her."
+    },
+    {
+      "show_id": "s6713",
+      "title": "The NSU-Complex",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Stefan Aust, Dirk Laabs",
+      "description": "For 13 years, the underground neo-Nazi organization NSU eluded German police while planting bombs, robbing banks and killing immigrants at random."
+    },
+    {
+      "show_id": "s4073",
+      "title": "Michelle Wolf: Joke Show",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Michelle Wolf",
+      "director": "Lance Bangs",
+      "description": "Comedian Michelle Wolf takes on outrage culture, massages, childbirth, feminism and much more (like otters) in a stand-up special from New York City."
+    },
+    {
+      "show_id": "s2774",
+      "title": "Holiday Rush",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Children & Family Movies, Dramas",
+      "cast": "Romany Malco, Sonequa Martin-Green, Darlene Love, Deon Cole, La La Anthony, Deysha Nelson, Amarr M. Wooten, Selena-Marie Alphonse, Andrea-Marie Alphonse",
+      "director": "Leslie Small",
+      "description": "A widowed radio DJ and his four spoiled kids need to tighten their belts and pull together when their life of luxury turns lean just before Christmas."
+    },
+    {
+      "show_id": "s2398",
+      "title": "Ghost Pain",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Maaya Sakamoto, Ikkyu Juku, Kenichirou Matsuda, Tarusuke Shingaki, Yoji Ueda, Miyuki Sawashiro, Mayumi Asano, Takanori Hoshino, Yasuhiro Mamiya, Kenji Nojima",
+      "director": "Kazuchika Kise, Masahiko Murata",
+      "description": "World War IV is over, but a bomb has gone off in Newport City, killing a major arms dealer who may have ties with the mysterious 501 Organization."
+    },
+    {
+      "show_id": "s6065",
+      "title": "The Adventure Club",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Children & Family Movies",
+      "cast": "Sam Ashe Arnold, Jakob Davies, Dalila Bela, Robin Dunne, Gabrielle Miller, Billy Zane, Josh McDonald, Lorne Cardinal, Kim Coates, Glenn Paradis",
+      "director": "Geoff Anderson",
+      "description": "After finding a peculiar key, three smart and adventurous kids launch a quest to uncover the whereabouts of a coveted archaeological treasure."
+    },
+    {
+      "show_id": "s6177",
+      "title": "The Break-Up",
+      "type": "Movie",
+      "release_year": 2006,
+      "listed_in": "Comedies, Dramas, Romantic Movies",
+      "cast": "Vince Vaughn, Jennifer Aniston, Joey Lauren Adams, Cole Hauser, Jon Favreau, Jason Bateman, Judy Davis, Justin Long, Ivan Sergei, John Michael Higgins, Ann-Margret, Vernon Vaughn, Vincent D'Onofrio",
+      "director": "Peyton Reed",
+      "description": "Cohabitating couple Gary and Brooke's petty spats turn into an all-out battle for their home condo."
+    },
+    {
+      "show_id": "s4694",
+      "title": "Our House",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Thomas Mann, Nicola Peltz, Percy Hynes White, Kate Moyer, Carlyn Burchell, John Ralston, Christine Horne, Allison Hossack, Lucius Hoyos, Marcia Bennett",
+      "director": "Anthony Scott Burns",
+      "description": "A young man invents a device he hopes will generate wireless energy, but instead, it proves to spark sinister, supernatural activity in his home."
+    },
+    {
+      "show_id": "s4389",
+      "title": "Nailed It! Germany",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, Reality TV",
+      "cast": "Angelina Kirsch, Bernd Siefert",
+      "director": "",
+      "description": "Home cooks try – and inevitably fail – to re-create spectacular confections on this comical competition show, all for a sweet 5,000 euros."
+    },
+    {
+      "show_id": "s2696",
+      "title": "Hello, My Twenties!",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Ye-ri Han, Seung-Yeon Han, Eun-bin Park, Hwa-young Ryu, Hye-soo Park",
+      "director": "",
+      "description": "With different personalities, life goals and taste in men, five female college students become housemates in a shared residence called Belle Epoque."
+    },
+    {
+      "show_id": "s604",
+      "title": "Astronomy Club: The Sketch Show",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Comedies",
+      "cast": "Shawtane Bowen, Jonathan Braylock, Ray Cordova, Caroline Martin, Jerah Milligan, Monique Moses, Keisha Zollar, James III",
+      "director": "",
+      "description": "With unique individual perspectives that converge into a unified voice, sketch comedy group Astronomy Club delivers a smart and absurd brand of humor."
+    },
+    {
+      "show_id": "s541",
+      "title": "Anohana: The Flower We Saw That Day",
+      "type": "TV Show",
+      "release_year": 2011,
+      "listed_in": "Anime Series, International TV Shows, Teen TV Shows",
+      "cast": "Miyu Irino, Ai Kayano, Haruka Tomatsu, Takahiro Sakurai, Saori Hayami, Takayuki Kondo, Mitsuru Ogata, Mutsumi Tamura, Asami Seto, Aki Toyosaki, Kaoru Mizuhara, Yui Makino",
+      "director": "",
+      "description": "A teen haunted by the spirit of an old friend summons the other members of their childhood club to help fulfill the girl's final wish."
+    },
+    {
+      "show_id": "s7493",
+      "title": "Watership Down",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "British TV Shows, International TV Shows, TV Action & Adventure",
+      "cast": "James McAvoy, Nicholas Hoult, John Boyega, Ben Kingsley, Tom Wilkinson, Gemma Arterton, Peter Capaldi, Olivia Colman, Mackenzie Crook, Anne-Marie Duff, Taron Egerton, James Faulkner, Freddie Fox, Lee Ingleby, Miles Jupp, Daniel Kaluuya, Rory Kinnear, Craig Parkinson, Rosamund Pike, Daniel Rigby, Jason Watkins",
+      "director": "Noam Murro",
+      "description": "A warren of rabbits battles many threats on their daring journey to find a new home in this adaptation of the classic novel by Richard Adams."
+    },
+    {
+      "show_id": "s1523",
+      "title": "Crazy Delicious",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "British TV Shows, International TV Shows, Reality TV",
+      "cast": "Jayde Adams, Carla Hall, Heston Blumenthal, Niklas Ekstedt",
+      "director": "",
+      "description": "In this competition show, daring home chefs tempt the food gods with reinvented classics and fanciful feasts in their quest to win a golden apple."
+    },
+    {
+      "show_id": "s5195",
+      "title": "Rica, Famosa, Latina",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "International TV Shows, Reality TV, Spanish-Language TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "This reality series follows the lives of a group of wealthy, successful Latina women in Los Angeles."
+    },
+    {
+      "show_id": "s6585",
+      "title": "The Legend of Korra",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Kids' TV, TV Action & Adventure, TV Sci-Fi & Fantasy",
+      "cast": "Janet Varney, David Faustino, P.J. Byrne, J.K. Simmons, Dee Bradley Baker, Seychelle Gabriel, Logan Wells, Jeff Bennett, Kiernan Shipka",
+      "director": "",
+      "description": "A female avatar who can control the elements fights to keep her city safe from the evil forces of both the physical and spiritual worlds."
+    },
+    {
+      "show_id": "s2404",
+      "title": "Ghost Whispers",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Maaya Sakamoto, Ikkyu Juku, Kenichirou Matsuda, Tomoyuki Dan, Takuro Nakakuni, Yoji Ueda, Kazuya Nakai, Miyuki Sawashiro, Ikuya Sawaki, Takako Fuji",
+      "director": "Kazuchika Kise",
+      "description": "Freed of her responsibilities for the 501 Organization, Motoko must now learn how to take orders from Aramaki."
+    },
+    {
+      "show_id": "s7059",
+      "title": "Thor: Ragnarok",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure, Comedies, Sci-Fi & Fantasy",
+      "cast": "Chris Hemsworth, Tom Hiddleston, Cate Blanchett, Idris Elba, Jeff Goldblum, Tessa Thompson, Karl Urban, Mark Ruffalo, Anthony Hopkins, Benedict Cumberbatch, Taika Waititi, Rachel House, Clancy Brown, Tadanobu Asano, Ray Stevenson, Zachary Levi, Luke Hemsworth, Sam Neill",
+      "director": "Taika Waititi",
+      "description": "To save Asgard from a bloodthirsty goddess of death, the mighty Thor will have to battle his way to freedom and find a way back home."
+    },
+    {
+      "show_id": "s2155",
+      "title": "Fifty",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Dakore Akande, Ireti Doyle, Nse Ikpe-Etim, Omoni Oboli",
+      "director": "Biyi Bandele",
+      "description": "In Lagos, Nigeria, four successful women on the verge of 50 take stock of their lives and loves over the course of one week."
+    },
+    {
+      "show_id": "s4171",
+      "title": "Momo Salon",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Lizzy, Jung-min Park, Sang-hee Lee",
+      "director": "",
+      "description": "An aspiring hair stylist opens her own salon. It turns into a mail-holding hub for busy neighbors, but she seizes the chance to promote her business."
+    },
+    {
+      "show_id": "s3441",
+      "title": "Kopitiam",
+      "type": "TV Show",
+      "release_year": 2003,
+      "listed_in": "International TV Shows, TV Comedies",
+      "cast": "Joanna Bessey, Douglas Lim, Lina Teoh, Rashid Salleh, Mano Maniam, Tan Jin Chor",
+      "director": "",
+      "description": "A young woman returns to Malaysia to take over her father’s old coffee shop. Along with inheriting the Kopitiam, she gains a kooky group of friends."
+    },
+    {
+      "show_id": "s3054",
+      "title": "Iris",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "International TV Shows, Korean TV Shows, TV Action & Adventure",
+      "cast": "Lee Byung-hun, Kim Tae-hee, Jeong Jun-ho, Kim Young-chul, Kim Seung-woo, Kim So-yeon, Yun Ju-sang, Lee Jeong-kil",
+      "director": "",
+      "description": "Two friends' lives are changed forever when they are recruited by a top-secret organization tasked with protecting the country from foreign threats."
+    },
+    {
+      "show_id": "s7019",
+      "title": "The World's Most Extraordinary Homes",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "British TV Shows, Docuseries, International TV Shows",
+      "cast": "Piers Taylor, Caroline Quentin",
+      "director": "",
+      "description": "Award-winning architect Piers Taylor and actress/property enthusiast Caroline Quentin travel the world to tour unconventional homes in extreme places."
+    },
+    {
+      "show_id": "s6356",
+      "title": "The First Wives Club",
+      "type": "Movie",
+      "release_year": 1996,
+      "listed_in": "Comedies",
+      "cast": "Bette Midler, Goldie Hawn, Diane Keaton, Maggie Smith, Dan Hedaya, Sarah Jessica Parker, Stockard Channing, Victor Garber, Stephen Collins, Marcia Gay Harden, Jennie Dundas, Elizabeth Berkley, Eileen Heckart, Bronson Pinchot, Rob Reiner",
+      "director": "Hugh WIlson",
+      "description": "Following a friend's suicide after her husband dumps her for a younger model, three women plot payback against their two-timing exes."
+    },
+    {
+      "show_id": "s6227",
+      "title": "The Claudia Kishi Club",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Sue Ding",
+      "description": "Asian American creatives pay passionate tribute to the iconic, stereotype-busting \"Baby-Sitters Club\" character in this heartfelt documentary short."
+    },
+    {
+      "show_id": "s6125",
+      "title": "The Beginning of Life: The Series",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Docuseries, International TV Shows, Science & Nature TV",
+      "cast": "",
+      "director": "Estela Renner",
+      "description": "Using breakthroughs in technology and neuroscience, this series examines how environment affects infants – and how infants can affect our future."
+    },
+    {
+      "show_id": "s5295",
+      "title": "Rugal",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, International TV Shows, Korean TV Shows",
+      "cast": "Choi Jin-hyuk, Park Sung-woong, Cho Dong-hyuk, Jung Hye-in, Han Ji-wan, Park Sun-ho, Kim Min-sang",
+      "director": "",
+      "description": "A police detective who loses everything to a criminal organization seeks payback when he gains special abilities through biotechnology."
+    },
+    {
+      "show_id": "s3973",
+      "title": "Mary Kom",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Dramas, International Movies, Sports Movies",
+      "cast": "Priyanka Chopra, Darshan Kumar, Sunil Thapa, Kenny Basumatary, Shishir Sharma, Robin Das, Rajni Basumatary, Lin Laishram, Shakti Singh",
+      "director": "Omung Kumar",
+      "description": "The daughter of a poor rice farmer overcomes the objections of her father and the demands of a male-dominated society to pursue a career in boxing."
+    },
+    {
+      "show_id": "s5804",
+      "title": "Stay Here",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Reality TV",
+      "cast": "Genevieve Gorder, Peter Lorimer",
+      "director": "",
+      "description": "Designer Genevieve Gorder and real estate expert Peter Lorimer show property owners how to turn their short-term rentals into moneymaking showstoppers."
+    },
+    {
+      "show_id": "s5055",
+      "title": "Race to Witch Mountain",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Children & Family Movies",
+      "cast": "Dwayne Johnson, AnnaSophia Robb, Alexander Ludwig, Carla Gugino, Ciarán Hinds, Tom Everett Scott, Chris Marquette, Billy Brown, Christine Lakin, Tom Woodruff Jr., John Kassir, Garry Marshall, John Duff, Ted Hartley, Dave Engfer, Bob Clendenin, Shengyi Huang, Robert Torti, Kim Richards, Brandon Miller, Paul Darnell, Omar Dorsey, Dennis Hayden, Suzanne Krull, Steve Rosenbaum, Andrew Shaifer, Bryan Fogel, Bob Koherr, Sam Wolfson, Beth Kennedy, Corri English, Jonathan Slavin, Kevin Christy, Meredith Salenger",
+      "director": "Andy Fickman",
+      "description": "A sister and brother with special powers are on the run from a mysterious organization that wants to take advantage of the siblings' gifts."
+    },
+    {
+      "show_id": "s6212",
+      "title": "The Chef Show",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries",
+      "cast": "Jon Favreau, Roy Choi",
+      "director": "",
+      "description": "Writer, director and food enthusiast Jon Favreau and chef Roy Choi explore food in and out of the kitchen with accomplished chefs and celebrity friends."
+    },
+    {
+      "show_id": "s1862",
+      "title": "Dramaworld",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Romantic TV Shows, TV Comedies, TV Dramas",
+      "cast": "Liv Hewson, Sean Dulake, Justin Chon, Noo-Ri Bae, Sa-hee Kim, Jimmy Shubert",
+      "director": "",
+      "description": "A huge fan of a Korean TV drama is transported to a magical realm where she has the power to alter her favorite show's story line as a \"Facilitator.\""
+    },
+    {
+      "show_id": "s409",
+      "title": "All Dogs Go to Heaven",
+      "type": "Movie",
+      "release_year": 1989,
+      "listed_in": "Children & Family Movies",
+      "cast": "Dom DeLuise, Burt Reynolds, Daryl Gilley, Candy Devine, Charles Nelson Reilly, Vic Tayback, Melba Moore, Judith Barsi, Rob Fuller, Earleen Carey, Anna Manahan, Nigel Pegram, Loni Anderson, Ken Page, Godfrey Quigley",
+      "director": "Don Bluth, Gary Goldman, Dan Kuenster",
+      "description": "When a canine con artist becomes an angel, he sneaks back to Earth and crosses paths with an orphan girl who can speak to animals."
+    },
+    {
+      "show_id": "s6213",
+      "title": "The Chefs' Line",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Reality TV",
+      "cast": "Dan Hong, Mark Olive, Melissa Leong, Maeve O'Meara",
+      "director": "",
+      "description": "Home cooks face off against trained chefs to see if passion can beat profession in the kitchen in this reality competition show."
+    },
+    {
+      "show_id": "s2178",
+      "title": "Fireplace 4K: Classic Crackling Fireplace from Fireplace for Your Home",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Movies",
+      "cast": "",
+      "director": "George Ford",
+      "description": "The first of its kind in UHD 4K, with the clearest picture available, a real fireplace sparks and crackles, adding warmth and atmosphere to any home."
+    },
+    {
+      "show_id": "s820",
+      "title": "Being Mary Jane: The Series",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Romantic TV Shows, TV Dramas",
+      "cast": "Gabrielle Union, Lisa Vidal, Margaret Avery, Omari Hardwick, Latarsha Rose, Aaron D. Spears, B.J. Britt, Raven Goodwin, Richard Roundtree",
+      "director": "",
+      "description": "Ambitious single TV journalist Mary Jane attempts to balance her career with her overbearing family and an increasingly messy love life."
+    },
+    {
+      "show_id": "s4934",
+      "title": "Power Rangers Lightspeed Rescue",
+      "type": "TV Show",
+      "release_year": 2000,
+      "listed_in": "Kids' TV",
+      "cast": "Michael Chaturantabut, Sean CW Johnson, Alison MacInnis, Keith Robinson, Sasha Craig, Monica Louwerens, Rhett Fisher, Ron Roggé, Jennifer L. Yen, Kim Strauss",
+      "director": "",
+      "description": "As demons rumble from their graves beneath Mariner Bay, a government organization called Lightspeed recruits five civilians to defend the city."
+    },
+    {
+      "show_id": "s1503",
+      "title": "Coraline",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Children & Family Movies",
+      "cast": "Dakota Fanning, Teri Hatcher, John Hodgman, Jennifer Saunders, Dawn French, Keith David, Robert Bailey Jr., Ian McShane",
+      "director": "Henry Selick",
+      "description": "Curious young Coraline unlocks a door in her family's home and is transported to a universe that strangely resembles her own – only better."
+    },
+    {
+      "show_id": "s3437",
+      "title": "Kon Kon Kon",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Docuseries, International TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "Explore the stories of ordinary people dealing with extraordinary circumstances in this series that focuses on overcoming obstacles and odds."
+    },
+    {
+      "show_id": "s4981",
+      "title": "Private Practice",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "TV Comedies, TV Dramas",
+      "cast": "Kate Walsh, Tim Daly, Audra McDonald, Paul Adelstein, Taye Diggs, Amy Brenneman, KaDee Strickland, Chris Lowell, Brian Benben",
+      "director": "",
+      "description": "At Oceanside Wellness Center, Dr. Addison Montgomery deals with competing personalities in the new world of holistic medicine."
+    },
+    {
+      "show_id": "s5528",
+      "title": "Sextuplets",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies",
+      "cast": "Marlon Wayans, Bresha Webb, Michael Ian Black, Glynn Turman, Molly Shannon, Debbi Morgan",
+      "director": "Michael Tiddes",
+      "description": "When a dad-to-be learns he's actually a sextuplet, he sets off on a wild journey to meet his long-lost family. Marlon Wayans stars as all six siblings."
+    },
+    {
+      "show_id": "s2843",
+      "title": "How to Change the World",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Jerry Rothwell",
+      "description": "In the 1970s, a group of activists who gathered to protest nuclear testing formed the iconic Greenpeace environmental organization."
+    },
+    {
+      "show_id": "s6999",
+      "title": "The Who Was? Show",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Haley Tju, Adam Hochstetter, Kirrilee Berger, Lilla Crawford, Bentley Green, Zach Timson, Andrew Daly, H. Jon Benjamin",
+      "director": "",
+      "description": "Fresh voices bring some of the most famous names in history to life. A live-action sketch comedy show based on the series of best-selling books."
+    },
+    {
+      "show_id": "s4250",
+      "title": "Mr. Church",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas",
+      "cast": "Eddie Murphy, Britt Robertson, Natascha McElhone, Xavier Samuel, Lucy Fry, Christian Madsen, Natalie Coughlin, Madison Wolfe, Thom Barry, Mckenna Grace",
+      "director": "Bruce Beresford",
+      "description": "A temporary personal chef, a terminally ill single mother and her young daughter form an unlikely bond that redefines the meaning of family."
+    },
+    {
+      "show_id": "s3190",
+      "title": "Jo Koy: In His Elements",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Jo Koy, Andrew Lopez, Joey Guila, Andrew Orolfo",
+      "director": "Michael McKay",
+      "description": "Jo Koy brings the laughs and beats to Manila, spotlighting local culture in a one-of-a-kind show featuring Filipino American comedians, DJs and B-boys."
+    },
+    {
+      "show_id": "s4518",
+      "title": "Nothing to Hide",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Bérénice Bejo, Suzanne Clément, Stéphane De Groodt, Vincent Elbaz, Grégory Gadebois, Doria Tillier, Roschdy Zem, Fleur Fitoussi",
+      "director": "Fred Cavayé",
+      "description": "To spice up a dinner party, old friends agree to share every private message that pops up on their phones – with disastrous results."
+    },
+    {
+      "show_id": "s4157",
+      "title": "Mob Psycho 100",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, TV Action & Adventure, TV Comedies",
+      "cast": "Tatsuomi Hamada, Kazuki Namioka, Yuki Yoda, Ayumu Mochizuki, Atsushi Arai, Akio Otsuka, Moro Morooka",
+      "director": "",
+      "description": "There's an organization gathering espers for a nefarious purpose. Powerful psychic Mob, however, is just trying to be the protagonist of his own life."
+    },
+    {
+      "show_id": "s5895",
+      "title": "Super Monsters Back to School",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Children & Family Movies",
+      "cast": "Elyse Maloway, Vincent Tong, Erin Matthews, Andrea Libman, Alessandro Juliani, Nicole Anthony, Diana Kaarina, Gigi Saul Guerrero, Ian James Corlett, Britt McKillip, Kathleen Barr",
+      "director": "",
+      "description": "The Super Monsters welcome Vida to her new home in Pitchfork Pines with a tour of their favorite places, then help her through her first day at school."
+    },
+    {
+      "show_id": "s6461",
+      "title": "The Homecoming",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "International TV Shows, Korean TV Shows, Reality TV",
+      "cast": "Se-yoon Yoo, Tyler Rasch, Guillaume Patry, Nikolai Johnsen",
+      "director": "",
+      "description": "Panelists from the Korean show \"Abnormal Summit\" lead cast mates on tours of their home countries, including China, Nepal, Italy, Canada and France."
+    },
+    {
+      "show_id": "s1722",
+      "title": "Detention Letter",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure, International Movies",
+      "cast": "Mohamed Ramadan, Dina El-Sherbiny, Eyad Nassar, Sayed Rajab, Walid Fawaz, Eman El-Assy",
+      "director": "Mohamed Samy",
+      "description": "A man begins to regret his choices when his brother decides to join him as a member of the same terrorist organization."
+    },
+    {
+      "show_id": "s372",
+      "title": "Alarmoty in the Land of Fire",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, International Movies",
+      "cast": "",
+      "director": "",
+      "description": "While vacationing at a resort, an ornery and outspoken man is held captive by a criminal organization."
+    },
+    {
+      "show_id": "s7075",
+      "title": "Tidying Up with Marie Kondo",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Reality TV",
+      "cast": "Marie Kondo",
+      "director": "",
+      "description": "In a series of inspiring home makeovers, world-renowned tidying expert Marie Kondo helps clients clear out the clutter – and choose joy."
+    },
+    {
+      "show_id": "s5762",
+      "title": "Spiritual House",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Stand-Up Comedy & Talk Shows",
+      "cast": "Hiroyuki Ehara, Miki Sumiyoshi, Sato Kondo, Kazuhiro Kiyohara, Noriko Sakai, Moe Oshikiri, Homare Sawa, Mariko Hayashi",
+      "director": "",
+      "description": "Psychic Hiroyuki Ehara leads various celebrities through spiritual consultations, probing into their issues and spotlighting their accomplishments."
+    },
+    {
+      "show_id": "s3943",
+      "title": "Mariusz Kałamaga, Karol Kopiec, Wiolka Walaszczyk Hilarious Trio",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Mariusz Kałamaga, Karol Kopiec, Wiolka Walaszczyk",
+      "director": "",
+      "description": "Comedians Mariusz Kałamaga, Karol Kopiec and Wiolka Walaszczyk deliver an eclectic and energetic stand-up show at Klub Hybrydy in Warsaw."
+    },
+    {
+      "show_id": "s4072",
+      "title": "Michelle Buteau: Welcome to Buteaupia",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Michelle Buteau",
+      "director": "Page Hurwitz",
+      "description": "Scene-stealing queen Michelle Buteau dazzles with real talk on relationships, parenthood, cultural differences and the government workers who adore her."
+    },
+    {
+      "show_id": "s4388",
+      "title": "Nailed It! France",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, Reality TV",
+      "cast": "Artus, Noémie Honiat",
+      "director": "",
+      "description": "On this fun and funny competition show, home bakers talented in catastrophe struggle to re-create dessert masterpieces and win a 5,000 euro prize."
+    },
+    {
+      "show_id": "s6004",
+      "title": "Team Kaylie",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Bryana Salaz, Alison Fernandez, Symera Jackson, Elie Samouhi, Kai Calhoun, Eliza Pryor, Rosa Blasi, Nicole Sullivan, David Gridley",
+      "director": "",
+      "description": "After a brush with the law, teen celebrity Kaylie Konrad swaps social stardom for court-ordered chaos as a middle school wilderness club leader."
+    },
+    {
+      "show_id": "s7545",
+      "title": "WHAT / IF",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Dramas, TV Thrillers",
+      "cast": "Renée Zellweger, Jane Levy, Blake Jenner, Keith Powers, Samantha Marie Ware, Juan Castano, Dave Annable, Saamer Usmani, Daniella Pineda, John Clarence Stewart, Louis Herthum",
+      "director": "",
+      "description": "Desperate to secure funding for her med tech startup, an idealistic scientist and her husband strike an outrageous deal with a mysterious investor."
+    },
+    {
+      "show_id": "s6541",
+      "title": "The L Word",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "Romantic TV Shows, TV Dramas",
+      "cast": "Jennifer Beals, Leisha Hailey, Laurel Holloman, Mia Kirshner, Katherine Moennig, Pam Grier, Rachel Shelley, Daniela Sea, Erin Daniels, Marlee Matlin",
+      "director": "",
+      "description": "This trailblazing series follows the tangled lives and ever-changing relationships among a close-knit group of lesbians who call Los Angeles home."
+    },
+    {
+      "show_id": "s6866",
+      "title": "The Show",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas",
+      "cast": "Josh Duhamel, Giancarlo Esposito, Famke Janssen, Sarah Wayne Callies, Caitlin Fitzgerald, Chris Ellis, Lucia Walters, James Franco",
+      "director": "Giancarlo Esposito",
+      "description": "A disillusioned reality TV host and an idealistic producer are lured by their network into producing a show in which participants kill themselves."
+    },
+    {
+      "show_id": "s642",
+      "title": "Away From Home",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Li Yongzhen, Zhuang Kebi, Zhang Shunyuan, Wang Wei, Wen Shaoping, Liu Shumin, Lu Huiting, Ye Chengcheng, Chen Yuqi",
+      "director": "",
+      "description": "A high-achieving 11-year-old student embarks on a journey of self-discovery at a school on a nearby island as he grapples with tensions at home."
+    }
+  ]
+}

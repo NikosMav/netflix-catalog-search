@@ -1,0 +1,577 @@
+{
+  "split": "test",
+  "query_id": "karate_sequel_series",
+  "query": "series about a karate rivalry decades after a teen tournament",
+  "candidates": [
+    {
+      "show_id": "s4548",
+      "title": "Nuestra Lucha Libre",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries, International TV Shows, Spanish-Language TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "This documentary series lifts the mask on Mexican wrestling, diving into the daily lives of its stars, examining the sport’s cultural impact and more."
+    },
+    {
+      "show_id": "s5482",
+      "title": "See You Yesterday",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Sci-Fi & Fantasy, Thrillers",
+      "cast": "Eden Duncan-Smith, Dante Crichlow, Astro, Johnathan Nieves, Marsha Stephanie Blake, Wavyy Jonez, Myra Lucretia Taylor",
+      "director": "Stefon Bristol",
+      "description": "As two teen prodigies try to master the art of time travel, a tragic police shooting sends them on a series of dangerous trips to the past."
+    },
+    {
+      "show_id": "s1246",
+      "title": "Catfight",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, Independent Movies",
+      "cast": "Sandra Oh, Anne Heche, Alicia Silverstone, Amy Hill, Myra Lucretia Taylor, Ariel Kavoussi, Damian Young, Stephen Gevedon, Giullian Yao Gioiello, Tituss Burgess",
+      "director": "Onur Tukel",
+      "description": "Two college frenemies whose lives aren't what they hoped meet up decades later and escalate their resentments from verbal jabs to bloody brawls."
+    },
+    {
+      "show_id": "s3816",
+      "title": "Luis Miguel - The Series",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "International TV Shows, Spanish-Language TV Shows, TV Dramas",
+      "cast": "Diego Boneta, Juan Pablo Zurita, Camila Sodi, Óscar Jaenada, Izan Llunas, Paulina Dávila, Martín Bello, Anna Favella, César Bordón, Vanessa Bauche",
+      "director": "",
+      "description": "This series dramatizes the life story of Mexican superstar singer Luis Miguel, who has captivated audiences in Latin America and beyond for decades."
+    },
+    {
+      "show_id": "s3060",
+      "title": "Iron Sky: The Coming Race",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Action & Adventure, Comedies, International Movies",
+      "cast": "",
+      "director": "Timo Vuorensola",
+      "description": "Decades after a nuclear war, survivors on the moon revisit Earth to locate a potential power source – and find shape-shifting reptiles instead."
+    },
+    {
+      "show_id": "s1322",
+      "title": "Chhota Bheem Kung Fu Dhamaka Series",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Kids' TV",
+      "cast": "Pinky Pal Rajput, Sonal Kaushal, Julie Tejwani, Jigna Bharadhwaj, Shaily Dubey, Rajesh Kava, Ghanshyam Shukla, Anamaya Verma, Mohit Sinha, Vaibhav Thakkar",
+      "director": "",
+      "description": "From kung fu battles to run-ins with bandits, life in an empire far away from home is an endless adventure for Chhota Bheem and his buddies."
+    },
+    {
+      "show_id": "s6319",
+      "title": "The Duel",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas",
+      "cast": "Woody Harrelson, Liam Hemsworth, Alice Braga, Emory Cohen, Felicity Price, José Zúñiga, William Sadler",
+      "director": "Kieran Darcy-Smith",
+      "description": "In 1866, a Texas Ranger investigates some suspicious deaths in a town ruled by a religious despot whose past contains a disturbing link to his own."
+    },
+    {
+      "show_id": "s5725",
+      "title": "Sotus The Series",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Sangpotirat Perawat, Ruangroj Prachaya",
+      "director": "",
+      "description": "When freshman engineering student Kongpob stands up to older bully Arthit, their confrontation soon leads to a deep attraction between the two boys."
+    },
+    {
+      "show_id": "s4512",
+      "title": "Norsemen",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Comedies",
+      "cast": "Kåre Conradi, Silje Torp, Nils Jørgen Kaalstad, Marian Saastad Ottesen, Trond Fausa, Kristine Riis, Jon Øigarden, Henrik Mestad, Øystein Martinsen, Mikkel Bratt Silset, Mads Jørgensen, Nikis Theophilakis",
+      "director": "",
+      "description": "The residents of an 8th-century Viking village experience political rivalry, social change and innovations that upend their culture and way of life."
+    },
+    {
+      "show_id": "s6638",
+      "title": "The Man Who Feels No Pain",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure, Comedies, International Movies",
+      "cast": "Abhimanyu Dassani, Radhika Madan, Gulshan Devaiah, Mahesh Manjrekar, Jimit Trivedi, Loveleen Mishra, Sartaaj Kakkar, Riva Arora",
+      "director": "Vasan Bala",
+      "description": "Leveraging his ability to withstand pain, a young man trains to follow in the footsteps of his martial-arts hero in this high-action, meta comedy."
+    },
+    {
+      "show_id": "s156",
+      "title": "A Champion Heart",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Children & Family Movies, Dramas",
+      "cast": "Mandy Grace, David de Vos, Donna Rusch, Devan Key, Isabella Mancuso, Ariana Guido",
+      "director": "David de Vos",
+      "description": "When a grieving teen must work off her debt to a ranch, she cares for a wounded horse that teaches her more about healing than she expected."
+    },
+    {
+      "show_id": "s4944",
+      "title": "Power Rangers Samurai: Clash of the Red Rangers",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Children & Family Movies",
+      "cast": "Alex Heartman, Erika Fong, Hector David Jr., Najee De-Tiege, Brittany Anne Pirtle, Rene Naufahu",
+      "director": "",
+      "description": "The Samurai Rangers team up with the RPM Ranger Red to fight off Master Xandred's Mooger army and a robotic villain from the RPM Ranger's dimension."
+    },
+    {
+      "show_id": "s7099",
+      "title": "Time: The Kalief Browder Story",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "This series traces the tragic case of Kalief Browder, a Bronx teen who spent three horrific years in jail, despite never being convicted of a crime."
+    },
+    {
+      "show_id": "s2478",
+      "title": "Good Game: The Beginning",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, International Movies, Sports Movies",
+      "cast": "Mert Yazıcıoğlu, Afra Saraçoğlu, Yiğit Kirazcı, Orkun Işıtmak, Bahar Şahin, Tolga Canbeyli, Bada Oh Deniz, Hakan Kurtaş, Doğaç Yildiz",
+      "director": "Umut Aral",
+      "description": "New high school grad and avid gamer Cenk is recruited to an intense esports team that trains for a tournament with a life-changing prize."
+    },
+    {
+      "show_id": "s3954",
+      "title": "Martial Arts of Shaolin",
+      "type": "Movie",
+      "release_year": 1986,
+      "listed_in": "Action & Adventure, International Movies",
+      "cast": "Jet Li, Jianqiang Hu, Qiuyan Huang, Qingfu Pan, Yu Chenghui, Yu Hai, Jianwen Zhang",
+      "director": "Chia-Liang Liu",
+      "description": "In ancient China, Zhi Ming trains at the legendary Northern Shaolin temple to avenge the death of his father at the hands of a nefarious magistrate."
+    },
+    {
+      "show_id": "s3100",
+      "title": "Jack Whitehall: At Large",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Jack Whitehall",
+      "director": "Brian Klein",
+      "description": "Comedian Jack Whitehall takes the stage to tell stories about drinking, drugs, a Google Maps van and his ongoing rivalry with Robert Pattinson."
+    },
+    {
+      "show_id": "s3044",
+      "title": "Invisible",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Mora Arenillas, Mara Bestelli, Diego Cremonesi",
+      "director": "Pablo Giorgelli",
+      "description": "After learning she's pregnant, a teen grapples with the consequences while trying to go about her life as if nothing has changed."
+    },
+    {
+      "show_id": "s6806",
+      "title": "The Real Miyagi",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Fumio Demura",
+      "director": "Kevin Derek",
+      "description": "A look at the life of karate master Fumio Demura shows how he spread the discipline in the West, winning countless devotees and influencing Hollywood."
+    },
+    {
+      "show_id": "s530",
+      "title": "Animal World",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure, International Movies, Sci-Fi & Fantasy",
+      "cast": "Li Yi Feng, Zhou Dongyu, Michael Douglas, Bingkun Cao, Ge Wang, Keanu Chi, Zhang Jungyi, Yijuan Li, Su Ke",
+      "director": "Han Yan",
+      "description": "An unlucky, debt-ridden teen resorts to his math skills when he's forced into a deadly tournament of rock-paper-scissors run by a diabolical host."
+    },
+    {
+      "show_id": "s4741",
+      "title": "Pahuyut Fighting Beat",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Action & Adventure, International Movies",
+      "cast": "Nattanun Jantarawetch, David Bueno, Peerawat Herabat, Andrew Koji, Nahatai Lekbumrung, Lex Luther, Tim Man, Micky Nowacki, Sura Sankum, Amornrit Sriphung",
+      "director": "Piti Jaturaphat",
+      "description": "When profit-seekers threaten to take over a bar in a tourist town, local martial artists put their skills to the test and fight back."
+    },
+    {
+      "show_id": "s2028",
+      "title": "Especial 20 años Fútbol de Primera",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries, International TV Shows, Spanish-Language TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "Revisit the emotional bouts and memorable highlights from the past two decades in this special celebrating esteemed TV show \"Fútbol de Primera.\""
+    },
+    {
+      "show_id": "s5948",
+      "title": "Sword Masters: Two Champions of Shaolin",
+      "type": "Movie",
+      "release_year": 1980,
+      "listed_in": "Action & Adventure, International Movies",
+      "cast": "Meng Lo, Sheng Chiang, Li Wang, Siu-Ho Chin, Feng Lu, Chien Sun, Hsueh-erh Wen, Tai-Ping Yu",
+      "director": "Cheh Chang",
+      "description": "Shaolin warrior Tung Chien-chen is injured in battle against the hated Wu Tang clan, and nursed back to health by a knife-throwing master. As he recovers, Tung learns this deadly art, and also falls in love with his teacher's daughter."
+    },
+    {
+      "show_id": "s6778",
+      "title": "The Prince of Tennis ~ Match! Tennis Juniors ~",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, TV Dramas, Teen TV Shows",
+      "cast": "Peng Yuchang, Dong Li, Zhang Yijie, Xie Binbin, Zhu Zhiling, Xu Ke, Wu Xudong, Li He, Fan Linfeng",
+      "director": "",
+      "description": "A tennis whiz beats the odds to excel on the court while juggling school and inspiring teammates. Based on the hit manga series by Takeshi Konomi."
+    },
+    {
+      "show_id": "s3514",
+      "title": "Lady Bloodfight",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure",
+      "cast": "Amy Johnston, Muriel Hofmann, Jenny Wu, Kathy Wu, Jet Tranter, Mayling Ng",
+      "director": "Chris Nahon",
+      "description": "An American travels to Hong Kong in hopes of winning a lucrative – but potentially deadly – all-female underground fighting tournament."
+    },
+    {
+      "show_id": "s7237",
+      "title": "Trotro",
+      "type": "TV Show",
+      "release_year": 2004,
+      "listed_in": "Kids' TV",
+      "cast": "",
+      "director": "",
+      "description": "Trotro the donkey may be opinionated, but he's as sweet as can be in this animated series that's full of lessons for children."
+    },
+    {
+      "show_id": "s3050",
+      "title": "Ip Man 3",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Donnie Yen, Zhang Jin, Lynn Hung, Patrick Tam, Karena Ng, Kent Cheng, Bryan Leung, Louis Cheung, Danny Chan, Mike Tyson, Babyjohn Choi",
+      "director": "Wilson Yip",
+      "description": "Martial arts master Ip springs into action when his son's school is threatened by a shady American, then defends his status as wing chun champion."
+    },
+    {
+      "show_id": "s5916",
+      "title": "Sur Sapata",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Upendra Limaye, Govind Namdeo, Sanjay Jadhav, Anand Ingale, Bharat Ganeshpure, Praveen Tarde, Chinmay Patwardhan, Jivan Karlakar",
+      "director": "Mangesh Kanthale",
+      "description": "A group of small-town students goes for glory by competing in a statewide kabaddi tournament 25 years after their school's championship victory."
+    },
+    {
+      "show_id": "s2677",
+      "title": "Heartbreak High",
+      "type": "TV Show",
+      "release_year": 1999,
+      "listed_in": "International TV Shows, TV Dramas, Teen TV Shows",
+      "cast": "Callan Mulvey, Lara Cox, Emma Roche, Ada Nicodemou, Rel Hunt, Putu Winchester, Salvatore Coco, Barbara Gouskos, Ivar Kants, Stephen O'Rourke, Abi Tucker, Scott Major, Corey Page, Despina Caldis, Deni Gordon, Jon Pollard, Vince Poletto, Andrea Moor, Jeremy Lindsay Taylor, Doris Younane, Tony Martin, Sebastian Goldspink, Katherine Halliday, Marcel Bracks, Nina Liu, Morna Seres, Nathalie Roy, Rebecca Smart, Fleur Beaupert, Alex Dimitriades, Tina Bursill, Peter Sumner, Mario Gamma, Tai Nguyen, Inge Hornstra, Rupert Reid, John Walton, Nick Lathouris, Hugh Baldwin, Sarah Lambert, Jan Adele, Diane Craig, Ian Bliss, Alexandra Brunning, Kym Wilson, Isabella Gutierrez, Simon Baker",
+      "director": "",
+      "description": "A crash course on the turbulence of being a teen is always on the schedule for the students at Hartley High School in this 1990s series set in Sydney."
+    },
+    {
+      "show_id": "s6077",
+      "title": "The American Barbecue Showdown",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Reality TV",
+      "cast": "Lyric Lewis, Rutledge Wood",
+      "director": "",
+      "description": "Eight of the country's best backyard smokers and pitmasters vie for the title of American Barbecue Champion in a fierce but friendly faceoff."
+    },
+    {
+      "show_id": "s4138",
+      "title": "Miss India",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Keerthy Suresh, Dr. Rajendra Prasad, Jagapathi Babu, V. K. Naresh, Nadhiya, Naveen Chandra, Sumanth Shailendra, Kamal Kamaraju, Praveen, Pujitha Ponnada, Divya Sripada",
+      "director": "Narendra Nath",
+      "description": "Uprooted to America, an aspiring Indian entrepreneur confronts disapproval, sexism and rivalry as she draws from her culture to start a tea business."
+    },
+    {
+      "show_id": "s2781",
+      "title": "Holy Goalie",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, International Movies, Sports Movies",
+      "cast": "Karra Elejalde, Alain Hernández, Juan Manuel Montilla, Joel Bosqued, Macarena García, Tito Valverde, Paco Rueda, Guillermo Furiase, Txema Blasco, Paco Sagarzazu",
+      "director": "Curro Velázquez",
+      "description": "A young priest coaches a team of uncoordinated monks in order to win a soccer tournament and save their monastery from being turned into a hotel."
+    },
+    {
+      "show_id": "s1441",
+      "title": "Cobra Kai",
+      "type": "TV Show",
+      "release_year": 2021,
+      "listed_in": "TV Action & Adventure, TV Dramas",
+      "cast": "Ralph Macchio, William Zabka, Xolo Maridueña, Martin Kove, Mary Mouser, Tanner Buchanan, Courtney Henggeler, Jacob Bertrand",
+      "director": "",
+      "description": "Decades after the tournament that changed their lives, the rivalry between Johnny and Daniel reignites in this sequel to the \"Karate Kid\" films."
+    },
+    {
+      "show_id": "s6524",
+      "title": "The Karate Kid",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Children & Family Movies, Dramas",
+      "cast": "Jaden Smith, Jackie Chan, Taraji P. Henson, Wenwen Han, Yu Rongguang, Zhensu Wu, Zhiheng Wang, Zhenwei Wang, Shijia Lü, Yi Zhao",
+      "director": "Harald Zwart",
+      "description": "After moving to Beijing with his mother, Dre falls prey to a bully, so he takes lessons from a martial arts master in this remake of the 1984 classic."
+    },
+    {
+      "show_id": "s3056",
+      "title": "Iron Fists and Kung-Fu Kicks",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Serge Ou",
+      "description": "This documentary examines the influence of Hong Kong's martial arts cinema on filmmaking from the Shaw Brothers to modern-day Hollywood blockbusters."
+    },
+    {
+      "show_id": "s3896",
+      "title": "Man of Tai Chi",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Action & Adventure, Dramas",
+      "cast": "Keanu Reeves, Tiger Chen, Karen Mok, Simon Yam, Qing Ye, Hai Yu, Sam Lee, Iko Uwais",
+      "director": "Keanu Reeves",
+      "description": "In this kung fu tale set in Beijing, a young man armed with incomparable martial arts skills gets embroiled in the world of underground fight clubs."
+    },
+    {
+      "show_id": "s6476",
+      "title": "The Hurt Business",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Kevin Costner",
+      "director": "Vlad Yudin",
+      "description": "Featuring legendary and up-and-coming MMA fighters, this documentary details the history of the brutal sport and the fighters' struggles and triumphs."
+    },
+    {
+      "show_id": "s2535",
+      "title": "Greenhouse Academy",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV, TV Dramas, Teen TV Shows",
+      "cast": "Ariel Mortman, Finn Roberts, Chris O'Neal, Dallas Hart, Cinthya Carmona, Grace Van Dien, Benjamin Papac, Jessica Amlee, BJ Mitchell, Aviv Buchler, Nadine Ellis, Yiftach Mizrahi, Parker Stevenson, Ishai Golan, Selina Giles, Reina Hardesty",
+      "director": "",
+      "description": "When teen siblings Hayley and Alex enter an elite boarding school, they find rivalry, romance and a mystery related to the recent loss of their mom."
+    },
+    {
+      "show_id": "s7070",
+      "title": "Through My Father's Eyes: The Ronda Rousey Story",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Ronda Rousey",
+      "director": "Gary Stretch",
+      "description": "This documentary chronicles former Olympian and UFC champion Ronda Rousey's ascent to iconic status in the world of mixed martial arts."
+    },
+    {
+      "show_id": "s2129",
+      "title": "Fate/stay night: Unlimited Blade Works",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Noriaki Sugiyama, Kana Ueda, Ayako Kawasumi, Junichi Suwabe, Noriko Shitaya, Mai Kadowaki, Masaki Terasoma, Nobutoshi Canna, Atsuko Tanaka, Shinichiro Miki, Yuu Asakawa, Miki Ito, Hiroshi Kamiya, Jouji Nakata, Tomokazu Seki",
+      "director": "",
+      "description": "High school students Rin and Shiro pair up as allies when they're chosen to compete in a secret tournament for possession of the Holy Grail."
+    },
+    {
+      "show_id": "s2594",
+      "title": "Handsome Siblings",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Dramas, TV Sci-Fi & Fantasy",
+      "cast": "Hu Yitian, Chen Zheyuan, Liang Jie, Vicky Liang, Tay Ping Hui, Nikita Mao, Gallen Lo, Song Wenzuo, Jin Song, Jason Zheng",
+      "director": "",
+      "description": "Clashing martial arts twins face relentless villains, thorny romance and brotherly rivalry as their troubled pasts catch up to them."
+    },
+    {
+      "show_id": "s1118",
+      "title": "Brothers",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Akshay Kumar, Sidharth Malhotra, Jackie Shroff, Jacqueline Fernandez, Shefali Shah, Kulbhushan Kharbanda, Rajendranath Zutshi, Ashutosh Rana",
+      "director": "Karan Malhotra",
+      "description": "After a troubled past with their alcoholic father, two estranged brothers prepare to face each other again as rivals in a street fighting tournament."
+    },
+    {
+      "show_id": "s6706",
+      "title": "The Next Karate Kid",
+      "type": "Movie",
+      "release_year": 1994,
+      "listed_in": "Action & Adventure, Dramas, Sports Movies",
+      "cast": "Pat Morita, Hilary Swank, Michael Ironside, Constance Towers, Chris Conrad, Arsenio \"Sonny\" Trinidad, Michael Cavalieri, Walton Goggins",
+      "director": "Christopher Cain",
+      "description": "In Boston, karate master Mr. Miyagi finds a new pupil in troubled teen Julie Pierce when she gets bullied by a group of relentless classmates."
+    },
+    {
+      "show_id": "s5968",
+      "title": "Takki",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Moayed Althagafi, Khairiah Abulaban, Ali Alsharif, Adel Redwan, Redwan Alremey, Hind Alsaigh, Reem Alhabib, Khaled Bamashmoos, Fahad Ghazoli, Dareen Albayedh, Naif Althufairi, Mohammad Balkhi",
+      "director": "",
+      "description": "In Jeddah, Saudi Arabia, a young aspiring filmmaker and his circle of friends grapple with family expectations, gender roles, romance and rivalry."
+    },
+    {
+      "show_id": "s6331",
+      "title": "The End of the F***ing World",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "British TV Shows, International TV Shows, TV Comedies",
+      "cast": "Jessica Barden, Alex Lawther, Steve Oram, Christine Bottomley, Navin Chowdhry, Wunmi Mosaku, Gemma Whelan, Jonathan Aris, Eileen Davies",
+      "director": "",
+      "description": "A budding teen psychopath and a rebel hungry for adventure embark on a star-crossed road trip in this darkly comic series based on a graphic novel."
+    },
+    {
+      "show_id": "s3465",
+      "title": "Kung Fu Hustle",
+      "type": "Movie",
+      "release_year": 2004,
+      "listed_in": "Action & Adventure, Comedies, Cult Movies",
+      "cast": "Stephen Chow, Yuen Wah, Yuen Qiu, Lam Chi-chung, Dong Zhihua, Chiu Chi-ling, Xing Yu, Danny Chan Kwok-kwan, Leung Siu-lung",
+      "director": "Stephen Chow",
+      "description": "Sing, a mobster in 1940s China, longs to be as cool as the formally clad Axe Gang, a band of killers who rule Hong Kong, but can only pretend."
+    },
+    {
+      "show_id": "s2274",
+      "title": "Free Rein: Valentine's Day",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Children & Family Movies, Dramas",
+      "cast": "Jaylen Barron, Joe Ashman, Manpreet Bambra, Celine Buckens, Freddy Carter, Bruce Herbelin-Earle, Kerry Ingram, Charlotte Jordan, Geoffrey McGivern, Martin Bobb-Semple, Sadie Simm, Carla Woodcock",
+      "director": "",
+      "description": "Love is in the air as Zoe and friends go on a quest to find a fabled Maid's Stone. But when rivalry blinds them to danger, it's Raven to the rescue!"
+    },
+    {
+      "show_id": "s7498",
+      "title": "We Are Legends",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Action & Adventure, International Movies, Sports Movies",
+      "cast": "Lam Yiu-sing, Ma Chi Wai, Wiyona Yeung, Eric Kot, Yuen Qiu, Lisa Cheng, Jason Li",
+      "director": "Daniel Yee Heng Chan",
+      "description": "Raised in a boxing gym, two orphaned brothers become highly skilled martial artists and must combat threats in the streets and the ring."
+    },
+    {
+      "show_id": "s7307",
+      "title": "Ultramarine Magmell",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Kengo Kawanishi, M・A・O, Toshiyuki Morikawa, Hibiku Yamamura, Satoshi Mikami, Koji Yusa, Hiroshi Yanaka, Shiro Saito, Keiichi Sonobe",
+      "director": "",
+      "description": "Decades after the sudden birth of a new continent, a young rescuer-for-hire provides aid to adventurers exploring this dangerous, uncharted world."
+    },
+    {
+      "show_id": "s4028",
+      "title": "Memories of a Teenager",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, International Movies, LGBTQ Movies",
+      "cast": "Renato Quattordio, Malena Narvay, Thomás Lepera, Jerónimo Giocondo Bosia, Tomás Wicz, Tomás Raimondi, Majo Chicar, Agustina Cabo",
+      "director": "Lucas Santa Ana",
+      "description": "To cope with a friend's death, a teen blogs about his daily life but falls further into an existential crisis while experiencing a sexual awakening."
+    },
+    {
+      "show_id": "s4767",
+      "title": "Paranormal",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Dramas, TV Horror",
+      "cast": "Ahmed Amin, Razane Jammal, Ayah Samaha, Samaa Ibrahem, Roshdy El Shamy, Reem Abd El Kader",
+      "director": "",
+      "description": "After a skeptical hematologist is plunged into a series of inexplicable events, he unwillingly becomes the go-to-guy for paranormal investigations."
+    },
+    {
+      "show_id": "s6797",
+      "title": "The Queen's Gambit",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Dramas",
+      "cast": "Anya Taylor-Joy, Bill Camp, Marielle Heller, Thomas Brodie-Sangster, Moses Ingram, Harry Melling, Isla Johnston, Christiane Seidel, Rebecca Root, Chloe Pirrie, Jacob Fortune-Lloyd",
+      "director": "",
+      "description": "In a 1950s orphanage, a young girl reveals an astonishing talent for chess and begins an unlikely journey to stardom while grappling with addiction."
+    },
+    {
+      "show_id": "s5740",
+      "title": "Sparring",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, International Movies, Sports Movies",
+      "cast": "Mathieu Kassovitz, Olivia Merilahti, Souleymane M'Baye, Billie Blain, Malik Bine, Zakariya Gouram, Jolente De Keersmaeker, Lyes Salem, Ali Labidi, David Saracino",
+      "director": "Samuel Jouy",
+      "description": "A middle-aged boxer with a mixed record becomes a champion's sparring partner while dreaming of one last chance to end his career with a victory."
+    },
+    {
+      "show_id": "s5164",
+      "title": "Reply 1997",
+      "type": "TV Show",
+      "release_year": 2012,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Jung Eun-ji, Seo In-guk, Shin So-yul, Ji-won Eun, Lee Ho-won, Lee Si-eon, Sung Dong-il, Lee Il-hwa, Song Jong-ho",
+      "director": "Shin Won-ho",
+      "description": "As a teen, Shi Won was obsessed with a boy band. Now 33 years old, Shi Won and her friends are reviving their memories as their school reunion nears."
+    },
+    {
+      "show_id": "s4989",
+      "title": "Project S The Series",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, TV Dramas, Teen TV Shows",
+      "cast": "Wiwattanawarang Oabnithi, Mahayotaruk Thiti, Lerkcharoempoj Papangkorn, Imanothai Kawin, Sakuljaroensuk Apinya, Oat Pasakorn Sanrattana, Leeratanakajorn Thanapob, Skye Nateeton Wongrawee, Supapunpinyo Teeradon, Chansangavej Chayanit, Ketprapakorn Narikun, Pibunsonggram Kritsanapoom, Santinatornkul Chanon",
+      "director": "",
+      "description": "Sports and friendship intertwine in tales of a volleyball team, an autistic badminton player, a skateboarder with depression and an archery-club crush."
+    },
+    {
+      "show_id": "s1529",
+      "title": "Creating The Queen's Gambit",
+      "type": "Movie",
+      "release_year": 2021,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "",
+      "description": "A fascinating character. Exquisite sets. A wig for every era. The stars, creators and crew reveal how the hit series about a chess prodigy came to life."
+    },
+    {
+      "show_id": "s3434",
+      "title": "Koko: The Gorilla Who Talks",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "Demetri Goritsas",
+      "director": "Jonathan Taylor",
+      "description": "Witness the incredible, decades-long friendship between Koko the gorilla and Penny Patterson, who taught Koko to communicate via sign language."
+    },
+    {
+      "show_id": "s4581",
+      "title": "Offline - Das leben ist kein bonuslevel",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure, Comedies, International Movies",
+      "cast": "Moritz Jahn, Mala Emde, Ugur Ekeroglu, David Schütter, Hannes Wegener, Yung Ngo, Kida Khodr Ramadan",
+      "director": "Florian Schnell",
+      "description": "Competitive gamer Jan finds his life thrown for a loop when his bitter rival hacks his identity just before a high-stakes tournament."
+    }
+  ]
+}

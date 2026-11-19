@@ -1,0 +1,617 @@
+{
+  "split": "dev",
+  "query_id": "anime_death_note",
+  "query": "Death Note anime",
+  "candidates": [
+    {
+      "show_id": "s60",
+      "title": "1000 Rupee Note",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Usha Naik, Sandeep Pathak, Shrikant Yadav, Ganesh Yadav, Pooja Nayak, Devendra Gaikwad",
+      "director": "Shrihari Sathe",
+      "description": "After randomly receiving a handsome political bribe, a sweet, poor elderly woman decides to treat herself a shopping spree, which doesn't go smoothly."
+    },
+    {
+      "show_id": "s98",
+      "title": "3 Deewarein",
+      "type": "Movie",
+      "release_year": 2003,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Naseeruddin Shah, Jackie Shroff, Juhi Chawla, Nagesh Kukunoor, Gulshan Grover, Aditya Lakhia, Shri Vallabh Vyas",
+      "director": "Nagesh Kukunoor",
+      "description": "A reporter interviews three convicts on death row for a documentary but as their stories emerge, so do her own true motivations for soliciting them."
+    },
+    {
+      "show_id": "s3423",
+      "title": "Knights of Sidonia",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Ryota Osaka, Aya Suzaki, Aki Toyosaki, Takahiro Sakurai, Hisako Kanemoto, Eri Kitamura, Sayaka Ohara, Tomohiro Tsuboi, Takehito Koyasu, Satomi Arai, Atsuko Tanaka, Nanako Mori, Takako Honda, Kohsuke Toriumi, Ayane Sakura, Osamu Saka",
+      "director": "",
+      "description": "A hero rises to save a world that's also a spaceship under siege by an alien threat in this original anime series based on the popular manga comic."
+    },
+    {
+      "show_id": "s873",
+      "title": "Beyblade: Metal Fusion",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "Anime Series, Kids' TV",
+      "cast": "Aki Kanada, Satoshi Hino, Emiri Kato, Kei Shindo, Robert Tinkler, Peter Cugno, Lisette St. Louis, Barbara Mamabolo",
+      "director": "",
+      "description": "In this anime adventure series for kids, the forces of good and evil \"blade it out,\" battling each other with enchanted spinning tops."
+    },
+    {
+      "show_id": "s1678",
+      "title": "Dedemin Fisi",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Onur Buldu, Alper Kul, Erdem Yener, Onur Atilla, Özge Borak, Doğa Rutkay, Meltem Yılmazkaya, İrem Sak",
+      "director": "Meltem Bozoflu",
+      "description": "When a brain-dead family patriarch is about to be taken off life support, his extended family gathers round and plots to see who'll get his money."
+    },
+    {
+      "show_id": "s2013",
+      "title": "Enter the Anime",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Kozo Morishita, Yoko Takahashi, Shinji Aramaki, Kenji Kamiyama",
+      "director": "Alex Burunova",
+      "description": "What is anime? Through deep-dives with notable masterminds of this electrifying genre, this fast-paced peek behind the curtain seeks to find the answers."
+    },
+    {
+      "show_id": "s5346",
+      "title": "Saint Seiya: The Lost Canvas",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Tetsuya Kakihara, Hiro Shimono, Aya Hirano, Atsushi Abe, Sanae Kobayashi, Kenta Miyake, Tomohiro Tsuboi, Nana Mizuki, Shigeru Chiba",
+      "director": "",
+      "description": "This anime adventure follows the battle between a saint of Athena and an avatar of Hades who's working on a painting that could destroy the world."
+    },
+    {
+      "show_id": "s5639",
+      "title": "Sister Cities",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas",
+      "cast": "Jacki Weaver, Troian Bellisario, Stana Katic, Michelle Trachtenberg, Jess Weixler, Alfred Molina, Amy Smart, Tom Everett Scott, Kaia Gerber, Aimee Garcia, Kathy Baker, Peter Jason",
+      "director": "Sean Hanish",
+      "description": "After years of estrangement, four sisters gather in the wake of their mother's death, which may or may not have been a suicide."
+    },
+    {
+      "show_id": "s7510",
+      "title": "We Summon the Darkness",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Alexandra Daddario, Amy Forsyth, Keean Johnson, Maddie Hasson, Logan Miller, Austin Swift, Johnny Knoxville, Allison McAtee, Tanner Beard",
+      "director": "Marc Meyers",
+      "description": "A night at a 1980s heavy metal concert hits a grisly note when new friends find themselves in the middle of a satanic murder spree."
+    },
+    {
+      "show_id": "s1653",
+      "title": "Dead Set",
+      "type": "TV Show",
+      "release_year": 2008,
+      "listed_in": "British TV Shows, TV Horror, TV Thrillers",
+      "cast": "Jaime Winstone, Andy Nyman, Kevin Eldon, Davina McCall, Warren Brown, Riz Ahmed, Beth Cordingly, Kathleen McDermott, Raj Ghatak",
+      "director": "",
+      "description": "While the housemates in the Big Brother house remain oblivious, fast-moving hordes of the undead decimate the studio compound."
+    },
+    {
+      "show_id": "s2314",
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "type": "TV Show",
+      "release_year": 2010,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Romi Park, Rie Kugimiya, Megumi Takamoto, Shinichiro Miki, Fumiko Orikasa, Kenji Utsumi, Keiji Fujiwara, Yuji Ueda, Biichi Sato, Tetsuya Kakihara, Kenji Hamada, Kaori Nazuka, Hidekatsu Shibata, Kenta Miyake, Kikuko Inoue, Tetsu Shiratori, Minami Takayama, Hiroyuki Yoshino, Yoko Soumi, Kazuya Nakai, Ryuzaburo Otomo",
+      "director": "Yasuhiro Irie",
+      "description": "After both suffer physical damage – brothers Edward and Alphonse battle nefarious forces to try to reclaim their bodies in this supernatural anime."
+    },
+    {
+      "show_id": "s2586",
+      "title": "HALO Legends",
+      "type": "Movie",
+      "release_year": 2009,
+      "listed_in": "Action & Adventure, Anime Features, Sci-Fi & Fantasy",
+      "cast": "Andy McAvin, James Faulkner, Luci Christian, John Swasey",
+      "director": "Shinji Aramaki, Mamoru Oshii, Hideki Futamura, Toshiyuki Kanno, Tomoki Kyoda, Koichi Mashimo, Yasushi Muraki, Daisuke Nishio, Frank O'Connor, Koji Sawai, Joseph Chou, Hiroshi Yamazaki",
+      "description": "This anthology features seven independent anime shorts from renowned directors, delving into the futuristic universe of the video game franchise Halo."
+    },
+    {
+      "show_id": "s1673",
+      "title": "Death Note",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Willem Dafoe, Nat Wolff, Lakeith Stanfield, Margaret Qualley, Shea Whigham, Paul Nakauchi, Jason Liles",
+      "director": "Adam Wingard",
+      "description": "Light Turner finds a supernatural notebook and uses it to mete out death, attracting the attention of a detective, a demon and a girl in his class."
+    },
+    {
+      "show_id": "s3961",
+      "title": "Marvel Anime: X-Men",
+      "type": "TV Show",
+      "release_year": 2011,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Toshiyuki Morikawa, Rikiya Koyama, Katsunosuke Hori, Aya Hisakawa, Kaori Yamagata, Yoshiko Sakakibara, Yurika Hino, Yukari Tamura, Hideyuki Tanaka",
+      "director": "",
+      "description": "A year after their dissolution, the X-Men are re-assembled by Professor Charles Xavier to investigate the kidnapping of young mutants in Japan."
+    },
+    {
+      "show_id": "s2461",
+      "title": "GODZILLA The Planet Eater",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Mamoru Miyano, Takahiro Sakurai, Kana Hanazawa, Tomokazu Sugita, Yuki Kaji, Junichi Suwabe, Reina Ueda, Ari Ozawa, Daisuke Ono, Kenta Miyake, Kenyu Horiuchi, Kazuya Nakai, Kazuhiro Yamaji",
+      "director": "Kobun Shizuno, Hiroyuki Seshita",
+      "description": "With the earth alliance weakened, Haruo weighs siding with the Exif, whose death cult is summoning a monster that can destroy the world."
+    },
+    {
+      "show_id": "s2366",
+      "title": "Gehenna: Where Death Lives",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Horror Movies, Thrillers",
+      "cast": "Eva Swan, Simon Phillips, Justin Gordon, Doug Jones, Lance Henriksen, Matthew Edward Hegstrom, Patrick Gorman, Sean Sprawling, Masashi Odate",
+      "director": "Hiroshi Katagiri",
+      "description": "Developers looking for a location to build a resort on Saipan stumble into a subterranean bunker from WWII where an evil force lies in wait."
+    },
+    {
+      "show_id": "s2353",
+      "title": "GANTZ:O",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure, Anime Features, Horror Movies",
+      "cast": "Daisuke Ono, M・A・O, Tomohiro Kaku, Saori Hayami, Shuichi Ikeda, Kendo Kobayashi, Razor Ramon RG, Razor Ramon HG, Masane Tsukayama, Masaya Onosaka, Kenjiro Tsuda, Teruaki Ogawa, Hisanori Yoshida, Yuki Kaji",
+      "director": "Keiichi Sato, Yasushi Kawamura",
+      "description": "Teams of recently deceased people who've been revived and given high-tech weapons must cooperate to defeat an army of monsters in Tokyo and Osaka."
+    },
+    {
+      "show_id": "s3039",
+      "title": "Inuyasha the Movie - La spada del dominatore del mondo",
+      "type": "Movie",
+      "release_year": 2003,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Kappei Yamaguchi, Satsuki Yukino, Koji Tsujitani, Houko Kuwashima, Kumiko Watanabe, Ken Narita, Akio Otsuka, Kikuko Inoue",
+      "director": "Toshiya Shinohara",
+      "description": "The Great Dog Demon beaqueathed one of the Three Swords of the Fang to each of his two sons. Now the evil power of the third sword has been awakened."
+    },
+    {
+      "show_id": "s5922",
+      "title": "Surviving Death",
+      "type": "TV Show",
+      "release_year": 2021,
+      "listed_in": "Docuseries, Reality TV",
+      "cast": "",
+      "director": "",
+      "description": "What happens after we die? This docuseries explores personal stories and research on near-death experiences, reincarnation and paranormal phenomena."
+    },
+    {
+      "show_id": "s1674",
+      "title": "Death of Me",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Horror Movies",
+      "cast": "Maggie Q, Luke Hemsworth, Alex Essoe, Ingkarat Jaraswongkosol, Kelly B. Jones, Caledonia Burr",
+      "director": "Darren Lynn Bousman",
+      "description": "With no memory of the previous night, a vacationing couple uncovers a disturbing personal video that inexplicably shows one of them killing the other."
+    },
+    {
+      "show_id": "s4409",
+      "title": "Naruto Shippuden: The Movie",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Junko Takeuchi, Chie Nakamura, Yoichi Masukawa, Kôichi Tôchika, Masako Katsuki, Keiko Nemoto, Kazuhiko Inoue, Masashi Ebara, Showtaro Morikubo, Romi Park, Ayumi Fujimura, Fumiko Orikasa",
+      "director": "Hajime Kamegaki",
+      "description": "The adventures of adolescent ninja Naruto Uzumaki continue as he's tasked with protecting a priestess from a demon – but to do so, he must die."
+    },
+    {
+      "show_id": "s976",
+      "title": "Bleach the Movie: Hell Verse",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Action & Adventure, Anime Features, Sci-Fi & Fantasy",
+      "cast": "Masakazu Morita, Fumiko Orikasa, Kazuya Nakai, Noriaki Sugiyama, Kentarô Itô, Yuki Matsuoka, Ryotaro Okiayu, Romi Park",
+      "director": "Noriyuki Abe",
+      "description": "When a group of vicious Sinners plots to escape from this eternal prison in Hell, they discover that Substitute Soul Reaper Ichigo is the key to their freedom. The Sinners launch an attack and in the process kidnap Ichigo's younger sister."
+    },
+    {
+      "show_id": "s4225",
+      "title": "Moor",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Hameed Sheikh, Samiya Mumtaz, Shaz Khan, Abdul Qadir, Shabbir Rana, Sultan Hussain, Ayaz Samoo, Nayyar Ejaz, Sonia Hussain",
+      "director": "Jami",
+      "description": "A railway stationmaster tries to cope with his wife's death, his estrangement from his son and the corrupt world in which he lives."
+    },
+    {
+      "show_id": "s3038",
+      "title": "Inuyasha the Movie - L'isola del fuoco scarlatto",
+      "type": "Movie",
+      "release_year": 2004,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Kappei Yamaguchi, Satsuki Yukino, Koji Tsujitani, Houko Kuwashima, Kumiko Watanabe, Noriko Hidaka, Ken Narita, Cho, Mamiko Noto, Nobutoshi Canna, Fumiko Orikasa, Richard Ian Cox, Moneca Stori",
+      "director": "Toshiya Shinohara",
+      "description": "Ai, a young half-demon who has escaped from Horai Island to try to help his people, returns with potential saviors InuYasha, Sesshomaru and Kikyo."
+    },
+    {
+      "show_id": "s517",
+      "title": "Angel Beats!",
+      "type": "TV Show",
+      "release_year": 2010,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Hiroshi Kamiya, Harumi Sakurai, Kana Hanazawa, Eri Kitamura, Ryohei Kimura, Takahiro Mizushima, Shun Takagi, Fuko Saito, Yui Makino, Hiro Masuda, Michael Rivas, Eiichiro Tokumoto, Yumiko Kobayashi, Hiroki Touchi, Miyuki Sawashiro, Chie Matsuura, Kana Asumi, Emiri Kato",
+      "director": "",
+      "description": "In a high school that's a way station to the afterlife, a teenager gets caught up in the battle for the rights of those in this purgatorial world."
+    },
+    {
+      "show_id": "s6460",
+      "title": "The Holy Man",
+      "type": "Movie",
+      "release_year": 2005,
+      "listed_in": "Comedies, Faith & Spirituality, International Movies",
+      "cast": "Pongsak Pongsuwan, Note Chern-Yim, Sarawut Phumthong, Savika Chaiyadej, Somlek Sakdikul, Petchtai Wongkamlao",
+      "director": "Note Chern-Yim",
+      "description": "Formerly a troubled youth, a monk is given charge of a Buddhist temple neglected by superstitious villagers under the spell of a fake psychic."
+    },
+    {
+      "show_id": "s439",
+      "title": "Altered Carbon: Resleeved",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Tatsuhisa Suzuki, Rina Satou, Ayaka Asai, Jouji Nakata, Kenji Yamauchi, Kanehira Yamamoto, Koji Ishii",
+      "director": "Takeru Nakajima, Yoshiyuki Okada",
+      "description": "On the planet Latimer, Takeshi Kovacs must protect a tattooist while investigating the death of a yakuza boss alongside a no-nonsense CTAC."
+    },
+    {
+      "show_id": "s1717",
+      "title": "Desperados",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Comedies, Romantic Movies",
+      "cast": "Nasim Pedrad, Anna Camp, Lamorne Morris, Heather Graham, Robbie Amell, Sarah Burns, Jessica Chaffin",
+      "director": "LP",
+      "description": "After drunkenly sending a cringeworthy email, hopeless romantic Wes heads to Mexico with her best friends to erase the note before her new love reads it."
+    },
+    {
+      "show_id": "s4489",
+      "title": "No Game No Life: Zero",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure, Anime Features, Sci-Fi & Fantasy",
+      "cast": "Yoshitsugu Matsuoka, Ai Kayano, Yoko Hikasa, Yukari Tamura, Yuka Iguchi, Mamiko Noto, Miyuki Sawashiro, Rie Kugimiya, Toru Okawa, Kazuyuki Okitsu, Junichi Suwabe, Lynn, Yui Horie, Nanako Mori, Ryota Takeuchi",
+      "director": "Atsuko Ishizuka",
+      "description": "In ancient Disboard, a young warrior befriends an ex machina and embarks on a harrowing mission to stop a global war and save humanity from extinction."
+    },
+    {
+      "show_id": "s2402",
+      "title": "Ghost Tears",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Maaya Sakamoto, Ikkyu Juku, Kenichirou Matsuda, Tarusuke Shingaki, Shunsuke Sakuya, Takuro Nakakuni, Yoji Ueda, Kazuya Nakai, Miyuki Sawashiro, Tatsuhisa Suzuki",
+      "director": "Kazuchika Kise",
+      "description": "As Motoko and Batou attempt to thwart a mysterious terrorist group, Togusa tracks the killer of a man with a prosthetic leg made by Mermaid's Leg."
+    },
+    {
+      "show_id": "s1677",
+      "title": "Deathgrip",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "International Movies, Sports Movies",
+      "cast": "Brendan Fairclough, Olly Wilkins, Kyle Jameson, Andrew Neethling, Nico Vink, Ryan Howard, Sam Hill, Josh Bryceland, Brandon Semenuk",
+      "director": "Clay Porter",
+      "description": "Mountain bikers – including legend Brendan Fairclough – put their skills to the test and engage in daring feats set against vivid backdrops."
+    },
+    {
+      "show_id": "s4405",
+      "title": "Naruto",
+      "type": "TV Show",
+      "release_year": 2006,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Junko Takeuchi, Chie Nakamura, Noriaki Sugiyama, Kazuhiko Inoue, Toshihiko Seki, Hidekatsu Shibata, Masako Katsuki, Nana Mizuki",
+      "director": "Hayato Date",
+      "description": "Guided by the spirit demon within him, orphaned Naruto learns to harness his powers as a ninja in this anime adventure series."
+    },
+    {
+      "show_id": "s5167",
+      "title": "Resident Evil: Afterlife",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Action & Adventure, Horror Movies, Sci-Fi & Fantasy",
+      "cast": "Milla Jovovich, Ali Larter, Kim Coates, Shawn Roberts, Sergio Peris-Mencheta, Spencer Locke, Boris Kodjoe, Wentworth Miller",
+      "director": "Paul W.S. Anderson",
+      "description": "The Undead Apocalypse continues as super-soldier Alice finds her way to a supposed sanctuary in Los Angeles, which may just be a deadly trap."
+    },
+    {
+      "show_id": "s7132",
+      "title": "Tokyo Idols",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, International Movies, Music & Musicals",
+      "cast": "",
+      "director": "Kyoko Miyake",
+      "description": "This documentary follows J-Pop idol Rio and her predominantly middle-aged fans, and their seemingly transactional interactions."
+    },
+    {
+      "show_id": "s7059",
+      "title": "Thor: Ragnarok",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure, Comedies, Sci-Fi & Fantasy",
+      "cast": "Chris Hemsworth, Tom Hiddleston, Cate Blanchett, Idris Elba, Jeff Goldblum, Tessa Thompson, Karl Urban, Mark Ruffalo, Anthony Hopkins, Benedict Cumberbatch, Taika Waititi, Rachel House, Clancy Brown, Tadanobu Asano, Ray Stevenson, Zachary Levi, Luke Hemsworth, Sam Neill",
+      "director": "Taika Waititi",
+      "description": "To save Asgard from a bloodthirsty goddess of death, the mighty Thor will have to battle his way to freedom and find a way back home."
+    },
+    {
+      "show_id": "s7741",
+      "title": "Your lie in April",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Anime Series, International TV Shows, Romantic TV Shows",
+      "cast": "Natsuki Hanae, Risa Taneda, Ayane Sakura, Ryota Osaka, Saori Hayami, Yuki Kaji",
+      "director": "",
+      "description": "After his mother's death, a piano prodigy's will to play disappears. But meeting a free-spirited girl who plays the violin turns his life around."
+    },
+    {
+      "show_id": "s1675",
+      "title": "Death Race: Beyond Anarchy",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure",
+      "cast": "Zach McGowan, Danny Glover, Frederick Koehler, Danny Trejo, Christine Marzano, Cassie Clare, Yennis Cheung, Lucy Aarden",
+      "director": "Don Michael Paul",
+      "description": "An ex-racecar driver is sent to a barbaric prison where, to get pardoned, he must defeat the inmate known as Frankenstein in a lethal \"Death Race.\""
+    },
+    {
+      "show_id": "s5864",
+      "title": "Sturgill Simpson Presents Sound & Fury",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Anime Features, Music & Musicals, Sci-Fi & Fantasy",
+      "cast": "",
+      "director": "Jumpei Mizusaki, Koji Morimoto, Michael Arias, Masaru Matsumoto, Arthell Isom, Henry Thurlow, Takanobu Mizuno, Elsa Nakamichi, Hajime Sasaki, Shinji Takagi",
+      "description": "In this anime visual album, a mysterious driver heads deep into a postapocalyptic hellscape toward a ferocious showdown with two monstrous opponents."
+    },
+    {
+      "show_id": "s6673",
+      "title": "The Minions of Midas",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Luis Tosar, Marta Belmonte, Guillermo Toledo, Carlos Blanco, Marta Milans, Goize Blanco, Elena Irureta, Bea Segura, Jorge Andreu, Daniel Holguín, Adolfo Fernández, Fernando Barona, Juan Blanco, Ahmed Boulane, Pepe Ocio, Vito Sanz, Adelfa Calvo, Joaquín Climent, Carmelo Gómez, Miguel Ángel Solá",
+      "director": "Mateo Gil",
+      "description": "A millionaire publisher gets a blackmail note — his decision can mean life or death. Inspired by a Jack London story but set in contemporary Madrid."
+    },
+    {
+      "show_id": "s1670",
+      "title": "Death by Magic",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Reality TV",
+      "cast": "Drummond Money-Coutts",
+      "director": "",
+      "description": "Magician Drummond Money-Coutts travels the globe, sharing his infectious love of his craft and attempting feats that proved fatal to other magicians."
+    },
+    {
+      "show_id": "s3037",
+      "title": "InuYasha",
+      "type": "TV Show",
+      "release_year": 2001,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Kappei Yamaguchi, Satsuki Yukino, Kumiko Watanabe, Noriko Hidaka, Koji Tsujitani, Houko Kuwashima, Toshiyuki Morikawa, Richard Ian Cox, Moneca Stori, Paul Dobson, Kirby Morrow, Kelly Sheridan, Jillian Michaels",
+      "director": "",
+      "description": "Yanked down a well, schoolgirl Kagome Higurashi emerges in feudal Japan, where she must reassemble a sacred jewel while eluding half-demon Inuyasha."
+    },
+    {
+      "show_id": "s3995",
+      "title": "Max Rose",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Jerry Lewis, Kerry Bishé, Illeana Douglas, Rance Howard, Kevin Pollak, Mort Sahl, Dean Stockwell, Lee Weaver, Claire Bloom",
+      "director": "Daniel Noah",
+      "description": "An aging jazz musician learns after his wife's death that she may have been unfaithful to him decades before."
+    },
+    {
+      "show_id": "s5598",
+      "title": "Sick Note",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "British TV Shows, International TV Shows, TV Comedies",
+      "cast": "Rupert Grint, Nick Frost, Don Johnson, Lindsay Lohan, Pippa Bennett-Warner, Marama Corlett, Karl Theobald, Belinda Stewart-Wilson, Camilla Beeput, Dustin Demri-Burns, Tolu Ogunmefun",
+      "director": "",
+      "description": "After slacker Daniel Glass is misdiagnosed with cancer, his lies lead him into an absurd web of fraud, blackmail, suspicion and misadventure."
+    },
+    {
+      "show_id": "s3217",
+      "title": "Jonaki",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Lolita Chatterjee, Sumanto Chattopadhyay, Ratnabali Bhattacharjee, Jim Sarbh, Indrajit Sinha, Sandershika Tamang, Arunima Sinha, Satya Priya Chakraborty, Christel Das, Burjor Patel",
+      "director": "Aditya Vikram Sengupta",
+      "description": "In this quiet, wistful drama, a woman on her deathbed searches her fraying memories for love and fulfillment through surreal, meditative tableaux."
+    },
+    {
+      "show_id": "s971",
+      "title": "BLAME!",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Takahiro Sakurai, Kana Hanazawa, Sora Amamiya, Kazuhiro Yamaji, Mamoru Miyano, Aya Suzaki, Nobunaga Shimazaki, Yuki Kaji, Aki Toyosaki, Saori Hayami",
+      "director": "Hiroyuki Seshita",
+      "description": "Inside a vast, self-replicating city bent on eliminating all life, mysterious loner Killy emerges to guide a remnant of humanity desperate to survive."
+    },
+    {
+      "show_id": "s5623",
+      "title": "Sing On! Germany",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, Reality TV",
+      "cast": "Palina Rojinski",
+      "director": "",
+      "description": "In this karaoke competition hosted by Palina Rojinski, contestants must hit the right note for a chance to win up to 30,000 euros."
+    },
+    {
+      "show_id": "s5726",
+      "title": "Soul Eater",
+      "type": "TV Show",
+      "release_year": 2008,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Chiaki Omigawa, Laura Bailey, Emiri Kato, Kouki Uchiyama, Micah Solusod, Yumiko Kobayashi, Brittney Karbowski, Mamoru Miyano, Todd Haberkorn, Kaori Nazuka, Monica Rial, Akeno Watanabe, Jamie Marchi, Narumi Takahira, Cherami Leigh, Houko Kuwashima",
+      "director": "",
+      "description": "Maka and the other students at the Death Weapon Meister Academy must kill 99 evil humans and one witch, absorbing their spirits when they die."
+    },
+    {
+      "show_id": "s1672",
+      "title": "Death House",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Horror Movies",
+      "cast": "Cody Longo, Cortney Palm, Adrienne Barbeau, Michael Berryman, Barbara Crampton, Sid Haig, Gunnar Hansen, Lindsay Hartley, Kane Hodder, Lloyd Kaufman, Camille Keaton, Bill Moseley, Tony Todd, Dee Wallace, Vincent Ward, Vernon Wells",
+      "director": "Harrison Smith",
+      "description": "Two federal agents battle through an army of rioting prisoners – and their sense of reality – inside a high-tech prison modeled after Dante’s Inferno."
+    },
+    {
+      "show_id": "s7",
+      "title": "122",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Horror Movies, International Movies",
+      "cast": "Amina Khalil, Ahmed Dawood, Tarek Lotfy, Ahmed El Fishawy, Mahmoud Hijazi, Jihane Khalil, Asmaa Galal, Tara Emad",
+      "director": "Yasir Al Yasiri",
+      "description": "After an awful accident, a couple admitted to a grisly hospital are separated and must find each other to escape — before death finds them."
+    },
+    {
+      "show_id": "s704",
+      "title": "BAKI",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Nobunaga Shimazaki, Takayuki Sugo, Bin Shimada, Rikiya Koyama, Takuya Eguchi, Banjo Ginga, Takehito Koyasu, Kenjiro Tsuda, Chafurin, Issei Futamata, Mugihito, Yoshihisa Kawahara, Sora Amamiya, Toru Furuya",
+      "director": "",
+      "description": "While martial arts champion Baki Hanma trains hard to surpass his legendary father, five violent death row inmates descend upon Tokyo to take him on."
+    },
+    {
+      "show_id": "s3380",
+      "title": "Kill la Kill",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Ami Koshimizu, Toshihiko Seki, Ryoka Yuzuki, Aya Suzaki, Shinichiro Miki, Tetsu Inada, Nobuyuki Hiyama, Mayumi Shintani, Hiroyuki Yoshino, Romi Park",
+      "director": "",
+      "description": "The \"woman with the scissor blade\" – Ryuko Matoi – searches for clues all around the world for the truth behind her father's death."
+    },
+    {
+      "show_id": "s342",
+      "title": "Aggretsuko",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Kaolip, Komegumi Koiwasaki, Maki Tsuruta, Sohta Arai, Rina Inoue, Shingo Kato, Yuki Takahashi",
+      "director": "",
+      "description": "Frustrated with her thankless office job, Retsuko the Red Panda copes with her daily struggles by belting out death metal karaoke after work."
+    },
+    {
+      "show_id": "s2019",
+      "title": "Equilibrium",
+      "type": "Movie",
+      "release_year": 2002,
+      "listed_in": "Action & Adventure, Dramas, Sci-Fi & Fantasy",
+      "cast": "Christian Bale, Emily Watson, Taye Diggs, Angus Macfadyen, Sean Bean, Sean Pertwee, Matthew Harbour, William Fichtner",
+      "director": "Kurt Wimmer",
+      "description": "In a dystopian future, a totalitarian regime maintains peace by subduing the populace with a drug, and displays of emotion are punishable by death."
+    },
+    {
+      "show_id": "s2783",
+      "title": "Holy Man 2",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Comedies, Faith & Spirituality, International Movies",
+      "cast": "Apisit Opasaimlikit, Suthep Po-ngam, Phichet Iamchaonaa, Note Chern-Yim",
+      "director": "Note Chern-Yim",
+      "description": "Former rap musician Joey Boy is now a monk who takes Father Teng's place at his rural temple, where a crisis develops involving a nearby stone quarry."
+    },
+    {
+      "show_id": "s2887",
+      "title": "I AM A KILLER",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "British TV Shows, Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Death row inmates convicted of capital murder give a firsthand account of their crimes in this documentary series."
+    },
+    {
+      "show_id": "s2814",
+      "title": "Hospital Playlist",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, Korean TV Shows, TV Comedies",
+      "cast": "Cho Jung-seok, Yoo Yeon-seok, Jung Kyung-ho, Kim Dae-myeong, Jeon Mi-do, Kim Hae-suk, Kim Kap-soo, Jung Moon-sung",
+      "director": "",
+      "description": "Every day is extraordinary for five doctors and their patients inside a hospital, where birth, death and everything in between coexist."
+    },
+    {
+      "show_id": "s2784",
+      "title": "Holy Man 3",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Comedies, Faith & Spirituality, International Movies",
+      "cast": "Krissada Sukosol, Natee Aekwijit, Yoakyake Chernyim, Der Doksadao, Note Chern-Yim, Kohtee Aramboy, Chaleumpol Tikumpornteerawong",
+      "director": "Note Chern-Yim",
+      "description": "Two new monks, one of them a former rock music star seeking inner peace, join a temple plagued by thieves who are stealing its valuable holy relics."
+    },
+    {
+      "show_id": "s5742",
+      "title": "Spartacus",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "TV Action & Adventure, TV Dramas",
+      "cast": "Andy Whitfield, Liam McIntyre, Dustin Clare, John Hannah, Manu Bennett, Lucy Lawless, Peter Mensah, Nick E. Tarabay, Viva Bianca, Lesley-Ann Brandt, Jai Courtney, Daniel Feuerriegel",
+      "director": "",
+      "description": "A Thracian man is condemned to a brutal death in the arena, only to outlast his executioners and be reborn as the enslaved gladiator Spartacus."
+    },
+    {
+      "show_id": "s974",
+      "title": "Bleach",
+      "type": "TV Show",
+      "release_year": 2006,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Masakazu Morita, Fumiko Orikasa, Yuki Matsuoka, Noriaki Sugiyama, Hiroki Yasumoto, Kentaro Ito, Ryotaro Okiayu",
+      "director": "",
+      "description": "After teenager Ichigo Kurosaki acquires superpowers from wounded soul reaper Rukia Kuchiki, the two of them join forces to round up lost souls."
+    },
+    {
+      "show_id": "s3960",
+      "title": "Marvel Anime: Wolverine",
+      "type": "TV Show",
+      "release_year": 2011,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Rikiya Koyama, Romi Park, Fumiko Orikasa, Hidekatsu Shibata, Kazuki Yao, Masato Hagiwara",
+      "director": "",
+      "description": "Logan, aka mutant X-Man Wolverine, is on a quest to reclaim the love of his life – whose crime lord father is planning an arranged marriage for her."
+    },
+    {
+      "show_id": "s2039",
+      "title": "EVANGELION: DEATH (TRUE)²",
+      "type": "Movie",
+      "release_year": 1998,
+      "listed_in": "Action & Adventure, Anime Features, International Movies",
+      "cast": "Megumi Ogata, Kotono Mitsuishi, Megumi Hayashibara, Yuko Miyamura, Yuriko Yamaguchi, Fumihiko Tachiki, Motomu Kiyokawa, Koichi Yamadera, Takehito Koyasu, Hiro Yuki, Miki Nagasawa, Mugihito, Akira Ishida",
+      "director": "Hideaki Anno",
+      "description": "Fifteen years after the Second Impact, apathetic teen Shinji joins his father's group NERV to fight the Angels. But the truth may destroy them all."
+    }
+  ]
+}

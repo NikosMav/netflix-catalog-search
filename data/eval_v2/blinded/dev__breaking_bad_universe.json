@@ -1,0 +1,517 @@
+{
+  "split": "dev",
+  "query_id": "breaking_bad_universe",
+  "query": "Breaking Bad and El Camino",
+  "candidates": [
+    {
+      "show_id": "s4493",
+      "title": "No One Will Ever Know",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Adriana Paz, Jorge A. Jiménez, David Medel, Arcelia Ramírez, Luciano Marti, Joanna Larequi, Claudia Santiago, Paul Choza, Gabriel Casanova, Alisson Santiago, Manuel Ojeda, Ofelia Medina, Silvia Pasquel",
+      "director": "Jesús Torres Torres",
+      "description": "A mother and young son escape into their own imaginations to ignore the reality of their lives in rural Mexico."
+    },
+    {
+      "show_id": "s1955",
+      "title": "El desconocido",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Guillermo Iván, César Manjarrez, Estrella Solís, Liliana Moreno, Marco Uriel, Mario Zaragoza, Fernando Sarfatti, José Ángel Bichir, Paty Blanco, Pía Sanz, Scarlet Gruber, Pakey Vázquez, Ivonne Montero",
+      "director": "",
+      "description": "Based on real events, the fictional story of Mexican drug lord El Chato's number one hitman, El Cholo."
+    },
+    {
+      "show_id": "s3500",
+      "title": "La Niña",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Ana María Estupiñán, Sebastian Eslava, Juan Sebastián Aragón, Diego Vásquez, Carlos Velazquez, Marcela Benjumea, Melisa Caceres, Michelle Orozco, Alberto Cardeño, Constanza Camelo, Fernando Arévalo",
+      "director": "",
+      "description": "A former Colombian guerrilla fighter faces challenges as she reintegrates into society and tries to overcome her traumatic memories."
+    },
+    {
+      "show_id": "s7128",
+      "title": "Todo Sobre El Asado",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "El Negro Álvarez",
+      "director": "Mariano Cohn, Gastón Duprat",
+      "description": "This quirky examination of Argentina's culture, customs and cuisine slices into the country's traditional barbecue – which is both meal and ritual."
+    },
+    {
+      "show_id": "s1945",
+      "title": "El Camino Christmas",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Dramas",
+      "cast": "Jessica Alba, Tim Allen, Dax Shepard, Vincent D'Onofrio, Luke Grimes, Kurtwood Smith, Michelle Mylett",
+      "director": "David E. Talbert",
+      "description": "Stuck in a liquor store during an alleged robbery, a group of strangers shares hidden truths and forms an unexpected bond on Christmas Eve."
+    },
+    {
+      "show_id": "s2143",
+      "title": "Felipe Esparza: Bad Decisions",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Stand-Up Comedy & Talk Shows, TV Comedies",
+      "cast": "Felipe Esparza",
+      "director": "",
+      "description": "Two live performances, one in English and one in Spanish. No matter the language, Felipe Esparza is muy muy."
+    },
+    {
+      "show_id": "s3484",
+      "title": "L.A.’s Finest",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, TV Action & Adventure, TV Comedies",
+      "cast": "Jessica Alba, Gabrielle Union",
+      "director": "",
+      "description": "In this spinoff of the \"Bad Boys\" franchise, two police detectives team up while trying to keep their stormy pasts — and differences — from interfering."
+    },
+    {
+      "show_id": "s7244",
+      "title": "True Memoirs of an International Assassin",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure, Comedies",
+      "cast": "Kevin James, Andy Garcia, Zulay Henao, Maurice Compte, Kelen Coleman, Andrew Howard, Rob Riggle, Leonard Earl Howze, Yul Vazquez, Kim Coates, Daniel Zacapa, Ron Rifkin, Jeff Chase",
+      "director": "Jeff Wadlow",
+      "description": "After his publisher markets his crime novel as a memoir, a novice author finds himself forcibly recruited into a deadly political plot in Venezuela."
+    },
+    {
+      "show_id": "s1185",
+      "title": "Camarón Revolution",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Camarón de la Isla, Juan Diego",
+      "director": "",
+      "description": "The extraordinary life and career of flamenco legend Camarón de la Isla is covered in this sweeping biography series."
+    },
+    {
+      "show_id": "s3723",
+      "title": "Los Herederos",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Máximo Hollander, Sebastián Aguirre, Úrsula Pruneda, Rodrigo Mendoza, Germán Bracco, Tomás Manterola, Regina Soto, Diego Velázquez, Mónica Del Carmen, José Egüez, Pablo Cruz",
+      "director": "Jorge Hernandez Aldana",
+      "description": "Spurred by boredom and peer pressure, a group of suburban teens becomes increasingly violent and find their paths intersecting those of their parents."
+    },
+    {
+      "show_id": "s1970",
+      "title": "El-Khawaga's Dilemma",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Action & Adventure, Comedies, International Movies",
+      "cast": "Hassan El Raddad, Mohamed Lotfy, Hana El Zahed, Hassan Hosny, Majed El Masry, Mohamed Ezz, Samia Trabelsi, Yasser Al Zankalouni, Ahmed El Sobky, Bayoumi Fouad",
+      "director": "Peter Mimi",
+      "description": "After a car crash, sparks fly for a financially struggling man and the daughter of a business tycoon, unraveling dark secrets and loose ends."
+    },
+    {
+      "show_id": "s2232",
+      "title": "For Your Own Good",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Jose Coronado, Javier Cámara, Roberto Álamo, Pilar Castro, María Pujalte, Carmen Ruiz, Silvia Alonso, Georgina Amorós, Andrea Ros, Miki Esparbé",
+      "director": "Carlos Therón",
+      "description": "Three brothers-in-law join forces to secretly drive away their daughters' undesirable boyfriends: anarchist Álex, bad-boy Dani and playboy Ernesto."
+    },
+    {
+      "show_id": "s493",
+      "title": "An Hour and a Half",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Eyad Nassar, Ahmed Bedir, Fathy Abdel Wahab, Sawsan Badr, Maged El Kedwany, Tarek Abdel Aziz, Karima Mokhtar, Yousra El Lozy, Somaya El Khashab, Mohamed Emam",
+      "director": "Wael Ehsan",
+      "description": "Based on the 2002 El Ayyat train accident, this drama begins 90 minutes before the explosion, following the lives of riders in the third-class cars."
+    },
+    {
+      "show_id": "s6545",
+      "title": "The Land",
+      "type": "Movie",
+      "release_year": 1970,
+      "listed_in": "Classic Movies, Dramas, International Movies",
+      "cast": "Hamdy Ahmed, Nagwa Ibrahim, Ezzat El Alaili, Tawfik El Deken, Yehia Chahine, Mahmoud El Meleigy, Salah El-Saadany, Ali El Sherif",
+      "director": "Youssef Chahine",
+      "description": "A group of peasant farmers fights to protect their village against a corrupt landowner. Adapted from the popular novel by Abdel Rahman al-Sharqawi."
+    },
+    {
+      "show_id": "s2602",
+      "title": "Hannibal Buress: Comedy Camisado",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Hannibal Buress",
+      "director": "Lance Bangs",
+      "description": "In a special packed with stealthy humor, Hannibal Buress tackles zipper etiquette, the legacy of steroids and the fallout from his Bill Cosby routine."
+    },
+    {
+      "show_id": "s6278",
+      "title": "The Dealer",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Action & Adventure, International Movies",
+      "cast": "Ahmed El Sakka, Khaled El Nabawy, Mai Selim, Nedal El Shafey, Boris Abramov, Selami Şahin",
+      "director": "Ahmed Saleh",
+      "description": "Separated by distance and circumstance, two bitter rivals cross paths when the perils of the drug trade unexpectedly unite them."
+    },
+    {
+      "show_id": "s1951",
+      "title": "El Che",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Paco Ignacio Taibo II",
+      "director": "Matías Gueilburt",
+      "description": "Spanish-Mexican writer Paco Ignacio Taibo II hits the road to trace the footsteps of Ernesto \"Che\" Guevara and sheds new light on the revolutionary."
+    },
+    {
+      "show_id": "s1090",
+      "title": "Breaking Bad",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "Crime TV Shows, TV Dramas, TV Thrillers",
+      "cast": "Bryan Cranston, Aaron Paul, Anna Gunn, Dean Norris, Betsy Brandt, R.J. Mitte, Bob Odenkirk, Steven Michael Quezada, Jonathan Banks, Giancarlo Esposito",
+      "director": "",
+      "description": "A high school chemistry teacher dying of cancer teams with a former student to secure his family's future by manufacturing and selling crystal meth."
+    },
+    {
+      "show_id": "s1964",
+      "title": "El señor de los Cielos",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Rafael Amaya, Ximena Herrera, Robinson Díaz, Raúl Méndez, Gabriel Porras, Carmen Villalobos, Mauricio Ochmann, Fernanda Castillo, Marlene Favela, Carmen Aub, Maritza Rodríguez",
+      "director": "",
+      "description": "Only Aurelio Casillas can fill Pablo Escobar's shoes and become Mexico's biggest drug trafficker of the '90s."
+    },
+    {
+      "show_id": "s1949",
+      "title": "El Chapo",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, Spanish-Language TV Shows, TV Action & Adventure",
+      "cast": "Marco de la O, Humberto Busto, Alejandro Aguilar, Rodrigo Abed, Luis Fernando Peña, Juan Carlos Olivas, Rolf Petersen, Carlos Hernan Romo, Héctor Holten, Diego Vásquez, Teté Espinoza, Luis Rábago, Dolores Heredia, Cristina Michaus, Valentina Acosta, Juliette Pardau, Abril Schreiber",
+      "director": "",
+      "description": "This drama series chronicles the true story of the rise, capture and escape of notorious Mexican drug lord Joaquín \"El Chapo\" Guzmán."
+    },
+    {
+      "show_id": "s6274",
+      "title": "The Day I Met El Chapo",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, Docuseries, International TV Shows",
+      "cast": "Kate del Castillo",
+      "director": "",
+      "description": "Mexican superstar actress Kate del Castillo reveals the untold story of her encounter with El Chapo Guzmán, the world’s most-wanted drug lord."
+    },
+    {
+      "show_id": "s799",
+      "title": "Because We're Heading Out",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Hassan El Raddad, Emy Samir Ghanim, Bayyumi Fuad, Taher Abu Lela, Nesreen Ameen, Mourad Makram, Diaa El-Merghani, Juditta Salem-Wolff",
+      "director": "Khaled El Halafawy",
+      "description": "Trouble and high jinks ensue when a man and woman stumble on a bag full of money while out on the town."
+    },
+    {
+      "show_id": "s5692",
+      "title": "Sofía Niño de Rivera: Selección Natural",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Sofía Niño de Rivera",
+      "director": "Raúl Campos, Jan Suter",
+      "description": "Mexico's Sofía Niño de Rivera brings her dark humor to the stage with jokes about marriage traps, sexually attractive leopards and funny funerals."
+    },
+    {
+      "show_id": "s859",
+      "title": "Better Call Saul",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, TV Comedies, TV Dramas",
+      "cast": "Bob Odenkirk, Jonathan Banks, Michael McKean, Rhea Seehorn, Patrick Fabian, Michael Mando, Giancarlo Esposito",
+      "director": "",
+      "description": "This Emmy-nominated prequel to \"Breaking Bad\" follows small-time attorney Jimmy McGill as he transforms into morally challenged lawyer Saul Goodman."
+    },
+    {
+      "show_id": "s5382",
+      "title": "Santa Claws",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Nicola Lambo, Evan Boymel, John P. Fowler, Erica Duke, Ezra James Colbert",
+      "director": "Glenn Miller",
+      "description": "When a gift sack full of kittens gives Santa a bad allergic reaction, the kitties have to take over and deliver the presents on time."
+    },
+    {
+      "show_id": "s1948",
+      "title": "El Cartel 2",
+      "type": "TV Show",
+      "release_year": 2010,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Diego Cadavid, Robinson Díaz, Patricia Manterola, Carolina Guerra, John Álex Toro, Luis Eduardo Arango, Alejandro Martínez, Juan Sebastián Aragón, Víctor Mallarino, Santiago Moure, Carlos Echavarría, John Gertz",
+      "director": "",
+      "description": "Drug trafficker Pepe Cadena navigates the treacherous waters of warring cartels in Mexico and Colombia while avoiding capture by the DEA and police."
+    },
+    {
+      "show_id": "s1962",
+      "title": "El Potro: Unstoppable",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, International Movies, Music & Musicals",
+      "cast": "Jimena Barón, Rodrigo Romero, Diego Cremonesi, Daniel Aráoz, Malena Sánchez, Julieta Vallina, Florencia Peña, Simja Dujov, Adan Otero, Fernán Mirás",
+      "director": "Lorena Munoz",
+      "description": "Argentine cuarteto singer Rodrigo \"El Potro\" Bueno rises to fame amid personal struggles in this dramatization of the charismatic superstar's life."
+    },
+    {
+      "show_id": "s3890",
+      "title": "Malibu Rescue: The Series",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Kids' TV, TV Action & Adventure, TV Comedies",
+      "cast": "Ricardo Hurtado, Breanna Yde, Jackie R. Jacobson, Abby Donnelly, Alkoya Brunson, Jeremy Howard, JT Neal, Bryana Salaz, Ian Ziering, Camaron Engels",
+      "director": "",
+      "description": "On the heels of Junior Rescue training, Team Flounder returns to brave the beach in a series of thrilling saves and lighthearted laughs."
+    },
+    {
+      "show_id": "s1947",
+      "title": "El Cartel",
+      "type": "TV Show",
+      "release_year": 2008,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Manolo Cardona, Karen Martínez, Robinson Díaz, Diego Cadavid, Fernando Solórzano, Julian Arango, Sandra Reyes, Juan Pablo Raba, Fernando Arévalo",
+      "director": "",
+      "description": "One man makes a fateful decision to get involved with a Colombian drug cartel in this series based on a novel by Andrés López López."
+    },
+    {
+      "show_id": "s1957",
+      "title": "El Especial de Alex Fernández, el Especial",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Alex Fernández",
+      "director": "Jan Suter",
+      "description": "From a Mexico City theme park, energetic stand-up Alex Fernández riffs on music, cheap toys, insecurity and other fun things about growing up."
+    },
+    {
+      "show_id": "s3692",
+      "title": "Lo que la vida me robó",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "Crime TV Shows, International TV Shows, Romantic TV Shows",
+      "cast": "Angelique Boyer, Sebastián Rulli, Luis Roberto Guzmán, Osvaldo Benavides, Daniela Castro, Ana Bertha Espín, Gabriela Rivero, Alejandro Ávila, Alejandra García, Carlos de la Mota, Sergio Sendel, Ferdinando Valencia, Grettell Valdez, Verónica Jaspeado, Margarita Magaña, Alexis Ayala, Alejandra Procuna, Juan Carlos Barreto",
+      "director": "",
+      "description": "In seaside Aguazul, beautiful Montserrat and her wily mother tangle with lovers, gangsters, financial ruin, obsession – and murder."
+    },
+    {
+      "show_id": "s1950",
+      "title": "El Chavo",
+      "type": "TV Show",
+      "release_year": 1979,
+      "listed_in": "Classic & Cult TV, Kids' TV, Spanish-Language TV Shows",
+      "cast": "Roberto Gómez Bolaños, María Antonieta de las Nieves, Carlos Villagrán, Florinda Meza García, Angelines Fernández Abad, Rubén Aguirre Fuentes, Edgar Vivar, Ramón Gómez Valdez de Castillo",
+      "director": "",
+      "description": "El Chavo is a poor, nameless orphan who lives in an apartment building with La Chilindrina, Quico, Doña Florinda, Don Ramón and Professor Jirafales."
+    },
+    {
+      "show_id": "s4402",
+      "title": "Narcos",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, TV Action & Adventure, TV Dramas",
+      "cast": "Wagner Moura, Pedro Pascal, Boyd Holbrook, Damián Alcázar, Alberto Ammann, Francisco Denis, Pêpê Rapazote, Matias Varela, Michael Stahl-David, Matt Whelan, Arturo Castro, Javier Cámara, José María Yazpik, Eric Lange, Brett Cullen, Miguel Ángel Silvestre, Kerry Bishé, Paulina Gaitán, Cristina Umaña, Paulina García, Juan Sebastián Calero, Joanna Christie, Taliana Vargas, Andrea Londo, Manolo Cardona, Diego Cataño, Raúl Méndez, Bruno Bichir, Stephanie Sigman, Florencia Lozano, Juan Pablo Raba, Leynar Gomez, Konstantin Melikhov, Martina García, Maurice Compte, Mauricio Cujar, Jorge Monterrosa, Germán Jaramillo, Juan Pablo Shuk, Julián Díaz, Alejandro Buitrago, Federico Rivera",
+      "director": "",
+      "description": "The true story of Colombia's infamously violent and powerful drug cartels fuels this gritty gangster drama series."
+    },
+    {
+      "show_id": "s1883",
+      "title": "Drug Squad: Costa del Sol",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Hugo Silva, Álvaro Cervantes, Miki Esparbé, Jesús Castro, Sara Sálamo, Jorge Usón, Cayetana Cabezas, Pablo Béjar, Marco Cáceres, Olivia Delcán, Jorge Suquet, Daniel Holguín, Joaquín Galletero, Carolina Yuste, Ana Fernández",
+      "director": "",
+      "description": "Four intrepid and impulsive police officers form a special narcotics unit to combat the birth of drug trafficking on Spain's Costa del Sol in the 1970s."
+    },
+    {
+      "show_id": "s5113",
+      "title": "Reaction",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Mahmoud Abdel Moghny, Amr Youssef, Horeya Farghaly, Mahmoud El Gendy, Entessar, Donia El Masry, Sabry Abdel Moniem, Raouf Mustafa, Alaa Zenhom",
+      "director": "Husam El-Gohari",
+      "description": "When a series of seemingly random people are murdered, baffled police search for a killer who may have a connection to them all."
+    },
+    {
+      "show_id": "s5923",
+      "title": "Surviving Escobar - Alias JJ",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "Crime TV Shows, International TV Shows, Spanish-Language TV Shows",
+      "cast": "Juan Pablo Urrego, Amparo Grisales, Nicole Santamaría, Elkin Díaz, Francisco Javier Rueda, Ramsés Ramos, Lina Marcela Castrillón, Toto Vega, Camilo Sáenz, Mijail Mulkay, Natasha Klauss, Nelson Camayo",
+      "director": "",
+      "description": "As the Medellín Cartel crumbles, Pablo Escobar's No. 1 hit man struggles to stay alive and gain respect in the prison hierarchy."
+    },
+    {
+      "show_id": "s2221",
+      "title": "Footprints: The Path of Your Life",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries, Faith & Spirituality, International Movies",
+      "cast": "",
+      "director": "Juan Manuel Cotelo",
+      "description": "This documentary follows 10 men who agree to walk the Camino de Santiago, a 500-mile, 40-day trek that will challenge their strength and faith."
+    },
+    {
+      "show_id": "s5686",
+      "title": "So Much Love to Give",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Comedies, International Movies, Music & Musicals",
+      "cast": "Adrián Suar, Soledad Villamil, Gabriela Toscano, Alan Sabbagh, Darío Barassi, Magela Zanotta, Betiana Blum",
+      "director": "Marcos Carnevale",
+      "description": "Fernando is a family man — equally committed to each of his two families. But one wrong turn brings them crashing together."
+    },
+    {
+      "show_id": "s1444",
+      "title": "Coco y Raulito: Carrusel de ternura",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Coco Celis, Raúl Meneses",
+      "director": "Raúl Campos, Jan Suter",
+      "description": "A study in contrasts, comedy partners and good friends Coco Celis and Raúl Meneses alternate separate stand-up sets for double the laughs."
+    },
+    {
+      "show_id": "s5358",
+      "title": "Sam Kinison: Breaking the Rules",
+      "type": "Movie",
+      "release_year": 1987,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Sam Kinison",
+      "director": "Walter C. Miller",
+      "description": "The one-time preacher shakes and shudders as he tears into subjects including sex, marriage, religion, drugs and famine in this HBO special."
+    },
+    {
+      "show_id": "s1186",
+      "title": "Camarón: The Film",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries, International Movies, Music & Musicals",
+      "cast": "Juan Diego",
+      "director": "Alexis Morante",
+      "description": "This documentary looks back on the life of legendary flamenco singer Camarón, who went from humble roots to rock star status to a tragic early death."
+    },
+    {
+      "show_id": "s2552",
+      "title": "Gun City",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Luis Tosar, Michelle Jenner, Vicente Romero, Manolo Solo, Paco Tous, Adriana Torrebejano, Pep Tosar, Jaime Lorente, Ernesto Alterio, Fernando Cayo",
+      "director": "Dani de la Torre",
+      "description": "In 1921 Barcelona, amid unrest between anarchists and the police, a cop plays both sides to learn who stole army weapons that could ignite a civil war."
+    },
+    {
+      "show_id": "s1959",
+      "title": "El límite infinito",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, International Movies, Sports Movies",
+      "cast": "Jean Maggi",
+      "director": "Pablo Aulita",
+      "description": "From early struggles to his climb up the Himalayas, Jean Maggi gets profiled in this documentary that highlights his advancement of adaptive sports."
+    },
+    {
+      "show_id": "s6450",
+      "title": "The Heroes of Evil",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Emilio Palacios, Jorge Clemente, Beatriz Medina, Macarena Gómez, Olivia Baglivi, Paula Soldevila, Nacho Coronado, Beatriz Olivares",
+      "director": "Zoe Berriatúa",
+      "description": "Three teenage misfits find camaraderie in sex, violence and petty crime. But what starts as a lark soon threatens to damage them beyond repair."
+    },
+    {
+      "show_id": "s3380",
+      "title": "Kill la Kill",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Anime Series, International TV Shows",
+      "cast": "Ami Koshimizu, Toshihiko Seki, Ryoka Yuzuki, Aya Suzaki, Shinichiro Miki, Tetsu Inada, Nobuyuki Hiyama, Mayumi Shintani, Hiroyuki Yoshino, Romi Park",
+      "director": "",
+      "description": "The \"woman with the scissor blade\" – Ryuko Matoi – searches for clues all around the world for the truth behind her father's death."
+    },
+    {
+      "show_id": "s1968",
+      "title": "El Vato",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Spanish-Language TV Shows, TV Comedies",
+      "cast": "El Dasa, Cristina Rodlo, Ricardo Polanco, Gustavo Egelhaaf, Mauricio Martínez, Itatí Cantoral, Arcelia Ramírez, Horacio Castelo, Fátima Molina, Leonardo Daniel, Giancarlo Vidrio, Mónica Dionne, Sebastián Ferrat, Mauricio Isaac, Aldo Gallardo, Julio Casado, Arnulfo Reyes Sanchez, José María de Tavira, Pablo Bracho, Patricio Sebastián",
+      "director": "",
+      "description": "Regional Mexican singer El Vato and his friends struggle to succeed in the enticing but deceptive music world in Los Angeles, California."
+    },
+    {
+      "show_id": "s6831",
+      "title": "The Road to El Camino: Behind the Scenes of El Camino: A Breaking Bad Movie",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "",
+      "description": "Aaron Paul, Vince Gilligan and other cast members, producers and crew share stories and footage from the making of \"El Camino.\""
+    },
+    {
+      "show_id": "s4416",
+      "title": "Natalia Valdebenito: El especial",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Natalia Valdebenito",
+      "director": "Raúl Campos, Jan Suter",
+      "description": "A Chilean comedian fuses activism with irreverence for a stand-up set filled with jokes about misogyny, reproductive rights and respecting women."
+    },
+    {
+      "show_id": "s5717",
+      "title": "Son Of Adam",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Youssef El Sherif, Dina El-Sherbiny, Ahmad Rizq, Hana El Zahed, Mahmoud El Gendy, Bayyumi Fuad, Khaled Kamal, Mahmoud El-Bazzawy",
+      "director": "Ahmed Nader Galal",
+      "description": "To escape conviction on criminal charges, a businessman agrees to aid a risky police mission, but his motives soon turn suspicious."
+    },
+    {
+      "show_id": "s693",
+      "title": "Bad Grandpa .5",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Comedies",
+      "cast": "Johnny Knoxville, Jackson Nicoll, Greg Harris, Georgina Cates, Kamber Hejlik, Jill Killington, Madison Davis, George Faughnan, Spike Jonze, Catherine Keener",
+      "director": "Jeff Tremaine",
+      "description": "The geriatric antics of Irving Zisman continue in this next installment of the Jackass franchise, which features unused footage from the first film."
+    },
+    {
+      "show_id": "s1946",
+      "title": "El Camino: A Breaking Bad Movie",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Thrillers",
+      "cast": "Aaron Paul",
+      "director": "Vince Gilligan",
+      "description": "Fugitive Jesse Pinkman attempts to outrun his past. Written and directed by \"Breaking Bad\" creator Vince Gilligan, starring Aaron Paul."
+    }
+  ]
+}

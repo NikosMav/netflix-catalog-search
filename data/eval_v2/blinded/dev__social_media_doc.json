@@ -1,0 +1,477 @@
+{
+  "split": "dev",
+  "query_id": "social_media_doc",
+  "query": "documentary about social media harming society",
+  "candidates": [
+    {
+      "show_id": "s348",
+      "title": "Ai Weiwei: Never Sorry",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Documentaries",
+      "cast": "Ai Weiwei, Lao Ai",
+      "director": "Alison Klayman",
+      "description": "Chinese artist and activist Ai Weiwei uses social media and art to inspire protests and suffers government persecution for his actions."
+    },
+    {
+      "show_id": "s1927",
+      "title": "Edoardo Ferrario: Temi Caldi",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Edoardo Ferrario",
+      "director": "Francesco Imperato",
+      "description": "Italian comedian Edoardo Ferrario riffs on life at 30 and unpacks the peculiarities of global travel, social media and people who like craft beer."
+    },
+    {
+      "show_id": "s6518",
+      "title": "The Joel McHale Show with Joel McHale",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy & Talk Shows, TV Comedies",
+      "cast": "Joel McHale",
+      "director": "",
+      "description": "Trending news, pop culture, social media, original sketches and more come together in host Joel McHale's new weekly comedy commentary show."
+    },
+    {
+      "show_id": "s7612",
+      "title": "Whose Streets?",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Sabaah Folayan, Damon Davis",
+      "description": "Powered by activists and leaders, this documentary follows the rise of the Black Lives Matter movement following the 2014 killing of Michael Brown."
+    },
+    {
+      "show_id": "s465",
+      "title": "American Hangman",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Thrillers",
+      "cast": "Donald Sutherland, Vincent Kartheiser, Oliver Dennis, Paul Braunstein, Paul Amato, Matt Baram, Dan Beirne, Joanne Boland, Jamie Jacqueline Burns, Alexander Crowther",
+      "director": "Wilson Coneybeare",
+      "description": "A judge’s kidnapping is streamed live on social media, as a vengeful loner puts him on trial for supposedly sending an innocent man to his death."
+    },
+    {
+      "show_id": "s7155",
+      "title": "Top Grier",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Reality TV",
+      "cast": "",
+      "director": "",
+      "description": "Social media star Hayes Grier returns to North Carolina for a reality series packed with action sports, pranks and romantic escapades."
+    },
+    {
+      "show_id": "s7220",
+      "title": "Trial By Media",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "In this true crime docuseries, some of the most dramatic trials of all time are examined with an emphasis on how the media may have impacted verdicts."
+    },
+    {
+      "show_id": "s6421",
+      "title": "The Great Hack",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Karim Amer, Jehane Noujaim",
+      "description": "Explore how a data company named Cambridge Analytica came to symbolize the dark side of social media in the wake of the 2016 U.S. presidential election."
+    },
+    {
+      "show_id": "s1655",
+      "title": "Deadcon",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Horror Movies",
+      "cast": "Lauren Elizabeth, Claudia Sulewski, Keith Machekanyanga, Mimi Gianopulos, Lukas Gage, Carl Gilliard, Caeli, Mark Dohner, Jessie Paege, Richard Kohnke, Dominic Burgess, Judah Mackey",
+      "director": "Caryn Waechter",
+      "description": "A group of uber-popular, social media influencers’ trip to a digital media festival grows dark when an evil spirit wants to lure them to their demise."
+    },
+    {
+      "show_id": "s1138",
+      "title": "Bully",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Lee Hirsch",
+      "description": "This eye-opening documentary tracks the stories of five different families whose children are struggling to defend themselves from school bullies."
+    },
+    {
+      "show_id": "s5688",
+      "title": "Social Animals",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Jonathan Ignatius Green",
+      "description": "This documentary follows a trio of teens – a daredevil photographer, an aspiring model and a lonely Ohio girl – and Instagram's impact on their lives."
+    },
+    {
+      "show_id": "s5258",
+      "title": "Roll Red Roll",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Nancy Schwartzman",
+      "description": "This compelling documentary follows the 2012 Steubenville, Ohio rape case, putting social media and high school football culture in the spotlight."
+    },
+    {
+      "show_id": "s3022",
+      "title": "Inst@famous",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Reality TV",
+      "cast": "",
+      "director": "",
+      "description": "Self-made social media celebrities share the stories of how they built their online empires and where they plan to take their unexpected fame next."
+    },
+    {
+      "show_id": "s5503",
+      "title": "Servant of the People",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "International TV Shows, TV Comedies",
+      "cast": "Vladimir Zelenskiy, Natalya Sumskaya, Viktor Saraykin, Stanislav Boklan, Ekaterina Kisten, Anna Koshmal, Yelena Kravets, Aleksandr Pikalov, Evgeniy Koshevoy, Yuri Krapov",
+      "director": "",
+      "description": "After a Ukrainian high school teacher's tirade against government corruption goes viral on social media, he finds himself the country's new president."
+    },
+    {
+      "show_id": "s957",
+      "title": "Black Mirror",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "British TV Shows, International TV Shows, TV Dramas",
+      "cast": "Jesse Plemons, Cristin Milioti, Jimmi Simpson, Rosemarie DeWitt, Douglas Hodge, Andrea Riseborough, Brenna Harding, Owen Teague, Andrew Gower, Kiran Sonia Sawar, Georgina Campbell, Joe Cole, Maxine Peake, Jake Davies, Clint Dyer, Letitia Wright, Babs Olusanmokun, Bryce Dallas Howard, Alice Eve, Michael Kelly, Cherry Jones, Gugu Mbatha-Raw, Mackenzie Davis, Wyatt Russell, Benedict Wong, Kelly Macdonald, Faye Marsay, Madeline Brewer, Hannah John-Kamen, Malachi Kirby, Alex Lawther, Jerome Flynn, James Norton, Rory Kinnear, Lindsay Duncan, Daniel Kaluuya, Jessica Brown Findlay, Rupert Everett, Toby Kebbell, Jodie Whittaker, Hayley Atwell, Domhnall Gleeson, Lenora Crichlow, Michael Smiley, Daniel Rigby, Chloe Pirrie, Jason Flemyng, Jon Hamm, Oona Chaplin, Rafe Spall",
+      "director": "",
+      "description": "This sci-fi anthology series explores a twisted, high-tech near-future where humanity's greatest innovations and darkest instincts collide."
+    },
+    {
+      "show_id": "s1076",
+      "title": "Brainchild",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Kids' TV",
+      "cast": "Sahana Srinivasan, Alie Ward, Ben Seidman",
+      "director": "",
+      "description": "From germs and emotions to social media and more, it's the science of your world explained in a way that's refreshingly relatable."
+    },
+    {
+      "show_id": "s1290",
+      "title": "Chasing Cameron",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Reality TV, Teen TV Shows",
+      "cast": "Cameron Dallas, Aaron Carpenter, Taylor Caniff, Willie Jones, Trey Schafer, Bart Bordelon, Blake Gray",
+      "director": "",
+      "description": "Go behind the scenes with social media sensation Cameron Dallas as he takes his career to the next level on an international tour."
+    },
+    {
+      "show_id": "s34",
+      "title": "#realityhigh",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies",
+      "cast": "Nesta Cooper, Kate Walsh, John Michael Higgins, Keith Powers, Alicia Sanz, Jake Borelli, Kid Ink, Yousef Erakat, Rebekah Graf, Anne Winters, Peter Gilroy, Patrick Davis",
+      "director": "Fernando Lebrija",
+      "description": "When nerdy high schooler Dani finally attracts the interest of her longtime crush, she lands in the cross hairs of his ex, a social media celebrity."
+    },
+    {
+      "show_id": "s2711",
+      "title": "Heroin(e)",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Elaine McMillion Sheldon",
+      "description": "This documentary follows three women – a fire chief, a judge and a street missionary – as they battle West Virginia's devastating opioid epidemic."
+    },
+    {
+      "show_id": "s5651",
+      "title": "Skins",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Ana Polvorosa, Candela Peña, Macarena Gómez, Carmen Machi, Jon Kortajarena, Secun de la Rosa, Itziar Castro, Antonio Durán 'Morris', Joaquín Climent, Ana María Ayala, Eloi Costa",
+      "director": "Eduardo Casanova",
+      "description": "Deformed, disfigured characters must find a way to deal with society shunning their differences in this darkly comic social drama."
+    },
+    {
+      "show_id": "s4143",
+      "title": "Miss Representation",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Jennifer Siebel Newsom",
+      "description": "Explore how the mainstream media's often disparaging portrayals of women contribute to the under-representation of females in positions of leadership."
+    },
+    {
+      "show_id": "s7205",
+      "title": "Tree House Tales",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Kids' TV",
+      "cast": "Renu Sharda, Sonal Kaushal, Shiney Prakash, Sumriddhi Shukla",
+      "director": "",
+      "description": "From the virtue of politeness to the dangers of social media, life is full of valuable lessons for a group of friends navigating the journey of growing up."
+    },
+    {
+      "show_id": "s7740",
+      "title": "Your Excellency",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies, International Movies",
+      "cast": "Akin Lewis, Funke Akindele, Kemi Lala Akindoju, Shaffy Bello, Kunle Coker, Eku Edewor, Alexx Ekubo, Osas Ighodaro Ajibade, Seyi Law, Falz, Chigul, Deyemi Okanlawon, Beverly Osu, Toni Tones, Christian Paul, Bimbo Manuel, Helen Paul",
+      "director": "Funke Akindele",
+      "description": "Bumbling through politics, a billionaire businessman's presidential campaign seems destined for disaster until it gets a boost from social media."
+    },
+    {
+      "show_id": "s2891",
+      "title": "I Am Jane Doe",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "Jessica Chastain",
+      "director": "Mary Mazzio",
+      "description": "This intense documentary follows real cases of American girls enslaved in the child sex trade through ads in a newspaper's online classified section."
+    },
+    {
+      "show_id": "s1777",
+      "title": "Disclosure",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, LGBTQ Movies",
+      "cast": "",
+      "director": "",
+      "description": "In this documentary, leading trans creatives and thinkers share heartfelt perspectives and analysis about Hollywood's impact on the trans community."
+    },
+    {
+      "show_id": "s2288",
+      "title": "Friend Request",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Horror Movies, International Movies",
+      "cast": "Alycia Debnam-Carey, William Moseley, Connor Paolo, Brit Morgan, Brooke Markham, Sean Marquette, Liesl Ahlers, Shashawnee Hall, Susan Danford",
+      "director": "Simon Verhoeven",
+      "description": "A popular college student's love of social media becomes her biggest regret when a mysterious account marks each of her friends for a grisly demise."
+    },
+    {
+      "show_id": "s6885",
+      "title": "The Social Network",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Dramas",
+      "cast": "Jesse Eisenberg, Andrew Garfield, Justin Timberlake, Armie Hammer, Max Minghella, Josh Pence, Brenda Song, Rashida Jones, John Getz, David Selby",
+      "director": "David Fincher",
+      "description": "Director David Fincher's biographical drama chronicles the meteoric rise of Facebook CEO Mark Zuckerberg from Harvard sophomore to Internet superstar."
+    },
+    {
+      "show_id": "s6028",
+      "title": "Terra",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Vanessa Paradis",
+      "director": "Yann Arthus-Bertrand, Michael Pitiot",
+      "description": "This visually arresting documentary essay reflects on our relationship to other living creatures as humanity becomes more isolated from nature."
+    },
+    {
+      "show_id": "s7519",
+      "title": "Wedy Atkalam",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Abdulmohsen Al-Qaffas, Jamal Alradhan, Jassim Al Nabhan, Layla Abdullah, Khaled Al-Buraiki",
+      "director": "Sadeq Behbehani",
+      "description": "A socially conscious film director struggles with his career as he faces numerous obstacles, including his social media-friendly significant other."
+    },
+    {
+      "show_id": "s5085",
+      "title": "Ralph Breaks the Internet: Wreck-It Ralph 2",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "John C. Reilly, Sarah Silverman, Taraji P. Henson, Gal Gadot, Jack McBrayer, Jane Lynch, Alan Tudyk, Ed O'Neill, Susan Lucci, Jason Lee, Idina Menzel, Anika Noni Rose, Judy Reyes, Grant Show, Ana Ortiz, Ming-Na Wen, Rebecca Wisocky, Paige O'Hara, Linda Larkin, Mariana Klaveno, Daria Ramirez, Tom Irwin, Edy Ganem, Irene Bedard, Jodi Benson, Anthony Daniels",
+      "director": "Phil Johnston, Rich Moore",
+      "description": "When video-game bad guy Ralph and best friend Vanellope discover a way onto the internet, they set off on a mission to save her broken game."
+    },
+    {
+      "show_id": "s1205",
+      "title": "Capital in the Twenty-First Century",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Justin Pemberton",
+      "description": "Based on economist Thomas Piketty's best-selling book, this documentary examines wealth accumulation and its looming social repercussions."
+    },
+    {
+      "show_id": "s437",
+      "title": "Alt-Right: Age of Rage",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries",
+      "cast": "Daryle Lamont Jenkins, Richard Spencer",
+      "director": "Adam Bhala Lough",
+      "description": "This documentary follows a white power leader and an Antifa activist leading up to the Charlottesville riots in the first year of Trump's presidency."
+    },
+    {
+      "show_id": "s3689",
+      "title": "Lo and Behold: Reveries of the Connected World",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "Werner Herzog",
+      "director": "Werner Herzog",
+      "description": "Filmmaker Werner Herzog presents a history of the internet, starting with its birth in 1969, and ponders the joys and sorrows of its social influence."
+    },
+    {
+      "show_id": "s6437",
+      "title": "The Hater",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Maciej Musiałowski, Agata Kulesza, Danuta Stenka, Vanessa Aleksander, Maciej Stuhr, Jacek Koman, Adam Gradowski, Piotr Biedron, Martynika Kosnica",
+      "director": "Jan Komasa",
+      "description": "A duplicitous young man finds success in the dark world of social media smear tactics — but his virtual vitriol soon has violent real-life consequences."
+    },
+    {
+      "show_id": "s6080",
+      "title": "The American Meme",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries",
+      "cast": "Paris Hilton, Josh Ostrovsky, Brittany Furlan, Kirill Bichutsky, DJ Khaled, Emily Ratajkowski, Hailey Baldwin",
+      "director": "Bert Marcus",
+      "description": "Social media stars Paris Hilton, Josh Ostrovsky, Brittany Furlan and Kirill Bichutsky hustle to build online empires – and face the pitfalls of fame."
+    },
+    {
+      "show_id": "s2214",
+      "title": "Follow Me",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Asri Bendacha",
+      "director": "Asri Bendacha",
+      "description": "Aspiring to be an internet celebrity and make big bucks, a filmmaker travels the world to learn the tricks of the trade from social media influencers."
+    },
+    {
+      "show_id": "s5502",
+      "title": "Seriously Single",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Comedies, International Movies, Romantic Movies",
+      "cast": "Fulu Mugovhani, Tumi Morake, Bohang Moeko, Yonda Thomas",
+      "director": "Katleho Ramaphakela, Rethabile Ramaphakela",
+      "description": "While her free-living bestie urges her to embrace singlehood, a commitment-craving social media expert can't stop following the life of a former love."
+    },
+    {
+      "show_id": "s6884",
+      "title": "The Social Dilemma",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries",
+      "cast": "Skyler Gisondo, Kara Hayward, Vincent Kartheiser",
+      "director": "Jeff Orlowski",
+      "description": "This documentary-drama hybrid explores the dangerous human impact of social networking, with tech experts sounding the alarm on their own creations."
+    },
+    {
+      "show_id": "s4984",
+      "title": "Prohibition: A Film by Ken Burns and Lynn Novick",
+      "type": "TV Show",
+      "release_year": 2011,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "Peter Coyote",
+      "director": "",
+      "description": "Ken Burns's documentary traces the passage of the 18th Amendment, the social and legal effects of prohibiting alcohol, and the repeal of Prohibition."
+    },
+    {
+      "show_id": "s5311",
+      "title": "Russell Howard: Recalibrate",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Russell Howard",
+      "director": "Peter Orton",
+      "description": "Self-deprecating comic Russell Howard plows ahead through politics, porn, social media and his own shortcomings. Yet he somehow keeps it positive."
+    },
+    {
+      "show_id": "s3753",
+      "title": "Love Dot Com: The Social Experiment",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies, Romantic Movies",
+      "cast": "Brave Williams, Tobias Truvillion, Kym Whitley, LisaRaye McCoy, Charles Malik Whitfield, W. Ellington Felton, Christopher Williams, Angus Whinfield, Jamie Moreen, Raheem Devaughn",
+      "director": "Charneice Fox",
+      "description": "Sparks fly and romance blooms when Shelby, a vegan chef, meets Greg, a developer – until their opposing views clash."
+    },
+    {
+      "show_id": "s6886",
+      "title": "The Society",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Dramas, Teen TV Shows",
+      "cast": "Kathryn Newton, Gideon Adlon, Sean Berdy, Natasha Liu Bordizzo, Jacques Colimon, Olivia DeJonge, Alex Fitzalan, Kristine Froseth, José Julián, Alex MacNicoll, Toby Wallace, Rachel Keller",
+      "director": "",
+      "description": "When everyone else mysteriously vanishes from their wealthy town, the teen residents of West Ham must forge their own society to survive."
+    },
+    {
+      "show_id": "s7499",
+      "title": "We Are One",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, International Movies, Music & Musicals",
+      "cast": "",
+      "director": "Stéphane de Freitas",
+      "description": "Activists around the world fight injustice and drive social change in this documentary that follows their participation in the music video \"Solidarité.\""
+    },
+    {
+      "show_id": "s4502",
+      "title": "Nobody Speak: Trials of the Free Press",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Brian Knappenberger",
+      "description": "Hulk Hogan's court case against Gawker Media sheds light on wealthy, powerful figures who challenge freedom of the press in order to silence critics."
+    },
+    {
+      "show_id": "s2371",
+      "title": "Generation Iron 2",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Vlad Yudin",
+      "description": "New-generation bodybuilding stars – including Rich Piana, Kai Greene and Calum von Moger – share their experiences competing in the demanding sport."
+    },
+    {
+      "show_id": "s6225",
+      "title": "The Circle France",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, Reality TV",
+      "cast": "",
+      "director": "",
+      "description": "Status and strategy collide in this social media competition where online players flirt, befriend and catfish their way toward 100,000 euros."
+    },
+    {
+      "show_id": "s1795",
+      "title": "Documentary Now!",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Comedies",
+      "cast": "Fred Armisen, Bill Hader, Helen Mirren",
+      "director": "",
+      "description": "Elevating the art of parody, this sharply comic series spoofs high-profile documentaries such as \"Grey Gardens\" and \"The Thin Blue Line.\""
+    }
+  ]
+}

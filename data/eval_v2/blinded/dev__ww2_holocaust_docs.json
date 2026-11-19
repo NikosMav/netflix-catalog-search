@@ -1,0 +1,437 @@
+{
+  "split": "dev",
+  "query_id": "ww2_holocaust_docs",
+  "query": "World War II Holocaust documentary",
+  "candidates": [
+    {
+      "show_id": "s7133",
+      "title": "Tokyo Trial",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Marcel Hensema, Paul Freeman, Irrfan Khan, Stacy Keach, Michael Ironside, Stephen McHattie, Shinya Tsukamoto",
+      "director": "",
+      "description": "In the wake of World War II, 11 Allied judges are tasked with weighing the fates of Japanese war criminals in a tense international trial."
+    },
+    {
+      "show_id": "s2778",
+      "title": "Hollywood",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Dramas",
+      "cast": "David Corenswet, Darren Criss, Patti LuPone, Jeremy Pope, Jim Parsons, Laura Harrier, Joe Mantello, Dylan McDermott, Jake Picking, Holland Taylor, Samara Weaving",
+      "director": "",
+      "description": "In post-World War II Hollywood, an ambitious group of aspiring actors and filmmakers will do almost anything to make their showbiz dreams come true."
+    },
+    {
+      "show_id": "s5857",
+      "title": "Struggle: The Life and Lost Art of Szukalski",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Irek Dobrowolski",
+      "description": "Artists in LA discover the work of forgotten Polish sculptor Stanislav Szukalski, a mad genius whose true story unfolds chapter by astounding chapter."
+    },
+    {
+      "show_id": "s4531",
+      "title": "NOVA: Holocaust Escape Tunnel",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Paula Apsell, Kirk Wolfinger",
+      "description": "At a former Nazi execution site in Lithuania, an international team of archaeologists searches for a lost escape tunnel dug by Jewish prisoners."
+    },
+    {
+      "show_id": "s5431",
+      "title": "Schindler's List",
+      "type": "Movie",
+      "release_year": 1993,
+      "listed_in": "Classic Movies, Dramas",
+      "cast": "Liam Neeson, Ben Kingsley, Ralph Fiennes, Caroline Goodall, Jonathan Sagall, Embeth Davidtz, Małgorzata Gebel, Shmulik Levy, Mark Ivanir, Beatrice Macola, Friedrich von Thun, Andrzej Seweryn",
+      "director": "Steven Spielberg",
+      "description": "Oskar Schindler becomes an unlikely humanitarian, spending his entire fortune to help save 1,100 Jews from Auschwitz during World War II."
+    },
+    {
+      "show_id": "s2758",
+      "title": "Hitler - A Career",
+      "type": "Movie",
+      "release_year": 1977,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Joachim Fest, Christian Herrendoerfer",
+      "description": "This documentary examines how Adolf Hitler's talent for manipulation, psychology and image-making led him from humble origins to near-world conquest."
+    },
+    {
+      "show_id": "s4961",
+      "title": "Prelude to War",
+      "type": "Movie",
+      "release_year": 1942,
+      "listed_in": "Classic Movies, Documentaries",
+      "cast": "",
+      "director": "Frank Capra",
+      "description": "Frank Capra's documentary chronicles the rise of authoritarianism in Germany, Italy and Japan as America prepares for a defense of liberty."
+    },
+    {
+      "show_id": "s5215",
+      "title": "Riphagen - The Untouchable",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Jeroen van Koningsbrugge, Anna Raadsveld, Sigrid ten Napel, Peter Blok, Bob Stoop, Lisa Zweerman, Kay Greidanus, René Kortekaas, Sieger Sloot, Mark Rietman",
+      "director": "Pieter Kuijpers",
+      "description": "This biopic profiles Andries Riphagen, a Dutch criminal who blackmailed Jews in hiding during World War II and was responsible for hundreds of deaths."
+    },
+    {
+      "show_id": "s4550",
+      "title": "Numbered",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Dana Doron, Uriel Sinai",
+      "description": "Guided by survivors' testimonies, this documentary explores the history and meaning of the numbers tattooed on the bodies of Auschwitz prisoners."
+    },
+    {
+      "show_id": "s6987",
+      "title": "The War: A Film by Ken Burns and Lynn Novick",
+      "type": "TV Show",
+      "release_year": 2007,
+      "listed_in": "Docuseries",
+      "cast": "Keith David",
+      "director": "",
+      "description": "A seven-part series brings World War II to life through the harrowing personal accounts of soldiers and others from \"typical\" American towns."
+    },
+    {
+      "show_id": "s382",
+      "title": "Alexandria ... Why?",
+      "type": "Movie",
+      "release_year": 1979,
+      "listed_in": "Classic Movies, Dramas, International Movies",
+      "cast": "Naglaa Fathi, Farid Shawqy, Mohsen Mohiedine, Ezzat El Alaili, Abdalla Mahmoud, Youssef Wahby, Yehia Chahine, Laila Fawzy, Mahmoud El Meleigy, Ahmed Zaki, Gerry Sundquist",
+      "director": "Youssef Chahine",
+      "description": "Living in Alexandria during World War II, an Egyptian teen enamored with American films dreams of making it in Hollywood."
+    },
+    {
+      "show_id": "s7486",
+      "title": "Wartime Portraits",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Docuseries, International TV Shows",
+      "cast": "",
+      "director": "",
+      "description": "Part live-action and part animation, this visually inventive series offers striking portrayals of some of the unsung heroes of World War II."
+    },
+    {
+      "show_id": "s2760",
+      "title": "Hitler's Olympics",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Daniel Kontur",
+      "description": "Hitler, Nazi propaganda and 1936 Berlin Olympics are put under the microscope to uncover hidden truths and the historical legacy of those games."
+    },
+    {
+      "show_id": "s7343",
+      "title": "Undercover: How to Operate Behind Enemy Lines",
+      "type": "Movie",
+      "release_year": 1943,
+      "listed_in": "Classic Movies, Documentaries",
+      "cast": "",
+      "director": "John Ford",
+      "description": "This World War II-era training film dramatizes how secret agents should act while undercover and how to avoid capture by enemies."
+    },
+    {
+      "show_id": "s4438",
+      "title": "Nazi Mega Weapons",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "This documentary series examines Nazi Germany's military hardware, defenses and technology, including fortifications, U-boats and ballistic missiles."
+    },
+    {
+      "show_id": "s4879",
+      "title": "Planetarium",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Natalie Portman, Lily-Rose Depp, Emmanuel Salinger, Amira Casar, Pierre Salvadori, Louis Garrel",
+      "director": "Rebecca Zlotowski",
+      "description": "In pre-World War II France, two sisters purport to be able to communicate with the dead and soon catch the eye of an ambitious filmmaker."
+    },
+    {
+      "show_id": "s1279",
+      "title": "Charité at War",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Mala Emde, Ulrich Noethen, Jannik Schümann, Artjom Gilz, Luise Wolfram, Jacob Matschenz, Frida-Lovisa Hamann, Lukas Miko, Susanne Böwe",
+      "director": "",
+      "description": "In 1943, the staff at Berlin's Charité hospital struggle against the effects of World War II and the Nazi regime, including eugenic medical practices."
+    },
+    {
+      "show_id": "s1686",
+      "title": "Defiance",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Action & Adventure, Dramas",
+      "cast": "Daniel Craig, Liev Schreiber, Jamie Bell, Alexa Davalos, Allan Corduner, Mark Feuerstein, Tomas Arana, Jodhi May, Kate Fahy, Iddo Goldberg, George MacKay, Iben Hjejle, Martin Hancock, Jacek Koman, Ravil Isyanov",
+      "director": "Edward Zwick",
+      "description": "In this action-packed drama based on an extraordinary true story, four brothers protect more than 1,000 Jewish refugees during World War II."
+    },
+    {
+      "show_id": "s1934",
+      "title": "Einsatzgruppen: The Nazi Death Squads",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "Docuseries, International TV Shows",
+      "cast": "Paul Bandey",
+      "director": "",
+      "description": "This documentary series examines the Einsatzgruppen, Nazis responsible for the mass murder of Jews, Romani and Soviet prisoners in Eastern Europe."
+    },
+    {
+      "show_id": "s6339",
+      "title": "The Exception",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, Romantic Movies",
+      "cast": "Lily James, Jai Courtney, Christopher Plummer, Janet McTeer, Ben Daniels, Eddie Marsan, Anton Lesser, Mark Dexter, Kris Cuppens",
+      "director": "David Leveaux",
+      "description": "During World War II, a Nazi officer charged with protecting an exiled Kaiser Wilhelm II from spies begins a steamy affair with a secretive Dutch maid."
+    },
+    {
+      "show_id": "s3555",
+      "title": "Le serment des Hitler",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Emmanuel Amara",
+      "description": "This documentary retraces the footsteps of Adolf Hitler's mysterious nephew and explores what became of the Hitler family line."
+    },
+    {
+      "show_id": "s6299",
+      "title": "The Devil's Mistress",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Tatiana Pauhofová, Karl Markovics, Gedeon Burkhard, Simona Stasová, Martin Huba, Pavel Kríz, Zdenka Procházková, Anna Fialová, Lenka Vlasáková, Jirí Mádl",
+      "director": "Filip Renc",
+      "description": "Before the dawn of World War II, an ambitious actress pursues her dreams in Berlin. But her plans derail when she becomes Joseph Goebbels’ mistress."
+    },
+    {
+      "show_id": "s6515",
+      "title": "The Jack King Affair",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Benjamin Cohen, Nicolas Cotto",
+      "description": "This documentary explores a bold World War II operation in which an MI5 agent infiltrated a fascist network to intercept stolen documents."
+    },
+    {
+      "show_id": "s2977",
+      "title": "In This Corner of the World",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Anime Features, Children & Family Movies, International Movies",
+      "cast": "Non, Yoshimasa Hosoya, Natsuki Inaba, Minori Omi, Daisuke Ono, Megumi Han, Nanase Iwai, Shigeru Ushiyama, Mayumi Shintani",
+      "director": "Sunao Katabuchi",
+      "description": "Suzu marries into a family living outside of Hiroshima and quickly settles into her new life, until World War II challenges her ability to survive."
+    },
+    {
+      "show_id": "s29",
+      "title": "#AnneFrank - Parallel Stories",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Helen Mirren, Gengher Gatti",
+      "director": "Sabina Fedeli, Anna Migotto",
+      "description": "Through her diary, Anne Frank's story is retold alongside those of five Holocaust survivors in this poignant documentary from Oscar winner Helen Mirren."
+    },
+    {
+      "show_id": "s6190",
+      "title": "The Butterfly's Dream",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Kıvanç Tatlıtuğ, Mert Fırat, Belçim Bilgin, Farah Zeynep Abdullah, Yılmaz Erdoğan, Ahmet Mümtaz Taylan, Taner Birsel, Selman Ünlüsoy, İpek Bilgin, Aksel Bonfil, Devrim Yakut, Salih Kalyon",
+      "director": "Yılmaz Erdoğan",
+      "description": "Forced to work in a coal mine during World War II, two young poets find some escape when they both fall for the same woman."
+    },
+    {
+      "show_id": "s6593",
+      "title": "The Liberator",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Action & Adventure, TV Dramas",
+      "cast": "Bradley James, Martin Sensmeier, Jose Miguel Vasquez, Forrest Goodluck, Bryan Hibbard, Matt Mercurio, Harrison Stone, Billy Breed, Tatanka Means, Kiowa Gordon",
+      "director": "",
+      "description": "A diverse, deeply brave crew of ragtag soldiers become some of the most heroic fighters of the European invasion in World War II. Based on true events."
+    },
+    {
+      "show_id": "s5070",
+      "title": "Railroad Tigers",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Action & Adventure, Comedies, International Movies",
+      "cast": "Jackie Chan, Zitao Huang, Jaycee Chan, Wang Kai, Hiroyuki Ikeuchi, Sang Ping, Alan Ng, Xu Fan, Darren Wang",
+      "director": "Ding Sheng",
+      "description": "During World War II, a Chinese railroad worker leads a group of brave resistance fighters against the forces of Japanese occupation."
+    },
+    {
+      "show_id": "s4271",
+      "title": "Mudbound",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Carey Mulligan, Jason Clarke, Mary J. Blige, Garrett Hedlund, Jason Mitchell, Rob Morgan, Jonathan Banks",
+      "director": "Dee Rees",
+      "description": "Two Mississippi families – one black, one white – confront the brutal realities of prejudice, farming and friendship in a divided World War II era."
+    },
+    {
+      "show_id": "s7539",
+      "title": "Westerplatte Resists",
+      "type": "Movie",
+      "release_year": 1967,
+      "listed_in": "Classic Movies, Dramas, International Movies",
+      "cast": "Zygmunt Hübner, Arkadiusz Bazak, Tadeusz Schmidt, Józef Nowak, Tadeusz Pluciński, Bogusz Bilewski",
+      "director": "Stanisław Różewicz",
+      "description": "At the onset of World War II, a Polish infantry lacking firepower fight to build a strong defense and protect their peninsula against enemy forces."
+    },
+    {
+      "show_id": "s7669",
+      "title": "World War II in Colour",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "British TV Shows, Docuseries, International TV Shows",
+      "cast": "Robert Powell",
+      "director": "",
+      "description": "Footage of the most dramatic moments from World War II is restored in color and high definition for this historical documentary series."
+    },
+    {
+      "show_id": "s1190",
+      "title": "Camp X",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Established during World War II, North America's first secret agent training school – known as Camp X – paved the way for present-day espionage."
+    },
+    {
+      "show_id": "s7185",
+      "title": "Traitors",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "British TV Shows, International TV Shows, TV Dramas",
+      "cast": "Emma Appleton, Michael Stuhlbarg, Luke Treadaway, Keeley Hawes, Brandon P. Bell, Matt Lauria, Jamie Blackley, David Hargreaves, Sam Hoare, Simon Kunz, Greg McHugh, Stephen Campbell Moore, Cara Horgan",
+      "director": "",
+      "description": "As World War II ends, a young English woman agrees to help an enigmatic American agent root out Russian infiltration of the British government."
+    },
+    {
+      "show_id": "s2637",
+      "title": "Harry and Snowman",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Harry DeLeyer",
+      "director": "Ron Davis",
+      "description": "With only a strong will and a cheap horse, a former agent of the Dutch underground in World War II sets out to become a champion show jumper."
+    },
+    {
+      "show_id": "s4437",
+      "title": "Nazi Concentration Camps",
+      "type": "Movie",
+      "release_year": 1945,
+      "listed_in": "Classic Movies, Documentaries",
+      "cast": "",
+      "director": "George Stevens",
+      "description": "Shocking footage shows Nazi concentration camps after liberation, including Buchenwald and Ohrdruf, where Gen. Eisenhower ordered local Nazis to tour."
+    },
+    {
+      "show_id": "s7680",
+      "title": "WWII: Report from the Aleutians",
+      "type": "Movie",
+      "release_year": 1943,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "John Huston",
+      "description": "Filmmaker John Huston narrates this Oscar-nominated World War II-era film about life among the U.S. soldiers protecting Alaska’s Aleutian Islands."
+    },
+    {
+      "show_id": "s7679",
+      "title": "WWII in HD",
+      "type": "TV Show",
+      "release_year": 2009,
+      "listed_in": "Docuseries",
+      "cast": "Gary Sinise, Rob Lowe, Josh Lucas, Justin Bartha, Amy Smart, LL Cool J, Steve Zahn, Jason Ritter, Ron Livingston, Tim DeKay, Mark Hefti, James Kyson, Rob Corddry",
+      "director": "",
+      "description": "Rare color footage interwoven with firsthand interviews and diary entries bring to life the global sweep of World War II via those who were there."
+    },
+    {
+      "show_id": "s624",
+      "title": "Auschwitz: Blueprints of Genocide",
+      "type": "Movie",
+      "release_year": 1994,
+      "listed_in": "Documentaries",
+      "cast": "Roy Marsden",
+      "director": "Mike Rossiter",
+      "description": "Newly released KGB files expose evidence proving how architects and engineers conspired with the Nazis to build a camp designed for genocide."
+    },
+    {
+      "show_id": "s1984",
+      "title": "Elles étaient en guerre 1939-1945",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Hugues Nancy, Fabien Beziat",
+      "description": "Mothers, nurses, soldiers and deportees – these women fought against persecution for freedom and survival amid the turbulence of World War II."
+    },
+    {
+      "show_id": "s5100",
+      "title": "Rangoon",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Saif Ali Khan, Shahid Kapoor, Kangana Ranaut, Shriswara, Richard McCabe, Satoru Kawaguchi, Surendra Pal, Lin Laishram",
+      "director": "Vishal Bhardwaj",
+      "description": "During World War II, daredevil star Miss Julia entertains soldiers at the Indo-Burma border, where she's caught up in a web of love and deceit."
+    },
+    {
+      "show_id": "s6700",
+      "title": "The Negro Soldier",
+      "type": "Movie",
+      "release_year": 1944,
+      "listed_in": "Classic Movies, Documentaries",
+      "cast": "",
+      "director": "Stuart Heisler",
+      "description": "This documentary urged African Americans to enlist and join in the effort to be part of America's continuing fight in World War II."
+    },
+    {
+      "show_id": "s6062",
+      "title": "The Accountant of Auschwitz",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Matthew Shoychet",
+      "description": "Decades after WWII, a former SS officer stands trial in his native Germany after being charged for his complicity in the murder of Jews at Auschwitz."
+    },
+    {
+      "show_id": "s1795",
+      "title": "Documentary Now!",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Comedies",
+      "cast": "Fred Armisen, Bill Hader, Helen Mirren",
+      "director": "",
+      "description": "Elevating the art of parody, this sharply comic series spoofs high-profile documentaries such as \"Grey Gardens\" and \"The Thin Blue Line.\""
+    }
+  ]
+}

@@ -1,0 +1,497 @@
+{
+  "split": "dev",
+  "query_id": "chess_drama",
+  "query": "drama about a chess prodigy",
+  "candidates": [
+    {
+      "show_id": "s4414",
+      "title": "Nasha",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Shivam Patil, Poonam Pandey, Sheetal Singh, Vishal Bhosle, Rohan Khurana, Ranbir Chakma, Raj Kesaria, Chirag Lobo",
+      "director": "Amit Saxena",
+      "description": "A teenage boy becomes smitten with his new drama teacher and pursues her, despite the perilous risks of being found out."
+    },
+    {
+      "show_id": "s6684",
+      "title": "The Monster of Mangatiti",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas",
+      "cast": "Greta Gregory, Mark Mitchinson, Bruce Hopkins, John Sumner, Flynn Allen, Harriet Beattie, Carolyn Dando, Laurie Dee, Ruth Dudding",
+      "director": "John Banas",
+      "description": "Real events are dramatized in the unthinkable story of a resilient teenager held prisoner by a seasoned predator on a remote farm in the 1980s."
+    },
+    {
+      "show_id": "s3862",
+      "title": "Magnus",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Children & Family Movies, Documentaries, International Movies",
+      "cast": "Magnus Carlsen",
+      "director": "Benjamin Ree",
+      "description": "This dramatic documentary explores the life and mind of Magnus Carlsen, the charismatic Norwegian prodigy who became world chess champion."
+    },
+    {
+      "show_id": "s1528",
+      "title": "CRD",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Mrinmayee Godbole, Vinay Sharma, Saurabh Saraswat, Isha Keskar, Abhay Mahajan, Geetika Tyagi",
+      "director": "Kranti Kanade",
+      "description": "At odds with his radical instructor's ruthless methods, a drama student assembles his own troupe of misfit actors ahead of a prestigious competition."
+    },
+    {
+      "show_id": "s5223",
+      "title": "Rita",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Comedies, TV Dramas",
+      "cast": "Mille Dinesen, Carsten Bjørnlund, Lise Baastrup, Nikolaj Groth, Ellen Hillingsø, Morten Vang Simonsen, Lykke Sand Michelsen, Carsten Norgaard, Sara Hjort Ditlevsen, Alexandre Willaume",
+      "director": "",
+      "description": "Independent, outspoken and adored by her students, schoolteacher Rita fares less well with adults in this comedy-drama from Denmark."
+    },
+    {
+      "show_id": "s5146",
+      "title": "Rehmataan",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Dramas, International Movies, Romantic Movies",
+      "cast": "Sukhjinder Shera, Guggu Gill, Deep Dhillon, Raj Virk, Surinder Shinda",
+      "director": "",
+      "description": "As unemployment, drug addiction and corruption plague a society, this drama depicts the people who believe there’s still good in the world."
+    },
+    {
+      "show_id": "s6766",
+      "title": "The Platform",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "International TV Shows, TV Dramas",
+      "cast": "Maxim Khalil, Abdulmohsen Alnemr, Samr Ismaiel, Khaled Alkeesh, Samar Sami, Salloum Haddad, Ahmad Aljasmii, Khaled El Sayed, Yaser Alneyadi, Leen Gherra, Dean Cain, Moatasem Alnahar, Mahira Abdelaziz",
+      "director": "",
+      "description": "A programming genius builds a fact-finding, truth-seeking internet portal while reckoning with trouble at home."
+    },
+    {
+      "show_id": "s6752",
+      "title": "The Perfection",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Horror Movies, LGBTQ Movies, Music & Musicals",
+      "cast": "Allison Williams, Logan Browning, Steven Weber, Alaina Huffman, Mark Kandborg, Graeme Duffy",
+      "director": "Richard Shepard",
+      "description": "In this twisty horror-thriller, a once-promising music prodigy reconnects with her former mentors, only to find them taken with a talented new pupil."
+    },
+    {
+      "show_id": "s1794",
+      "title": "Doctor Zhivago",
+      "type": "Movie",
+      "release_year": 1965,
+      "listed_in": "Classic Movies, Dramas, Romantic Movies",
+      "cast": "Omar Sharif, Julie Christie, Geraldine Chaplin, Rod Steiger, Alec Guinness, Tom Courtenay, Siobhan McKenna, Ralph Richardson, Jeffrey Rockland",
+      "director": "David Lean",
+      "description": "A young physician and his beautiful mistress get swept up in the danger and drama of the Bolshevik Revolution in this Oscar-winning epic."
+    },
+    {
+      "show_id": "s3217",
+      "title": "Jonaki",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Lolita Chatterjee, Sumanto Chattopadhyay, Ratnabali Bhattacharjee, Jim Sarbh, Indrajit Sinha, Sandershika Tamang, Arunima Sinha, Satya Priya Chakraborty, Christel Das, Burjor Patel",
+      "director": "Aditya Vikram Sengupta",
+      "description": "In this quiet, wistful drama, a woman on her deathbed searches her fraying memories for love and fulfillment through surreal, meditative tableaux."
+    },
+    {
+      "show_id": "s6340",
+      "title": "The Expanding Universe of Ashley Garcia",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV, TV Comedies, Teen TV Shows",
+      "cast": "Paulina Chávez, Jencarlos Canela",
+      "director": "",
+      "description": "15-year-old scientist Ashley Garcia explores the great unknown of modern teendom after moving across the country to pursue a career in robotics."
+    },
+    {
+      "show_id": "s5741",
+      "title": "Sparta",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Alexander Petrov, Artyom Tkachenko, Valeria Shkirando, Marina Kaletskaya, Alisa Lozovskaya, Olga Sutulova, Fillip Gorenshtein, Olga Vinichenko, Petar Zakavitsa, Yan Gakharmanov",
+      "director": "",
+      "description": "While investigating the mysterious death of a teacher, a grizzled detective gets caught up in the world of a high-stakes virtual reality game."
+    },
+    {
+      "show_id": "s6592",
+      "title": "The Liar and His Lover",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, Korean TV Shows, Romantic TV Shows",
+      "cast": "Lee Hyun-woo, Joy, Lee Jung-jin, Lee Seo-won, Hong Seo-young, Choi Min-soo, Lim Ye-jin, Jang Ki-yong, Song Kang, Park Ji-young",
+      "director": "",
+      "description": "A talented singer falls in love at first sight with a music prodigy who has an affinity for lies – and a knack for being a hit-making producer."
+    },
+    {
+      "show_id": "s5037",
+      "title": "Queens vs. Kings",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Stand-Up Comedy & Talk Shows, TV Comedies",
+      "cast": "Varun Thakur, Anu Menon, Rahul Subramanian, Siddharth Dudeja, Supriya Joshi, Utsav Chakraborty, Saadiya Ali, Kavya Bector, Kumar Varun",
+      "director": "",
+      "description": "No \"ism\" is left unturned in this celebrity game show that battles stereotypes and sexism by pitting male and female comedians against each other."
+    },
+    {
+      "show_id": "s6383",
+      "title": "The Game",
+      "type": "TV Show",
+      "release_year": 2008,
+      "listed_in": "Romantic TV Shows, TV Comedies, TV Dramas",
+      "cast": "Tia Mowry-Hardrict, Pooch Hall, Coby Bell, Wendy Raquel Robinson, Hosea Chanchez, Brittany Daniel, Barry Floyd",
+      "director": "",
+      "description": "Medical school student Melanie adjusts to life in the world of professional sports when her boyfriend Derwin becomes a pro football player."
+    },
+    {
+      "show_id": "s5458",
+      "title": "Secret",
+      "type": "Movie",
+      "release_year": 2007,
+      "listed_in": "Dramas, International Movies, Music & Musicals",
+      "cast": "Jay Chou, Lun-Mei Kwai, Anthony Wong Chau-Sang, Kai-xuan Tseng, Devon Song, Jun Lang Huang, Zhan Yuhao",
+      "director": "Jay Chou",
+      "description": "Enchanted by a pretty pianist and the haunting melody she plays, a musical prodigy falls in love. But a secret soon threatens to derail their romance."
+    },
+    {
+      "show_id": "s6414",
+      "title": "The Grandmaster",
+      "type": "Movie",
+      "release_year": 2013,
+      "listed_in": "Action & Adventure, Dramas, International Movies",
+      "cast": "Tony Leung Chiu-wai, Zhang Ziyi, Chang Chen, Xiao Shen-Yang, Zhao Benshan, Song Hye-kyo, Wang Qingxiang, Zhang Jin, Lo Hoi-pang, Cung Le, Julian Cheung",
+      "director": "Wong Kar Wai",
+      "description": "As the Japanese invasion looms, Chinese kung fu master Ip Man's world changes when rival master Gong Er and her father arrive in his village."
+    },
+    {
+      "show_id": "s2076",
+      "title": "Extremely Wicked, Shockingly Evil and Vile",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Zac Efron, Lily Collins, Kaya Scodelario, Jeffrey Donovan, Angela Sarafyan, Jim Parsons, John Malkovich, Haley Joel Osment, Dylan Baker, Brian Geraghty",
+      "director": "Joe Berlinger",
+      "description": "Single mother Liz falls for Ted Bundy and refuses to believe the truth about his crimes for years. A drama based on a true story."
+    },
+    {
+      "show_id": "s2623",
+      "title": "Hard Lessons",
+      "type": "Movie",
+      "release_year": 1986,
+      "listed_in": "Dramas",
+      "cast": "Denzel Washington, Lynn Whitfield, Richard Masur, Akosua Busia",
+      "director": "Eric Laneuville",
+      "description": "This drama based on real-life events tells the story of George McKenna, the tough, determined new principal of a notorious Los Angeles high school."
+    },
+    {
+      "show_id": "s2051",
+      "title": "Everything Sucks!",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "TV Comedies, TV Dramas, Teen TV Shows",
+      "cast": "Jahi Di'Allo Winston, Peyton Kennedy, Patch Darragh, Claudine Mboligikpelani Nako, Rio Mangini, Quinn Liebling, Sydney Sweeney, Elijah Stevenson, Zachary Ray Sherman, Abi Brittle",
+      "director": "",
+      "description": "It's 1996 in a town called Boring, where high school misfits in the AV and drama clubs brave the ups and downs of teenage life in the VHS era."
+    },
+    {
+      "show_id": "s1638",
+      "title": "David Foster: Off the Record",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, Music & Musicals",
+      "cast": "David Foster",
+      "director": "Barry Avrich",
+      "description": "From child prodigy to iconic music producer, David Foster shares the stories behind his success with rare footage and interviews with his collaborators."
+    },
+    {
+      "show_id": "s2341",
+      "title": "GAME ON: A Comedy Crossover Event",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Loretta Devine, Tia Mowry-Hardrict, Anthony Alabi, Paul Wight, Allison Munn, Gabriel Iglesias, Sherri Shepherd, Paulina Chávez, Jencarlos Canela",
+      "director": "",
+      "description": "Worlds collide in this special event featuring familiar faces, surprise cameos and stories of spirited competition from four different comedy series."
+    },
+    {
+      "show_id": "s6797",
+      "title": "The Queen's Gambit",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "TV Dramas",
+      "cast": "Anya Taylor-Joy, Bill Camp, Marielle Heller, Thomas Brodie-Sangster, Moses Ingram, Harry Melling, Isla Johnston, Christiane Seidel, Rebecca Root, Chloe Pirrie, Jacob Fortune-Lloyd",
+      "director": "",
+      "description": "In a 1950s orphanage, a young girl reveals an astonishing talent for chess and begins an unlikely journey to stardom while grappling with addiction."
+    },
+    {
+      "show_id": "s2716",
+      "title": "Hi Score Girl",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "Anime Series, International TV Shows, Romantic TV Shows",
+      "cast": "Kohei Amasaki, Sayumi Suzushiro, Yuuki Hirose, Kazuyuki Okitsu, Daiki Yamashita, Daria Midou, Satomi Arai, Shizuka Ito, Cho, Chinatsu Akasaki, Tomokazu Sugita, Yuichi Nakamura, Kana Ueda, Taketora, Hochu Otsuka, Hiroki Yasumoto",
+      "director": "",
+      "description": "A chronic gamer abysmally inept in academics and sports finally meets his match at his usual shady arcade – and it’s his rich classmate, Akira."
+    },
+    {
+      "show_id": "s4989",
+      "title": "Project S The Series",
+      "type": "TV Show",
+      "release_year": 2017,
+      "listed_in": "International TV Shows, TV Dramas, Teen TV Shows",
+      "cast": "Wiwattanawarang Oabnithi, Mahayotaruk Thiti, Lerkcharoempoj Papangkorn, Imanothai Kawin, Sakuljaroensuk Apinya, Oat Pasakorn Sanrattana, Leeratanakajorn Thanapob, Skye Nateeton Wongrawee, Supapunpinyo Teeradon, Chansangavej Chayanit, Ketprapakorn Narikun, Pibunsonggram Kritsanapoom, Santinatornkul Chanon",
+      "director": "",
+      "description": "Sports and friendship intertwine in tales of a volleyball team, an autistic badminton player, a skateboarder with depression and an archery-club crush."
+    },
+    {
+      "show_id": "s790",
+      "title": "Beats",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Independent Movies, Music & Musicals",
+      "cast": "Khalil Everage, Anthony Anderson, Uzo Aduba, Emayatzy Corinealdi, Paul Walter Hauser, Dave East, Seandrea Sledge, Ashley Jackson, Megan Sousa",
+      "director": "Chris Robinson",
+      "description": "On Chicago's South Side, hip-hop prodigy August Monroe navigates crippling anxiety and new creative frontiers with the help of an unlikely mentor."
+    },
+    {
+      "show_id": "s6280",
+      "title": "The Death of Mr. Lazarescu",
+      "type": "Movie",
+      "release_year": 2005,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Monica Bârlădeanu, Ion Fiscuteanu, Doru Ana, Dragos Bucur, Gabriel Spahiu, Dan Chiriac, Luminita Gheorghiu, Alina Berzunteanu, Dana Dogaru, Mimi Brănescu",
+      "director": "Cristi Puiu",
+      "description": "The plot of Romanian director Cristi Puiu's real-time drama is simple, following the travails of an ailing old man who waits for his illness to overtake him as a weary paramedic shuttles him between hospitals."
+    },
+    {
+      "show_id": "s1529",
+      "title": "Creating The Queen's Gambit",
+      "type": "Movie",
+      "release_year": 2021,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "",
+      "description": "A fascinating character. Exquisite sets. A wig for every era. The stars, creators and crew reveal how the hit series about a chess prodigy came to life."
+    },
+    {
+      "show_id": "s3920",
+      "title": "Mantostaan",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Independent Movies, International Movies",
+      "cast": "Raghuvir Yadav, Veerendra Saxena, Sonal Sehgal, Aaditya Pratap Singh, Rahat Kazmi, Raina Bassnet, Sakshi Bhat",
+      "director": "Rahat Kazmi",
+      "description": "Four stories by writer Sadaat Hasan Manto culminate in a single gruesome drama that's set during the partitioning of the Indian subcontinent."
+    },
+    {
+      "show_id": "s6980",
+      "title": "The Victims' Game",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, International TV Shows, TV Dramas",
+      "cast": "Joseph Chang, Hsu Wei-ning, Jason Wang, Ruby Lin, Moon Lee, River Huang, Chen Chia-kuei, Ding Ning, Hsia Ching-ting, Rexen Cheng",
+      "director": "David Chuang, Chen Kuan-chung",
+      "description": "After discovering his estranged daughter's link to mysterious murders, a forensic detective with Asperger's syndrome risks everything to solve the case."
+    },
+    {
+      "show_id": "s3944",
+      "title": "Mark Gatiss: A Study in Sherlock",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Movies",
+      "cast": "Benedict Cumberbatch, Martin Freeman, Una Stubbs, Rupert Graves, Mark Gatiss, Steven Moffat",
+      "director": "Nathan Landeg",
+      "description": "Mark Gatiss, who co-created “Sherlock” and plays Mycroft Holmes, discusses the show with Benedict Cumberbatch, Martin Freeman and others in the cast."
+    },
+    {
+      "show_id": "s7741",
+      "title": "Your lie in April",
+      "type": "TV Show",
+      "release_year": 2014,
+      "listed_in": "Anime Series, International TV Shows, Romantic TV Shows",
+      "cast": "Natsuki Hanae, Risa Taneda, Ayane Sakura, Ryota Osaka, Saori Hayami, Yuki Kaji",
+      "director": "",
+      "description": "After his mother's death, a piano prodigy's will to play disappears. But meeting a free-spirited girl who plays the violin turns his life around."
+    },
+    {
+      "show_id": "s7161",
+      "title": "Total Drama",
+      "type": "TV Show",
+      "release_year": 2015,
+      "listed_in": "Kids' TV, TV Comedies",
+      "cast": "Clé Bennett, Christian Potenza, Scott McCord, Rachel Wilson, Drew Nelson, Stephanie Anne Mills, Novie Edwards, Megan Fahlenbock, Brian Foud, Emilie-Claire Barlow, Phillip David Lewis, Katie Crown, Sarah Gadon, Peter Oldring, Kristin Fairlie, Dan Petronijevic, Adam Greydon Reid",
+      "director": "",
+      "description": "Heartwarming moments are interspersed with backstabbing, scheming, sabotage and broken alliances in this animated spoof of reality show competitions."
+    },
+    {
+      "show_id": "s2233",
+      "title": "Forbidden Games: The Justin Fashanu Story",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, International Movies, LGBTQ Movies",
+      "cast": "Justin Fashanu, John Fashanu",
+      "director": "Jon Carey, Adam Darke",
+      "description": "This documentary chronicles the tragic, true story of Justin Fashanu, the first – and only – openly gay man to have played professional soccer."
+    },
+    {
+      "show_id": "s7450",
+      "title": "W.E.",
+      "type": "Movie",
+      "release_year": 2011,
+      "listed_in": "Dramas, Romantic Movies",
+      "cast": "Abbie Cornish, Andrea Riseborough, James D'Arcy, Oscar Isaac, Richard Coyle, David Harbour, James Fox, Judy Parfitt, Haluk Bilginer, Geoffrey Palmer, Natalie Dormer",
+      "director": "Madonna",
+      "description": "This glossy ensemble drama juxtaposes the lives of famous divorcée Wallis Simpson and Wally Winthrop, a young 1990s housewife."
+    },
+    {
+      "show_id": "s555",
+      "title": "Antoine Griezmann: The Making of a Legend",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, International Movies, Sports Movies",
+      "cast": "",
+      "director": "",
+      "description": "With heart and determination, Antoine Griezmann overcame his small stature to become one of the world’s top soccer players and a World Cup champion."
+    },
+    {
+      "show_id": "s5450",
+      "title": "Searching for Bobby Fischer",
+      "type": "Movie",
+      "release_year": 1993,
+      "listed_in": "Children & Family Movies, Classic Movies, Dramas",
+      "cast": "Max Pomeranc, Joe Mantegna, Joan Allen, Ben Kingsley, Laurence Fishburne, William H. Macy, Laura Linney, David Paymer, Michael Nirenberg, Robert Stephens",
+      "director": "Steven Zaillian",
+      "description": "When a father learns that his 7-year-old son is a whiz at speed chess, he hires an implacable chess master to coach the boy for competitions."
+    },
+    {
+      "show_id": "s2518",
+      "title": "Grandmaster",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "International Movies, Thrillers",
+      "cast": "Mithra Kurian, Anoop Menon, Mohanlal, Narein, Priyamani, Roma, Siddique, Jagathy Sreekumar",
+      "director": "B. Unnikrishnan",
+      "description": "Anticipating the next move in a serial killer's grisly game, a police chief realizes that his daughter and estranged wife are the next likely victims."
+    },
+    {
+      "show_id": "s4340",
+      "title": "My MVP Valentine",
+      "type": "TV Show",
+      "release_year": 2002,
+      "listed_in": "International TV Shows, Romantic TV Shows, TV Dramas",
+      "cast": "Angela Chang, Tony Sun, Johnny Yan, Margaret Lin, David Chen, Sam Wang, Zax Wang, Jason Hsu, Joe Chen",
+      "director": "",
+      "description": "An unfortunate accident alters the life of a high school basketball prodigy, who abandons his beloved sport and becomes entangled in a love triangle."
+    },
+    {
+      "show_id": "s6232",
+      "title": "The Coldest Game",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Bill Pullman, Lotte Verbeek, Robert Więckiewicz, James Bloor, Aleksey Serebryakov, Corey Johnson, Nicholas Farrell, Evgeniy Sidikhin",
+      "director": "Lukasz Kosmicki",
+      "description": "During 1962’s Cuban missile crisis, a troubled math genius finds himself drafted to play in a U.S.-Soviet chess match – and a deadly game of espionage."
+    },
+    {
+      "show_id": "s6007",
+      "title": "Tee Shot: Ariya Jutanugarn",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Children & Family Movies, Dramas, International Movies",
+      "cast": "Krissiri Sukhsvasti, Atchareeya Potipipittanakorn, Thaneth Warakulnukroh, Hattaya Wongkrachang, Somlek Sakdikul, Marinda Halpin, Gulsara Panyam, Kongkid Visessiri",
+      "director": "Tanawat Aiemjinda",
+      "description": "This biopic follows pro golfer Ariya Jutanugarn's journey to the LPGA tour, from child prodigy to her number-one ranking in the world."
+    },
+    {
+      "show_id": "s3665",
+      "title": "Little Miss Sumo",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries, International Movies, Sports Movies",
+      "cast": "Hiyori Kon",
+      "director": "Matt Kay",
+      "description": "In an ancient sport traditionally reserved for men, 20-year-old female sumo prodigy Hiyori attempts to revolutionize Japan’s national pastime."
+    },
+    {
+      "show_id": "s1740",
+      "title": "Dhobi Ghat (Mumbai Diaries)",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Aamir Khan, Monica Dogra, Kriti Malhotra, Prateik, Aasha Pawar, Jyoti Pawar, Norma Lobo, Kitu Gidwani, Danish Husain, Jehan Manekshaw",
+      "director": "Kiran Rao",
+      "description": "In this intimate drama, circumstances draw together four people from different castes – which would normally preclude them from forming friendships."
+    },
+    {
+      "show_id": "s449",
+      "title": "Amateur",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, Independent Movies, Sports Movies",
+      "cast": "Michael Rainey Jr., Josh Charles, Brian White, Sharon Leal, Ashlee Brian, Corey Parker Robinson",
+      "director": "Ryan Koo",
+      "description": "After he's recruited to an elite prep school, a 14-year-old basketball phenom is confronted by corruption and greed in amateur sports."
+    },
+    {
+      "show_id": "s3028",
+      "title": "Interrogation",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Dinesh Ravi, Samuthirakani, Kishore Kumar, Anandhi, Murugadoss, Ajay Ghosh",
+      "director": "Vetrimaaran",
+      "description": "In this fact-based drama, politically motivated cops in Andhra Pradesh set out to frame four Tamil laborers for a crime, torturing them to no avail."
+    },
+    {
+      "show_id": "s696",
+      "title": "Bad Match",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Thrillers",
+      "cast": "Jack Cutmore-Scott, Lili Simmons, Brandon Scott, Chase Williamson, Noureen DeWulf, Seth Morris, Christine Donlon, Trent Haaga, Kahyun Kim, Cynthia Rose Hall, Zedrick Restauro, Eric Podnar",
+      "director": "David Chirchirillo",
+      "description": "A player who uses the internet to facilitate his womanizing ways is tormented when he spurns a persistent woman who won't take no for an answer."
+    },
+    {
+      "show_id": "s692",
+      "title": "Bad Genius",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, International Movies, Thrillers",
+      "cast": "Chutimon Chuengcharoensukying, Chanon Santinatornkul, Teeradon Supapunpinyo, Eisaya Hosuwan, Thaneth Warakulnukroh, Sarinrat Thomas, Ego Mikitas, Pasin Kuansataporn, Sahajak Boonthanakit, Kanjana Vinaipanid",
+      "director": "Nattawut Poonpiriya",
+      "description": "A top student gets pulled into a cheating racket with increasingly higher risks and even higher rewards. But she may lose much more than she gains."
+    },
+    {
+      "show_id": "s7084",
+      "title": "Tiger King: Murder, Mayhem and Madness",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Crime TV Shows, Docuseries",
+      "cast": "",
+      "director": "Eric Goode, Rebecca Chaiklin",
+      "description": "A zoo owner spirals out of control amid a cast of eccentric characters in this true murder-for-hire story from the underworld of big cat breeding."
+    },
+    {
+      "show_id": "s1862",
+      "title": "Dramaworld",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Romantic TV Shows, TV Comedies, TV Dramas",
+      "cast": "Liv Hewson, Sean Dulake, Justin Chon, Noo-Ri Bae, Sa-hee Kim, Jimmy Shubert",
+      "director": "",
+      "description": "A huge fan of a Korean TV drama is transported to a magical realm where she has the power to alter her favorite show's story line as a \"Facilitator.\""
+    }
+  ]
+}

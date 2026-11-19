@@ -1,0 +1,757 @@
+{
+  "split": "test",
+  "query_id": "jordan_bulls_docuseries",
+  "query": "documentary about Michael Jordan and the Chicago Bulls",
+  "candidates": [
+    {
+      "show_id": "s6137",
+      "title": "The Black Godfather",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, Music & Musicals",
+      "cast": "Clarence Avant, Quincy Jones",
+      "director": "Reginald Hudlin",
+      "description": "This documentary follows the life of Clarence Avant, the ultimate, uncensored mentor and behind-the-scenes rainmaker in music, film, TV and politics."
+    },
+    {
+      "show_id": "s7657",
+      "title": "Wonho Chung: Live in New York",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Wonho Chung",
+      "director": "Shaun Mir",
+      "description": "At the Comic Strip's first Arabic stand-up show, Wonho Chung ratchets up the laughs by tackling unique names, life in Jordan, accents and more."
+    },
+    {
+      "show_id": "s6178",
+      "title": "The Breaker Upperers",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies, Independent Movies, International Movies",
+      "cast": "Madeleine Sami, Jackie van Beek, James Rolleston, Celia Pacquola, Ana Scotney, Rima Te Wiata, Carl Bland, Brett O'Gorman, Cohen Holloway, Jemaine Clement",
+      "director": "Jackie van Beek, Madeleine Sami",
+      "description": "For the right price, BFFs Jen and Mel will ruthlessly end any romance. But when one of them grows a conscience, their friendship begins to unravel."
+    },
+    {
+      "show_id": "s2630",
+      "title": "Harlem Globetrotters: The Team That Changed the World",
+      "type": "Movie",
+      "release_year": 2005,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Chuck D., Harlem Globetrotters",
+      "director": "",
+      "description": "Relive the greatest moments of the Harlem Globetrotters with this documentary that chronicles the team's legendary 1948 defeat over the Minneapolis Lakers and their historic 1951 Berlin trip."
+    },
+    {
+      "show_id": "s67",
+      "title": "13TH",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Ava DuVernay",
+      "description": "In this thought-provoking documentary, scholars, activists and politicians analyze the criminalization of African Americans and the U.S. prison boom."
+    },
+    {
+      "show_id": "s4619",
+      "title": "On Yoga The Architecture of Peace",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, Faith & Spirituality",
+      "cast": "Michael O’Neill",
+      "director": "Heitor Dhalia",
+      "description": "Based on photographer Michael O’Neill’s book of the same name, this documentary traces the author’s 10-year journey through the landscape of yoga."
+    },
+    {
+      "show_id": "s4536",
+      "title": "NOVA: Prediction by the Numbers",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries",
+      "cast": "Jay O. Sanders",
+      "director": "Daniel McCabe",
+      "description": "With the science of forecasting flourishing, this documentary explores how predictions inform our lives and statistics and algorithms' reliability."
+    },
+    {
+      "show_id": "s6327",
+      "title": "The Eighties",
+      "type": "TV Show",
+      "release_year": 2016,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "This nostalgic documentary series relives the 1980s from a variety of angles, exploring its impact on the politics, technology and culture of today."
+    },
+    {
+      "show_id": "s6167",
+      "title": "The Boy Who Cried Werewolf",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Victoria Justice, Chase Ellison, Anna Galvin, Matt Winston, Jillian Marie, Valerie Tian, Kerry James, Andrea Brooks, Christie Laing, Cainan Wiebe, Brooke Shields, Brooke D'Orsay, Steven Grayhm",
+      "director": "Eric Bross",
+      "description": "When high school girl-geek Jordan becomes a werewolf after moving to Romania, she must elude her own brother, who sets out to slay her."
+    },
+    {
+      "show_id": "s6117",
+      "title": "The Battered Bastards of Baseball",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Todd Field, Kurt Russell",
+      "director": "Chapman Way, Maclain Way",
+      "description": "The colorful true story of the Portland Mavericks, a scrappy, independent baseball team of underdogs started by actor Bing Russell in the 1970s."
+    },
+    {
+      "show_id": "s4976",
+      "title": "Princess Cyd",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Independent Movies, LGBTQ Movies",
+      "cast": "Tyler Ross, Rebecca Spence, James Vincent Meredith",
+      "director": "Stephen Cone",
+      "description": "A teenager moves to Chicago for the summer and finds a poignant mentor in her aunt and a sweet love interest in a girl who works in the neighborhood."
+    },
+    {
+      "show_id": "s2896",
+      "title": "I Am Michael",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Dramas, LGBTQ Movies",
+      "cast": "James Franco, Zachary Quinto, Emma Roberts, Charlie Carver, Avan Jogia, Daryl Hannah, Lesley Ann Warren, Jefferson Mays, Jan Maxwell, Ahna O'Reilly",
+      "director": "Justin Kelly",
+      "description": "Gay activist Michael Glatze begins a painful journey when he decides to renounce his sexuality for his religion in this drama based on true story."
+    },
+    {
+      "show_id": "s4088",
+      "title": "Mighty Morphin Alien Rangers",
+      "type": "TV Show",
+      "release_year": 1996,
+      "listed_in": "Kids' TV",
+      "cast": "Julia Jordan, Matthew Sakimoto, Sicily Johnson, Michael O'Laskey II, Michael R. Gotto, Justin Timsit, Rajia Baroudi, David Bacon, Jim Gray, Karim Prince, Alan Palmer, Tom Wyner, Barbara Goodson, Robert Axelrod, Kerrigan Mahan",
+      "director": "",
+      "description": "Visitors arrive from space to help Red Ranger and his squad – temporarily stripped of their powers – fight against Lord Zedd and Rita Repulsa."
+    },
+    {
+      "show_id": "s1271",
+      "title": "Champions",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "TV Comedies",
+      "cast": "Anders Holm, Fortune Feimster, Andy Favreau, J.J. Totah, Mouzam Makkar, Yassir Lester, Robert Costanzo, Ginger Gonzaga, Mindy Kaling",
+      "director": "",
+      "description": "Years after getting his girlfriend pregnant, washed-up jock Vince meets his eccentric son Michael and learns about fatherhood, one show tune at a time."
+    },
+    {
+      "show_id": "s3959",
+      "title": "Marvel & ESPN Films Present: 1 of 1: Genesis",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Manny Pacquiao, Michael Smith, Tony Hawk, Esther Howard, Alex Morgan, Danica Patrick, Russell Wilson, Carmelo Anthony, Dwight Howard, Joe Quesada, Albert Pujols, Brandi Chastain, Cal Ripken Jr.",
+      "director": "Eric Drath",
+      "description": "This documentary explores the connections between elite athletes and Marvel superheroes such as Spider Man, Black Widow and Captain America."
+    },
+    {
+      "show_id": "s861",
+      "title": "Betting on Zero",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "William Ackman",
+      "director": "Ted Braun",
+      "description": "This documentary dives into the complex world of Herbalife, the international nutritional products company accused of being a pyramid scheme."
+    },
+    {
+      "show_id": "s6807",
+      "title": "The Rebound",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Orlando Carrillo, Mario Moran, Jeremie Phenom Thomas",
+      "director": "Shaina Allen",
+      "description": "This documentary follows three players on the Miami Heat Wheels, who face long odds on the way to the national wheelchair basketball championship."
+    },
+    {
+      "show_id": "s3207",
+      "title": "John Mellencamp: Plain Spoken",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, Music & Musicals",
+      "cast": "John Mellencamp",
+      "director": "",
+      "description": "Iconic rocker John Mellencamp lights up Chicago in an electrifying live performance featuring old classics and new tracks."
+    },
+    {
+      "show_id": "s36",
+      "title": "#Rucker50",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Robert McCullough Jr.",
+      "description": "This documentary celebrates the 50th anniversary of the Harlem sports program that has inspired countless city kids to become pro basketball players."
+    },
+    {
+      "show_id": "s6555",
+      "title": "The Last Dance",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries",
+      "cast": "Michael Jordan, Scottie Pippen, Dennis Rodman",
+      "director": "",
+      "description": "This docuseries gives a definitive account of Michael Jordan’s career and the 1990s Chicago Bulls, packed with unaired footage from the 1997-98 season."
+    },
+    {
+      "show_id": "s464",
+      "title": "American Factory: A Conversation with the Obamas",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries",
+      "cast": "President Barack Obama, Michelle Obama, Julia Reichert, Steven Bognar",
+      "director": "",
+      "description": "Barack and Michelle Obama talk with directors Steven Bognar and Julia Reichert about the documentary and the importance of storytelling."
+    },
+    {
+      "show_id": "s3086",
+      "title": "Iverson",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Allen Iverson",
+      "director": "Zatella Beatty",
+      "description": "This unfiltered documentary follows the rocky life and stratospheric career of Allen Iverson, an NBA icon who left an indelible mark on the sport."
+    },
+    {
+      "show_id": "s7294",
+      "title": "Tyson",
+      "type": "Movie",
+      "release_year": 2008,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Mike Tyson, Trevor Berbick",
+      "director": "James Toback",
+      "description": "In this surprisingly emotional documentary, heavyweight champ Mike Tyson analyzes the controversies surrounding his career and turbulent private life."
+    },
+    {
+      "show_id": "s3473",
+      "title": "Kuroko's Basketball",
+      "type": "TV Show",
+      "release_year": 2013,
+      "listed_in": "Anime Series, International TV Shows, Teen TV Shows",
+      "cast": "Kensho Ono, Yuki Ono, Chiwa Saito, Yoshimasa Hosoya, Hirofumi Nojima, Kenji Hamada, Takuya Eguchi, Soichiro Hoshi, Tatsuhisa Suzuki, Go Inoue, Daisuke Ono, Ryohei Kimura, Junichi Suwabe, Kazuya Nakai, Fumiko Orikasa, Kenichi Suzumura, Kisho Taniyama, Hiroshi Kamiya",
+      "director": "",
+      "description": "Five middle school basketball stars went to separate high schools, and now Tetsuya Kuroko and Seirin High are making their play for glory."
+    },
+    {
+      "show_id": "s2089",
+      "title": "Face 2 Face",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Dramas, Independent Movies",
+      "cast": "Daniela Bobadilla, Daniel Amerman, Kevin McCorkle, Mary Gordon Murray, Emily Jordan, Karrie Cox, Nicholas James Reilly, Enspirit, Sheldon A. Smith, Michael Soulema",
+      "director": "Matt Toronto",
+      "description": "Two former friends, who now live far apart, learn about each other's insecurities and secrets over a series of video chats."
+    },
+    {
+      "show_id": "s555",
+      "title": "Antoine Griezmann: The Making of a Legend",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, International Movies, Sports Movies",
+      "cast": "",
+      "director": "",
+      "description": "With heart and determination, Antoine Griezmann overcame his small stature to become one of the world’s top soccer players and a World Cup champion."
+    },
+    {
+      "show_id": "s4069",
+      "title": "Michael Che Matters",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Michael Che",
+      "director": "Oz Rodriguez",
+      "description": "\"SNL\" star Michael Che takes on hot-button topics like inequality, homophobia and gentrification in this stand-up set filmed live in Brooklyn."
+    },
+    {
+      "show_id": "s6169",
+      "title": "The Boys in the Band",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, LGBTQ Movies",
+      "cast": "Jim Parsons, Zachary Quinto, Matt Bomer, Andrew Rannells, Charlie Carver, Robin de Jesús, Brian Hutchison, Michael Benjamin Washington, Tuc Watkins",
+      "director": "Joe Mantello",
+      "description": "At a birthday party in 1968 New York, a surprise guest and a drunken game leave seven gay friends reckoning with unspoken feelings and buried truths."
+    },
+    {
+      "show_id": "s7236",
+      "title": "Trophy",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Shaul Schwarz, Christina Clusiau",
+      "description": "This documentary explores the tensions between the lucrative big-game hunting business and wildlife conservation from a variety of perspectives."
+    },
+    {
+      "show_id": "s4420",
+      "title": "Nate Bargatze: The Tennessee Kid",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Nate Bargatze",
+      "director": "Ryan Polito",
+      "description": "Comic Nate Bargatze touches on air travel, cheap weddings, college football, chocolate milk and the perils of ordering coffee in this stand-up special."
+    },
+    {
+      "show_id": "s608",
+      "title": "At All Costs",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Parker Jackson Cartwright, Gabe York",
+      "director": "Mike Nicoll",
+      "description": "This revealing documentary explores how the high-stakes world of Amateur Athletic Union basketball has professionalized youth sports in America."
+    },
+    {
+      "show_id": "s6586",
+      "title": "The Legend of Michael Mishra",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, Dramas, International Movies",
+      "cast": "Arshad Warsi, Aditi Rao Hydari, Kayoze Irani, Boman Irani",
+      "director": "Manish Jha",
+      "description": "After a life of crime, a notorious kidnapper tries to change his ways and turn over a new leaf to win the heart of the woman he loves."
+    },
+    {
+      "show_id": "s5928",
+      "title": "Survivors Guide to Prison",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "Susan Sarandon",
+      "director": "Matthew Cooke",
+      "description": "Former inmates, officers and celebrities critique the U.S. prison system in this documentary packaged as a how-to handbook for the incarcerated."
+    },
+    {
+      "show_id": "s4544",
+      "title": "Now More Than Ever: The History of Chicago",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Music & Musicals",
+      "cast": "Chicago",
+      "director": "Peter Pardini",
+      "description": "This rockumentary tells the behind-the-scenes story of the Hall-of-Fame band Chicago, from their jazz-rock fusion roots to chart-topping pop hits."
+    },
+    {
+      "show_id": "s6930",
+      "title": "The Tigers of Scotland",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "Iain Glen",
+      "director": "Leanne Gater",
+      "description": "This documentary highlights the endangered existence of the Scottish wildcats, and the conservation efforts required to prevent their extinction."
+    },
+    {
+      "show_id": "s532",
+      "title": "Anitta: Made In Honório",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries, International TV Shows",
+      "cast": "Anitta",
+      "director": "Andrucha Waddington, Pedro Waddington",
+      "description": "In this intimate documentary, Brazilian pop queen Anitta opens up about fame, family and her fierce work ethic, revealing the woman behind the hits."
+    },
+    {
+      "show_id": "s7512",
+      "title": "We, the Marines",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Greg MacGillivray",
+      "description": "Narrated by actor and former Marine Gene Hackman, this documentary showcases the experience of becoming a member of the US Marine Corps."
+    },
+    {
+      "show_id": "s4511",
+      "title": "Norman Lear: Just Another Version of You",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "Norman Lear, George Clooney, Bill Moyers, John Amos, Russell Simmons, Louise Lasser, Rob Reiner, Jon Stewart, Amy Poehler",
+      "director": "Heidi Ewing, Rachel Grady",
+      "description": "This documentary turns the spotlight on the man behind the iconic \"All in the Family,\" with comments from friends, family and famous collaborators."
+    },
+    {
+      "show_id": "s4773",
+      "title": "Parchís: the Documentary",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, International Movies, Music & Musicals",
+      "cast": "",
+      "director": "Daniel Arasanz",
+      "description": "The spotlight's on Parchís, a record company-created Spanish boy/girl band that had unprecedented success with Top 10 songs and hit films in the '80s."
+    },
+    {
+      "show_id": "s5861",
+      "title": "Studio 54",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Matt Tyrnauer",
+      "description": "This documentary follows the rapid rise and fall of the Manhattan discotheque and the glittery debauchery that attracted the city's eccentric and elite."
+    },
+    {
+      "show_id": "s3349",
+      "title": "Kevin Hart's Guide to Black History",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Children & Family Movies, Comedies",
+      "cast": "Kevin Hart, Saniyya Sidney, Lil Rel Howery, Eoghan Thomas Murphy, Tiffany Haddish, Al Shearer, Lonnie Chavis, Alphonso Mcauley, Nika Williams, Barry Brewer, Greg Germann, John Ennis, Jay Johnston",
+      "director": "Tom Stern",
+      "description": "Kevin Hart highlights the fascinating contributions of black history’s unsung heroes in this entertaining – and educational – comedy special."
+    },
+    {
+      "show_id": "s6476",
+      "title": "The Hurt Business",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Kevin Costner",
+      "director": "Vlad Yudin",
+      "description": "Featuring legendary and up-and-coming MMA fighters, this documentary details the history of the brutal sport and the fighters' struggles and triumphs."
+    },
+    {
+      "show_id": "s6201",
+      "title": "The Carter Effect",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Vince Carter",
+      "director": "Sean Menard",
+      "description": "Featuring eight-time NBA All-Star Vince Carter, this documentary takes an in-depth look at his impact on pop culture and the Canadian basketball scene."
+    },
+    {
+      "show_id": "s4070",
+      "title": "Michael Lost and Found",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries, International Movies, LGBTQ Movies",
+      "cast": "",
+      "director": "Daniel Wilner",
+      "description": "Benjie Nycum travels to Wyoming to visit his ex-lover, Michael Glatze, a former gay activist who now lives with his wife and works as a church pastor."
+    },
+    {
+      "show_id": "s513",
+      "title": "Anelka: Misunderstood",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, International Movies, Sports Movies",
+      "cast": "Nicolas Anelka",
+      "director": "Franck Nataf",
+      "description": "Inscrutable, incomparable or both? Famed French footballer Nicolas Anelka’s controversial legacy is explored in this in-depth documentary."
+    },
+    {
+      "show_id": "s7018",
+      "title": "The World We Make",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Dramas, Romantic Movies",
+      "cast": "Caleb Castille, Rose Reid, Kevin Sizemore, Gregory Alan Williams",
+      "director": "Brian Baugh",
+      "description": "A teenage equestrian and a local football player for each other, but simmering racism in their small town puts their relationship to the test."
+    },
+    {
+      "show_id": "s5729",
+      "title": "Soul to Keep",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Horror Movies, Independent Movies",
+      "cast": "Sandra Mae Frank, Aurora Heimbach, Craig Fogel, Tony Spitz, Jordan Theodore, Kate Rose Reynolds, Jessie Jordan, Derek Long, Sophia Getz, Amelia Sheeler",
+      "director": "David Allensworth, Monière",
+      "description": "Two siblings invite friends to their inherited, remote country home, but the fun stops when the group summons a demonic force from an old spellbook."
+    },
+    {
+      "show_id": "s5608",
+      "title": "Silicon Cowboys",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Jason Cohen",
+      "description": "This documentary tells the story of Compaq Computer and its three founders, who in 1982, took on Goliath IBM at the height of its PC dominance."
+    },
+    {
+      "show_id": "s4684",
+      "title": "Origins Collection",
+      "type": "TV Show",
+      "release_year": 2018,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "Peter McDonnell",
+      "description": "This documentary series explores the stories behind history's most fascinating innovations, including games, technology, sports, medicine and more."
+    },
+    {
+      "show_id": "s1144",
+      "title": "Burn Out",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Action & Adventure, International Movies",
+      "cast": "Olivier Rabourdin, François Civil, Manon Azem, Samuel Jouy, Narcisse Mame, Naël Rabia, Sam Louwyck, Luc Schwarz, Mario Magalhaes, Marc-Antoine Duquenne",
+      "director": "Yann Gozlan",
+      "description": "When his son's mom runs afoul of Paris's criminal underworld, a thrill-seeking superbike racer begins moonlighting as a drug courier to clear her debt."
+    },
+    {
+      "show_id": "s7070",
+      "title": "Through My Father's Eyes: The Ronda Rousey Story",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Ronda Rousey",
+      "director": "Gary Stretch",
+      "description": "This documentary chronicles former Olympian and UFC champion Ronda Rousey's ascent to iconic status in the world of mixed martial arts."
+    },
+    {
+      "show_id": "s3578",
+      "title": "Legion",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Action & Adventure, Horror Movies, Sci-Fi & Fantasy",
+      "cast": "Paul Bettany, Lucas Black, Tyrese Gibson, Adrianne Palicki, Charles S. Dutton, Jon Tenney, Kevin Durand, Willa Holland, Kate Walsh, Dennis Quaid, Jeanette Miller, Cameron Harlow, Doug Jones, Josh Stamberg, Yancey Arias",
+      "director": "Scott Stewart",
+      "description": "A motley crew of apocalypse survivors living at an abandoned truck stop never suspects that the pregnant woman among them is carrying the Messiah."
+    },
+    {
+      "show_id": "s6767",
+      "title": "The Playbook",
+      "type": "TV Show",
+      "release_year": 2020,
+      "listed_in": "Docuseries",
+      "cast": "",
+      "director": "",
+      "description": "Coaches with championship résumés share their personal rules for success in sports and life in this reflective and inspiring documentary series."
+    },
+    {
+      "show_id": "s1557",
+      "title": "Curtiz",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Dramas, International Movies",
+      "cast": "Ferenc Lengyel, Evelin Dobos, Declan Hannigan, Scott Alexander Young, József Gyabronka, Nikolett Barabas, Yan Feldman, Rafael Feldman, Christopher Krieg, Andrew Hefler, Lili Bordán",
+      "director": "Tamas Yvan Topolanszky",
+      "description": "Driven and arrogant, film director Michael Curtiz deals with studio politics and family drama during the troubled production of \"Casablanca\" in 1942."
+    },
+    {
+      "show_id": "s4068",
+      "title": "Michael Bolton's Big, Sexy Valentine's Day Special",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Comedies, Music & Musicals, Romantic Movies",
+      "cast": "Michael Bolton, Andy Samberg, Will Forte, Kenny G, Maya Rudolph, Adam Scott, Janeane Garofalo, Brooke Shields, Sinbad, Michael Sheen, Tim Robinson, Bob Saget, Mary Holland, Andy Richter, Colton Dunn, David Theune, Randall Park, Sarah Silverman, Mary Sohn, Fred Armisen, Matthew Kimbrough, Maya Erskine, Louie Anderson, Claudia O'Doherty, Kate Berlant, Baron Vaughn, Zachary Oyama, Casey Wilson, Sarah Shahi, Jimmy Graham, Luka Jones, Akiva Schaffer, Eric André, Scott Aukerman, Nicole Byer, Dave Ferguson, Tim Kalpakis, Mike Hanford, Mircea Monroe, Chris Parnell, Sal Stowers",
+      "director": "Scott Aukerman, Akiva Schaffer",
+      "description": "After Santa tells him he needs 75,000 new babies by Christmas to meet toy supply, Michael Bolton hosts a telethon to inspire the world to make love."
+    },
+    {
+      "show_id": "s7772",
+      "title": "Zion",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "Zion Clark",
+      "director": "Floyd Russ",
+      "description": "Born without legs and stuck in foster care for years, teen Zion Clark finds his calling when he pursues competitive wrestling. A documentary short."
+    },
+    {
+      "show_id": "s1417",
+      "title": "Click",
+      "type": "Movie",
+      "release_year": 2006,
+      "listed_in": "Comedies, Sci-Fi & Fantasy",
+      "cast": "Adam Sandler, Kate Beckinsale, Christopher Walken, David Hasselhoff, Henry Winkler, Julie Kavner, Sean Astin, Joseph Castanon, Jonah Hill, Jake Hoffman, Jennifer Coolidge",
+      "director": "Frank Coraci",
+      "description": "Overworked Michael Newman stumbles on a universal remote control that gives him the power to pause or fast-forward through scenes in his life."
+    },
+    {
+      "show_id": "s777",
+      "title": "Be Somebody",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, Dramas, Romantic Movies",
+      "cast": "Matthew Espinosa, Sarah Jeffery, Allison Paige, Tava Smiley, Caitlin Keats, LaMonica Garrett, Mahaley Patel, Mason McCulley, Liana Ramirez",
+      "director": "Joshua Caldwell",
+      "description": "To escape the stress of fame, teen pop star Jordan goes incognito in a small town, where he forms a special bond with high school art student Emily."
+    },
+    {
+      "show_id": "s6929",
+      "title": "The Tiger Hunter",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Danny Pudi, Jon Heder, Rizwan Manji, Karen David, Iqbal Theba, Sam Page, Kevin Pollak, Parvesh Cheena, Michael McMillian",
+      "director": "Lena Khan",
+      "description": "It's 1979, and engineer Sami is excited to leave his Indian village for a job in Chicago. But he soon runs into problems achieving his American dream."
+    },
+    {
+      "show_id": "s612",
+      "title": "Athlete A",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, Sports Movies",
+      "cast": "",
+      "director": "Bonni Cohen, Jon Shenk",
+      "description": "This documentary focuses on the gymnasts who survived USA Gymnastics doctor Larry Nassar's abuse and the reporters who exposed USAG's toxic culture."
+    },
+    {
+      "show_id": "s4784",
+      "title": "Party Monster: Scratching the Surface",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Comedies",
+      "cast": "Ellie Kemper, Jane Krakowski, Tituss Burgess, Carol Kane, Jon Hamm, Bobby Moynihan, Lauren Adams, Sara Chase, Sol Miranda, Derek Klena, Aidy Bryant",
+      "director": "",
+      "description": "In the probing documentary \"Party Monster,\" DJ Fingablast investigates what became of his childhood hero, DJ Slizzard."
+    },
+    {
+      "show_id": "s4071",
+      "title": "Michael McIntyre: Showman",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Michael McIntyre",
+      "director": "Chris Howe",
+      "description": "Charming comic Michael McIntyre talks family, technology, sharks, accents and the time he confused himself for a world leader in this stand-up special."
+    },
+    {
+      "show_id": "s5964",
+      "title": "Take the Ball, Pass the Ball",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries, International Movies, Sports Movies",
+      "cast": "Thierry Henry, Michael Carnick, Javier Mascherano, Fabio Capello, Jordi Cruyff, Andrés Iniesta, Xavi Hernández, Lionel Messi, Victor Valdes, Leo Messi",
+      "director": "Duncan McMath",
+      "description": "Through firsthand accounts and analysis, this football documentary details the dominance of FC Barcelona from 2008-2012 under manager Pep Guardiola."
+    },
+    {
+      "show_id": "s1255",
+      "title": "Celluloid Man",
+      "type": "Movie",
+      "release_year": 2012,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "P.K. Nair",
+      "director": "Shivendra Singh Dungarpur",
+      "description": "This documentary chronicles the philosophy and life's work of archivist P.K. Nair, who made a mission of preserving Indian cinema’s rich history."
+    },
+    {
+      "show_id": "s7612",
+      "title": "Whose Streets?",
+      "type": "Movie",
+      "release_year": 2017,
+      "listed_in": "Documentaries",
+      "cast": "",
+      "director": "Sabaah Folayan, Damon Davis",
+      "description": "Powered by activists and leaders, this documentary follows the rise of the Black Lives Matter movement following the 2014 killing of Michael Brown."
+    },
+    {
+      "show_id": "s3705",
+      "title": "Logan's Run",
+      "type": "Movie",
+      "release_year": 1976,
+      "listed_in": "Action & Adventure, Classic Movies, Cult Movies",
+      "cast": "Michael York, Richard Jordan, Farrah Fawcett, Jenny Agutter, Peter Ustinov, Roscoe Lee Browne, Randolph Roberts, Gary Morgan, Greg Lewis",
+      "director": "Michael Anderson",
+      "description": "In the 23rd century, inhabitants of a domed city exist in a world filled with life's pleasures – but no one is allowed to live past the age of 30."
+    },
+    {
+      "show_id": "s7516",
+      "title": "Weapon of Choice",
+      "type": "Movie",
+      "release_year": 2018,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Fritz Ofner",
+      "description": "Speaking to retailers and owners of the Glock pistol, two filmmakers shed light on the politics of violence and its implications from Chicago to Kirkuk."
+    },
+    {
+      "show_id": "s1902",
+      "title": "E-Cigarettes: Miracle or Menace?",
+      "type": "Movie",
+      "release_year": 2016,
+      "listed_in": "Documentaries",
+      "cast": "Michael Mosley",
+      "director": "Emma Hatherley",
+      "description": "This documentary investigates the surge in vaping culture and whether e-cigarettes can really help smokers kick the habit."
+    },
+    {
+      "show_id": "s1795",
+      "title": "Documentary Now!",
+      "type": "TV Show",
+      "release_year": 2019,
+      "listed_in": "TV Comedies",
+      "cast": "Fred Armisen, Bill Hader, Helen Mirren",
+      "director": "",
+      "description": "Elevating the art of parody, this sharply comic series spoofs high-profile documentaries such as \"Grey Gardens\" and \"The Thin Blue Line.\""
+    },
+    {
+      "show_id": "s1777",
+      "title": "Disclosure",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Documentaries, LGBTQ Movies",
+      "cast": "",
+      "director": "",
+      "description": "In this documentary, leading trans creatives and thinkers share heartfelt perspectives and analysis about Hollywood's impact on the trans community."
+    },
+    {
+      "show_id": "s1055",
+      "title": "Born in Gaza",
+      "type": "Movie",
+      "release_year": 2014,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "",
+      "director": "Hernán Zin",
+      "description": "This documentary focuses on the devastating violence of the Israel-Palestine conflict and its effects on the children of Gaza."
+    },
+    {
+      "show_id": "s7278",
+      "title": "Twice",
+      "type": "Movie",
+      "release_year": 2010,
+      "listed_in": "Documentaries, International Movies",
+      "cast": "Stuart Varnam-Atkin",
+      "director": "Hidetaka Inazuka",
+      "description": "This documentary reenacts the experiences of late activist Tsutomu Yamaguchi, a survivor of both atomic bombings on Japan in 1945."
+    },
+    {
+      "show_id": "s3831",
+      "title": "Ma Rainey's Black Bottom",
+      "type": "Movie",
+      "release_year": 2020,
+      "listed_in": "Dramas, Music & Musicals",
+      "cast": "Viola Davis, Chadwick Boseman, Glynn Turman, Colman Domingo, Michael Potts, Jonny Coyne, Taylour Paige, Jeremy Shamos, Dusan Brown, Joshua Harto",
+      "director": "George C. Wolfe",
+      "description": "Tensions and temperatures rise at a Chicago music studio in 1927 when fiery, fearless blues singer Ma Rainey joins her band for a recording session."
+    },
+    {
+      "show_id": "s3140",
+      "title": "Jeff Dunham: Unhinged in Hollywood",
+      "type": "Movie",
+      "release_year": 2015,
+      "listed_in": "Stand-Up Comedy",
+      "cast": "Jeff Dunham",
+      "director": "Michael Simon",
+      "description": "Unfiltered ventriloquist Jeff Dunham brings his ragtag crew of puppet pals to Hollywood for big laughs about celebrity culture and California living."
+    },
+    {
+      "show_id": "s4736",
+      "title": "Paddleton",
+      "type": "Movie",
+      "release_year": 2019,
+      "listed_in": "Comedies, Dramas, Independent Movies",
+      "cast": "Mark Duplass, Ray Romano",
+      "director": "Alex Lehmann",
+      "description": "After he's diagnosed with terminal cancer, middle-aged Michael asks his neighbor friend Andy to help him end his life before the disease does."
+    }
+  ]
+}
